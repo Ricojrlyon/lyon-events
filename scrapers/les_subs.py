@@ -1,20 +1,16 @@
 """Scraper for Les Subsistances (les-subs.com/agenda).
 
-Each event card on the agenda page contains:
-- one or more <a href="/evenement/<slug>/"> links (often wrapping the title or image)
-- a title in <h2> or <h3>
-- a category pill (Théâtre, Danse, Musique, …)
-- a list of dates as bullets like "jeu. 7 Mai | 19:00"
+Approach: anchor on TITLE elements (h2/h3), not on /evenement/ links.
 
-The previous version walked up the DOM looking for any ancestor that contained
-a date pattern. The bug: a promotional banner at the top of the page links to a
-single event ("Fun Times"), and walking up from that banner's link eventually
-reached a common ancestor of BOTH the banner AND many real event cards. The
-scraper then attributed all those events' dates to "Fun Times".
+Why: a previous version anchored on /evenement/ links, but the only such link
+on the agenda listing page is a promotional banner ("Fun Times"). The rest of
+the events are listed without explicit /evenement/ links visible from the
+listing — they're either in non-link form or wrapped in a different URL
+pattern. So we look for headings instead, then walk up to find a card that
+contains both the heading and a date pattern.
 
-The fix: when we walk up looking for a date, we also reject any container that
-contains MORE THAN ONE distinct /evenement/ URL. A real event card has at most
-one outbound URL (often duplicated across an image-link and a title-link).
+The URL for each event is derived from any link found inside the card; if
+none is found, we fall back to the agenda URL.
 """
 from typing import List, Optional
 import re
@@ -47,36 +43,53 @@ CATEGORIES = (
     "Vidéo", "Arts visuels",
 )
 
+# Headings to ignore: navigation, banner, etc.
+IGNORE_TITLES = {
+    "agenda", "menu", "fermer", "retour", "billetterie",
+    "newsletter", "presse", "contact", "search", "recherche",
+    "fun times",  # promotional banner
+    "les subs", "le projet", "l'histoire", "l'équipe", "les espaces",
+    "infos pratiques", "boire & manger", "accès & horaires",
+    "mécénat", "privatisation", "médiations",
+    "par temps fort", "toutes les catégories",
+    "saison 2025-26", "résidence", "création",
+    "comment venir en résidence aux subs ?",
+    "découvrez les artistes en résidence",
+    "artistes", "résidents",
+    "offre de noël",
+    "subs in english", "mentions légales",
+    "ouvrir", "passer",
+}
 
-def _find_card(link, target_href: str, max_levels: int = 6):
-    """Walk up from the link until an ancestor:
-    - contains a date pattern,
-    - AND does NOT contain any other distinct /evenement/ URL.
-    Returns the ancestor element, or None if no clean card is found.
-    """
-    el = link
+
+def _find_card_for_title(heading, max_levels: int = 6):
+    """Walk up from a heading until we find a parent that contains a date."""
+    el = heading
     for _ in range(max_levels):
         parent = el.parent
         if parent is None or parent.name in ("html", "body"):
             return None
         el = parent
-        text = el.get_text(" ", strip=True)
-        if not DATE_RE.search(text):
-            continue
-        # Check we haven't walked too far: the card should reference at most
-        # one event URL (target_href). Multiple distinct URLs = contamination.
-        other_urls = set()
-        for inner_link in el.select('a[href*="/evenement/"]'):
-            href = inner_link.get("href", "")
-            if href.startswith("/"):
-                href = HOST + href
-            if href and href != target_href:
-                other_urls.add(href)
-        if not other_urls:
+        if DATE_RE.search(el.get_text(" ", strip=True)):
             return el
-        # Card is contaminated — we walked too far. Give up.
-        return None
     return None
+
+
+def _card_url(card, fallback: str) -> str:
+    """Pick the most relevant URL from inside a card.
+
+    Prefers /evenement/ links, then /oeuvre/, then /temps-fort/, then any
+    link going to the same domain. Falls back to the agenda page URL.
+    """
+    candidates_priority = ("/evenement/", "/oeuvre/", "/temps-fort/", "/spectacle/")
+    for prefix in candidates_priority:
+        for a in card.find_all("a", href=True):
+            href = a["href"]
+            if prefix in href:
+                if href.startswith("/"):
+                    href = HOST + href
+                return href
+    return fallback
 
 
 def fetch() -> List[Event]:
@@ -85,45 +98,34 @@ def fetch() -> List[Event]:
     soup = BeautifulSoup(resp.text, "html.parser")
 
     events: List[Event] = []
-    seen_urls: set = set()
+    seen_keys: set = set()
 
-    for a in soup.select('a[href*="/evenement/"]'):
-        href = a.get("href", "")
-        if href.startswith("/"):
-            href = HOST + href
-        if not href.startswith("http"):
+    for h in soup.find_all(["h2", "h3"]):
+        title = h.get_text(strip=True)
+        if not title or len(title) < 2 or len(title) > 200:
             continue
-        if href in seen_urls:
+        if title.lower().strip() in IGNORE_TITLES:
             continue
 
-        card = _find_card(a, href)
+        card = _find_card_for_title(h)
         if card is None:
             continue
+
         text = card.get_text(" ", strip=True)
         date_matches = DATE_RE.findall(text)
         if not date_matches:
             continue
 
-        # Title: first h2 or h3 in card
-        title_el = card.find(["h2", "h3"])
-        if title_el:
-            title = title_el.get_text(strip=True)
-        else:
-            title = a.get_text(" ", strip=True)
-        if not title:
-            continue
-
-        # Subtitle: second heading element if present (often artist credit)
+        # Subtitle: the next h3/h4 sibling-ish element after the title heading
         subtitle: Optional[str] = None
-        headings = card.find_all(["h2", "h3", "h4"])
-        if title_el is not None and title_el in headings:
-            idx = headings.index(title_el)
-            if idx + 1 < len(headings):
-                cand = headings[idx + 1].get_text(strip=True)
+        headings_in_card = card.find_all(["h2", "h3", "h4"])
+        if h in headings_in_card:
+            idx = headings_in_card.index(h)
+            if idx + 1 < len(headings_in_card):
+                cand = headings_in_card[idx + 1].get_text(strip=True)
                 if cand and cand != title and len(cand) < 200:
                     subtitle = cand
 
-        # Image: first <img> with a real src
         image: Optional[str] = None
         for img in card.find_all("img"):
             src = img.get("src") or ""
@@ -131,19 +133,23 @@ def fetch() -> List[Event]:
                 image = src
                 break
 
-        # Category: first matching keyword found in card text
         category: Optional[str] = None
         for kw in CATEGORIES:
             if kw in text:
                 category = kw.lower()
                 break
 
-        seen_urls.add(href)
+        href = _card_url(card, fallback=URL)
 
+        # Build one event per date occurrence
         for _, day_num, month_str, hour, minute in date_matches:
             d = parse_french_date(f"{day_num} {month_str}")
             if not d:
                 continue
+            key = (title, d.isoformat(), f"{int(hour):02d}:{minute}")
+            if key in seen_keys:
+                continue
+            seen_keys.add(key)
             events.append(Event(
                 venue=VENUE,
                 venue_slug=SLUG,
@@ -157,13 +163,7 @@ def fetch() -> List[Event]:
                 image=image,
             ))
 
-    # Deduplicate
-    seen, unique = set(), []
-    for e in events:
-        if e.id not in seen:
-            seen.add(e.id)
-            unique.append(e)
-    return unique
+    return events
 
 
 if __name__ == "__main__":
