@@ -14,7 +14,10 @@ from pathlib import Path
 from typing import Callable, List
 
 from scrapers import Event
-from scrapers import le_sucre, les_subs, marche_gare, radiant, la_rayonne, _stubs
+from scrapers import (
+    le_sucre, les_subs, marche_gare, radiant, la_rayonne, transbordeur,
+    _stubs,
+)
 
 # Each entry is (display_name, callable returning List[Event]).
 SCRAPERS: list[tuple[str, Callable[[], List[Event]]]] = [
@@ -24,8 +27,8 @@ SCRAPERS: list[tuple[str, Callable[[], List[Event]]]] = [
     ("Marché Gare",             marche_gare.fetch),
     ("Radiant-Bellevue",        radiant.fetch),
     ("La Rayonne",              la_rayonne.fetch),
+    ("Le Transbordeur",         transbordeur.fetch),
     # Stubs (return [] until you implement them)
-    ("Le Transbordeur",         _stubs.fetch_transbordeur),
     ("Le Petit Salon",          _stubs.fetch_petit_salon),
     ("Le Sonic",                _stubs.fetch_sonic),
     ("HEAT",                    _stubs.fetch_heat),
