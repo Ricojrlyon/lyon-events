@@ -1,16 +1,8 @@
 """Scraper for Le Transbordeur (transbordeur.fr/agenda).
 
-The exact HTML structure could not be verified during development (the site
-applies aggressive anti-bot protection). This scraper uses defensive selectors
-that match common WordPress agenda layouts:
-
-- Each event is a card with one main link to a sub-page (concert/event detail).
-- A date string in long French form ("mercredi 06 mai 2026" or "06 mai 2026")
-  or short form ("mer. 06 mai") is present near the card.
-- A title heading (<h2> or <h3>) holds the artist/show name.
-
-If the scraper returns 0 events on the first GitHub Actions run, inspect the
-real HTML and adjust the LINK_SELECTOR / date regexes below.
+Event detail URLs use the pattern /evenement/<numeric_id>/ (e.g.
+/evenement/28489/). The listing card text reads like:
+    "Club transbo · LA MAISON TELLIER + OPAC · Mercredi 06 mai 2026 · 19:00"
 """
 from typing import List, Optional
 from datetime import date as Date
@@ -31,64 +23,28 @@ HEADERS = {
     "Accept-Language": "fr-FR,fr;q=0.9",
 }
 
-# CSS selector for event links. Try several common patterns; the first one
-# that returns >0 results is used.
-LINK_SELECTOR_CANDIDATES = [
-    'a[href*="/concert/"]',
-    'a[href*="/evenement/"]',
-    'a[href*="/event/"]',
-    'a[href*="/agenda/"]',
-    'article a[href]',
-]
-
-# Long form: "mercredi 06 mai 2026" or "06 mai 2026"
+# Long form like "Mercredi 06 mai 2026" or "Dimanche 24 mai 2026"
 DATE_LONG = re.compile(
-    r"(?:\w+\s+)?(\d{1,2})\s+(\w+)\s+(\d{4})",
+    r"\w+\s+(\d{1,2})\s+(\w+)\s+(\d{4})",
     re.IGNORECASE,
 )
-# Short form: "mer. 06 mai" or "mer 06 mai"
-DATE_SHORT = re.compile(
-    r"\b\w+\.?\s+(\d{1,2})\s+(\w+)\b",
-    re.IGNORECASE,
-)
-# Numeric form: 06/05/2026 or 06.05.2026
-DATE_NUMERIC = re.compile(r"(\d{1,2})[./](\d{1,2})[./](\d{4})")
+# Time: "19:00" or "20h30"
+TIME_RE = re.compile(r"\b(\d{1,2})[h:](\d{2})\b")
 
-# Time: "20h30", "20:30", "à 20h"
-TIME_RE = re.compile(r"(\d{1,2})[h:](\d{2})?")
+# Genre tags from Transbordeur
+GENRE_TAGS = (
+    "ROCK / POP", "DARK / METAL", "ELECTRO / TECHNO", "FUNK / JAZZ",
+    "RAP / URBAIN", "SONO MONDIALE / DUB", "VARIETE / CHANSON",
+    "FOLK / COUNTRY", "ORIGINAL DUB CULTURE", "ROCK / METAL / HIP HOP",
+)
 
 
 def _french_month_num(s: str) -> Optional[int]:
     return FR_MONTHS.get(s.lower())
 
 
-def _extract_date(text: str) -> Optional[str]:
-    """Return ISO date 'YYYY-MM-DD' or None."""
-    m = DATE_NUMERIC.search(text)
-    if m:
-        d, mo, y = m.groups()
-        try:
-            return Date(int(y), int(mo), int(d)).isoformat()
-        except ValueError:
-            pass
-    m = DATE_LONG.search(text)
-    if m:
-        d, mo, y = m.groups()
-        month = _french_month_num(mo)
-        if month:
-            try:
-                return Date(int(y), month, int(d)).isoformat()
-            except ValueError:
-                pass
-    m = DATE_SHORT.search(text)
-    if m:
-        d_obj = parse_french_date(f"{m.group(1)} {m.group(2)}")
-        if d_obj:
-            return d_obj.isoformat()
-    return None
-
-
 def _find_card(link, max_levels: int = 6):
+    """Walk up until ancestor contains a year-form date."""
     el = link
     year_re = re.compile(r"\b20\d{2}\b")
     for _ in range(max_levels):
@@ -106,43 +62,34 @@ def fetch() -> List[Event]:
     resp.raise_for_status()
     soup = BeautifulSoup(resp.text, "html.parser")
 
-    # Pick the link selector that yields the most matches.
-    links = []
-    for sel in LINK_SELECTOR_CANDIDATES:
-        candidates = soup.select(sel)
-        if len(candidates) > len(links):
-            links = candidates
-
     events: List[Event] = []
     seen_urls: set = set()
 
-    for a in links:
+    for a in soup.select('a[href*="/evenement/"]'):
         href = a.get("href", "")
         if href.startswith("/"):
             href = HOST + href
         if not href.startswith("http"):
             continue
-        # Filter out menu / footer links
-        bad_paths = ("/agenda/", "/agenda", "/", "/contact", "/billetterie",
-                     "/infos", "/nos-projets", "/mentions-legales")
-        path_part = href.replace(HOST, "")
-        if path_part in bad_paths or path_part.endswith("/agenda/"):
+        # Filter out the agenda root itself
+        if href.rstrip("/") in (HOST + "/evenement", HOST + "/agenda"):
             continue
         if href in seen_urls:
             continue
 
         card = _find_card(a)
         text = card.get_text(" ", strip=True)
-        date_iso = _extract_date(text)
-        if not date_iso:
-            continue
 
-        # Title: first h2/h3 in card, or the link's own text
-        title_el = card.find(["h2", "h3"])
-        title = title_el.get_text(strip=True) if title_el else a.get_text(" ", strip=True)
-        if not title or len(title) < 2 or len(title) > 200:
+        m = DATE_LONG.search(text)
+        if not m:
             continue
-        if title.lower().startswith(("voir", "menu", "agenda")):
+        d_str, mo_str, yr = m.groups()
+        month = _french_month_num(mo_str)
+        if not month:
+            continue
+        try:
+            d_iso = Date(int(yr), month, int(d_str)).isoformat()
+        except ValueError:
             continue
 
         # Time
@@ -150,9 +97,30 @@ def fetch() -> List[Event]:
         m_time = TIME_RE.search(text)
         if m_time:
             hh = int(m_time.group(1))
-            mm = m_time.group(2) or "00"
+            mm = m_time.group(2)
             if 0 <= hh <= 23:
                 time_str = f"{hh:02d}:{mm}"
+
+        # Title: first h2/h3 in card, or the link's own text
+        title_el = card.find(["h2", "h3"])
+        title = title_el.get_text(strip=True) if title_el else a.get_text(" ", strip=True)
+        title = title.strip()
+        if not title or len(title) < 2 or len(title) > 200:
+            continue
+
+        # Skip non-event titles (configuration labels etc.)
+        skip_lower = ("agenda", "billetterie", "menu", "fr en",
+                      "voir plus", "club transbo", "grande salle")
+        if title.lower() in skip_lower:
+            continue
+
+        # Category from genre tag
+        category: Optional[str] = "concert"
+        text_upper = text.upper()
+        for tag in GENRE_TAGS:
+            if tag in text_upper:
+                category = tag.lower().split(" / ")[0]
+                break
 
         # Image
         image: Optional[str] = None
@@ -168,15 +136,14 @@ def fetch() -> List[Event]:
             venue_slug=SLUG,
             title=title,
             subtitle=None,
-            category="concert",  # Le Transbordeur is a concert venue
-            date_start=date_iso,
+            category=category,
+            date_start=d_iso,
             date_end=None,
             time=time_str,
             url=href,
             image=image,
         ))
 
-    # Dedupe
     seen, unique = set(), []
     for e in events:
         if e.id not in seen:
