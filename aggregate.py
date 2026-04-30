@@ -1,0 +1,120 @@
+"""Aggregator: run all venue scrapers and write a unified events.json.
+
+Each scraper returns a list of Event objects. Failures in one venue do NOT
+abort the run — the bad venue is skipped, the others succeed. This is
+critical: in a daily cron job, if one venue's HTML changes you don't want
+the whole pipeline to break.
+"""
+from __future__ import annotations
+import json
+import sys
+import traceback
+from datetime import date, datetime
+from pathlib import Path
+from typing import Callable, List
+
+from scrapers import Event
+from scrapers import le_sucre, les_subs, marche_gare, _stubs
+
+# Each entry is (display_name, callable returning List[Event]).
+SCRAPERS: list[tuple[str, Callable[[], List[Event]]]] = [
+    # Implemented
+    ("Le Sucre",                le_sucre.fetch),
+    ("Les Subsistances",        les_subs.fetch),
+    ("Marché Gare",             marche_gare.fetch),
+    # Stubs (return [] until you implement them)
+    ("Radiant-Bellevue",        _stubs.fetch_radiant_bellevue),
+    ("La Rayonne",              _stubs.fetch_la_rayonne),
+    ("Le Transbordeur",         _stubs.fetch_transbordeur),
+    ("Le Petit Salon",          _stubs.fetch_petit_salon),
+    ("Le Sonic",                _stubs.fetch_sonic),
+    ("HEAT",                    _stubs.fetch_heat),
+    ("Station Mue",             _stubs.fetch_station_mue),
+    ("La Commune",              _stubs.fetch_la_commune),
+    ("Théâtre des Célestins",   _stubs.fetch_celestins),
+    ("TNP",                     _stubs.fetch_tnp),
+    ("Théâtre de la Croix-Rousse", _stubs.fetch_croix_rousse),
+    ("Comédie Odéon",           _stubs.fetch_comedie_odeon),
+    ("Musée des Confluences",   _stubs.fetch_confluences),
+    ("Musée des Beaux-Arts",    _stubs.fetch_beaux_arts),
+    ("Musée d'Art Contemporain", _stubs.fetch_mac),
+    ("MAC Bar",                 _stubs.fetch_mac_bar),
+]
+
+
+def main() -> int:
+    all_events: list[Event] = []
+    report = []
+
+    for name, fn in SCRAPERS:
+        try:
+            events = fn()
+            all_events.extend(events)
+            report.append((name, len(events), None))
+        except Exception as e:  # noqa: BLE001
+            tb = traceback.format_exc(limit=2)
+            report.append((name, 0, f"{type(e).__name__}: {e}"))
+            print(f"[FAIL] {name}: {tb}", file=sys.stderr)
+
+    # Drop past events (keep today and future).
+    today = date.today()
+    upcoming = [
+        e for e in all_events
+        if e.date_start and e.date_start >= today.isoformat()
+    ]
+
+    # Sort by date then time then venue.
+    upcoming.sort(key=lambda e: (e.date_start, e.time or "00:00", e.venue))
+
+    # Deduplicate by stable id
+    seen = set()
+    unique = []
+    for e in upcoming:
+        if e.id in seen:
+            continue
+        seen.add(e.id)
+        unique.append(e)
+
+    payload = {
+        "generated_at": datetime.utcnow().isoformat() + "Z",
+        "count": len(unique),
+        "events": [e.to_dict() for e in unique],
+    }
+
+    out = Path(__file__).parent / "events.json"
+
+    # Safety net: if every implemented scraper failed, do NOT overwrite the
+    # existing events.json. A user pointing GitHub Actions to a freshly cloned
+    # repo with a populated seed file shouldn't lose everything because of a
+    # transient network blip or because every site changed format on the same
+    # day (extremely unlikely but possible).
+    implemented = [(name, n, err) for name, n, err in report
+                   if err is not None or n > 0]
+    all_failed = implemented and all(err is not None for _, _, err in implemented)
+    if all_failed and out.exists():
+        print("\n[!] All implemented scrapers failed — keeping previous events.json.",
+              file=sys.stderr)
+        wrote = False
+    else:
+        out.write_text(json.dumps(payload, ensure_ascii=False, indent=2),
+                       encoding="utf-8")
+        wrote = True
+
+    # Pretty CLI summary
+    if wrote:
+        print(f"\nWrote {len(unique)} upcoming events to {out}")
+    else:
+        print(f"\nKept previous events.json ({out}) — no fresh data this run.")
+    print("\nPer-venue report:")
+    for name, n, err in report:
+        if err:
+            print(f"  ✗ {name:30s}  ERROR: {err}")
+        elif n == 0:
+            print(f"  · {name:30s}  (stub)")
+        else:
+            print(f"  ✓ {name:30s}  {n} events")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

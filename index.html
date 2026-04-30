@@ -1,0 +1,528 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>À l'affiche · Lyon</title>
+<meta name="description" content="Agenda culturel personnel — concerts, théâtre, danse, expos à Lyon.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..900,0..100;1,9..144,300..900,0..100&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #f6f1e8;
+    --ink: #1a1916;
+    --ink-soft: #4a4540;
+    --rule: #d8cebf;
+    --accent: #c2410c;     /* a deep terracotta */
+    --accent-soft: #f3d9c8;
+    --shadow: 0 1px 0 #d8cebf;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper: #131210;
+      --ink: #ece4d4;
+      --ink-soft: #a8a092;
+      --rule: #2c2a26;
+      --accent: #ed8551;
+      --accent-soft: #3a2418;
+      --shadow: 0 1px 0 #2c2a26;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Fraunces', Georgia, serif;
+    font-optical-sizing: auto;
+    font-variation-settings: "SOFT" 60;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.4;
+  }
+  .container { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
+
+  /* ---------- masthead ----------------------------------------------- */
+  header.masthead {
+    border-bottom: 1px solid var(--rule);
+    padding: 32px 0 24px;
+  }
+  .masthead .container {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: end;
+    gap: 16px;
+  }
+  .wordmark {
+    font-size: clamp(48px, 9vw, 96px);
+    font-weight: 600;
+    font-style: italic;
+    font-variation-settings: "opsz" 144, "SOFT" 100;
+    line-height: 0.9;
+    letter-spacing: -0.02em;
+    margin: 0;
+  }
+  .wordmark em {
+    font-style: normal;
+    color: var(--accent);
+  }
+  .meta {
+    text-align: right;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    color: var(--ink-soft);
+    line-height: 1.6;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+  .meta .updated { color: var(--ink); }
+  .tagline {
+    grid-column: 1 / -1;
+    margin: 18px 0 0;
+    font-size: 18px;
+    color: var(--ink-soft);
+    max-width: 56ch;
+  }
+
+  /* ---------- filters ------------------------------------------------ */
+  .filters {
+    position: sticky; top: 0; z-index: 5;
+    background: var(--paper);
+    border-bottom: 1px solid var(--rule);
+    padding: 16px 0;
+  }
+  .filters .container { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; }
+  .filter-group { display: flex; flex-wrap: wrap; gap: 6px; }
+  .filter-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--ink-soft);
+    padding-right: 4px;
+    align-self: center;
+  }
+  .chip {
+    border: 1px solid var(--rule);
+    background: transparent;
+    color: var(--ink);
+    padding: 6px 12px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: all 0.12s ease;
+    text-transform: lowercase;
+    letter-spacing: 0.02em;
+  }
+  .chip:hover { border-color: var(--ink); }
+  .chip.active {
+    background: var(--ink);
+    color: var(--paper);
+    border-color: var(--ink);
+  }
+  .filter-divider {
+    width: 1px; height: 22px;
+    background: var(--rule);
+    margin: 0 4px;
+  }
+  .clear-link {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--accent);
+    text-decoration: none;
+    margin-left: auto;
+    cursor: pointer;
+  }
+  .clear-link:hover { text-decoration: underline; }
+
+  /* ---------- day section -------------------------------------------- */
+  main.feed { padding: 24px 0 80px; }
+  .day {
+    padding: 24px 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  .day:last-child { border-bottom: none; }
+  .day-head {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 32px;
+    align-items: baseline;
+    margin-bottom: 16px;
+  }
+  .day-date {
+    font-size: 28px;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 1;
+    letter-spacing: -0.01em;
+  }
+  .day-date small {
+    display: block;
+    font-style: normal;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--ink-soft);
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    margin-bottom: 4px;
+    font-weight: 400;
+  }
+  .day-tag {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--accent);
+    align-self: center;
+    justify-self: end;
+  }
+
+  /* ---------- event card --------------------------------------------- */
+  .events { display: grid; gap: 0; }
+  .event {
+    display: grid;
+    grid-template-columns: 200px 80px 1fr auto;
+    gap: 24px;
+    padding: 18px 0;
+    border-top: 1px dashed var(--rule);
+    text-decoration: none;
+    color: inherit;
+    transition: background 0.12s ease;
+    align-items: baseline;
+  }
+  .event:hover { background: linear-gradient(to right, var(--accent-soft) 0%, transparent 60%); }
+  .event:first-child { border-top: none; }
+  .event-venue {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--ink-soft);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    line-height: 1.3;
+    align-self: start;
+    padding-top: 8px;
+  }
+  .event-time {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    color: var(--ink);
+    align-self: start;
+    padding-top: 6px;
+  }
+  .event-time.empty { color: var(--ink-soft); }
+  .event-body { min-width: 0; }
+  .event-title {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin: 0;
+    letter-spacing: -0.005em;
+  }
+  .event-subtitle {
+    font-size: 14px;
+    color: var(--ink-soft);
+    margin: 4px 0 0;
+    font-style: italic;
+  }
+  .event-cat {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--ink-soft);
+    text-transform: lowercase;
+    letter-spacing: 0.04em;
+    align-self: start;
+    padding-top: 8px;
+    white-space: nowrap;
+  }
+  .event-cat::before {
+    content: "#";
+    color: var(--accent);
+    margin-right: 1px;
+  }
+
+  /* ---------- empty state -------------------------------------------- */
+  .empty {
+    text-align: center;
+    padding: 80px 24px;
+    color: var(--ink-soft);
+  }
+  .empty p { font-size: 22px; font-style: italic; }
+
+  /* ---------- footer ------------------------------------------------- */
+  footer {
+    border-top: 1px solid var(--rule);
+    padding: 32px 0;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--ink-soft);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+  footer .container {
+    display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px;
+  }
+  footer a { color: var(--accent); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+
+  /* ---------- mobile ------------------------------------------------- */
+  @media (max-width: 720px) {
+    .masthead .container { grid-template-columns: 1fr; }
+    .meta { text-align: left; }
+    .day-head { grid-template-columns: 1fr; gap: 4px; }
+    .day-tag { justify-self: start; }
+    .event {
+      grid-template-columns: 1fr;
+      gap: 4px;
+      padding: 14px 0;
+    }
+    .event-venue, .event-time, .event-cat { padding-top: 0; }
+    .event-time { order: -1; }
+    .event-cat { order: 4; }
+  }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="container">
+    <h1 class="wordmark">à l'<em>affiche</em></h1>
+    <div class="meta">
+      <div>Lyon · agenda culturel</div>
+      <div class="updated" id="lastUpdated">—</div>
+    </div>
+    <p class="tagline">
+      Tous les concerts, pièces, expos et soirées des lieux que je suis,
+      sur une seule page. Mise à jour chaque jour automatiquement.
+    </p>
+  </div>
+</header>
+
+<nav class="filters">
+  <div class="container">
+    <span class="filter-label">quand</span>
+    <div class="filter-group" id="filterWhen">
+      <button class="chip active" data-when="all">tout</button>
+      <button class="chip" data-when="today">ce soir</button>
+      <button class="chip" data-when="weekend">ce weekend</button>
+      <button class="chip" data-when="week">cette semaine</button>
+      <button class="chip" data-when="month">ce mois-ci</button>
+    </div>
+    <div class="filter-divider"></div>
+    <span class="filter-label">où</span>
+    <div class="filter-group" id="filterVenue"></div>
+    <div class="filter-divider"></div>
+    <span class="filter-label">type</span>
+    <div class="filter-group" id="filterCategory"></div>
+    <a class="clear-link" id="clearFilters">tout effacer →</a>
+  </div>
+</nav>
+
+<main class="feed">
+  <div class="container" id="feed"></div>
+</main>
+
+<footer>
+  <div class="container">
+    <span>Données scrapées sur les sites des lieux · MAJ quotidienne</span>
+    <span><a href="https://github.com/" target="_blank" rel="noopener">code source</a></span>
+  </div>
+</footer>
+
+<script>
+const FR_DAYS = ['dimanche','lundi','mardi','mercredi','jeudi','vendredi','samedi'];
+const FR_MONTHS = ['janvier','février','mars','avril','mai','juin','juillet','août','septembre','octobre','novembre','décembre'];
+
+const state = {
+  when: 'all',
+  venues: new Set(),       // empty = all
+  categories: new Set(),   // empty = all
+  events: [],
+};
+
+async function load() {
+  const res = await fetch('events.json', { cache: 'no-store' });
+  const data = await res.json();
+  state.events = data.events || [];
+  document.getElementById('lastUpdated').textContent =
+    'maj ' + formatUpdated(data.generated_at);
+  buildFilterChips();
+  render();
+}
+
+function formatUpdated(iso) {
+  if (!iso) return '—';
+  const d = new Date(iso);
+  return d.toLocaleDateString('fr-FR', { day: 'numeric', month: 'short' })
+       + ' · ' + d.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' });
+}
+
+function buildFilterChips() {
+  const venues = [...new Set(state.events.map(e => e.venue))].sort();
+  const cats   = [...new Set(state.events.map(e => e.category).filter(Boolean))].sort();
+  const v = document.getElementById('filterVenue');
+  v.innerHTML = '';
+  venues.forEach(name => {
+    const b = document.createElement('button');
+    b.className = 'chip';
+    b.textContent = name.toLowerCase();
+    b.dataset.venue = name;
+    b.onclick = () => toggleSet(state.venues, name, b);
+    v.appendChild(b);
+  });
+  const c = document.getElementById('filterCategory');
+  c.innerHTML = '';
+  cats.forEach(name => {
+    const b = document.createElement('button');
+    b.className = 'chip';
+    b.textContent = name;
+    b.dataset.cat = name;
+    b.onclick = () => toggleSet(state.categories, name, b);
+    c.appendChild(b);
+  });
+}
+
+function toggleSet(set, value, btn) {
+  if (set.has(value)) { set.delete(value); btn.classList.remove('active'); }
+  else                { set.add(value);    btn.classList.add('active'); }
+  render();
+}
+
+document.getElementById('filterWhen').addEventListener('click', e => {
+  if (!e.target.matches('.chip')) return;
+  document.querySelectorAll('#filterWhen .chip').forEach(c => c.classList.remove('active'));
+  e.target.classList.add('active');
+  state.when = e.target.dataset.when;
+  render();
+});
+
+document.getElementById('clearFilters').addEventListener('click', () => {
+  state.when = 'all';
+  state.venues.clear();
+  state.categories.clear();
+  document.querySelectorAll('.chip.active').forEach(c => c.classList.remove('active'));
+  document.querySelector('#filterWhen .chip[data-when="all"]').classList.add('active');
+  render();
+});
+
+function withinWhen(dateStr) {
+  const d = new Date(dateStr + 'T00:00:00');
+  const now = new Date(); now.setHours(0,0,0,0);
+  if (state.when === 'all') return true;
+  if (state.when === 'today') {
+    return d.getTime() === now.getTime();
+  }
+  if (state.when === 'weekend') {
+    // Sat & Sun of the current or upcoming week
+    const day = now.getDay();   // 0 Sun .. 6 Sat
+    const sat = new Date(now);
+    const offsetToSat = (6 - day + 7) % 7;
+    sat.setDate(now.getDate() + offsetToSat);
+    const sun = new Date(sat);  sun.setDate(sat.getDate() + 1);
+    return d.getTime() === sat.getTime() || d.getTime() === sun.getTime();
+  }
+  if (state.when === 'week') {
+    const inSevenDays = new Date(now);
+    inSevenDays.setDate(now.getDate() + 7);
+    return d >= now && d <= inSevenDays;
+  }
+  if (state.when === 'month') {
+    return d.getFullYear() === now.getFullYear() && d.getMonth() === now.getMonth();
+  }
+  return true;
+}
+
+function filtered() {
+  return state.events.filter(e => {
+    if (!withinWhen(e.date_start)) return false;
+    if (state.venues.size && !state.venues.has(e.venue)) return false;
+    if (state.categories.size && !state.categories.has(e.category)) return false;
+    return true;
+  });
+}
+
+function render() {
+  const feed = document.getElementById('feed');
+  const events = filtered();
+
+  if (events.length === 0) {
+    feed.innerHTML = '<div class="empty"><p>rien dans ce filtre — pour l\'instant.</p></div>';
+    return;
+  }
+
+  // Group by date
+  const groups = new Map();
+  for (const e of events) {
+    if (!groups.has(e.date_start)) groups.set(e.date_start, []);
+    groups.get(e.date_start).push(e);
+  }
+
+  const today = new Date(); today.setHours(0,0,0,0);
+  const html = [];
+
+  for (const [iso, list] of groups) {
+    const d = new Date(iso + 'T00:00:00');
+    const isToday = d.getTime() === today.getTime();
+    const isTomorrow = d.getTime() === today.getTime() + 86400000;
+    let tag = '';
+    if (isToday) tag = 'aujourd\'hui';
+    else if (isTomorrow) tag = 'demain';
+    else if (d < new Date(today.getTime() + 7 * 86400000)) tag = 'cette semaine';
+
+    html.push('<section class="day">');
+    html.push('  <div class="day-head">');
+    html.push('    <h2 class="day-date"><small>' + dayMonthIso(d) + '</small>'
+              + FR_DAYS[d.getDay()] + ' ' + d.getDate() + ' ' + FR_MONTHS[d.getMonth()] + '</h2>');
+    if (tag) html.push('    <div class="day-tag">' + tag + '</div>');
+    html.push('  </div>');
+    html.push('  <div class="events">');
+    for (const e of list) {
+      html.push(eventCard(e));
+    }
+    html.push('  </div>');
+    html.push('</section>');
+  }
+  feed.innerHTML = html.join('\n');
+}
+
+function dayMonthIso(d) {
+  const dd = String(d.getDate()).padStart(2,'0');
+  const mm = String(d.getMonth()+1).padStart(2,'0');
+  return dd + '.' + mm + '.' + d.getFullYear();
+}
+
+function escapeHtml(s) {
+  return (s||'').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+function eventCard(e) {
+  const time = e.time
+    ? '<div class="event-time">' + escapeHtml(e.time) + '</div>'
+    : '<div class="event-time empty">—</div>';
+  const sub = e.subtitle
+    ? '<p class="event-subtitle">' + escapeHtml(e.subtitle) + '</p>'
+    : '';
+  const cat = e.category ? '<div class="event-cat">' + escapeHtml(e.category) + '</div>' : '<div class="event-cat"></div>';
+  return [
+    '<a class="event" href="' + escapeHtml(e.url) + '" target="_blank" rel="noopener">',
+    '  <div class="event-venue">' + escapeHtml(e.venue) + '</div>',
+    '  ' + time,
+    '  <div class="event-body">',
+    '    <h3 class="event-title">' + escapeHtml(e.title) + '</h3>',
+    '    ' + sub,
+    '  </div>',
+    '  ' + cat,
+    '</a>'
+  ].join('\n');
+}
+
+load().catch(err => {
+  document.getElementById('feed').innerHTML =
+    '<div class="empty"><p>Impossible de charger les événements.</p><p style="font-family:monospace;font-size:12px">' + err + '</p></div>';
+});
+</script>
+
+</body>
+</html>
