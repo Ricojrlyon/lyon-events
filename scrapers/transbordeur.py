@@ -1,21 +1,31 @@
 """Scraper for Le Transbordeur (transbordeur.fr/agenda).
 
-When the scraper returns 0 events, it prints a diagnostic block to stderr
-showing what's actually on the page.
+The agenda page is a JavaScript-rendered SPA: server-side HTML contains only
+navigation chrome, all event data is loaded by JS after page load. So
+scraping the HTML returns nothing useful (verified via diagnostic).
+
+Strategy: try the WordPress REST API (the SPA almost certainly fetches its
+data from there). Common endpoints to probe:
+  - /wp-json/wp/v2/event   (custom post type, most likely)
+  - /wp-json/wp/v2/events  (alternative naming)
+  - /wp-json/wp/v2/posts   (regular posts)
+
+If none return event data, print a diagnostic listing the available
+endpoints from /wp-json/ so we can iterate.
 """
 from typing import List, Optional
-from datetime import date as Date
+from datetime import datetime, date as Date
 import re
 import sys
 import requests
 from bs4 import BeautifulSoup
 
-from .base import Event, parse_french_date, iso, FR_MONTHS
+from .base import Event, parse_french_date, iso
 
 VENUE = "Le Transbordeur"
 SLUG = "transbordeur"
-URL = "https://www.transbordeur.fr/agenda/"
-HOST = "https://www.transbordeur.fr"
+SITE = "https://www.transbordeur.fr"
+AGENDA_URL = SITE + "/agenda/"
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
@@ -23,196 +33,165 @@ HEADERS = {
     "Accept-Language": "fr-FR,fr;q=0.9",
 }
 
-DATE_LONG = re.compile(
-    r"\w+\s+(\d{1,2})\s+(\w+)\s+(\d{4})",
-    re.IGNORECASE,
-)
-LOOSE_DATE_RE = re.compile(
-    r"\b(\d{1,2})\s+(janv|f[eé]vr|mars|avr|mai|juin|juil|ao[uû]t|sept|oct|nov|d[eé]c)",
-    re.IGNORECASE,
-)
-TIME_RE = re.compile(r"\b(\d{1,2})[h:](\d{2})\b")
-
-GENRE_TAGS = (
-    "ROCK / POP", "DARK / METAL", "ELECTRO / TECHNO", "FUNK / JAZZ",
-    "RAP / URBAIN", "SONO MONDIALE / DUB", "VARIETE / CHANSON",
-    "FOLK / COUNTRY", "ORIGINAL DUB CULTURE", "ROCK / METAL / HIP HOP",
-)
+# Endpoints to try, in order. The first one that returns JSON-like event
+# data with future dates wins.
+WP_ENDPOINTS = [
+    "/wp-json/wp/v2/event?per_page=100&_embed=1",
+    "/wp-json/wp/v2/events?per_page=100&_embed=1",
+    "/wp-json/wp/v2/concert?per_page=100&_embed=1",
+    "/wp-json/wp/v2/spectacle?per_page=100&_embed=1",
+    "/wp-json/wp/v2/posts?per_page=100&_embed=1",
+]
 
 
-def _french_month_num(s: str) -> Optional[int]:
-    return FR_MONTHS.get(s.lower())
+def _strip_html(html_text: str) -> str:
+    """Render HTML excerpt to plain text."""
+    if not html_text:
+        return ""
+    return BeautifulSoup(html_text, "html.parser").get_text(" ", strip=True)
 
 
-def _find_card(link, max_levels: int = 6):
-    el = link
-    year_re = re.compile(r"\b20\d{2}\b")
-    for _ in range(max_levels):
-        parent = el.parent
-        if parent is None or parent.name in ("html", "body"):
-            return el
-        el = parent
-        if year_re.search(el.get_text(" ", strip=True)):
-            return el
-    return el
-
-
-def _print_diagnostic(soup, response_text: str):
-    print("=" * 60, file=sys.stderr)
-    print("DIAGNOSTIC: Le Transbordeur scraper found 0 events.", file=sys.stderr)
-    print(f"  Page size: {len(response_text)} bytes", file=sys.stderr)
-
-    evenement_links = soup.select('a[href*="/evenement/"]')
-    agenda_links = soup.select('a[href*="/agenda/"]')
-    article_tags = soup.find_all("article")
-    h2s = soup.find_all("h2")
-    h3s = soup.find_all("h3")
-
-    print(f"  /evenement/ links: {len(evenement_links)}", file=sys.stderr)
-    for a in evenement_links[:5]:
-        print(f"    - {a.get('href', '')!r}", file=sys.stderr)
-    print(f"  /agenda/ links: {len(agenda_links)}", file=sys.stderr)
-    for a in agenda_links[:5]:
-        print(f"    - {a.get('href', '')!r}", file=sys.stderr)
-    print(f"  <article> tags: {len(article_tags)}", file=sys.stderr)
-    print(f"  <h2> count: {len(h2s)}", file=sys.stderr)
-    for h in h2s[:8]:
-        t = h.get_text(strip=True)[:80]
-        print(f"    - {t!r}", file=sys.stderr)
-    print(f"  <h3> count: {len(h3s)}", file=sys.stderr)
-    for h in h3s[:8]:
-        t = h.get_text(strip=True)[:80]
-        print(f"    - {t!r}", file=sys.stderr)
-
-    # Show the first few unique <a> hrefs to figure out the URL pattern
-    all_links = soup.find_all("a", href=True)
-    seen_pref = set()
-    print(f"  Unique URL prefixes seen ({len(all_links)} total links):", file=sys.stderr)
-    for a in all_links:
-        href = a["href"]
-        if href.startswith("http"):
-            # extract path prefix
+def _extract_date_from_post(post: dict) -> Optional[Date]:
+    """Try multiple common date field locations in a WP REST post."""
+    # ACF field commonly named 'date_event' / 'event_date' / 'date_evenement'
+    acf = post.get("acf") or {}
+    for key in ("date_event", "event_date", "date_evenement", "date", "date_debut"):
+        val = acf.get(key)
+        if isinstance(val, str) and re.match(r"\d{4}-?\d{2}-?\d{2}", val):
             try:
-                path = href.split("//", 1)[1].split("/", 1)[1]
-                pref = "/" + path.split("/", 1)[0]
-            except IndexError:
-                pref = "/"
-        else:
-            pref = "/" + href.lstrip("/").split("/", 1)[0]
-        if pref not in seen_pref:
-            seen_pref.add(pref)
-            print(f"    - {pref}", file=sys.stderr)
-        if len(seen_pref) >= 15:
-            break
+                clean = val.replace("/", "-").replace(" ", "T").split("T")[0]
+                if "-" not in clean:
+                    clean = f"{clean[:4]}-{clean[4:6]}-{clean[6:8]}"
+                return Date.fromisoformat(clean)
+            except (ValueError, IndexError):
+                pass
 
-    page_text = soup.get_text(" ", strip=True)
-    long_dates = DATE_LONG.findall(page_text)
-    loose_dates = LOOSE_DATE_RE.findall(page_text)
-    print(f"  Long-form dates (day month year): {len(long_dates)}", file=sys.stderr)
-    print(f"    First 5: {long_dates[:5]}", file=sys.stderr)
-    print(f"  Loose dates (day month): {len(loose_dates)}", file=sys.stderr)
-    print(f"    First 5: {loose_dates[:5]}", file=sys.stderr)
+    # Meta fields
+    meta = post.get("meta") or {}
+    for key in ("date_event", "event_date", "_event_date", "date_evenement"):
+        val = meta.get(key)
+        if isinstance(val, str):
+            try:
+                return Date.fromisoformat(val[:10])
+            except ValueError:
+                pass
 
-    body = soup.find("body")
-    if body:
-        body_text = body.get_text(" ", strip=True)
-        print(f"  First 400 chars of body text:", file=sys.stderr)
-        print(f"    {body_text[:400]!r}", file=sys.stderr)
+    # Fallback: post's publish date (less useful but at least valid)
+    for key in ("date", "date_gmt"):
+        val = post.get(key)
+        if isinstance(val, str):
+            try:
+                return datetime.fromisoformat(val.replace("Z", "+00:00")).date()
+            except ValueError:
+                pass
+
+    return None
+
+
+def _fetch_via_wp_api() -> List[Event]:
+    events: List[Event] = []
+    for endpoint in WP_ENDPOINTS:
+        url = SITE + endpoint
+        try:
+            resp = requests.get(url, timeout=20, headers=HEADERS)
+        except requests.RequestException:
+            continue
+        if resp.status_code != 200:
+            continue
+        try:
+            data = resp.json()
+        except ValueError:
+            continue
+        if not isinstance(data, list) or not data:
+            continue
+
+        # We have JSON entries. Try to interpret them as events.
+        ok = 0
+        for post in data:
+            d = _extract_date_from_post(post)
+            if not d:
+                continue
+            if d < Date.today():
+                continue
+
+            title_html = (post.get("title") or {}).get("rendered", "") if isinstance(
+                post.get("title"), dict) else (post.get("title") or "")
+            title = _strip_html(title_html).strip()
+            if not title:
+                continue
+
+            link = post.get("link") or AGENDA_URL
+            excerpt_html = (post.get("excerpt") or {}).get("rendered", "") if isinstance(
+                post.get("excerpt"), dict) else ""
+            subtitle = _strip_html(excerpt_html)[:200] or None
+
+            # Image from _embedded.wp:featuredmedia
+            image = None
+            embedded = post.get("_embedded") or {}
+            media = (embedded.get("wp:featuredmedia") or [None])[0]
+            if isinstance(media, dict):
+                image = (media.get("source_url")
+                         or (media.get("media_details") or {}).get("sizes", {}).get(
+                             "medium", {}).get("source_url"))
+
+            events.append(Event(
+                venue=VENUE,
+                venue_slug=SLUG,
+                title=title,
+                subtitle=subtitle,
+                category="concert",
+                date_start=iso(d),
+                date_end=None,
+                time=None,
+                url=link,
+                image=image,
+            ))
+            ok += 1
+
+        if ok > 0:
+            print(f"[Transbordeur] Got {ok} events from {endpoint}", file=sys.stderr)
+            return events
+
+    return events
+
+
+def _print_diagnostic():
+    """Probe /wp-json/ to list available endpoints."""
+    print("=" * 60, file=sys.stderr)
+    print("DIAGNOSTIC: Le Transbordeur — WP REST API probe", file=sys.stderr)
+    try:
+        resp = requests.get(SITE + "/wp-json/", timeout=20, headers=HEADERS)
+        print(f"  /wp-json/ status: {resp.status_code}", file=sys.stderr)
+        if resp.status_code == 200:
+            try:
+                data = resp.json()
+                routes = list((data.get("routes") or {}).keys())
+                print(f"  Available routes ({len(routes)}):", file=sys.stderr)
+                for r in routes[:30]:
+                    print(f"    - {r}", file=sys.stderr)
+                if len(routes) > 30:
+                    print(f"    ... ({len(routes) - 30} more)", file=sys.stderr)
+            except ValueError:
+                print("  (not JSON)", file=sys.stderr)
+                print(f"  First 200 chars: {resp.text[:200]!r}", file=sys.stderr)
+    except requests.RequestException as e:
+        print(f"  /wp-json/ failed: {e}", file=sys.stderr)
     print("=" * 60, file=sys.stderr)
 
 
 def fetch() -> List[Event]:
-    resp = requests.get(URL, timeout=20, headers=HEADERS)
-    resp.raise_for_status()
-    soup = BeautifulSoup(resp.text, "html.parser")
-
-    events: List[Event] = []
-    seen_urls: set = set()
-
-    for a in soup.select('a[href*="/evenement/"]'):
-        href = a.get("href", "")
-        if href.startswith("/"):
-            href = HOST + href
-        if not href.startswith("http"):
-            continue
-        if href.rstrip("/") in (HOST + "/evenement", HOST + "/agenda"):
-            continue
-        if href in seen_urls:
-            continue
-
-        card = _find_card(a)
-        text = card.get_text(" ", strip=True)
-
-        m = DATE_LONG.search(text)
-        if not m:
-            continue
-        d_str, mo_str, yr = m.groups()
-        month = _french_month_num(mo_str)
-        if not month:
-            continue
-        try:
-            d_iso = Date(int(yr), month, int(d_str)).isoformat()
-        except ValueError:
-            continue
-
-        time_str: Optional[str] = None
-        m_time = TIME_RE.search(text)
-        if m_time:
-            hh = int(m_time.group(1))
-            mm = m_time.group(2)
-            if 0 <= hh <= 23:
-                time_str = f"{hh:02d}:{mm}"
-
-        title_el = card.find(["h2", "h3"])
-        title = title_el.get_text(strip=True) if title_el else a.get_text(" ", strip=True)
-        title = title.strip()
-        if not title or len(title) < 2 or len(title) > 200:
-            continue
-        skip_lower = ("agenda", "billetterie", "menu", "fr en",
-                      "voir plus", "club transbo", "grande salle")
-        if title.lower() in skip_lower:
-            continue
-
-        category: Optional[str] = "concert"
-        text_upper = text.upper()
-        for tag in GENRE_TAGS:
-            if tag in text_upper:
-                category = tag.lower().split(" / ")[0]
-                break
-
-        image: Optional[str] = None
-        for img in card.find_all("img"):
-            src = img.get("src") or ""
-            if src.startswith("http") and not src.endswith(".svg"):
-                image = src
-                break
-
-        seen_urls.add(href)
-        events.append(Event(
-            venue=VENUE,
-            venue_slug=SLUG,
-            title=title,
-            subtitle=None,
-            category=category,
-            date_start=d_iso,
-            date_end=None,
-            time=time_str,
-            url=href,
-            image=image,
-        ))
-
+    events = _fetch_via_wp_api()
+    if not events:
+        _print_diagnostic()
+    # Dedupe
     seen, unique = set(), []
     for e in events:
         if e.id not in seen:
             seen.add(e.id)
             unique.append(e)
-
-    if not unique:
-        _print_diagnostic(soup, resp.text)
-
     return unique
 
 
 if __name__ == "__main__":
     for e in fetch():
-        print(e.date_start, e.time or "  -  ", "·", e.title, "·", e.url)
+        print(e.date_start, "·", e.title, "·", e.url)
