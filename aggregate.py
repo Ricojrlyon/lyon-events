@@ -9,12 +9,12 @@ from __future__ import annotations
 import json
 import sys
 import traceback
-from datetime import date, datetime
+from datetime import date, datetime, timezone
 from pathlib import Path
 from typing import Callable, List
 
 from scrapers import Event
-from scrapers import le_sucre, les_subs, marche_gare, _stubs
+from scrapers import le_sucre, les_subs, marche_gare, radiant, la_rayonne, _stubs
 
 # Each entry is (display_name, callable returning List[Event]).
 SCRAPERS: list[tuple[str, Callable[[], List[Event]]]] = [
@@ -22,9 +22,9 @@ SCRAPERS: list[tuple[str, Callable[[], List[Event]]]] = [
     ("Le Sucre",                le_sucre.fetch),
     ("Les Subsistances",        les_subs.fetch),
     ("Marché Gare",             marche_gare.fetch),
+    ("Radiant-Bellevue",        radiant.fetch),
+    ("La Rayonne",              la_rayonne.fetch),
     # Stubs (return [] until you implement them)
-    ("Radiant-Bellevue",        _stubs.fetch_radiant_bellevue),
-    ("La Rayonne",              _stubs.fetch_la_rayonne),
     ("Le Transbordeur",         _stubs.fetch_transbordeur),
     ("Le Petit Salon",          _stubs.fetch_petit_salon),
     ("Le Sonic",                _stubs.fetch_sonic),
@@ -76,7 +76,7 @@ def main() -> int:
         unique.append(e)
 
     payload = {
-        "generated_at": datetime.utcnow().isoformat() + "Z",
+        "generated_at": datetime.now(timezone.utc).isoformat(),
         "count": len(unique),
         "events": [e.to_dict() for e in unique],
     }
