@@ -1,13 +1,8 @@
 """Scraper for La Rayonne / CCO (larayonne.org/agenda).
 
-The agenda is a flat list. Each event has:
-- a <span> with category pills like "[Musique] [Programmation]"
-- a heading link <a href="/evenement/<slug>/"> with the event title
-- a date line like "jeu. 30 avril" or "du sam. 06 juin au dim. 07 juin"
-- a time line like "14h > 16h", "18h30 > 21h" or "à partir de 19h"
-
-We anchor on the title link and walk up the DOM to find the surrounding card
-that contains the date pattern.
+Uses the FILTERED agenda URL with type=24 (Programmation only) to exclude
+training / workshops / administrative meetings, keeping only concerts and
+artistic shows.
 """
 from typing import List, Optional
 import re
@@ -18,7 +13,8 @@ from .base import Event, parse_french_date, iso
 
 VENUE = "La Rayonne"
 SLUG = "la-rayonne"
-URL = "https://larayonne.org/agenda/"
+# type=24 = "Programmation" — concerts and shows only.
+URL = "https://larayonne.org/agenda/?univers=&type=24&saison=&st="
 HOST = "https://larayonne.org"
 
 HEADERS = {
@@ -27,19 +23,22 @@ HEADERS = {
     "Accept-Language": "fr-FR,fr;q=0.9",
 }
 
-# Date pattern: "jeu. 30 avril" or "ven. 09 octobre"
 DATE_RE = re.compile(r"\b(\w+)\.\s+(\d{1,2})\s+(\w+)", re.IGNORECASE)
-# Range end: "au dim. 07 juin"
 RANGE_END_RE = re.compile(r"au\s+(\w+)\.\s+(\d{1,2})\s+(\w+)", re.IGNORECASE)
-# Time: "14h > 16h", "18h30", "19h30", "à partir de 19h"
 TIME_RE = re.compile(r"(\d{1,2})h(\d{2})?")
 
 CATEGORIES = (
     "Musique", "Théâtre", "Danse", "Humour", "Spectacle", "Rencontre",
-    "Atelier", "Yoga", "Cinéma", "Exposition", "Performance",
+    "Cinéma", "Exposition", "Performance",
 )
 
-# Words that disqualify an /evenement/ link (it's the menu, not a real event).
+# Skip non-music programming types and admin event categories.
+SKIP_TYPES = (
+    "rencontres et formations",
+    "activités et ateliers",
+    "mémoires vives",
+)
+
 SKIP_TITLES = (
     "filtre", "la prog", "rencontres et formations",
     "activités et ateliers", "voir tous", "agenda",
@@ -83,6 +82,12 @@ def fetch() -> List[Event]:
 
         card = _find_card(a)
         text = card.get_text(" ", strip=True)
+        text_lower = text.lower()
+
+        # Belt-and-suspenders: even with type=24 in URL, still filter out
+        # any cards that explicitly mention non-music types.
+        if any(t in text_lower for t in SKIP_TYPES):
+            continue
 
         m = DATE_RE.search(text)
         if not m:
@@ -91,7 +96,6 @@ def fetch() -> List[Event]:
         if not d:
             continue
 
-        # Optional date_end for ranges ("du sam. 06 juin au dim. 07 juin")
         date_end_iso = None
         m_end = RANGE_END_RE.search(text)
         if m_end:
@@ -99,7 +103,6 @@ def fetch() -> List[Event]:
             if d_end:
                 date_end_iso = iso(d_end)
 
-        # Time: take the FIRST time mentioned (start time)
         time_str: Optional[str] = None
         m_time = TIME_RE.search(text)
         if m_time:
@@ -107,14 +110,12 @@ def fetch() -> List[Event]:
             mm = m_time.group(2) or "00"
             time_str = f"{hh:02d}:{mm}"
 
-        # Category
         category: Optional[str] = None
         for kw in CATEGORIES:
             if kw in text:
                 category = kw.lower()
                 break
 
-        # Image (the listing thumbnails are usually in the card)
         image: Optional[str] = None
         for img in card.find_all("img"):
             src = img.get("src") or ""
@@ -136,7 +137,6 @@ def fetch() -> List[Event]:
             image=image,
         ))
 
-    # Dedupe
     seen, unique = set(), []
     for e in events:
         if e.id not in seen:
