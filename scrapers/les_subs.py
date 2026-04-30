@@ -6,10 +6,15 @@ Each event card on the agenda page contains:
 - a category pill (Théâtre, Danse, Musique, …)
 - a list of dates as bullets like "jeu. 7 Mai | 19:00"
 
-The previous version of this scraper looked at the immediate parent of the
-link, which on this WordPress theme is a tiny wrapper that does NOT contain
-the date list. The fix is to walk up the DOM until we find an ancestor that
-actually contains a date pattern.
+The previous version walked up the DOM looking for any ancestor that contained
+a date pattern. The bug: a promotional banner at the top of the page links to a
+single event ("Fun Times"), and walking up from that banner's link eventually
+reached a common ancestor of BOTH the banner AND many real event cards. The
+scraper then attributed all those events' dates to "Fun Times".
+
+The fix: when we walk up looking for a date, we also reject any container that
+contains MORE THAN ONE distinct /evenement/ URL. A real event card has at most
+one outbound URL (often duplicated across an image-link and a title-link).
 """
 from typing import List, Optional
 import re
@@ -29,7 +34,7 @@ HEADERS = {
     "Accept-Language": "fr-FR,fr;q=0.9",
 }
 
-# Date pattern: "mer. 6 Mai | 18:30" — captures day_name, day_num, month, hour, minute
+# Date pattern: "mer. 6 Mai | 18:30"
 DATE_RE = re.compile(
     r"\b(\w+)\.?\s+(\d{1,2})\s+(\w+)\s*\|\s*(\d{1,2}):(\d{2})",
     re.IGNORECASE,
@@ -43,17 +48,35 @@ CATEGORIES = (
 )
 
 
-def _find_card(link, max_levels: int = 8):
-    """Walk up from the link until an ancestor contains a date pattern."""
+def _find_card(link, target_href: str, max_levels: int = 6):
+    """Walk up from the link until an ancestor:
+    - contains a date pattern,
+    - AND does NOT contain any other distinct /evenement/ URL.
+    Returns the ancestor element, or None if no clean card is found.
+    """
     el = link
     for _ in range(max_levels):
         parent = el.parent
         if parent is None or parent.name in ("html", "body"):
-            return el
+            return None
         el = parent
-        if DATE_RE.search(el.get_text(" ", strip=True)):
+        text = el.get_text(" ", strip=True)
+        if not DATE_RE.search(text):
+            continue
+        # Check we haven't walked too far: the card should reference at most
+        # one event URL (target_href). Multiple distinct URLs = contamination.
+        other_urls = set()
+        for inner_link in el.select('a[href*="/evenement/"]'):
+            href = inner_link.get("href", "")
+            if href.startswith("/"):
+                href = HOST + href
+            if href and href != target_href:
+                other_urls.add(href)
+        if not other_urls:
             return el
-    return el
+        # Card is contaminated — we walked too far. Give up.
+        return None
+    return None
 
 
 def fetch() -> List[Event]:
@@ -73,7 +96,9 @@ def fetch() -> List[Event]:
         if href in seen_urls:
             continue
 
-        card = _find_card(a)
+        card = _find_card(a, href)
+        if card is None:
+            continue
         text = card.get_text(" ", strip=True)
         date_matches = DATE_RE.findall(text)
         if not date_matches:
@@ -132,7 +157,7 @@ def fetch() -> List[Event]:
                 image=image,
             ))
 
-    # Deduplicate (same event/date/time may appear from multiple link occurrences)
+    # Deduplicate
     seen, unique = set(), []
     for e in events:
         if e.id not in seen:
