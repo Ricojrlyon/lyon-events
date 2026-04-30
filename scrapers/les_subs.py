@@ -1,18 +1,22 @@
 """Scraper for Les Subsistances (les-subs.com/agenda).
 
-Approach: walk the DOM in document order. Track the "current" event URL
-(updated each time we encounter an /evenement/ link). For every text node
-containing a date pattern, attribute the date to the current event URL.
+Approach: raw-HTML regex matching, associating each date occurrence with
+the most recent /evenement/ link that precedes it in document order.
 
-This works for flat layouts where event title links and their date pills
-are siblings under a common parent — exactly what the diagnostic showed:
-63 /evenement/ links, 98 date matches, 0 h2/h3 elements.
+Why raw HTML and not BS4 traversal: the dates are split across multiple
+text nodes ("mer. 6 Mai", "|", "18:30" in three different spans).
+Walking NavigableStrings individually misses the pattern. A regex on the
+flat HTML string with a non-greedy character class between parts catches
+the date even when fragmented by tags and whitespace.
+
+Title fallback: most event links wrap an image and have no text. We use
+the URL slug (e.g. "prova-wael-ali-simon-dubois" -> "Prova Wael Ali Simon
+Dubois"). Imperfect but readable.
 """
-from typing import List, Optional
+from typing import List, Optional, Dict
 import re
 import sys
 import requests
-from bs4 import BeautifulSoup, NavigableString
 
 from .base import Event, parse_french_date, iso
 
@@ -27,80 +31,70 @@ HEADERS = {
     "Accept-Language": "fr-FR,fr;q=0.9",
 }
 
-# Bullet date pattern: "mer. 6 Mai | 18:30"
+# Match an /evenement/<slug>/ link in raw HTML.
+LINK_RE = re.compile(
+    r'<a\b[^>]*\bhref=["\']([^"\']*?/evenement/[^"\']+?)["\']',
+    re.IGNORECASE,
+)
+
+# Date with time, allowing whitespace + HTML tags between the date and the time.
+# Group 1: day number, Group 2: month name, Group 3: hour, Group 4: minute.
 DATE_RE = re.compile(
-    r"\b(\w+)\.?\s+(\d{1,2})\s+(\w+)\s*\|\s*(\d{1,2}):(\d{2})",
+    r"\b(\d{1,2})\s+(janvier|f[eé]vrier|mars|avril|mai|juin|juillet|"
+    r"ao[uû]t|septembre|octobre|novembre|d[eé]cembre)"
+    r"[\s\S]{0,400}?\|[\s\S]{0,80}?"
+    r"(\d{1,2}):(\d{2})",
     re.IGNORECASE,
 )
 
 
-def _clean_title(raw: str) -> str:
-    """Many Les Subs links have their text duplicated, e.g.
-    'Fun Times Fun Times' -> 'Fun Times'. Detect & collapse such repeats.
-    """
-    raw = raw.strip()
-    if not raw:
-        return raw
-    words = raw.split()
-    n = len(words)
-    if n >= 2 and n % 2 == 0:
-        half = n // 2
-        if words[:half] == words[half:]:
-            return " ".join(words[:half])
-    return raw
+def _slug_to_title(url: str) -> str:
+    """Convert /evenement/some-slug/ to 'Some Slug'."""
+    slug = url.rstrip("/").rsplit("/", 1)[-1]
+    # Strip 'ouverture-ete-2026-' prefix that's common on Les Subs URLs
+    slug = re.sub(r"^ouverture-ete-\d{4}-", "", slug)
+    words = slug.replace("-", " ").split()
+    # Title-case words but keep small uppercase tokens (numbers stay)
+    return " ".join(w[:1].upper() + w[1:].lower() if w else w for w in words)
 
 
 def fetch() -> List[Event]:
     resp = requests.get(URL, timeout=20, headers=HEADERS)
     resp.raise_for_status()
-    soup = BeautifulSoup(resp.text, "html.parser")
+    html = resp.text
 
-    # url -> {"title": ..., "image": ..., "dates": set of (day, month, hh, mm)}
-    events_by_url: dict = {}
-    current_url: Optional[str] = None
+    # Collect all event link positions in document order.
+    link_positions: List[tuple] = []  # (start_pos, normalized_url)
+    seen_urls = set()
+    for m in LINK_RE.finditer(html):
+        url = m.group(1)
+        if url.startswith("/"):
+            url = HOST + url
+        link_positions.append((m.start(), url))
+        seen_urls.add(url)
 
-    for el in soup.descendants:
-        # When we enter an /evenement/ link, switch the "current event" pointer
-        if hasattr(el, "name") and el.name == "a":
-            href = el.get("href", "") or ""
-            if "/evenement/" in href:
-                if href.startswith("/"):
-                    href = HOST + href
-                current_url = href
-                if href not in events_by_url:
-                    title = _clean_title(el.get_text(" ", strip=True))
-                    image = None
-                    img = el.find("img")
-                    if img:
-                        src = img.get("src", "") or ""
-                        if src.startswith("http"):
-                            image = src
-                    events_by_url[href] = {
-                        "title": title,
-                        "image": image,
-                        "dates": set(),
-                    }
+    # For each date match, find the most recent preceding link.
+    events_by_url: Dict[str, dict] = {}
+    for m in DATE_RE.finditer(html):
+        date_pos = m.start()
+        day_num, month_str, hour, minute = m.groups()
+        # Walk link_positions to find largest start_pos <= date_pos.
+        # link_positions is already sorted in document order.
+        chosen_url: Optional[str] = None
+        for link_pos, link_url in link_positions:
+            if link_pos <= date_pos:
+                chosen_url = link_url
+            else:
+                break
+        if not chosen_url:
             continue
-
-        # Attribute any date in a text node to the current event
-        if isinstance(el, NavigableString):
-            text = str(el)
-            if not text or "|" not in text:
-                continue
-            for m in DATE_RE.finditer(text):
-                if current_url is None:
-                    continue
-                info = events_by_url.get(current_url)
-                if info is None:
-                    continue
-                # store as (day_num, month_str, hour, minute) — strip day_name
-                _, day_num, month_str, hour, minute = m.groups()
-                info["dates"].add((day_num, month_str, hour, minute))
+        info = events_by_url.setdefault(chosen_url, {"dates": set()})
+        info["dates"].add((day_num, month_str, hour, minute))
 
     events: List[Event] = []
     for url, info in events_by_url.items():
-        title = info["title"]
-        if not title or len(title) < 2 or len(title) > 200:
+        title = _slug_to_title(url)
+        if not title or len(title) < 2:
             continue
         for day_num, month_str, hour, minute in info["dates"]:
             d = parse_french_date(f"{day_num} {month_str}")
@@ -116,23 +110,24 @@ def fetch() -> List[Event]:
                 date_end=None,
                 time=f"{int(hour):02d}:{minute}",
                 url=url,
-                image=info["image"],
+                image=None,
             ))
 
     if not events:
         print("=" * 60, file=sys.stderr)
         print("DIAGNOSTIC: Les Subs scraper found 0 events.", file=sys.stderr)
-        print(f"  URLs collected: {len(events_by_url)}", file=sys.stderr)
-        for url, info in list(events_by_url.items())[:5]:
-            print(f"    - {url}: title={info['title']!r}, "
-                  f"dates={len(info['dates'])}", file=sys.stderr)
+        print(f"  Total /evenement/ link positions: {len(link_positions)}",
+              file=sys.stderr)
+        print(f"  Distinct URLs: {len(seen_urls)}", file=sys.stderr)
+        date_count = sum(1 for _ in DATE_RE.finditer(html))
+        print(f"  Date matches in raw HTML: {date_count}", file=sys.stderr)
+        print(f"  events_by_url entries: {len(events_by_url)}", file=sys.stderr)
         print("=" * 60, file=sys.stderr)
 
-    # Sort by date for stable output
     events.sort(key=lambda e: (e.date_start, e.time or "00:00"))
     return events
 
 
 if __name__ == "__main__":
     for e in fetch():
-        print(e.date_start, e.time or "  -  ", "·", e.title, "·", e.url)
+        print(e.date_start, e.time, "·", e.title, "·", e.url)
