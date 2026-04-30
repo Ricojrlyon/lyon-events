@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-30T13:01:13.469516+00:00",
-  "count": 185,
+  "generated_at": "2026-04-30T13:25:38.824401+00:00",
+  "count": 184,
   "events": [
     {
       "venue": "Le Sucre",
@@ -31,19 +31,6 @@
     {
       "venue": "La Rayonne",
       "venue_slug": "la-rayonne",
-      "title": "Découvrir les modèles coopératifs (SCIC, SCOP et CAE) pour développer un projet artistique et culturel",
-      "subtitle": null,
-      "category": "rencontre",
-      "date_start": "2026-04-30",
-      "date_end": null,
-      "time": "14:00",
-      "url": "https://larayonne.org/evenement/decouvrir-les-modeles-cooperatifs-pour-developper-un-projet-artistique-et-culturel/",
-      "image": null,
-      "id": "3c59e2eda9f4"
-    },
-    {
-      "venue": "La Rayonne",
-      "venue_slug": "la-rayonne",
       "title": "LANGUES DE LUTTES – 1è soirée de luttes féministes & des minorités de genre",
       "subtitle": null,
       "category": "musique",
@@ -57,7 +44,7 @@
     {
       "venue": "Marché Gare",
       "venue_slug": "marche-gare",
-      "title": "Noise Rock IT IT ANITA | LA JUNGLE",
+      "title": "Non disponible en ligne Noise Rock IT IT ANITA | LA JUNGLE",
       "subtitle": null,
       "category": null,
       "date_start": "2026-04-30",
@@ -65,7 +52,7 @@
       "time": "20:30",
       "url": "https://marchegare.fr/agenda/it-it-anita",
       "image": null,
-      "id": "de0b92a04475"
+      "id": "3013f2f9d761"
     },
     {
       "venue": "Le Sucre",
@@ -341,19 +328,6 @@
       "id": "a7514dd12469"
     },
     {
-      "venue": "La Rayonne",
-      "venue_slug": "la-rayonne",
-      "title": "ATELIER // Les bases sur les droits d’auteur dans la musique",
-      "subtitle": null,
-      "category": "rencontre",
-      "date_start": "2026-05-12",
-      "date_end": null,
-      "time": "18:00",
-      "url": "https://larayonne.org/evenement/atelier-les-bases-sur-les-droits-dauteur-dans-la-musique/",
-      "image": null,
-      "id": "700f40f393c0"
-    },
-    {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
       "title": "club",
@@ -458,19 +432,6 @@
       "id": "dcd245fd9d2b"
     },
     {
-      "venue": "La Rayonne",
-      "venue_slug": "la-rayonne",
-      "title": "La fiscalité des associations",
-      "subtitle": null,
-      "category": "rencontre",
-      "date_start": "2026-05-19",
-      "date_end": null,
-      "time": "18:00",
-      "url": "https://larayonne.org/evenement/la-fiscalite-des-associations-3/",
-      "image": null,
-      "id": "4faa10a98569"
-    },
-    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "CHIMENE BADI",
@@ -482,19 +443,6 @@
       "url": "https://radiant-bellevue.fr/spectacles/chimene-badi/",
       "image": null,
       "id": "1490c4d7a77f"
-    },
-    {
-      "venue": "La Rayonne",
-      "venue_slug": "la-rayonne",
-      "title": "Mettre en place une gouvernance partagée : atelier théorique (1/2)",
-      "subtitle": null,
-      "category": "rencontre",
-      "date_start": "2026-05-21",
-      "date_end": null,
-      "time": "18:30",
-      "url": "https://larayonne.org/evenement/mettre-en-place-une-gouvernance-partagee-atelier-theorique-1-2/",
-      "image": null,
-      "id": "e3ec20a10990"
     },
     {
       "venue": "Marché Gare",
@@ -614,19 +562,6 @@
       "id": "0c43b2af8501"
     },
     {
-      "venue": "La Rayonne",
-      "venue_slug": "la-rayonne",
-      "title": "Mettre en place une gouvernance partagée : atelier de co-développement (2/2)",
-      "subtitle": null,
-      "category": "rencontre",
-      "date_start": "2026-05-27",
-      "date_end": null,
-      "time": "14:30",
-      "url": "https://larayonne.org/evenement/mettre-en-place-une-gouvernance-partagee-atelier-de-co-developpement-2-2/",
-      "image": null,
-      "id": "4435784821ac"
-    },
-    {
       "venue": "Marché Gare",
       "venue_slug": "marche-gare",
       "title": "LES 20 ANS ! Animation KARAOKÉ LIVE SURF Eddy Cover et ses Silhouettes",
@@ -651,19 +586,6 @@
       "url": "https://radiant-bellevue.fr/spectacles/yannick-noah/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2025/04/aNOAHLYONDEV001byANDRED_19photoshop-500x500.jpg",
       "id": "1459a2313dc8"
-    },
-    {
-      "venue": "La Rayonne",
-      "venue_slug": "la-rayonne",
-      "title": "Comment attirer et fidéliser des bénévoles ?",
-      "subtitle": null,
-      "category": "rencontre",
-      "date_start": "2026-05-28",
-      "date_end": null,
-      "time": "18:00",
-      "url": "https://larayonne.org/evenement/comment-attirer-et-fideliser-des-benevoles/",
-      "image": null,
-      "id": "7d9184368767"
     },
     {
       "venue": "Le Sucre",
@@ -796,19 +718,6 @@
       "id": "0a56ce915a75"
     },
     {
-      "venue": "La Rayonne",
-      "venue_slug": "la-rayonne",
-      "title": "Mettre en place une comptabilité pour les petites associations",
-      "subtitle": null,
-      "category": "rencontre",
-      "date_start": "2026-06-02",
-      "date_end": null,
-      "time": "17:30",
-      "url": "https://larayonne.org/evenement/mettre-en-place-une-comptabilite-pour-les-petites-associations-5/",
-      "image": null,
-      "id": "98c06729dba8"
-    },
-    {
       "venue": "Marché Gare",
       "venue_slug": "marche-gare",
       "title": "LES 20 ANS ! Animation Le Qu'ouis-je? spécial Marché Gare Blindtest décalé",
@@ -848,6 +757,214 @@
       "id": "f8df2158cb55"
     },
     {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "Découvrir les modèles coopératifs (SCIC, SCOP et CAE) pour développer un projet artistique et culturel 14h > 16h",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-06-07",
+      "date_end": "2026-06-07",
+      "time": "14:00",
+      "url": "https://larayonne.org/evenement/decouvrir-les-modeles-cooperatifs-pour-developper-un-projet-artistique-et-culturel/",
+      "image": null,
+      "id": "7d2ba7a886cb"
+    },
+    {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "ATELIER // Les bases sur les droits d'auteur dans la musique 18h > 20h",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-06-07",
+      "date_end": "2026-06-07",
+      "time": "14:00",
+      "url": "https://larayonne.org/evenement/atelier-les-bases-sur-les-droits-dauteur-dans-la-musique/",
+      "image": null,
+      "id": "73362ad4892c"
+    },
+    {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "La fiscalité des associations 18h > 21h",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-06-07",
+      "date_end": "2026-06-07",
+      "time": "14:00",
+      "url": "https://larayonne.org/evenement/la-fiscalite-des-associations-3/",
+      "image": null,
+      "id": "8c4c5b6d197c"
+    },
+    {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "Mettre en place une gouvernance partagée : atelier théorique (1/2) 18h30 > 21h",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-06-07",
+      "date_end": "2026-06-07",
+      "time": "14:00",
+      "url": "https://larayonne.org/evenement/mettre-en-place-une-gouvernance-partagee-atelier-theorique-1-2/",
+      "image": null,
+      "id": "a8b3fce36210"
+    },
+    {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "Mettre en place une gouvernance partagée : atelier de co-développement (2/2) 14h30 > 17h30",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-06-07",
+      "date_end": "2026-06-07",
+      "time": "14:00",
+      "url": "https://larayonne.org/evenement/mettre-en-place-une-gouvernance-partagee-atelier-de-co-developpement-2-2/",
+      "image": null,
+      "id": "475b9cbdac7b"
+    },
+    {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "Comment attirer et fidéliser des bénévoles ? 18h > 21h",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-06-07",
+      "date_end": "2026-06-07",
+      "time": "14:00",
+      "url": "https://larayonne.org/evenement/comment-attirer-et-fideliser-des-benevoles/",
+      "image": null,
+      "id": "df6046e58c65"
+    },
+    {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "Mettre en place une comptabilité pour les petites associations 17h30 > 20h30",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-06-07",
+      "date_end": "2026-06-07",
+      "time": "14:00",
+      "url": "https://larayonne.org/evenement/mettre-en-place-une-comptabilite-pour-les-petites-associations-5/",
+      "image": null,
+      "id": "5249dc7fa902"
+    },
+    {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "S'initier aux techniques d'animation participative 18h > 21h",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-06-07",
+      "date_end": "2026-06-07",
+      "time": "14:00",
+      "url": "https://larayonne.org/evenement/sinitier-aux-techniques-danimation-participative-2/",
+      "image": null,
+      "id": "e9a7c57ae523"
+    },
+    {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "Atelier : \"S'occuper du conflit avant qu'il ne s'occupe de nous\" 18h > 21h",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-06-07",
+      "date_end": "2026-06-07",
+      "time": "14:00",
+      "url": "https://larayonne.org/evenement/atelier-soccuper-du-conflit-avant-quil-ne-soccupe-de-nous/",
+      "image": null,
+      "id": "4d7e68f2c8da"
+    },
+    {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "Les obligations des associations employeuses 18h > 20h",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-06-07",
+      "date_end": "2026-06-07",
+      "time": "14:00",
+      "url": "https://larayonne.org/evenement/les-obligations-des-associations-employeuses-3/",
+      "image": null,
+      "id": "084e94dfba38"
+    },
+    {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "Mieux appréhender les réseaux sociaux 18h30 > 21h",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-06-07",
+      "date_end": "2026-06-07",
+      "time": "14:00",
+      "url": "https://larayonne.org/evenement/mieux-apprehender-les-reseaux-sociaux/",
+      "image": null,
+      "id": "b2c6f14af42e"
+    },
+    {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "Présenter et mettre en valeur son projet à l'oral : atelier théorique (1/2) 18h30 > 20h30",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-06-07",
+      "date_end": "2026-06-07",
+      "time": "14:00",
+      "url": "https://larayonne.org/evenement/presenter-et-mettre-en-valeur-son-projet-a-loral-atelier-theorique-1-2/",
+      "image": null,
+      "id": "97c4b8587208"
+    },
+    {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "Présenter et mettre en valeur son projet à l'oral : atelier pratique (2/2) 14h30 > 17h30",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-06-07",
+      "date_end": "2026-06-07",
+      "time": "14:00",
+      "url": "https://larayonne.org/evenement/presenter-et-mettre-en-valeur-son-projet-a-loral-atelier-pratique-2-2/",
+      "image": null,
+      "id": "2ef6b4af9279"
+    },
+    {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "Comprendre les principales aides à l'emploi dans le spectacle vivant 18h30 > 20h30",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-06-07",
+      "date_end": "2026-06-07",
+      "time": "14:00",
+      "url": "https://larayonne.org/evenement/comprendre-les-principales-aides-a-lemploi-dans-le-spectacle-vivant/",
+      "image": null,
+      "id": "c9bbd22f71e2"
+    },
+    {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "Construire un budget et un plan de trésorerie : atelier théorique (1/2) 18h > 20h30",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-06-07",
+      "date_end": "2026-06-07",
+      "time": "14:00",
+      "url": "https://larayonne.org/evenement/construire-un-budget-et-un-plan-de-tresorerie-atelier-theorique-1-2-2/",
+      "image": null,
+      "id": "3b3383c542a0"
+    },
+    {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "Construire un budget et un plan de trésorerie : atelier pratique (2/2) 14h30 > 17h30",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-06-07",
+      "date_end": "2026-06-07",
+      "time": "14:00",
+      "url": "https://larayonne.org/evenement/construire-un-budget-et-un-plan-de-tresorerie-atelier-pratique-2-2-2/",
+      "image": null,
+      "id": "3c54aeba3294"
+    },
+    {
       "venue": "Marché Gare",
       "venue_slug": "marche-gare",
       "title": "Punk-Rock TOUCHÉ AMORÉ Stage Four 10 Year Anniversary",
@@ -876,32 +993,6 @@
     {
       "venue": "La Rayonne",
       "venue_slug": "la-rayonne",
-      "title": "S’initier aux techniques d’animation participative",
-      "subtitle": null,
-      "category": "rencontre",
-      "date_start": "2026-06-09",
-      "date_end": null,
-      "time": "18:00",
-      "url": "https://larayonne.org/evenement/sinitier-aux-techniques-danimation-participative-2/",
-      "image": null,
-      "id": "0e788e42271f"
-    },
-    {
-      "venue": "La Rayonne",
-      "venue_slug": "la-rayonne",
-      "title": "Atelier : « S’occuper du conflit avant qu’il ne s’occupe de nous »",
-      "subtitle": null,
-      "category": "rencontre",
-      "date_start": "2026-06-11",
-      "date_end": null,
-      "time": "18:00",
-      "url": "https://larayonne.org/evenement/atelier-soccuper-du-conflit-avant-quil-ne-soccupe-de-nous/",
-      "image": null,
-      "id": "1ddccb01beff"
-    },
-    {
-      "venue": "La Rayonne",
-      "venue_slug": "la-rayonne",
       "title": "DAVID MC FLY",
       "subtitle": null,
       "category": "musique",
@@ -924,32 +1015,6 @@
       "url": "https://radiant-bellevue.fr/spectacles/nicky-doll-1ere-partie/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/03/nicky-doll_radiant-bellevue-500x500.jpg",
       "id": "efd238ca555c"
-    },
-    {
-      "venue": "La Rayonne",
-      "venue_slug": "la-rayonne",
-      "title": "Les obligations des associations employeuses",
-      "subtitle": null,
-      "category": "rencontre",
-      "date_start": "2026-06-16",
-      "date_end": null,
-      "time": "18:00",
-      "url": "https://larayonne.org/evenement/les-obligations-des-associations-employeuses-3/",
-      "image": null,
-      "id": "3f72ab8b50b1"
-    },
-    {
-      "venue": "La Rayonne",
-      "venue_slug": "la-rayonne",
-      "title": "Mieux appréhender les réseaux sociaux",
-      "subtitle": null,
-      "category": "rencontre",
-      "date_start": "2026-06-18",
-      "date_end": null,
-      "time": "18:30",
-      "url": "https://larayonne.org/evenement/mieux-apprehender-les-reseaux-sociaux/",
-      "image": null,
-      "id": "9e07837e4052"
     },
     {
       "venue": "Marché Gare",
@@ -989,19 +1054,6 @@
       "url": "https://larayonne.org/evenement/blood-incantation-absolute-elsetour-europe-2026-nate-mercereau/",
       "image": null,
       "id": "fd21a4ed912f"
-    },
-    {
-      "venue": "La Rayonne",
-      "venue_slug": "la-rayonne",
-      "title": "Présenter et mettre en valeur son projet à l’oral : atelier théorique (1/2)",
-      "subtitle": null,
-      "category": "rencontre",
-      "date_start": "2026-06-23",
-      "date_end": null,
-      "time": "18:30",
-      "url": "https://larayonne.org/evenement/presenter-et-mettre-en-valeur-son-projet-a-loral-atelier-theorique-1-2/",
-      "image": null,
-      "id": "a7b2564907e3"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -1056,19 +1108,6 @@
       "id": "516608e488ad"
     },
     {
-      "venue": "La Rayonne",
-      "venue_slug": "la-rayonne",
-      "title": "Présenter et mettre en valeur son projet à l’oral : atelier pratique (2/2)",
-      "subtitle": null,
-      "category": "rencontre",
-      "date_start": "2026-07-01",
-      "date_end": null,
-      "time": "14:30",
-      "url": "https://larayonne.org/evenement/presenter-et-mettre-en-valeur-son-projet-a-loral-atelier-pratique-2-2/",
-      "image": null,
-      "id": "4f052c1b0640"
-    },
-    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "RISE AGAINST",
@@ -1093,19 +1132,6 @@
       "url": "https://radiant-bellevue.fr/spectacles/yanns/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/03/yanns_radiant-bellevue-500x500.jpg",
       "id": "3a7e063ba883"
-    },
-    {
-      "venue": "La Rayonne",
-      "venue_slug": "la-rayonne",
-      "title": "Comprendre les principales aides à l’emploi dans le spectacle vivant",
-      "subtitle": null,
-      "category": "rencontre",
-      "date_start": "2026-09-24",
-      "date_end": null,
-      "time": "18:30",
-      "url": "https://larayonne.org/evenement/comprendre-les-principales-aides-a-lemploi-dans-le-spectacle-vivant/",
-      "image": null,
-      "id": "9f7bc7c15119"
     },
     {
       "venue": "Marché Gare",
@@ -1524,19 +1550,6 @@
       "id": "647044e6d7b7"
     },
     {
-      "venue": "La Rayonne",
-      "venue_slug": "la-rayonne",
-      "title": "Construire un budget et un plan de trésorerie : atelier théorique (1/2)",
-      "subtitle": null,
-      "category": "rencontre",
-      "date_start": "2026-11-05",
-      "date_end": null,
-      "time": "18:00",
-      "url": "https://larayonne.org/evenement/construire-un-budget-et-un-plan-de-tresorerie-atelier-theorique-1-2-2/",
-      "image": null,
-      "id": "afb60935e0d6"
-    },
-    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "LP",
@@ -1838,19 +1851,6 @@
     {
       "venue": "La Rayonne",
       "venue_slug": "la-rayonne",
-      "title": "Mettre en place une comptabilité pour les petites associations",
-      "subtitle": null,
-      "category": "rencontre",
-      "date_start": "2026-11-24",
-      "date_end": null,
-      "time": "17:30",
-      "url": "https://larayonne.org/evenement/mettre-en-place-une-comptabilite-pour-les-petites-associations-6/",
-      "image": null,
-      "id": "79b303b71560"
-    },
-    {
-      "venue": "La Rayonne",
-      "venue_slug": "la-rayonne",
       "title": "Robert Finley",
       "subtitle": null,
       "category": "musique",
@@ -1964,19 +1964,6 @@
       "url": "https://radiant-bellevue.fr/spectacles/la-grande-sophie-2/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2025/11/la-grande-sophie_radiant-bellevue-500x500.jpg",
       "id": "b5f482f818be"
-    },
-    {
-      "venue": "La Rayonne",
-      "venue_slug": "la-rayonne",
-      "title": "Construire un budget et un plan de trésorerie : atelier pratique (2/2)",
-      "subtitle": null,
-      "category": "rencontre",
-      "date_start": "2026-12-02",
-      "date_end": null,
-      "time": "14:30",
-      "url": "https://larayonne.org/evenement/construire-un-budget-et-un-plan-de-tresorerie-atelier-pratique-2-2-2/",
-      "image": null,
-      "id": "8c830b00ec44"
     },
     {
       "venue": "Radiant-Bellevue",
