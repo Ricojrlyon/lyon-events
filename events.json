@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-30T13:48:49.343741+00:00",
-  "count": 184,
+  "generated_at": "2026-04-30T14:04:12.694850+00:00",
+  "count": 243,
   "events": [
     {
       "venue": "Le Sucre",
@@ -172,6 +172,19 @@
       "id": "013a873c70ad"
     },
     {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Subs Visites Historiques",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-05-06",
+      "date_end": null,
+      "time": "18:30",
+      "url": "https://www.les-subs.com/evenement/subs-visites-historiques/",
+      "image": null,
+      "id": "4bfc286be882"
+    },
+    {
       "venue": "Marché Gare",
       "venue_slug": "marche-gare",
       "title": "Concert du Labo Clo + Rroy + Alyosha",
@@ -211,9 +224,35 @@
       "id": "24989f20e555"
     },
     {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Prova Wael Ali Simon Dubois",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-05-07",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.les-subs.com/evenement/prova-wael-ali-simon-dubois/",
+      "image": null,
+      "id": "f5be3862cb4c"
+    },
+    {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Zeid Hamdan Live",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-05-07",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://www.les-subs.com/evenement/ouverture-ete-2026-zeid-hamdan-live/",
+      "image": null,
+      "id": "d77c4b7a24b9"
+    },
+    {
       "venue": "Marché Gare",
       "venue_slug": "marche-gare",
-      "title": "Pop-Rock BANDIT BANDIT",
+      "title": "Pop-Rock BANDIT BANDIT + BLUE SALT",
       "subtitle": null,
       "category": null,
       "date_start": "2026-05-07",
@@ -221,7 +260,7 @@
       "time": "20:30",
       "url": "https://marchegare.fr/agenda/bandit-bandit",
       "image": null,
-      "id": "906b847d46f6"
+      "id": "be893e1a58db"
     },
     {
       "venue": "Le Sucre",
@@ -237,6 +276,45 @@
       "id": "0021be5e7bc0"
     },
     {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Dressing Room Bissane Al Charif Hala Omran",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-05-08",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.les-subs.com/evenement/ouverture-ete-2026-dressing-room-bissane-al-charif-hala-omran/",
+      "image": null,
+      "id": "7c8f065cc7fa"
+    },
+    {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Arab Funk Shnsho Khelkhal",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-05-08",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.les-subs.com/evenement/ouverture-ete-2026-arab-funk-shnsho-khelkhal/",
+      "image": null,
+      "id": "e1c1ada48c09"
+    },
+    {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Cruise My Mountain The Darvish",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-05-08",
+      "date_end": null,
+      "time": "21:00",
+      "url": "https://www.les-subs.com/evenement/ouverture-ete-2026-cruise-my-mountain-the-darvish/",
+      "image": null,
+      "id": "fea400ccea0d"
+    },
+    {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
       "title": "club",
@@ -248,6 +326,45 @@
       "url": "https://le-sucre.eu/events/club-48/",
       "image": "https://le-sucre.eu/wp-content/uploads/2026/03/Elise-Massoni-600x400.jpeg",
       "id": "193d2c1e28a8"
+    },
+    {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Absurd Hero Roman Skadra",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-05-09",
+      "date_end": null,
+      "time": "16:00",
+      "url": "https://www.les-subs.com/evenement/ouverture-ete-2026-absurd-hero-roman-skadra/",
+      "image": null,
+      "id": "c2b3b2d577f7"
+    },
+    {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Absurd Hero Roman Skadra",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-05-09",
+      "date_end": null,
+      "time": "18:30",
+      "url": "https://www.les-subs.com/evenement/ouverture-ete-2026-absurd-hero-roman-skadra/",
+      "image": null,
+      "id": "e26931026292"
+    },
+    {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Dressing Room Bissane Al Charif Hala Omran",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-05-09",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.les-subs.com/evenement/ouverture-ete-2026-dressing-room-bissane-al-charif-hala-omran/",
+      "image": null,
+      "id": "9661a4510ca6"
     },
     {
       "venue": "La Rayonne",
@@ -263,6 +380,19 @@
       "id": "c3260b9eb89a"
     },
     {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Queens Against Borders",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-05-09",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.les-subs.com/evenement/ouverture-ete-2026-queens-against-borders/",
+      "image": null,
+      "id": "49375863f57d"
+    },
+    {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
       "title": "S.society",
@@ -274,6 +404,45 @@
       "url": "https://le-sucre.eu/events/s-society-x-tssrct-2/",
       "image": "https://le-sucre.eu/wp-content/uploads/2026/03/Mezigue-Hyas-600x338.png",
       "id": "9ce7a9e782bc"
+    },
+    {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Atelier Mix Pour Enfants",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-05-10",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.les-subs.com/evenement/atelier-mix-pour-enfants/",
+      "image": null,
+      "id": "e8b549054af2"
+    },
+    {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Absurd Hero Roman Skadra",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-05-10",
+      "date_end": null,
+      "time": "16:00",
+      "url": "https://www.les-subs.com/evenement/ouverture-ete-2026-absurd-hero-roman-skadra/",
+      "image": null,
+      "id": "7463e8483847"
+    },
+    {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Atelier Mix Amp Boum Enfants",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-05-10",
+      "date_end": null,
+      "time": "17:00",
+      "url": "https://www.les-subs.com/evenement/ouverture-ete-2026-atelier-mix-amp-boum-enfants/",
+      "image": null,
+      "id": "59f09e0b019a"
     },
     {
       "venue": "La Rayonne",
@@ -367,6 +536,19 @@
       "id": "a770bdc7394c"
     },
     {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Concert Special Nuits Sonores",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-05-15",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.les-subs.com/evenement/concert-special-nuits-sonores/",
+      "image": null,
+      "id": "76e34a0f1805"
+    },
+    {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
       "title": "club",
@@ -391,6 +573,19 @@
       "url": "https://marchegare.fr/agenda/paledusk",
       "image": null,
       "id": "eb534c245846"
+    },
+    {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Concert Special Nuits Sonores",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-05-16",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.les-subs.com/evenement/concert-special-nuits-sonores/",
+      "image": null,
+      "id": "3909ce6d133c"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -445,6 +640,19 @@
       "id": "1490c4d7a77f"
     },
     {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Litterature Live Si La Langue Fourche No Anger Elisabeth Lebovici",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-05-21",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.les-subs.com/evenement/litterature-live-si-la-langue-fourche-no-anger-elisabeth-lebovici/",
+      "image": null,
+      "id": "5ee50d09dc99"
+    },
+    {
       "venue": "Marché Gare",
       "venue_slug": "marche-gare",
       "title": "LES 20 ANS ! Concert du Labo Claire Days + Citron Sucré + JIA Concert du Labo anniversaire",
@@ -482,6 +690,32 @@
       "url": "https://larayonne.org/evenement/reve-x-blob-party/",
       "image": null,
       "id": "dde2907b0227"
+    },
+    {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Litterature Live The Dark Prelude Folk Mariepierre Brebant Gabriel Gauthier",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-05-22",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.les-subs.com/evenement/litterature-live-the-dark-prelude-folk-mariepierre-brebant-gabriel-gauthier/",
+      "image": null,
+      "id": "58e91fb77777"
+    },
+    {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "La Catastrophe Guillaume Bailliart",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-05-23",
+      "date_end": null,
+      "time": "16:00",
+      "url": "https://www.les-subs.com/evenement/la-catastrophe-guillaume-bailliart/",
+      "image": null,
+      "id": "21d2737a30f5"
     },
     {
       "venue": "La Rayonne",
@@ -549,6 +783,19 @@
       "id": "99551c092747"
     },
     {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Nocturne Parade Phia Menard",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-05-26",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.les-subs.com/evenement/nocturne-parade-phia-menard/",
+      "image": null,
+      "id": "ed1d1f16805b"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "POETIC LOVER TOUR",
@@ -560,6 +807,32 @@
       "url": "https://radiant-bellevue.fr/spectacles/poetic-lover-tour-2/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/01/affiche-e1767893533122-500x500.png",
       "id": "0c43b2af8501"
+    },
+    {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Nocturne Parade Phia Menard",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-05-27",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.les-subs.com/evenement/nocturne-parade-phia-menard/",
+      "image": null,
+      "id": "620e78b15dd9"
+    },
+    {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Nocturne Parade Phia Menard",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-05-27",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.les-subs.com/evenement/nocturne-parade-phia-menard/",
+      "image": null,
+      "id": "fc80db93a67b"
     },
     {
       "venue": "Marché Gare",
@@ -588,6 +861,19 @@
       "id": "1459a2313dc8"
     },
     {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Nocturne Parade Phia Menard",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-05-28",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.les-subs.com/evenement/nocturne-parade-phia-menard/",
+      "image": null,
+      "id": "4ebd0ccefa01"
+    },
+    {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
       "title": "club x Asian Core",
@@ -614,6 +900,19 @@
       "id": "f1d88b07d940"
     },
     {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Fais Ton Cirque",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-05-29",
+      "date_end": null,
+      "time": "17:30",
+      "url": "https://www.les-subs.com/evenement/fais-ton-cirque/",
+      "image": null,
+      "id": "9ccf78d0c95b"
+    },
+    {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
       "title": "club",
@@ -638,6 +937,32 @@
       "url": "https://radiant-bellevue.fr/spectacles/rosa-bursztein/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2025/06/credit-Audouin-Desforges-e1749735860252-500x500.jpeg",
       "id": "232464836f4f"
+    },
+    {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Minipousses Danse",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-05-30",
+      "date_end": null,
+      "time": "14:30",
+      "url": "https://www.les-subs.com/evenement/minipousses-danse/",
+      "image": null,
+      "id": "63fd8ea7f294"
+    },
+    {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Minipousses Danse",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-05-30",
+      "date_end": null,
+      "time": "16:00",
+      "url": "https://www.les-subs.com/evenement/minipousses-danse/",
+      "image": null,
+      "id": "2d1a4e95cdde"
     },
     {
       "venue": "La Rayonne",
@@ -718,6 +1043,19 @@
       "id": "0a56ce915a75"
     },
     {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Subs Visites Historiques",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-06-03",
+      "date_end": null,
+      "time": "18:30",
+      "url": "https://www.les-subs.com/evenement/subs-visites-historiques/",
+      "image": null,
+      "id": "23b2d29b4096"
+    },
+    {
       "venue": "Marché Gare",
       "venue_slug": "marche-gare",
       "title": "LES 20 ANS ! Animation Le Qu'ouis-je? spécial Marché Gare Blindtest décalé",
@@ -744,6 +1082,32 @@
       "id": "8e58c7b967c0"
     },
     {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Nuits De Fourviere 2026 Ce Que Le Ciel Ne Sait Pas Feda Wardak",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-06-04",
+      "date_end": null,
+      "time": "21:30",
+      "url": "https://www.les-subs.com/evenement/nuits-de-fourviere-2026-ce-que-le-ciel-ne-sait-pas-feda-wardak/",
+      "image": null,
+      "id": "ec348bcdaacf"
+    },
+    {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Nuits De Fourviere 2026 Ce Que Le Ciel Ne Sait Pas Feda Wardak",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-06-05",
+      "date_end": null,
+      "time": "21:30",
+      "url": "https://www.les-subs.com/evenement/nuits-de-fourviere-2026-ce-que-le-ciel-ne-sait-pas-feda-wardak/",
+      "image": null,
+      "id": "933e1eb079f7"
+    },
+    {
       "venue": "La Rayonne",
       "venue_slug": "la-rayonne",
       "title": "[Un été à La Rayonne] Les Intergalactiques · 14e édition",
@@ -755,6 +1119,45 @@
       "url": "https://larayonne.org/evenement/les-intergalactiques-%c2%b7-14e-edition/",
       "image": null,
       "id": "f8df2158cb55"
+    },
+    {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Minipousses Cirque",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-06-06",
+      "date_end": null,
+      "time": "14:30",
+      "url": "https://www.les-subs.com/evenement/minipousses-cirque/",
+      "image": null,
+      "id": "8025c5134f83"
+    },
+    {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Minipousses Cirque",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-06-06",
+      "date_end": null,
+      "time": "16:00",
+      "url": "https://www.les-subs.com/evenement/minipousses-cirque/",
+      "image": null,
+      "id": "dc1aee91bd72"
+    },
+    {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Nuits De Fourviere 2026 Ce Que Le Ciel Ne Sait Pas Feda Wardak",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-06-06",
+      "date_end": null,
+      "time": "21:30",
+      "url": "https://www.les-subs.com/evenement/nuits-de-fourviere-2026-ce-que-le-ciel-ne-sait-pas-feda-wardak/",
+      "image": null,
+      "id": "f44b6ceb3f99"
     },
     {
       "venue": "La Rayonne",
@@ -1004,6 +1407,32 @@
       "id": "a176f5f1a30f"
     },
     {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Rodeo Lea Drouet",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-06-11",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.les-subs.com/evenement/rodeo-lea-drouet/",
+      "image": null,
+      "id": "af6802b5cab9"
+    },
+    {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Mirages Et Tendresses Ivana Muller",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-06-11",
+      "date_end": null,
+      "time": "21:00",
+      "url": "https://www.les-subs.com/evenement/mirages-et-tendresses-ivana-muller/",
+      "image": null,
+      "id": "30ecf104959b"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "NICKY DOLL + 1ère partie",
@@ -1015,6 +1444,32 @@
       "url": "https://radiant-bellevue.fr/spectacles/nicky-doll-1ere-partie/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/03/nicky-doll_radiant-bellevue-500x500.jpg",
       "id": "efd238ca555c"
+    },
+    {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Mirages Et Tendresses Ivana Muller",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-06-12",
+      "date_end": null,
+      "time": "21:00",
+      "url": "https://www.les-subs.com/evenement/mirages-et-tendresses-ivana-muller/",
+      "image": null,
+      "id": "f7d32aba93a8"
+    },
+    {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Restitution Des Ateliers Pratiques Amateures",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-06-13",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.les-subs.com/evenement/restitution-des-ateliers-pratiques-amateures/",
+      "image": null,
+      "id": "3ef475183017"
     },
     {
       "venue": "Marché Gare",
@@ -1030,6 +1485,97 @@
       "id": "e67f86ee20db"
     },
     {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Festival Dance People 2026 Rencontre Culture Politique",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-06-19",
+      "date_end": null,
+      "time": "11:00",
+      "url": "https://www.les-subs.com/evenement/festival-dance-people-2026-rencontre-culture-politique/",
+      "image": null,
+      "id": "e05cb9312ad8"
+    },
+    {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Festival Dance People 2026 60 Secondes 60 Minutes",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-06-19",
+      "date_end": null,
+      "time": "18:15",
+      "url": "https://www.les-subs.com/evenement/festival-dance-people-2026-60-secondes-60-minutes/",
+      "image": null,
+      "id": "d9721bb1104c"
+    },
+    {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Festival Dance People 2026 Rencontres Improvisees 2",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-06-19",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.les-subs.com/evenement/festival-dance-people-2026-rencontres-improvisees-2/",
+      "image": null,
+      "id": "1db687fca5e1"
+    },
+    {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Festial Dance People 2026 Maqamat",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-06-19",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.les-subs.com/evenement/festial-dance-people-2026-maqamat/",
+      "image": null,
+      "id": "7c2f33268318"
+    },
+    {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Festival Dance People 2026 Breakfast Dialogues",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-06-20",
+      "date_end": null,
+      "time": "10:00",
+      "url": "https://www.les-subs.com/evenement/festival-dance-people-2026-breakfast-dialogues/",
+      "image": null,
+      "id": "a0491c1da573"
+    },
+    {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Atelier Danse Pour Enfants",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-06-20",
+      "date_end": null,
+      "time": "11:00",
+      "url": "https://www.les-subs.com/evenement/atelier-danse-pour-enfants/",
+      "image": null,
+      "id": "74fef6e5d978"
+    },
+    {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Festival Dance People 2026 Quatre Quarts",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-06-20",
+      "date_end": null,
+      "time": "14:30",
+      "url": "https://www.les-subs.com/evenement/festival-dance-people-2026-quatre-quarts/",
+      "image": null,
+      "id": "b4cc9685938d"
+    },
+    {
       "venue": "Marché Gare",
       "venue_slug": "marche-gare",
       "title": "Jeune Public MÊME PAS CAP ! 6e édition LA FÊTE DE LA MUSIQUE DES ENFANTS",
@@ -1043,6 +1589,45 @@
       "id": "82f864d09281"
     },
     {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Festival Dance People 2026 Prelude To Violenceghida Hachicho",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-06-20",
+      "date_end": null,
+      "time": "16:30",
+      "url": "https://www.les-subs.com/evenement/festival-dance-people-2026-prelude-to-violenceghida-hachicho/",
+      "image": null,
+      "id": "b4eb95d40f77"
+    },
+    {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Festival Dance People 2026 Rencontres Improvisees 2",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-06-20",
+      "date_end": null,
+      "time": "17:30",
+      "url": "https://www.les-subs.com/evenement/festival-dance-people-2026-rencontres-improvisees-2/",
+      "image": null,
+      "id": "5ee92e1c36a0"
+    },
+    {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Festival Dance People 2026 Heartquake Ekin Tunceli",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-06-20",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://www.les-subs.com/evenement/festival-dance-people-2026-heartquake-ekin-tunceli/",
+      "image": null,
+      "id": "c69fb61bd0b4"
+    },
+    {
       "venue": "La Rayonne",
       "venue_slug": "la-rayonne",
       "title": "[Un été à La Rayonne] Blood Incantation (Europe tour 2026) + Nate Mercereau",
@@ -1054,6 +1639,149 @@
       "url": "https://larayonne.org/evenement/blood-incantation-absolute-elsetour-europe-2026-nate-mercereau/",
       "image": null,
       "id": "fd21a4ed912f"
+    },
+    {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Festival Dance People 2026 Le Sacre Du Printemps Roger Bernat",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-06-20",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.les-subs.com/evenement/festival-dance-people-2026-le-sacre-du-printemps-roger-bernat/",
+      "image": null,
+      "id": "787fde456b53"
+    },
+    {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Festival Dance People 2026 Bless The Sound That Saved A Witch Like Me Benjamin Kahn",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-06-20",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.les-subs.com/evenement/festival-dance-people-2026-bless-the-sound-that-saved-a-witch-like-me-benjamin-kahn/",
+      "image": null,
+      "id": "fc46f5de8144"
+    },
+    {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Festival Dance People 2026 Le Sacre Du Printemps Roger Bernat",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-06-20",
+      "date_end": null,
+      "time": "21:00",
+      "url": "https://www.les-subs.com/evenement/festival-dance-people-2026-le-sacre-du-printemps-roger-bernat/",
+      "image": null,
+      "id": "5fc9a9b0f45e"
+    },
+    {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Festival Dance People 2026 Breakfast Dialogues",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-06-21",
+      "date_end": null,
+      "time": "10:00",
+      "url": "https://www.les-subs.com/evenement/festival-dance-people-2026-breakfast-dialogues/",
+      "image": null,
+      "id": "3e336c579af7"
+    },
+    {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Festival Dance People 2026 La Cite Bouge Cie Relevant",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-06-21",
+      "date_end": null,
+      "time": "16:00",
+      "url": "https://www.les-subs.com/evenement/festival-dance-people-2026-la-cite-bouge-cie-relevant/",
+      "image": null,
+      "id": "0ad323cf4eb3"
+    },
+    {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Festival Dance People 2026 Poder Ser Leila Ka",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-06-21",
+      "date_end": null,
+      "time": "17:00",
+      "url": "https://www.les-subs.com/evenement/festival-dance-people-2026-poder-ser-leila-ka/",
+      "image": null,
+      "id": "5f89d4c61a09"
+    },
+    {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Festival Dance People 2026 Kms Of Resistance Mehdi Dahkan",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-06-21",
+      "date_end": null,
+      "time": "17:30",
+      "url": "https://www.les-subs.com/evenement/festival-dance-people-2026-kms-of-resistance-mehdi-dahkan/",
+      "image": null,
+      "id": "0f2da930d4ad"
+    },
+    {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Festival Dance People 2026 Rencontres Improvisees 2",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-06-21",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://www.les-subs.com/evenement/festival-dance-people-2026-rencontres-improvisees-2/",
+      "image": null,
+      "id": "a18d96657a06"
+    },
+    {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Festival Dance People 2026 Souls Power Hamdi Dridi",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-06-21",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.les-subs.com/evenement/festival-dance-people-2026-souls-power-hamdi-dridi/",
+      "image": null,
+      "id": "5c228488cbfc"
+    },
+    {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Festival Dance People 2026 Fete De La Musique",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-06-21",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.les-subs.com/evenement/festival-dance-people-2026-fete-de-la-musique/",
+      "image": null,
+      "id": "9c5e3b52a329"
+    },
+    {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Hudge",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-06-25",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.les-subs.com/evenement/hudge/",
+      "image": null,
+      "id": "dd2dc6fee0c2"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -1080,6 +1808,32 @@
       "url": "https://radiant-bellevue.fr/spectacles/compagnie-dca-philippe-decoufle/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/03/philippe-decoufle_radiant-bellevue-500x500.jpg",
       "id": "79f7f6e11934"
+    },
+    {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Minipousses Cirque",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-06-27",
+      "date_end": null,
+      "time": "14:30",
+      "url": "https://www.les-subs.com/evenement/minipousses-cirque/",
+      "image": null,
+      "id": "83718993e3e8"
+    },
+    {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Minipousses Cirque",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-06-27",
+      "date_end": null,
+      "time": "16:00",
+      "url": "https://www.les-subs.com/evenement/minipousses-cirque/",
+      "image": null,
+      "id": "821aff9cde7e"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -1119,6 +1873,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/rise-against/",
       "image": null,
       "id": "2af3a48e4793"
+    },
+    {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Nuits De Fourviere 2026 Le Bal Shangwe Wanjiru Kamuyu",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-07-14",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://www.les-subs.com/evenement/nuits-de-fourviere-2026-le-bal-shangwe-wanjiru-kamuyu/",
+      "image": null,
+      "id": "586589ad8abd"
     },
     {
       "venue": "Radiant-Bellevue",
