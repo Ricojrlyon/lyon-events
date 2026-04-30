@@ -1,19 +1,12 @@
 """Scraper for Les Subsistances (les-subs.com/agenda).
 
-Approach: anchor on TITLE elements (h2/h3), not on /evenement/ links.
-
-Why: a previous version anchored on /evenement/ links, but the only such link
-on the agenda listing page is a promotional banner ("Fun Times"). The rest of
-the events are listed without explicit /evenement/ links visible from the
-listing — they're either in non-link form or wrapped in a different URL
-pattern. So we look for headings instead, then walk up to find a card that
-contains both the heading and a date pattern.
-
-The URL for each event is derived from any link found inside the card; if
-none is found, we fall back to the agenda URL.
+When the scraper returns 0 events, it prints a diagnostic block to stderr
+showing what's actually on the page so we can see what HTML pattern to
+target next.
 """
 from typing import List, Optional
 import re
+import sys
 import requests
 from bs4 import BeautifulSoup
 
@@ -30,9 +23,14 @@ HEADERS = {
     "Accept-Language": "fr-FR,fr;q=0.9",
 }
 
-# Date pattern: "mer. 6 Mai | 18:30"
+# Bullet date pattern: "mer. 6 Mai | 18:30"
 DATE_RE = re.compile(
     r"\b(\w+)\.?\s+(\d{1,2})\s+(\w+)\s*\|\s*(\d{1,2}):(\d{2})",
+    re.IGNORECASE,
+)
+# Generic date keyword pattern (looser): "6 Mai" / "06 mai 2026"
+LOOSE_DATE_RE = re.compile(
+    r"\b(\d{1,2})\s+(janv|f[eé]vr|mars|avr|mai|juin|juil|ao[uû]t|sept|oct|nov|d[eé]c)",
     re.IGNORECASE,
 )
 
@@ -43,11 +41,10 @@ CATEGORIES = (
     "Vidéo", "Arts visuels",
 )
 
-# Headings to ignore: navigation, banner, etc.
 IGNORE_TITLES = {
     "agenda", "menu", "fermer", "retour", "billetterie",
     "newsletter", "presse", "contact", "search", "recherche",
-    "fun times",  # promotional banner
+    "fun times",
     "les subs", "le projet", "l'histoire", "l'équipe", "les espaces",
     "infos pratiques", "boire & manger", "accès & horaires",
     "mécénat", "privatisation", "médiations",
@@ -63,7 +60,6 @@ IGNORE_TITLES = {
 
 
 def _find_card_for_title(heading, max_levels: int = 6):
-    """Walk up from a heading until we find a parent that contains a date."""
     el = heading
     for _ in range(max_levels):
         parent = el.parent
@@ -76,11 +72,6 @@ def _find_card_for_title(heading, max_levels: int = 6):
 
 
 def _card_url(card, fallback: str) -> str:
-    """Pick the most relevant URL from inside a card.
-
-    Prefers /evenement/ links, then /oeuvre/, then /temps-fort/, then any
-    link going to the same domain. Falls back to the agenda page URL.
-    """
     candidates_priority = ("/evenement/", "/oeuvre/", "/temps-fort/", "/spectacle/")
     for prefix in candidates_priority:
         for a in card.find_all("a", href=True):
@@ -90,6 +81,45 @@ def _card_url(card, fallback: str) -> str:
                     href = HOST + href
                 return href
     return fallback
+
+
+def _print_diagnostic(soup, response_text: str):
+    """Print structural diagnostic info to stderr."""
+    print("=" * 60, file=sys.stderr)
+    print("DIAGNOSTIC: Les Subsistances scraper found 0 events.", file=sys.stderr)
+    print(f"  Page size: {len(response_text)} bytes", file=sys.stderr)
+    evenement_links = soup.select('a[href*="/evenement/"]')
+    print(f"  /evenement/ links: {len(evenement_links)}", file=sys.stderr)
+    for a in evenement_links[:3]:
+        print(f"    - {a.get('href', '')!r}", file=sys.stderr)
+    h2s = soup.find_all("h2")
+    h3s = soup.find_all("h3")
+    print(f"  <h2> count: {len(h2s)}", file=sys.stderr)
+    print(f"  <h3> count: {len(h3s)}", file=sys.stderr)
+    print("  First 8 h2 texts:", file=sys.stderr)
+    for h in h2s[:8]:
+        t = h.get_text(strip=True)[:80]
+        print(f"    - {t!r}", file=sys.stderr)
+    print("  First 8 h3 texts:", file=sys.stderr)
+    for h in h3s[:8]:
+        t = h.get_text(strip=True)[:80]
+        print(f"    - {t!r}", file=sys.stderr)
+
+    page_text = soup.get_text(" ", strip=True)
+    strict_dates = DATE_RE.findall(page_text)
+    loose_dates = LOOSE_DATE_RE.findall(page_text)
+    print(f"  Strict date matches (with time): {len(strict_dates)}", file=sys.stderr)
+    print(f"    First 5: {strict_dates[:5]}", file=sys.stderr)
+    print(f"  Loose date matches (day+month): {len(loose_dates)}", file=sys.stderr)
+    print(f"    First 5: {loose_dates[:5]}", file=sys.stderr)
+
+    # Show a sample of the body text for visual inspection
+    body = soup.find("body")
+    if body:
+        body_text = body.get_text(" ", strip=True)
+        print(f"  First 400 chars of body text:", file=sys.stderr)
+        print(f"    {body_text[:400]!r}", file=sys.stderr)
+    print("=" * 60, file=sys.stderr)
 
 
 def fetch() -> List[Event]:
@@ -116,7 +146,6 @@ def fetch() -> List[Event]:
         if not date_matches:
             continue
 
-        # Subtitle: the next h3/h4 sibling-ish element after the title heading
         subtitle: Optional[str] = None
         headings_in_card = card.find_all(["h2", "h3", "h4"])
         if h in headings_in_card:
@@ -141,7 +170,6 @@ def fetch() -> List[Event]:
 
         href = _card_url(card, fallback=URL)
 
-        # Build one event per date occurrence
         for _, day_num, month_str, hour, minute in date_matches:
             d = parse_french_date(f"{day_num} {month_str}")
             if not d:
@@ -163,9 +191,12 @@ def fetch() -> List[Event]:
                 image=image,
             ))
 
+    if not events:
+        _print_diagnostic(soup, resp.text)
+
     return events
 
 
 if __name__ == "__main__":
     for e in fetch():
-        print(e.date_start, e.time or "  -  ", "·", e.title, "—", e.subtitle or "", "·", e.url)
+        print(e.date_start, e.time or "  -  ", "·", e.title, "·", e.url)
