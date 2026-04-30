@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-30T09:02:40.318079+00:00",
-  "count": 206,
+  "generated_at": "2026-04-30T13:01:13.469516+00:00",
+  "count": 185,
   "events": [
     {
       "venue": "Le Sucre",
@@ -27,6 +27,32 @@
       "url": "https://radiant-bellevue.fr/spectacles/paul-de-saint-sernin/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2025/03/paul-de-saint-sernin_radiant-bellevue-500x500.jpg",
       "id": "3c5058937221"
+    },
+    {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "Découvrir les modèles coopératifs (SCIC, SCOP et CAE) pour développer un projet artistique et culturel",
+      "subtitle": null,
+      "category": "rencontre",
+      "date_start": "2026-04-30",
+      "date_end": null,
+      "time": "14:00",
+      "url": "https://larayonne.org/evenement/decouvrir-les-modeles-cooperatifs-pour-developper-un-projet-artistique-et-culturel/",
+      "image": null,
+      "id": "3c59e2eda9f4"
+    },
+    {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "LANGUES DE LUTTES – 1è soirée de luttes féministes & des minorités de genre",
+      "subtitle": null,
+      "category": "musique",
+      "date_start": "2026-04-30",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://larayonne.org/evenement/langues-de-luttes/",
+      "image": null,
+      "id": "ea75ea0ea147"
     },
     {
       "venue": "Marché Gare",
@@ -68,6 +94,19 @@
       "id": "dfde855fead0"
     },
     {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "[Un été à La Rayonne] BASS MUSIC DAY CLUB avec Physical Tool",
+      "subtitle": null,
+      "category": "musique",
+      "date_start": "2026-05-02",
+      "date_end": null,
+      "time": "16:00",
+      "url": "https://larayonne.org/evenement/bass-music-day-club-avec-physical-tool/",
+      "image": null,
+      "id": "49d75534f1ea"
+    },
+    {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
       "title": "S.society x TSSRCT",
@@ -79,6 +118,19 @@
       "url": "https://le-sucre.eu/events/s-society-x-tssrct/",
       "image": "https://le-sucre.eu/wp-content/uploads/2026/03/TSSRCT_-600x338.png",
       "id": "7e1258a38c8a"
+    },
+    {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "[Un été à La Rayonne] OUTRANCE Daylight Gathering – Psytrance & Psytech",
+      "subtitle": null,
+      "category": "musique",
+      "date_start": "2026-05-03",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://larayonne.org/evenement/outrance-daylight-gathering-psytrance-psytech/",
+      "image": null,
+      "id": "b1846cc1c652"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -133,19 +185,6 @@
       "id": "013a873c70ad"
     },
     {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-05-06",
-      "date_end": null,
-      "time": "18:30",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "5fa778ff484b"
-    },
-    {
       "venue": "Marché Gare",
       "venue_slug": "marche-gare",
       "title": "Concert du Labo Clo + Rroy + Alyosha",
@@ -185,32 +224,6 @@
       "id": "24989f20e555"
     },
     {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-05-07",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "4a752ee56959"
-    },
-    {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-05-07",
-      "date_end": null,
-      "time": "20:30",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "567b6cf2714f"
-    },
-    {
       "venue": "Marché Gare",
       "venue_slug": "marche-gare",
       "title": "Pop-Rock BANDIT BANDIT",
@@ -237,45 +250,6 @@
       "id": "0021be5e7bc0"
     },
     {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-05-08",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "fd9446e28887"
-    },
-    {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-05-08",
-      "date_end": null,
-      "time": "20:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "2fa76d0b250f"
-    },
-    {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-05-08",
-      "date_end": null,
-      "time": "21:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "c9a87d79562e"
-    },
-    {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
       "title": "club",
@@ -289,56 +263,17 @@
       "id": "193d2c1e28a8"
     },
     {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "[Un été à La Rayonne] Jahman X-Press",
       "subtitle": null,
-      "category": "théâtre",
+      "category": "musique",
       "date_start": "2026-05-09",
       "date_end": null,
-      "time": "16:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
+      "time": "19:30",
+      "url": "https://larayonne.org/evenement/jahman-x-press-2/",
       "image": null,
-      "id": "cc1a2130cc33"
-    },
-    {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-05-09",
-      "date_end": null,
-      "time": "18:30",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "36fb1cb2dda7"
-    },
-    {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-05-09",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "ad4598f89a30"
-    },
-    {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-05-09",
-      "date_end": null,
-      "time": "20:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "27c80f241ef0"
+      "id": "c3260b9eb89a"
     },
     {
       "venue": "Le Sucre",
@@ -354,43 +289,17 @@
       "id": "9ce7a9e782bc"
     },
     {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "[Un été à La Rayonne] Karnivool + Intervals",
       "subtitle": null,
-      "category": "théâtre",
+      "category": "musique",
       "date_start": "2026-05-10",
       "date_end": null,
-      "time": "15:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
+      "time": "19:00",
+      "url": "https://larayonne.org/evenement/karnivool-intervals/",
       "image": null,
-      "id": "462fee4b8b80"
-    },
-    {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-05-10",
-      "date_end": null,
-      "time": "16:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "4981e1547023"
-    },
-    {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-05-10",
-      "date_end": null,
-      "time": "17:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "8342b04de17c"
+      "id": "7cd61ac215b1"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -432,6 +341,19 @@
       "id": "a7514dd12469"
     },
     {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "ATELIER // Les bases sur les droits d’auteur dans la musique",
+      "subtitle": null,
+      "category": "rencontre",
+      "date_start": "2026-05-12",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://larayonne.org/evenement/atelier-les-bases-sur-les-droits-dauteur-dans-la-musique/",
+      "image": null,
+      "id": "700f40f393c0"
+    },
+    {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
       "title": "club",
@@ -471,19 +393,6 @@
       "id": "a770bdc7394c"
     },
     {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-05-15",
-      "date_end": null,
-      "time": "20:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "122d97f9334e"
-    },
-    {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
       "title": "club",
@@ -508,19 +417,6 @@
       "url": "https://marchegare.fr/agenda/paledusk",
       "image": null,
       "id": "eb534c245846"
-    },
-    {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-05-16",
-      "date_end": null,
-      "time": "20:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "e55fc000377b"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -562,6 +458,19 @@
       "id": "dcd245fd9d2b"
     },
     {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "La fiscalité des associations",
+      "subtitle": null,
+      "category": "rencontre",
+      "date_start": "2026-05-19",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://larayonne.org/evenement/la-fiscalite-des-associations-3/",
+      "image": null,
+      "id": "4faa10a98569"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "CHIMENE BADI",
@@ -575,17 +484,17 @@
       "id": "1490c4d7a77f"
     },
     {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "Mettre en place une gouvernance partagée : atelier théorique (1/2)",
       "subtitle": null,
-      "category": "théâtre",
+      "category": "rencontre",
       "date_start": "2026-05-21",
       "date_end": null,
-      "time": "19:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
+      "time": "18:30",
+      "url": "https://larayonne.org/evenement/mettre-en-place-une-gouvernance-partagee-atelier-theorique-1-2/",
       "image": null,
-      "id": "24892c5eb7eb"
+      "id": "e3ec20a10990"
     },
     {
       "venue": "Marché Gare",
@@ -614,30 +523,43 @@
       "id": "2f2d19669e77"
     },
     {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "[Un été à La Rayonne] REVE x Blob Party",
       "subtitle": null,
-      "category": "théâtre",
+      "category": "musique",
       "date_start": "2026-05-22",
       "date_end": null,
       "time": "19:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
+      "url": "https://larayonne.org/evenement/reve-x-blob-party/",
       "image": null,
-      "id": "1308b3686433"
+      "id": "dde2907b0227"
     },
     {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "[Un été à La Rayonne] Concert Tribute : Early Maggots + Meteora + Dear Sally",
       "subtitle": null,
-      "category": "théâtre",
+      "category": "musique",
       "date_start": "2026-05-23",
       "date_end": null,
-      "time": "16:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
+      "time": "19:00",
+      "url": "https://larayonne.org/evenement/concert-tribute-early-maggots-meteora-dear-sally/",
       "image": null,
-      "id": "62b959b34da2"
+      "id": "e0ceaf20a3ae"
+    },
+    {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "CHANGEMENT SALLE // The Gathering & Anneke Van Giersbergen se produira au Transbordeur",
+      "subtitle": null,
+      "category": "musique",
+      "date_start": "2026-05-24",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://larayonne.org/evenement/the-gathering-anneke-van-giersbergen/",
+      "image": null,
+      "id": "e95715b8d3a0"
     },
     {
       "venue": "Le Sucre",
@@ -679,19 +601,6 @@
       "id": "99551c092747"
     },
     {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-05-26",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "a0d7c3995a72"
-    },
-    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "POETIC LOVER TOUR",
@@ -705,30 +614,17 @@
       "id": "0c43b2af8501"
     },
     {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "Mettre en place une gouvernance partagée : atelier de co-développement (2/2)",
       "subtitle": null,
-      "category": "théâtre",
+      "category": "rencontre",
       "date_start": "2026-05-27",
       "date_end": null,
-      "time": "15:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
+      "time": "14:30",
+      "url": "https://larayonne.org/evenement/mettre-en-place-une-gouvernance-partagee-atelier-de-co-developpement-2-2/",
       "image": null,
-      "id": "8b6af99dc945"
-    },
-    {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-05-27",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "f56bd64f011b"
+      "id": "4435784821ac"
     },
     {
       "venue": "Marché Gare",
@@ -757,17 +653,17 @@
       "id": "1459a2313dc8"
     },
     {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "Comment attirer et fidéliser des bénévoles ?",
       "subtitle": null,
-      "category": "théâtre",
+      "category": "rencontre",
       "date_start": "2026-05-28",
       "date_end": null,
-      "time": "19:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
+      "time": "18:00",
+      "url": "https://larayonne.org/evenement/comment-attirer-et-fideliser-des-benevoles/",
       "image": null,
-      "id": "a3d294b37412"
+      "id": "7d9184368767"
     },
     {
       "venue": "Le Sucre",
@@ -796,19 +692,6 @@
       "id": "f1d88b07d940"
     },
     {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-05-29",
-      "date_end": null,
-      "time": "17:30",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "6abdbfe18e0c"
-    },
-    {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
       "title": "club",
@@ -835,30 +718,17 @@
       "id": "232464836f4f"
     },
     {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "[Un été à La Rayonne] 2L",
       "subtitle": null,
-      "category": "théâtre",
+      "category": "musique",
       "date_start": "2026-05-30",
       "date_end": null,
-      "time": "14:30",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
+      "time": "19:00",
+      "url": "https://larayonne.org/evenement/2l/",
       "image": null,
-      "id": "aaf43c652610"
-    },
-    {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-05-30",
-      "date_end": null,
-      "time": "16:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "5369c08098be"
+      "id": "d723818076c7"
     },
     {
       "venue": "Le Sucre",
@@ -902,7 +772,7 @@
     {
       "venue": "Marché Gare",
       "venue_slug": "marche-gare",
-      "title": "Non disponible en ligne LES 20 ANS ! FÊTE DES VOISIN·ES Concert et buffet partagé",
+      "title": "LES 20 ANS ! FÊTE DES VOISIN·ES Concert et buffet partagé",
       "subtitle": null,
       "category": null,
       "date_start": "2026-05-31",
@@ -910,7 +780,7 @@
       "time": "18:00",
       "url": "https://marchegare.fr/agenda/fete-des-voisines-les-20-ans",
       "image": null,
-      "id": "0b82e997d66a"
+      "id": "b3ea53a754df"
     },
     {
       "venue": "Le Sucre",
@@ -926,17 +796,17 @@
       "id": "0a56ce915a75"
     },
     {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "Mettre en place une comptabilité pour les petites associations",
       "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-06-03",
+      "category": "rencontre",
+      "date_start": "2026-06-02",
       "date_end": null,
-      "time": "18:30",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
+      "time": "17:30",
+      "url": "https://larayonne.org/evenement/mettre-en-place-une-comptabilite-pour-les-petites-associations-5/",
       "image": null,
-      "id": "e91a8b192337"
+      "id": "98c06729dba8"
     },
     {
       "venue": "Marché Gare",
@@ -952,69 +822,30 @@
       "id": "cf21bcbb46c2"
     },
     {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
+      "venue": "Radiant-Bellevue",
+      "venue_slug": "radiant-bellevue",
+      "title": "Présentation Saison 26-27",
       "subtitle": null,
-      "category": "théâtre",
+      "category": null,
       "date_start": "2026-06-04",
       "date_end": null,
-      "time": "21:30",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
+      "time": null,
+      "url": "https://radiant-bellevue.fr/spectacles/presentation-saison-26-27/",
       "image": null,
-      "id": "2aef287e5516"
+      "id": "8e58c7b967c0"
     },
     {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "[Un été à La Rayonne] Les Intergalactiques · 14e édition",
       "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-06-05",
-      "date_end": null,
-      "time": "21:30",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "3539f348483d"
-    },
-    {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
+      "category": "rencontre",
       "date_start": "2026-06-06",
-      "date_end": null,
-      "time": "14:30",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
+      "date_end": "2026-06-07",
+      "time": null,
+      "url": "https://larayonne.org/evenement/les-intergalactiques-%c2%b7-14e-edition/",
       "image": null,
-      "id": "7c0ae49cd9b7"
-    },
-    {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-06-06",
-      "date_end": null,
-      "time": "16:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "3c83b53d5a6d"
-    },
-    {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-06-06",
-      "date_end": null,
-      "time": "21:30",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "7b38557816d1"
+      "id": "f8df2158cb55"
     },
     {
       "venue": "Marché Gare",
@@ -1043,30 +874,43 @@
       "id": "6c58402d2002"
     },
     {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "S’initier aux techniques d’animation participative",
       "subtitle": null,
-      "category": "théâtre",
+      "category": "rencontre",
+      "date_start": "2026-06-09",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://larayonne.org/evenement/sinitier-aux-techniques-danimation-participative-2/",
+      "image": null,
+      "id": "0e788e42271f"
+    },
+    {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "Atelier : « S’occuper du conflit avant qu’il ne s’occupe de nous »",
+      "subtitle": null,
+      "category": "rencontre",
+      "date_start": "2026-06-11",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://larayonne.org/evenement/atelier-soccuper-du-conflit-avant-quil-ne-soccupe-de-nous/",
+      "image": null,
+      "id": "1ddccb01beff"
+    },
+    {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "DAVID MC FLY",
+      "subtitle": null,
+      "category": "musique",
       "date_start": "2026-06-11",
       "date_end": null,
       "time": "19:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
+      "url": "https://larayonne.org/evenement/david-mc-fly/",
       "image": null,
-      "id": "a3462bdbc876"
-    },
-    {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-06-11",
-      "date_end": null,
-      "time": "21:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "ab3507e31348"
+      "id": "a176f5f1a30f"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -1082,30 +926,30 @@
       "id": "efd238ca555c"
     },
     {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "Les obligations des associations employeuses",
       "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-06-12",
+      "category": "rencontre",
+      "date_start": "2026-06-16",
       "date_end": null,
-      "time": "21:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
+      "time": "18:00",
+      "url": "https://larayonne.org/evenement/les-obligations-des-associations-employeuses-3/",
       "image": null,
-      "id": "1ab4cd6ffa79"
+      "id": "3f72ab8b50b1"
     },
     {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "Mieux appréhender les réseaux sociaux",
       "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-06-13",
+      "category": "rencontre",
+      "date_start": "2026-06-18",
       "date_end": null,
-      "time": "15:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
+      "time": "18:30",
+      "url": "https://larayonne.org/evenement/mieux-apprehender-les-reseaux-sociaux/",
       "image": null,
-      "id": "011601b5a45e"
+      "id": "9e07837e4052"
     },
     {
       "venue": "Marché Gare",
@@ -1121,97 +965,6 @@
       "id": "e67f86ee20db"
     },
     {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-06-19",
-      "date_end": null,
-      "time": "11:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "b472d6e5e8a6"
-    },
-    {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-06-19",
-      "date_end": null,
-      "time": "18:15",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "8a52bdf78d75"
-    },
-    {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-06-19",
-      "date_end": null,
-      "time": "19:30",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "0b585dc78595"
-    },
-    {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-06-19",
-      "date_end": null,
-      "time": "20:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "ac3ace2762cd"
-    },
-    {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-06-20",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "96f2a324cc5a"
-    },
-    {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-06-20",
-      "date_end": null,
-      "time": "11:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "38c19800f551"
-    },
-    {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-06-20",
-      "date_end": null,
-      "time": "14:30",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "6ce7e176db62"
-    },
-    {
       "venue": "Marché Gare",
       "venue_slug": "marche-gare",
       "title": "Jeune Public MÊME PAS CAP ! 6e édition LA FÊTE DE LA MUSIQUE DES ENFANTS",
@@ -1225,186 +978,30 @@
       "id": "82f864d09281"
     },
     {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "[Un été à La Rayonne] Blood Incantation (Europe tour 2026) + Nate Mercereau",
       "subtitle": null,
-      "category": "théâtre",
+      "category": "musique",
       "date_start": "2026-06-20",
-      "date_end": null,
-      "time": "16:30",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "e9369ba88b42"
-    },
-    {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-06-20",
-      "date_end": null,
-      "time": "17:30",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "93b7b03b7183"
-    },
-    {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-06-20",
-      "date_end": null,
-      "time": "18:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "2b52bd05ec4f"
-    },
-    {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-06-20",
-      "date_end": null,
+      "date_end": "2026-06-20",
       "time": "19:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
+      "url": "https://larayonne.org/evenement/blood-incantation-absolute-elsetour-europe-2026-nate-mercereau/",
       "image": null,
-      "id": "e7c17e5e9d6a"
+      "id": "fd21a4ed912f"
     },
     {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "Présenter et mettre en valeur son projet à l’oral : atelier théorique (1/2)",
       "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-06-20",
+      "category": "rencontre",
+      "date_start": "2026-06-23",
       "date_end": null,
-      "time": "20:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
+      "time": "18:30",
+      "url": "https://larayonne.org/evenement/presenter-et-mettre-en-valeur-son-projet-a-loral-atelier-theorique-1-2/",
       "image": null,
-      "id": "18418d946503"
-    },
-    {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-06-20",
-      "date_end": null,
-      "time": "21:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "25ce9e3831f1"
-    },
-    {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-06-21",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "5e8ee8fdef14"
-    },
-    {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-06-21",
-      "date_end": null,
-      "time": "16:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "774a5f944960"
-    },
-    {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-06-21",
-      "date_end": null,
-      "time": "17:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "4365cc3d2395"
-    },
-    {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-06-21",
-      "date_end": null,
-      "time": "17:30",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "e86ed5ff932f"
-    },
-    {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-06-21",
-      "date_end": null,
-      "time": "18:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "0728aa497c36"
-    },
-    {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-06-21",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "e334b172e923"
-    },
-    {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-06-21",
-      "date_end": null,
-      "time": "20:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "cab6deb137bd"
-    },
-    {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-06-25",
-      "date_end": null,
-      "time": "20:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "f64708400f1c"
+      "id": "a7b2564907e3"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -1433,32 +1030,6 @@
       "id": "79f7f6e11934"
     },
     {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-06-27",
-      "date_end": null,
-      "time": "14:30",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "9c72d6f60987"
-    },
-    {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-06-27",
-      "date_end": null,
-      "time": "16:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "a95bfdfe1064"
-    },
-    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "COMPAGNIE DCA / PHILIPPE DÉCOUFLÉ",
@@ -1485,56 +1056,17 @@
       "id": "516608e488ad"
     },
     {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "Présenter et mettre en valeur son projet à l’oral : atelier pratique (2/2)",
       "subtitle": null,
-      "category": "théâtre",
+      "category": "rencontre",
       "date_start": "2026-07-01",
       "date_end": null,
-      "time": "18:30",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
+      "time": "14:30",
+      "url": "https://larayonne.org/evenement/presenter-et-mettre-en-valeur-son-projet-a-loral-atelier-pratique-2-2/",
       "image": null,
-      "id": "fde630741c1a"
-    },
-    {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-07-04",
-      "date_end": null,
-      "time": "16:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "185c0b74b206"
-    },
-    {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-07-04",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "b0d08d802568"
-    },
-    {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-07-04",
-      "date_end": null,
-      "time": "20:30",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "44e8d9873822"
+      "id": "4f052c1b0640"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -1550,110 +1082,6 @@
       "id": "2af3a48e4793"
     },
     {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-07-08",
-      "date_end": null,
-      "time": "21:30",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "24af74b3985a"
-    },
-    {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-07-09",
-      "date_end": null,
-      "time": "21:30",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "48f7d88eba8c"
-    },
-    {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-07-14",
-      "date_end": null,
-      "time": "20:30",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "22b26889525b"
-    },
-    {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-07-16",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "851f3faa0c5e"
-    },
-    {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-07-16",
-      "date_end": null,
-      "time": "20:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "e8c537b2f893"
-    },
-    {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-07-17",
-      "date_end": null,
-      "time": "20:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "7239b04eec35"
-    },
-    {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-07-18",
-      "date_end": null,
-      "time": "20:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "4d8faf406b6a"
-    },
-    {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-07-19",
-      "date_end": null,
-      "time": "18:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "548ad8204a8d"
-    },
-    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "YANNS",
@@ -1665,6 +1093,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/yanns/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/03/yanns_radiant-bellevue-500x500.jpg",
       "id": "3a7e063ba883"
+    },
+    {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "Comprendre les principales aides à l’emploi dans le spectacle vivant",
+      "subtitle": null,
+      "category": "rencontre",
+      "date_start": "2026-09-24",
+      "date_end": null,
+      "time": "18:30",
+      "url": "https://larayonne.org/evenement/comprendre-les-principales-aides-a-lemploi-dans-le-spectacle-vivant/",
+      "image": null,
+      "id": "9f7bc7c15119"
     },
     {
       "venue": "Marché Gare",
@@ -1706,69 +1147,17 @@
       "id": "d7122382c78b"
     },
     {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "Mentissa",
       "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-10-01",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "a7310166a1b6"
-    },
-    {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-10-01",
-      "date_end": null,
-      "time": "20:30",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "aba6f3462c1c"
-    },
-    {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-10-02",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "1a2eaa0836bc"
-    },
-    {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-10-02",
-      "date_end": null,
-      "time": "20:30",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
-      "image": null,
-      "id": "1a48a3b94cf7"
-    },
-    {
-      "venue": "Les Subsistances",
-      "venue_slug": "les-subs",
-      "title": "Fun Times Fun Times",
-      "subtitle": null,
-      "category": "théâtre",
+      "category": "musique",
       "date_start": "2026-10-03",
       "date_end": null,
-      "time": "20:00",
-      "url": "https://www.les-subs.com/evenement/fun-times-ruth-childs/",
+      "time": "19:00",
+      "url": "https://larayonne.org/evenement/mentissa/",
       "image": null,
-      "id": "92e63cdf1d58"
+      "id": "b69cc134bb46"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -1795,6 +1184,32 @@
       "url": "https://radiant-bellevue.fr/spectacles/louis-cattelat/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2025/09/louis-catelat_radiant-bellevue-500x500.jpg",
       "id": "446e25bdcf06"
+    },
+    {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "Didier Super Metal",
+      "subtitle": null,
+      "category": "musique",
+      "date_start": "2026-10-08",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://larayonne.org/evenement/didier-super-metal/",
+      "image": null,
+      "id": "dd9cb6652884"
+    },
+    {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "REPORTÉ // Swing",
+      "subtitle": null,
+      "category": "musique",
+      "date_start": "2026-10-09",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://larayonne.org/evenement/swing/",
+      "image": null,
+      "id": "6fa30636e67d"
     },
     {
       "venue": "Marché Gare",
@@ -1888,6 +1303,19 @@
       "id": "6ca6b54ad1af"
     },
     {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "REPORTÉ // VEN1",
+      "subtitle": null,
+      "category": "musique",
+      "date_start": "2026-10-17",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://larayonne.org/evenement/ven1/",
+      "image": null,
+      "id": "bcdbeac7ffd9"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "PHILIPPE LELLOUCHE",
@@ -1914,6 +1342,19 @@
       "id": "c2d1859afd5f"
     },
     {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "Glory Hammer + Majestica + Arion",
+      "subtitle": null,
+      "category": "musique",
+      "date_start": "2026-10-21",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://larayonne.org/evenement/glory-hammer-majestica-arion/",
+      "image": null,
+      "id": "a3c68bce2cb5"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "Tina Arena",
@@ -1925,6 +1366,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/tina-arena/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2025/02/tina-arena_radiant-bellevue-Recupere-500x500.jpg",
       "id": "2b2d2251d163"
+    },
+    {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "FOREVER NU! – Tribute to System of a Down, Slipknot, Machine Head & Papa Roach",
+      "subtitle": null,
+      "category": "musique",
+      "date_start": "2026-10-22",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://larayonne.org/evenement/forever-nu-tribute-to-system-of-a-down-slipknot-machine-head-papa-roach/",
+      "image": null,
+      "id": "aa46462cb270"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -2005,6 +1459,19 @@
       "id": "ea2979b1dd99"
     },
     {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "Myrath",
+      "subtitle": null,
+      "category": "musique",
+      "date_start": "2026-10-28",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://larayonne.org/evenement/myrath/",
+      "image": null,
+      "id": "e781da806ff0"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "JEREMY HABABOU",
@@ -2022,12 +1489,12 @@
       "venue_slug": "radiant-bellevue",
       "title": "STEPHAN EICHER",
       "subtitle": null,
-      "category": "musique",
+      "category": null,
       "date_start": "2026-10-30",
       "date_end": null,
       "time": null,
       "url": "https://radiant-bellevue.fr/spectacles/stephan-eicher-2/",
-      "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/03/stephan-eicher_radiant-bellevue-500x500.jpg",
+      "image": null,
       "id": "7723a7394aeb"
     },
     {
@@ -2035,12 +1502,12 @@
       "venue_slug": "radiant-bellevue",
       "title": "STEPHAN EICHER",
       "subtitle": null,
-      "category": "musique",
+      "category": null,
       "date_start": "2026-10-31",
       "date_end": null,
       "time": null,
       "url": "https://radiant-bellevue.fr/spectacles/stephan-eicher-2/",
-      "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/03/stephan-eicher_radiant-bellevue-500x500.jpg",
+      "image": null,
       "id": "f1ba192f4256"
     },
     {
@@ -2057,6 +1524,19 @@
       "id": "647044e6d7b7"
     },
     {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "Construire un budget et un plan de trésorerie : atelier théorique (1/2)",
+      "subtitle": null,
+      "category": "rencontre",
+      "date_start": "2026-11-05",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://larayonne.org/evenement/construire-un-budget-et-un-plan-de-tresorerie-atelier-theorique-1-2-2/",
+      "image": null,
+      "id": "afb60935e0d6"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "LP",
@@ -2068,6 +1548,32 @@
       "url": "https://radiant-bellevue.fr/spectacles/lp/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/04/LP_radiant-bellevue-500x500.jpg",
       "id": "f580202aac50"
+    },
+    {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "ZELIE",
+      "subtitle": null,
+      "category": "musique",
+      "date_start": "2026-11-06",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://larayonne.org/evenement/zelie/",
+      "image": null,
+      "id": "dc1addf7b1c6"
+    },
+    {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "Kamelot + Exit Eden + Temperance",
+      "subtitle": null,
+      "category": "musique",
+      "date_start": "2026-11-07",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://larayonne.org/evenement/kamelot-exit-eden-temperance/",
+      "image": null,
+      "id": "d473928662e4"
     },
     {
       "venue": "Marché Gare",
@@ -2122,6 +1628,19 @@
       "id": "23629b673919"
     },
     {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "IMPERICON FESTIVAL 2026 : Death Dominion avec Carnifex + Despised Icon + Suffocation + Gates to hell",
+      "subtitle": null,
+      "category": "musique",
+      "date_start": "2026-11-10",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://larayonne.org/evenement/impericon-festival-2026-death-dominion-avec-carnifex-despised-icon-suffocation-gates-to-hell/",
+      "image": null,
+      "id": "9225684a9a11"
+    },
+    {
       "venue": "Marché Gare",
       "venue_slug": "marche-gare",
       "title": "Metal Pop FUTURE PALACE + LUNA KILLS",
@@ -2133,6 +1652,19 @@
       "url": "https://marchegare.fr/agenda/future-palace",
       "image": null,
       "id": "a21302e31221"
+    },
+    {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "LUIZA",
+      "subtitle": null,
+      "category": "musique",
+      "date_start": "2026-11-11",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://larayonne.org/evenement/luiza/",
+      "image": null,
+      "id": "b53bc4467397"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -2161,6 +1693,19 @@
       "id": "04a85d2be8ed"
     },
     {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "Emma",
+      "subtitle": null,
+      "category": "musique",
+      "date_start": "2026-11-13",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://larayonne.org/evenement/emma/",
+      "image": null,
+      "id": "c4c1dab52283"
+    },
+    {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
       "title": "High-Lo présente :",
@@ -2172,6 +1717,19 @@
       "url": "https://le-sucre.eu/events/high-lo-presente-12/",
       "image": "https://le-sucre.eu/wp-content/uploads/2026/03/insta-480x600.jpg",
       "id": "76488555ce3f"
+    },
+    {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "Nono La Grinta",
+      "subtitle": null,
+      "category": "musique",
+      "date_start": "2026-11-14",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://larayonne.org/evenement/nono-la-grinta/",
+      "image": null,
+      "id": "1af25c9e8b88"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -2187,6 +1745,32 @@
       "id": "65eef6d13415"
     },
     {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "THE LOCOS",
+      "subtitle": null,
+      "category": "musique",
+      "date_start": "2026-11-18",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://larayonne.org/evenement/the-locos/",
+      "image": null,
+      "id": "e92938b0dc9f"
+    },
+    {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "JAVA + WINSTON MCANUFF",
+      "subtitle": null,
+      "category": "musique",
+      "date_start": "2026-11-19",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://larayonne.org/evenement/java-winston-mcanuff/",
+      "image": null,
+      "id": "3ecd9204e5ee"
+    },
+    {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
       "title": "Concert",
@@ -2198,6 +1782,19 @@
       "url": "https://le-sucre.eu/events/concert-4/",
       "image": "https://le-sucre.eu/wp-content/uploads/2026/04/insta-2-480x600.jpg",
       "id": "9b7820d0d4af"
+    },
+    {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "Elmer Food Beat",
+      "subtitle": null,
+      "category": "musique",
+      "date_start": "2026-11-20",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://larayonne.org/evenement/elmer-food-beat/",
+      "image": null,
+      "id": "fb3c149aa09b"
     },
     {
       "venue": "Marché Gare",
@@ -2213,6 +1810,19 @@
       "id": "db8557647313"
     },
     {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "Zebrahead + Punk Rock Factory",
+      "subtitle": null,
+      "category": "musique",
+      "date_start": "2026-11-21",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://larayonne.org/evenement/zebrahead-punk-rock-factory/",
+      "image": null,
+      "id": "008e087d6e1c"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "LOCURA",
@@ -2224,6 +1834,32 @@
       "url": "https://radiant-bellevue.fr/spectacles/locura/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/03/locura_radiant-bellevue-500x500.jpg",
       "id": "b3ce02fc652e"
+    },
+    {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "Mettre en place une comptabilité pour les petites associations",
+      "subtitle": null,
+      "category": "rencontre",
+      "date_start": "2026-11-24",
+      "date_end": null,
+      "time": "17:30",
+      "url": "https://larayonne.org/evenement/mettre-en-place-une-comptabilite-pour-les-petites-associations-6/",
+      "image": null,
+      "id": "79b303b71560"
+    },
+    {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "Robert Finley",
+      "subtitle": null,
+      "category": "musique",
+      "date_start": "2026-11-24",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://larayonne.org/evenement/robert-finley/",
+      "image": null,
+      "id": "ef2e4e5676ce"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -2252,6 +1888,19 @@
       "id": "15dcaf3789a3"
     },
     {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "LADANIVA",
+      "subtitle": null,
+      "category": "musique",
+      "date_start": "2026-11-26",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://larayonne.org/evenement/ladaniva/",
+      "image": null,
+      "id": "b4b3fd0a36c0"
+    },
+    {
       "venue": "Marché Gare",
       "venue_slug": "marche-gare",
       "title": "Urban Pop KALIKA",
@@ -2263,6 +1912,19 @@
       "url": "https://marchegare.fr/agenda/kalika-26",
       "image": null,
       "id": "64ad9f1ecdd3"
+    },
+    {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "GIRLS IN HAWAII",
+      "subtitle": null,
+      "category": "musique",
+      "date_start": "2026-11-28",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://larayonne.org/evenement/girls-in-hawaii/",
+      "image": null,
+      "id": "4876aad118f4"
     },
     {
       "venue": "Marché Gare",
@@ -2304,6 +1966,19 @@
       "id": "b5f482f818be"
     },
     {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "Construire un budget et un plan de trésorerie : atelier pratique (2/2)",
+      "subtitle": null,
+      "category": "rencontre",
+      "date_start": "2026-12-02",
+      "date_end": null,
+      "time": "14:30",
+      "url": "https://larayonne.org/evenement/construire-un-budget-et-un-plan-de-tresorerie-atelier-pratique-2-2-2/",
+      "image": null,
+      "id": "8c830b00ec44"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "Garou",
@@ -2317,6 +1992,19 @@
       "id": "74ea4cb0b025"
     },
     {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "Les Tambours du Bronx + Sidilarsen",
+      "subtitle": null,
+      "category": "musique",
+      "date_start": "2026-12-05",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://larayonne.org/evenement/tambours-du-bronx-sidilarsen/",
+      "image": null,
+      "id": "e32f8230b8d2"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "MURMURATION LEVEL 2",
@@ -2328,6 +2016,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/murmuration-level-2/",
       "image": null,
       "id": "2e6b79fca480"
+    },
+    {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "BILAL HASSANI",
+      "subtitle": null,
+      "category": "musique",
+      "date_start": "2026-12-12",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://larayonne.org/evenement/bilal-hassani/",
+      "image": null,
+      "id": "8d38c0574fcf"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -2447,6 +2148,19 @@
       "id": "c4a6a08dacbd"
     },
     {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "Orden Ogan",
+      "subtitle": null,
+      "category": "musique",
+      "date_start": "2027-01-20",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://larayonne.org/evenement/orden-ogan/",
+      "image": null,
+      "id": "e9aa264e6db2"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "LEVI.SCT",
@@ -2471,6 +2185,19 @@
       "url": "https://marchegare.fr/agenda/mono",
       "image": null,
       "id": "ec4bc109650b"
+    },
+    {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "WHITECHAPEL + SYLOSIS + 200 STAB WOUNDS + TRIBAL GAZE",
+      "subtitle": null,
+      "category": "musique",
+      "date_start": "2027-02-07",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://larayonne.org/evenement/whitechapel-sylosis-200-stab-wounds-tribal-gaze/",
+      "image": null,
+      "id": "52ac2bdd1a8d"
     },
     {
       "venue": "Radiant-Bellevue",
