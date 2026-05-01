@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-01T11:33:20.512060+00:00",
-  "count": 484,
+  "generated_at": "2026-05-01T15:28:54.615584+00:00",
+  "count": 483,
   "events": [
     {
       "venue": "Le Sucre",
@@ -6163,19 +6163,6 @@
       "url": "https://h-eat.eu/events/jazz-day-x-ultrason/",
       "image": "https://h-eat.eu/wp-content/uploads/2025/03/jazzday-heat4-576x720.jpg",
       "id": "fcd8076c2423"
-    },
-    {
-      "venue": "Le Petit Salon",
-      "venue_slug": "petit-salon",
-      "title": "THIS IS HIT MACHINE 90-2000 : NO2T / VYKTOR NOVA & MORE",
-      "subtitle": null,
-      "category": "club",
-      "date_start": "2027-04-30",
-      "date_end": null,
-      "time": "23:30",
-      "url": "https://yp.events/e2774589-4ce1-4a5a-94d0-610be82cd531/THIS-IS-HIT-MACHINE-90-2000-NO2-T-Vyktor-Nova-more-VEILLE-DE-JOUR-FERIE?from=siteweb",
-      "image": "https://www.lpslyon.fr/wp-content/uploads/2026/03/ThisisHitMachine_30042026_lepetitsalon-1024x576.jpg",
-      "id": "844255408d44"
     },
     {
       "venue": "Radiant-Bellevue",
