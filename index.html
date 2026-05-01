@@ -227,6 +227,21 @@
     margin: 4px 0 0;
     font-style: italic;
   }
+  .event-run {
+    display: inline-block;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-left: 12px;
+    padding: 2px 8px;
+    border: 1px solid var(--accent);
+    border-radius: 999px;
+    vertical-align: middle;
+    font-style: normal;
+    font-weight: 400;
+  }
   .event-cat {
     font-family: 'JetBrains Mono', monospace;
     font-size: 11px;
@@ -434,11 +449,71 @@ function withinWhen(dateStr) {
   return true;
 }
 
+// Expand multi-day events into one occurrence per day in their run.
+// Long-running exhibitions/events (>30 days) only get one occurrence on
+// their start date, with a special badge.
+const LONG_RUN_THRESHOLD = 30;
+
+function expandOccurrences(events) {
+  const occurrences = [];
+  for (const e of events) {
+    const start = new Date(e.date_start + 'T00:00:00');
+    const end = e.date_end
+      ? new Date(e.date_end + 'T00:00:00')
+      : start;
+    const dayMs = 86400000;
+    const totalDays = Math.round((end - start) / dayMs) + 1;
+
+    if (totalDays > LONG_RUN_THRESHOLD) {
+      // Long event: only one occurrence on start date with badge
+      occurrences.push({
+        ...e,
+        _date: e.date_start,
+        _dayIndex: 1,
+        _totalDays: totalDays,
+        _isLongRun: true,
+      });
+      continue;
+    }
+
+    // Otherwise: one occurrence per day in the run
+    for (let i = 0; i < totalDays; i++) {
+      const d = new Date(start);
+      d.setDate(start.getDate() + i);
+      const yyyy = d.getFullYear();
+      const mm = String(d.getMonth() + 1).padStart(2, '0');
+      const dd = String(d.getDate()).padStart(2, '0');
+      occurrences.push({
+        ...e,
+        _date: yyyy + '-' + mm + '-' + dd,
+        _dayIndex: i + 1,
+        _totalDays: totalDays,
+        _isLongRun: false,
+      });
+    }
+  }
+  return occurrences;
+}
+
 function filtered() {
-  return state.events.filter(e => {
-    if (!withinWhen(e.date_start)) return false;
-    if (state.venues.size && !state.venues.has(e.venue)) return false;
-    if (state.categories.size && !state.categories.has(e.category)) return false;
+  const now = new Date(); now.setHours(0,0,0,0);
+  // Hide events fully in the past, but keep multi-day events that are still running today
+  const upcoming = state.events.filter(e => {
+    const start = new Date(e.date_start + 'T00:00:00');
+    const end = e.date_end ? new Date(e.date_end + 'T00:00:00') : start;
+    return end >= now;
+  });
+
+  // Expand into per-day occurrences
+  const occurrences = expandOccurrences(upcoming);
+
+  return occurrences.filter(occ => {
+    // Filter past occurrences
+    const occDate = new Date(occ._date + 'T00:00:00');
+    if (occDate < now) return false;
+    if (!withinWhen(occ._date)) return false;
+    if (state.venues.size && !state.venues.has(occ.venue)) return false;
+    if (state.categories.size && !state.categories.has(occ.category)) return false;
     return true;
   });
 }
@@ -452,17 +527,21 @@ function render() {
     return;
   }
 
-  // Group by date
+  // Group by date (use _date which is the occurrence date, not the event start)
   const groups = new Map();
   for (const e of events) {
-    if (!groups.has(e.date_start)) groups.set(e.date_start, []);
-    groups.get(e.date_start).push(e);
+    if (!groups.has(e._date)) groups.set(e._date, []);
+    groups.get(e._date).push(e);
   }
+
+  // Sort the keys chronologically
+  const sortedDates = Array.from(groups.keys()).sort();
 
   const today = new Date(); today.setHours(0,0,0,0);
   const html = [];
 
-  for (const [iso, list] of groups) {
+  for (const iso of sortedDates) {
+    const list = groups.get(iso);
     const d = new Date(iso + 'T00:00:00');
     const isToday = d.getTime() === today.getTime();
     const isTomorrow = d.getTime() === today.getTime() + 86400000;
@@ -505,12 +584,23 @@ function eventCard(e) {
     ? '<p class="event-subtitle">' + escapeHtml(e.subtitle) + '</p>'
     : '';
   const cat = e.category ? '<div class="event-cat">' + escapeHtml(e.category) + '</div>' : '<div class="event-cat"></div>';
+
+  // Multi-day badge
+  let runBadge = '';
+  if (e._isLongRun) {
+    runBadge = '<span class="event-run">en cours</span>';
+  } else if (e._totalDays && e._totalDays > 1) {
+    if (e._dayIndex === 1) runBadge = '<span class="event-run">première · ' + e._totalDays + ' dates</span>';
+    else if (e._dayIndex === e._totalDays) runBadge = '<span class="event-run">dernière</span>';
+    else runBadge = '<span class="event-run">' + e._dayIndex + '/' + e._totalDays + '</span>';
+  }
+
   return [
     '<a class="event" href="' + escapeHtml(e.url) + '" target="_blank" rel="noopener">',
     '  <div class="event-venue">' + escapeHtml(e.venue) + '</div>',
     '  ' + time,
     '  <div class="event-body">',
-    '    <h3 class="event-title">' + escapeHtml(e.title) + '</h3>',
+    '    <h3 class="event-title">' + escapeHtml(e.title) + runBadge + '</h3>',
     '    ' + sub,
     '  </div>',
     '  ' + cat,
