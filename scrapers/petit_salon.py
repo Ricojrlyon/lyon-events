@@ -1,19 +1,13 @@
 """Scraper for Le Petit Salon (lpslyon.fr/evenements-le-petit-salon/).
 
-Page structure (verified by inspection): a flat list of event blocks.
-Each block contains, in this order:
-- Date pill: short day name like "Jeu." then "30/04" (DD/MM, no year)
-- Image (img.src on lpslyon.fr/wp-content/uploads/)
-- Title in <h2> (e.g. "OLYMPE / SOONS / TRY & MORE")
-- Description paragraphs (GRANDE SALLE, PETITE SALLE)
-- Réserver button linking to a Yurplan ticket URL
+The diagnostic from the previous run confirmed:
+- 17 <h2> elements with the right titles ("THIS IS HIT MACHINE", etc.)
+- 34 DD/MM date matches in the page
 
-Strategy: anchor on <h2> elements (each h2 = one event), then walk
-backward in the DOM to find the date pill that precedes it.
-
-The site doesn't show year, but Le Petit Salon programs months in
-advance — events from Jan-Apr are next year, May-Dec are this year.
-We use a "smart" year inference based on today's date.
+Previous version failed because _find_preceding_date walked through DOM
+siblings BEFORE the h2, but on this site the date pill is nested as a
+sibling INSIDE the same parent block as the h2. The fix: walk UP to the
+parent block then search the whole block's text for DD/MM.
 """
 from typing import List, Optional
 from datetime import date as Date
@@ -35,46 +29,50 @@ HEADERS = {
     "Accept-Language": "fr-FR,fr;q=0.9",
 }
 
-# Date pill format: "30/04" (DD/MM)
-DATE_RE = re.compile(r"(\d{2})/(\d{2})")
-# Day prefix "Jeu.", "Ven.", "Sam." etc. (used to recognize the pill)
-DAY_PREFIX_RE = re.compile(
-    r"^(lun|mar|mer|jeu|ven|sam|dim)\.?$",
-    re.IGNORECASE,
-)
+DATE_RE = re.compile(r"\b(\d{2})/(\d{2})\b")
 
 
 def _smart_year(month: int, day: int) -> int:
-    """Pick the next occurrence of (month, day) from today (forward-looking)."""
     today = Date.today()
-    candidate = Date(today.year, month, day)
-    if candidate < today:
-        # Bump to next year if the date is past
-        return today.year + 1
-    return today.year
+    try:
+        candidate = Date(today.year, month, day)
+    except ValueError:
+        return today.year
+    return today.year + 1 if candidate < today else today.year
 
 
-def _find_preceding_date(h2: Tag) -> Optional[str]:
-    """Walk backwards from h2 in document order to find a 'DD/MM' pill."""
-    # Limit to siblings of ancestors — gather text from preceding nodes
-    # in document order
-    seen_text_chunks: List[str] = []
-    el = h2
-    # Walk previous siblings/parents. We collect text from the preceding
-    # ~5 sibling-like elements until we find a date.
-    for _ in range(20):
-        el = el.find_previous(string=False) if el else None
-        if el is None:
+def _find_event_block(h2: Tag, max_levels: int = 6) -> Optional[Tag]:
+    """Walk up from h2 to find the smallest ancestor that contains a DD/MM."""
+    el: Optional[Tag] = h2
+    for _ in range(max_levels):
+        parent = el.parent if el else None
+        if parent is None or parent.name in ("html", "body"):
             break
-        if hasattr(el, "get_text"):
-            txt = el.get_text(" ", strip=True)
-            if txt:
-                seen_text_chunks.append(txt)
-                # Look for DD/MM in this chunk
-                m = DATE_RE.search(txt)
-                if m:
-                    return m.group(0)
+        el = parent
+        text = el.get_text(" ", strip=True)
+        if DATE_RE.search(text):
+            return el
     return None
+
+
+def _date_for_block(block: Tag, h2: Tag) -> Optional[str]:
+    """Find a DD/MM pattern in `block`, but ONLY in text BEFORE the h2.
+    This avoids picking up dates from a different event further down.
+    """
+    # Get text up to (but not including) the h2 element
+    parts: List[str] = []
+    for el in block.descendants:
+        if el is h2:
+            break
+        if isinstance(el, str):
+            parts.append(el)
+    text_before = " ".join(parts)
+    m = DATE_RE.search(text_before)
+    if m:
+        return m.group(0)
+    # Fallback: any DD/MM in the whole block
+    m = DATE_RE.search(block.get_text(" ", strip=True))
+    return m.group(0) if m else None
 
 
 def fetch() -> List[Event]:
@@ -84,19 +82,22 @@ def fetch() -> List[Event]:
 
     events: List[Event] = []
     seen_keys: set = set()
-
     h2_list = soup.find_all("h2")
+
     for h2 in h2_list:
         title = h2.get_text(" ", strip=True)
         if not title or len(title) < 3 or len(title) > 250:
             continue
-        # Skip nav-like h2s (rare on this site, but defensive)
         if title.lower() in ("nos évènements", "menu", "accès"):
             continue
 
-        date_str = _find_preceding_date(h2)
+        block = _find_event_block(h2)
+        if block is None:
+            continue
+        date_str = _date_for_block(block, h2)
         if not date_str:
             continue
+
         m = DATE_RE.match(date_str)
         if not m:
             continue
@@ -109,30 +110,27 @@ def fetch() -> List[Event]:
         except ValueError:
             continue
 
-        # Image: first sibling/parent <img> nearby
+        # Image
         image: Optional[str] = None
-        # Look at preceding siblings of h2's parent
-        container = h2.find_parent()
-        if container:
-            img = container.find("img")
-            if img and img.get("src", "").startswith("http"):
-                image = img["src"]
+        img = block.find("img")
+        if img and img.get("src", "").startswith("http"):
+            image = img["src"]
 
-        # URL: the "Réserver" link is usually after the h2
+        # URL: prefer the "Réserver" link inside the block
         href = URL
-        next_link = h2.find_next("a", href=True)
-        if next_link:
-            cand = next_link["href"]
+        link_el = None
+        for a in block.find_all("a", href=True):
+            if "yp.events" in a["href"] or "billetterie" in a["href"].lower():
+                link_el = a
+                break
+        if link_el is None:
+            link_el = block.find("a", href=True)
+        if link_el:
+            cand = link_el["href"]
             if cand.startswith("http"):
                 href = cand
             elif cand.startswith("/"):
                 href = HOST + cand
-
-        # All Petit Salon events are nightclub electronic music events
-        category = "club"
-
-        # Default time: opening listed as 23h30 in description text
-        time_str: Optional[str] = "23:30"
 
         key = (title, iso(d))
         if key in seen_keys:
@@ -144,10 +142,10 @@ def fetch() -> List[Event]:
             venue_slug=SLUG,
             title=title,
             subtitle=None,
-            category=category,
+            category="club",
             date_start=iso(d),
             date_end=None,
-            time=time_str,
+            time="23:30",
             url=href,
             image=image,
         ))
@@ -155,14 +153,14 @@ def fetch() -> List[Event]:
     if not events:
         print("=" * 60, file=sys.stderr)
         print("DIAGNOSTIC: Le Petit Salon — 0 events", file=sys.stderr)
-        print(f"  Page size: {len(resp.text)} bytes", file=sys.stderr)
-        print(f"  <h2> count: {len(h2_list)}", file=sys.stderr)
-        for h2 in h2_list[:8]:
-            print(f"    - {h2.get_text(' ', strip=True)[:80]!r}",
+        print(f"  h2 count: {len(h2_list)}", file=sys.stderr)
+        for h2 in h2_list[:5]:
+            block = _find_event_block(h2)
+            block_info = f"block={block.name if block else None}"
+            if block:
+                block_info += f" text[:80]={block.get_text(' ', strip=True)[:80]!r}"
+            print(f"    h2={h2.get_text(strip=True)[:60]!r} | {block_info}",
                   file=sys.stderr)
-        page_text = soup.get_text(" ", strip=True)
-        date_count = len(DATE_RE.findall(page_text))
-        print(f"  DD/MM matches in page: {date_count}", file=sys.stderr)
         print("=" * 60, file=sys.stderr)
 
     events.sort(key=lambda e: (e.date_start, e.time or "00:00"))
