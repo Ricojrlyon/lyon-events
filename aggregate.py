@@ -16,6 +16,7 @@ from typing import Callable, List
 from scrapers import Event
 from scrapers import (
     le_sucre, les_subs, marche_gare, radiant, la_rayonne, transbordeur,
+    petit_salon, sonic,
     _stubs,
 )
 
@@ -28,9 +29,9 @@ SCRAPERS: list[tuple[str, Callable[[], List[Event]]]] = [
     ("Radiant-Bellevue",        radiant.fetch),
     ("La Rayonne",              la_rayonne.fetch),
     ("Le Transbordeur",         transbordeur.fetch),
+    ("Le Petit Salon",          petit_salon.fetch),
+    ("Le Sonic",                sonic.fetch),
     # Stubs (return [] until you implement them)
-    ("Le Petit Salon",          _stubs.fetch_petit_salon),
-    ("Le Sonic",                _stubs.fetch_sonic),
     ("HEAT",                    _stubs.fetch_heat),
     ("Station Mue",             _stubs.fetch_station_mue),
     ("La Commune",              _stubs.fetch_la_commune),
