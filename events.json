@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-01T15:59:27.589293+00:00",
-  "count": 502,
+  "generated_at": "2026-05-01T16:11:02.855034+00:00",
+  "count": 515,
   "events": [
     {
       "venue": "Comédie Odéon",
@@ -497,6 +497,19 @@
       "id": "24989f20e555"
     },
     {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Nocturne L'heure bleue",
+      "subtitle": null,
+      "category": "conférence ou projection",
+      "date_start": "2026-05-07",
+      "date_end": null,
+      "time": "18:30",
+      "url": "https://www.museedesconfluences.fr/fr/agenda/nocturne-lheure-bleue",
+      "image": null,
+      "id": "f053e3de034e"
+    },
+    {
       "venue": "Les Subsistances",
       "venue_slug": "les-subs",
       "title": "Prova Wael Ali Simon Dubois",
@@ -599,6 +612,19 @@
       "url": "https://le-sucre.eu/events/club-x-crush/",
       "image": "https://le-sucre.eu/wp-content/uploads/2026/03/SUCRE-2026-05-V5-480x600.jpg",
       "id": "0021be5e7bc0"
+    },
+    {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Blue hour - Alain Roche",
+      "subtitle": null,
+      "category": "spectacle",
+      "date_start": "2026-05-08",
+      "date_end": null,
+      "time": "05:00",
+      "url": "https://www.museedesconfluences.fr/fr/agenda/blue-hour-alain-roche",
+      "image": null,
+      "id": "c2f16e0b53c1"
     },
     {
       "venue": "Les Subsistances",
@@ -1615,6 +1641,19 @@
       "id": "ce5f71925b0e"
     },
     {
+      "venue": "Musée d'Art Contemporain",
+      "venue_slug": "mac-lyon",
+      "title": "Nuit des musées 2026",
+      "subtitle": null,
+      "category": "nocturne",
+      "date_start": "2026-05-23",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.mac-lyon.com/fr/programmation/nuit-des-musees-2026",
+      "image": "https://www.mac-lyon.com/sites/mac/files/styles/programmation_results/public/2026-02/visuel_nannucci_musee_nuit_nocturne_facade_web.jpg?itok=KQ_STSsh",
+      "id": "2d75f618647e"
+    },
+    {
       "venue": "Les Subsistances",
       "venue_slug": "les-subs",
       "title": "La Catastrophe Guillaume Bailliart",
@@ -1639,6 +1678,19 @@
       "url": "https://larayonne.org/evenement/concert-tribute-early-maggots-meteora-dear-sally/",
       "image": null,
       "id": "e0ceaf20a3ae"
+    },
+    {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Nuit des musées 2026 : Chut, ça va faire du bruit !",
+      "subtitle": null,
+      "category": "spectacle",
+      "date_start": "2026-05-23",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.museedesconfluences.fr/fr/agenda/nuitdesmusees2026-nuitduson",
+      "image": null,
+      "id": "317b78a1babc"
     },
     {
       "venue": "Le Petit Salon",
@@ -2057,6 +2109,19 @@
       "id": "1459a2313dc8"
     },
     {
+      "venue": "Musée d'Art Contemporain",
+      "venue_slug": "mac-lyon",
+      "title": "Rencontre dans l'intimité de la collection Lemaître",
+      "subtitle": null,
+      "category": "exposition",
+      "date_start": "2026-05-28",
+      "date_end": null,
+      "time": "18:30",
+      "url": "https://www.mac-lyon.com/fr/programmation/rencontre-dans-lintimite-de-la-collection-lemaitre",
+      "image": "https://www.mac-lyon.com/sites/mac/files/styles/programmation_results/public/2026-03/visuel_collectionneurs_lemaitre_web.jpg?itok=lglzPMy4",
+      "id": "85a8a35acd52"
+    },
+    {
       "venue": "Les Subsistances",
       "venue_slug": "les-subs",
       "title": "Nocturne Parade Phia Menard",
@@ -2068,6 +2133,19 @@
       "url": "https://www.les-subs.com/evenement/nocturne-parade-phia-menard/",
       "image": null,
       "id": "4ebd0ccefa01"
+    },
+    {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "La science décalée de Julien Bobroff",
+      "subtitle": null,
+      "category": "conférence ou projection",
+      "date_start": "2026-05-28",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.museedesconfluences.fr/fr/agenda/la-science-decalee-de-julien-bobroff",
+      "image": null,
+      "id": "9915a9067158"
     },
     {
       "venue": "La Commune",
@@ -2174,6 +2252,32 @@
       "id": "eed87560a758"
     },
     {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Weekend Radio Live",
+      "subtitle": null,
+      "category": "spectacle",
+      "date_start": "2026-05-30",
+      "date_end": "2026-05-31",
+      "time": null,
+      "url": "https://www.museedesconfluences.fr/fr/agenda/weekend-radio-live",
+      "image": null,
+      "id": "fe478b27b1b4"
+    },
+    {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Radio Live",
+      "subtitle": null,
+      "category": "spectacle",
+      "date_start": "2026-05-30",
+      "date_end": "2026-05-31",
+      "time": null,
+      "url": "https://www.museedesconfluences.fr/fr/agenda/radio-live",
+      "image": null,
+      "id": "5441793f8b20"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "ROSA BURSZTEIN",
@@ -2211,6 +2315,19 @@
       "url": "https://www.les-subs.com/evenement/minipousses-danse/",
       "image": null,
       "id": "63fd8ea7f294"
+    },
+    {
+      "venue": "Musée d'Art Contemporain",
+      "venue_slug": "mac-lyon",
+      "title": "Avec les yeux et les mains, visite en LSF",
+      "subtitle": null,
+      "category": "visite",
+      "date_start": "2026-05-30",
+      "date_end": null,
+      "time": "14:30",
+      "url": "https://www.mac-lyon.com/fr/programmation/avec-les-yeux-et-les-mains-visite-en-lsf-0",
+      "image": "https://www.mac-lyon.com/sites/mac/files/styles/programmation_results/public/2021-10/visite-lsf.jpg?itok=XpibeLgW",
+      "id": "19b0a90cc3b9"
     },
     {
       "venue": "Les Subsistances",
@@ -2317,6 +2434,19 @@
       "id": "66510805924d"
     },
     {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Isam Elias – Electro orientale",
+      "subtitle": null,
+      "category": "spectacle",
+      "date_start": "2026-05-31",
+      "date_end": null,
+      "time": "17:45",
+      "url": "https://www.museedesconfluences.fr/fr/agenda/isam-elias-electro-orientale",
+      "image": null,
+      "id": "82361dfb288d"
+    },
+    {
       "venue": "Marché Gare",
       "venue_slug": "marche-gare",
       "title": "LES 20 ANS ! FÊTE DES VOISIN·ES Concert et buffet partagé",
@@ -2408,6 +2538,19 @@
       "id": "47c33022adc7"
     },
     {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Atelier éducation populaire - La danse des masques",
+      "subtitle": null,
+      "category": "atelier",
+      "date_start": "2026-06-03",
+      "date_end": "2026-07-03",
+      "time": null,
+      "url": "https://www.museedesconfluences.fr/fr/agenda/atelier-education-populaire-la-danse-des-masques",
+      "image": null,
+      "id": "869e91de77a5"
+    },
+    {
       "venue": "Les Subsistances",
       "venue_slug": "les-subs",
       "title": "Subs Visites Historiques",
@@ -2484,6 +2627,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/presentation-saison-26-27/",
       "image": null,
       "id": "8e58c7b967c0"
+    },
+    {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Nocturne ciné-zombis",
+      "subtitle": null,
+      "category": "conférence ou projection",
+      "date_start": "2026-06-04",
+      "date_end": null,
+      "time": "18:30",
+      "url": "https://www.museedesconfluences.fr/fr/agenda/nocturne-cine-zombis",
+      "image": null,
+      "id": "097fb390693f"
     },
     {
       "venue": "Le Sonic",
@@ -3992,6 +4148,19 @@
       "url": "https://www.transbordeur.fr/evenement/marie-sarah-11092026/",
       "image": null,
       "id": "eef3ce44c2bb"
+    },
+    {
+      "venue": "Musée des Beaux-Arts",
+      "venue_slug": "mba-lyon",
+      "title": "Musée sentimental",
+      "subtitle": null,
+      "category": "exposition",
+      "date_start": "2026-09-11",
+      "date_end": "2027-03-14",
+      "time": null,
+      "url": "https://www.mba-lyon.fr/fr/home_programmation",
+      "image": "https://www.mba-lyon.fr/sites/mba/files/medias/images/2026-04/mur_breton.jpg",
+      "id": "d57be7412781"
     },
     {
       "venue": "La Halle Tony Garnier",
