@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-01T11:17:21.011647+00:00",
-  "count": 477,
+  "generated_at": "2026-05-01T11:33:20.512060+00:00",
+  "count": 484,
   "events": [
     {
       "venue": "Le Sucre",
@@ -235,6 +235,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/la-verite-2/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2025/05/la-verite-500x500.jpg",
       "id": "7abf2279392a"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "CHASSELAY ET AUTRES MASSACRES",
+      "subtitle": "Eva Doumbia",
+      "category": "théâtre",
+      "date_start": "2026-05-05",
+      "date_end": "2026-05-07",
+      "time": null,
+      "url": "https://www.croix-rousse.com/au-programme/chasselay-et-autres-massacres/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2025/05/30.Chasselay_1080x1080-300x300-c-default.png",
+      "id": "84b1020fff2b"
     },
     {
       "venue": "Théâtre des Célestins",
@@ -1199,6 +1212,19 @@
       "id": "3cde15ca03b4"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Littérature Live : Entretien avec Nathacha Appanah",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-05-18",
+      "date_end": null,
+      "time": null,
+      "url": "https://www.croix-rousse.com/au-programme/litterature-live-entretien-avec-nathacha-appanah/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/04/nathacha-appanah_500x500-300x300-c-default.png",
+      "id": "7c2dfc6bb488"
+    },
+    {
       "venue": "La Commune",
       "venue_slug": "la-commune",
       "title": "Quizz Drag",
@@ -1236,6 +1262,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/pv/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2025/06/PV-500x500.jpg",
       "id": "dcd245fd9d2b"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "TIMBER",
+      "subtitle": "Compagnie Still Life",
+      "category": "théâtre",
+      "date_start": "2026-05-19",
+      "date_end": "2026-05-23",
+      "time": null,
+      "url": "https://www.croix-rousse.com/au-programme/timber/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2025/05/31.Timber_1080x1080-300x300-c-default.png",
+      "id": "02d86927523e"
     },
     {
       "venue": "Théâtre des Célestins",
@@ -1301,6 +1340,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/chimene-badi/",
       "image": null,
       "id": "1490c4d7a77f"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "MJC. UN JOURNAL CLANDESTIN",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-05-20",
+      "date_end": null,
+      "time": null,
+      "url": "https://www.croix-rousse.com/au-programme/mjc-un-journal-clandestin/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/03/quartier-libre_500x500-300x300-c-default.png",
+      "id": "0c1d3f336837"
     },
     {
       "venue": "Théâtre des Célestins",
@@ -1678,6 +1730,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/tricky/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2025/10/tricky_radiant-bellevue-500x500.jpg",
       "id": "32fcbfc0a0a7"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "LES MOMENTS DOUX",
+      "subtitle": "Élise Chatauret",
+      "category": "théâtre",
+      "date_start": "2026-05-26",
+      "date_end": "2026-05-29",
+      "time": null,
+      "url": "https://www.croix-rousse.com/au-programme/les-moments-doux/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2025/05/32.Les-moments-doux_1080x1080-300x300-c-default.png",
+      "id": "03b5b2dd88db"
     },
     {
       "venue": "Marché Gare",
@@ -2369,6 +2434,19 @@
       "id": "8ea0622672f7"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "NORMAN C’EST COMME NORMAL, À UNE LETTRE PRÈS",
+      "subtitle": "Clément Thirion",
+      "category": "théâtre",
+      "date_start": "2026-06-05",
+      "date_end": "2026-06-06",
+      "time": null,
+      "url": "https://www.croix-rousse.com/au-programme/norman-cest-comme-normal-a-une-lettre-pres/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2025/05/33.Norman_1080x1080-300x300-c-default.png",
+      "id": "cd9a2e2cd65f"
+    },
+    {
       "venue": "Les Subsistances",
       "venue_slug": "les-subs",
       "title": "Nuits De Fourviere 2026 Ce Que Le Ciel Ne Sait Pas Feda Wardak",
@@ -2679,6 +2757,19 @@
       "url": "https://le-sucre.eu/events/magic-mardi-77/",
       "image": "https://le-sucre.eu/wp-content/uploads/2026/03/Plan-de-travail-7-480x600.png",
       "id": "6c58402d2002"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Présentation de saison 26-27",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-06-09",
+      "date_end": "2026-06-10",
+      "time": null,
+      "url": "https://www.croix-rousse.com/au-programme/presentation-de-saison-26-27/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/03/pres-de-sais_1080x1080-300x300-c-default.png",
+      "id": "40e39f226a51"
     },
     {
       "venue": "Le Périscope",
