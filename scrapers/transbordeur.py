@@ -1,13 +1,15 @@
 """Scraper for Le Transbordeur (transbordeur.fr/agenda).
 
-The agenda page is a JavaScript SPA: HTML contains only nav chrome.
-The site exposes a WordPress REST API with 855+ routes (per a previous
-diagnostic). This version probes likely event endpoints, and if none
-work, prints a focused diagnostic listing routes containing the words
-"event", "concert", "agenda", "spectacle", "artist", "show", or "post".
+The agenda page is a JS-rendered SPA. Diagnostic confirmed the WordPress
+REST API exposes /wp/v2/evenement (singular, French). This scraper hits
+that endpoint directly and parses the JSON response.
+
+If /wp/v2/evenement returns no useful data, falls back to inspecting one
+post in detail and printing all its keys for further iteration.
 """
-from typing import List, Optional
+from typing import List, Optional, Any
 from datetime import datetime, date as Date
+import json
 import re
 import sys
 import requests
@@ -25,23 +27,16 @@ HEADERS = {
     "Accept-Language": "fr-FR,fr;q=0.9",
 }
 
-# Common WP custom-post-type slugs to try.
-WP_ENDPOINTS = [
-    "/wp-json/wp/v2/event?per_page=100&_embed=1",
-    "/wp-json/wp/v2/events?per_page=100&_embed=1",
-    "/wp-json/wp/v2/concert?per_page=100&_embed=1",
-    "/wp-json/wp/v2/concerts?per_page=100&_embed=1",
-    "/wp-json/wp/v2/spectacle?per_page=100&_embed=1",
-    "/wp-json/wp/v2/spectacles?per_page=100&_embed=1",
-    "/wp-json/wp/v2/agenda?per_page=100&_embed=1",
-    "/wp-json/wp/v2/show?per_page=100&_embed=1",
-    "/wp-json/wp/v2/programmation?per_page=100&_embed=1",
-]
+# Keys to probe for an event date in ACF / meta / top-level fields.
+DATE_KEY_CANDIDATES = (
+    "date_event", "date_evenement", "date_concert", "event_date",
+    "date_debut", "start_date", "date", "date_de_l_evenement",
+    "date_de_levenement", "jour", "concert_date",
+)
 
-# Keywords used to filter routes for diagnostic output.
-INTERESTING_KEYWORDS = (
-    "event", "concert", "agenda", "spectacle", "show",
-    "artist", "programmation", "salle", "billet",
+TIME_KEY_CANDIDATES = (
+    "heure", "heure_evenement", "heure_debut", "horaire",
+    "start_time", "time",
 )
 
 
@@ -51,69 +46,198 @@ def _strip_html(html_text: str) -> str:
     return BeautifulSoup(html_text, "html.parser").get_text(" ", strip=True)
 
 
-def _date_from_post(post: dict) -> Optional[Date]:
-    acf = post.get("acf") or {}
-    for key in ("date_event", "event_date", "date_evenement", "date_concert",
-                "date", "date_debut", "start_date"):
-        val = acf.get(key) if isinstance(acf, dict) else None
-        if isinstance(val, str) and val:
-            try:
-                clean = val.replace("/", "-").replace(" ", "T").split("T")[0]
-                if "-" not in clean and len(clean) == 8:
-                    clean = f"{clean[:4]}-{clean[4:6]}-{clean[6:8]}"
-                return Date.fromisoformat(clean[:10])
-            except (ValueError, IndexError):
-                pass
-
-    meta = post.get("meta") or {}
-    for key in ("date_event", "event_date", "_event_date", "date_evenement",
-                "_event_start", "_start_date"):
-        val = meta.get(key) if isinstance(meta, dict) else None
-        if isinstance(val, str):
-            try:
-                return Date.fromisoformat(val[:10])
-            except ValueError:
-                pass
-
-    for key in ("date", "date_gmt"):
-        val = post.get(key)
-        if isinstance(val, str):
-            try:
-                return datetime.fromisoformat(val.replace("Z", "+00:00")).date()
-            except ValueError:
-                pass
-
+def _normalize_date(val: Any) -> Optional[Date]:
+    if not val or not isinstance(val, str):
+        return None
+    val = val.strip()
+    # ACF dates can be 'YYYYMMDD'
+    if re.fullmatch(r"\d{8}", val):
+        try:
+            return Date(int(val[:4]), int(val[4:6]), int(val[6:8]))
+        except ValueError:
+            return None
+    # ISO date or datetime
+    try:
+        cleaned = val.replace("Z", "+00:00").replace(" ", "T")
+        return datetime.fromisoformat(cleaned).date()
+    except ValueError:
+        pass
+    try:
+        return Date.fromisoformat(val[:10])
+    except ValueError:
+        pass
+    # 'DD/MM/YYYY' or 'DD-MM-YYYY'
+    m = re.match(r"(\d{2})[/-](\d{2})[/-](\d{4})", val)
+    if m:
+        d, mo, y = m.groups()
+        try:
+            return Date(int(y), int(mo), int(d))
+        except ValueError:
+            return None
     return None
 
 
-def _try_endpoint(endpoint: str) -> List[Event]:
-    url = SITE + endpoint
+def _normalize_time(val: Any) -> Optional[str]:
+    if not val or not isinstance(val, str):
+        return None
+    val = val.strip()
+    m = re.search(r"(\d{1,2})\s*[h:]\s*(\d{2})", val)
+    if m:
+        hh, mm = int(m.group(1)), m.group(2)
+        if 0 <= hh <= 23:
+            return f"{hh:02d}:{mm}"
+    m = re.fullmatch(r"(\d{1,2})h", val)
+    if m:
+        hh = int(m.group(1))
+        if 0 <= hh <= 23:
+            return f"{hh:02d}:00"
+    return None
+
+
+def _extract_date(post: dict) -> Optional[Date]:
+    acf = post.get("acf") or {}
+    if isinstance(acf, dict):
+        for k in DATE_KEY_CANDIDATES:
+            d = _normalize_date(acf.get(k))
+            if d:
+                return d
+    meta = post.get("meta") or {}
+    if isinstance(meta, dict):
+        for k in DATE_KEY_CANDIDATES + tuple("_" + x for x in DATE_KEY_CANDIDATES):
+            d = _normalize_date(meta.get(k))
+            if d:
+                return d
+    # Top-level fields
+    for k in DATE_KEY_CANDIDATES:
+        d = _normalize_date(post.get(k))
+        if d:
+            return d
+    return None
+
+
+def _extract_time(post: dict) -> Optional[str]:
+    acf = post.get("acf") or {}
+    if isinstance(acf, dict):
+        for k in TIME_KEY_CANDIDATES:
+            t = _normalize_time(acf.get(k))
+            if t:
+                return t
+    meta = post.get("meta") or {}
+    if isinstance(meta, dict):
+        for k in TIME_KEY_CANDIDATES + tuple("_" + x for x in TIME_KEY_CANDIDATES):
+            t = _normalize_time(meta.get(k))
+            if t:
+                return t
+    for k in TIME_KEY_CANDIDATES:
+        t = _normalize_time(post.get(k))
+        if t:
+            return t
+    return None
+
+
+def _extract_image(post: dict) -> Optional[str]:
+    embedded = post.get("_embedded") or {}
+    media_list = embedded.get("wp:featuredmedia") or []
+    if media_list and isinstance(media_list[0], dict):
+        m = media_list[0]
+        url = m.get("source_url")
+        if isinstance(url, str) and url.startswith("http"):
+            return url
+        sizes = (m.get("media_details") or {}).get("sizes") or {}
+        for size_name in ("medium", "large", "full", "thumbnail"):
+            size = sizes.get(size_name) or {}
+            url = size.get("source_url")
+            if isinstance(url, str) and url.startswith("http"):
+                return url
+    return None
+
+
+def _diagnose_first_post():
+    """Fetch one post from /wp/v2/evenement and print its full key tree."""
+    print("=" * 60, file=sys.stderr)
+    print("DIAGNOSTIC: Le Transbordeur — inspecting first post", file=sys.stderr)
     try:
-        resp = requests.get(url, timeout=20, headers=HEADERS)
-    except requests.RequestException:
+        resp = requests.get(SITE + "/wp-json/wp/v2/evenement?per_page=1&_embed=1",
+                            timeout=20, headers=HEADERS)
+        if resp.status_code != 200:
+            print(f"  status: {resp.status_code}", file=sys.stderr)
+            print(f"  body[:300]: {resp.text[:300]!r}", file=sys.stderr)
+            return
+        data = resp.json()
+        if not isinstance(data, list) or not data:
+            print(f"  Empty result. Type: {type(data).__name__}", file=sys.stderr)
+            print(f"  Sample: {str(data)[:400]}", file=sys.stderr)
+            return
+        post = data[0]
+        print(f"  Top-level keys: {sorted(post.keys())}", file=sys.stderr)
+        if "acf" in post and isinstance(post["acf"], dict):
+            print(f"  acf keys: {sorted(post['acf'].keys())}", file=sys.stderr)
+            # Show first few acf values for inspection
+            for k, v in list(post["acf"].items())[:10]:
+                v_repr = repr(v)
+                if len(v_repr) > 120:
+                    v_repr = v_repr[:120] + "..."
+                print(f"    acf[{k!r}] = {v_repr}", file=sys.stderr)
+        if "meta" in post and isinstance(post["meta"], dict):
+            print(f"  meta keys: {sorted(post['meta'].keys())[:20]}",
+                  file=sys.stderr)
+        # Title and link
+        title = post.get("title")
+        if isinstance(title, dict):
+            title = title.get("rendered", "")
+        print(f"  title: {_strip_html(str(title))[:80]!r}", file=sys.stderr)
+        print(f"  link: {post.get('link', '')!r}", file=sys.stderr)
+        print(f"  date: {post.get('date', '')!r}", file=sys.stderr)
+    except (requests.RequestException, ValueError, json.JSONDecodeError) as e:
+        print(f"  Failed: {e}", file=sys.stderr)
+    print("=" * 60, file=sys.stderr)
+
+
+def fetch() -> List[Event]:
+    url = SITE + "/wp-json/wp/v2/evenement?per_page=100&_embed=1"
+    try:
+        resp = requests.get(url, timeout=30, headers=HEADERS)
+    except requests.RequestException as e:
+        print(f"[Transbordeur] request failed: {e}", file=sys.stderr)
         return []
+
     if resp.status_code != 200:
+        print(f"[Transbordeur] /wp/v2/evenement returned {resp.status_code}",
+              file=sys.stderr)
         return []
+
     try:
         data = resp.json()
     except ValueError:
+        print(f"[Transbordeur] non-JSON response", file=sys.stderr)
         return []
-    if not isinstance(data, list) or not data:
+
+    if not isinstance(data, list):
+        print(f"[Transbordeur] unexpected JSON type: {type(data).__name__}",
+              file=sys.stderr)
         return []
 
     events: List[Event] = []
+    today = Date.today()
     for post in data:
-        d = _date_from_post(post)
-        if not d or d < Date.today():
+        if not isinstance(post, dict):
             continue
-        title_field = post.get("title") or ""
+        d = _extract_date(post)
+        if not d or d < today:
+            continue
+
+        title_field = post.get("title")
         if isinstance(title_field, dict):
             title = _strip_html(title_field.get("rendered", "")).strip()
         else:
-            title = _strip_html(str(title_field)).strip()
+            title = _strip_html(str(title_field or "")).strip()
         if not title:
             continue
+
         link = post.get("link") or SITE + "/agenda/"
+        time_str = _extract_time(post)
+        image = _extract_image(post)
+
         events.append(Event(
             venue=VENUE,
             venue_slug=SLUG,
@@ -122,58 +246,23 @@ def _try_endpoint(endpoint: str) -> List[Event]:
             category="concert",
             date_start=iso(d),
             date_end=None,
-            time=None,
+            time=time_str,
             url=link,
-            image=None,
+            image=image,
         ))
-    return events
 
+    if not events:
+        _diagnose_first_post()
 
-def _diagnose():
-    print("=" * 60, file=sys.stderr)
-    print("DIAGNOSTIC: Le Transbordeur — looking for event routes", file=sys.stderr)
-    try:
-        resp = requests.get(SITE + "/wp-json/", timeout=20, headers=HEADERS)
-        if resp.status_code != 200:
-            print(f"  /wp-json/ status: {resp.status_code}", file=sys.stderr)
-            return
-        data = resp.json()
-        routes = list((data.get("routes") or {}).keys())
-        relevant = [r for r in routes
-                    if any(k in r.lower() for k in INTERESTING_KEYWORDS)]
-        print(f"  Total routes: {len(routes)}", file=sys.stderr)
-        print(f"  Routes matching event keywords: {len(relevant)}",
-              file=sys.stderr)
-        for r in relevant[:50]:
-            print(f"    - {r}", file=sys.stderr)
-
-        # Also list all top-level WP /v2 custom post types
-        v2_types = [r for r in routes
-                    if r.startswith("/wp/v2/") and r.count("/") <= 3]
-        print(f"  All /wp/v2/* routes ({len(v2_types)}):", file=sys.stderr)
-        for r in v2_types[:50]:
-            print(f"    - {r}", file=sys.stderr)
-    except (requests.RequestException, ValueError) as e:
-        print(f"  Failed: {e}", file=sys.stderr)
-    print("=" * 60, file=sys.stderr)
-
-
-def fetch() -> List[Event]:
-    for endpoint in WP_ENDPOINTS:
-        events = _try_endpoint(endpoint)
-        if events:
-            print(f"[Transbordeur] Got {len(events)} events from {endpoint}",
-                  file=sys.stderr)
-            seen, unique = set(), []
-            for e in events:
-                if e.id not in seen:
-                    seen.add(e.id)
-                    unique.append(e)
-            return unique
-    _diagnose()
-    return []
+    seen, unique = set(), []
+    for e in events:
+        if e.id not in seen:
+            seen.add(e.id)
+            unique.append(e)
+    unique.sort(key=lambda e: (e.date_start, e.time or "00:00"))
+    return unique
 
 
 if __name__ == "__main__":
     for e in fetch():
-        print(e.date_start, "·", e.title, "·", e.url)
+        print(e.date_start, e.time or "  -  ", "·", e.title, "·", e.url)
