@@ -1,22 +1,14 @@
 """Scraper for Comédie Odéon (comedieodeon.com).
 
-v3: changed strategy. The HTML structure is:
-    <h2>Title</h2>
-    <a href="/spectacle/slug/"><img></a>
-    <a href="/billetterie/...">Réserver</a>
-    Date text
-    <a href="/spectacle/slug/">Voir plus</a>
-
-The <h2> is a SIBLING of the date and links, not a parent.
-New approach: anchor on <h2>, then walk forward through siblings to find
-the date and the spectacle link.
+v4: anchor on h2, walk UP the tree to find a common ancestor that
+contains BOTH the h2 AND a /spectacle/<slug>/ link. This is the card.
 """
 from typing import List, Optional, Tuple
 from datetime import date as Date
 import re
 import sys
 import requests
-from bs4 import BeautifulSoup, Tag, NavigableString
+from bs4 import BeautifulSoup, Tag
 
 from .base import Event, iso, FR_MONTHS
 
@@ -43,7 +35,6 @@ DATE_RANGE_NO_YEAR = re.compile(
     r"\b[Dd]u\s+(\d{1,2})\s+au\s+(\d{1,2})\s+([\wéèêôû]+)(?!\s+\d{4})\b",
     re.IGNORECASE,
 )
-# "Jusqu'au 02 mai 2026" — open-ended ongoing event ending on that date
 DATE_UNTIL = re.compile(
     r"[Jj]usqu['’]au\s+(\d{1,2})\s+([\wéèêôû]+)(?:\s+(\d{4}))?",
     re.IGNORECASE,
@@ -93,7 +84,6 @@ def _slug_from_href(href: str) -> str:
 
 
 def _extract_dates(text: str) -> Tuple[Optional[Date], Optional[Date]]:
-    # 1. "du X mois1 au Y mois2 [year]"
     m = DATE_RANGE_DIFF_MONTH.search(text)
     if m:
         d1, mo1, d2, mo2, yr = m.groups()
@@ -114,7 +104,6 @@ def _extract_dates(text: str) -> Tuple[Optional[Date], Optional[Date]]:
             except ValueError:
                 pass
 
-    # 2. "Du X au Y mois year"
     m = DATE_RANGE_SAME_MONTH.search(text)
     if m:
         d1, d2, mo, yr = m.groups()
@@ -126,7 +115,6 @@ def _extract_dates(text: str) -> Tuple[Optional[Date], Optional[Date]]:
             except ValueError:
                 pass
 
-    # 3. "Du X au Y mois" (no year)
     m = DATE_RANGE_NO_YEAR.search(text)
     if m:
         d1, d2, mo = m.groups()
@@ -138,7 +126,6 @@ def _extract_dates(text: str) -> Tuple[Optional[Date], Optional[Date]]:
             except ValueError:
                 pass
 
-    # 4. "Jusqu'au X mois year" — ongoing ends on that date
     m = DATE_UNTIL.search(text)
     if m:
         d, mo, yr = m.groups()
@@ -148,12 +135,10 @@ def _extract_dates(text: str) -> Tuple[Optional[Date], Optional[Date]]:
                 year = int(yr) if yr else _smart_year(month, int(d))
                 end = Date(year, month, int(d))
                 today = Date.today()
-                # Start = today (it's ongoing)
                 return today, end
             except ValueError:
                 pass
 
-    # 5. "Samedi X mois year"
     m = DAY_NAME_DATE_YEAR.search(text)
     if m:
         d, mo, yr = m.groups()
@@ -164,7 +149,6 @@ def _extract_dates(text: str) -> Tuple[Optional[Date], Optional[Date]]:
             except ValueError:
                 pass
 
-    # 6. "Samedi X mois" (no year)
     m = DAY_NAME_DATE_NO_YEAR.search(text)
     if m:
         d, mo = m.groups()
@@ -176,7 +160,6 @@ def _extract_dates(text: str) -> Tuple[Optional[Date], Optional[Date]]:
             except ValueError:
                 pass
 
-    # 7. "X et Y mois year"
     m = DATE_TWO.search(text)
     if m:
         d1, d2, mo, yr = m.groups()
@@ -188,7 +171,6 @@ def _extract_dates(text: str) -> Tuple[Optional[Date], Optional[Date]]:
             except ValueError:
                 pass
 
-    # 8. Bare "X mois year"
     m = DATE_BARE.search(text)
     if m:
         d, mo, yr = m.groups()
@@ -212,53 +194,29 @@ def _extract_time(text: str) -> Optional[str]:
     return None
 
 
-def _gather_event_data(h2: Tag) -> Tuple[Optional[str], Optional[str], Optional[str], Optional[str]]:
-    """From a <h2>, walk forward through siblings (and their descendants)
-    until hitting the next <h2>, gathering: spectacle slug URL, image, raw text.
-    Returns (href, image, text, raw_text_for_diag)
-    """
-    href: Optional[str] = None
-    image: Optional[str] = None
-    text_parts = []
-
-    sib = h2.next_sibling
-    while sib is not None:
-        if isinstance(sib, Tag):
-            if sib.name == "h2":
-                break
-            # Look for spectacle link
-            if href is None:
-                a_links = sib.select('a[href*="/spectacle/"]') if hasattr(sib, "select") else []
-                # Plus the sibling itself if it's an <a>
-                if sib.name == "a" and "/spectacle/" in sib.get("href", ""):
-                    a_links = [sib] + list(a_links)
-                for a in a_links:
-                    h = a.get("href", "")
-                    if h.startswith("/"):
-                        h = HOST + h
-                    slug = _slug_from_href(h)
-                    if slug and not slug.endswith("/spectacle"):
-                        href = h
-                        break
-            # Look for image
-            if image is None:
-                img = sib.find("img") if hasattr(sib, "find") else None
-                if img is None and sib.name == "img":
-                    img = sib
-                if img:
-                    src = img.get("src", "") or ""
-                    if src.startswith("http"):
-                        image = src
-            # Append text
-            text_parts.append(sib.get_text(" ", strip=True))
-        elif isinstance(sib, NavigableString):
-            t = str(sib).strip()
-            if t:
-                text_parts.append(t)
-        sib = sib.next_sibling
-
-    text = " ".join(t for t in text_parts if t)
-    return href, image, text, text
+def _find_card_for_h2(h2: Tag, max_levels: int = 8) -> Optional[Tag]:
+    """Walk UP from h2 until reaching an ancestor that contains a
+    /spectacle/<slug>/ link, with exactly one distinct slug."""
+    el: Optional[Tag] = h2
+    for _ in range(max_levels):
+        parent = el.parent if el else None
+        if parent is None or parent.name in ("html", "body"):
+            return None
+        el = parent
+        # Find /spectacle/ links inside, dedupe by slug
+        links = el.select('a[href*="/spectacle/"]')
+        distinct = set()
+        for a in links:
+            slug = _slug_from_href(a.get("href", ""))
+            if slug and not slug.endswith("/spectacle"):
+                distinct.add(slug)
+        if len(distinct) == 1:
+            return el
+        if len(distinct) >= 2:
+            # Walked too high — stop
+            return None
+        # Zero links: keep walking up
+    return None
 
 
 def fetch() -> List[Event]:
@@ -274,23 +232,36 @@ def fetch() -> List[Event]:
     seen_slugs: set = set()
     today = Date.today()
 
-    # Anchor on <h2> elements (each event has a unique h2 for the title)
     for h2 in soup.find_all("h2"):
         title = h2.get_text(" ", strip=True)
         if not title or len(title) < 2 or len(title) > 250:
             continue
-        # Skip menu/section h2
         if title.lower() in ("toutes nos productions", "saison 2025 2026",
-                              "saison 2025/2026", "spectacles passés"):
+                              "saison 2025/2026", "spectacles passés",
+                              "nos productions"):
             continue
 
-        href, image, text, _ = _gather_event_data(h2)
+        card = _find_card_for_h2(h2)
+        if card is None:
+            continue
+
+        # Get the slug
+        href = None
+        for a in card.select('a[href*="/spectacle/"]'):
+            h = a.get("href", "")
+            if h.startswith("/"):
+                h = HOST + h
+            slug = _slug_from_href(h)
+            if slug and not slug.endswith("/spectacle"):
+                href = h
+                break
         if not href:
             continue
         slug = _slug_from_href(href)
         if slug in seen_slugs:
             continue
 
+        text = card.get_text(" ", strip=True)
         d_start, d_end = _extract_dates(text)
         if not d_start:
             continue
@@ -298,6 +269,13 @@ def fetch() -> List[Event]:
             continue
 
         time_str = _extract_time(text)
+
+        image: Optional[str] = None
+        img = card.find("img")
+        if img:
+            src = img.get("src", "") or ""
+            if src.startswith("http"):
+                image = src
 
         seen_slugs.add(slug)
         events.append(Event(
@@ -321,14 +299,40 @@ def fetch() -> List[Event]:
             soup2 = BeautifulSoup(resp2.text, "html.parser")
             h2s = soup2.find_all("h2")
             print(f"  h2 count: {len(h2s)}", file=sys.stderr)
-            for h2 in h2s[:5]:
+            for h2 in h2s[:4]:
                 title = h2.get_text(' ', strip=True)
-                href, image, text, _ = _gather_event_data(h2)
-                d_start, d_end = _extract_dates(text or "")
-                print(f"  h2={title[:40]!r}", file=sys.stderr)
-                print(f"    href={href!r}", file=sys.stderr)
-                print(f"    text[:200]={text[:200]!r}", file=sys.stderr)
-                print(f"    extracted: {d_start} → {d_end}", file=sys.stderr)
+                card = _find_card_for_h2(h2)
+                if card:
+                    text = card.get_text(' ', strip=True)[:200]
+                    d_start, d_end = _extract_dates(text)
+                    href = None
+                    for a in card.select('a[href*="/spectacle/"]'):
+                        h = a.get('href', '')
+                        slug = _slug_from_href(h)
+                        if slug and not slug.endswith('/spectacle'):
+                            href = h
+                            break
+                    print(f"  h2={title[:40]!r} card.tag={card.name}", file=sys.stderr)
+                    print(f"    href={href!r}", file=sys.stderr)
+                    print(f"    text[:200]={text!r}", file=sys.stderr)
+                    print(f"    extracted: {d_start} → {d_end}", file=sys.stderr)
+                else:
+                    # Walk up showing each level
+                    print(f"  h2={title[:40]!r}: no card found", file=sys.stderr)
+                    el = h2
+                    for lvl in range(5):
+                        p = el.parent
+                        if p is None:
+                            break
+                        el = p
+                        links = el.select('a[href*="/spectacle/"]') if hasattr(el, 'select') else []
+                        distinct = set()
+                        for a in links:
+                            s = _slug_from_href(a.get('href', ''))
+                            if s and not s.endswith('/spectacle'):
+                                distinct.add(s)
+                        print(f"    lvl{lvl}: <{el.name}> distinct_slugs={len(distinct)}",
+                              file=sys.stderr)
         except requests.RequestException as e:
             print(f"  failed: {e}", file=sys.stderr)
         print("=" * 60, file=sys.stderr)
