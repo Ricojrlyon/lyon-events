@@ -18,6 +18,7 @@ from scrapers import (
     le_sucre, les_subs, marche_gare, radiant, la_rayonne, transbordeur,
     petit_salon, sonic, periscope, la_commune,
     heat, halle_tony_garnier,
+    opera_lyon, celestins, croix_rousse,
     _stubs,
 )
 
@@ -36,10 +37,11 @@ SCRAPERS: list[tuple[str, Callable[[], List[Event]]]] = [
     ("La Commune",              la_commune.fetch),
     ("HEAT",                    heat.fetch),
     ("La Halle Tony Garnier",   halle_tony_garnier.fetch),
+    ("Opéra de Lyon",           opera_lyon.fetch),
+    ("Théâtre des Célestins",   celestins.fetch),
+    ("Théâtre de la Croix-Rousse", croix_rousse.fetch),
     # Stubs (return [] until you implement them)
-    ("Théâtre des Célestins",   _stubs.fetch_celestins),
     ("TNP",                     _stubs.fetch_tnp),
-    ("Théâtre de la Croix-Rousse", _stubs.fetch_croix_rousse),
     ("Comédie Odéon",           _stubs.fetch_comedie_odeon),
     ("Musée des Confluences",   _stubs.fetch_confluences),
     ("Musée des Beaux-Arts",    _stubs.fetch_beaux_arts),
