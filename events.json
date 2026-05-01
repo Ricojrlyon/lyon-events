@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-01T10:37:47.774889+00:00",
-  "count": 321,
+  "generated_at": "2026-05-01T10:51:22.997695+00:00",
+  "count": 383,
   "events": [
     {
       "venue": "Le Sucre",
@@ -27,6 +27,32 @@
       "url": "https://sonic-lyon.fr/evenement/club-sonic-3/",
       "image": null,
       "id": "6f7f59d16b9b"
+    },
+    {
+      "venue": "Le Petit Salon",
+      "venue_slug": "petit-salon",
+      "title": "THIS IS TECHNO RAVE : ESCURØ  / TESS KAMU & MORE",
+      "subtitle": null,
+      "category": "club",
+      "date_start": "2026-05-01",
+      "date_end": null,
+      "time": "23:30",
+      "url": "https://yp.events/3ac9ab73-92df-431b-9fc1-004382c97842/THIS-IS-TECHNO-Rave-ESCURO-Tess-Kamu-more?from=siteweb",
+      "image": "https://www.lpslyon.fr/wp-content/uploads/2026/03/ThisisTechnoRave_01052026_lepetitsalon-1024x576.jpg",
+      "id": "9ada330891da"
+    },
+    {
+      "venue": "La Commune",
+      "venue_slug": "la-commune",
+      "title": "Drop 2 Domi",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2026-05-02",
+      "date_end": null,
+      "time": null,
+      "url": "https://lacommune.co/event/drop-2-domi-festival-gratuit-lyon-2026/",
+      "image": null,
+      "id": "5b0afe35ab94"
     },
     {
       "venue": "Le Sucre",
@@ -68,6 +94,32 @@
       "id": "a935f3a70e33"
     },
     {
+      "venue": "Le Petit Salon",
+      "venue_slug": "petit-salon",
+      "title": "OLYMPE / SOONS / TRY & MORE",
+      "subtitle": null,
+      "category": "club",
+      "date_start": "2026-05-02",
+      "date_end": null,
+      "time": "23:30",
+      "url": "https://yp.events/1d3d2032-be47-46d2-8834-b1be953ed19b/Olympe-Soons-Try-more?from=siteweb",
+      "image": "https://www.lpslyon.fr/wp-content/uploads/2026/04/Olympe_02052026_lepetitsalon-1024x576.jpg",
+      "id": "f438e1882190"
+    },
+    {
+      "venue": "La Commune",
+      "venue_slug": "la-commune",
+      "title": "Pimp My Vinyl Lyon",
+      "subtitle": null,
+      "category": "atelier",
+      "date_start": "2026-05-03",
+      "date_end": null,
+      "time": null,
+      "url": "https://lacommune.co/event/pimp-my-vinyl/",
+      "image": null,
+      "id": "4e85263f1b72"
+    },
+    {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
       "title": "S.society x TSSRCT",
@@ -107,6 +159,32 @@
       "id": "521a758934d9"
     },
     {
+      "venue": "La Commune",
+      "venue_slug": "la-commune",
+      "title": "Human Jukebox – Concert participatif",
+      "subtitle": null,
+      "category": "karaoké et blind test",
+      "date_start": "2026-05-05",
+      "date_end": null,
+      "time": null,
+      "url": "https://lacommune.co/event/human-jukebox-karaoke-geant-live-la-commune-lyon/",
+      "image": null,
+      "id": "db7e082bcb0e"
+    },
+    {
+      "venue": "La Commune",
+      "venue_slug": "la-commune",
+      "title": "Yoga Solidaire : cours femmes Fondation des Femmes",
+      "subtitle": null,
+      "category": "bien-être",
+      "date_start": "2026-05-05",
+      "date_end": null,
+      "time": null,
+      "url": "https://lacommune.co/event/yoga-solidaire-lyon/",
+      "image": null,
+      "id": "edf7ce5e1774"
+    },
+    {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
       "title": "Magic Mardi",
@@ -144,6 +222,32 @@
       "url": "https://sonic-lyon.fr/evenement/public-circuit/",
       "image": null,
       "id": "9ba35bb8e54e"
+    },
+    {
+      "venue": "La Commune",
+      "venue_slug": "la-commune",
+      "title": "Soirée Salsa et Bachata",
+      "subtitle": null,
+      "category": "danse",
+      "date_start": "2026-05-06",
+      "date_end": null,
+      "time": null,
+      "url": "https://lacommune.co/event/salsa-bachata-2/",
+      "image": null,
+      "id": "1b9c6d826616"
+    },
+    {
+      "venue": "Le Périscope",
+      "venue_slug": "periscope",
+      "title": "Milkweed + Sourdure",
+      "subtitle": null,
+      "category": "musique",
+      "date_start": "2026-05-06",
+      "date_end": null,
+      "time": null,
+      "url": "https://www.periscope-lyon.com/concerts/milkweed/",
+      "image": "https://www.periscope-lyon.com/wp-content/uploads/2026/02/Press-photo-650x431.jpg",
+      "id": "7fda1dccb45c"
     },
     {
       "venue": "Le Transbordeur",
@@ -196,6 +300,32 @@
       "url": "https://marchegare.fr/agenda/clo-rroy-alyosha",
       "image": null,
       "id": "5c48d744ea85"
+    },
+    {
+      "venue": "La Commune",
+      "venue_slug": "la-commune",
+      "title": "Karaoké Klub",
+      "subtitle": null,
+      "category": "karaoké et blind test",
+      "date_start": "2026-05-07",
+      "date_end": null,
+      "time": null,
+      "url": "https://lacommune.co/event/karaoke-blind-test/",
+      "image": null,
+      "id": "abae6d464ccd"
+    },
+    {
+      "venue": "Le Périscope",
+      "venue_slug": "periscope",
+      "title": "Sauges + Soleil Rouge",
+      "subtitle": "En partenariat avec Wabi-Sabi Tapes",
+      "category": "musique",
+      "date_start": "2026-05-07",
+      "date_end": null,
+      "time": null,
+      "url": "https://www.periscope-lyon.com/concerts/sauges-soleil-rouge/",
+      "image": "https://www.periscope-lyon.com/wp-content/uploads/2026/04/Sauge-Portrait-Montage-Invert-650x793.jpg",
+      "id": "84d5eb14c088"
     },
     {
       "venue": "Le Sucre",
@@ -289,6 +419,32 @@
       "id": "be893e1a58db"
     },
     {
+      "venue": "Le Petit Salon",
+      "venue_slug": "petit-salon",
+      "title": "2MUCH X ENCORE : T E S T P R E S S / TRANCEMASTER KRAUSE / KICHTA /DJ SCHNAKE & MORE",
+      "subtitle": null,
+      "category": "club",
+      "date_start": "2026-05-07",
+      "date_end": null,
+      "time": "23:30",
+      "url": "https://yp.events/fc262f12-ff2b-47d3-a74a-a6e0f63823a4/t-e-s-t-p-r-e-s-s-Trancemaster-Krause-Kichta-DJ-Schnake-more?from=siteweb",
+      "image": "https://www.lpslyon.fr/wp-content/uploads/2026/03/2MUCH_ENCORE_07052026_lepetitsalon-1024x576.png",
+      "id": "86bb88a65c78"
+    },
+    {
+      "venue": "La Commune",
+      "venue_slug": "la-commune",
+      "title": "Le Maxi Buzzer – Blind test immersif",
+      "subtitle": null,
+      "category": "karaoké et blind test",
+      "date_start": "2026-05-08",
+      "date_end": null,
+      "time": null,
+      "url": "https://lacommune.co/event/maxi-buzzer-blind-test/",
+      "image": null,
+      "id": "09dfbc9c68a3"
+    },
+    {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
       "title": "club x crush",
@@ -352,6 +508,32 @@
       "url": "https://www.les-subs.com/evenement/ouverture-ete-2026-cruise-my-mountain-the-darvish/",
       "image": null,
       "id": "fea400ccea0d"
+    },
+    {
+      "venue": "Le Petit Salon",
+      "venue_slug": "petit-salon",
+      "title": "THIS IS TECHNO RAVE : EDER / DAVE ALYAN & MORE",
+      "subtitle": null,
+      "category": "club",
+      "date_start": "2026-05-08",
+      "date_end": null,
+      "time": "23:30",
+      "url": "https://yp.events/25f278bd-5041-465a-8ff6-fe601197f894/THIS-IS-TECHNO-Rave-EDER-Dave-Alyan-more?from=siteweb",
+      "image": "https://www.lpslyon.fr/wp-content/uploads/2026/04/ThisisTechnoRAVE_EDER_08052026_lepetitsalon-1024x576.jpg",
+      "id": "aca9c69b778f"
+    },
+    {
+      "venue": "La Commune",
+      "venue_slug": "la-commune",
+      "title": "Improsion",
+      "subtitle": null,
+      "category": "spectacle",
+      "date_start": "2026-05-09",
+      "date_end": null,
+      "time": null,
+      "url": "https://lacommune.co/event/improsion-finale-tournoi-impro-etudiant-lyon/",
+      "image": null,
+      "id": "99c5d412319a"
     },
     {
       "venue": "Le Sucre",
@@ -432,6 +614,32 @@
       "id": "49375863f57d"
     },
     {
+      "venue": "Le Petit Salon",
+      "venue_slug": "petit-salon",
+      "title": "STAN CHRIST / ØNERA B2B POUPINELA / AURÉLIE CZAJA / ANITA KAYE / NXFACE & MORE",
+      "subtitle": null,
+      "category": "club",
+      "date_start": "2026-05-09",
+      "date_end": null,
+      "time": "23:30",
+      "url": "https://yp.events/7552419c-f0cb-4d63-9c06-be7ef8954cda/Stan-Christ-Onera-B2-B-Poupinela-Aurelie-Czaja-Anita-Kaye-NXFACE-more?from=sitweb",
+      "image": "https://www.lpslyon.fr/wp-content/uploads/2026/03/STAN-CHRIST_ONERA_09052026_lepetitsalon-1024x576.png",
+      "id": "8bcce5e38716"
+    },
+    {
+      "venue": "La Commune",
+      "venue_slug": "la-commune",
+      "title": "Sousdey Lyon",
+      "subtitle": null,
+      "category": "dj set",
+      "date_start": "2026-05-10",
+      "date_end": null,
+      "time": null,
+      "url": "https://lacommune.co/event/sousdey-lyon-culture-cambodgienne-evenement/",
+      "image": null,
+      "id": "0074126b54ab"
+    },
+    {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
       "title": "S.society",
@@ -497,6 +705,19 @@
       "id": "7cd61ac215b1"
     },
     {
+      "venue": "La Commune",
+      "venue_slug": "la-commune",
+      "title": "Ciné-débat",
+      "subtitle": null,
+      "category": "conférences et tables rondes",
+      "date_start": "2026-05-11",
+      "date_end": null,
+      "time": null,
+      "url": "https://lacommune.co/event/cine-debat-la-sociale-securite-sociale-services-publics-debat-entree-libre/",
+      "image": null,
+      "id": "6e22ce8c2d9a"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "Bleu Nuit",
@@ -508,6 +729,32 @@
       "url": "https://radiant-bellevue.fr/spectacles/bleu-nuit/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2025/08/bleu-nuit2_radiant-bellevue-500x500.jpg",
       "id": "5988729d284f"
+    },
+    {
+      "venue": "La Commune",
+      "venue_slug": "la-commune",
+      "title": "Atelier linogravure",
+      "subtitle": null,
+      "category": "atelier",
+      "date_start": "2026-05-12",
+      "date_end": null,
+      "time": null,
+      "url": "https://lacommune.co/event/atelier-linogravure-lyon-studio-pimento/",
+      "image": null,
+      "id": "6c1f3df9aba2"
+    },
+    {
+      "venue": "Le Périscope",
+      "venue_slug": "periscope",
+      "title": "Pali Meursault",
+      "subtitle": "I'm free : concert gratuit",
+      "category": "musique",
+      "date_start": "2026-05-12",
+      "date_end": null,
+      "time": null,
+      "url": "https://www.periscope-lyon.com/concerts/pali-meursau/",
+      "image": "https://www.periscope-lyon.com/wp-content/uploads/2026/03/LW2-650x433.jpg",
+      "id": "532ece94d602"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -536,6 +783,19 @@
       "id": "a7514dd12469"
     },
     {
+      "venue": "La Commune",
+      "venue_slug": "la-commune",
+      "title": "Soirée Nokia 3310",
+      "subtitle": null,
+      "category": "dj set",
+      "date_start": "2026-05-13",
+      "date_end": null,
+      "time": null,
+      "url": "https://lacommune.co/event/soiree-nokia-3310-annees-90-2000-retro-dancefloor/",
+      "image": null,
+      "id": "0b9f701746dc"
+    },
+    {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
       "title": "club",
@@ -547,6 +807,32 @@
       "url": "https://le-sucre.eu/events/night-1/",
       "image": "https://le-sucre.eu/wp-content/uploads/2026/03/NUITS-1-600x600.png",
       "id": "4dbb6ba9589d"
+    },
+    {
+      "venue": "Le Petit Salon",
+      "venue_slug": "petit-salon",
+      "title": "THIS IS TECHNO RAVE : DISSONNE / NOVOPOL & MORE",
+      "subtitle": null,
+      "category": "club",
+      "date_start": "2026-05-13",
+      "date_end": null,
+      "time": "23:30",
+      "url": "https://yp.events/1aa6d58a-216b-4089-a89e-d96bef0bc685/THIS-IS-TECHNO-Rave-Dissonne-Novopol-more?from=siteweb",
+      "image": "https://www.lpslyon.fr/wp-content/uploads/2026/04/ThisisTechnoRAVE_DISSONNE_13052026_lepetitsalon-1024x576.jpg",
+      "id": "717cc93f0e5c"
+    },
+    {
+      "venue": "La Commune",
+      "venue_slug": "la-commune",
+      "title": "La Halte #4",
+      "subtitle": null,
+      "category": "dj set",
+      "date_start": "2026-05-14",
+      "date_end": null,
+      "time": null,
+      "url": "https://lacommune.co/event/la-halte-4-lyon-dj-set/",
+      "image": null,
+      "id": "faa584ce95e7"
     },
     {
       "venue": "Le Sucre",
@@ -588,6 +874,19 @@
       "id": "76e34a0f1805"
     },
     {
+      "venue": "Le Petit Salon",
+      "venue_slug": "petit-salon",
+      "title": "CLTX / NOISE MAFIA / RADAR / URVA ESTREVA & MORE",
+      "subtitle": null,
+      "category": "club",
+      "date_start": "2026-05-15",
+      "date_end": null,
+      "time": "23:30",
+      "url": "https://yp.events/c1521a1d-5010-4597-b2c7-b50248e6fdf5/CLTX-Noise-Mafia-RADAR-Urva-Estreva-more?from=siteweb",
+      "image": "https://www.lpslyon.fr/wp-content/uploads/2026/03/2359_CLTX_NOISEMAFIA_-1024x536.jpg",
+      "id": "cd1df3374b96"
+    },
+    {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
       "title": "club",
@@ -627,6 +926,32 @@
       "id": "3909ce6d133c"
     },
     {
+      "venue": "Le Petit Salon",
+      "venue_slug": "petit-salon",
+      "title": "VITESSE : GIØ / PIX / KIDÖ & MORE",
+      "subtitle": null,
+      "category": "club",
+      "date_start": "2026-05-16",
+      "date_end": null,
+      "time": "23:30",
+      "url": "https://yp.events/b5da4543-0a74-4ed3-ab63-80a7722b4d51/VITESSE-GIO-PIX-KID-Oe-more?from=siteweb",
+      "image": "https://www.lpslyon.fr/wp-content/uploads/2026/04/Vitesse_GIO_16052026_lepetitsalon-1024x576.jpg",
+      "id": "e0f9b974dc9c"
+    },
+    {
+      "venue": "La Commune",
+      "venue_slug": "la-commune",
+      "title": "Yoga Sonore – Unlock Studio",
+      "subtitle": null,
+      "category": "bien-être",
+      "date_start": "2026-05-17",
+      "date_end": null,
+      "time": null,
+      "url": "https://lacommune.co/event/yoga-sonore-lyon-bain-sonore-yoga-nuits-sonores/",
+      "image": null,
+      "id": "6f22a3bb5e97"
+    },
+    {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
       "title": "JUTES",
@@ -651,6 +976,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/les-intemperies-de-sami/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2025/08/les-intemperies-de-sam_radiant-bellevue-500x500.jpg",
       "id": "3cde15ca03b4"
+    },
+    {
+      "venue": "La Commune",
+      "venue_slug": "la-commune",
+      "title": "Quizz Drag",
+      "subtitle": null,
+      "category": "drag",
+      "date_start": "2026-05-19",
+      "date_end": null,
+      "time": null,
+      "url": "https://lacommune.co/event/quizz-drag/",
+      "image": null,
+      "id": "6b0eb562d794"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -690,6 +1028,19 @@
       "url": "https://sonic-lyon.fr/evenement/lorelle-meets-the-obsolete/",
       "image": null,
       "id": "89cb3b1d90f2"
+    },
+    {
+      "venue": "Le Périscope",
+      "venue_slug": "periscope",
+      "title": "Nout",
+      "subtitle": null,
+      "category": "musique",
+      "date_start": "2026-05-20",
+      "date_end": null,
+      "time": null,
+      "url": "https://www.periscope-lyon.com/concerts/nout/",
+      "image": "https://www.periscope-lyon.com/wp-content/uploads/2026/03/NOUT-HORIZONTAL-NOIR-ORANGE-BD-1024x709-1-650x450.jpg",
+      "id": "eda6f1dacd75"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -744,6 +1095,32 @@
       "id": "ebf5f7a13284"
     },
     {
+      "venue": "La Commune",
+      "venue_slug": "la-commune",
+      "title": "Karaoké Live",
+      "subtitle": null,
+      "category": "karaoké et blind test",
+      "date_start": "2026-05-22",
+      "date_end": null,
+      "time": null,
+      "url": "https://lacommune.co/event/karaoke-live-cherry-chap-concert-karaoke-avec-musiciens/",
+      "image": null,
+      "id": "e6eb72949037"
+    },
+    {
+      "venue": "Le Périscope",
+      "venue_slug": "periscope",
+      "title": "Aïtawa + James Stewart",
+      "subtitle": "Release Party • En partenariat avec Salamah Productions",
+      "category": "musique",
+      "date_start": "2026-05-22",
+      "date_end": null,
+      "time": null,
+      "url": "https://www.periscope-lyon.com/concerts/aitawa-james-stewart/",
+      "image": "https://www.periscope-lyon.com/wp-content/uploads/2026/03/Aitawa-web-2-2-650x433.jpg",
+      "id": "bcee05f4f762"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "DIVA Syndicat",
@@ -796,6 +1173,32 @@
       "id": "9fa5b527bdc3"
     },
     {
+      "venue": "Le Petit Salon",
+      "venue_slug": "petit-salon",
+      "title": "ALIGNMENT / JOWF0 / YASMIN GARDEZI & MORE",
+      "subtitle": null,
+      "category": "club",
+      "date_start": "2026-05-22",
+      "date_end": null,
+      "time": "23:30",
+      "url": "https://yp.events/54b4f999-c4f2-4a19-b250-e233dc07c4d9/Alignment-Yasmin-Gardezi-JOWF0-more?from=siteweb",
+      "image": "https://www.lpslyon.fr/wp-content/uploads/2026/04/Alignment_22052026_lepetitsalon-1024x576.jpg",
+      "id": "6a7af277a93e"
+    },
+    {
+      "venue": "Le Périscope",
+      "venue_slug": "periscope",
+      "title": "Souls of Mischief + Fucstyle",
+      "subtitle": "En partenariat avec Panthers",
+      "category": "musique",
+      "date_start": "2026-05-23",
+      "date_end": null,
+      "time": null,
+      "url": "https://www.periscope-lyon.com/concerts/souls-of-mischief/",
+      "image": "https://www.periscope-lyon.com/wp-content/uploads/2026/04/InstaSOM-650x643.jpg",
+      "id": "006cfc0f0156"
+    },
+    {
       "venue": "Les Subsistances",
       "venue_slug": "les-subs",
       "title": "La Catastrophe Guillaume Bailliart",
@@ -822,6 +1225,19 @@
       "id": "e0ceaf20a3ae"
     },
     {
+      "venue": "Le Petit Salon",
+      "venue_slug": "petit-salon",
+      "title": "THIS IS HOUSE : SHAMANISM & MORE",
+      "subtitle": null,
+      "category": "club",
+      "date_start": "2026-05-23",
+      "date_end": null,
+      "time": "23:30",
+      "url": "https://yp.events/35f7ca1d-9f2c-426c-b277-3d56fa6a23f3/THIS-IS-HOUSE-Shamanism-Crew-more?from=siteweb",
+      "image": "https://www.lpslyon.fr/wp-content/uploads/2026/04/Shamanism_23052026_lepetitsalon-1024x564.jpg",
+      "id": "cd987599efd3"
+    },
+    {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
       "title": "THE GATHERING + LIZZARD",
@@ -846,6 +1262,58 @@
       "url": "https://larayonne.org/evenement/the-gathering-anneke-van-giersbergen/",
       "image": null,
       "id": "e95715b8d3a0"
+    },
+    {
+      "venue": "Le Petit Salon",
+      "venue_slug": "petit-salon",
+      "title": "THIS IS DISCO : VYKTOR NOVA / TERROR MIKE",
+      "subtitle": null,
+      "category": "club",
+      "date_start": "2026-05-24",
+      "date_end": null,
+      "time": "23:30",
+      "url": "https://yp.events/51ae9aa4-bb4a-47ef-8243-2b8f39c4ffcf/THIS-IS-DISCO-Vyktor-Nova-Terror-Mike-VEILLE-DE-JOUR-FERIE?from=siteweb",
+      "image": "https://www.lpslyon.fr/wp-content/uploads/2026/04/ThisisDisco_24052026_lepetitsalon-1024x576.jpg",
+      "id": "2395c784e72c"
+    },
+    {
+      "venue": "La Commune",
+      "venue_slug": "la-commune",
+      "title": "Phonograffiti : atelier graffiti sur vinyle",
+      "subtitle": null,
+      "category": "atelier",
+      "date_start": "2026-05-25",
+      "date_end": null,
+      "time": null,
+      "url": "https://lacommune.co/event/phonograffiti-lyon/",
+      "image": null,
+      "id": "97075997a8f2"
+    },
+    {
+      "venue": "La Commune",
+      "venue_slug": "la-commune",
+      "title": "Piano-bar karaoké",
+      "subtitle": null,
+      "category": "karaoké et blind test",
+      "date_start": "2026-05-26",
+      "date_end": null,
+      "time": null,
+      "url": "https://lacommune.co/event/piano-bar-lyon/",
+      "image": null,
+      "id": "35eec8bcab48"
+    },
+    {
+      "venue": "Le Périscope",
+      "venue_slug": "periscope",
+      "title": "The Dwarfs of East Agouza",
+      "subtitle": null,
+      "category": "musique",
+      "date_start": "2026-05-26",
+      "date_end": null,
+      "time": null,
+      "url": "https://www.periscope-lyon.com/concerts/the-dwarfs-of-east-agouza/",
+      "image": "https://www.periscope-lyon.com/wp-content/uploads/2026/03/Dwarfs4_©Maged_Nader_300dpi-Kopie-680x440-1-650x421.jpg",
+      "id": "06bd082f921c"
     },
     {
       "venue": "Le Sucre",
@@ -911,6 +1379,19 @@
       "url": "https://www.les-subs.com/evenement/nocturne-parade-phia-menard/",
       "image": null,
       "id": "ed1d1f16805b"
+    },
+    {
+      "venue": "La Commune",
+      "venue_slug": "la-commune",
+      "title": "Grand Défi Télécrochet – Blind test & karaoké à Lyon",
+      "subtitle": null,
+      "category": "karaoké et blind test",
+      "date_start": "2026-05-27",
+      "date_end": null,
+      "time": null,
+      "url": "https://lacommune.co/event/grand-defi/",
+      "image": null,
+      "id": "3e040b96808b"
     },
     {
       "venue": "Le Transbordeur",
@@ -991,6 +1472,32 @@
       "id": "bfabe7c55ad3"
     },
     {
+      "venue": "La Commune",
+      "venue_slug": "la-commune",
+      "title": "DJ set house à Lyon – Suntrax avec MétissKyla",
+      "subtitle": null,
+      "category": "dj set",
+      "date_start": "2026-05-28",
+      "date_end": null,
+      "time": null,
+      "url": "https://lacommune.co/event/les-suntrax-metisskyla-dj-set-house-lyon/",
+      "image": null,
+      "id": "fea8f2c7cc9b"
+    },
+    {
+      "venue": "Le Périscope",
+      "venue_slug": "periscope",
+      "title": "Liam Szymonik Quartet",
+      "subtitle": null,
+      "category": "musique",
+      "date_start": "2026-05-28",
+      "date_end": null,
+      "time": null,
+      "url": "https://www.periscope-lyon.com/concerts/liam-szymonik-quartet/",
+      "image": "https://www.periscope-lyon.com/wp-content/uploads/2026/04/Liam-Szymonik-Quartet.jpeg",
+      "id": "7ba08361877a"
+    },
+    {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
       "title": "SCRATCH MASSIVE",
@@ -1028,6 +1535,19 @@
       "url": "https://www.les-subs.com/evenement/nocturne-parade-phia-menard/",
       "image": null,
       "id": "4ebd0ccefa01"
+    },
+    {
+      "venue": "La Commune",
+      "venue_slug": "la-commune",
+      "title": "Bal swing",
+      "subtitle": null,
+      "category": "danse",
+      "date_start": "2026-05-29",
+      "date_end": null,
+      "time": null,
+      "url": "https://lacommune.co/event/bal-swing-lyon-2/",
+      "image": null,
+      "id": "21620981cf16"
     },
     {
       "venue": "Le Sucre",
@@ -1080,6 +1600,19 @@
       "url": "https://www.les-subs.com/evenement/fais-ton-cirque/",
       "image": null,
       "id": "9ccf78d0c95b"
+    },
+    {
+      "venue": "Le Petit Salon",
+      "venue_slug": "petit-salon",
+      "title": "MONOHROMI#20 : HITMILØW / DURDENHAUER / ELOTRANCE / V̶T̶E̶K & MORE",
+      "subtitle": null,
+      "category": "club",
+      "date_start": "2026-05-29",
+      "date_end": null,
+      "time": "23:30",
+      "url": "https://yp.events/02477a7f-490a-4e01-aaf3-dce95240f5d0/MONOHROMI-20-HITMILOW-DURDENHAUER-ELOTRANCE-more?from=siteweb",
+      "image": "https://www.lpslyon.fr/wp-content/uploads/2026/04/MONOHROMI20_29052926_lepetitsalon-1024x576.jpg",
+      "id": "73815eb57b1f"
     },
     {
       "venue": "Le Sucre",
@@ -1160,6 +1693,32 @@
       "id": "d723818076c7"
     },
     {
+      "venue": "Le Petit Salon",
+      "venue_slug": "petit-salon",
+      "title": "THIS IS TECHNO RAVE : JAUKS / BAB' & MORE",
+      "subtitle": null,
+      "category": "club",
+      "date_start": "2026-05-30",
+      "date_end": null,
+      "time": "23:30",
+      "url": "https://yp.events/c056f0fd-6e6d-4a01-8907-2fbacd9d11b9/THIS-IS-TECHNO-Rave-JAUKS-Bab-more?from=siteweb",
+      "image": "https://www.lpslyon.fr/wp-content/uploads/2026/04/ThisisTECHNORAVE_30052026_lepetitsalon-1024x576.jpg",
+      "id": "a87ccd6a3c41"
+    },
+    {
+      "venue": "La Commune",
+      "venue_slug": "la-commune",
+      "title": "Atelier créatif Lyon | découverte à La Commune",
+      "subtitle": null,
+      "category": "atelier",
+      "date_start": "2026-05-31",
+      "date_end": null,
+      "time": null,
+      "url": "https://lacommune.co/event/atelier-decouverte-cyanotype/",
+      "image": null,
+      "id": "53a378a1f359"
+    },
+    {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
       "title": "S.society",
@@ -1212,6 +1771,19 @@
       "id": "b3ea53a754df"
     },
     {
+      "venue": "Le Périscope",
+      "venue_slug": "periscope",
+      "title": "Arlt + Gilles Poizat",
+      "subtitle": "Les 20 ans de Arlt • En partenariat avec Murailles Music",
+      "category": "musique",
+      "date_start": "2026-06-02",
+      "date_end": null,
+      "time": null,
+      "url": "https://www.periscope-lyon.com/concerts/arlt-gilles-poizat/",
+      "image": "https://www.periscope-lyon.com/wp-content/uploads/2026/03/Arlt-©-Marie-Losier-1-e1776953997826-650x433.jpg",
+      "id": "96d5bae9cb8f"
+    },
+    {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
       "title": "Magic Mardi",
@@ -1251,6 +1823,19 @@
       "id": "0f22d32d5aee"
     },
     {
+      "venue": "Le Périscope",
+      "venue_slug": "periscope",
+      "title": "Claude Tchamitchian solo – “In Spirit”",
+      "subtitle": "I'm free • concert gratuit",
+      "category": "musique",
+      "date_start": "2026-06-03",
+      "date_end": null,
+      "time": null,
+      "url": "https://www.periscope-lyon.com/concerts/claude-tchamitchian-solo-in-spirit/",
+      "image": "https://www.periscope-lyon.com/wp-content/uploads/2026/04/Claude-Tchamitchian-@C.Charpenel-650x520.jpg",
+      "id": "47c33022adc7"
+    },
+    {
       "venue": "Les Subsistances",
       "venue_slug": "les-subs",
       "title": "Subs Visites Historiques",
@@ -1275,6 +1860,32 @@
       "url": "https://marchegare.fr/agenda/blindest-quouis-je-les-20-ans",
       "image": null,
       "id": "cf21bcbb46c2"
+    },
+    {
+      "venue": "La Commune",
+      "venue_slug": "la-commune",
+      "title": "Les Trax",
+      "subtitle": null,
+      "category": "dj set",
+      "date_start": "2026-06-04",
+      "date_end": null,
+      "time": null,
+      "url": "https://lacommune.co/event/dj-set-lyon/",
+      "image": null,
+      "id": "17874a894711"
+    },
+    {
+      "venue": "Le Périscope",
+      "venue_slug": "periscope",
+      "title": "nötile",
+      "subtitle": "Release Party • En partenariat avec La Compagnie Mangouste",
+      "category": "musique",
+      "date_start": "2026-06-04",
+      "date_end": null,
+      "time": null,
+      "url": "https://www.periscope-lyon.com/concerts/notile-3/",
+      "image": "https://www.periscope-lyon.com/wp-content/uploads/2026/04/2-notile-photo-presse-HD-©-bertrand-gaudillere-item-1-650x434.jpg",
+      "id": "d670abe13f37"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -1353,6 +1964,19 @@
       "url": "https://www.les-subs.com/evenement/nuits-de-fourviere-2026-ce-que-le-ciel-ne-sait-pas-feda-wardak/",
       "image": null,
       "id": "933e1eb079f7"
+    },
+    {
+      "venue": "Le Petit Salon",
+      "venue_slug": "petit-salon",
+      "title": "THIS IS TECHNO RAVE : BSTKTZ / KITTS",
+      "subtitle": null,
+      "category": "club",
+      "date_start": "2026-06-05",
+      "date_end": null,
+      "time": "23:30",
+      "url": "https://yp.events/376cf12f-69aa-4ae1-bd72-949589dd42dd/THIS-IS-TECHNO-Rave-BSTKTZ-Ki-TTS-more?from=siteweb",
+      "image": "https://www.lpslyon.fr/wp-content/uploads/2026/04/ThisisTechnoRAVE_06052026_lepetitsalon-1024x576.jpg",
+      "id": "c39e35a7fd30"
     },
     {
       "venue": "La Rayonne",
@@ -1641,6 +2265,19 @@
       "id": "6c58402d2002"
     },
     {
+      "venue": "Le Périscope",
+      "venue_slug": "periscope",
+      "title": "Whitney Johnson , Lia Kohl, Macie Stewart",
+      "subtitle": null,
+      "category": "musique",
+      "date_start": "2026-06-10",
+      "date_end": null,
+      "time": null,
+      "url": "https://www.periscope-lyon.com/concerts/whitney-johnson-lia-kohl-macie-stewart/",
+      "image": "https://www.periscope-lyon.com/wp-content/uploads/2026/04/WhitneyLiaMacie-by-Leah-Wendzinski-1-1-650x431.jpg",
+      "id": "92fedb3a331e"
+    },
+    {
       "venue": "Le Sonic",
       "venue_slug": "sonic",
       "title": "Good Flying Birds",
@@ -1652,6 +2289,19 @@
       "url": "https://sonic-lyon.fr/evenement/good-flying-birds/",
       "image": null,
       "id": "adbedc3dbc0f"
+    },
+    {
+      "venue": "Le Périscope",
+      "venue_slug": "periscope",
+      "title": "Rien Faire + Bilboquets",
+      "subtitle": "Release Party • En partenariat avec Dur & Doux",
+      "category": "musique",
+      "date_start": "2026-06-11",
+      "date_end": null,
+      "time": null,
+      "url": "https://www.periscope-lyon.com/concerts/rien-faire-bilboquets/",
+      "image": "https://www.periscope-lyon.com/wp-content/uploads/2025/02/BBE6068-Rien-Faire-credit-Bruno-Belleudy-650x433.jpg",
+      "id": "e45b2284d3f8"
     },
     {
       "venue": "Le Transbordeur",
@@ -1719,6 +2369,19 @@
       "id": "30ecf104959b"
     },
     {
+      "venue": "Le Périscope",
+      "venue_slug": "periscope",
+      "title": "Groumpf + Grand CFA",
+      "subtitle": "Festival Les Utopiales #5",
+      "category": "musique",
+      "date_start": "2026-06-12",
+      "date_end": null,
+      "time": null,
+      "url": "https://www.periscope-lyon.com/concerts/groumpf-grand-cfa/",
+      "image": "https://www.periscope-lyon.com/wp-content/uploads/2026/04/401833536_389561593398910_2238175300709684748_n-650x650.jpg",
+      "id": "03bf3affb604"
+    },
+    {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
       "title": "LES WAMPAS",
@@ -1758,6 +2421,19 @@
       "id": "f7d32aba93a8"
     },
     {
+      "venue": "Le Petit Salon",
+      "venue_slug": "petit-salon",
+      "title": "PART TIME KILLER / CARA ELIZABETH / L.ZWO / BETÏSES & MORE",
+      "subtitle": null,
+      "category": "club",
+      "date_start": "2026-06-12",
+      "date_end": null,
+      "time": "23:30",
+      "url": "https://yp.events/189a7ff7-68e4-49ab-a038-f1710e6175be/Part-Time-Killer-invites-Cara-Elizabeth-L-zwo-BETISES-more?from=siteweb",
+      "image": "https://www.lpslyon.fr/wp-content/uploads/2026/04/PART-TIME-KILLER_12062026_lepetitsalon-1024x536.jpg",
+      "id": "0a65d6a3b4ca"
+    },
+    {
       "venue": "Les Subsistances",
       "venue_slug": "les-subs",
       "title": "Restitution Des Ateliers Pratiques Amateures",
@@ -1769,6 +2445,19 @@
       "url": "https://www.les-subs.com/evenement/restitution-des-ateliers-pratiques-amateures/",
       "image": null,
       "id": "3ef475183017"
+    },
+    {
+      "venue": "Le Petit Salon",
+      "venue_slug": "petit-salon",
+      "title": "THIS IS TECHNO RAVE : KEUSMO / ALMØ & MORE",
+      "subtitle": null,
+      "category": "club",
+      "date_start": "2026-06-13",
+      "date_end": null,
+      "time": "23:30",
+      "url": "https://yp.events/9fa51c9f-2ea7-4f97-ab4b-f71bf5ead102/THIS-IS-TECHNO-Rave-Keusmo-ALMO-more?from=siteweb",
+      "image": "https://www.lpslyon.fr/wp-content/uploads/2026/04/ThisisTechnoRAVE_KEUSMO_13062026_lepetitsalon-1024x576.jpg",
+      "id": "3a8d53eb77ab"
     },
     {
       "venue": "Le Transbordeur",
@@ -1784,6 +2473,45 @@
       "id": "380150ce72df"
     },
     {
+      "venue": "La Commune",
+      "venue_slug": "la-commune",
+      "title": "France V/S Sénégal : CDM 2026",
+      "subtitle": null,
+      "category": "diffusion de match",
+      "date_start": "2026-06-16",
+      "date_end": null,
+      "time": null,
+      "url": "https://lacommune.co/event/france-senegal/",
+      "image": null,
+      "id": "37eaff56997d"
+    },
+    {
+      "venue": "La Commune",
+      "venue_slug": "la-commune",
+      "title": "Coupe du Monde : matchs de France",
+      "subtitle": null,
+      "category": "diffusion de match",
+      "date_start": "2026-06-16",
+      "date_end": null,
+      "time": null,
+      "url": "https://lacommune.co/event/coup-monde-foot-lyon/",
+      "image": null,
+      "id": "04bf3ec73f20"
+    },
+    {
+      "venue": "Le Périscope",
+      "venue_slug": "periscope",
+      "title": "Alpha Cassiopeiae",
+      "subtitle": "Release Party · En partenariat avec Tamya Production",
+      "category": "musique",
+      "date_start": "2026-06-16",
+      "date_end": null,
+      "time": null,
+      "url": "https://www.periscope-lyon.com/concerts/alpha-cassiopeiae/",
+      "image": "https://www.periscope-lyon.com/wp-content/uploads/2022/11/AC-©Benoit-Michaely-650x650.jpg",
+      "id": "719cfc592cd9"
+    },
+    {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
       "title": "THORNHILL + LAFAYETTE",
@@ -1797,6 +2525,19 @@
       "id": "c43231082c39"
     },
     {
+      "venue": "Le Périscope",
+      "venue_slug": "periscope",
+      "title": "Hearscape + Blême + Yann Ponthus",
+      "subtitle": "Labo du Conservatoire · Dispositif Open Tour",
+      "category": "musique",
+      "date_start": "2026-06-17",
+      "date_end": null,
+      "time": null,
+      "url": "https://www.periscope-lyon.com/concerts/hearscape-bleme-yann-ponthus/",
+      "image": "https://www.periscope-lyon.com/wp-content/uploads/2026/04/Shooting-1-650x434.jpg",
+      "id": "b03d74614b08"
+    },
+    {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
       "title": "COUNTING CROWS + WILL VARLEY",
@@ -1808,6 +2549,19 @@
       "url": "https://www.transbordeur.fr/evenement/counting-crows-will-varley-17062026/",
       "image": null,
       "id": "989a63a7c092"
+    },
+    {
+      "venue": "Le Périscope",
+      "venue_slug": "periscope",
+      "title": "L’Exil n’est pas un voyage",
+      "subtitle": "En partenariat avec Pince-Oreilles",
+      "category": "musique",
+      "date_start": "2026-06-18",
+      "date_end": null,
+      "time": null,
+      "url": "https://www.periscope-lyon.com/concerts/lexil-nest-pas-un-voyage-2/",
+      "image": "https://www.periscope-lyon.com/wp-content/uploads/2026/04/Affiche-Exil-650x520.jpg",
+      "id": "94b9902d295e"
     },
     {
       "venue": "Marché Gare",
@@ -2135,6 +2889,32 @@
       "id": "9c5e3b52a329"
     },
     {
+      "venue": "La Commune",
+      "venue_slug": "la-commune",
+      "title": "France V/S Irak : CDM 2026",
+      "subtitle": null,
+      "category": "diffusion de match",
+      "date_start": "2026-06-22",
+      "date_end": null,
+      "time": null,
+      "url": "https://lacommune.co/event/france-irak/",
+      "image": null,
+      "id": "ee16e3e864fe"
+    },
+    {
+      "venue": "Le Périscope",
+      "venue_slug": "periscope",
+      "title": "Emmanuelle Parrenin , Delphine Dora & Mocke + Muon S (Anna Gaïotti et Jean Bender)",
+      "subtitle": "I'm free • concert gratuit",
+      "category": "musique",
+      "date_start": "2026-06-24",
+      "date_end": null,
+      "time": null,
+      "url": "https://www.periscope-lyon.com/concerts/emmanuelle-parrenin-delphine-dora-mocke-muon-s-anna-gaiotti-et-jean-bender/",
+      "image": "https://www.periscope-lyon.com/wp-content/uploads/2026/04/MUON-S-26-650x488.jpeg",
+      "id": "733e10469337"
+    },
+    {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
       "title": "SHOW ME THE BODY + TRUCK VIOLENCE",
@@ -2172,6 +2952,19 @@
       "url": "https://www.les-subs.com/evenement/hudge/",
       "image": null,
       "id": "dd2dc6fee0c2"
+    },
+    {
+      "venue": "La Commune",
+      "venue_slug": "la-commune",
+      "title": "Norvège V/S France : CDM 2026",
+      "subtitle": null,
+      "category": "diffusion de match",
+      "date_start": "2026-06-26",
+      "date_end": null,
+      "time": null,
+      "url": "https://lacommune.co/event/france-norvege/",
+      "image": null,
+      "id": "c12fa9aed947"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -4135,6 +4928,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/serge-papagalli/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/03/serge-papagelli_radiant-bellevue-500x500.jpg",
       "id": "15ea6374c40a"
+    },
+    {
+      "venue": "Le Petit Salon",
+      "venue_slug": "petit-salon",
+      "title": "THIS IS HIT MACHINE 90-2000 : NO2T / VYKTOR NOVA & MORE",
+      "subtitle": null,
+      "category": "club",
+      "date_start": "2027-04-30",
+      "date_end": null,
+      "time": "23:30",
+      "url": "https://yp.events/e2774589-4ce1-4a5a-94d0-610be82cd531/THIS-IS-HIT-MACHINE-90-2000-NO2-T-Vyktor-Nova-more-VEILLE-DE-JOUR-FERIE?from=siteweb",
+      "image": "https://www.lpslyon.fr/wp-content/uploads/2026/03/ThisisHitMachine_30042026_lepetitsalon-1024x576.jpg",
+      "id": "844255408d44"
     },
     {
       "venue": "Radiant-Bellevue",
