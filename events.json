@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-01T11:04:29.638283+00:00",
-  "count": 464,
+  "generated_at": "2026-05-01T11:17:21.011647+00:00",
+  "count": 477,
   "events": [
     {
       "venue": "Le Sucre",
@@ -237,6 +237,19 @@
       "id": "7abf2279392a"
     },
     {
+      "venue": "Théâtre des Célestins",
+      "venue_slug": "celestins",
+      "title": "Toutes les petites choses que j’ai pu voir",
+      "subtitle": "Raymond Carver, Olivia Corsini",
+      "category": "celestine",
+      "date_start": "2026-05-05",
+      "date_end": "2026-05-16",
+      "time": null,
+      "url": "https://www.theatredescelestins.com/fr/programmation/2025-2026/celestine/toutes-les-petites-choses-que-jai-pu-voir",
+      "image": "https://www.theatredescelestins.com/assets/q75-w330-h434-c330x434/0b9610dc/toutes_ces_petites_choses32_julien_piffaut.jpg.webp",
+      "id": "fe7324fb1e63"
+    },
+    {
       "venue": "Le Sonic",
       "venue_slug": "sonic",
       "title": "Public Circuit + La Peau Douce",
@@ -302,6 +315,19 @@
       "id": "abc877e13c76"
     },
     {
+      "venue": "Opéra national de Lyon",
+      "venue_slug": "opera-lyon",
+      "title": "Moby-Dick",
+      "subtitle": "Fabien Waksman",
+      "category": "concert",
+      "date_start": "2026-05-06",
+      "date_end": "2026-05-07",
+      "time": null,
+      "url": "https://www.opera-lyon.com/fr/programmation/saison-2025-2026/concert/moby-dick",
+      "image": "https://api.opera-lyon.com/assets/q80-w634-c448x568/0b39dc15/moby_dick.jpg",
+      "id": "5a82701fdec5"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "MOGUIZ",
@@ -313,6 +339,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/moguiz/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2025/04/mog-1-scaled.jpg",
       "id": "013a873c70ad"
+    },
+    {
+      "venue": "Théâtre des Célestins",
+      "venue_slug": "celestins",
+      "title": "Le Misanthrope",
+      "subtitle": "Molière, Simon Delétang",
+      "category": "grande salle",
+      "date_start": "2026-05-06",
+      "date_end": "2026-05-16",
+      "time": null,
+      "url": "https://www.theatredescelestins.com/fr/programmation/2025-2026/grande-salle/le-misanthrope",
+      "image": "https://www.theatredescelestins.com/assets/q75-w330-h434-c330x434-abottom/84e1161f/misanthrope_letizia_le_fur.jpg.webp",
+      "id": "b3a6875726ea"
     },
     {
       "venue": "Les Subsistances",
@@ -627,6 +666,19 @@
       "id": "193d2c1e28a8"
     },
     {
+      "venue": "Opéra national de Lyon",
+      "venue_slug": "opera-lyon",
+      "title": "Backstage 2026",
+      "subtitle": "Une journée dans les coulisses de l’Opéra de Lyon",
+      "category": "opéra",
+      "date_start": "2026-05-09",
+      "date_end": null,
+      "time": null,
+      "url": "https://www.opera-lyon.com/fr/programmation/saison-2025-2026/opera/backstage-2026",
+      "image": "https://api.opera-lyon.com/assets/q80-w634-c448x568/200a373e/backstage_2025.jpg",
+      "id": "8b44b8976467"
+    },
+    {
       "venue": "Les Subsistances",
       "venue_slug": "les-subs",
       "title": "Absurd Hero Roman Skadra",
@@ -913,6 +965,19 @@
       "id": "4dbb6ba9589d"
     },
     {
+      "venue": "Opéra national de Lyon",
+      "venue_slug": "opera-lyon",
+      "title": "Etienne Dupuis",
+      "subtitle": "Récital grande voix",
+      "category": "concert",
+      "date_start": "2026-05-13",
+      "date_end": null,
+      "time": null,
+      "url": "https://www.opera-lyon.com/fr/programmation/saison-2025-2026/concert/etienne-dupuis",
+      "image": "https://api.opera-lyon.com/assets/q80-w634-c448x568/b44e5b3f/etienne_dupuis_web.jpg",
+      "id": "79a2d81c1424"
+    },
+    {
       "venue": "Le Petit Salon",
       "venue_slug": "petit-salon",
       "title": "THIS IS TECHNO RAVE : DISSONNE / NOVOPOL & MORE",
@@ -1173,6 +1238,19 @@
       "id": "dcd245fd9d2b"
     },
     {
+      "venue": "Théâtre des Célestins",
+      "venue_slug": "celestins",
+      "title": "Timber",
+      "subtitle": "Sophie Linsmaux et Aurelio Mergola",
+      "category": "grande salle",
+      "date_start": "2026-05-19",
+      "date_end": "2026-05-23",
+      "time": null,
+      "url": "https://www.theatredescelestins.com/fr/programmation/2025-2026/grande-salle/timber",
+      "image": "https://www.theatredescelestins.com/assets/q75-w330-h434-c330x434/e195bafa/timber_alice_piemme2.jpg.webp",
+      "id": "e249d83d5ba9"
+    },
+    {
       "venue": "Le Sonic",
       "venue_slug": "sonic",
       "title": "Lorelle Meets the Obsolete + Bergiès",
@@ -1223,6 +1301,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/chimene-badi/",
       "image": null,
       "id": "1490c4d7a77f"
+    },
+    {
+      "venue": "Théâtre des Célestins",
+      "venue_slug": "celestins",
+      "title": "Le Pays innocent",
+      "subtitle": "Samuel Gallet",
+      "category": "celestine",
+      "date_start": "2026-05-20",
+      "date_end": "2026-05-29",
+      "time": null,
+      "url": "https://www.theatredescelestins.com/fr/programmation/2025-2026/celestine/le-pays-innocent",
+      "image": "https://www.theatredescelestins.com/assets/q75-w330-h434-c330x434/87fd9d31/le_pays_innocent_simon_gosselin60.jpg.webp",
+      "id": "1c8929e6011f"
     },
     {
       "venue": "HEAT",
@@ -1314,6 +1405,19 @@
       "url": "https://www.periscope-lyon.com/concerts/aitawa-james-stewart/",
       "image": "https://www.periscope-lyon.com/wp-content/uploads/2026/03/Aitawa-web-2-2-650x433.jpg",
       "id": "bcee05f4f762"
+    },
+    {
+      "venue": "Opéra national de Lyon",
+      "venue_slug": "opera-lyon",
+      "title": "Patricia Petibon",
+      "subtitle": "Concert grande voix",
+      "category": "concert",
+      "date_start": "2026-05-22",
+      "date_end": null,
+      "time": null,
+      "url": "https://www.opera-lyon.com/fr/programmation/saison-2025-2026/concert/patricia-petibon-1",
+      "image": "https://api.opera-lyon.com/assets/q80-w634-c448x568/def5cf06/petibon.jpg",
+      "id": "001fd537836f"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -1678,6 +1782,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/poetic-lover-tour-2/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/01/affiche-e1767893533122-500x500.png",
       "id": "0c43b2af8501"
+    },
+    {
+      "venue": "Théâtre des Célestins",
+      "venue_slug": "celestins",
+      "title": "Marius",
+      "subtitle": "librement inspiré de Marcel Pagnol, Joël Pommerat",
+      "category": "grande salle",
+      "date_start": "2026-05-27",
+      "date_end": "2026-06-06",
+      "time": null,
+      "url": "https://www.theatredescelestins.com/fr/programmation/2025-2026/grande-salle/marius",
+      "image": "https://www.theatredescelestins.com/assets/q75-w330-h434-c330x434/84e1161f/marius_letizia_le_fur.jpg.webp",
+      "id": "0a78e80aa66a"
     },
     {
       "venue": "Les Subsistances",
@@ -2081,6 +2198,19 @@
       "url": "https://www.transbordeur.fr/evenement/clutch-bokassa-02062026/",
       "image": null,
       "id": "f771009651f6"
+    },
+    {
+      "venue": "Théâtre des Célestins",
+      "venue_slug": "celestins",
+      "title": "Le soleil brille pourtant dehors",
+      "subtitle": "Marine Chartrain, Louen Poppé",
+      "category": "celestine",
+      "date_start": "2026-06-02",
+      "date_end": "2026-06-13",
+      "time": null,
+      "url": "https://www.theatredescelestins.com/fr/programmation/2025-2026/celestine/le-soleil-brille-pourtant-dehors",
+      "image": "https://www.theatredescelestins.com/assets/q75-w330-h434-c330x434/9008ce42/le_soleil_brille_pourtant_dehors_mathilda_bouttau_1_.jpg.webp",
+      "id": "d95bafc45ab1"
     },
     {
       "venue": "Le Sonic",
@@ -2564,6 +2694,19 @@
       "id": "92fedb3a331e"
     },
     {
+      "venue": "Théâtre des Célestins",
+      "venue_slug": "celestins",
+      "title": "Portrait de famille",
+      "subtitle": "Une histoire des Atrides",
+      "category": "grande salle",
+      "date_start": "2026-06-10",
+      "date_end": "2026-06-13",
+      "time": null,
+      "url": "https://www.theatredescelestins.com/fr/programmation/2025-2026/grande-salle/portrait-de-famille",
+      "image": "https://www.theatredescelestins.com/assets/q75-w330-h434-c330x434-atop/01150b48/portrait_de_famille_christophe_raynaud_de_lage2ter.jpg.webp",
+      "id": "984074d7deab"
+    },
+    {
       "venue": "La Halle Tony Garnier",
       "venue_slug": "halle-tony-garnier",
       "title": "ARCHITECT AT WORK",
@@ -2798,6 +2941,19 @@
       "id": "380150ce72df"
     },
     {
+      "venue": "Opéra national de Lyon",
+      "venue_slug": "opera-lyon",
+      "title": "Le Couronnement de Poppée",
+      "subtitle": "Claudio Monteverdi",
+      "category": "opéra",
+      "date_start": "2026-06-15",
+      "date_end": "2026-06-28",
+      "time": null,
+      "url": "https://www.opera-lyon.com/fr/programmation/saison-2025-2026/opera/le-couronnement-de-poppee-3",
+      "image": "https://api.opera-lyon.com/assets/q80-w634-c448x568/02ea0b04/poppee_2880x1926_web.jpg",
+      "id": "44819acadbad"
+    },
+    {
       "venue": "La Commune",
       "venue_slug": "la-commune",
       "title": "France V/S Sénégal : CDM 2026",
@@ -2991,6 +3147,19 @@
       "url": "https://www.transbordeur.fr/evenement/jetlag-gang/",
       "image": null,
       "id": "de995cb6d286"
+    },
+    {
+      "venue": "Opéra national de Lyon",
+      "venue_slug": "opera-lyon",
+      "title": "Concert Express",
+      "subtitle": "Plein feux sur les instruments anciens",
+      "category": "concert",
+      "date_start": "2026-06-20",
+      "date_end": null,
+      "time": null,
+      "url": "https://www.opera-lyon.com/fr/programmation/saison-2025-2026/concert/concert-express-6",
+      "image": "https://api.opera-lyon.com/assets/q80-w634-c448x568/cf1f9d3d/concert_20_06_ok.jpg",
+      "id": "c4e2be4a8c12"
     },
     {
       "venue": "Les Subsistances",
