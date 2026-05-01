@@ -1,6 +1,20 @@
 """Scraper for Théâtre Nouvelle Génération (tng-lyon.fr).
 
-v2: fix _find_card to allow multiple links to same slug.
+v3: change strategy. The HTML structure of each event card is:
+    <article> (or div)
+      <a href="/evenement/slug/"><img>...</a>
+      <a href="/evenement/slug/">
+        <strong>04</strong> juin > <strong>06</strong> juin
+        <h2>Mathieu au milieu</h2>
+        Olivier Letellier ...
+        TNG-Vaise
+        Dès 5 ans
+        Description...
+      </a>
+    </article>
+
+Anchor on h2 inside an <a> with /evenement/, then walk UP to find the
+container that holds both the date <strong>s and the h2.
 """
 from typing import List, Optional, Tuple
 from datetime import date as Date
@@ -28,12 +42,13 @@ SHORT_MONTHS = {
     "oct": 10, "nov": 11, "dec": 12, "déc": 12,
 }
 
+# More tolerant: allow any whitespace (including newlines) between tokens
 DATE_RANGE = re.compile(
-    r"\b(\d{1,2})\s+([\wéèêôû]+)\s*[>→–\-]\s*(\d{1,2})\s+([\wéèêôû]+)\b",
-    re.IGNORECASE,
+    r"(\d{1,2})\s+([\wéèêôû]+)\s*[>→–\-]\s*(\d{1,2})\s+([\wéèêôû]+)",
+    re.IGNORECASE | re.DOTALL,
 )
 DATE_SINGLE = re.compile(
-    r"\b(\d{1,2})\s+([\wéèêôû]+)\b",
+    r"(\d{1,2})\s+([\wéèêôû]+)",
     re.IGNORECASE,
 )
 
@@ -72,13 +87,14 @@ def _extract_dates(text: str) -> Tuple[Optional[Date], Optional[Date]]:
     m = DATE_RANGE.search(text)
     if m:
         d1, mo1, d2, mo2 = m.groups()
-        # Check that mo1 and mo2 are valid month names (avoid matching arbitrary words)
         month1 = _normalize_month(mo1)
         month2 = _normalize_month(mo2)
         if month1 and month2:
             try:
                 day1, day2 = int(d1), int(d2)
-                if month1 == month2:
+                if not (1 <= day1 <= 31 and 1 <= day2 <= 31):
+                    pass
+                elif month1 == month2:
                     year = _smart_year(month1, day1, today)
                     return Date(year, month1, day1), Date(year, month2, day2)
                 else:
@@ -89,7 +105,7 @@ def _extract_dates(text: str) -> Tuple[Optional[Date], Optional[Date]]:
             except ValueError:
                 pass
 
-    # Single — must validate the month matches a real month name
+    # Single — must validate month
     for m in DATE_SINGLE.finditer(text):
         d, mo = m.group(1), m.group(2)
         month = _normalize_month(mo)
@@ -106,32 +122,28 @@ def _extract_dates(text: str) -> Tuple[Optional[Date], Optional[Date]]:
     return None, None
 
 
-def _has_any_date(text: str) -> bool:
-    """Quick check: text has a day-number followed by a real month name."""
-    for m in DATE_SINGLE.finditer(text):
-        if _normalize_month(m.group(2)):
-            return True
-    return False
-
-
-def _find_card(link: Tag, max_levels: int = 8) -> Optional[Tag]:
-    """Walk up to find a card containing exactly one event slug."""
-    el: Optional[Tag] = link
+def _find_card_no_check(start: Tag, max_levels: int = 8) -> Optional[Tag]:
+    """Walk up from start until we find a card containing exactly one
+    distinct event slug. We DON'T require the date to be matchable here
+    since the regex is fragile with strong tags."""
+    el: Optional[Tag] = start
     for _ in range(max_levels):
         parent = el.parent if el else None
         if parent is None or parent.name in ("html", "body"):
             return None
         el = parent
-        text = el.get_text(" ", strip=True)
-        if not _has_any_date(text):
+        # Must contain at least one /evenement/ link
+        ev_links = el.select('a[href*="/evenement/"]')
+        if not ev_links:
             continue
         distinct_slugs = set()
-        for a in el.select('a[href*="/evenement/"]'):
+        for a in ev_links:
             slug = _slug_from_href(a.get("href", ""))
             if slug:
                 distinct_slugs.add(slug)
-        if len(distinct_slugs) <= 1:
+        if len(distinct_slugs) == 1:
             return el
+        # 0 or more than 1 -> keep walking up
         return None
     return None
 
@@ -149,23 +161,31 @@ def fetch() -> List[Event]:
     seen_slugs: set = set()
     today = Date.today()
 
-    for link in soup.select('a[href*="/evenement/"]'):
-        href = link.get("href", "")
-        if href.startswith("/"):
-            href = HOST + href
-        slug = _slug_from_href(href)
-        if not slug or slug in seen_slugs:
+    # Anchor on h2 (titles)
+    for h2 in soup.find_all("h2"):
+        title = h2.get_text(" ", strip=True)
+        if not title or len(title) < 2 or len(title) > 250:
             continue
 
-        card = _find_card(link)
+        # Find the card containing this h2
+        card = _find_card_no_check(h2)
         if card is None:
             continue
 
-        title_el = card.find(["h2", "h3"])
-        if not title_el:
+        # Get the slug from the card
+        slug_url: Optional[str] = None
+        for a in card.select('a[href*="/evenement/"]'):
+            href = a.get("href", "")
+            if href.startswith("/"):
+                href = HOST + href
+            slug = _slug_from_href(href)
+            if slug:
+                slug_url = href.split("?")[0]
+                break
+        if not slug_url:
             continue
-        title = title_el.get_text(" ", strip=True)
-        if not title or len(title) < 2 or len(title) > 250:
+        slug = _slug_from_href(slug_url)
+        if slug in seen_slugs:
             continue
 
         text = card.get_text(" ", strip=True)
@@ -175,7 +195,7 @@ def fetch() -> List[Event]:
         if d_start < today and (d_end is None or d_end < today):
             continue
 
-        # Subtitle
+        # Subtitle: text node after title
         subtitle: Optional[str] = None
         for tn in card.stripped_strings:
             if tn == title:
@@ -186,12 +206,13 @@ def fetch() -> List[Event]:
             if re.fullmatch(r"\d{1,2}", tn):
                 continue
             if tn_lower in (">", "→", "tng-vaise", "ateliers - presqu'île",
-                            "ateliers-presqu'île", "en famille",
-                            "réserver", "plus d'infos", "voir plus"):
+                            "ateliers-presqu'île", "ateliers - presqu’île",
+                            "en famille", "réserver", "plus d'infos",
+                            "voir plus", "gratuit", "spectacle", "atelier"):
                 continue
             if tn_lower.startswith("dès "):
                 continue
-            if (tn_lower.startswith("3-6 ans") or tn_lower.startswith("7-10") or
+            if (tn_lower.startswith("3-6 ans") or tn_lower.startswith("7") or
                 "à 12 ans" in tn_lower or "à 18 ans" in tn_lower or
                 re.fullmatch(r"\d+\+", tn) or
                 re.fullmatch(r"de \d+ à \d+ ans", tn_lower)):
@@ -219,7 +240,7 @@ def fetch() -> List[Event]:
             date_start=iso(d_start),
             date_end=iso(d_end) if d_end else None,
             time=None,
-            url=href.split("?")[0],
+            url=slug_url,
             image=image,
         ))
 
@@ -229,32 +250,19 @@ def fetch() -> List[Event]:
         try:
             resp2 = requests.get(URL, timeout=15, headers=HEADERS)
             soup2 = BeautifulSoup(resp2.text, "html.parser")
-            ev_links = soup2.select('a[href*="/evenement/"]')
-            distinct_slugs = set()
-            for a in ev_links:
-                s = _slug_from_href(a.get("href", ""))
-                if s:
-                    distinct_slugs.add(s)
-            print(f"  Distinct /evenement/ slugs: {len(distinct_slugs)}",
-                  file=sys.stderr)
-            for slug_url in list(distinct_slugs)[:3]:
-                first_link = None
-                for a in ev_links:
-                    if _slug_from_href(a.get("href", "")) == slug_url:
-                        first_link = a
-                        break
-                if first_link:
-                    card = _find_card(first_link)
-                    if card:
-                        text = card.get_text(" ", strip=True)[:200]
-                        d_start, d_end = _extract_dates(text)
-                        print(f"  slug={slug_url[-60:]!r}", file=sys.stderr)
-                        print(f"    card text[:200]={text!r}", file=sys.stderr)
-                        print(f"    extracted: {d_start} → {d_end}",
-                              file=sys.stderr)
-                    else:
-                        print(f"  slug={slug_url[-60:]!r}: no card",
-                              file=sys.stderr)
+            h2s = soup2.find_all("h2")
+            print(f"  h2 count: {len(h2s)}", file=sys.stderr)
+            for h2 in h2s[:5]:
+                title = h2.get_text(' ', strip=True)
+                card = _find_card_no_check(h2)
+                if card:
+                    text = card.get_text(' ', strip=True)[:200]
+                    d_start, d_end = _extract_dates(text)
+                    print(f"  h2={title[:50]!r}", file=sys.stderr)
+                    print(f"    card text[:200]={text!r}", file=sys.stderr)
+                    print(f"    extracted: {d_start} → {d_end}", file=sys.stderr)
+                else:
+                    print(f"  h2={title[:50]!r}: no card found", file=sys.stderr)
         except requests.RequestException as e:
             print(f"  failed: {e}", file=sys.stderr)
         print("=" * 60, file=sys.stderr)
