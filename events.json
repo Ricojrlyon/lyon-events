@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-01T15:28:54.615584+00:00",
-  "count": 483,
+  "generated_at": "2026-05-01T15:38:17.202606+00:00",
+  "count": 486,
   "events": [
     {
       "venue": "Le Sucre",
@@ -1849,6 +1849,19 @@
       "id": "0c43b2af8501"
     },
     {
+      "venue": "TNP",
+      "venue_slug": "tnp",
+      "title": "Pouvoir",
+      "subtitle": "UNE TRIBU Collectif - Cécile Maidon - Noémie Vincart - Michel Villée",
+      "category": "théâtre",
+      "date_start": "2026-05-27",
+      "date_end": "2026-05-30",
+      "time": null,
+      "url": "https://www.tnp-villeurbanne.com/spectacle/pouvoir/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2025/05/16pouvoir-celinechariot2022-465x310.v1746538907.jpg",
+      "id": "93a1d8fbcddb"
+    },
+    {
       "venue": "Théâtre des Célestins",
       "venue_slug": "celestins",
       "title": "Marius",
@@ -2094,6 +2107,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/rosa-bursztein/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2025/06/credit-Audouin-Desforges-e1749735860252-500x500.jpeg",
       "id": "232464836f4f"
+    },
+    {
+      "venue": "TNP",
+      "venue_slug": "tnp",
+      "title": "Le Petit Prince",
+      "subtitle": "Antoine de Saint-Exupéry - Jean Bellorini - Yang Hua Theatre",
+      "category": "théâtre",
+      "date_start": "2026-05-30",
+      "date_end": "2026-06-06",
+      "time": null,
+      "url": "https://www.tnp-villeurbanne.com/spectacle/le-petit-prince/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2025/05/Le_Petit_Prince_Wuhan_DR-465x301.v1764255072.jpg",
+      "id": "29d83257ac88"
     },
     {
       "venue": "Les Subsistances",
@@ -3095,6 +3121,19 @@
       "url": "https://www.transbordeur.fr/evenement/thornhill-lafayette-16062026/",
       "image": null,
       "id": "c43231082c39"
+    },
+    {
+      "venue": "TNP",
+      "venue_slug": "tnp",
+      "title": "Prix Incandescences 2026",
+      "subtitle": "Talents de la scène théâtrale régionale",
+      "category": "théâtre",
+      "date_start": "2026-06-16",
+      "date_end": "2026-06-18",
+      "time": null,
+      "url": "https://www.tnp-villeurbanne.com/spectacle/prix-incandescences-26/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2025/05/Prix_incandescences_2026_visuel_page_spectacle-465x301.v1766398248.jpg",
+      "id": "04b06c59280a"
     },
     {
       "venue": "Le Périscope",
