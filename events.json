@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-05-01T15:51:50.273469+00:00",
-  "count": 486,
+  "generated_at": "2026-05-01T15:59:27.589293+00:00",
+  "count": 502,
   "events": [
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le prix de l’ascension",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-05-01",
+      "date_end": "2026-05-02",
+      "time": null,
+      "url": "https://www.comedieodeon.com/spectacle/le-prix-de-lascension-2/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2020/06/AFFICHE_LPDLA_BD-scaled.jpg",
+      "id": "c0e52e2a947d"
+    },
     {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
@@ -378,6 +391,19 @@
       "url": "https://www.les-subs.com/evenement/subs-visites-historiques/",
       "image": null,
       "id": "4bfc286be882"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Dolto – Lorsque Françoise paraît",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-05-06",
+      "date_end": "2026-05-23",
+      "time": "20:00",
+      "url": "https://www.comedieodeon.com/spectacle/dolto-lorsque-francoise-parait/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2025/10/Dolto-affichetournee-BD.jpg",
+      "id": "51e71970e876"
     },
     {
       "venue": "Marché Gare",
@@ -1563,6 +1589,32 @@
       "id": "006cfc0f0156"
     },
     {
+      "venue": "TNG",
+      "venue_slug": "tng",
+      "title": "La serpillère de Monsieur Mutt",
+      "subtitle": "Marc Lacourt – MA Compagnie",
+      "category": "théâtre",
+      "date_start": "2026-05-23",
+      "date_end": null,
+      "time": null,
+      "url": "https://www.tng-lyon.fr/evenement/la-serpillere-de-monsieur-mutt/",
+      "image": null,
+      "id": "f1c079285310"
+    },
+    {
+      "venue": "TNG",
+      "venue_slug": "tng",
+      "title": "RDV POP’CORN – Atelier parents-enfants autour de La Serpillère de Monsieur Mutt",
+      "subtitle": "Samedi 23 mai de 14h à 15h30\nParents et enfants curieu·euse·s de danse sont invités à participer à un atelier de p…",
+      "category": "théâtre",
+      "date_start": "2026-05-23",
+      "date_end": null,
+      "time": null,
+      "url": "https://www.tng-lyon.fr/evenement/atelier-parents-enfants-autour-de-la-serpillere-de-monsieur-mutt/",
+      "image": null,
+      "id": "ce5f71925b0e"
+    },
+    {
       "venue": "Les Subsistances",
       "venue_slug": "les-subs",
       "title": "La Catastrophe Guillaume Bailliart",
@@ -1732,6 +1784,19 @@
       "id": "32fcbfc0a0a7"
     },
     {
+      "venue": "TNG",
+      "venue_slug": "tng",
+      "title": "GénérationS en scène",
+      "subtitle": "mai      \t      \t >",
+      "category": "théâtre",
+      "date_start": "2026-05-26",
+      "date_end": "2026-06-02",
+      "time": null,
+      "url": "https://www.tng-lyon.fr/evenement/generations-en-scene-4/",
+      "image": null,
+      "id": "60446e8f47bb"
+    },
+    {
       "venue": "Théâtre de la Croix-Rousse",
       "venue_slug": "croix-rousse",
       "title": "LES MOMENTS DOUX",
@@ -1899,6 +1964,19 @@
       "url": "https://www.les-subs.com/evenement/nocturne-parade-phia-menard/",
       "image": null,
       "id": "fc80db93a67b"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Pourquoi j’ai jeté ma grand-mère dans le Vieux-Port",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-05-27",
+      "date_end": "2026-06-06",
+      "time": "20:00",
+      "url": "https://www.comedieodeon.com/spectacle/pourquoi-jai-jete-ma-grand-mere-dans-le-vieux-port/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2025/03/affiche-pourquoi-jai-jete-ma-grand-mere-.jpg",
+      "id": "c59cea382d64"
     },
     {
       "venue": "Marché Gare",
@@ -2525,6 +2603,19 @@
       "id": "d7dc3175749d"
     },
     {
+      "venue": "TNG",
+      "venue_slug": "tng",
+      "title": "Mathieu au milieu",
+      "subtitle": "Olivier Letellier – Tréteaux de France - Centre Dramatique National",
+      "category": "théâtre",
+      "date_start": "2026-06-06",
+      "date_end": null,
+      "time": null,
+      "url": "https://www.tng-lyon.fr/evenement/mathieu-au-milieu/",
+      "image": null,
+      "id": "baf905104196"
+    },
+    {
       "venue": "Les Subsistances",
       "venue_slug": "les-subs",
       "title": "Minipousses Cirque",
@@ -2549,6 +2640,19 @@
       "url": "https://www.les-subs.com/evenement/minipousses-cirque/",
       "image": null,
       "id": "dc1aee91bd72"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Epic Drag Battle – N’avalez pas n’importe quoi",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-06-06",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.comedieodeon.com/spectacle/epic-drag-battle/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/01/AFFICHE-HALL-V4.jpg",
+      "id": "7e785ad07f54"
     },
     {
       "venue": "Les Subsistances",
@@ -2837,6 +2941,19 @@
       "id": "a06219cac015"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Une minute de silence (à peu près)",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-06-10",
+      "date_end": "2026-06-20",
+      "time": "20:00",
+      "url": "https://www.comedieodeon.com/spectacle/une-minute-de-silence/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/04/Affiche_A4_150dpi_RVB.jpg",
+      "id": "a0e7e3c9931e"
+    },
+    {
       "venue": "Le Sonic",
       "venue_slug": "sonic",
       "title": "Good Flying Birds",
@@ -3069,6 +3186,19 @@
       "url": "https://www.opera-lyon.com/fr/programmation/saison-2025-2026/opera/le-couronnement-de-poppee-3",
       "image": "https://api.opera-lyon.com/assets/q80-w634-c448x568/02ea0b04/poppee_2880x1926_web.jpg",
       "id": "44819acadbad"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Process Comedy",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-06-15",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.comedieodeon.com/spectacle/process-comedy-2/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2019/07/Affiche-globale-PROCESS-COMEDY-scaled.jpg",
+      "id": "97c3ca32942a"
     },
     {
       "venue": "La Commune",
@@ -3357,6 +3487,19 @@
       "id": "b4eb95d40f77"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le Petit Théâtre des Opérations – Julien Hervieux",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-06-20",
+      "date_end": null,
+      "time": "17:00",
+      "url": "https://www.comedieodeon.com/spectacle/le-petit-theatre-des-operations-julien-hervieux/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/04/PTDO_Affiche_spectacle__affiche_BD.png",
+      "id": "18b47d0b2a1c"
+    },
+    {
       "venue": "Les Subsistances",
       "venue_slug": "les-subs",
       "title": "Festival Dance People 2026 Rencontres Improvisees 2",
@@ -3550,6 +3693,19 @@
       "url": "https://lacommune.co/event/france-irak/",
       "image": null,
       "id": "ee16e3e864fe"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "La Prière du Hamster",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-06-24",
+      "date_end": "2026-08-29",
+      "time": null,
+      "url": "https://www.comedieodeon.com/spectacle/priere-hamster/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2025/05/2025_05_LA_PRIERE_DU_HAMSTER_Affiche_420x594_TOURNEE_BD-pdf.jpg",
+      "id": "6bdbc03046e0"
     },
     {
       "venue": "Le Périscope",
@@ -5450,6 +5606,19 @@
       "id": "04453a839517"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Léandre",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-01-15",
+      "date_end": null,
+      "time": null,
+      "url": "https://www.comedieodeon.com/spectacle/leandre-dans-sablier/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2025/10/LEANDRE-AFFICHE-PROVISOIRE_BD.jpg",
+      "id": "a4af16011da0"
+    },
+    {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
       "title": "GIEDRE",
@@ -5983,6 +6152,19 @@
       "id": "e79a51623332"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "María Moreno",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-03-12",
+      "date_end": "2027-03-13",
+      "time": null,
+      "url": "https://www.comedieodeon.com/spectacle/maria-moreno/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/02/MariaMoreno_Affiche_Neutre_40x60.jpg",
+      "id": "9259c4b68d09"
+    },
+    {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
       "title": "PICHE",
@@ -6098,6 +6280,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/laurent-baffie-3/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/03/laurent-baffie_radiant-bellevue-500x500.jpg",
       "id": "c3521617ac6b"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Nadim – Fraîcheur de vivre",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-04-03",
+      "date_end": null,
+      "time": null,
+      "url": "https://www.comedieodeon.com/spectacle/nadim-fraicheur-de-vivre/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/03/NADIM-REVENDEURS-SS-LOGO.jpg",
+      "id": "389b79cd1a5a"
     },
     {
       "venue": "La Halle Tony Garnier",
@@ -6228,6 +6423,19 @@
       "url": "https://www.halle-tony-garnier.com/fr/programmation/suzane",
       "image": null,
       "id": "064cf993f528"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Cédric Salaun – En rodage",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-05-21",
+      "date_end": null,
+      "time": null,
+      "url": "https://www.comedieodeon.com/spectacle/cedric-salaun-en-rodage/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/01/CEDRIC-SALAUN-40x60-1.jpg",
+      "id": "9931f22c8ef8"
     },
     {
       "venue": "Radiant-Bellevue",
