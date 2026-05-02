@@ -20,7 +20,7 @@ from scrapers import (
     heat, halle_tony_garnier,
     opera_lyon, celestins, croix_rousse,
     tnp, comedie_odeon, tng,
-    confluences, mba_lyon, mac_lyon,
+    bourse_du_travail,
 )
 
 # Each entry is (display_name, callable returning List[Event]).
@@ -43,9 +43,7 @@ SCRAPERS: list[tuple[str, Callable[[], List[Event]]]] = [
     ("TNP",                     tnp.fetch),
     ("Comédie Odéon",           comedie_odeon.fetch),
     ("TNG",                     tng.fetch),
-    ("Musée des Confluences",   confluences.fetch),
-    ("Musée des Beaux-Arts",    mba_lyon.fetch),
-    ("Musée d'Art Contemporain", mac_lyon.fetch),
+    ("Bourse du Travail",       bourse_du_travail.fetch),
 ]
 
 
