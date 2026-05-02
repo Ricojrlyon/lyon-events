@@ -595,8 +595,18 @@ function eventCard(e) {
     else runBadge = '<span class="event-run">' + e._dayIndex + '/' + e._totalDays + '</span>';
   }
 
+  // Only render as a clickable <a> if the URL looks like an absolute http(s) link.
+  // Anything else (empty, relative, javascript:, etc.) renders as a plain <div>
+  // so we don't generate broken links on GitHub Pages.
+  const isHttpUrl = typeof e.url === 'string'
+    && (e.url.startsWith('http://') || e.url.startsWith('https://'));
+  const tag = isHttpUrl ? 'a' : 'div';
+  const linkAttrs = isHttpUrl
+    ? ' href="' + escapeHtml(e.url) + '" target="_blank" rel="noopener"'
+    : '';
+
   return [
-    '<a class="event" href="' + escapeHtml(e.url) + '" target="_blank" rel="noopener">',
+    '<' + tag + ' class="event"' + linkAttrs + '>',
     '  <div class="event-venue">' + escapeHtml(e.venue) + '</div>',
     '  ' + time,
     '  <div class="event-body">',
@@ -604,7 +614,7 @@ function eventCard(e) {
     '    ' + sub,
     '  </div>',
     '  ' + cat,
-    '</a>'
+    '</' + tag + '>'
   ].join('\n');
 }
 
