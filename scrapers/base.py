@@ -92,3 +92,28 @@ def parse_french_date(text: str, default_year: Optional[int] = None) -> Optional
 
 def iso(d: Optional[date]) -> Optional[str]:
     return d.isoformat() if d else None
+
+
+def absolutize_url(url: str, host: str) -> str:
+    """Make sure a URL is absolute. Handles common forms:
+    - "https://..." → returned as-is
+    - "//foo.com/..." → prefixed with "https:"
+    - "/path" → prefixed with host
+    - "path" (relative, no slash) → prefixed with host + "/"
+    - "" or None → returned as empty string
+
+    `host` should be a full origin like "https://www.example.com" (no trailing slash).
+    """
+    if not url:
+        return ""
+    url = url.strip()
+    if not url:
+        return ""
+    if url.startswith("http://") or url.startswith("https://"):
+        return url
+    if url.startswith("//"):
+        return "https:" + url
+    if url.startswith("/"):
+        return host.rstrip("/") + url
+    # Pure relative URL — assume it sits at host root
+    return host.rstrip("/") + "/" + url
