@@ -4,48 +4,65 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>À l'affiche · Lyon</title>
-<meta name="description" content="Agenda culturel personnel — concerts, théâtre, danse, expos à Lyon.">
+<meta name="description" content="Agenda culturel — concerts, théâtre, danse, clubs à Lyon.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..900,0..100;1,9..144,300..900,0..100&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
   :root {
-    --paper: #f6f1e8;
-    --ink: #1a1916;
-    --ink-soft: #4a4540;
-    --rule: #d8cebf;
-    --accent: #c2410c;
-    --accent-soft: #f3d9c8;
-    --shadow: 0 1px 0 #d8cebf;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --paper: #131210;
-      --ink: #ece4d4;
-      --ink-soft: #a8a092;
-      --rule: #2c2a26;
-      --accent: #ed8551;
-      --accent-soft: #3a2418;
-      --shadow: 0 1px 0 #2c2a26;
-    }
+    /* Dark techno palette */
+    --bg:           #0a0e12;
+    --bg-elev:      #11161c;
+    --bg-elev-2:    #161d25;
+    --ink:          #e8eef4;
+    --ink-soft:     #6c7986;
+    --ink-mute:     #3d4651;
+    --rule:         #1d2731;
+    --rule-strong:  #2c3845;
+    --cyan:         #00e5ff;
+    --cyan-glow:    #00e5ff33;
+    --cyan-soft:    #003d4a;
+    --magenta:      #ff2d8a;
+    --violet:       #8b5cf6;
   }
   * { box-sizing: border-box; }
   html, body { margin: 0; padding: 0; }
-  body {
-    background: var(--paper);
-    color: var(--ink);
-    font-family: 'Fraunces', Georgia, serif;
-    font-optical-sizing: auto;
-    font-variation-settings: "SOFT" 60;
-    -webkit-font-smoothing: antialiased;
-    line-height: 1.4;
+
+  /* Subtle film grain overlay — pure CSS noise via SVG fragment */
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 100;
+    opacity: 0.05;
+    mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='200' height='200' filter='url(%23n)'/></svg>");
+    background-size: 200px 200px;
   }
-  .container { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
+
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Space Grotesk', -apple-system, system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.45;
+    min-height: 100vh;
+    /* Subtle radial glow at top to soften the void */
+    background-image: radial-gradient(
+      ellipse 80% 50% at 50% 0%,
+      rgba(0, 229, 255, 0.04),
+      transparent 70%
+    );
+    background-attachment: fixed;
+  }
+  .container { max-width: 1180px; margin: 0 auto; padding: 0 24px; }
 
   /* ---------- masthead ---------- */
   header.masthead {
     border-bottom: 1px solid var(--rule);
-    padding: 32px 0 24px;
+    padding: 40px 0 28px;
+    position: relative;
   }
   .masthead .container {
     display: grid;
@@ -54,81 +71,173 @@
     align-items: end;
   }
   .wordmark {
-    font-size: clamp(48px, 9vw, 96px);
+    font-family: 'Bagel Fat One', sans-serif;
+    font-size: clamp(56px, 11vw, 130px);
     font-weight: 400;
-    line-height: 0.95;
-    letter-spacing: -0.02em;
+    line-height: 0.85;
+    letter-spacing: -0.03em;
     margin: 0;
+    color: var(--ink);
+    text-transform: uppercase;
+    position: relative;
   }
-  .wordmark em { font-style: italic; color: var(--accent); }
+  .wordmark .accent { color: var(--cyan); }
+  .wordmark .small {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.18em;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    text-transform: lowercase;
+    display: inline-block;
+    transform: translateY(-0.3em);
+    margin-right: 0.1em;
+    color: var(--ink-soft);
+  }
   .meta {
     font-family: 'JetBrains Mono', monospace;
     font-size: 11px;
     color: var(--ink-soft);
     text-transform: uppercase;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.12em;
     text-align: right;
+    line-height: 1.6;
   }
-  .meta .updated { margin-top: 4px; color: var(--ink-soft); }
+  .meta .updated {
+    color: var(--cyan);
+  }
+  .meta .updated::before {
+    content: "● ";
+    color: var(--cyan);
+    text-shadow: 0 0 6px var(--cyan-glow);
+  }
 
-  /* ---------- filters ---------- */
+  /* ---------- filters (sticky, collapsible) ---------- */
   .filters {
-    position: sticky; top: 0; z-index: 5;
-    background: var(--paper);
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    background: rgba(10, 14, 18, 0.85);
+    backdrop-filter: blur(14px) saturate(140%);
+    -webkit-backdrop-filter: blur(14px) saturate(140%);
     border-bottom: 1px solid var(--rule);
-    padding: 16px 0;
+    padding: 14px 0;
+    transition: padding 0.18s ease;
   }
+  .filters.collapsed {
+    padding: 8px 0;
+  }
+  .filters.collapsed .filter-row.expanded-only {
+    display: none;
+  }
+  .filters.collapsed .filter-row.always-visible {
+    padding: 0;
+  }
+  .filters.collapsed .filter-row + .filter-row {
+    border-top: none;
+    margin-top: 0;
+    padding-top: 0;
+  }
+
   .filter-row {
-    display: flex; flex-wrap: wrap; gap: 8px 14px;
+    display: flex; flex-wrap: wrap; gap: 6px 12px;
     align-items: center;
     padding: 4px 0;
   }
   .filter-row + .filter-row {
     border-top: 1px dashed var(--rule);
-    padding-top: 12px;
-    margin-top: 8px;
+    padding-top: 8px;
+    margin-top: 6px;
   }
   .filter-label {
     font-family: 'JetBrains Mono', monospace;
-    font-size: 11px;
+    font-size: 10px;
     text-transform: uppercase;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.14em;
     color: var(--ink-soft);
-    flex: 0 0 60px;
+    flex: 0 0 56px;
     align-self: center;
   }
-  .filter-group { display: flex; flex-wrap: wrap; gap: 6px; flex: 1; min-width: 0; }
-  .chip {
-    border: 1px solid var(--rule);
+  .filter-group { display: flex; flex-wrap: wrap; gap: 5px; flex: 1; min-width: 0; }
+
+  /* expand button (visible only when filters are collapsed) */
+  .filters-toggle {
     background: transparent;
-    color: var(--ink);
-    padding: 6px 12px;
+    border: 1px solid var(--rule-strong);
+    color: var(--ink-soft);
+    padding: 4px 10px;
     font-family: 'JetBrains Mono', monospace;
-    font-size: 12px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
     border-radius: 999px;
     cursor: pointer;
+    margin-left: auto;
+    display: none;
     transition: all 0.12s ease;
-    text-transform: lowercase;
-    letter-spacing: 0.02em;
-    white-space: nowrap;
   }
-  .chip:hover { border-color: var(--ink); }
+  .filters-toggle:hover {
+    border-color: var(--cyan);
+    color: var(--cyan);
+  }
+  .filters.collapsed .filters-toggle {
+    display: inline-block;
+  }
+  .filters.collapsed .clear-link {
+    display: none;
+  }
+
+  /* chips */
+  .chip {
+    border: 1px solid var(--rule-strong);
+    background: var(--bg-elev);
+    color: var(--ink);
+    padding: 5px 11px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: all 0.14s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    white-space: nowrap;
+    line-height: 1.5;
+  }
+  .chip:hover {
+    border-color: var(--cyan);
+    color: var(--cyan);
+    background: var(--bg-elev-2);
+  }
   .chip.active {
-    background: var(--ink);
-    color: var(--paper);
-    border-color: var(--ink);
+    background: var(--cyan);
+    color: var(--bg);
+    border-color: var(--cyan);
+    box-shadow: 0 0 12px var(--cyan-glow);
   }
   .chip.partial {
-    background: var(--accent-soft);
-    border-color: var(--accent);
-    color: var(--ink);
+    background: var(--cyan-soft);
+    border-color: var(--cyan);
+    color: var(--cyan);
   }
-  .chip-group { font-weight: 500; }
-  .chip-sub { font-size: 11px; padding: 4px 10px; }
+  .chip-group {
+    font-weight: 700;
+  }
+  .chip-group::after {
+    content: "▾";
+    margin-left: 6px;
+    font-size: 9px;
+    display: inline-block;
+    transition: transform 0.15s ease;
+    opacity: 0.7;
+  }
+  .venue-group.expanded .chip-group::after {
+    transform: rotate(180deg);
+    opacity: 1;
+  }
+  .chip-sub { font-size: 10px; padding: 4px 9px; }
 
   /* venue groups: each group can expand to show its sub-chips */
   .venue-groups {
-    display: flex; flex-wrap: wrap; gap: 6px;
+    display: flex; flex-wrap: wrap; gap: 5px;
     flex: 1;
   }
   .venue-group { display: contents; }
@@ -136,14 +245,12 @@
     display: none;
     flex-wrap: wrap;
     gap: 4px;
-    padding: 6px 8px;
-    background: rgba(0,0,0,0.02);
+    padding: 8px 10px;
+    background: var(--bg-elev);
+    border: 1px solid var(--rule);
     border-radius: 8px;
     width: 100%;
-    margin: 4px 0;
-  }
-  @media (prefers-color-scheme: dark) {
-    .venue-sublist { background: rgba(255,255,255,0.03); }
+    margin: 4px 0 2px;
   }
   .venue-group.expanded .venue-sublist { display: flex; }
 
@@ -154,12 +261,14 @@
     position: absolute;
     top: calc(100% + 8px);
     left: 0;
-    z-index: 10;
-    background: var(--paper);
-    border: 1px solid var(--ink);
+    z-index: 30;
+    background: var(--bg-elev);
+    border: 1px solid var(--cyan);
     border-radius: 12px;
     padding: 12px;
-    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    box-shadow:
+      0 4px 24px rgba(0,0,0,0.5),
+      0 0 24px var(--cyan-glow);
     min-width: 280px;
   }
   .datepicker.open { display: block; }
@@ -167,21 +276,26 @@
     display: flex; justify-content: space-between; align-items: center;
     margin-bottom: 8px;
     font-family: 'JetBrains Mono', monospace;
-    font-size: 12px;
+    font-size: 11px;
     text-transform: uppercase;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.1em;
+    color: var(--ink);
   }
   .datepicker-nav {
     background: transparent;
-    border: 1px solid var(--rule);
+    border: 1px solid var(--rule-strong);
     border-radius: 999px;
-    width: 28px; height: 28px;
+    width: 26px; height: 26px;
     cursor: pointer;
     color: var(--ink);
     font-size: 14px;
     line-height: 1;
+    transition: all 0.12s ease;
   }
-  .datepicker-nav:hover { border-color: var(--ink); }
+  .datepicker-nav:hover {
+    border-color: var(--cyan);
+    color: var(--cyan);
+  }
   .datepicker-grid {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
@@ -189,43 +303,46 @@
   }
   .datepicker-dow {
     font-family: 'JetBrains Mono', monospace;
-    font-size: 10px;
+    font-size: 9px;
     text-transform: uppercase;
-    color: var(--ink-soft);
+    color: var(--ink-mute);
     text-align: center;
     padding: 4px 0;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.1em;
   }
   .datepicker-day {
     background: transparent;
     border: none;
     font-family: 'JetBrains Mono', monospace;
-    font-size: 12px;
+    font-size: 11px;
     color: var(--ink);
     padding: 6px 0;
     border-radius: 6px;
     cursor: pointer;
-    transition: all 0.12s ease;
+    transition: all 0.1s ease;
   }
-  .datepicker-day:hover:not(.disabled) { background: var(--accent-soft); }
-  .datepicker-day.disabled { color: var(--rule); cursor: not-allowed; }
-  .datepicker-day.muted { color: var(--ink-soft); opacity: 0.5; }
+  .datepicker-day:hover:not(.disabled) {
+    background: var(--cyan-soft);
+    color: var(--cyan);
+  }
+  .datepicker-day.disabled { color: var(--ink-mute); cursor: not-allowed; }
+  .datepicker-day.muted { color: var(--ink-mute); }
   .datepicker-day.selected,
   .datepicker-day.range-start,
   .datepicker-day.range-end {
-    background: var(--ink);
-    color: var(--paper);
+    background: var(--cyan);
+    color: var(--bg);
   }
   .datepicker-day.in-range {
-    background: var(--accent-soft);
-    color: var(--ink);
+    background: var(--cyan-soft);
+    color: var(--cyan);
     border-radius: 0;
   }
   .datepicker-day.range-start { border-radius: 6px 0 0 6px; }
   .datepicker-day.range-end { border-radius: 0 6px 6px 0; }
   .datepicker-day.range-start.range-end { border-radius: 6px; }
   .datepicker-day.today {
-    box-shadow: inset 0 0 0 1px var(--accent);
+    box-shadow: inset 0 0 0 1px var(--cyan);
   }
   .datepicker-foot {
     display: flex;
@@ -235,9 +352,9 @@
     padding-top: 8px;
     border-top: 1px solid var(--rule);
     font-family: 'JetBrains Mono', monospace;
-    font-size: 11px;
+    font-size: 10px;
     text-transform: uppercase;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.1em;
     color: var(--ink-soft);
     gap: 8px;
   }
@@ -245,7 +362,7 @@
   .datepicker-foot button {
     background: transparent;
     border: none;
-    color: var(--accent);
+    color: var(--cyan);
     font-family: inherit;
     font-size: inherit;
     text-transform: inherit;
@@ -257,66 +374,82 @@
 
   .clear-link {
     font-family: 'JetBrains Mono', monospace;
-    font-size: 11px;
+    font-size: 10px;
     text-transform: uppercase;
-    letter-spacing: 0.1em;
-    color: var(--accent);
-    text-decoration: none;
-    margin-left: auto;
+    letter-spacing: 0.14em;
+    color: var(--cyan);
     cursor: pointer;
     background: transparent;
     border: none;
     padding: 0;
+    margin-left: auto;
   }
-  .clear-link:hover { text-decoration: underline; }
+  .clear-link:hover { text-shadow: 0 0 6px var(--cyan-glow); }
 
   /* ---------- day section ---------- */
-  main.feed { padding: 24px 0 80px; }
+  main.feed { padding: 32px 0 80px; }
   .day {
-    padding: 20px 0;
+    padding: 28px 0;
     border-bottom: 1px solid var(--rule);
   }
   .day:last-child { border-bottom: none; }
   .day-head {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: flex-end;
     gap: 24px;
-    margin-bottom: 18px;
+    margin-bottom: 22px;
     flex-wrap: wrap;
   }
   .day-date {
-    font-size: 28px;
-    font-weight: 500;
-    font-style: italic;
-    line-height: 1;
-    letter-spacing: -0.01em;
+    font-family: 'Bagel Fat One', sans-serif;
+    font-weight: 400;
+    line-height: 0.88;
+    letter-spacing: -0.02em;
     margin: 0;
+    color: var(--ink);
+    text-transform: uppercase;
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
   }
-  .day-date small {
-    display: block;
-    font-style: normal;
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 11px;
+  .day-date .dow {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.16em;
     color: var(--ink-soft);
     text-transform: uppercase;
-    letter-spacing: 0.12em;
-    margin-bottom: 4px;
-    font-weight: 400;
+    align-self: center;
+  }
+  .day-date .num {
+    font-size: clamp(48px, 7vw, 84px);
+  }
+  .day-date .month {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    font-size: clamp(18px, 2vw, 22px);
+    color: var(--ink-soft);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    align-self: center;
   }
   .day-tag {
     font-family: 'JetBrains Mono', monospace;
-    font-size: 11px;
+    font-size: 10px;
     text-transform: uppercase;
-    letter-spacing: 0.12em;
-    color: var(--accent);
+    letter-spacing: 0.14em;
+    color: var(--cyan);
+    text-shadow: 0 0 8px var(--cyan-glow);
+    align-self: center;
   }
 
   /* ---------- event grid (cards) ---------- */
   .events {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 16px;
+    gap: 14px;
+    align-items: stretch;
   }
   @media (max-width: 960px) {
     .events { grid-template-columns: repeat(2, 1fr); }
@@ -330,18 +463,36 @@
     flex-direction: column;
     gap: 10px;
     padding: 16px 18px;
-    border: 1px solid var(--rule);
-    border-radius: 14px;
+    border: 1px solid var(--rule-strong);
+    border-radius: 10px;
+    background: var(--bg-elev);
     text-decoration: none;
     color: inherit;
-    transition: all 0.12s ease;
-    background: transparent;
-    min-height: 130px;
+    transition: all 0.14s ease;
+    /* fixed height = uniform rectangles */
+    height: 220px;
+    position: relative;
+    overflow: hidden;
+  }
+  .event::after {
+    /* The "neon underline" on hover */
+    content: "";
+    position: absolute;
+    left: 0; right: 0; bottom: 0;
+    height: 2px;
+    background: var(--cyan);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.18s ease;
+    box-shadow: 0 0 8px var(--cyan-glow);
   }
   .event:hover {
-    border-color: var(--ink);
-    background: var(--accent-soft);
-    transform: translateY(-1px);
+    border-color: var(--cyan);
+    background: var(--bg-elev-2);
+    transform: translateY(-2px);
+  }
+  .event:hover::after {
+    transform: scaleX(1);
   }
   .event-head {
     display: flex;
@@ -351,34 +502,54 @@
   }
   .event-venue {
     font-family: 'JetBrains Mono', monospace;
-    font-size: 10px;
+    font-size: 9px;
     color: var(--ink-soft);
     text-transform: uppercase;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.14em;
     line-height: 1.3;
+    flex: 1;
+    /* keep on one or two lines max */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
   }
   .event-time {
     font-family: 'JetBrains Mono', monospace;
-    font-size: 12px;
-    color: var(--ink);
-    font-weight: 500;
+    font-size: 13px;
+    color: var(--cyan);
+    font-weight: 700;
     white-space: nowrap;
+    letter-spacing: 0.04em;
   }
-  .event-time.empty { color: var(--ink-soft); font-weight: 400; }
+  .event-time.empty { color: var(--ink-mute); font-weight: 400; }
   .event-title {
-    font-size: 19px;
-    font-weight: 400;
-    line-height: 1.2;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.18;
     margin: 0;
     letter-spacing: -0.005em;
+    color: var(--ink);
+    /* Clamp to fit */
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
     flex: 1;
   }
   .event-subtitle {
-    font-size: 13px;
+    font-size: 12px;
     color: var(--ink-soft);
-    margin: 0;
-    font-style: italic;
+    margin: -4px 0 0;
     line-height: 1.3;
+    font-style: italic;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
   .event-foot {
     display: flex;
@@ -389,27 +560,27 @@
   }
   .event-cat {
     font-family: 'JetBrains Mono', monospace;
-    font-size: 10px;
+    font-size: 9px;
     color: var(--ink-soft);
     text-transform: uppercase;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.1em;
   }
   .event-cat::before {
     content: "#";
-    color: var(--accent);
+    color: var(--cyan);
     margin-right: 1px;
   }
   .event-run {
     display: inline-block;
     font-family: 'JetBrains Mono', monospace;
     font-size: 9px;
-    color: var(--accent);
+    color: var(--magenta);
     text-transform: uppercase;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.1em;
     padding: 2px 7px;
-    border: 1px solid var(--accent);
+    border: 1px solid var(--magenta);
     border-radius: 999px;
-    font-weight: 400;
+    font-weight: 500;
     white-space: nowrap;
   }
 
@@ -419,23 +590,28 @@
     padding: 80px 24px;
     color: var(--ink-soft);
   }
-  .empty p { font-size: 22px; font-style: italic; }
+  .empty p {
+    font-family: 'Bagel Fat One', sans-serif;
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: -0.01em;
+  }
 
   /* ---------- footer ---------- */
   footer {
     border-top: 1px solid var(--rule);
     padding: 32px 0;
     font-family: 'JetBrains Mono', monospace;
-    font-size: 11px;
+    font-size: 10px;
     color: var(--ink-soft);
     text-transform: uppercase;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.12em;
   }
   footer .container {
     display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px;
   }
-  footer a { color: var(--accent); text-decoration: none; }
-  footer a:hover { text-decoration: underline; }
+  footer a { color: var(--cyan); text-decoration: none; }
+  footer a:hover { text-shadow: 0 0 6px var(--cyan-glow); }
 
   /* ---------- mobile ---------- */
   @media (max-width: 720px) {
@@ -443,7 +619,9 @@
     .meta { text-align: left; }
     .filter-row { gap: 6px 10px; }
     .filter-label { flex: 0 0 100%; margin-bottom: 4px; }
-    .day-head { gap: 6px; }
+    .day-date { flex-wrap: wrap; gap: 6px; }
+    .day-date .num { line-height: 1; }
+    .event { height: auto; min-height: 200px; }
   }
 </style>
 </head>
@@ -451,7 +629,7 @@
 
 <header class="masthead">
   <div class="container">
-    <h1 class="wordmark">à l'<em>affiche</em></h1>
+    <h1 class="wordmark"><span class="small">à l'</span><span class="accent">affiche</span></h1>
     <div class="meta">
       <div>Lyon · agenda culturel</div>
       <div class="updated" id="lastUpdated">—</div>
@@ -459,10 +637,10 @@
   </div>
 </header>
 
-<nav class="filters">
+<nav class="filters" id="filters">
   <div class="container">
 
-    <div class="filter-row">
+    <div class="filter-row always-visible">
       <span class="filter-label">quand</span>
       <div class="filter-group" id="filterWhen">
         <button class="chip active" data-when="all">tout</button>
@@ -475,14 +653,15 @@
           <div class="datepicker" id="datepicker"></div>
         </span>
       </div>
+      <button class="filters-toggle" id="filtersToggle">+ filtres</button>
     </div>
 
-    <div class="filter-row">
+    <div class="filter-row expanded-only">
       <span class="filter-label">où</span>
       <div class="filter-group venue-groups" id="filterVenue"></div>
     </div>
 
-    <div class="filter-row">
+    <div class="filter-row expanded-only">
       <span class="filter-label">type</span>
       <div class="filter-group" id="filterCategory"></div>
       <button class="clear-link" id="clearFilters">tout effacer →</button>
@@ -503,10 +682,11 @@
 </footer>
 
 <script>
-const FR_DAYS = ['dimanche','lundi','mardi','mercredi','jeudi','vendredi','samedi'];
+const FR_DAYS_FULL = ['dimanche','lundi','mardi','mercredi','jeudi','vendredi','samedi'];
+const FR_DAYS_SHORT = ['dim.','lun.','mar.','mer.','jeu.','ven.','sam.'];
 const FR_MONTHS = ['janvier','février','mars','avril','mai','juin','juillet','août','septembre','octobre','novembre','décembre'];
 
-/* ---------- venue groups (matches user's spreadsheet) ---------------- */
+/* ---------- venue groups ---------- */
 const VENUE_GROUPS = [
   { name: 'spectacles & musiques', venues: ['La Halle Tony Garnier', 'Bourse du Travail', 'Radiant-Bellevue'] },
   { name: 'soirée',                venues: ['Le Sucre', 'Le Petit Salon', 'Le Transbordeur', 'La Rayonne'] },
@@ -515,13 +695,13 @@ const VENUE_GROUPS = [
   { name: 'théâtre & danse',       venues: ['Opéra de Lyon', 'Théâtre des Célestins', 'TNP', 'Théâtre de la Croix-Rousse', 'Comédie Odéon', 'TNG'] },
 ];
 
-/* ---------- type normalization (raw category -> normalized bucket) --- */
+/* ---------- type buckets (no emojis) ---------- */
 const TYPE_BUCKETS = [
-  { key: 'musique',  label: '🎵 musique',  match: /musique|concert|jazz|classique|rock|chanson|pop|folk|electro|symphon|fado|opéra/i },
-  { key: 'theatre',  label: '🎭 théâtre',  match: /th[ée]atre|spectacle\s*musical|comédie\s*musicale|cabaret/i },
-  { key: 'danse',    label: '🩰 danse',    match: /danse|ballet|cho[ré]graph/i },
-  { key: 'humour',   label: '🎤 humour',   match: /humour|stand[\s-]?up|one[\s-]?man|comedy/i },
-  { key: 'club',     label: '💃 club',     match: /club|soir[ée]e|dj|after/i },
+  { key: 'musique',  label: 'musique',  match: /musique|concert|jazz|classique|rock|chanson|pop|folk|electro|symphon|fado|opéra/i },
+  { key: 'theatre',  label: 'théâtre',  match: /th[ée]atre|spectacle\s*musical|comédie\s*musicale|cabaret/i },
+  { key: 'danse',    label: 'danse',    match: /danse|ballet|cho[ré]graph/i },
+  { key: 'humour',   label: 'humour',   match: /humour|stand[\s-]?up|one[\s-]?man|comedy/i },
+  { key: 'club',     label: 'club',     match: /club|soir[ée]e|dj|after/i },
 ];
 function bucketOf(rawCategory) {
   if (!rawCategory) return 'autre';
@@ -530,9 +710,9 @@ function bucketOf(rawCategory) {
   }
   return 'autre';
 }
-const ALL_BUCKETS = [...TYPE_BUCKETS, { key: 'autre', label: '✨ autre' }];
+const ALL_BUCKETS = [...TYPE_BUCKETS, { key: 'autre', label: 'autre' }];
 
-/* ---------- state ---------------------------------------------------- */
+/* ---------- state ---------- */
 const state = {
   when: 'all',
   customRange: null,
@@ -541,18 +721,15 @@ const state = {
   events: [],
 };
 
-/* ---------- helpers -------------------------------------------------- */
 function isoOf(d) {
   const y = d.getFullYear();
   const m = String(d.getMonth() + 1).padStart(2, '0');
   const dd = String(d.getDate()).padStart(2, '0');
   return y + '-' + m + '-' + dd;
 }
-function parseIso(s) {
-  return new Date(s + 'T00:00:00');
-}
+function parseIso(s) { return new Date(s + 'T00:00:00'); }
 
-/* ---------- date picker --------------------------------------------- */
+/* ---------- date picker ---------- */
 let dpMonth = (() => { const d = new Date(); d.setDate(1); return d; })();
 let dpRangeAnchor = null;
 
@@ -631,11 +808,10 @@ function renderDatepicker() {
     html += '<button data-action="clear">effacer</button>';
   } else if (dpRangeAnchor) {
     html += '<span>début : ' + dpRangeAnchor.getDate() + ' '
-          + FR_MONTHS[dpRangeAnchor.getMonth()].slice(0,4)
-          + ' — clique fin (ou même jour)</span>';
+          + FR_MONTHS[dpRangeAnchor.getMonth()].slice(0,4) + '</span>';
     html += '<button data-action="cancel">annuler</button>';
   } else {
-    html += '<span>1 jour ou 2 clics pour plage</span>';
+    html += '<span>1 jour ou 2 clics</span>';
     html += '<button data-action="close">fermer</button>';
   }
   html += '</div>';
@@ -717,7 +893,7 @@ document.addEventListener('click', e => {
   closeDatepicker();
 });
 
-/* ---------- main load ----------------------------------------------- */
+/* ---------- main load ---------- */
 async function load() {
   const res = await fetch('events.json', { cache: 'no-store' });
   const data = await res.json();
@@ -736,7 +912,7 @@ function formatUpdated(iso) {
        + ' · ' + d.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' });
 }
 
-/* ---------- build venue groups -------------------------------------- */
+/* ---------- build venue groups ---------- */
 function buildVenueFilters() {
   const container = document.getElementById('filterVenue');
   container.innerHTML = '';
@@ -780,6 +956,14 @@ function buildVenueFilters() {
 }
 
 function handleGroupClick(group, groupEl, groupChip) {
+  // Toggle expand on every click. Selection logic only triggers when
+  // the chip is *clicked again while already expanded*. This makes
+  // the chevron behave as a real "open/close" trigger.
+  if (!groupEl.classList.contains('expanded')) {
+    groupEl.classList.add('expanded');
+    return;
+  }
+  // Already expanded: behave as before (select all / deselect all)
   const wasFullySelected = group.venues.every(v => state.venues.has(v));
   if (wasFullySelected) {
     group.venues.forEach(v => state.venues.delete(v));
@@ -791,7 +975,6 @@ function handleGroupClick(group, groupEl, groupChip) {
     groupEl.querySelectorAll('.chip-sub').forEach(c => c.classList.add('active'));
     groupChip.classList.add('active');
     groupChip.classList.remove('partial');
-    groupEl.classList.add('expanded');
   }
   render();
 }
@@ -818,7 +1001,7 @@ function toggleVenue(venueName, venueChip, group, groupEl, groupChip) {
   render();
 }
 
-/* ---------- build type buckets -------------------------------------- */
+/* ---------- build type buckets ---------- */
 function buildTypeFilters() {
   const container = document.getElementById('filterCategory');
   container.innerHTML = '';
@@ -845,7 +1028,7 @@ function buildTypeFilters() {
   }
 }
 
-/* ---------- when filter --------------------------------------------- */
+/* ---------- when filter ---------- */
 document.getElementById('filterWhen').addEventListener('click', e => {
   if (!e.target.matches('.chip[data-when]')) return;
   document.querySelectorAll('#filterWhen .chip').forEach(c => c.classList.remove('active'));
@@ -872,7 +1055,32 @@ document.getElementById('clearFilters').addEventListener('click', () => {
   render();
 });
 
-/* ---------- when matching ------------------------------------------- */
+/* ---------- collapse on scroll ---------- */
+const filtersEl = document.getElementById('filters');
+const toggleEl = document.getElementById('filtersToggle');
+let userExpandedWhileCollapsed = false;
+
+function updateFiltersCollapsed() {
+  const shouldCollapse = window.scrollY > 120 && !userExpandedWhileCollapsed;
+  if (shouldCollapse) {
+    filtersEl.classList.add('collapsed');
+    toggleEl.textContent = '+ filtres';
+  } else {
+    filtersEl.classList.remove('collapsed');
+    toggleEl.textContent = '+ filtres';
+  }
+}
+toggleEl.addEventListener('click', () => {
+  userExpandedWhileCollapsed = !userExpandedWhileCollapsed;
+  updateFiltersCollapsed();
+});
+window.addEventListener('scroll', () => {
+  // Reset the manual override if we scroll back to the top
+  if (window.scrollY < 60) userExpandedWhileCollapsed = false;
+  updateFiltersCollapsed();
+}, { passive: true });
+
+/* ---------- when matching ---------- */
 function withinWhen(dateStr) {
   const d = parseIso(dateStr);
   const now = new Date(); now.setHours(0,0,0,0);
@@ -902,7 +1110,7 @@ function withinWhen(dateStr) {
   return true;
 }
 
-/* ---------- expand multi-day ---------------------------------------- */
+/* ---------- expand multi-day ---------- */
 const LONG_RUN_THRESHOLD = 30;
 function expandOccurrences(events) {
   const out = [];
@@ -951,13 +1159,13 @@ function filtered() {
   });
 }
 
-/* ---------- render --------------------------------------------------- */
+/* ---------- render ---------- */
 function render() {
   const feed = document.getElementById('feed');
   const events = filtered();
 
   if (events.length === 0) {
-    feed.innerHTML = '<div class="empty"><p>rien dans ce filtre — pour l\'instant.</p></div>';
+    feed.innerHTML = '<div class="empty"><p>rien dans ce filtre</p></div>';
     return;
   }
 
@@ -977,14 +1185,20 @@ function render() {
     const isToday = d.getTime() === today.getTime();
     const isTomorrow = d.getTime() === today.getTime() + 86400000;
     let tag = '';
-    if (isToday) tag = 'aujourd\'hui';
-    else if (isTomorrow) tag = 'demain';
-    else if (d < new Date(today.getTime() + 7 * 86400000)) tag = 'cette semaine';
+    if (isToday) tag = '· aujourd\'hui';
+    else if (isTomorrow) tag = '· demain';
+    else if (d < new Date(today.getTime() + 7 * 86400000)) tag = '· cette semaine';
+
+    const dd = String(d.getDate()).padStart(2, '0');
+    const mm = String(d.getMonth() + 1).padStart(2, '0');
 
     html.push('<section class="day">');
     html.push('  <div class="day-head">');
-    html.push('    <h2 class="day-date"><small>' + dayMonthIso(d) + '</small>'
-              + FR_DAYS[d.getDay()] + ' ' + d.getDate() + ' ' + FR_MONTHS[d.getMonth()] + '</h2>');
+    html.push('    <h2 class="day-date">');
+    html.push('      <span class="dow">' + FR_DAYS_SHORT[d.getDay()] + '</span>');
+    html.push('      <span class="num">' + dd + '/' + mm + '</span>');
+    html.push('      <span class="month">' + FR_MONTHS[d.getMonth()] + '</span>');
+    html.push('    </h2>');
     if (tag) html.push('    <div class="day-tag">' + tag + '</div>');
     html.push('  </div>');
     html.push('  <div class="events">');
@@ -993,12 +1207,6 @@ function render() {
     html.push('</section>');
   }
   feed.innerHTML = html.join('\n');
-}
-
-function dayMonthIso(d) {
-  const dd = String(d.getDate()).padStart(2,'0');
-  const mm = String(d.getMonth()+1).padStart(2,'0');
-  return dd + '.' + mm + '.' + d.getFullYear();
 }
 
 function escapeHtml(s) {
@@ -1050,7 +1258,7 @@ function eventCard(e) {
 
 load().catch(err => {
   document.getElementById('feed').innerHTML =
-    '<div class="empty"><p>Impossible de charger les événements.</p><p style="font-family:monospace;font-size:12px">' + err + '</p></div>';
+    '<div class="empty"><p>erreur de chargement</p><p style="font-family:monospace;font-size:12px;text-transform:none">' + err + '</p></div>';
 });
 </script>
 
