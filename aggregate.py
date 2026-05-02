@@ -68,6 +68,23 @@ def main() -> int:
         if e.date_start and e.date_start >= today.isoformat()
     ]
 
+    # Sanity-check URLs. Any event whose URL is not absolute (http/https)
+    # gets logged and replaced with the empty string — which the frontend
+    # treats as "no link" rather than rendering a relative href that would
+    # 404 on GitHub Pages. We do NOT drop such events; their info is still
+    # useful even without a clickable source link.
+    bad_urls = 0
+    for e in upcoming:
+        if not e.url or not (e.url.startswith("http://")
+                             or e.url.startswith("https://")):
+            print(f"[URL!] {e.venue} — non-absolute url for {e.title!r}: "
+                  f"{e.url!r}", file=sys.stderr)
+            e.url = ""
+            bad_urls += 1
+    if bad_urls:
+        print(f"[URL!] {bad_urls} event(s) had non-absolute URLs — cleared.",
+              file=sys.stderr)
+
     # Sort by date then time then venue.
     upcoming.sort(key=lambda e: (e.date_start, e.time or "00:00", e.venue))
 
