@@ -17,7 +17,7 @@ import sys
 import requests
 from bs4 import BeautifulSoup, Tag
 
-from .base import Event, iso
+from .base import Event, iso, absolutize_url
 
 VENUE = "Bourse du Travail"
 SLUG = "bourse-du-travail"
@@ -84,8 +84,7 @@ def fetch() -> List[Event]:
         if not link:
             continue
         href = link.get("href", "")
-        if href.startswith("/"):
-            href = HOST + href
+        href = absolutize_url(href, HOST)
         if not _is_event_link(href):
             continue
         slug = _slug_from_href(href)
