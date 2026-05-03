@@ -1,111 +1,7 @@
 {
-  "generated_at": "2026-05-02T09:48:15.390249+00:00",
-  "count": 589,
+  "generated_at": "2026-05-03T09:59:19.588061+00:00",
+  "count": 582,
   "events": [
-    {
-      "venue": "Bourse du Travail",
-      "venue_slug": "bourse-du-travail",
-      "title": "Ocarina Of Time - Un Conte Symphonique",
-      "subtitle": null,
-      "category": "musique classique",
-      "date_start": "2026-05-02",
-      "date_end": null,
-      "time": null,
-      "url": "https://www.bourse-du-travail.com/ocarina-of-time-un-conte-symphonique-365462.html",
-      "image": null,
-      "id": "ac9598226e9d"
-    },
-    {
-      "venue": "Comédie Odéon",
-      "venue_slug": "comedie-odeon",
-      "title": "Le prix de l’ascension",
-      "subtitle": null,
-      "category": "théâtre",
-      "date_start": "2026-05-02",
-      "date_end": "2026-05-02",
-      "time": null,
-      "url": "https://www.comedieodeon.com/spectacle/le-prix-de-lascension-2/",
-      "image": "https://www.comedieodeon.com/wp-content/uploads/2020/06/AFFICHE_LPDLA_BD-scaled.jpg",
-      "id": "691d0f301dd8"
-    },
-    {
-      "venue": "HEAT",
-      "venue_slug": "heat",
-      "title": "MINIMAXXX : friperie & dj sets",
-      "subtitle": null,
-      "category": "dj-set",
-      "date_start": "2026-05-02",
-      "date_end": null,
-      "time": null,
-      "url": "https://h-eat.eu/events/minimaxxx-friperie-dj-sets/",
-      "image": "https://h-eat.eu/wp-content/uploads/2025/03/4x5_LYON-MAI-576x720.jpg",
-      "id": "74708cd30622"
-    },
-    {
-      "venue": "La Commune",
-      "venue_slug": "la-commune",
-      "title": "Drop 2 Domi",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2026-05-02",
-      "date_end": null,
-      "time": null,
-      "url": "https://lacommune.co/event/drop-2-domi-festival-gratuit-lyon-2026/",
-      "image": null,
-      "id": "5b0afe35ab94"
-    },
-    {
-      "venue": "Le Sucre",
-      "venue_slug": "le-sucre",
-      "title": "EXT.12 : Nuits sonores x The Absolut Creation Company",
-      "subtitle": "Call Super · DJ Monique · Jen Cardini · LSDXOXO · RONI · Satine ( Initiation voguing ) · TSVI",
-      "category": "club",
-      "date_start": "2026-05-02",
-      "date_end": null,
-      "time": null,
-      "url": "https://le-sucre.eu/events/nuits-sonores-x-tacc-absolut/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/03/TACC-x-NS-x-EXT-LE-SUCRE-—-Nuits-sonores-2026-—-4x5-1-480x600.png",
-      "id": "dfde855fead0"
-    },
-    {
-      "venue": "La Rayonne",
-      "venue_slug": "la-rayonne",
-      "title": "[Un été à La Rayonne] BASS MUSIC DAY CLUB avec Physical Tool",
-      "subtitle": null,
-      "category": "musique",
-      "date_start": "2026-05-02",
-      "date_end": null,
-      "time": "16:00",
-      "url": "https://larayonne.org/evenement/bass-music-day-club-avec-physical-tool/",
-      "image": null,
-      "id": "49d75534f1ea"
-    },
-    {
-      "venue": "Le Sonic",
-      "venue_slug": "sonic",
-      "title": "Suzanne Au Sonic",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2026-05-02",
-      "date_end": null,
-      "time": "22:00",
-      "url": "https://sonic-lyon.fr/evenement/suzanne-au-sonic-8/",
-      "image": null,
-      "id": "a935f3a70e33"
-    },
-    {
-      "venue": "Le Petit Salon",
-      "venue_slug": "petit-salon",
-      "title": "OLYMPE / SOONS / TRY & MORE",
-      "subtitle": null,
-      "category": "club",
-      "date_start": "2026-05-02",
-      "date_end": null,
-      "time": "23:30",
-      "url": "https://yp.events/1d3d2032-be47-46d2-8834-b1be953ed19b/Olympe-Soons-Try-more?from=siteweb",
-      "image": "https://www.lpslyon.fr/wp-content/uploads/2026/04/Olympe_02052026_lepetitsalon-1024x576.jpg",
-      "id": "f438e1882190"
-    },
     {
       "venue": "Bourse du Travail",
       "venue_slug": "bourse-du-travail",
@@ -118,6 +14,19 @@
       "url": "https://www.bourse-du-travail.com/thibault-cauvin-alter-ego-tour-286465.html",
       "image": null,
       "id": "acb1ffdf1b3c"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le prix de l’ascension",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-05-03",
+      "date_end": "2026-05-02",
+      "time": null,
+      "url": "https://www.comedieodeon.com/spectacle/le-prix-de-lascension-2/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2020/06/AFFICHE_LPDLA_BD-scaled.jpg",
+      "id": "6c4124da11d5"
     },
     {
       "venue": "HEAT",
@@ -2896,10 +2805,10 @@
       "category": null,
       "date_start": "2026-06-07",
       "date_end": "2026-06-07",
-      "time": "16:00",
+      "time": "15:00",
       "url": "https://larayonne.org/evenement/atelier-les-bases-sur-les-droits-dauteur-dans-la-musique/",
       "image": null,
-      "id": "2112d09e16ed"
+      "id": "b592c06a639a"
     },
     {
       "venue": "La Rayonne",
@@ -2909,10 +2818,10 @@
       "category": null,
       "date_start": "2026-06-07",
       "date_end": "2026-06-07",
-      "time": "16:00",
+      "time": "15:00",
       "url": "https://larayonne.org/evenement/la-fiscalite-des-associations-3/",
       "image": null,
-      "id": "d521eb16cea7"
+      "id": "7891fd08d85d"
     },
     {
       "venue": "La Rayonne",
@@ -2922,10 +2831,10 @@
       "category": null,
       "date_start": "2026-06-07",
       "date_end": "2026-06-07",
-      "time": "16:00",
+      "time": "15:00",
       "url": "https://larayonne.org/evenement/mettre-en-place-une-gouvernance-partagee-atelier-theorique-1-2/",
       "image": null,
-      "id": "c5df0ebcdc09"
+      "id": "4967f8ecc177"
     },
     {
       "venue": "La Rayonne",
@@ -2935,10 +2844,10 @@
       "category": null,
       "date_start": "2026-06-07",
       "date_end": "2026-06-07",
-      "time": "16:00",
+      "time": "15:00",
       "url": "https://larayonne.org/evenement/mettre-en-place-une-gouvernance-partagee-atelier-de-co-developpement-2-2/",
       "image": null,
-      "id": "452ada66e36e"
+      "id": "2708d57de53a"
     },
     {
       "venue": "La Rayonne",
@@ -2948,10 +2857,10 @@
       "category": null,
       "date_start": "2026-06-07",
       "date_end": "2026-06-07",
-      "time": "16:00",
+      "time": "15:00",
       "url": "https://larayonne.org/evenement/comment-attirer-et-fideliser-des-benevoles/",
       "image": null,
-      "id": "bf731b1f0088"
+      "id": "215cc109ecb7"
     },
     {
       "venue": "La Rayonne",
@@ -2961,10 +2870,10 @@
       "category": null,
       "date_start": "2026-06-07",
       "date_end": "2026-06-07",
-      "time": "16:00",
+      "time": "15:00",
       "url": "https://larayonne.org/evenement/mettre-en-place-une-comptabilite-pour-les-petites-associations-5/",
       "image": null,
-      "id": "9382c4ef363e"
+      "id": "3afe9ca42400"
     },
     {
       "venue": "La Rayonne",
@@ -2974,10 +2883,10 @@
       "category": null,
       "date_start": "2026-06-07",
       "date_end": "2026-06-07",
-      "time": "16:00",
+      "time": "15:00",
       "url": "https://larayonne.org/evenement/sinitier-aux-techniques-danimation-participative-2/",
       "image": null,
-      "id": "de2253aba108"
+      "id": "403c7ba4dfcc"
     },
     {
       "venue": "La Rayonne",
@@ -2987,10 +2896,10 @@
       "category": null,
       "date_start": "2026-06-07",
       "date_end": "2026-06-07",
-      "time": "16:00",
+      "time": "15:00",
       "url": "https://larayonne.org/evenement/atelier-soccuper-du-conflit-avant-quil-ne-soccupe-de-nous/",
       "image": null,
-      "id": "582852f8d968"
+      "id": "50beab0a2a7e"
     },
     {
       "venue": "La Rayonne",
@@ -3000,10 +2909,10 @@
       "category": null,
       "date_start": "2026-06-07",
       "date_end": "2026-06-07",
-      "time": "16:00",
+      "time": "15:00",
       "url": "https://larayonne.org/evenement/les-obligations-des-associations-employeuses-3/",
       "image": null,
-      "id": "236f57416107"
+      "id": "5f686ed30c9e"
     },
     {
       "venue": "La Rayonne",
@@ -3013,10 +2922,10 @@
       "category": null,
       "date_start": "2026-06-07",
       "date_end": "2026-06-07",
-      "time": "16:00",
+      "time": "15:00",
       "url": "https://larayonne.org/evenement/mieux-apprehender-les-reseaux-sociaux/",
       "image": null,
-      "id": "b56a7069b924"
+      "id": "acc160ae6b04"
     },
     {
       "venue": "La Rayonne",
@@ -3026,10 +2935,10 @@
       "category": null,
       "date_start": "2026-06-07",
       "date_end": "2026-06-07",
-      "time": "16:00",
+      "time": "15:00",
       "url": "https://larayonne.org/evenement/presenter-et-mettre-en-valeur-son-projet-a-loral-atelier-theorique-1-2/",
       "image": null,
-      "id": "d4988dec7c6a"
+      "id": "b9ecdc3af09c"
     },
     {
       "venue": "La Rayonne",
@@ -3039,10 +2948,10 @@
       "category": null,
       "date_start": "2026-06-07",
       "date_end": "2026-06-07",
-      "time": "16:00",
+      "time": "15:00",
       "url": "https://larayonne.org/evenement/presenter-et-mettre-en-valeur-son-projet-a-loral-atelier-pratique-2-2/",
       "image": null,
-      "id": "231af6630b2d"
+      "id": "0b0a489e0b25"
     },
     {
       "venue": "La Rayonne",
@@ -3052,10 +2961,10 @@
       "category": null,
       "date_start": "2026-06-07",
       "date_end": "2026-06-07",
-      "time": "16:00",
+      "time": "15:00",
       "url": "https://larayonne.org/evenement/comprendre-les-principales-aides-a-lemploi-dans-le-spectacle-vivant/",
       "image": null,
-      "id": "0d5911d71618"
+      "id": "a5f80a55bf5a"
     },
     {
       "venue": "La Rayonne",
@@ -3065,10 +2974,10 @@
       "category": null,
       "date_start": "2026-06-07",
       "date_end": "2026-06-07",
-      "time": "16:00",
+      "time": "15:00",
       "url": "https://larayonne.org/evenement/construire-un-budget-et-un-plan-de-tresorerie-atelier-theorique-1-2-2/",
       "image": null,
-      "id": "71e9d06a0416"
+      "id": "7c78769a1b80"
     },
     {
       "venue": "La Rayonne",
@@ -3078,10 +2987,10 @@
       "category": null,
       "date_start": "2026-06-07",
       "date_end": "2026-06-07",
-      "time": "16:00",
+      "time": "15:00",
       "url": "https://larayonne.org/evenement/construire-un-budget-et-un-plan-de-tresorerie-atelier-pratique-2-2-2/",
       "image": null,
-      "id": "b4dfa07a5622"
+      "id": "7a386d26ce6c"
     },
     {
       "venue": "Marché Gare",
@@ -7426,17 +7335,17 @@
       "id": "fcd8076c2423"
     },
     {
-      "venue": "Le Petit Salon",
-      "venue_slug": "petit-salon",
-      "title": "THIS IS TECHNO RAVE : ESCURØ  / TESS KAMU & MORE",
+      "venue": "HEAT",
+      "venue_slug": "heat",
+      "title": "MINIMAXXX : friperie & dj sets",
       "subtitle": null,
-      "category": "club",
-      "date_start": "2027-05-01",
+      "category": "dj-set",
+      "date_start": "2027-05-02",
       "date_end": null,
-      "time": "23:30",
-      "url": "https://yp.events/3ac9ab73-92df-431b-9fc1-004382c97842/THIS-IS-TECHNO-Rave-ESCURO-Tess-Kamu-more?from=siteweb",
-      "image": "https://www.lpslyon.fr/wp-content/uploads/2026/03/ThisisTechnoRave_01052026_lepetitsalon-1024x576.jpg",
-      "id": "2132d58ad49a"
+      "time": null,
+      "url": "https://h-eat.eu/events/minimaxxx-friperie-dj-sets/",
+      "image": "https://h-eat.eu/wp-content/uploads/2025/03/4x5_LYON-MAI-576x720.jpg",
+      "id": "4993fe00a343"
     },
     {
       "venue": "Radiant-Bellevue",
