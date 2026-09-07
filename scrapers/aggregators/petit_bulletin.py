@@ -9,14 +9,15 @@ Deux filtres éditoriaux, et deux seulement :
   * EXCLUDED_VENUE_PATTERNS — musées et galeries, dont les accrochages
     courent sur des mois et saturaient le feed ;
   * EXCLUDED_CATEGORY_PATTERNS — rencontres et dédicaces, lectures,
-    débats, photographie : ce ne sont pas des sorties.
+    débats, photographie, design & architecture, art contemporain,
+    peinture & dessin : ce ne sont pas des sorties de soirée.
 La catégorie reste facultative : un événement non catégorisé n'est jamais
 écarté. Tout le reste de l'agenda remonte, et c'est la déduplication en
 trois passes (scrapers/dedup.py) qui écarte les doublons quand un
 événement est aussi publié par la salle elle-même.
 
-Les 164 événements de l'agenda sont répartis sur 9 pages (`?p=N`) :
-fetch() les suit toutes.
+L'agenda est paginé (`?p=N`) et fetch() suit toutes les pages : une
+vingtaine aujourd'hui, pour environ 400 événements après filtrage.
 
 Dates :
   * jour unique          → un Event
@@ -59,8 +60,8 @@ MAX_PAGES = 40
 # plutôt qu'un événement par jour.
 LONG_RUN_DAYS = 7
 
-# Seul filtre éditorial restant : les lieux d'exposition permanente, musées
-# et galeries. Leurs accrochages courent sur des semaines ou des mois —
+# Lieux écartés : les espaces d'exposition permanente, musées et
+# galeries. Leurs accrochages courent sur des semaines ou des mois —
 # jusqu'à 509 jours pour le Musée Urbain Tony Garnier — et occupent donc une
 # carte dans le feed chaque jour de leur durée, ce qui noyait la
 # programmation du soir. Comparé sur le nom de lieu normalisé (voir
@@ -75,17 +76,28 @@ LONG_RUN_DAYS = 7
 EXCLUDED_VENUE_PATTERNS = ("musee", "museum", "galerie")
 
 # Catégories écartées, comparées sur le libellé normalisé (voir _normalize).
-# Ce ne sont pas des sorties : signatures en librairie, lectures publiques,
-# débats, accrochages photo. Mesuré sur la taxonomie complète du Petit
-# Bulletin — 314 événements, 30 catégories — ces motifs n'attrapent QUE les
-# quatre catégories visées : « Conférences », « Visites » et « Salons et
-# foires » restent, elles.
-#   rencontre / dedicace -> Rencontres et Dédicaces   (26 événements)
-#   lecture              -> Lectures                  (4)
-#   debat                -> Débats                    (1)
-#   photo                -> Photographie              (1)
+# Ce ne sont pas des sorties de soirée : signatures en librairie, lectures
+# publiques, débats, et accrochages d'arts plastiques qui courent sur des
+# semaines.
+#
+# Chaque motif est vérifié contre la taxonomie COMPLÈTE du Petit Bulletin
+# avant d'être ajouté — une trentaine de catégories — pour s'assurer qu'il
+# n'en attrape aucune autre au passage :
+#   rencontre / dedicace           -> Rencontres et Dédicaces
+#   lecture                        -> Lectures
+#   debat                          -> Débats
+#   photo                          -> Photographie
+#   design / architecture          -> Design & Architecture
+#   art contemporain               -> Art contemporain et numérique
+#   peinture / dessin              -> Peinture & Dessin
+#
+# « art contemporain » en entier, et NON « art » seul : ce dernier
+# emporterait « Art graphique » et « Street Art », qui restent.
+# Restent également, et volontairement : Conférences, Visites, Salons et
+# foires, Sciences et Histoire, Sculpture, Art graphique, Street Art.
 EXCLUDED_CATEGORY_PATTERNS = (
     "rencontre", "dedicace", "lecture", "debat", "photo",
+    "design", "architecture", "art contemporain", "peinture", "dessin",
 )
 
 MONTHS_FR = {
