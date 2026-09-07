@@ -680,6 +680,29 @@
      brightness un cran plus bas que les affiches (0,50 contre 0,60) :
      un logo est un aplat, il n'a pas le bruit d'une photographie et
      ressort donc plus fort à luminosité égale. */
+  /* Cartouche blanc, sur TOUTE la carte. Sans lui, les logos ajourés
+     — Improvidence, Le Complexe, le médaillon de l'Institut Lumière —
+     posaient leurs traits sombres sur un fond sombre et se lisaient
+     mal ; Les Subsistances, dont le fichier porte déjà son fond blanc,
+     faisaient exception et rompaient l'unité. Le cartouche met les
+     salles sur le même pied et rend au logo le support pour lequel il a
+     été dessiné : du papier.
+     Étant dans .visual-bg, il hérite du fondu haut/bas de la carte : le
+     blanc s'éteint aux deux bords comme le reste du visuel.
+     C'est LUI qui porte le filtre, et non la marque : un filtre
+     s'applique à tout son sous-arbre, si bien que le blanc du cartouche
+     et celui qu'un fichier contient déjà — Les Subsistances — subissent
+     rigoureusement le même traitement. Les filtrer séparément aurait
+     demandé de pré-calculer la valeur du blanc filtré, et le moindre
+     écart aurait dessiné un rectangle visible autour de la marque.
+     Le filtre fait de ce calque le bloc conteneur de la marque qu'il
+     entoure, laquelle se centre donc sur la carte. */
+  .visual-bg .logo-plate {
+    position: absolute;
+    inset: 0;
+    background: #fff;
+    filter: brightness(0.50) contrast(1.06);
+  }
   .visual-bg .logo-img {
     position: absolute;
     inset: auto;
@@ -690,19 +713,11 @@
     width: auto;
     object-fit: contain;
     object-position: center;
-    /* Cartouche blanc derrière la marque. Sans lui, les logos ajourés
-       — Improvidence, Le Complexe, le médaillon de l'Institut Lumière —
-       posaient leurs traits sombres sur un fond sombre et se lisaient
-       mal ; Les Subsistances, dont le fichier porte déjà son fond
-       blanc, faisaient exception et rompaient l'unité. Le cartouche met
-       les six sur le même pied et rend au logo le support pour lequel
-       il a été dessiné : du papier.
-       Le rembourrage entre DANS la hauteur, box-sizing étant border-box
-       pour tout le document : la marque est donc insérée dans le
-       cartouche au lieu de l'agrandir. */
-    padding: 9px;
-    background: #fff;
-    filter: brightness(0.50) contrast(1.06);
+    /* Le filtre des AFFICHES doit être annulé ici, pas seulement omis :
+       .visual-bg img porte brightness(0.60), qui s'ajouterait à celui du
+       cartouche et descendrait la marque à 0,30 — deux fois trop sombre.
+       C'est le cartouche, et lui seul, qui filtre ce sous-arbre. */
+    filter: none;
   }
   /* Le motif reste dans le DOM sous le logo, mais éteint : si le fichier
      manque, l'onerror retire la classe et le motif reprend sa place.
@@ -1761,7 +1776,9 @@ function patternSVG(seed) {
 function logoIntrouvable(img) {
   const couche = img.closest('.visual-bg');
   if (couche) couche.classList.remove('has-logo');
-  img.remove();
+  // Le cartouche part AVEC la marque : le retirer seul laisserait une
+  // carte entièrement blanche, ce qui est pire que le motif.
+  (img.closest('.logo-plate') || img).remove();
 }
 
 /* Couche visuelle d'une carte : motif toujours en sous-couche, affiche
@@ -2752,9 +2769,10 @@ function groupCard(venue, evs, key) {
   const logo = VENUE_LOGOS.get(venue);
   const visual = logo
     ? '<div class="visual-bg has-logo">' + patternSVG(venue + '|·groupe')
+      + '<div class="logo-plate">'
       + '<img class="logo-img" src="' + escapeHtml(logo.f) + '" alt=""'
       + ' loading="lazy" decoding="async" style="--k:' + logo.k + '%"'
-      + ' onerror="logoIntrouvable(this)">'
+      + ' onerror="logoIntrouvable(this)"></div>'
       + '<div class="scrim"></div><div class="photo-wrap"></div></div>'
     : '<div class="visual-bg">' + patternSVG(venue + '|·groupe') + '</div>';
 

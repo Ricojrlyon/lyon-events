@@ -107,9 +107,12 @@ marque : six lieux, 256 des 287 cartes groupées.
 Le logo est traité comme une affiche — `brightness(0.50) contrast(1.06)`,
 trame sérigraphie et voile du haut par-dessus — à deux détails près.
 
-- **Un cartouche blanc** derrière la marque. Les logos ajourés posaient
+- **Un cartouche blanc sur toute la carte.** Les logos ajourés posaient
   sinon leurs traits sombres sur un fond sombre ; le cartouche leur rend
-  le support pour lequel ils ont été dessinés.
+  le support pour lequel ils ont été dessinés. C'est lui qui porte le
+  filtre, pas la marque : un filtre s'appliquant à tout son sous-arbre,
+  son blanc et celui qu'un fichier contient déjà subissent le même
+  traitement, sans quoi un rectangle se dessinerait autour de la marque.
 - **`brightness` à 0,50** et non 0,60 comme les affiches : un aplat n'a
   pas le bruit d'une photographie et ressort plus fort à luminosité
   égale.
