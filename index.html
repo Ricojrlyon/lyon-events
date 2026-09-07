@@ -1230,7 +1230,7 @@ const VENUE_GROUPS = [
      exclut ce lieu, son chip restait grisé en permanence. Son entrée
      dans VENUE_ARRONDISSEMENT est conservée — inoffensive, et utile si
      un événement y remonte un jour via un agrégateur. */
-  { name: 'théâtre & danse',       venues: ['Opéra national de Lyon', 'TNG', 'Maison de la Danse', 'Improvidence'] },
+  { name: 'théâtre & danse',       venues: ['Opéra national de Lyon', 'TNG', 'Maison de la Danse', 'Improvidence', 'Espace Gerson'] },
   { name: 'classique',             venues: ['Auditorium de Lyon', 'Chapelle de la Trinité', 'Salle Molière'] },
   /* 'musées & galeries' is dynamically populated by inferGroupForVenue
      (anything containing musée / galerie / institut). */
@@ -1255,8 +1255,16 @@ const VENUE_GROUPS = [
    soit avant la plupart des salles, en tête de presque chaque journée.
    La valeur dépasse 999, rang des lieux sans groupe, pour passer aussi
    après les cartes du Petit Bulletin et de Ville Morte. */
-const VENUES_PINNED_LAST = new Set(['Improvidence']);
-const RANK_PINNED_LAST = 10000;
+/* Rang par lieu, au-delà du 999 des lieux sans groupe : c'est ce qui les
+   fait passer APRÈS les cartes du Petit Bulletin et de Ville Morte, dont
+   les lieux inconnus tombent précisément à 999. L'ordre par source
+   (salle avant agrégateurs) ne départage qu'à rang égal, un 999 aurait
+   donc laissé ces salles devant eux.
+   Espace Gerson avant Improvidence, comme demandé. */
+const VENUES_PINNED_LAST = new Map([
+  ['Espace Gerson', 5000],
+  ['Improvidence', 10000],
+]);
 
 const VENUE_DISPLAY_ORDER = ['soirée', 'concerts', 'spectacles & musiques', 'lieux hybrides', 'théâtre & danse', 'classique', 'musées & galeries', 'autre'];
 
@@ -2506,10 +2514,10 @@ function renderFeed() {
       const ga = VENUE_GROUP_ORDER_INDEX.get(a.venue);
       const gb = VENUE_GROUP_ORDER_INDEX.get(b.venue);
       // venues not found in any group fall to the end (large index)
-      const ia = VENUES_PINNED_LAST.has(a.venue) ? RANK_PINNED_LAST
-               : (ga === undefined ? 999 : ga);
-      const ib = VENUES_PINNED_LAST.has(b.venue) ? RANK_PINNED_LAST
-               : (gb === undefined ? 999 : gb);
+      const pa = VENUES_PINNED_LAST.get(a.venue);
+      const pb = VENUES_PINNED_LAST.get(b.venue);
+      const ia = pa !== undefined ? pa : (ga === undefined ? 999 : ga);
+      const ib = pb !== undefined ? pb : (gb === undefined ? 999 : gb);
       if (ia !== ib) return ia - ib;
       // same group: scraped venues first, then aggregators
       const sa = sourceSortIndex(a);

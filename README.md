@@ -8,7 +8,7 @@ et affichés sur une page statique hébergée par GitHub Pages :
 ## Fonctionnement
 
 ```
-16 scrapers venue ──┐
+17 scrapers venue ──┐
                     ├─→ dédup 3 passes ─→ events.json ─→ index.html (GitHub Pages)
 2 agrégateurs ──────┘         │
 (Petit Bulletin,              ├─→ venue_arrondissements.json (géocodage Nominatim)
@@ -22,10 +22,15 @@ les trois fichiers de données.
 - **`scrapers/*.py`** — un module par salle (`requests` + BeautifulSoup).
   Chaque module expose `fetch() -> List[Event]`. Les échecs d'une salle ne
   font pas tomber le run : la salle est signalée en erreur, les autres passent.
-  Exception notable : `improvidence.py` ne parse pas de HTML. Le site de la
-  salle est rendu côté client, on lit donc sa billetterie Mapado, dont
-  chaque page embarque son état d'hydratation Next.js en JSON — bien plus
-  stable que des classes CSS générées.
+- **`scrapers/mapado.py`** — lecture commune des billetteries Mapado,
+  utilisée par `improvidence.py` et `espace_gerson.py`. Ces boutiques sont
+  des Next.js dont chaque page embarque son état d'hydratation en JSON :
+  on lit ce JSON, pas le HTML, les classes CSS de Mapado étant des
+  hachages regénérés à chaque déploiement. Point d'attention : une
+  boutique n'est PAS une salle — Improvidence programme aussi à Bordeaux,
+  l'Espace Gerson à la Salle Victor Hugo et à la Bourse du Travail (que
+  nocturne scrappe déjà). Chaque scraper fournit donc son prédicat de
+  lieu, appliqué sur le Venue que Mapado expose en clair.
 - **`scrapers/aggregators/`** — sources multi-lieux : Petit Bulletin et
   Ville Morte (API Gancio). Priorité inférieure aux scrapers venue : en cas
   de doublon, le scraper de la salle gagne l'identité et hérite des champs
@@ -80,10 +85,19 @@ Runs suivants : ~30 secondes.
 
 ## Politique éditoriale
 
-- **Agrégateurs : aucun filtre.** Petit Bulletin et Ville Morte remontent
-  l'intégralité de leur agenda — plus de blocage par catégorie, par lieu ni
-  par tag. C'est la déduplication qui écarte les doublons quand un événement
-  est aussi publié par la salle elle-même.
+- **Ville Morte : aucun filtre**, tout son agenda remonte. C'est la
+  déduplication qui écarte les doublons quand un événement est aussi
+  publié par la salle elle-même.
+- **Petit Bulletin : deux filtres**, et deux seulement
+  (`scrapers/aggregators/petit_bulletin.py`). Par LIEU, les musées et
+  galeries — leurs accrochages courent sur des mois et saturaient le feed.
+  Par CATÉGORIE, ce qui n'est pas une sortie de soirée : rencontres et
+  dédicaces, lectures, débats, photographie, design & architecture, art
+  contemporain, peinture & dessin. Chaque motif est vérifié contre la
+  taxonomie complète avant d'être ajouté — « art contemporain » est pris
+  en entier, « art » seul emporterait « Art graphique » et « Street Art ».
+  La catégorie reste facultative : un événement non catégorisé n'est
+  jamais écarté.
 - **Événements longs** (expos, festivals au long cours) : conservés sous
   forme de plage `date_start`..`date_end` au lieu d'être jetés. Le frontend
   les affiche avec un badge « en cours » au-delà de 30 jours.
@@ -96,9 +110,8 @@ Runs suivants : ~30 secondes.
   salle rapporte précisément, et en inventerait les soirs sans
   représentation. La dédup ne peut pas rattraper ce cas : il suffit que la
   plage gagne un seul jour pour être émise, puis repeindre toute sa durée.
-- **Exclusions restantes** : formations et ateliers professionnels de
-  La Rayonne, seul filtre encore en place — il vise une programmation
-  parallèle, pas un choix éditorial.
+- **La Rayonne** : ses formations et ateliers professionnels sont écartés
+  — c'est une programmation parallèle, pas un choix éditorial.
 
 ## Données générées (committées par le bot)
 

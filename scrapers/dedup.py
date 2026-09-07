@@ -65,6 +65,10 @@ VENUE_CANONICAL: dict[str, list[str]] = {
                                "improvidence cafe theatre",
                                "l improvidence",
                                "improvidence lyon"],
+    # Le Petit Bulletin remonte aussi cette salle ; sans l'entree les deux
+    # sources tomberaient dans deux groupes de dedup distincts.
+    "Espace Gerson":          ["espace gerson", "gerson",
+                               "l espace gerson"],
     # === New venues from aggregators (canonical names) ===
     "Toï Toï le Zinc":        ["toi toi le zinc", "toi toi", "toitoi"],
     "Grrrnd Zero":            ["grrrnd zero", "grrnd zero", "grrrnd-zero",
