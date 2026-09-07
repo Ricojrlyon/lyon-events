@@ -690,6 +690,18 @@
     width: auto;
     object-fit: contain;
     object-position: center;
+    /* Cartouche blanc derrière la marque. Sans lui, les logos ajourés
+       — Improvidence, Le Complexe, le médaillon de l'Institut Lumière —
+       posaient leurs traits sombres sur un fond sombre et se lisaient
+       mal ; Les Subsistances, dont le fichier porte déjà son fond
+       blanc, faisaient exception et rompaient l'unité. Le cartouche met
+       les six sur le même pied et rend au logo le support pour lequel
+       il a été dessiné : du papier.
+       Le rembourrage entre DANS la hauteur, box-sizing étant border-box
+       pour tout le document : la marque est donc insérée dans le
+       cartouche au lieu de l'agrandir. */
+    padding: 9px;
+    background: #fff;
     filter: brightness(0.50) contrast(1.06);
   }
   /* Le motif reste dans le DOM sous le logo, mais éteint : si le fichier
