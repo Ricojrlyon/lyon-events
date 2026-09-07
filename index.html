@@ -661,8 +661,14 @@
     background: linear-gradient(to bottom,
         rgba(22,31,37,.6) 0%, rgba(22,31,37,.26) 38%, rgba(22,31,37,.04) 60%);
   }
-  /* le contenu passe au-dessus de la couche visuelle */
-  .event-head, .event-title, .event-foot { position: relative; }
+  /* Le contenu passe au-dessus de la couche visuelle.
+     .event-list en fait partie, et son absence était un bug : une boîte
+     NON positionnée se peint sous une boîte qui l'est, quel que soit
+     l'ordre du DOM. La liste des cartes groupées passait donc derrière
+     le .visual-bg, sur les 275 cartes concernées. Invisible tant que le
+     visuel était un motif — il plafonne à 0,29 d'opacité effective —
+     mais la ligne restait dessous. */
+  .event-head, .event-title, .event-list, .event-foot { position: relative; }
   .event-venue, .event-arr, .event-time {
     text-shadow: 0 1px 6px rgba(22,31,37,.95);
   }
