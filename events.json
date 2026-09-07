@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-07T08:40:44.147453+00:00",
-  "count": 1628,
+  "generated_at": "2026-09-07T11:14:11.585785+00:00",
+  "count": 1650,
   "events": [
     {
       "venue": "Opéra national de Lyon",
@@ -123,13 +123,13 @@
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
       "title": "Magic Mardi",
-      "subtitle": null,
+      "subtitle": "Saku Sahara · Evy Joy · Orcus",
       "category": "Musique Electronique",
       "date_start": "2026-09-08",
       "date_end": null,
       "time": "18:00",
-      "url": "https://www.petit-bulletin.fr/agenda-315509-magic-mardi.html",
-      "image": null,
+      "url": "https://le-sucre.eu/events/magic-mardi-23-2/",
+      "image": "https://le-sucre.eu/wp-content/uploads/2026/08/Plan-de-travail-24-copie-3-480x600.png",
       "id": "275669d0aa9c"
     },
     {
@@ -1006,15 +1006,15 @@
     {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
-      "title": "Club x Oshumaré",
-      "subtitle": null,
-      "category": "Musique Electronique",
+      "title": "Club x OSHUMARÉ",
+      "subtitle": "Oshumaré · DJ Pompompom · DJ L’yle · DJ Fantastik",
+      "category": "club",
       "date_start": "2026-09-11",
       "date_end": null,
       "time": "23:00",
-      "url": "https://www.petit-bulletin.fr/agenda-314901-club-x-oshumar.html",
-      "image": null,
-      "id": "c0bd42b84083"
+      "url": "https://le-sucre.eu/events/stack-x-oshumare/",
+      "image": "https://le-sucre.eu/wp-content/uploads/2026/07/IMG_2936-600x400.jpg",
+      "id": "ae0d16d9bb82"
     },
     {
       "venue": "La Commune",
@@ -1368,6 +1368,19 @@
       "id": "f11f7dbe3eb3"
     },
     {
+      "venue": "Bar des Capucins",
+      "venue_slug": "bar-des-capucins",
+      "title": "Fluxus2",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-09-12",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://agenda.villemorte.fr/event/fluxus2",
+      "image": null,
+      "id": "866a4dbf19c5"
+    },
+    {
       "venue": "Toï Toï le Zinc",
       "venue_slug": "toi-toi-le-zinc",
       "title": "ALTERNATIV R.A.P#1",
@@ -1474,15 +1487,15 @@
     {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
-      "title": "Club x 20contre1",
-      "subtitle": null,
-      "category": "Musique Electronique",
+      "title": "club X 20CONTRE1",
+      "subtitle": "Von Bikräv · Dikke Baap · Vilain · Sofiasca",
+      "category": "club",
       "date_start": "2026-09-12",
       "date_end": null,
       "time": "23:00",
-      "url": "https://www.petit-bulletin.fr/agenda-316167-club-x-20contre1.html",
-      "image": null,
-      "id": "429465e0b76e"
+      "url": "https://le-sucre.eu/events/club-20contre1/",
+      "image": "https://le-sucre.eu/wp-content/uploads/2026/07/2026-09-12-LYON-LE-SUCRE-INSTA-POST-V01-480x600.jpg",
+      "id": "551df9af7942"
     },
     {
       "venue": "Le Petit Salon",
@@ -1574,6 +1587,19 @@
       "url": "https://agenda.villemorte.fr/event/fanzine-concert-vinyle-anniversaire-des-2-ans-du-label-matiere-super",
       "image": "https://agenda.villemorte.fr/media/thumb/6d5a9f53dca1a9f1482c7dfc164f396e.jpg",
       "id": "cc6693460b20"
+    },
+    {
+      "venue": "Le Sucre",
+      "venue_slug": "le-sucre",
+      "title": "S.society x Primal Instinct",
+      "subtitle": "Chlär · Blanka · Glaskin (live)",
+      "category": "club",
+      "date_start": "2026-09-13",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://le-sucre.eu/events/s-society-primal-instinct/",
+      "image": "https://le-sucre.eu/wp-content/uploads/2026/07/Chlar_press_byOriolReverter_JPG_10-600x463.jpg",
+      "id": "2458f25a1fcf"
     },
     {
       "venue": "Opéra national de Lyon",
@@ -1709,13 +1735,13 @@
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
       "title": "Magic Mardi",
-      "subtitle": null,
+      "subtitle": "BADDEST · Schnautzi · SLMVX",
       "category": "Musique Electronique",
       "date_start": "2026-09-15",
       "date_end": null,
       "time": "18:00",
-      "url": "https://www.petit-bulletin.fr/agenda-315415-magic-mardi.html",
-      "image": null,
+      "url": "https://le-sucre.eu/events/magic-mardi-24-2/",
+      "image": "https://le-sucre.eu/wp-content/uploads/2026/08/Plan-de-travail-24-copie-2-480x600.png",
       "id": "5e1d9bdb067c"
     },
     {
@@ -1847,6 +1873,19 @@
       "url": "https://www.petit-bulletin.fr/agenda-319054-arch-ivres-en-turakie.html",
       "image": null,
       "id": "165898a5230e"
+    },
+    {
+      "venue": "L’Amicale Du Futur",
+      "venue_slug": "l-amicale-du-futur",
+      "title": "Soins prix libre + soirée punk",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-09-16",
+      "date_end": null,
+      "time": "13:00",
+      "url": "https://agenda.villemorte.fr/event/soins-prix-libre-soiree-punk",
+      "image": "https://agenda.villemorte.fr/media/thumb/2d1ba5c1b1e8a6c4782c17db85d75979.jpg",
+      "id": "feb0e2949f33"
     },
     {
       "venue": "HEAT",
@@ -2042,6 +2081,19 @@
       "url": "https://www.petit-bulletin.fr/agenda-319121-contemporary-art-from-austria-and-germany.html",
       "image": null,
       "id": "16f845620d10"
+    },
+    {
+      "venue": "L’Amicale Du Futur",
+      "venue_slug": "l-amicale-du-futur",
+      "title": "Soirée mix - Live / ratio / tapes // Jean Bender et F-man",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-09-17",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://agenda.villemorte.fr/event/soiree-mix-live-ratio-tapes-jean-bender-et-f-man",
+      "image": "https://agenda.villemorte.fr/media/thumb/a7c7b90aea06c194c10673fb46f759d1.jpg",
+      "id": "5f35cd56180b"
     },
     {
       "venue": "Boskop",
@@ -2434,6 +2486,19 @@
       "id": "2dd3139a6c6c"
     },
     {
+      "venue": "L’Amicale Du Futur",
+      "venue_slug": "l-amicale-du-futur",
+      "title": "Soirée sobre / transmission NADA",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-09-18",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://agenda.villemorte.fr/event/soiree-sobre-transmission-nada",
+      "image": "https://agenda.villemorte.fr/media/thumb/2a5c8daddac1f6f1b05b6f22eab48e20.jpg",
+      "id": "a3c770aec642"
+    },
+    {
       "venue": "Chapelle de la Trinité",
       "venue_slug": "chapelle-de-la-trinite",
       "title": "Qui êtes-vous M. Gurdjieff ?",
@@ -2696,15 +2761,15 @@
     {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
-      "title": "Club",
-      "subtitle": null,
-      "category": "Musique Electronique",
+      "title": "club",
+      "subtitle": "Lolalita and Brennt (live) · Noël Minitel · Saku Sahara",
+      "category": "club",
       "date_start": "2026-09-18",
       "date_end": null,
       "time": "23:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319086-club.html",
-      "image": null,
-      "id": "be8ff36f6c9b"
+      "url": "https://le-sucre.eu/events/happycorp/",
+      "image": "https://le-sucre.eu/wp-content/uploads/2026/07/Noel-portrait-4-photo-by-@_studiovisu-399x600.png",
+      "id": "9a5fded338d9"
     },
     {
       "venue": "La Halle Tony Garnier",
@@ -2787,15 +2852,15 @@
     {
       "venue": "L’Amicale Du Futur",
       "venue_slug": "l-amicale-du-futur",
-      "title": "GRANDE FÊTE DE SOUTIEN A L'AMICALE DU FUTUR",
+      "title": "GRANDE FETE DE SOUTIEN A L'AMICALE DU FUTUR",
       "subtitle": null,
       "category": null,
       "date_start": "2026-09-19",
       "date_end": null,
       "time": "15:00",
-      "url": "https://agenda.villemorte.fr/event/grande-fete-de-soutien-a-lamicale-du-futur",
-      "image": null,
-      "id": "d2dcd2e9c3b3"
+      "url": "https://agenda.villemorte.fr/event/grande-fete-de-soutien-a-lamicale-du-futur-1",
+      "image": "https://agenda.villemorte.fr/media/thumb/b14fbded0a05294a23451020e5544442.jpg",
+      "id": "0eb026d2bb24"
     },
     {
       "venue": "Fnac Bellecour",
@@ -3100,27 +3165,27 @@
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
       "title": "Le Sucre feat Reperkusound - Open air edition",
-      "subtitle": null,
-      "category": "Musique Electronique",
+      "subtitle": "Line-up soon !",
+      "category": "club",
       "date_start": "2026-09-19",
       "date_end": null,
       "time": "23:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319087-le-sucre-feat-reperkusound-open-air-edition.html",
-      "image": null,
+      "url": "https://le-sucre.eu/events/le-sucre-feat-reperkusound-open-air-edition/",
+      "image": "https://le-sucre.eu/wp-content/uploads/2026/05/MAGIC-MARDI-182-400x600.jpg",
       "id": "f063d078f7ef"
     },
     {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
-      "title": "Garçon Sauvage x Polari records",
-      "subtitle": null,
-      "category": "Musique Electronique",
+      "title": "Club : Garçon Sauvage x Polaris records",
+      "subtitle": "Cormac · Jordan Nocturne · L’Homme Seul",
+      "category": "club",
       "date_start": "2026-09-19",
       "date_end": null,
       "time": "23:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319088-gar-on-sauvage-x-polari-records.html",
-      "image": null,
-      "id": "bcf5bc2ecfb3"
+      "url": "https://le-sucre.eu/events/club-garcon-sauvage-polaris-records/",
+      "image": "https://le-sucre.eu/wp-content/uploads/2026/07/Post-insta-GS-POLARIFormat_1080X1350-484x600.png",
+      "id": "b78895a7b09d"
     },
     {
       "venue": "Le Petit Salon",
@@ -3255,15 +3320,15 @@
     {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
-      "title": "S. society",
-      "subtitle": null,
-      "category": "Musique Electronique",
+      "title": "S.society",
+      "subtitle": "Dave Clarke · Yasmin Regisford · Maïa Neel",
+      "category": "club",
       "date_start": "2026-09-20",
       "date_end": null,
       "time": "18:00",
-      "url": "https://www.petit-bulletin.fr/agenda-312640-s-society.html",
-      "image": null,
-      "id": "89aad8b94790"
+      "url": "https://le-sucre.eu/events/s-society-160/",
+      "image": "https://le-sucre.eu/wp-content/uploads/2026/07/Dave-Clarke_20250731_©-Bastiaan-Woudt_Low-Res_0005_-450x600.jpeg",
+      "id": "352dc87123ef"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -3412,13 +3477,13 @@
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
       "title": "Magic Mardi",
-      "subtitle": null,
+      "subtitle": "Warum",
       "category": "Musique Electronique",
       "date_start": "2026-09-22",
       "date_end": null,
       "time": "18:00",
-      "url": "https://www.petit-bulletin.fr/agenda-315933-magic-mardi.html",
-      "image": null,
+      "url": "https://le-sucre.eu/events/magic-mardi-25-2/",
+      "image": "https://le-sucre.eu/wp-content/uploads/2026/08/Plan-de-travail-24-copie-6-480x600.png",
       "id": "5a3930d42f14"
     },
     {
@@ -4426,13 +4491,13 @@
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
       "title": "TBM - 8 years birthday",
-      "subtitle": null,
-      "category": "Musique Electronique",
+      "subtitle": "David Asko · ÆSTR · Hugo Prime · Boyca",
+      "category": "club",
       "date_start": "2026-09-25",
       "date_end": null,
       "time": "23:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319089-tbm-8-years-birthday.html",
-      "image": null,
+      "url": "https://le-sucre.eu/events/club-tbm/",
+      "image": "https://le-sucre.eu/wp-content/uploads/2026/08/20260925_TBM_Lyon-sucre_insta_publi_1080x1350_B-480x600.jpg",
       "id": "085ae50e2231"
     },
     {
@@ -4854,15 +4919,15 @@
     {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
-      "title": "Le Sucre 24 heures",
-      "subtitle": null,
-      "category": "Musique Electronique",
+      "title": "Le Sucre, 24 heures",
+      "subtitle": "Line-up soon !",
+      "category": "club",
       "date_start": "2026-09-26",
       "date_end": null,
       "time": "23:55",
-      "url": "https://www.petit-bulletin.fr/agenda-311670-le-sucre-24-heures.html",
-      "image": null,
-      "id": "0e7902ab53e6"
+      "url": "https://le-sucre.eu/events/le-sucre-24-heures-4/",
+      "image": "https://le-sucre.eu/wp-content/uploads/2026/08/24h_affiche-OK--480x600.jpg",
+      "id": "b582a5abf3aa"
     },
     {
       "venue": "Les Subsistances",
@@ -4941,6 +5006,19 @@
       "url": "https://improvidence.mapado.com/event/3736-catch-impro-tournoi-regional",
       "image": "https://img.mapado.net/2024/9/17/66e94c9a6d29f-vignette-catch.jpeg_thumbs/600-600.jpeg",
       "id": "4bc747a558a5"
+    },
+    {
+      "venue": "Le Sucre",
+      "venue_slug": "le-sucre",
+      "title": "Le Sucre, 24 heures",
+      "subtitle": "Line-up soon !",
+      "category": "club",
+      "date_start": "2026-09-27",
+      "date_end": null,
+      "time": "23:55",
+      "url": "https://le-sucre.eu/events/le-sucre-24-heures-3/",
+      "image": "https://le-sucre.eu/wp-content/uploads/2026/08/24h_affiche-OK--480x600.jpg",
+      "id": "6bac500bb23b"
     },
     {
       "venue": "La Commune",
@@ -6217,6 +6295,19 @@
       "id": "723fb5cef99c"
     },
     {
+      "venue": "Le Sucre",
+      "venue_slug": "le-sucre",
+      "title": "Magic Mardi",
+      "subtitle": "Line-up soon !",
+      "category": null,
+      "date_start": "2026-10-06",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://le-sucre.eu/events/magic-mardi-27-2/",
+      "image": "https://le-sucre.eu/wp-content/uploads/2026/07/Plan-de-travail-24-copie-5-480x600.png",
+      "id": "6d279c35ef62"
+    },
+    {
       "venue": "L'Épicerie Moderne",
       "venue_slug": "l-epicerie-moderne",
       "title": "Wu Lyf",
@@ -6553,6 +6644,19 @@
       "url": "https://improvidence.mapado.com/event/14113-mon-pote",
       "image": "https://img.mapado.net/2023/10/3/651c16e6edef5-affiche-mon-pote-web.jpeg_thumbs/600-600.jpeg",
       "id": "d5ad37a58161"
+    },
+    {
+      "venue": "Le Sucre",
+      "venue_slug": "le-sucre",
+      "title": "Concert",
+      "subtitle": "Liv Del Estal",
+      "category": "concert",
+      "date_start": "2026-10-09",
+      "date_end": null,
+      "time": "18:30",
+      "url": "https://le-sucre.eu/events/concert-5/",
+      "image": "https://le-sucre.eu/wp-content/uploads/2026/05/carre-600x600.png",
+      "id": "e6fe7cb2af26"
     },
     {
       "venue": "La Rayonne",
@@ -7164,6 +7268,19 @@
       "url": "https://marchegare.fr/agenda/ivanoe",
       "image": "https://marchegare.fr/sites/marchegare/files/styles/large/public/2026-07/ivanoe-fb.jpg",
       "id": "05122fef4648"
+    },
+    {
+      "venue": "Le Sucre",
+      "venue_slug": "le-sucre",
+      "title": "Magic Mardi",
+      "subtitle": "Line-up soon !",
+      "category": null,
+      "date_start": "2026-10-13",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://le-sucre.eu/events/magic-mardi-28-2/",
+      "image": "https://le-sucre.eu/wp-content/uploads/2026/07/Plan-de-travail-22-480x600.png",
+      "id": "3e95a6eca066"
     },
     {
       "venue": "Le Transbordeur",
@@ -8024,6 +8141,19 @@
       "id": "9c9a697ee9a0"
     },
     {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "DUNO + LIMAK + XO + MAU_V",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2026-10-17",
+      "date_end": null,
+      "time": "23:30",
+      "url": "https://www.transbordeur.fr/evenement/duno-limak-xo-mau_v-17102026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/01/a-xo.jpg",
+      "id": "f5ef87ef6618"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "La Relève",
@@ -8087,6 +8217,19 @@
       "url": "https://marchegare.fr/agenda/formation-pro-elaboration-dun-projet-musical-octobre-26",
       "image": "https://marchegare.fr/sites/marchegare/files/styles/large/public/2026-06/music_business_19_10_2.png",
       "id": "2ac280926125"
+    },
+    {
+      "venue": "Le Sucre",
+      "venue_slug": "le-sucre",
+      "title": "Concert",
+      "subtitle": "Sofie Royer",
+      "category": "concert",
+      "date_start": "2026-10-19",
+      "date_end": null,
+      "time": "18:30",
+      "url": "https://le-sucre.eu/events/concert-9/",
+      "image": "https://le-sucre.eu/wp-content/uploads/2026/06/CARRE-Sofie-Royer-600x600.jpg",
+      "id": "875b4b80a997"
     },
     {
       "venue": "Le Transbordeur",
@@ -8622,6 +8765,19 @@
       "id": "046c8b36c411"
     },
     {
+      "venue": "Le Sucre",
+      "venue_slug": "le-sucre",
+      "title": "Concert",
+      "subtitle": "ROMSII",
+      "category": "concert",
+      "date_start": "2026-10-23",
+      "date_end": null,
+      "time": "18:30",
+      "url": "https://le-sucre.eu/events/concert-6/",
+      "image": "https://le-sucre.eu/wp-content/uploads/2026/05/carre-4-600x600.jpg",
+      "id": "cd8af662c816"
+    },
+    {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
       "title": "NES",
@@ -8778,6 +8934,19 @@
       "id": "3c8fc3c58e7d"
     },
     {
+      "venue": "Le Sucre",
+      "venue_slug": "le-sucre",
+      "title": "Concert",
+      "subtitle": "ÈVE + ULYSSE",
+      "category": "concert",
+      "date_start": "2026-10-24",
+      "date_end": null,
+      "time": "18:30",
+      "url": "https://le-sucre.eu/events/concert-13/",
+      "image": "https://le-sucre.eu/wp-content/uploads/2026/07/EVEULYSSE-pop-lyon-site-carre.jpg",
+      "id": "0dc2a9b1041e"
+    },
+    {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
       "title": "Le voisin #3 - Nouveau spectacle",
@@ -8832,19 +9001,6 @@
     {
       "venue": "Grrrnd Zero",
       "venue_slug": "grrrnd-zero",
-      "title": "soirée de soutien à collectif queer afghan",
-      "subtitle": null,
-      "category": null,
-      "date_start": "2026-10-24",
-      "date_end": null,
-      "time": "20:00",
-      "url": "https://agenda.villemorte.fr/event/soiree-de-soutien-a-collectif-queer-afghan",
-      "image": null,
-      "id": "464037b8a809"
-    },
-    {
-      "venue": "Grrrnd Zero",
-      "venue_slug": "grrrnd-zero",
       "title": "Cancer Void + Teratoma + Abyssal Blast",
       "subtitle": null,
       "category": null,
@@ -8854,6 +9010,19 @@
       "url": "https://agenda.villemorte.fr/event/cancer-void-teratoma-abyssal-blast",
       "image": null,
       "id": "2aaac977b13e"
+    },
+    {
+      "venue": "Grrrnd Zero",
+      "venue_slug": "grrrnd-zero",
+      "title": "soirée de soutien à collectif queer afghan",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-10-24",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://agenda.villemorte.fr/event/soiree-de-soutien-a-collectif-queer-afghan",
+      "image": null,
+      "id": "464037b8a809"
     },
     {
       "venue": "Le Complexe café-théâtre",
@@ -9062,6 +9231,19 @@
       "url": "https://www.lecomplexelyon.com/programme/improminots/",
       "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/improminots.jpg",
       "id": "10b39e513977"
+    },
+    {
+      "venue": "Le Sucre",
+      "venue_slug": "le-sucre",
+      "title": "Magic Mardi",
+      "subtitle": "Line-up soon !",
+      "category": null,
+      "date_start": "2026-10-27",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://le-sucre.eu/events/magic-mardi-30-2/",
+      "image": "https://le-sucre.eu/wp-content/uploads/2026/07/Plan-de-travail-24_4-2-480x600.png",
+      "id": "bca416d3187e"
     },
     {
       "venue": "Improvidence",
@@ -10442,6 +10624,19 @@
       "id": "b9bb381b8134"
     },
     {
+      "venue": "Le Sucre",
+      "venue_slug": "le-sucre",
+      "title": "Plavace 5 ans :",
+      "subtitle": "63OG · Yjick",
+      "category": "concert",
+      "date_start": "2026-11-07",
+      "date_end": null,
+      "time": "18:30",
+      "url": "https://le-sucre.eu/events/concert-12/",
+      "image": "https://le-sucre.eu/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-06-at-14.53.25-480x600.jpeg",
+      "id": "1f9ea40d053a"
+    },
+    {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
       "title": "Le Grand Sacripant - Andromède",
@@ -11107,15 +11302,15 @@
     {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
-      "title": "Ajna",
-      "subtitle": null,
-      "category": "Rap",
+      "title": "Concert",
+      "subtitle": "Ajna",
+      "category": "concert",
       "date_start": "2026-11-13",
       "date_end": null,
       "time": "18:30",
-      "url": "https://www.petit-bulletin.fr/agenda-319205-ajna.html",
-      "image": null,
-      "id": "f5371f623b51"
+      "url": "https://le-sucre.eu/events/concert-8/",
+      "image": "https://le-sucre.eu/wp-content/uploads/2026/06/carre-6-600x600.jpg",
+      "id": "4bd9cc54ef0d"
     },
     {
       "venue": "La Rayonne",
@@ -11337,6 +11532,19 @@
       "url": "https://www.les-subs.com/evenement/nuit-du-cirque-2026-ne-me-faites-pas-entendre-ce-que-je-nai-pas-dit-victor-hollebecq-david-perreard/",
       "image": "https://www.les-subs.com/wp-content/uploads/2026/07/ne-me-faites-pas-entendre-ce-que-j-ai-pas-dit-e1783335171190-200x200.jpg",
       "id": "40c5c4955f2f"
+    },
+    {
+      "venue": "Le Sucre",
+      "venue_slug": "le-sucre",
+      "title": "High-Lo présente :",
+      "subtitle": "Bianca Costa",
+      "category": "concert",
+      "date_start": "2026-11-14",
+      "date_end": null,
+      "time": "18:30",
+      "url": "https://le-sucre.eu/events/high-lo-presente-12/",
+      "image": "https://le-sucre.eu/wp-content/uploads/2026/03/insta-480x600.jpg",
+      "id": "5e117d5da632"
     },
     {
       "venue": "Le Transbordeur",
@@ -11950,6 +12158,19 @@
       "id": "44e8fa130b6e"
     },
     {
+      "venue": "Le Sucre",
+      "venue_slug": "le-sucre",
+      "title": "Concert",
+      "subtitle": "Spider Zed",
+      "category": "concert",
+      "date_start": "2026-11-20",
+      "date_end": null,
+      "time": "18:30",
+      "url": "https://le-sucre.eu/events/concert-spider-z/",
+      "image": "https://le-sucre.eu/wp-content/uploads/2026/07/spiderzed16-1-FONDBLANC-400x600.jpg",
+      "id": "c54c77d30364"
+    },
+    {
       "venue": "La Rayonne",
       "venue_slug": "la-rayonne",
       "title": "Elmer Food Beat",
@@ -12134,15 +12355,15 @@
     {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
-      "title": "Bamby",
-      "subtitle": null,
-      "category": "Rap",
+      "title": "Concert",
+      "subtitle": "Bamby",
+      "category": "concert",
       "date_start": "2026-11-21",
       "date_end": null,
       "time": "18:30",
-      "url": "https://www.petit-bulletin.fr/agenda-319206-bamby.html",
-      "image": null,
-      "id": "7074d02f2661"
+      "url": "https://le-sucre.eu/events/concert-7/",
+      "image": "https://le-sucre.eu/wp-content/uploads/2026/06/carre-5-600x600.jpg",
+      "id": "b8675ebe88aa"
     },
     {
       "venue": "Espace Gerson",
@@ -12832,6 +13053,19 @@
       "url": "https://agenda.villemorte.fr/event/visites-sur-le-pouce-pendant-la-pause-dejeuner-1",
       "image": "https://agenda.villemorte.fr/media/thumb/343ff62082a40ba2cb8e57128163fc22.jpg",
       "id": "cdf60c10a733"
+    },
+    {
+      "venue": "Le Sucre",
+      "venue_slug": "le-sucre",
+      "title": "Concert",
+      "subtitle": "Lisa Pariente",
+      "category": "concert",
+      "date_start": "2026-11-27",
+      "date_end": null,
+      "time": "18:30",
+      "url": "https://le-sucre.eu/events/concert-10/",
+      "image": "https://le-sucre.eu/wp-content/uploads/2026/06/CARRE-lisa-pariente-600x600.jpg",
+      "id": "40429d8c95fc"
     },
     {
       "venue": "La Rayonne",
@@ -13809,6 +14043,19 @@
       "id": "916c2d39b9d1"
     },
     {
+      "venue": "Le Sucre",
+      "venue_slug": "le-sucre",
+      "title": "SUBLIME CLUB",
+      "subtitle": "Line-up soon !",
+      "category": "club",
+      "date_start": "2026-12-04",
+      "date_end": null,
+      "time": "23:00",
+      "url": "https://le-sucre.eu/events/sublime-club/",
+      "image": "https://le-sucre.eu/wp-content/uploads/2026/04/club-rap-lyon-post-insta-480x600.jpg",
+      "id": "60bee1b43b36"
+    },
+    {
       "venue": "TNG",
       "venue_slug": "tng",
       "title": "Grandeur nature",
@@ -13859,6 +14106,19 @@
       "url": "https://larayonne.org/evenement/tambours-du-bronx-sidilarsen/",
       "image": "https://larayonne.org/wp-content/uploads/2025/12/1080-x-580-La-Rayonne-Site-500x282.png",
       "id": "e32f8230b8d2"
+    },
+    {
+      "venue": "Le Sucre",
+      "venue_slug": "le-sucre",
+      "title": "Concert",
+      "subtitle": "55ASKY",
+      "category": "concert",
+      "date_start": "2026-12-05",
+      "date_end": null,
+      "time": "18:30",
+      "url": "https://le-sucre.eu/events/concert-14/",
+      "image": "https://le-sucre.eu/wp-content/uploads/2026/08/carre-7-600x600.jpg",
+      "id": "7cd2771d089d"
     },
     {
       "venue": "Le Transbordeur",
@@ -15302,6 +15562,19 @@
       "url": "https://espacegerson.mapado.com/event/685594-jeanne-elima-grande-fille",
       "image": "https://img.mapado.net/2026/3/18/69bac16a3a04f-jeanne-elima.png_thumbs/600-600.png",
       "id": "644adde7aa35"
+    },
+    {
+      "venue": "Le Sucre",
+      "venue_slug": "le-sucre",
+      "title": "club",
+      "subtitle": "Panteros666",
+      "category": "club",
+      "date_start": "2026-12-19",
+      "date_end": null,
+      "time": "23:00",
+      "url": "https://le-sucre.eu/events/club-53/",
+      "image": "https://le-sucre.eu/wp-content/uploads/2026/07/IMG_0146-450x600.jpeg",
+      "id": "70c09d149709"
     },
     {
       "venue": "Bourse du Travail",
@@ -16758,6 +17031,19 @@
       "url": "https://espacegerson.mapado.com/event/704640-cecile-marx-iconique",
       "image": "https://img.mapado.net/2026/4/17/69e2342e9a5f1-cecile-marx.png_thumbs/600-600.png",
       "id": "680c588c7023"
+    },
+    {
+      "venue": "Le Sucre",
+      "venue_slug": "le-sucre",
+      "title": "club",
+      "subtitle": "Bellaire",
+      "category": "club",
+      "date_start": "2027-01-16",
+      "date_end": null,
+      "time": "23:00",
+      "url": "https://le-sucre.eu/events/club-62/",
+      "image": "https://le-sucre.eu/wp-content/uploads/2026/07/BELLAIRE-BORN-FUNKY-PRESS-PICTURES-FUNKY-BREAKFAST-BANNER-2-600x400.jpg",
+      "id": "e94ad8c79c20"
     },
     {
       "venue": "Bourse du Travail",

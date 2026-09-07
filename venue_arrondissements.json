@@ -41,6 +41,12 @@
     "confidence": "high",
     "seen_at": "2026-09-02"
   },
+  "Bar des Capucins": {
+    "arr": null,
+    "checked_at": "2026-09-07",
+    "confidence": "failed",
+    "seen_at": "2026-09-07"
+  },
   "Baràgones": {
     "arr": "5e",
     "checked_at": "2026-08-12",
