@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-07T08:03:05.546677+00:00",
-  "count": 1149,
+  "generated_at": "2026-09-07T08:15:57.517072+00:00",
+  "count": 1313,
   "events": [
     {
       "venue": "Opéra national de Lyon",
@@ -53,19 +53,6 @@
       "url": "https://lacommune.co/event/la-commune-comedy-club-lyon/",
       "image": "https://cdn-ilchkjh.nitrocdn.com/gohSAQIvPXRxVnCrOMzXdhxFQyClcfyS/assets/images/optimized/rev-019d817/lacommune.co/wp-content/uploads/2025/06/1080x1350_sept-768x960.jpg",
       "id": "2fbb4795dc7e"
-    },
-    {
-      "venue": "Espace Gerson",
-      "venue_slug": "espace-gerson",
-      "title": "Le Voisin #3",
-      "subtitle": null,
-      "category": "Théâtre",
-      "date_start": "2026-09-07",
-      "date_end": "2026-10-31",
-      "time": "18:45",
-      "url": "https://www.petit-bulletin.fr/agenda-317995-le-voisin-3.html",
-      "image": null,
-      "id": "c1f71b7cd362"
     },
     {
       "venue": "Théâtre des Marronniers",
@@ -202,12 +189,12 @@
       "venue_slug": "espace-gerson",
       "title": "Les Divines",
       "subtitle": null,
-      "category": "Théâtre",
+      "category": "café-théâtre",
       "date_start": "2026-09-08",
-      "date_end": "2026-10-20",
+      "date_end": null,
       "time": "20:30",
-      "url": "https://www.petit-bulletin.fr/agenda-316944-les-divines.html",
-      "image": null,
+      "url": "https://espacegerson.mapado.com/event/722992-les-divines",
+      "image": "https://img.mapado.net/2026/5/29/6a199d4fdfb7f-les-divines.png_thumbs/600-600.png",
       "id": "a5815d402cf7"
     },
     {
@@ -330,15 +317,15 @@
     {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
-      "title": "Gabrielle Giraud",
+      "title": "Gabrielle Giraud - Au naturel",
       "subtitle": null,
-      "category": "Humour & Café Théâtre",
+      "category": "café-théâtre",
       "date_start": "2026-09-09",
       "date_end": null,
       "time": "20:30",
-      "url": "https://www.petit-bulletin.fr/agenda-318996-gabrielle-giraud.html",
-      "image": null,
-      "id": "c9c83943e187"
+      "url": "https://espacegerson.mapado.com/event/710280-gabrielle-giraud-au-naturel",
+      "image": "https://img.mapado.net/2026/4/27/69ef6cf9123b7-gabrielle-giraud.png_thumbs/600-600.png",
+      "id": "1100e4337024"
     },
     {
       "venue": "Parc des Oiseaux",
@@ -512,15 +499,15 @@
     {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
-      "title": "Gabrielle Giraud",
+      "title": "Gabrielle Giraud - Au naturel",
       "subtitle": null,
-      "category": "Humour & Café Théâtre",
+      "category": "café-théâtre",
       "date_start": "2026-09-10",
       "date_end": null,
       "time": "20:30",
-      "url": "https://www.petit-bulletin.fr/agenda-318996-gabrielle-giraud.html",
-      "image": null,
-      "id": "a2dcf37f55b9"
+      "url": "https://espacegerson.mapado.com/event/710280-gabrielle-giraud-au-naturel",
+      "image": "https://img.mapado.net/2026/4/27/69ef6cf9123b7-gabrielle-giraud.png_thumbs/600-600.png",
+      "id": "09703e605ae0"
     },
     {
       "venue": "Ninkasi Cordeliers",
@@ -707,15 +694,15 @@
     {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
-      "title": "Marie Sarah",
+      "title": "MARIE SARAH",
       "subtitle": null,
-      "category": "Soul & Funk",
+      "category": "concert",
       "date_start": "2026-09-11",
       "date_end": null,
       "time": "19:00",
-      "url": "https://www.petit-bulletin.fr/agenda-318946-marie-sarah.html",
-      "image": null,
-      "id": "02a2476c1bc9"
+      "url": "https://www.transbordeur.fr/evenement/marie-sarah-11092026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/04/a-mariesarah.jpeg",
+      "id": "3e707d941a59"
     },
     {
       "venue": "Les Subsistances",
@@ -837,15 +824,15 @@
     {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
-      "title": "Gabrielle Giraud",
+      "title": "Gabrielle Giraud - Au naturel",
       "subtitle": null,
-      "category": "Humour & Café Théâtre",
+      "category": "café-théâtre",
       "date_start": "2026-09-11",
       "date_end": null,
       "time": "20:30",
-      "url": "https://www.petit-bulletin.fr/agenda-318996-gabrielle-giraud.html",
-      "image": null,
-      "id": "4cf2cfa1d851"
+      "url": "https://espacegerson.mapado.com/event/710280-gabrielle-giraud-au-naturel",
+      "image": "https://img.mapado.net/2026/4/27/69ef6cf9123b7-gabrielle-giraud.png_thumbs/600-600.png",
+      "id": "243d9c8cc415"
     },
     {
       "venue": "Parc des Oiseaux",
@@ -1110,15 +1097,28 @@
     {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
-      "title": "Afro futurism open-air",
+      "title": "SATINE + DJ POMPOMPOM + BADDEST + N’ZOLA + LA FEE SEE + DJ L’YLE + DJ FANTASTIK",
       "subtitle": null,
-      "category": "Musique Electronique",
+      "category": "concert",
       "date_start": "2026-09-12",
       "date_end": null,
       "time": "18:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319077-afro-futurism-open-air.html",
-      "image": null,
-      "id": "4cbdaa49f0e4"
+      "url": "https://www.transbordeur.fr/evenement/satine-dj-pompompom-baddest-nzola-la-fee-see-dj-lyle-dj-fantastik-12092026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/07/a-oshumare.jpg",
+      "id": "0a6151c77d2b"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Le voisin #3 - Nouveau spectacle",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-09-12",
+      "date_end": null,
+      "time": "18:45",
+      "url": "https://espacegerson.mapado.com/event/716566-le-voisin-3-nouveau-spectacle",
+      "image": "https://img.mapado.net/2026/5/5/69fa12d26a9bb-voisin-3.png_thumbs/600-600.png",
+      "id": "e2f35c8852ac"
     },
     {
       "venue": "La Rayonne",
@@ -1264,19 +1264,6 @@
       "id": "f11f7dbe3eb3"
     },
     {
-      "venue": "Espace Gerson",
-      "venue_slug": "espace-gerson",
-      "title": "Gabrielle Giraud",
-      "subtitle": null,
-      "category": "Humour & Café Théâtre",
-      "date_start": "2026-09-12",
-      "date_end": null,
-      "time": "20:30",
-      "url": "https://www.petit-bulletin.fr/agenda-318996-gabrielle-giraud.html",
-      "image": null,
-      "id": "07d1565717f8"
-    },
-    {
       "venue": "Toï Toï le Zinc",
       "venue_slug": "toi-toi-le-zinc",
       "title": "ALTERNATIV R.A.P#1",
@@ -1353,6 +1340,19 @@
       "url": "https://www.petit-bulletin.fr/agenda-296449-caroline-estremo.html",
       "image": null,
       "id": "20109e87396c"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Gabrielle Giraud - Au naturel",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-09-12",
+      "date_end": null,
+      "time": "21:15",
+      "url": "https://espacegerson.mapado.com/event/710280-gabrielle-giraud-au-naturel",
+      "image": "https://img.mapado.net/2026/4/27/69ef6cf9123b7-gabrielle-giraud.png_thumbs/600-600.png",
+      "id": "4c11666fde69"
     },
     {
       "venue": "Le Sucre",
@@ -1539,15 +1539,15 @@
     {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
-      "title": "Axel Ramponi",
+      "title": "Axel Ramponi - Pauvre riche",
       "subtitle": null,
-      "category": "Humour & Café Théâtre",
+      "category": "café-théâtre",
       "date_start": "2026-09-14",
       "date_end": null,
       "time": "20:30",
-      "url": "https://www.petit-bulletin.fr/agenda-318997-axel-ramponi.html",
-      "image": null,
-      "id": "84d0d0e43d03"
+      "url": "https://espacegerson.mapado.com/event/784507-axel-ramponi-pauvre-riche",
+      "image": "https://img.mapado.net/2026/6/26/6a3e863637185-axel-ramponi.png_thumbs/600-600.png",
+      "id": "091556c4e85c"
     },
     {
       "venue": "La Commune",
@@ -1587,6 +1587,19 @@
       "url": "https://agenda.villemorte.fr/event/les-mardis-du-4-session-de-septembre",
       "image": "https://agenda.villemorte.fr/media/thumb/a540767d2f0f4b583385d8e751e81cb0.jpg",
       "id": "6619966f2ed4"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Les Divines",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-09-15",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/722992-les-divines",
+      "image": "https://img.mapado.net/2026/5/29/6a199d4fdfb7f-les-divines.png_thumbs/600-600.png",
+      "id": "7fc80ab21ed9"
     },
     {
       "venue": "La Relève",
@@ -1773,15 +1786,15 @@
     {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
-      "title": "Anthony Kavanagh",
+      "title": "Anthony Kavanagh - Rodage",
       "subtitle": null,
-      "category": "Humour & Café Théâtre",
+      "category": "café-théâtre",
       "date_start": "2026-09-16",
       "date_end": null,
       "time": "20:30",
-      "url": "https://www.petit-bulletin.fr/agenda-290042-anthony-kavanagh.html",
-      "image": null,
-      "id": "10638dd26425"
+      "url": "https://espacegerson.mapado.com/event/685538-anthony-kavanagh-rodage",
+      "image": "https://img.mapado.net/2026/9/3/6a997049d1d90-copie-de-kavanagh.jpeg_thumbs/600-600.jpeg",
+      "id": "e38f2a682d5b"
     },
     {
       "venue": "Improvidence",
@@ -1877,15 +1890,15 @@
     {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
-      "title": "La Colonie de Vacances",
+      "title": "LA COLONIE DE VACANCES + REBECCA BONTE",
       "subtitle": null,
-      "category": "Rock & Pop",
+      "category": "concert",
       "date_start": "2026-09-17",
       "date_end": null,
       "time": "19:00",
-      "url": "https://www.petit-bulletin.fr/agenda-286577-la-colonie-de-vacances.html",
-      "image": null,
-      "id": "64fe78c40ecb"
+      "url": "https://www.transbordeur.fr/evenement/la-colonie-de-vacances-rebecca-bonte-17092026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/03/COLO_02_bichro_creditjeromeblin-a-portrait.jpg",
+      "id": "8bb597d3f63a"
     },
     {
       "venue": "Improvidence",
@@ -2007,15 +2020,15 @@
     {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
-      "title": "Anthony Kavanagh",
+      "title": "Anthony Kavanagh - Rodage",
       "subtitle": null,
-      "category": "Humour & Café Théâtre",
+      "category": "café-théâtre",
       "date_start": "2026-09-17",
       "date_end": null,
       "time": "20:30",
-      "url": "https://www.petit-bulletin.fr/agenda-290042-anthony-kavanagh.html",
-      "image": null,
-      "id": "b3e2fbad9bc7"
+      "url": "https://espacegerson.mapado.com/event/685538-anthony-kavanagh-rodage",
+      "image": "https://img.mapado.net/2026/9/3/6a997049d1d90-copie-de-kavanagh.jpeg_thumbs/600-600.jpeg",
+      "id": "6435a7133087"
     },
     {
       "venue": "Trokson",
@@ -2358,15 +2371,15 @@
     {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
-      "title": "Anthony Kavanagh",
+      "title": "Anthony Kavanagh - Rodage",
       "subtitle": null,
-      "category": "Humour & Café Théâtre",
+      "category": "café-théâtre",
       "date_start": "2026-09-18",
       "date_end": null,
       "time": "20:30",
-      "url": "https://www.petit-bulletin.fr/agenda-290042-anthony-kavanagh.html",
-      "image": null,
-      "id": "f9ac0957afcd"
+      "url": "https://espacegerson.mapado.com/event/685538-anthony-kavanagh-rodage",
+      "image": "https://img.mapado.net/2026/9/3/6a997049d1d90-copie-de-kavanagh.jpeg_thumbs/600-600.jpeg",
+      "id": "104bb5281a11"
     },
     {
       "venue": "L'Aqueduc",
@@ -2592,15 +2605,15 @@
     {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
-      "title": "2SIK! Open-air",
+      "title": "ROTATIONAL + OHJEELO + 2SIK! DJS",
       "subtitle": null,
-      "category": "Clubbing",
+      "category": "concert",
       "date_start": "2026-09-19",
       "date_end": null,
       "time": "18:00",
-      "url": "https://www.petit-bulletin.fr/agenda-315231-2sik-open-air.html",
-      "image": null,
-      "id": "f11f813d87f2"
+      "url": "https://www.transbordeur.fr/evenement/rotational-ohjeelo-2sik-djs-19092026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/07/a-Rotational.png",
+      "id": "6affd8c115d3"
     },
     {
       "venue": "MJC Louis Aragon / Jack Jack",
@@ -2614,6 +2627,19 @@
       "url": "https://agenda.villemorte.fr/event/lancement-de-saison-jack-jack",
       "image": "https://agenda.villemorte.fr/media/thumb/9b948b0d9ac79d971b85961fd30b42b5.jpg",
       "id": "07a82f4a8702"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Le voisin #3 - Nouveau spectacle",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-09-19",
+      "date_end": null,
+      "time": "18:45",
+      "url": "https://espacegerson.mapado.com/event/716566-le-voisin-3-nouveau-spectacle",
+      "image": "https://img.mapado.net/2026/5/5/69fa12d26a9bb-voisin-3.png_thumbs/600-600.png",
+      "id": "67786665d5f0"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -2720,19 +2746,6 @@
       "id": "fda44bc7b8bb"
     },
     {
-      "venue": "Espace Gerson",
-      "venue_slug": "espace-gerson",
-      "title": "Anthony Kavanagh",
-      "subtitle": null,
-      "category": "Humour & Café Théâtre",
-      "date_start": "2026-09-19",
-      "date_end": null,
-      "time": "20:30",
-      "url": "https://www.petit-bulletin.fr/agenda-290042-anthony-kavanagh.html",
-      "image": null,
-      "id": "a185d41c8b5f"
-    },
-    {
       "venue": "Toï Toï le Zinc",
       "venue_slug": "toi-toi-le-zinc",
       "title": "Zermatt + Marguterie + Don't kill the cow",
@@ -2770,6 +2783,19 @@
       "url": "https://improvidence.mapado.com/event/489025-flemme",
       "image": "https://img.mapado.net/2025/10/22/68f8d4dc2597f-affiche-flemme-superette.jpeg_thumbs/600-600.jpeg",
       "id": "116bbafeefa3"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Anthony Kavanagh - Rodage",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-09-19",
+      "date_end": null,
+      "time": "21:15",
+      "url": "https://espacegerson.mapado.com/event/685538-anthony-kavanagh-rodage",
+      "image": "https://img.mapado.net/2026/9/3/6a997049d1d90-copie-de-kavanagh.jpeg_thumbs/600-600.jpeg",
+      "id": "20b8f5e2f7fc"
     },
     {
       "venue": "Le Sucre",
@@ -2956,15 +2982,15 @@
     {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
-      "title": "Ásgeir",
+      "title": "ASGEIR + HAILAKER",
       "subtitle": null,
-      "category": "Rock & Pop",
+      "category": "concert",
       "date_start": "2026-09-20",
       "date_end": null,
       "time": "19:00",
-      "url": "https://www.petit-bulletin.fr/agenda-175188-sgeir.html",
-      "image": null,
-      "id": "54e0ff8cab41"
+      "url": "https://www.transbordeur.fr/evenement/asgeir-hailaker-20092026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/02/a-asgeir.jpeg",
+      "id": "78d1b3ebbeed"
     },
     {
       "venue": "Improvidence",
@@ -3034,15 +3060,15 @@
     {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
-      "title": "Yoanna Sallese",
+      "title": "Yoanna Sallese - Conviction molle",
       "subtitle": null,
-      "category": "Humour & Café Théâtre",
+      "category": "café-théâtre",
       "date_start": "2026-09-21",
       "date_end": null,
       "time": "20:30",
-      "url": "https://www.petit-bulletin.fr/agenda-309159-yoanna-sallese.html",
-      "image": null,
-      "id": "8bc995ef201d"
+      "url": "https://espacegerson.mapado.com/event/709286-yoanna-sallese-conviction-molle",
+      "image": "https://img.mapado.net/2026/4/24/69eb8da34f996-yoanna-sallese.png_thumbs/600-600.png",
+      "id": "95e65b25a205"
     },
     {
       "venue": "La Commune",
@@ -3086,15 +3112,15 @@
     {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
-      "title": "Only the poets",
+      "title": "ONLY THE POETS",
       "subtitle": null,
-      "category": "Rock & Pop",
+      "category": "concert",
       "date_start": "2026-09-22",
       "date_end": null,
       "time": "19:00",
-      "url": "https://www.petit-bulletin.fr/agenda-318947-only-the-poets.html",
-      "image": null,
-      "id": "a73f26ba8688"
+      "url": "https://www.transbordeur.fr/evenement/only-the-poets-22092026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/05/a-onlythepoets2.png",
+      "id": "65c92223b2f1"
     },
     {
       "venue": "Collège Supérieur Lyon",
@@ -3134,6 +3160,19 @@
       "url": "https://agenda.villemorte.fr/event/mannveira-gleichmacher-tower-of-silence",
       "image": "https://agenda.villemorte.fr/media/thumb/dac5e35cc020a980c06e197f9dec11b9.jpg",
       "id": "75638e849db7"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Les Divines",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-09-22",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/722992-les-divines",
+      "image": "https://img.mapado.net/2026/5/29/6a199d4fdfb7f-les-divines.png_thumbs/600-600.png",
+      "id": "594d2a22207b"
     },
     {
       "venue": "Trokson",
@@ -3307,15 +3346,15 @@
     {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
-      "title": "Pablo Mira",
+      "title": "Pablo Mira cherche encore le titre de son spectacle",
       "subtitle": null,
-      "category": "Humour & Café Théâtre",
+      "category": "café-théâtre",
       "date_start": "2026-09-23",
       "date_end": null,
       "time": "20:00",
-      "url": "https://www.petit-bulletin.fr/agenda-288842-pablo-mira.html",
-      "image": null,
-      "id": "988eac06face"
+      "url": "https://espacegerson.mapado.com/event/638404-pablo-mira-cherche-encore-le-titre-de-son-spectacle",
+      "image": "https://img.mapado.net/2025/11/21/692099b0b87c9-pablo-mira.png_thumbs/600-600.png",
+      "id": "0ead3cc8d6e7"
     },
     {
       "venue": "La Pente",
@@ -3476,15 +3515,15 @@
     {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
-      "title": "Club punk open-air",
+      "title": "AFAR + CANINE CRACKS + 2016",
       "subtitle": null,
-      "category": "Rock & Pop",
+      "category": "concert",
       "date_start": "2026-09-24",
       "date_end": null,
       "time": "19:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319078-club-punk-open-air.html",
-      "image": null,
-      "id": "63150329994f"
+      "url": "https://www.transbordeur.fr/evenement/afar-canine-cracks-2016-24092026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/07/a-afar.jpeg",
+      "id": "7fff1e06e0e2"
     },
     {
       "venue": "Toï Toï le Zinc",
@@ -3580,15 +3619,15 @@
     {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
-      "title": "Pablo Mira",
+      "title": "Pablo Mira cherche encore le titre de son spectacle",
       "subtitle": null,
-      "category": "Humour & Café Théâtre",
+      "category": "café-théâtre",
       "date_start": "2026-09-24",
       "date_end": null,
       "time": "20:00",
-      "url": "https://www.petit-bulletin.fr/agenda-288842-pablo-mira.html",
-      "image": null,
-      "id": "23d4d9bdbace"
+      "url": "https://espacegerson.mapado.com/event/638404-pablo-mira-cherche-encore-le-titre-de-son-spectacle",
+      "image": "https://img.mapado.net/2025/11/21/692099b0b87c9-pablo-mira.png_thumbs/600-600.png",
+      "id": "6ef17619ef4b"
     },
     {
       "venue": "Le Sonic",
@@ -3840,15 +3879,15 @@
     {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
-      "title": "Pablo Mira",
+      "title": "Pablo Mira cherche encore le titre de son spectacle",
       "subtitle": null,
-      "category": "Humour & Café Théâtre",
+      "category": "café-théâtre",
       "date_start": "2026-09-25",
       "date_end": null,
       "time": "20:00",
-      "url": "https://www.petit-bulletin.fr/agenda-288842-pablo-mira.html",
-      "image": null,
-      "id": "b6b13347c337"
+      "url": "https://espacegerson.mapado.com/event/638404-pablo-mira-cherche-encore-le-titre-de-son-spectacle",
+      "image": "https://img.mapado.net/2025/11/21/692099b0b87c9-pablo-mira.png_thumbs/600-600.png",
+      "id": "cee760ac228b"
     },
     {
       "venue": "Marché Gare",
@@ -4191,15 +4230,28 @@
     {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
-      "title": "Blazing Women open air",
+      "title": "ANIMAL NOCTURNE + ENIRAM + SIBEL S. + SOFIASCA",
       "subtitle": null,
-      "category": "Musique Electronique",
+      "category": "concert",
       "date_start": "2026-09-26",
       "date_end": null,
       "time": "18:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319079-blazing-women-open-air.html",
-      "image": null,
-      "id": "48fa2ae026ae"
+      "url": "https://www.transbordeur.fr/evenement/animal-nocturne-eniram-sibel-s-sofiasca-26092026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/07/a-animalnocturne2.jpg",
+      "id": "3db579b77de6"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Le voisin #3 - Nouveau spectacle",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-09-26",
+      "date_end": null,
+      "time": "18:45",
+      "url": "https://espacegerson.mapado.com/event/716566-le-voisin-3-nouveau-spectacle",
+      "image": "https://img.mapado.net/2026/5/5/69fa12d26a9bb-voisin-3.png_thumbs/600-600.png",
+      "id": "7040907656c1"
     },
     {
       "venue": "Improvidence",
@@ -4252,19 +4304,6 @@
       "url": "https://www.bourse-du-travail.com/mesdames-en-vraies-366978.html",
       "image": "https://www.bourse-du-travail.com/img/evenement/mesdames-dans-en-vraies--4.jpg",
       "id": "f1174974978f"
-    },
-    {
-      "venue": "Espace Gerson",
-      "venue_slug": "espace-gerson",
-      "title": "Pablo Mira",
-      "subtitle": null,
-      "category": "Humour & Café Théâtre",
-      "date_start": "2026-09-26",
-      "date_end": null,
-      "time": "20:00",
-      "url": "https://www.petit-bulletin.fr/agenda-288842-pablo-mira.html",
-      "image": null,
-      "id": "c1231ad5b446"
     },
     {
       "venue": "Espace Albert Camus",
@@ -4332,17 +4371,30 @@
       "id": "393e8a0a271e"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Pablo Mira cherche encore le titre de son spectacle",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-09-26",
+      "date_end": null,
+      "time": "21:15",
+      "url": "https://espacegerson.mapado.com/event/638404-pablo-mira-cherche-encore-le-titre-de-son-spectacle",
+      "image": "https://img.mapado.net/2025/11/21/692099b0b87c9-pablo-mira.png_thumbs/600-600.png",
+      "id": "a3d76a626e8e"
+    },
+    {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
-      "title": "23:59",
+      "title": "LESSSS",
       "subtitle": null,
-      "category": "Musique Electronique",
+      "category": "concert",
       "date_start": "2026-09-26",
       "date_end": null,
       "time": "23:30",
-      "url": "https://www.petit-bulletin.fr/agenda-315958-23-59.html",
-      "image": null,
-      "id": "a21b7dd10276"
+      "url": "https://www.transbordeur.fr/evenement/lessss-26092026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/07/a-lessss2.jpg",
+      "id": "34ace36e276a"
     },
     {
       "venue": "Le Sucre",
@@ -4488,6 +4540,19 @@
       "id": "3c37d464e923"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Plateaux de Gerson-dernier lundi de chaque mois",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-09-28",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://espacegerson.mapado.com/event/697472-plateaux-de-gerson-dernier-lundi-de-chaque-mois",
+      "image": "https://img.mapado.net/2024/5/27/665490ca7ae41-plateau-lundi.jpeg_thumbs/600-600.jpeg",
+      "id": "c892353d1e3a"
+    },
+    {
       "venue": "Marché Gare",
       "venue_slug": "marche-gare",
       "title": "Gratuit Déjeuner-Concert TULIPE TULIPE Dispositif Avant-Scène",
@@ -4620,15 +4685,15 @@
     {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
-      "title": "Waly Dia",
+      "title": "Waly Dia - Freestyle Vol. 3",
       "subtitle": null,
-      "category": "Humour & Café Théâtre",
+      "category": "café-théâtre",
       "date_start": "2026-09-29",
       "date_end": null,
       "time": "20:30",
-      "url": "https://www.petit-bulletin.fr/agenda-308679-waly-dia.html",
-      "image": null,
-      "id": "f221f48de320"
+      "url": "https://espacegerson.mapado.com/event/768142-waly-dia-freestyle-vol-3",
+      "image": "https://img.mapado.net/2026/6/26/6a3e77dc27650-waly-dia.jpeg_thumbs/600-600.jpeg",
+      "id": "33fef14ab2af"
     },
     {
       "venue": "Marché Gare",
@@ -4787,6 +4852,19 @@
       "id": "cde8bc4b6139"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Waly Dia - Freestyle Vol. 3",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-09-30",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/768142-waly-dia-freestyle-vol-3",
+      "image": "https://img.mapado.net/2026/6/26/6a3e77dc27650-waly-dia.jpeg_thumbs/600-600.jpeg",
+      "id": "60054131e134"
+    },
+    {
       "venue": "Maison de la Danse",
       "venue_slug": "maison-de-la-danse",
       "title": "Requiem(s)",
@@ -4865,6 +4943,19 @@
       "id": "24e75b98b113"
     },
     {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "MERYL",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2026-10-01",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.transbordeur.fr/evenement/meryl-01102026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2024/04/a-meryl.jpeg",
+      "id": "a5b94fd348ca"
+    },
+    {
       "venue": "Les Subsistances",
       "venue_slug": "les-subs",
       "title": "Khalil Khalil",
@@ -4941,6 +5032,19 @@
       "url": "https://sonic-lyon.fr/evenement/deli-girls/",
       "image": "https://sonic-lyon.fr/wp-content/uploads/2026/07/Capture-decran-2026-07-29-a-12.06.15-1024x848.png",
       "id": "fe49715d2c82"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "David Voinson - Rodage",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-10-01",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/742669-david-voinson-rodage",
+      "image": "https://img.mapado.net/2026/6/4/6a2170d3e78e3-voison.png_thumbs/600-600.png",
+      "id": "db1cb0ef60f1"
     },
     {
       "venue": "Les Subsistances",
@@ -5047,6 +5151,19 @@
       "id": "84e1dbb99dda"
     },
     {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "MIOSSEC",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2026-10-02",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.transbordeur.fr/evenement/miossec-02102026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/06/a-miossec.jpeg",
+      "id": "bf85dc0945dc"
+    },
+    {
       "venue": "Les Subsistances",
       "venue_slug": "les-subs",
       "title": "Khalil Khalil",
@@ -5097,6 +5214,19 @@
       "url": "https://agenda.villemorte.fr/event/soiree-de-soutien-a-la-cabine-de-douche",
       "image": null,
       "id": "06d69cb4f949"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "David Voinson - Rodage",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-10-02",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/742669-david-voinson-rodage",
+      "image": "https://img.mapado.net/2026/6/4/6a2170d3e78e3-voison.png_thumbs/600-600.png",
+      "id": "563a673fe787"
     },
     {
       "venue": "Les Subsistances",
@@ -5175,6 +5305,19 @@
       "url": "https://improvidence.mapado.com/event/452926-on-na-pas-le-meme-titre",
       "image": "https://img.mapado.net/2024/10/21/671646ca23519-vignette-oaplmt.jpeg_thumbs/600-600.jpeg",
       "id": "ade24303c3dd"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Le voisin #3 - Nouveau spectacle",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-10-03",
+      "date_end": null,
+      "time": "18:45",
+      "url": "https://espacegerson.mapado.com/event/716566-le-voisin-3-nouveau-spectacle",
+      "image": "https://img.mapado.net/2026/5/5/69fa12d26a9bb-voisin-3.png_thumbs/600-600.png",
+      "id": "676c522f3f8b"
     },
     {
       "venue": "La Rayonne",
@@ -5281,6 +5424,32 @@
       "id": "b0fffd88307d"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "David Voinson - Rodage",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-10-03",
+      "date_end": null,
+      "time": "21:15",
+      "url": "https://espacegerson.mapado.com/event/742669-david-voinson-rodage",
+      "image": "https://img.mapado.net/2026/6/4/6a2170d3e78e3-voison.png_thumbs/600-600.png",
+      "id": "470f4fd864ce"
+    },
+    {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "JAH TUBBY’S + DIXIE PEACH + WANDEM SOUND SYSTEM & THE HORNSMEN SECTION + JÇÃO + DAVOJAH + JAEL",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2026-10-03",
+      "date_end": null,
+      "time": "23:30",
+      "url": "https://www.transbordeur.fr/evenement/jah-tubbys-dixie-peach-wandem-sound-system-the-hornsmen-section-jcao-davojah-jael-03102026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/07/a-dubecho54.jpg",
+      "id": "36ee0595661c"
+    },
+    {
       "venue": "Bourse du Travail",
       "venue_slug": "bourse-du-travail",
       "title": "Amine Radi - La Suivette - Tournée",
@@ -5385,6 +5554,19 @@
       "id": "cf28978ef1dd"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Marion Raconte - Ciao Mila",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-10-05",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/812304-marion-raconte-ciao-mila",
+      "image": "https://img.mapado.net/2026/7/17/6a5a2f06a75ea-marion-raconte.png_thumbs/600-600.png",
+      "id": "1f420957227e"
+    },
+    {
       "venue": "Bourse du Travail",
       "venue_slug": "bourse-du-travail",
       "title": "Marie Benoliel",
@@ -5450,6 +5632,19 @@
       "id": "8319a399ef79"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Les Divines",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-10-06",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/722992-les-divines",
+      "image": "https://img.mapado.net/2026/5/29/6a199d4fdfb7f-les-divines.png_thumbs/600-600.png",
+      "id": "ad830c6ed20a"
+    },
+    {
       "venue": "La Commune",
       "venue_slug": "la-commune",
       "title": "Club Bingo",
@@ -5513,6 +5708,19 @@
       "url": "https://agenda.villemorte.fr/event/hold-fast-cie-ma-marion-alzieu",
       "image": "https://agenda.villemorte.fr/media/thumb/4b0d1224986068c8f00fcccf6e7f2ca5.jpg",
       "id": "a8b03c7f3a16"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Thomas Piet - Koala",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-10-07",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/685720-thomas-piet-koala",
+      "image": "https://img.mapado.net/2026/9/1/6a96e4a0d8eea-thomas-piet.jpeg_thumbs/600-600.jpeg",
+      "id": "cda1f5119b5c"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -5619,6 +5827,19 @@
       "id": "d55fc9958128"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Thomas Piet - Koala",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-10-08",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/685720-thomas-piet-koala",
+      "image": "https://img.mapado.net/2026/9/1/6a96e4a0d8eea-thomas-piet.jpeg_thumbs/600-600.jpeg",
+      "id": "cee33092355d"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "SECRET(S) MEDICAL",
@@ -5656,6 +5877,19 @@
       "url": "https://larayonne.org/evenement/swing/",
       "image": "https://larayonne.org/wp-content/uploads/2025/10/fb-concert-swing-lyon-30-janvier-2026-la-rayonne-rap-billetterie-high-lo-shotgun-500x281.jpg",
       "id": "cde7fd1ff511"
+    },
+    {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "GUY2BEZBAR",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2026-10-09",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.transbordeur.fr/evenement/guy2bezbar-09102026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/02/a-guy2bezbar.png",
+      "id": "29ab8e777dff"
     },
     {
       "venue": "Maison du livre, de l'image et du son",
@@ -5734,6 +5968,19 @@
       "url": "https://marchegare.fr/agenda/lucio-bukowski-anton-serra-oster-lapwass",
       "image": "https://marchegare.fr/sites/marchegare/files/styles/large/public/2026-05/briseglace-paysage.jpg",
       "id": "0d7a12111b4d"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Thomas Piet - Koala",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-10-09",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/685720-thomas-piet-koala",
+      "image": "https://img.mapado.net/2026/9/1/6a96e4a0d8eea-thomas-piet.jpeg_thumbs/600-600.jpeg",
+      "id": "22d1e6442a51"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -5853,6 +6100,32 @@
       "id": "c1ef497316fc"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Le voisin #3 - Nouveau spectacle",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-10-10",
+      "date_end": null,
+      "time": "18:45",
+      "url": "https://espacegerson.mapado.com/event/716566-le-voisin-3-nouveau-spectacle",
+      "image": "https://img.mapado.net/2026/5/5/69fa12d26a9bb-voisin-3.png_thumbs/600-600.png",
+      "id": "43aee501a3ce"
+    },
+    {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "APPARAT + ANIKA",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2026-10-10",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.transbordeur.fr/evenement/apparat-anika-10102026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/04/a-apparat-1.jpeg",
+      "id": "c06cf51919a7"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "Senflix",
@@ -5944,6 +6217,19 @@
       "id": "55621f759b00"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Thomas Piet - Koala",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-10-10",
+      "date_end": null,
+      "time": "21:15",
+      "url": "https://espacegerson.mapado.com/event/685720-thomas-piet-koala",
+      "image": "https://img.mapado.net/2026/9/1/6a96e4a0d8eea-thomas-piet.jpeg_thumbs/600-600.jpeg",
+      "id": "399b420fc4bc"
+    },
+    {
       "venue": "La Commune",
       "venue_slug": "la-commune",
       "title": "Gones Crazy — Animaux des bois",
@@ -5983,6 +6269,19 @@
       "id": "9170ef3be488"
     },
     {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "FOLAMOUR",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2026-10-11",
+      "date_end": null,
+      "time": "17:00",
+      "url": "https://www.transbordeur.fr/evenement/folamour-11102026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/06/a-folamour3.jpg",
+      "id": "2ce1f67151eb"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "WORLDS APART",
@@ -6007,6 +6306,19 @@
       "url": "https://improvidence.mapado.com/event/3736-catch-impro-tournoi-regional",
       "image": "https://img.mapado.net/2024/9/17/66e94c9a6d29f-vignette-catch.jpeg_thumbs/600-600.jpeg",
       "id": "8d9a16e488d5"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Une fille à la patte",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-10-12",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/802847-une-fille-a-la-patte",
+      "image": "https://img.mapado.net/2026/7/10/6a50e24b73c22-une-fille-a-la-patte.png_thumbs/600-600.png",
+      "id": "f07c199dd3b0"
     },
     {
       "venue": "La Commune",
@@ -6063,15 +6375,15 @@
     {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
-      "title": "DJ Krush",
+      "title": "DJ KRUSH",
       "subtitle": null,
-      "category": "Musique Electronique",
+      "category": "concert",
       "date_start": "2026-10-13",
       "date_end": null,
       "time": "19:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319174-dj-krush.html",
-      "image": null,
-      "id": "0b0294e78e36"
+      "url": "https://www.transbordeur.fr/evenement/dj-krush-13102026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/03/nb-djkrush-Grande.jpeg",
+      "id": "ee100081fce5"
     },
     {
       "venue": "Agend'arts",
@@ -6111,6 +6423,19 @@
       "url": "https://www.petit-bulletin.fr/agenda-319220-monolord-dopelord.html",
       "image": "https://agenda.villemorte.fr/media/thumb/32bd3de2e87eb9bd9ee5ee53a2b35f7a.jpg",
       "id": "c807789e40f7"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Les Divines",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-10-13",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/722992-les-divines",
+      "image": "https://img.mapado.net/2026/5/29/6a199d4fdfb7f-les-divines.png_thumbs/600-600.png",
+      "id": "66ba685691e3"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -6204,6 +6529,19 @@
       "id": "fc42470ceb78"
     },
     {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "FREDZ",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2026-10-14",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.transbordeur.fr/evenement/fredz-14102026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/02/a-FREDZ_credits_Sacha-Cohen-visuel-automne.jpeg",
+      "id": "22d29d8d72e2"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "ELLE",
@@ -6228,6 +6566,19 @@
       "url": "https://sonic-lyon.fr/evenement/leya/",
       "image": "https://sonic-lyon.fr/wp-content/uploads/2026/05/2026-EU-Tour-Press-Photo-1-1024x768.jpeg",
       "id": "72241909fb71"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Thomas Angelvy en Rodage",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-10-14",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/714690-thomas-angelvy-en-rodage",
+      "image": "https://img.mapado.net/2026/5/5/69fa2f26c1969-angelvy.jpeg_thumbs/600-600.jpeg",
+      "id": "d97676ffd452"
     },
     {
       "venue": "Théâtre de la Renaissance",
@@ -6360,6 +6711,19 @@
       "id": "7c547e569fd5"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Thomas Angelvy en Rodage",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-10-15",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/714690-thomas-angelvy-en-rodage",
+      "image": "https://img.mapado.net/2026/5/5/69fa2f26c1969-angelvy.jpeg_thumbs/600-600.jpeg",
+      "id": "7d82a9e6f7c4"
+    },
+    {
       "venue": "Théâtre de la Renaissance",
       "venue_slug": "theatre-de-la-renaissance",
       "title": "Le Lac",
@@ -6438,6 +6802,19 @@
       "id": "609ccb022ef8"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Camille Lorente // Salle Victor Hugo 69006",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-10-16",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://espacegerson.mapado.com/event/652779-camille-lorente-salle-victor-hugo-69006",
+      "image": "https://img.mapado.net/2026/6/9/6a2829c0c3197-camille-lorente-vh-1080-x-1080-px.jpeg_thumbs/600-600.jpeg",
+      "id": "e7e77528d03c"
+    },
+    {
       "venue": "Grrrnd Zero",
       "venue_slug": "grrrnd-zero",
       "title": "Theee Retails Simps + Leopardo + Kontexte + Grise Mine",
@@ -6488,6 +6865,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/les-wriggles/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/02/les-wriggles-credit-Pauline-Desanneaux-500x500.png",
       "id": "2c966d0fea36"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Thomas Angelvy en Rodage",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-10-16",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/714690-thomas-angelvy-en-rodage",
+      "image": "https://img.mapado.net/2026/5/5/69fa2f26c1969-angelvy.jpeg_thumbs/600-600.jpeg",
+      "id": "7aac3c628b07"
     },
     {
       "venue": "Théâtre de la Renaissance",
@@ -6581,6 +6971,19 @@
       "id": "b8a3297f352a"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Le voisin #3 - Nouveau spectacle",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-10-17",
+      "date_end": null,
+      "time": "18:45",
+      "url": "https://espacegerson.mapado.com/event/716566-le-voisin-3-nouveau-spectacle",
+      "image": "https://img.mapado.net/2026/5/5/69fa12d26a9bb-voisin-3.png_thumbs/600-600.png",
+      "id": "03f3b08e560c"
+    },
+    {
       "venue": "La Rayonne",
       "venue_slug": "la-rayonne",
       "title": "VEN1",
@@ -6592,6 +6995,19 @@
       "url": "https://larayonne.org/evenement/ven1/",
       "image": "https://larayonne.org/wp-content/uploads/2025/07/fb-5-500x281.jpg",
       "id": "b05958fdeab4"
+    },
+    {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "SETH GUEKO",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2026-10-17",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.transbordeur.fr/evenement/seth-gueko-17102026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/06/a-sethgueko.jpg",
+      "id": "e04c0b895c1d"
     },
     {
       "venue": "Improvidence",
@@ -6659,6 +7075,19 @@
       "id": "bcd836608668"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Thomas Angelvy en Rodage",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-10-17",
+      "date_end": null,
+      "time": "21:15",
+      "url": "https://espacegerson.mapado.com/event/714690-thomas-angelvy-en-rodage",
+      "image": "https://img.mapado.net/2026/5/5/69fa2f26c1969-angelvy.jpeg_thumbs/600-600.jpeg",
+      "id": "9c9a697ee9a0"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "La Relève",
@@ -6687,15 +7116,15 @@
     {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
-      "title": "Tif",
+      "title": "TIF",
       "subtitle": null,
-      "category": "Rap",
+      "category": "concert",
       "date_start": "2026-10-18",
       "date_end": null,
       "time": "19:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319203-tif.html",
-      "image": null,
-      "id": "b4a898e55f86"
+      "url": "https://www.transbordeur.fr/evenement/tif-18102026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/06/PHOTO-DE-PRESSE-_-credit-_-Loubet_.jpg",
+      "id": "d9edc8231393"
     },
     {
       "venue": "Improvidence",
@@ -6722,6 +7151,19 @@
       "url": "https://marchegare.fr/agenda/formation-pro-elaboration-dun-projet-musical-octobre-26",
       "image": "https://marchegare.fr/sites/marchegare/files/styles/large/public/2026-06/music_business_19_10_2.png",
       "id": "2ac280926125"
+    },
+    {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "GHINZU",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2026-10-19",
+      "date_end": null,
+      "time": "18:30",
+      "url": "https://www.transbordeur.fr/evenement/ghinzu-19102026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/04/sq-ghinzu-Grande.jpeg",
+      "id": "a653498daf92"
     },
     {
       "venue": "La Rayonne",
@@ -6763,6 +7205,19 @@
       "id": "c2d1859afd5f"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Charlotte Ferrato - Elles-mêmes",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-10-19",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/709293-charlotte-ferrato-elles-memes",
+      "image": "https://img.mapado.net/2026/4/24/69eb90a717e87-charlotte-ferrato.png_thumbs/600-600.png",
+      "id": "48e55764a816"
+    },
+    {
       "venue": "Le Périscope",
       "venue_slug": "periscope",
       "title": "Franges",
@@ -6776,6 +7231,19 @@
       "id": "e552bc77a8a4"
     },
     {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "ZED YUN PAVAROTTI",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2026-10-20",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.transbordeur.fr/evenement/zed-yun-pavarotti-20102026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/04/a-zedyunpavarotti3.jpeg",
+      "id": "2219595ec2ee"
+    },
+    {
       "venue": "Le Sonic",
       "venue_slug": "sonic",
       "title": "The Homesick + group-ensemble",
@@ -6787,6 +7255,19 @@
       "url": "https://sonic-lyon.fr/evenement/the-homesick-group-ensemble/",
       "image": "https://sonic-lyon.fr/wp-content/uploads/2026/06/THE_HOMESICK_presspic3_2026CDanny_Griffioen-1.jpg",
       "id": "e5cd71040a5a"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Les Divines",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-10-20",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/722992-les-divines",
+      "image": "https://img.mapado.net/2026/5/29/6a199d4fdfb7f-les-divines.png_thumbs/600-600.png",
+      "id": "bfba42008f59"
     },
     {
       "venue": "Le Périscope",
@@ -6828,6 +7309,19 @@
       "id": "2be377ad7f7b"
     },
     {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "THE CELTIC SOCIAL CLUB",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2026-10-21",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.transbordeur.fr/evenement/the-celtic-social-club-21102026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2024/04/a-TCSC.jpeg",
+      "id": "83f2c31dd25e"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "La fin justifie les moyens",
@@ -6839,6 +7333,19 @@
       "url": "https://improvidence.mapado.com/event/282963-la-fin-justifie-les-moyens",
       "image": "https://img.mapado.net/2025/10/20/68f5fd197257f-vignette-mapado-la-fin-2025.jpeg_thumbs/600-600.jpeg",
       "id": "f792815bca87"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Sylvain Morand - Nouveau spectacle",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-10-21",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/710336-sylvain-morand-nouveau-spectacle",
+      "image": "https://img.mapado.net/2026/4/27/69ef6ff660e3a-sylvain-morand.png_thumbs/600-600.png",
+      "id": "1ad30ed3ce3f"
     },
     {
       "venue": "Improvidence",
@@ -6878,6 +7385,19 @@
       "url": "https://larayonne.org/evenement/forever-nu-tribute-to-system-of-a-down-slipknot-machine-head-papa-roach/",
       "image": "https://larayonne.org/wp-content/uploads/2025/12/Lyon-500x500.png",
       "id": "aa46462cb270"
+    },
+    {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "A6EL",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2026-10-22",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.transbordeur.fr/evenement/a6el-22102026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/06/@tamslay1.png",
+      "id": "0671217ab9d0"
     },
     {
       "venue": "Improvidence",
@@ -6930,6 +7450,19 @@
       "url": "https://sonic-lyon.fr/evenement/tapeworms/",
       "image": "https://sonic-lyon.fr/wp-content/uploads/2026/07/Tapeworms-1-June-23-@Julien-Cornuel-683x1024.jpg",
       "id": "a987c84ed92a"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Sylvain Morand - Nouveau spectacle",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-10-22",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/710336-sylvain-morand-nouveau-spectacle",
+      "image": "https://img.mapado.net/2026/4/27/69ef6ff660e3a-sylvain-morand.png_thumbs/600-600.png",
+      "id": "6753bd95efb2"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -6997,6 +7530,19 @@
       "id": "046c8b36c411"
     },
     {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "NES",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2026-10-23",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.transbordeur.fr/evenement/nes-23102026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/01/a-nes.png",
+      "id": "35581083eafe"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "La fin justifie les moyens",
@@ -7049,6 +7595,19 @@
       "id": "2603677f6587"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Sylvain Morand - Nouveau spectacle",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-10-23",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/710336-sylvain-morand-nouveau-spectacle",
+      "image": "https://img.mapado.net/2026/4/27/69ef6ff660e3a-sylvain-morand.png_thumbs/600-600.png",
+      "id": "2dfc23e056b6"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "Antoine Rabault improvise avec lui-même",
@@ -7099,6 +7658,19 @@
       "url": "https://improvidence.mapado.com/event/282963-la-fin-justifie-les-moyens",
       "image": "https://img.mapado.net/2025/10/20/68f5fd197257f-vignette-mapado-la-fin-2025.jpeg_thumbs/600-600.jpeg",
       "id": "3c8fc3c58e7d"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Le voisin #3 - Nouveau spectacle",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-10-24",
+      "date_end": null,
+      "time": "18:45",
+      "url": "https://espacegerson.mapado.com/event/716566-le-voisin-3-nouveau-spectacle",
+      "image": "https://img.mapado.net/2026/5/5/69fa12d26a9bb-voisin-3.png_thumbs/600-600.png",
+      "id": "411403deaa0d"
     },
     {
       "venue": "Improvidence",
@@ -7220,15 +7792,15 @@
     {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
-      "title": "Hilight Tribe + Manudigital + Spoink + Luneris + Flupke + Ex-echo + Crete & Moustache",
+      "title": "HILIGHT TRIBE + MANUDIGITAL + SPOINK + LUNERIS + FLUPKE + EX-ECHO + CRETE & MOUSTACHE",
       "subtitle": null,
-      "category": "Musique Electronique",
+      "category": "concert",
       "date_start": "2026-10-24",
       "date_end": null,
       "time": "23:30",
-      "url": "https://www.petit-bulletin.fr/agenda-319175-hilight-tribe-manudigital-spoink-luneris-flupke-ex-echo-crete-moustache.html",
-      "image": null,
-      "id": "4a3e5087f1bc"
+      "url": "https://www.transbordeur.fr/evenement/hilight-tribe-manudigital-spoink-luneris-flupke-ex-echo-crete-moustache-24102026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/02/a-hilighttribe.jpg",
+      "id": "7b4559db3b9f"
     },
     {
       "venue": "Improvidence",
@@ -7283,6 +7855,19 @@
       "id": "03f43ef9827d"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Plateaux de Gerson-dernier lundi de chaque mois",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-10-26",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://espacegerson.mapado.com/event/697472-plateaux-de-gerson-dernier-lundi-de-chaque-mois",
+      "image": "https://img.mapado.net/2024/5/27/665490ca7ae41-plateau-lundi.jpeg_thumbs/600-600.jpeg",
+      "id": "d9b277cf6461"
+    },
+    {
       "venue": "Le Périscope",
       "venue_slug": "periscope",
       "title": "Swell + Invité·es",
@@ -7320,6 +7905,19 @@
       "url": "https://marchegare.fr/agenda/black-sea-dahu-26",
       "image": "https://marchegare.fr/sites/marchegare/files/styles/large/public/2026-03/blackseadahu.jpg",
       "id": "ee949c9767b3"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "3 - L'impro FFF",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-10-27",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/697360-3-limpro-fff",
+      "image": "https://img.mapado.net/2025/6/27/685eabd5a73ae-mardi-impro.png_thumbs/600-600.png",
+      "id": "6e500b9e2094"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -7387,6 +7985,19 @@
       "id": "e781da806ff0"
     },
     {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "WALLACE CLEAVER",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2026-10-28",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.transbordeur.fr/evenement/wallace-cleaver-28102026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/03/a-wallacecleaver1-e1774624267890.jpeg",
+      "id": "473f3dcad9b4"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "THE HU",
@@ -7402,15 +8013,15 @@
     {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
-      "title": "Le Grand Sacripant",
+      "title": "Le Grand Sacripant - Andromède",
       "subtitle": null,
-      "category": "Humour & Café Théâtre",
+      "category": "café-théâtre",
       "date_start": "2026-10-28",
       "date_end": null,
       "time": "20:30",
-      "url": "https://www.petit-bulletin.fr/agenda-317834-le-grand-sacripant.html",
-      "image": null,
-      "id": "d514fbf05310"
+      "url": "https://espacegerson.mapado.com/event/733814-le-grand-sacripant-andromede",
+      "image": "https://img.mapado.net/2026/7/24/6a638a28b7373-grand-sacripant-2-septembre-1.jpeg_thumbs/600-600.jpeg",
+      "id": "bac46f65d489"
     },
     {
       "venue": "Kraspek Myzik",
@@ -7517,6 +8128,19 @@
       "id": "2ee108cd1616"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Kino - Panic Attack",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-10-29",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/685601-kino-panic-attack",
+      "image": "https://img.mapado.net/2026/3/30/69ca852a83dce-kino.jpeg_thumbs/600-600.jpeg",
+      "id": "be8b8df8aa01"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "JEREMY HABABOU",
@@ -7595,6 +8219,32 @@
       "id": "ad12b2b22ce3"
     },
     {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "ZOUFRIS MARACAS",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2026-10-30",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.transbordeur.fr/evenement/zoufris-maracas-30102026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2024/04/a-zoufrismaracas.jpg",
+      "id": "ced6fd968199"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Kino - Panic Attack",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-10-30",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/685601-kino-panic-attack",
+      "image": "https://img.mapado.net/2026/3/30/69ca852a83dce-kino.jpeg_thumbs/600-600.jpeg",
+      "id": "15176f9c8de0"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "STEPHAN EICHER",
@@ -7619,6 +8269,19 @@
       "url": "https://improvidence.mapado.com/event/824348-les-ephemeres-duos-fugaces-de-la-lily",
       "image": "https://img.mapado.net/2026/8/4/6a71b8bd1b0e3-affiche-br.jpeg_thumbs/600-600.jpeg",
       "id": "d374a3c20a31"
+    },
+    {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "DJ DIDA + DJ KAWEST + DJ DOULY",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2026-10-30",
+      "date_end": null,
+      "time": "23:30",
+      "url": "https://www.transbordeur.fr/evenement/dj-dida-dj-kawest-dj-douly-30102026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/04/PHOTO-2026-04-22-23-28-29-2.jpg",
+      "id": "923de5c0fb75"
     },
     {
       "venue": "Bourse du Travail",
@@ -7673,6 +8336,19 @@
       "id": "5a3ee999b3c8"
     },
     {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "FINK",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2026-10-31",
+      "date_end": null,
+      "time": "18:30",
+      "url": "https://www.transbordeur.fr/evenement/fink-31102026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/03/a-fink.jpeg",
+      "id": "d9890c776af9"
+    },
+    {
       "venue": "Agend'arts",
       "venue_slug": "agend-arts",
       "title": "Concert de Matildy & de Nico Etoile",
@@ -7710,6 +8386,19 @@
       "url": "https://improvidence.mapado.com/event/351368-senflix",
       "image": "https://img.mapado.net/2025/1/29/6799fb363c759-senflix-affiche-web.jpeg_thumbs/600-600.jpeg",
       "id": "12c1ce696f2a"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Kino - Panic Attack",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-10-31",
+      "date_end": null,
+      "time": "21:15",
+      "url": "https://espacegerson.mapado.com/event/685601-kino-panic-attack",
+      "image": "https://img.mapado.net/2026/3/30/69ca852a83dce-kino.jpeg_thumbs/600-600.jpeg",
+      "id": "c08f7d6a0729"
     },
     {
       "venue": "La Halle Tony Garnier",
@@ -7777,6 +8466,19 @@
       "id": "15ad71529315"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Sophie Belvisi - Fin de party",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-11-02",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/747394-sophie-belvisi-fin-de-party",
+      "image": "https://img.mapado.net/2026/6/1/6a1daa7981ad9-belvisi.png_thumbs/600-600.png",
+      "id": "8118c5356235"
+    },
+    {
       "venue": "Opéra national de Lyon",
       "venue_slug": "opera-lyon",
       "title": "Le Sacre du printemps - House",
@@ -7816,6 +8518,19 @@
       "id": "f8d2a206602f"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Embrasse ta mère",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-11-03",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/705760-embrasse-ta-mere",
+      "image": "https://img.mapado.net/2026/5/26/6a1599b1cfba5-embrasse-ta-mere.png_thumbs/600-600.png",
+      "id": "a519e69082b4"
+    },
+    {
       "venue": "Maison de la Danse",
       "venue_slug": "maison-de-la-danse",
       "title": "Un peu pour mon cœur...",
@@ -7840,6 +8555,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/emily-loizeau-quatuor-debussy/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/06/emily-loizeau_radiant-bellevue-500x500.jpg",
       "id": "c260c0672a21"
+    },
+    {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "MIKE D",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2026-11-04",
+      "date_end": null,
+      "time": "18:30",
+      "url": "https://www.transbordeur.fr/evenement/mike-d-04112026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/07/a-miked2.jpeg",
+      "id": "6d60d6346aff"
     },
     {
       "venue": "Improvidence",
@@ -7879,6 +8607,19 @@
       "url": "https://marchegare.fr/agenda/long-distance-calling",
       "image": "https://marchegare.fr/sites/marchegare/files/styles/large/public/2026-05/long_distance_calling_the_phantom_void_credit_andre_stephan_rights_earmusic_29.jpg",
       "id": "7a76600e302f"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "François Guédon - Aux Urnes et caetera",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-11-04",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/695526-francois-guedon-aux-urnes-et-caetera",
+      "image": "https://img.mapado.net/2026/4/2/69ce809172b08-guedon.png_thumbs/600-600.png",
+      "id": "a96a095e2b73"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -7946,6 +8687,19 @@
       "id": "d86311b005c7"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "François Guédon - Aux Urnes et caetera",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-11-05",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/695526-francois-guedon-aux-urnes-et-caetera",
+      "image": "https://img.mapado.net/2026/4/2/69ce809172b08-guedon.png_thumbs/600-600.png",
+      "id": "70d44171faf8"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "ALAN STIVELL",
@@ -7996,6 +8750,19 @@
       "url": "https://agenda.villemorte.fr/event/visites-sur-le-pouce-cote-coulisses",
       "image": "https://agenda.villemorte.fr/media/thumb/48036b10ce1f7c77baef58eb83793f09.jpg",
       "id": "101e69fa3aaf"
+    },
+    {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "LA P’TITE FUMEE",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2026-11-06",
+      "date_end": null,
+      "time": "18:30",
+      "url": "https://www.transbordeur.fr/evenement/la-ptite-fumee-06112026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/03/a-laptitefumee.jpeg",
+      "id": "989740773865"
     },
     {
       "venue": "La Rayonne",
@@ -8074,6 +8841,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/lp/",
       "image": null,
       "id": "4dae556f89d2"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "François Guédon - Aux Urnes et caetera",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-11-06",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/695526-francois-guedon-aux-urnes-et-caetera",
+      "image": "https://img.mapado.net/2026/4/2/69ce809172b08-guedon.png_thumbs/600-600.png",
+      "id": "9d61babd131e"
     },
     {
       "venue": "Improvidence",
@@ -8167,6 +8947,19 @@
       "id": "b9bb381b8134"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Le Grand Sacripant - Andromède",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-11-07",
+      "date_end": null,
+      "time": "18:45",
+      "url": "https://espacegerson.mapado.com/event/733814-le-grand-sacripant-andromede",
+      "image": "https://img.mapado.net/2026/7/24/6a638a28b7373-grand-sacripant-2-septembre-1.jpeg_thumbs/600-600.jpeg",
+      "id": "88e0dbad242e"
+    },
+    {
       "venue": "La Rayonne",
       "venue_slug": "la-rayonne",
       "title": "Kamelot + Exit Eden + Temperance",
@@ -8178,6 +8971,19 @@
       "url": "https://larayonne.org/evenement/kamelot-exit-eden-temperance/",
       "image": "https://larayonne.org/wp-content/uploads/2026/02/NEW-dark-asylum-tour-poster-europe-500x675.jpg",
       "id": "d473928662e4"
+    },
+    {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "JWLES",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2026-11-07",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.transbordeur.fr/evenement/jwles-07112026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/04/a-jwles.jpg",
+      "id": "733e9ea5ad7e"
     },
     {
       "venue": "Agend'arts",
@@ -8271,6 +9077,32 @@
       "id": "a589242a184d"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "François Guédon - Aux Urnes et caetera",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-11-07",
+      "date_end": null,
+      "time": "21:15",
+      "url": "https://espacegerson.mapado.com/event/695526-francois-guedon-aux-urnes-et-caetera",
+      "image": "https://img.mapado.net/2026/4/2/69ce809172b08-guedon.png_thumbs/600-600.png",
+      "id": "7cd1d79ab02d"
+    },
+    {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "KLOFAMA",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2026-11-07",
+      "date_end": null,
+      "time": "23:30",
+      "url": "https://www.transbordeur.fr/evenement/klofama-07112026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/06/a-klofama.jpg",
+      "id": "5f28e5db1243"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "Elie Semoun",
@@ -8310,6 +9142,32 @@
       "id": "7825cc02173f"
     },
     {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "AMISTAT + ORANGE OAK",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2026-11-09",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.transbordeur.fr/evenement/amistat-orange-oak-09112026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/04/a-amistat-rotated.jpg",
+      "id": "e0edd5629515"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "ABC Devos",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-11-09",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/697311-abc-devos",
+      "image": "https://img.mapado.net/2026/4/7/69d5171565f97-abc-devos.png_thumbs/600-600.png",
+      "id": "4538e635ee66"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "UN SOIR AVEC PIERRE ARDITI",
@@ -8334,6 +9192,19 @@
       "url": "https://larayonne.org/evenement/impericon-festival-2026-death-dominion-avec-carnifex-despised-icon-suffocation-gates-to-hell/",
       "image": "https://larayonne.org/wp-content/uploads/2026/04/Header-500x281.jpg",
       "id": "9225684a9a11"
+    },
+    {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "8RUKI + TH + ZED",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2026-11-10",
+      "date_end": null,
+      "time": "18:30",
+      "url": "https://www.transbordeur.fr/evenement/8ruki-th-zed-10112026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/06/ZED.jpeg",
+      "id": "af63d4317fb2"
     },
     {
       "venue": "Agend'arts",
@@ -8375,6 +9246,19 @@
       "id": "a256426cb8c7"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Embrasse ta mère",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-11-10",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/705760-embrasse-ta-mere",
+      "image": "https://img.mapado.net/2026/5/26/6a1599b1cfba5-embrasse-ta-mere.png_thumbs/600-600.png",
+      "id": "1479863d68e5"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "THOMAS FERSEN",
@@ -8414,6 +9298,19 @@
       "id": "b53bc4467397"
     },
     {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "SCHUR + JEANIE",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2026-11-11",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.transbordeur.fr/evenement/schur-jeanie-11112026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/05/nb-schur-2560x3840.jpg",
+      "id": "8bb554460fe8"
+    },
+    {
       "venue": "Agend'arts",
       "venue_slug": "agend-arts",
       "title": "Chante avec agend’Arts – La KaraChorale – novembre",
@@ -8440,6 +9337,19 @@
       "id": "dfa88e684fee"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "William Pilet - Normal n'existe pas",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-11-11",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/661970-william-pilet-normal-nexiste-pas",
+      "image": "https://img.mapado.net/2026/1/13/6966770a1e7cc-william-pilet.png_thumbs/600-600.png",
+      "id": "3eef9a625b24"
+    },
+    {
       "venue": "Bourse du Travail",
       "venue_slug": "bourse-du-travail",
       "title": "Thomas Wiesel",
@@ -8451,6 +9361,19 @@
       "url": "https://www.bourse-du-travail.com/thomas-wiesel-338820.html",
       "image": "https://www.bourse-du-travail.com/img/evenement/thomas-wiesel-dans-societe-ecrans-4.jpg",
       "id": "ab49d37542bd"
+    },
+    {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "SNIPER",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2026-11-12",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.transbordeur.fr/evenement/sniper-12112026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2024/04/SHOOT_TUNIS_AKE-241-Modifier.jpg",
+      "id": "445535cab77c"
     },
     {
       "venue": "Les Subsistances",
@@ -8516,6 +9439,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/pierre-de-maere/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/04/pierre-de-maere_radiant-bellevue-500x500.jpg",
       "id": "32d0c0de4c46"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "William Pilet - Normal n'existe pas",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-11-12",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/661970-william-pilet-normal-nexiste-pas",
+      "image": "https://img.mapado.net/2026/1/13/6966770a1e7cc-william-pilet.png_thumbs/600-600.png",
+      "id": "fd1d3e7a330b"
     },
     {
       "venue": "Les Subsistances",
@@ -8648,6 +9584,19 @@
       "id": "457bc6252cc7"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "William Pilet - Normal n'existe pas",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-11-13",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/661970-william-pilet-normal-nexiste-pas",
+      "image": "https://img.mapado.net/2026/1/13/6966770a1e7cc-william-pilet.png_thumbs/600-600.png",
+      "id": "a79caac25644"
+    },
+    {
       "venue": "Les Subsistances",
       "venue_slug": "les-subs",
       "title": "GLÜLT",
@@ -8726,17 +9675,30 @@
       "id": "40c5c4955f2f"
     },
     {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "BOY HARSHER",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2026-11-14",
+      "date_end": null,
+      "time": "18:30",
+      "url": "https://www.transbordeur.fr/evenement/boy-harsher-14112026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/07/a-boyharsher.jpg",
+      "id": "d84545a07db3"
+    },
+    {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
-      "title": "Le Grand Sacripant",
+      "title": "Le Grand Sacripant - Andromède",
       "subtitle": null,
-      "category": "Humour & Café Théâtre",
+      "category": "café-théâtre",
       "date_start": "2026-11-14",
       "date_end": null,
       "time": "18:45",
-      "url": "https://www.petit-bulletin.fr/agenda-317834-le-grand-sacripant.html",
-      "image": null,
-      "id": "4e88a4ddd52c"
+      "url": "https://espacegerson.mapado.com/event/733814-le-grand-sacripant-andromede",
+      "image": "https://img.mapado.net/2026/7/24/6a638a28b7373-grand-sacripant-2-septembre-1.jpeg_thumbs/600-600.jpeg",
+      "id": "b285e0b75228"
     },
     {
       "venue": "La Rayonne",
@@ -8817,6 +9779,19 @@
       "id": "b3bfb664ded0"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "William Pilet - Normal n'existe pas",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-11-14",
+      "date_end": null,
+      "time": "21:15",
+      "url": "https://espacegerson.mapado.com/event/661970-william-pilet-normal-nexiste-pas",
+      "image": "https://img.mapado.net/2026/1/13/6966770a1e7cc-william-pilet.png_thumbs/600-600.png",
+      "id": "3479552ba10b"
+    },
+    {
       "venue": "Bourse du Travail",
       "venue_slug": "bourse-du-travail",
       "title": "L'arnaqueuse",
@@ -8858,15 +9833,15 @@
     {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
-      "title": "Beast in Black + Frozen Crown + Sonata Arctica",
+      "title": "BEAST IN BLACK + FROZEN CROWN + SONATA ARCTICA",
       "subtitle": null,
-      "category": "Rock & Pop",
+      "category": "concert",
       "date_start": "2026-11-15",
       "date_end": null,
       "time": "18:00",
-      "url": "https://www.petit-bulletin.fr/agenda-282948-beast-in-black-frozen-crown-sonata-arctica.html",
-      "image": null,
-      "id": "e8766fde2b42"
+      "url": "https://www.transbordeur.fr/evenement/beast-in-black-frozen-crown-sonata-arctica-15112026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2025/10/BIB_hellraiser_©Jarmo-Katila-_-Toni-Kilpinen.jpg",
+      "id": "ee8ca3789eab"
     },
     {
       "venue": "L'Épicerie Moderne",
@@ -8908,6 +9883,32 @@
       "id": "d201b387c106"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Ugo Bulfone - En claquettes",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-11-16",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/812346-ugo-bulfone-en-claquettes",
+      "image": "https://img.mapado.net/2026/7/17/6a5a30bed34af-ugo-bulfone.png_thumbs/600-600.png",
+      "id": "904667878455"
+    },
+    {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "COLOURS IN THE STREET",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2026-11-17",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.transbordeur.fr/evenement/colours-in-the-street-17112026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2024/04/a-cits.jpg",
+      "id": "55ef8b43abc7"
+    },
+    {
       "venue": "La Ruche industrielle",
       "venue_slug": "la-ruche-industrielle",
       "title": "Ma République et moi - Compagnie Iwa, Issam Rachyq-Ahrad",
@@ -8919,6 +9920,19 @@
       "url": "https://agenda.villemorte.fr/event/ma-republique-et-moi-compagnie-iwa-issam-rachyq-ahrad",
       "image": "https://agenda.villemorte.fr/media/thumb/32b14c49b334219532c5dc0fc169a6f0.jpg",
       "id": "23cbda40ac87"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Embrasse ta mère",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-11-17",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/705760-embrasse-ta-mere",
+      "image": "https://img.mapado.net/2026/5/26/6a1599b1cfba5-embrasse-ta-mere.png_thumbs/600-600.png",
+      "id": "531005c0f503"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -8986,6 +10000,19 @@
       "id": "4a8a3318e601"
     },
     {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "MARCUS GAD",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2026-11-18",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.transbordeur.fr/evenement/marcus-gad-18112026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/04/a-marcusgad.jpeg",
+      "id": "2fb363df6cd6"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "THE WITCHER III",
@@ -8997,6 +10024,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/the-witcher-iii/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2025/11/the-witcher-carre.jpg",
       "id": "ba0b7e557cea"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Manuel Pratt - Stand-up, Debout !",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-11-18",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/686269-manuel-pratt-stand-up-debout",
+      "image": "https://img.mapado.net/2026/3/19/69bc1c078eed4-pratt.png_thumbs/600-600.png",
+      "id": "c223e4f1f20f"
     },
     {
       "venue": "Improvidence",
@@ -9027,15 +10067,15 @@
     {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
-      "title": "GoGo Penguin + Daudi Matsiko",
+      "title": "GOGO PENGUIN + DAUDI MATSIKO",
       "subtitle": null,
-      "category": "Jazz",
+      "category": "concert",
       "date_start": "2026-11-19",
       "date_end": null,
       "time": "19:00",
-      "url": "https://www.petit-bulletin.fr/agenda-289873-gogo-penguin-daudi-matsiko.html",
-      "image": null,
-      "id": "0edc55b59769"
+      "url": "https://www.transbordeur.fr/evenement/gogo-penguin-daudi-matsiko-19112026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/04/a-gogopenguin2.jpeg",
+      "id": "cbb78115b527"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -9077,6 +10117,19 @@
       "id": "d019b4b5bf44"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Manuel Pratt - Stand-up, Debout !",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-11-19",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/686269-manuel-pratt-stand-up-debout",
+      "image": "https://img.mapado.net/2026/3/19/69bc1c078eed4-pratt.png_thumbs/600-600.png",
+      "id": "30fc0f15805c"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "On n'a pas le même titre !",
@@ -9114,6 +10167,19 @@
       "url": "https://larayonne.org/evenement/elmer-food-beat/",
       "image": "https://larayonne.org/wp-content/uploads/2025/11/elmer_food_beat-500x262.jpg",
       "id": "fb3c149aa09b"
+    },
+    {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "IBEYI",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2026-11-20",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.transbordeur.fr/evenement/ibeyi-20112026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2024/04/a-ibeyi-Grande.jpeg",
+      "id": "0d07263bcd96"
     },
     {
       "venue": "Improvidence",
@@ -9166,6 +10232,19 @@
       "url": "https://agenda.villemorte.fr/event/zinee-t2ls",
       "image": "https://agenda.villemorte.fr/media/thumb/c1ab40b35efaa22dc96088aca2aba090.jpg",
       "id": "7702bdbd813c"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Manuel Pratt - Stand-up, Debout !",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-11-20",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/686269-manuel-pratt-stand-up-debout",
+      "image": "https://img.mapado.net/2026/3/19/69bc1c078eed4-pratt.png_thumbs/600-600.png",
+      "id": "d54fe216445f"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -9231,6 +10310,19 @@
       "url": "https://www.petit-bulletin.fr/agenda-319206-bamby.html",
       "image": null,
       "id": "7074d02f2661"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Le Grand Sacripant - Andromède",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-11-21",
+      "date_end": null,
+      "time": "18:45",
+      "url": "https://espacegerson.mapado.com/event/733814-le-grand-sacripant-andromede",
+      "image": "https://img.mapado.net/2026/7/24/6a638a28b7373-grand-sacripant-2-septembre-1.jpeg_thumbs/600-600.jpeg",
+      "id": "8113653c405a"
     },
     {
       "venue": "Bar Rock'n Eat",
@@ -9337,6 +10429,19 @@
       "id": "847cbdaf1977"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Manuel Pratt - Stand-up, Debout !",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-11-21",
+      "date_end": null,
+      "time": "21:15",
+      "url": "https://espacegerson.mapado.com/event/686269-manuel-pratt-stand-up-debout",
+      "image": "https://img.mapado.net/2026/3/19/69bc1c078eed4-pratt.png_thumbs/600-600.png",
+      "id": "0c71502549e4"
+    },
+    {
       "venue": "IAC Villeurbanne",
       "venue_slug": "iac-villeurbanne",
       "title": "Visites en famille - Un dimanche après-midi à l'IAC / Frac Rhône-Alpes !",
@@ -9389,6 +10494,19 @@
       "id": "b7c000556f88"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Laura Lange - Philosophons La Fontaine",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-11-23",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/747415-laura-lange-philosophons-la-fontaine",
+      "image": "https://img.mapado.net/2026/6/1/6a1daf197e2f4-laura-lange.png_thumbs/600-600.png",
+      "id": "ce13c7b50cc9"
+    },
+    {
       "venue": "La Rayonne",
       "venue_slug": "la-rayonne",
       "title": "Robert Finley",
@@ -9402,6 +10520,19 @@
       "id": "ef2e4e5676ce"
     },
     {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "LAURA FERRE",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2026-11-24",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.transbordeur.fr/evenement/laura-ferre-24112026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2025/11/40_60.jpg",
+      "id": "603d4449abfd"
+    },
+    {
       "venue": "Agend'arts",
       "venue_slug": "agend-arts",
       "title": "Cercles Carmins – Quinzaine « Paroles de femmes »",
@@ -9413,6 +10544,19 @@
       "url": "https://agenda.villemorte.fr/event/cercles-carmins-quinzaine-paroles-de-femmes",
       "image": "https://agenda.villemorte.fr/media/thumb/f19eb59c0c1ff4b830510e6a23ab4f3a.jpg",
       "id": "8acd428b54b3"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "3 - L'impro FFF",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-11-24",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/697360-3-limpro-fff",
+      "image": "https://img.mapado.net/2025/6/27/685eabd5a73ae-mardi-impro.png_thumbs/600-600.png",
+      "id": "ef8140f7098e"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -9439,6 +10583,19 @@
       "url": "https://agenda.villemorte.fr/event/dans-la-grotte-cie-la-voliere-myriam-boudenia",
       "image": "https://agenda.villemorte.fr/media/thumb/b24e749ccc0e22dcfa5bd17d23ea0478.jpg",
       "id": "d7ef1cd3d95a"
+    },
+    {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "ACCEPT + DYNAZTY + TAILGUNNER",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2026-11-25",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://www.transbordeur.fr/evenement/accept-dynazty-tailgunner-25112026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2024/04/a-accept2.jpg",
+      "id": "2ba510789187"
     },
     {
       "venue": "La Rayonne",
@@ -9478,6 +10635,19 @@
       "url": "https://www.petit-bulletin.fr/agenda-319217-les-marquises.html",
       "image": null,
       "id": "ca007de50d17"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Axel Lattuada - P.E.R.A.V.",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-11-25",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/716517-axel-lattuada-p-e-r-a-v",
+      "image": "https://img.mapado.net/2026/5/5/69fa0900cc812-lattuada.png_thumbs/600-600.png",
+      "id": "38ff527b6856"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -9534,15 +10704,15 @@
     {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
-      "title": "Ben Plg",
+      "title": "BEN PLG",
       "subtitle": null,
-      "category": "Rap",
+      "category": "concert",
       "date_start": "2026-11-26",
       "date_end": null,
       "time": "19:00",
-      "url": "https://www.petit-bulletin.fr/agenda-308881-ben-plg.html",
-      "image": null,
-      "id": "df1297230af3"
+      "url": "https://www.transbordeur.fr/evenement/ben-plg-26112026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/05/a-benplg.jpg",
+      "id": "0446d58205ab"
     },
     {
       "venue": "Ô Totem live",
@@ -9636,6 +10806,19 @@
       "id": "9e24ff3cfb89"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Axel Lattuada - P.E.R.A.V.",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-11-26",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/716517-axel-lattuada-p-e-r-a-v",
+      "image": "https://img.mapado.net/2026/5/5/69fa0900cc812-lattuada.png_thumbs/600-600.png",
+      "id": "bab944b5b6df"
+    },
+    {
       "venue": "Bourse du Travail",
       "venue_slug": "bourse-du-travail",
       "title": "Fabrice Eboue",
@@ -9688,6 +10871,19 @@
       "id": "f77b2a1db1a8"
     },
     {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "KID FRANCESCOLI + WOODY",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2026-11-27",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.transbordeur.fr/evenement/kid-francescoli-woody-27112026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2024/04/Kid-Francescoli-Credit-Photo-Samantha-Grenouiller.jpg",
+      "id": "69e0e2b2e02f"
+    },
+    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins-theatre-de-lyon",
       "title": "Pétrole",
@@ -9725,6 +10921,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/une-histoire-de-france/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/06/une-histoire-de-france-500x500.jpg",
       "id": "35221f7731fc"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Axel Lattuada - P.E.R.A.V.",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-11-27",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/716517-axel-lattuada-p-e-r-a-v",
+      "image": "https://img.mapado.net/2026/5/5/69fa0900cc812-lattuada.png_thumbs/600-600.png",
+      "id": "72a8e51b9658"
     },
     {
       "venue": "MJC Louis Aragon / Jack Jack",
@@ -9805,6 +11014,19 @@
       "id": "4876aad118f4"
     },
     {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "LENAIG",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2026-11-28",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.transbordeur.fr/evenement/lenaig-28112026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/04/a-lenaig2.jpg",
+      "id": "e96d19e547ba"
+    },
+    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins-theatre-de-lyon",
       "title": "Pétrole",
@@ -9870,6 +11092,19 @@
       "id": "733acb268892"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Axel Lattuada - P.E.R.A.V.",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-11-28",
+      "date_end": null,
+      "time": "21:15",
+      "url": "https://espacegerson.mapado.com/event/716517-axel-lattuada-p-e-r-a-v",
+      "image": "https://img.mapado.net/2026/5/5/69fa0900cc812-lattuada.png_thumbs/600-600.png",
+      "id": "c74e73776f55"
+    },
+    {
       "venue": "Bourse du Travail",
       "venue_slug": "bourse-du-travail",
       "title": "Gus Illusionniste",
@@ -9922,6 +11157,19 @@
       "id": "5c7444c7cc82"
     },
     {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "THE STRANGLERS",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2026-11-30",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.transbordeur.fr/evenement/the-stranglers-30112026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2024/04/The-Stranglers-bike.jpg",
+      "id": "e2f6bad836f0"
+    },
+    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins-theatre-de-lyon",
       "title": "Pétrole",
@@ -9933,6 +11181,19 @@
       "url": "https://www.petit-bulletin.fr/agenda-319187-p-trole.html",
       "image": null,
       "id": "2e59e2454d95"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Plateaux de Gerson-dernier lundi de chaque mois",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-11-30",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://espacegerson.mapado.com/event/697472-plateaux-de-gerson-dernier-lundi-de-chaque-mois",
+      "image": "https://img.mapado.net/2024/5/27/665490ca7ae41-plateau-lundi.jpeg_thumbs/600-600.jpeg",
+      "id": "ee9a76798213"
     },
     {
       "venue": "Bourse du Travail",
@@ -9987,6 +11248,19 @@
       "id": "bcb216a02f6b"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Embrasse ta mère",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-12-01",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/705760-embrasse-ta-mere",
+      "image": "https://img.mapado.net/2026/5/26/6a1599b1cfba5-embrasse-ta-mere.png_thumbs/600-600.png",
+      "id": "afff987a9b35"
+    },
+    {
       "venue": "Bourse du Travail",
       "venue_slug": "bourse-du-travail",
       "title": "Marine Leonardi",
@@ -10002,15 +11276,15 @@
     {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
-      "title": "Slift",
+      "title": "SLIFT",
       "subtitle": null,
-      "category": "Rock & Pop",
+      "category": "concert",
       "date_start": "2026-12-02",
       "date_end": null,
       "time": "19:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319218-slift.html",
-      "image": null,
-      "id": "9e5cfed3dccb"
+      "url": "https://www.transbordeur.fr/evenement/slift-02122026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/04/a-slift2.jpg",
+      "id": "356ee96e4b13"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -10115,6 +11389,19 @@
       "url": "https://agenda.villemorte.fr/event/visite-en-lsf-avec-martin-dutrait",
       "image": "https://agenda.villemorte.fr/media/thumb/24d9c42f5c53d2245a240d7f7f6e95b4.jpg",
       "id": "9a945dae8d42"
+    },
+    {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "ELUVEITIE + PAIN + WOLFHEART",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2026-12-03",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.transbordeur.fr/evenement/eluveitie-pain-wolfheart-03122026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/02/a-eluveitie2.jpg",
+      "id": "aad28de4cec8"
     },
     {
       "venue": "Les Subsistances",
@@ -10245,6 +11532,19 @@
       "url": "https://improvidence.mapado.com/event/561436-friendzone",
       "image": "https://img.mapado.net/2026/8/10/6a79cc10466e0-friendzone-affichebleu.png_thumbs/600-600.png",
       "id": "04a8868fcfe9"
+    },
+    {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "LUTHER",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2026-12-04",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.transbordeur.fr/evenement/luther-04122026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2024/04/a-luther.png",
+      "id": "0b1779aecea2"
     },
     {
       "venue": "Improvidence",
@@ -10403,6 +11703,19 @@
       "id": "e32f8230b8d2"
     },
     {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "ROUNHAA",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2026-12-05",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.transbordeur.fr/evenement/rounhaa-05122026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2024/04/a-rounhaa-1.png",
+      "id": "2d5ae72baddd"
+    },
+    {
       "venue": "TNP - Théâtre National Populaire",
       "venue_slug": "tnp-theatre-national-populaire",
       "title": "L'Hors présence",
@@ -10440,6 +11753,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/sebastien-tellier/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/06/sebastien-tellier-500x500.jpg",
       "id": "dfbac738ff82"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Sebastian Marx - Nouveau Spectacle",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-12-05",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/722880-sebastian-marx-nouveau-spectacle",
+      "image": "https://img.mapado.net/2026/6/23/6a3a49c2b0ff2-marx-2.jpeg_thumbs/600-600.jpeg",
+      "id": "ebf313abe635"
     },
     {
       "venue": "Le Complexe café-théâtre",
@@ -10481,6 +11807,19 @@
       "id": "5245bf3f994b"
     },
     {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "LA RVFLEUZE",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2026-12-06",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.transbordeur.fr/evenement/la-rvfleuze-06122026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/05/a-larvfleuze.jpg",
+      "id": "f5d855ebf76d"
+    },
+    {
       "venue": "Théâtre des Clochards Célestes",
       "venue_slug": "theatre-des-clochards-celestes",
       "title": "Dialogue entre deux espèces",
@@ -10505,6 +11844,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/camille-tu-dors/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/07/camille-tu-dors-500x500.jpg",
       "id": "3113ec171a00"
+    },
+    {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "CORY WONG",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2026-12-07",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.transbordeur.fr/evenement/cory-wong-07122026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/05/a-corywong.jpg",
+      "id": "d728b172d4c2"
     },
     {
       "venue": "Théâtre des Clochards Célestes",
@@ -10533,6 +11885,19 @@
       "id": "f26a89d8a1d2"
     },
     {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "MINITEL",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2026-12-09",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.transbordeur.fr/evenement/minitel-09122026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/06/a-minitel.jpeg",
+      "id": "0475186f4102"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "Nos futurs",
@@ -10557,6 +11922,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/benjamin-biolay-3/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/06/benjamin-biolay-500x500.jpg",
       "id": "6ca9da066895"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Kostia - Entre deux",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-12-09",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/685524-kostia-entre-deux",
+      "image": "https://img.mapado.net/2026/3/18/69bacaecd0e4c-kostia-1.jpeg_thumbs/600-600.jpeg",
+      "id": "dd5c933e8c96"
     },
     {
       "venue": "Improvidence",
@@ -10624,6 +12002,19 @@
       "id": "705a7d634b3b"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Kostia - Entre deux",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-12-10",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/685524-kostia-entre-deux",
+      "image": "https://img.mapado.net/2026/3/18/69bacaecd0e4c-kostia-1.jpeg_thumbs/600-600.jpeg",
+      "id": "95322ab98df7"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "Le Bourgeois Gentilhomme",
@@ -10663,6 +12054,19 @@
       "id": "6bde45ac942b"
     },
     {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "MARGUERITE",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2026-12-11",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.transbordeur.fr/evenement/marguerite-11122026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/04/a-marguerite.jpg",
+      "id": "01b1f5d0b5d4"
+    },
+    {
       "venue": "Agend'arts",
       "venue_slug": "agend-arts",
       "title": "Scène ouverte slam – session de décembre",
@@ -10687,6 +12091,19 @@
       "url": "https://www.les-subs.com/evenement/ateliers-dhiver-du-cnsmd/",
       "image": "https://www.les-subs.com/wp-content/uploads/2026/07/ateliershiver2026-a7r6891blandinesoulage-200x200.jpg",
       "id": "39c1b2612d2e"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Kostia - Entre deux",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-12-11",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/685524-kostia-entre-deux",
+      "image": "https://img.mapado.net/2026/3/18/69bacaecd0e4c-kostia-1.jpeg_thumbs/600-600.jpeg",
+      "id": "aeb5eff21d9f"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -10808,15 +12225,15 @@
     {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
-      "title": "Le Grand Sacripant",
+      "title": "Le Grand Sacripant - Andromède",
       "subtitle": null,
-      "category": "Humour & Café Théâtre",
+      "category": "café-théâtre",
       "date_start": "2026-12-12",
-      "date_end": "2026-12-26",
+      "date_end": null,
       "time": "18:45",
-      "url": "https://www.petit-bulletin.fr/agenda-317834-le-grand-sacripant.html",
-      "image": null,
-      "id": "61a77ac78690"
+      "url": "https://espacegerson.mapado.com/event/733814-le-grand-sacripant-andromede",
+      "image": "https://img.mapado.net/2026/7/24/6a638a28b7373-grand-sacripant-2-septembre-1.jpeg_thumbs/600-600.jpeg",
+      "id": "3622e06fa4a4"
     },
     {
       "venue": "La Rayonne",
@@ -10830,6 +12247,19 @@
       "url": "https://larayonne.org/evenement/bilal-hassani/",
       "image": "https://larayonne.org/wp-content/uploads/2026/03/bilalhassani-pop-lyon-fb-event-500x260.jpg",
       "id": "8d38c0574fcf"
+    },
+    {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "SAM SAUVAGE",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2026-12-12",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.transbordeur.fr/evenement/sam-sauvage-12122026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/02/a-samsauvage.png",
+      "id": "fbccab0e5fae"
     },
     {
       "venue": "MJC Louis Aragon / Jack Jack",
@@ -10897,6 +12327,19 @@
       "id": "975f35b7d488"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Kostia - Entre deux",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-12-12",
+      "date_end": null,
+      "time": "21:15",
+      "url": "https://espacegerson.mapado.com/event/685524-kostia-entre-deux",
+      "image": "https://img.mapado.net/2026/3/18/69bacaecd0e4c-kostia-1.jpeg_thumbs/600-600.jpeg",
+      "id": "fca6199de613"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "Le téléfilm de Noël improvisé",
@@ -10910,6 +12353,19 @@
       "id": "dc4495d15e64"
     },
     {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "AXEL BAUER",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2026-12-13",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.transbordeur.fr/evenement/axel-bauer-13122026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/01/a-axelbauer2.jpg",
+      "id": "00fd982a5fdf"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "MURMURATION LEVEL 2",
@@ -10921,6 +12377,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/murmuration-level-2/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/03/murmuration-level_radiant-bellevue-500x500.jpg",
       "id": "1ea67b00e795"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Delphine Delepaut - La valse des cons",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-12-14",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/802812-delphine-delepaut-la-valse-des-cons",
+      "image": "https://img.mapado.net/2026/7/10/6a50e0ce88347-la-valse-des-cons.png_thumbs/600-600.png",
+      "id": "fc724ee48ebf"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -10947,6 +12416,19 @@
       "url": "https://improvidence.mapado.com/event/154968-la-releve",
       "image": "https://img.mapado.net/2022/10/24/635646c2a2c98-1.jpeg_thumbs/600-600.jpeg",
       "id": "e323ae1d8e59"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Embrasse ta mère",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-12-15",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/705760-embrasse-ta-mere",
+      "image": "https://img.mapado.net/2026/5/26/6a1599b1cfba5-embrasse-ta-mere.png_thumbs/600-600.png",
+      "id": "6ff690088df6"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -10988,6 +12470,19 @@
       "id": "c9ced6668cdd"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Jeanne Elima - Grande fille",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-12-16",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/685594-jeanne-elima-grande-fille",
+      "image": "https://img.mapado.net/2026/3/18/69bac16a3a04f-jeanne-elima.png_thumbs/600-600.png",
+      "id": "15c9c0428112"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "ORGUEIL & PRÉJUGÉS … OU PRESQUE",
@@ -11027,6 +12522,19 @@
       "id": "a95d93c4b0c3"
     },
     {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "FFF",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2026-12-17",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.transbordeur.fr/evenement/fff-17122026/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2024/04/a-fff.jpeg",
+      "id": "7e047c7d6838"
+    },
+    {
       "venue": "Le Sonic",
       "venue_slug": "sonic",
       "title": "Neptune",
@@ -11064,6 +12572,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/leman-2/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/01/leman-vignette_radiant-bellevue.jpg",
       "id": "f305ad8022e5"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Jeanne Elima - Grande fille",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-12-17",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/685594-jeanne-elima-grande-fille",
+      "image": "https://img.mapado.net/2026/3/18/69bac16a3a04f-jeanne-elima.png_thumbs/600-600.png",
+      "id": "d69d6149ab5a"
     },
     {
       "venue": "Improvidence",
@@ -11157,6 +12678,19 @@
       "id": "306591ee9545"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Jeanne Elima - Grande fille",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-12-18",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/685594-jeanne-elima-grande-fille",
+      "image": "https://img.mapado.net/2026/3/18/69bac16a3a04f-jeanne-elima.png_thumbs/600-600.png",
+      "id": "e73779d2c1fa"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "Les Éphémères - Duos fugaces de la Lily",
@@ -11196,6 +12730,19 @@
       "id": "a3ea85d926e0"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Le Grand Sacripant - Andromède",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-12-19",
+      "date_end": null,
+      "time": "18:45",
+      "url": "https://espacegerson.mapado.com/event/733814-le-grand-sacripant-andromede",
+      "image": "https://img.mapado.net/2026/7/24/6a638a28b7373-grand-sacripant-2-septembre-1.jpeg_thumbs/600-600.jpeg",
+      "id": "683722171716"
+    },
+    {
       "venue": "La Torpille",
       "venue_slug": "la-torpille",
       "title": "Vente aux enchères de Noël au profit de Jamais Sans Toit",
@@ -11233,6 +12780,19 @@
       "url": "https://improvidence.mapado.com/event/351368-senflix",
       "image": "https://img.mapado.net/2025/1/29/6799fb363c759-senflix-affiche-web.jpeg_thumbs/600-600.jpeg",
       "id": "1cc801114590"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Jeanne Elima - Grande fille",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-12-19",
+      "date_end": null,
+      "time": "21:15",
+      "url": "https://espacegerson.mapado.com/event/685594-jeanne-elima-grande-fille",
+      "image": "https://img.mapado.net/2026/3/18/69bac16a3a04f-jeanne-elima.png_thumbs/600-600.png",
+      "id": "644adde7aa35"
     },
     {
       "venue": "Bourse du Travail",
@@ -11313,6 +12873,19 @@
       "id": "a2b62383b630"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Embrasse ta mère",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-12-22",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/705760-embrasse-ta-mere",
+      "image": "https://img.mapado.net/2026/5/26/6a1599b1cfba5-embrasse-ta-mere.png_thumbs/600-600.png",
+      "id": "1b8def9fd4d4"
+    },
+    {
       "venue": "Bourse du Travail",
       "venue_slug": "bourse-du-travail",
       "title": "Des Étoiles Plein Les Yeux",
@@ -11324,6 +12897,19 @@
       "url": "https://www.bourse-du-travail.com/des-etoiles-plein-les-yeux-382489.html",
       "image": "https://www.bourse-du-travail.com/img/evenement/des-etoiles-plein-les-yeux-3.jpg",
       "id": "d596bb6dc953"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Le Grand Sacripant - Andromède",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-12-23",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/733814-le-grand-sacripant-andromede",
+      "image": "https://img.mapado.net/2026/7/24/6a638a28b7373-grand-sacripant-2-septembre-1.jpeg_thumbs/600-600.jpeg",
+      "id": "f37ab45cf991"
     },
     {
       "venue": "Improvidence",
@@ -11365,6 +12951,32 @@
       "id": "a76eb86abd0e"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Plateaux de Gerson-dernier lundi de chaque mois",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-12-28",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://espacegerson.mapado.com/event/697472-plateaux-de-gerson-dernier-lundi-de-chaque-mois",
+      "image": "https://img.mapado.net/2024/5/27/665490ca7ae41-plateau-lundi.jpeg_thumbs/600-600.jpeg",
+      "id": "1f8a49203c07"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "3 - L'impro FFF",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-12-29",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/697360-3-limpro-fff",
+      "image": "https://img.mapado.net/2025/6/27/685eabd5a73ae-mardi-impro.png_thumbs/600-600.png",
+      "id": "17a01615a7dc"
+    },
+    {
       "venue": "Bourse du Travail",
       "venue_slug": "bourse-du-travail",
       "title": "Le Grand Soir De L'année - Bourse Du Travail - Lyon",
@@ -11376,6 +12988,19 @@
       "url": "https://www.bourse-du-travail.com/le-grand-soir-de-l-annee-bourse-du-travail-lyon-445137.html",
       "image": "https://www.bourse-du-travail.com/img/evenement/le-grand-soir-de-lannee--bourse-du-travail--lyon.jpg",
       "id": "3ab39cba9bdf"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Jérémie Reners - Rafale",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-12-31",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://espacegerson.mapado.com/event/822514-jeremie-reners-rafale",
+      "image": "https://img.mapado.net/2026/7/29/6a6a1817cb205-reners-31dec.png_thumbs/600-600.png",
+      "id": "e5e45c4e8040"
     },
     {
       "venue": "Bourse du Travail",
@@ -11467,6 +13092,19 @@
       "url": "https://www.bourse-du-travail.com/jonathan-dassin-chante-joe-dassin-316708.html",
       "image": "https://www.bourse-du-travail.com/img/evenement/jonathan-dassin-chante-joe-dassin-3.jpg",
       "id": "00cabaf9a371"
+    },
+    {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "ACID ARAB",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2027-01-07",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.transbordeur.fr/evenement/acid-arab-07012027/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2024/04/a-acidarab2.jpg",
+      "id": "1fdc990aabb3"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -11651,6 +13289,19 @@
       "id": "d36fa43e7d82"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Cécile Marx - Iconique",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2027-01-13",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/704640-cecile-marx-iconique",
+      "image": "https://img.mapado.net/2026/4/17/69e2342e9a5f1-cecile-marx.png_thumbs/600-600.png",
+      "id": "a25d8133af7f"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "LAURENT VOULZY",
@@ -11755,6 +13406,19 @@
       "id": "5265d5dc149c"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Cécile Marx - Iconique",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2027-01-14",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/704640-cecile-marx-iconique",
+      "image": "https://img.mapado.net/2026/4/17/69e2342e9a5f1-cecile-marx.png_thumbs/600-600.png",
+      "id": "c1ef321e446c"
+    },
+    {
       "venue": "Les Subsistances",
       "venue_slug": "les-subs",
       "title": "Hell is empty",
@@ -11794,6 +13458,19 @@
       "id": "3a5eed4a6205"
     },
     {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "GIEDRE",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2027-01-15",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.transbordeur.fr/evenement/giedre-15012027/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2024/04/a-giedre2.jpg",
+      "id": "5437cf18e7fb"
+    },
+    {
       "venue": "La Machinerie - Théâtre de Vénissieux",
       "venue_slug": "la-machinerie-theatre-de-venissieux",
       "title": "Gildaa",
@@ -11805,6 +13482,19 @@
       "url": "https://agenda.villemorte.fr/event/gildaa",
       "image": "https://agenda.villemorte.fr/media/thumb/919159e22d1ae1b7dd82816b12eeb716.jpg",
       "id": "a528f8f80915"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Cécile Marx - Iconique",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2027-01-15",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/704640-cecile-marx-iconique",
+      "image": "https://img.mapado.net/2026/4/17/69e2342e9a5f1-cecile-marx.png_thumbs/600-600.png",
+      "id": "5167f64da4ea"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -11885,6 +13575,19 @@
       "id": "88a62c71ec91"
     },
     {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "FILLS MONKEY",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2027-01-16",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.transbordeur.fr/evenement/fills-monkey-16012027/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/04/a-fillsmonkey2.jpg",
+      "id": "de7e73915937"
+    },
+    {
       "venue": "La Halle Tony Garnier",
       "venue_slug": "halle-tony-garnier",
       "title": "Olivier De Benoist",
@@ -11909,6 +13612,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/camille-chamoux-2/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2025/03/Portrait-Camille-Chamoux-Benjamin-Guillonneau-scaled-e1741944598749-500x500.jpg",
       "id": "6c3de221073a"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Cécile Marx - Iconique",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2027-01-16",
+      "date_end": null,
+      "time": "21:15",
+      "url": "https://espacegerson.mapado.com/event/704640-cecile-marx-iconique",
+      "image": "https://img.mapado.net/2026/4/17/69e2342e9a5f1-cecile-marx.png_thumbs/600-600.png",
+      "id": "680c588c7023"
     },
     {
       "venue": "Bourse du Travail",
@@ -11976,6 +13692,32 @@
       "id": "23512e849d3c"
     },
     {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "TÉTÉ",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2027-01-20",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.transbordeur.fr/evenement/tete-20012027/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/05/a-tete.jpg",
+      "id": "715fcfd6e206"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Arthur Gomez - Please Stand-Up",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2027-01-20",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/717819-arthur-gomez-please-stand-up",
+      "image": "https://img.mapado.net/2026/9/3/6a9976855668c-arthur-gomez.png_thumbs/600-600.png",
+      "id": "4aead49acbc3"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "LE PÈRE",
@@ -12015,6 +13757,19 @@
       "id": "cf86898367c9"
     },
     {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "ZAOUI",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2027-01-21",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.transbordeur.fr/evenement/zaoui-21012027/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/04/a-zaoui2.jpg",
+      "id": "eda182261fed"
+    },
+    {
       "venue": "La Machinerie - Théâtre de Vénissieux",
       "venue_slug": "la-machinerie-theatre-de-venissieux",
       "title": "La Pastasciutta antifascista de Casa Cervi - Floriane Facchini & Cie",
@@ -12026,6 +13781,19 @@
       "url": "https://agenda.villemorte.fr/event/la-pastasciutta-antifascista-de-casa-cervi-floriane-facchini-and-cie",
       "image": "https://agenda.villemorte.fr/media/thumb/41515d5cd2f79a29f2988b38d3e502ba.jpg",
       "id": "af9f37e48772"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Arthur Gomez - Please Stand-Up",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2027-01-21",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/717819-arthur-gomez-please-stand-up",
+      "image": "https://img.mapado.net/2026/9/3/6a9976855668c-arthur-gomez.png_thumbs/600-600.png",
+      "id": "b1d9464ebc3c"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -12067,6 +13835,19 @@
       "id": "aa28fc5264ba"
     },
     {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "RESOLVE + SILENT PLANET + SPLEEN",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2027-01-22",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.transbordeur.fr/evenement/resolve-silent-planet-spleen-22012027/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/04/a-resolve.jpg",
+      "id": "c6012651a9a7"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "LEVI.SCT",
@@ -12078,6 +13859,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/levi-sct/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/03/levi-sct_radiant-bellevue-2-500x500.jpg",
       "id": "eda197dd06c0"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Arthur Gomez - Please Stand-Up",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2027-01-22",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/717819-arthur-gomez-please-stand-up",
+      "image": "https://img.mapado.net/2026/9/3/6a9976855668c-arthur-gomez.png_thumbs/600-600.png",
+      "id": "417603e81524"
     },
     {
       "venue": "TNG",
@@ -12104,6 +13898,19 @@
       "url": "https://improvidence.mapado.com/event/499637-celles-qui-restent",
       "image": "https://img.mapado.net/2025/3/20/67dc2098ca8dc-affiche-cellesquirestent.png_thumbs/600-600.png",
       "id": "897b0afaad0f"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Arthur Gomez - Please Stand-Up",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2027-01-23",
+      "date_end": null,
+      "time": "21:15",
+      "url": "https://espacegerson.mapado.com/event/717819-arthur-gomez-please-stand-up",
+      "image": "https://img.mapado.net/2026/9/3/6a9976855668c-arthur-gomez.png_thumbs/600-600.png",
+      "id": "b1b81705d036"
     },
     {
       "venue": "Bourse du Travail",
@@ -12143,6 +13950,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/lumieres/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/07/lumieres_radiant-bellevue-500x500.jpg",
       "id": "9607f87e6bb7"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "3 - L'impro FFF",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2027-01-26",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/697360-3-limpro-fff",
+      "image": "https://img.mapado.net/2025/6/27/685eabd5a73ae-mardi-impro.png_thumbs/600-600.png",
+      "id": "1b84d539b812"
     },
     {
       "venue": "La Halle Tony Garnier",
@@ -12195,6 +14015,19 @@
       "url": "https://www.bourse-du-travail.com/akim-omiri-contexte-tournee-323112.html",
       "image": "https://www.bourse-du-travail.com/img/evenement/akim-omiri--contexte--tournee.jpg",
       "id": "063fa8d43d43"
+    },
+    {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "NTO",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2027-01-28",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.transbordeur.fr/evenement/nto-28012027/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/06/a-nto.png",
+      "id": "47b30352ac4a"
     },
     {
       "venue": "Les Subsistances",
@@ -12418,6 +14251,19 @@
       "id": "cd4f20cb44d5"
     },
     {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "JF PAUZE",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2027-02-02",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.transbordeur.fr/evenement/jf-pauze-02022027/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/03/a-jfpauze2.jpg",
+      "id": "543bf0414101"
+    },
+    {
       "venue": "Théâtre La Mouche",
       "venue_slug": "theatre-la-mouche",
       "title": "Martin Eden",
@@ -12483,6 +14329,19 @@
       "id": "b0008b201bcc"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Pierre Antoine Damecour - Jamais trop tard",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2027-02-03",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/841652-pierre-antoine-damecour-jamais-trop-tard",
+      "image": "https://img.mapado.net/2026/9/3/6a997ca737523-damecour.png_thumbs/600-600.png",
+      "id": "dff78034aa83"
+    },
+    {
       "venue": "Bourse du Travail",
       "venue_slug": "bourse-du-travail",
       "title": "Pierre-Emmanuel Barré & Aymeric Lompret \" Une Heure Trente \" - Tournée",
@@ -12507,6 +14366,32 @@
       "url": "https://agenda.villemorte.fr/event/nelvar-le-royaume-sans-peuple-logan-de-carvalho-et-margaux-desailly",
       "image": "https://agenda.villemorte.fr/media/thumb/094c2fa7770aa65fc4659263c0b5d1a9.jpg",
       "id": "72e8ec4b231d"
+    },
+    {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "REVNOIR + ICE SEALED EYES",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2027-02-04",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.transbordeur.fr/evenement/revnoir-ice-sealed-eyes-04022027/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/04/a-revnoir.jpg",
+      "id": "f04104c16645"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Pierre Antoine Damecour - Jamais trop tard",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2027-02-04",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/841652-pierre-antoine-damecour-jamais-trop-tard",
+      "image": "https://img.mapado.net/2026/9/3/6a997ca737523-damecour.png_thumbs/600-600.png",
+      "id": "4fcb134f8c87"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -12546,6 +14431,19 @@
       "url": "https://www.bourse-du-travail.com/pierre-emmanuel-barre-aymeric-lompret-une-heure-trente-tournee-382075.html",
       "image": "https://www.bourse-du-travail.com/img/evenement/pierre-emmanuel-barre-and-aymeric-lompret--une-heure-trente---tournee-2.jpg",
       "id": "01930ae3c83b"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Pierre Antoine Damecour - Jamais trop tard",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2027-02-05",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/841652-pierre-antoine-damecour-jamais-trop-tard",
+      "image": "https://img.mapado.net/2026/9/3/6a997ca737523-damecour.png_thumbs/600-600.png",
+      "id": "d97d283cd825"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -12637,6 +14535,19 @@
       "url": "https://improvidence.mapado.com/event/331369-une-grande-table-avec-du-monde-autour",
       "image": "https://img.mapado.net/2024/4/2/660bcb45e8482-vignette-une-grande-table.jpeg_thumbs/600-600.jpeg",
       "id": "8bd147505664"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Pierre Antoine Damecour - Jamais trop tard",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2027-02-06",
+      "date_end": null,
+      "time": "21:15",
+      "url": "https://espacegerson.mapado.com/event/841652-pierre-antoine-damecour-jamais-trop-tard",
+      "image": "https://img.mapado.net/2026/9/3/6a997ca737523-damecour.png_thumbs/600-600.png",
+      "id": "5f5333c6fd8b"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -12769,6 +14680,19 @@
       "id": "62bc64dec03c"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Stéphanie Machart - Entre deux",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2027-02-10",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/775001-stephanie-machart-entre-deux",
+      "image": "https://img.mapado.net/2026/6/17/6a329b9726627-machart.png_thumbs/600-600.png",
+      "id": "0ad02826b9ad"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "LE CANAPE",
@@ -12819,6 +14743,19 @@
       "url": "https://agenda.villemorte.fr/event/les-clairvoyantes-camille-joviado-et-claire-chastel",
       "image": "https://agenda.villemorte.fr/media/thumb/ef57158f178f9a4d1abd2afcf414e47e.jpg",
       "id": "b766c8b291dc"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Stéphanie Machart - Entre deux",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2027-02-11",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/775001-stephanie-machart-entre-deux",
+      "image": "https://img.mapado.net/2026/6/17/6a329b9726627-machart.png_thumbs/600-600.png",
+      "id": "b4530d924884"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -12899,6 +14836,32 @@
       "id": "bd73877f658e"
     },
     {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "UGLY KID JOE",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2027-02-12",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.transbordeur.fr/evenement/ugly-kid-joe-12022027/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/06/a-uglykidjoe.jpeg",
+      "id": "3e137455d050"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Stéphanie Machart - Entre deux",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2027-02-12",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/775001-stephanie-machart-entre-deux",
+      "image": "https://img.mapado.net/2026/6/17/6a329b9726627-machart.png_thumbs/600-600.png",
+      "id": "94a047126280"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "MATHIEU STEPSON",
@@ -12938,6 +14901,19 @@
       "id": "290cad05f06c"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Stéphanie Machart - Entre deux",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2027-02-13",
+      "date_end": null,
+      "time": "21:15",
+      "url": "https://espacegerson.mapado.com/event/775001-stephanie-machart-entre-deux",
+      "image": "https://img.mapado.net/2026/6/17/6a329b9726627-machart.png_thumbs/600-600.png",
+      "id": "ff353e8badac"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "PIERRE ET LE LOUP",
@@ -12964,6 +14940,19 @@
       "id": "2371240e67a8"
     },
     {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "JEANJASS",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2027-02-17",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.transbordeur.fr/evenement/jeanjass-17022027/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/05/a-jeanjass.jpg",
+      "id": "ec76c86c9fd3"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "Ca handi long",
@@ -12977,6 +14966,19 @@
       "id": "fc2f37d88d4b"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Victor Ghesquière - A découvert",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2027-02-17",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/841806-victor-ghesquiere-a-decouvert",
+      "image": "https://img.mapado.net/2026/9/3/6a998dc7a19f6-ghesquiere.png_thumbs/600-600.png",
+      "id": "f70c9f7f1b47"
+    },
+    {
       "venue": "La Rayonne",
       "venue_slug": "la-rayonne",
       "title": "SLEEPING WITH SIRENS",
@@ -12988,6 +14990,19 @@
       "url": "https://larayonne.org/evenement/sleeping-with-sirens/",
       "image": "https://larayonne.org/wp-content/uploads/2026/06/SLEEPING-WITH-SIRENS-EUROPE-2027-PARIS-1080x1080-1-500x500.png",
       "id": "1f8b8f3e14d0"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Victor Ghesquière - A découvert",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2027-02-18",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/841806-victor-ghesquiere-a-decouvert",
+      "image": "https://img.mapado.net/2026/9/3/6a998dc7a19f6-ghesquiere.png_thumbs/600-600.png",
+      "id": "477ee0c1c9fc"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -13014,6 +15029,19 @@
       "url": "https://www.halle-tony-garnier.com/fr/programmation/holiday-on-ice-cinema-of-dreams",
       "image": "https://www.halle-tony-garnier.com/storage/143637/conversions/2027-02-19-HOLIDAY-ON-ICE-CINEMA-OF-DREAMS-02-1080x1080-hoi-cod-lyo-20260311-145844-square.jpg",
       "id": "2352ed756750"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Victor Ghesquière - A découvert",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2027-02-19",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/841806-victor-ghesquiere-a-decouvert",
+      "image": "https://img.mapado.net/2026/9/3/6a998dc7a19f6-ghesquiere.png_thumbs/600-600.png",
+      "id": "b001bdff5284"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -13068,6 +15096,19 @@
       "id": "521a0e8064a4"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Victor Ghesquière - A découvert",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2027-02-20",
+      "date_end": null,
+      "time": "21:15",
+      "url": "https://espacegerson.mapado.com/event/841806-victor-ghesquiere-a-decouvert",
+      "image": "https://img.mapado.net/2026/9/3/6a998dc7a19f6-ghesquiere.png_thumbs/600-600.png",
+      "id": "2f3807bb027e"
+    },
+    {
       "venue": "La Halle Tony Garnier",
       "venue_slug": "halle-tony-garnier",
       "title": "Holiday On Ice - Cinema Of Dreams",
@@ -13107,6 +15148,19 @@
       "id": "dcf3a1da9203"
     },
     {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "EZRA COLLECTIVE + JOY (ANONYMOUS)",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2027-02-23",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.transbordeur.fr/evenement/ezra-collective-joy-anonymous-23022027/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2024/04/a-ezracollectif.jpeg",
+      "id": "aca7c19bdb1f"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "Album de famille",
@@ -13118,6 +15172,19 @@
       "url": "https://improvidence.mapado.com/event/824299-album-de-famille",
       "image": "https://img.mapado.net/2026/8/4/6a71b13d2f050-album-de-famille-visuel-1.png_thumbs/600-600.png",
       "id": "7fc5ddab8199"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "3 - L'impro FFF",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2027-02-23",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/697360-3-limpro-fff",
+      "image": "https://img.mapado.net/2025/6/27/685eabd5a73ae-mardi-impro.png_thumbs/600-600.png",
+      "id": "b0cc3b1dad2d"
     },
     {
       "venue": "Improvidence",
@@ -13146,6 +15213,19 @@
       "id": "42405607f221"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Philippe Roche - Génération Mashup",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2027-02-24",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/738686-philippe-roche-generation-mashup",
+      "image": "https://img.mapado.net/2026/5/26/6a15b9c82bd9c-roche.png_thumbs/600-600.png",
+      "id": "789cd086ade8"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "ON RESTE EN CONTACT",
@@ -13172,6 +15252,19 @@
       "id": "ce865dd02117"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Philippe Roche - Génération Mashup",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2027-02-25",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/738686-philippe-roche-generation-mashup",
+      "image": "https://img.mapado.net/2026/5/26/6a15b9c82bd9c-roche.png_thumbs/600-600.png",
+      "id": "3a9c86382b52"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "Challenges",
@@ -13196,6 +15289,19 @@
       "url": "https://improvidence.mapado.com/event/500582-les-ptits-riens",
       "image": "https://img.mapado.net/2025/3/25/67e2902b54cce-affiche-lpr-20250319-123016-0000-1.png_thumbs/600-600.png",
       "id": "5296f81f9ed4"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Philippe Roche - Génération Mashup",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2027-02-26",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://espacegerson.mapado.com/event/738686-philippe-roche-generation-mashup",
+      "image": "https://img.mapado.net/2026/5/26/6a15b9c82bd9c-roche.png_thumbs/600-600.png",
+      "id": "b912680d7dee"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -13261,6 +15367,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/hatik-3/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2025/02/Hatik_2024-25_refonte_elts-promoteur_draft1-e1739436888859-500x500.png",
       "id": "45fbceec0d0d"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Philippe Roche - Génération Mashup",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2027-02-27",
+      "date_end": null,
+      "time": "21:15",
+      "url": "https://espacegerson.mapado.com/event/738686-philippe-roche-generation-mashup",
+      "image": "https://img.mapado.net/2026/5/26/6a15b9c82bd9c-roche.png_thumbs/600-600.png",
+      "id": "a13941524841"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -13365,6 +15484,19 @@
       "url": "https://agenda.villemorte.fr/event/boum-kids",
       "image": "https://agenda.villemorte.fr/media/thumb/dca9b66215f26e43b636f9cfcf0d73ee.jpg",
       "id": "b8dbac2fb8f3"
+    },
+    {
+      "venue": "Le Transbordeur",
+      "venue_slug": "transbordeur",
+      "title": "UNCLE ACID AND THE DEADBEATS + CONAN + EARTH TONGUE",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2027-03-03",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.transbordeur.fr/evenement/uncle-acid-and-the-deadbeats-conan-earth-tongue-03032027/",
+      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/09/a-uncleacid1.jpeg",
+      "id": "44bd10972b4c"
     },
     {
       "venue": "Radiant-Bellevue",
