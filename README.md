@@ -102,7 +102,7 @@ Runs suivants : ~30 secondes.
 Une carte groupée réunit plusieurs spectacles d'un même lieu le même
 jour. N'ayant pas d'affiche à montrer, elle tirait un motif de secours.
 Les salles qui jouent plusieurs fois par soir y portent désormais leur
-marque : six lieux, 256 des 287 cartes groupées.
+marque : cinq lieux, 245 des 287 cartes groupées.
 
 Le logo est traité comme une affiche — `brightness(0.50) contrast(1.06)`,
 trame sérigraphie et voile du haut par-dessus — à deux détails près.
@@ -125,15 +125,14 @@ Deux règles à respecter en ajoutant un logo :
    recadrage une même valeur de hauteur donne des dessins de tailles
    très différentes.
 2. **Choisir `k` d'après le ratio**, `k` étant la hauteur en pour cent de
-   la carte. 150 % convient aux marques compactes (ratios 0,98 à 1,37).
+   la carte. 150 % convient aux marques compactes (ratios 0,98 à 1,33).
    Les Subsistances sont à 102 % : leur lettrage est un ruban de ratio
    2,12 qui sortirait largement de la carte à 150 %.
 
 Le fichier est committé dans le dépôt plutôt que lié chez la salle : un
 lien direct casse au premier changement de thème et ferait dépendre nos
 cartes d'un serveur tiers. SVG quand la salle en publie un — l'Institut
-Lumière et les Célestins, 1 à 25 ko et net à toute échelle —, PNG
-recadré sinon.
+Lumière, 25 ko et net à toute échelle —, PNG recadré sinon.
 
 Le motif reste sous le logo, éteint par une classe que l'`onerror`
 retire : si le fichier manque, la carte retombe d'elle-même sur le
