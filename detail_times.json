@@ -8,7 +8,7 @@
     "time": "18:00"
   },
   "https://h-eat.eu/events/atelier-de-danse-et-dimprovisation-danse/": {
-    "fetched_at": "2026-09-02",
+    "fetched_at": "2026-09-07",
     "time": "19:00"
   },
   "https://h-eat.eu/events/bingo-by-la-menagerie-5/": {
@@ -20,7 +20,7 @@
     "time": "17:30"
   },
   "https://h-eat.eu/events/blob-party/": {
-    "fetched_at": "2026-09-02",
+    "fetched_at": "2026-09-07",
     "time": "20:00"
   },
   "https://h-eat.eu/events/cabriole-heat-machine/": {
@@ -168,7 +168,7 @@
     "time": "17:30"
   },
   "https://h-eat.eu/events/on-off-festival-fete-de-la-culture-sourde/": {
-    "fetched_at": "2026-09-02",
+    "fetched_at": "2026-09-07",
     "time": "17:30"
   },
   "https://h-eat.eu/events/open-platine-le-labo-est-a-vous-2/": {
@@ -572,7 +572,7 @@
     "time": "20:00"
   },
   "https://radiant-bellevue.fr/spectacles/brunch-hip-hop/": {
-    "fetched_at": "2026-09-05",
+    "fetched_at": "2026-09-07",
     "time": null
   },
   "https://radiant-bellevue.fr/spectacles/camille-chamoux-2/": {
@@ -684,7 +684,7 @@
     "time": "20:30"
   },
   "https://radiant-bellevue.fr/spectacles/jukebox/": {
-    "fetched_at": "2026-09-03",
+    "fetched_at": "2026-09-07",
     "time": "20:00"
   },
   "https://radiant-bellevue.fr/spectacles/kyle-eastwood/": {
@@ -697,6 +697,10 @@
   },
   "https://radiant-bellevue.fr/spectacles/la-grande-sophie-2/": {
     "fetched_at": "2026-08-12",
+    "time": "20:30"
+  },
+  "https://radiant-bellevue.fr/spectacles/la-jalousie/": {
+    "fetched_at": "2026-09-07",
     "time": "20:30"
   },
   "https://radiant-bellevue.fr/spectacles/la-magie-dharry-potter/": {
@@ -736,7 +740,7 @@
     "time": "20:30"
   },
   "https://radiant-bellevue.fr/spectacles/le-chant-des-lions/": {
-    "fetched_at": "2026-09-04",
+    "fetched_at": "2026-09-07",
     "time": "20:30"
   },
   "https://radiant-bellevue.fr/spectacles/le-fantome-de-lopera/": {
@@ -768,7 +772,7 @@
     "time": "16:00"
   },
   "https://radiant-bellevue.fr/spectacles/les-coquettes-2/": {
-    "fetched_at": "2026-09-05",
+    "fetched_at": "2026-09-07",
     "time": "20:30"
   },
   "https://radiant-bellevue.fr/spectacles/les-peintres-au-charbon/": {
@@ -904,7 +908,7 @@
     "time": "20:00"
   },
   "https://radiant-bellevue.fr/spectacles/saint-levant/": {
-    "fetched_at": "2026-09-01",
+    "fetched_at": "2026-09-07",
     "time": "20:00"
   },
   "https://radiant-bellevue.fr/spectacles/sans-regrets-2/": {
@@ -993,6 +997,10 @@
   },
   "https://www.opera-lyon.com/fr/programmation/saison-2026-2027/opera/lamour-des-trois-oranges": {
     "fetched_at": "2026-09-01",
+    "time": null
+  },
+  "https://www.tng-lyon.fr/evenement/atelier-de-pratique-theatrale-en-lsf/": {
+    "fetched_at": "2026-09-07",
     "time": null
   },
   "https://www.tng-lyon.fr/evenement/atelier-decriture-pour-les-adolescent%c2%b7es-de-15-ans/": {
@@ -1085,6 +1093,10 @@
   },
   "https://www.tng-lyon.fr/evenement/superstrat/": {
     "fetched_at": "2026-09-01",
+    "time": null
+  },
+  "https://www.tng-lyon.fr/evenement/traversee/": {
+    "fetched_at": "2026-09-07",
     "time": null
   },
   "https://www.tng-lyon.fr/evenement/visite-tactile-dautres-familles-que-la-mienne/": {

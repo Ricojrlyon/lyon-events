@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-06T10:00:47.575932+00:00",
-  "count": 1268,
+  "generated_at": "2026-09-07T08:03:05.546677+00:00",
+  "count": 1149,
   "events": [
     {
       "venue": "Opéra national de Lyon",
@@ -21,12 +21,12 @@
       "title": "Rétrospective Simone Signoret",
       "subtitle": null,
       "category": null,
-      "date_start": "2026-09-06",
+      "date_start": "2026-09-07",
       "date_end": "2026-10-03",
       "time": null,
       "url": "https://www.petit-bulletin.fr/agenda-319118-r-trospective-simone-signoret.html",
       "image": null,
-      "id": "be63602f5ace"
+      "id": "9a04cdcca555"
     },
     {
       "venue": "Institut Lumière",
@@ -34,233 +34,12 @@
       "title": "Rétrospective Milos Forman",
       "subtitle": null,
       "category": null,
-      "date_start": "2026-09-06",
+      "date_start": "2026-09-07",
       "date_end": "2026-10-04",
       "time": null,
       "url": "https://www.petit-bulletin.fr/agenda-319119-r-trospective-milos-forman.html",
       "image": null,
-      "id": "a69196d588e9"
-    },
-    {
-      "venue": "La Commune",
-      "venue_slug": "la-commune",
-      "title": "Atelier créatif pour enfants à Lyon",
-      "subtitle": null,
-      "category": "atelier",
-      "date_start": "2026-09-06",
-      "date_end": null,
-      "time": null,
-      "url": "https://lacommune.co/event/atelier-creatif-pour-enfants-a-lyon/",
-      "image": "https://cdn-ilchkjh.nitrocdn.com/gohSAQIvPXRxVnCrOMzXdhxFQyClcfyS/assets/images/optimized/rev-019d817/lacommune.co/wp-content/uploads/2025/04/6-1-768x960.jpg",
-      "id": "e293622a9145"
-    },
-    {
-      "venue": "La Galerue",
-      "venue_slug": "la-galerue",
-      "title": "Perrine Dusseaux",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-09-06",
-      "date_end": "2026-10-02",
-      "time": null,
-      "url": "https://www.petit-bulletin.fr/agenda-319241-perrine-dusseaux.html",
-      "image": null,
-      "id": "f12505f2a325"
-    },
-    {
-      "venue": "Office de tourisme",
-      "venue_slug": "office-de-tourisme",
-      "title": "Crimes et faits divers à Lyon",
-      "subtitle": null,
-      "category": "Visites",
-      "date_start": "2026-09-06",
-      "date_end": null,
-      "time": "09:30",
-      "url": "https://www.petit-bulletin.fr/agenda-319171-crimes-et-faits-divers-lyon.html",
-      "image": null,
-      "id": "d40dd8d012e1"
-    },
-    {
-      "venue": "Grand Hôtel-Dieu",
-      "venue_slug": "grand-hotel-dieu",
-      "title": "Alphonse Mucha",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-09-06",
-      "date_end": "2027-01-24",
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319044-alphonse-mucha.html",
-      "image": null,
-      "id": "2029f47bf607"
-    },
-    {
-      "venue": "Tomaselli Collection",
-      "venue_slug": "tomaselli-collection",
-      "title": "Le Rhône et la Saône vus par les artistes",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-09-06",
-      "date_end": "2027-02-17",
-      "time": "10:30",
-      "url": "https://www.petit-bulletin.fr/agenda-319070-le-rh-ne-et-la-sa-ne-vus-par-les-artistes.html",
-      "image": null,
-      "id": "af201dee5ba5"
-    },
-    {
-      "venue": "CAUE du Rhône",
-      "venue_slug": "caue-du-rhone",
-      "title": "Materia Architectures",
-      "subtitle": null,
-      "category": "Design & Architecture",
-      "date_start": "2026-09-06",
-      "date_end": "2026-11-06",
-      "time": "13:00",
-      "url": "https://www.petit-bulletin.fr/agenda-318618-materia-architectures.html",
-      "image": null,
-      "id": "47989b17aea4"
-    },
-    {
-      "venue": "Chapelle Notre-Dame-de-l\\'île-Barbe",
-      "venue_slug": "chapelle-notre-dame-de-l-ile-barbe",
-      "title": "Des corps célestes",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-09-06",
-      "date_end": "2026-09-20",
-      "time": "14:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319038-des-corps-c-lestes.html",
-      "image": null,
-      "id": "7919011e3121"
-    },
-    {
-      "venue": "Maison Ravier",
-      "venue_slug": "maison-ravier",
-      "title": "Héroïnes d'opéra, costumes de scène",
-      "subtitle": null,
-      "category": "Design & Architecture",
-      "date_start": "2026-09-06",
-      "date_end": "2026-10-31",
-      "time": "14:00",
-      "url": "https://www.petit-bulletin.fr/agenda-318785-h-ro-nes-deop-ra-costumes-de-sc-ne.html",
-      "image": null,
-      "id": "fb6f91fc023f"
-    },
-    {
-      "venue": "La Salle de bains",
-      "venue_slug": "la-salle-de-bains",
-      "title": "Francesc Ruiz",
-      "subtitle": null,
-      "category": "Art contemporain et numérique",
-      "date_start": "2026-09-06",
-      "date_end": "2026-10-03",
-      "time": "15:00",
-      "url": "https://www.petit-bulletin.fr/agenda-318500-francesc-ruiz.html",
-      "image": null,
-      "id": "3e344ab4f2f7"
-    },
-    {
-      "venue": "Agend'arts",
-      "venue_slug": "agend-arts",
-      "title": "Concert de Lucas Rocher + LeHache all stars en première partie",
-      "subtitle": null,
-      "category": "musique",
-      "date_start": "2026-09-06",
-      "date_end": null,
-      "time": "18:00",
-      "url": "https://agenda.villemorte.fr/event/concert-de-lucas-rocher-lehache-all-stars-en-premiere-partie",
-      "image": "https://agenda.villemorte.fr/media/thumb/45c6a3492f375e6d107ab8e222bf34e3.jpg",
-      "id": "1db4a87a5542"
-    },
-    {
-      "venue": "Le Sucre",
-      "venue_slug": "le-sucre",
-      "title": "S.society x RSLCE",
-      "subtitle": "Caravel · Carla Schmitt · Peaksou",
-      "category": "club",
-      "date_start": "2026-09-06",
-      "date_end": null,
-      "time": "18:00",
-      "url": "https://le-sucre.eu/events/s-society-caravel-peaksou-carla-schmitt/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/07/RSLCE-X-LE-SUCRE-SUNSET-480x600.png",
-      "id": "de5c72475759"
-    },
-    {
-      "venue": "Espace Gerson",
-      "venue_slug": "espace-gerson",
-      "title": "Le Voisin #3",
-      "subtitle": null,
-      "category": "Théâtre",
-      "date_start": "2026-09-06",
-      "date_end": "2026-10-31",
-      "time": "18:45",
-      "url": "https://www.petit-bulletin.fr/agenda-317995-le-voisin-3.html",
-      "image": null,
-      "id": "9fac318df25b"
-    },
-    {
-      "venue": "Improvidence",
-      "venue_slug": "improvidence",
-      "title": "CATCH IMPRO - Tournoi Régional",
-      "subtitle": null,
-      "category": "café-théâtre",
-      "date_start": "2026-09-06",
-      "date_end": null,
-      "time": "19:30",
-      "url": "https://improvidence.mapado.com/event/3736-catch-impro-tournoi-regional",
-      "image": "https://img.mapado.net/2024/9/17/66e94c9a6d29f-vignette-catch.jpeg_thumbs/600-600.jpeg",
-      "id": "23ecaff654fb"
-    },
-    {
-      "venue": "Ninkasi Cordeliers",
-      "venue_slug": "ninkasi-cordeliers",
-      "title": "Crazy blind test spécial rentrée",
-      "subtitle": null,
-      "category": "Jeux",
-      "date_start": "2026-09-06",
-      "date_end": null,
-      "time": "19:30",
-      "url": "https://www.petit-bulletin.fr/agenda-319161-crazy-blind-test-sp-cial-rentr-e.html",
-      "image": null,
-      "id": "0020c3551d33"
-    },
-    {
-      "venue": "Comédie Odéon",
-      "venue_slug": "comedie-odeon",
-      "title": "La Machine de Turing",
-      "subtitle": null,
-      "category": "Théâtre",
-      "date_start": "2026-09-06",
-      "date_end": "2026-10-30",
-      "time": "20:00",
-      "url": "https://www.petit-bulletin.fr/agenda-315208-la-machine-de-turing.html",
-      "image": null,
-      "id": "15edb6e8ea3d"
-    },
-    {
-      "venue": "Parc des Oiseaux",
-      "venue_slug": "parc-des-oiseaux",
-      "title": "Matt Pokora",
-      "subtitle": null,
-      "category": "Rock & Pop",
-      "date_start": "2026-09-06",
-      "date_end": null,
-      "time": "20:00",
-      "url": "https://www.petit-bulletin.fr/agenda-179534-matt-pokora.html",
-      "image": null,
-      "id": "dadccfc6553c"
-    },
-    {
-      "venue": "Le Complexe café-théâtre",
-      "venue_slug": "le-complexe-cafe-theatre",
-      "title": "Complexe comedy club",
-      "subtitle": null,
-      "category": "Humour & Café Théâtre",
-      "date_start": "2026-09-06",
-      "date_end": "2026-10-03",
-      "time": "20:30",
-      "url": "https://www.petit-bulletin.fr/agenda-307482-complexe-comedy-club.html",
-      "image": null,
-      "id": "496232623578"
+      "id": "5d4711f0b970"
     },
     {
       "venue": "La Commune",
@@ -276,6 +55,19 @@
       "id": "2fbb4795dc7e"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Le Voisin #3",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-09-07",
+      "date_end": "2026-10-31",
+      "time": "18:45",
+      "url": "https://www.petit-bulletin.fr/agenda-317995-le-voisin-3.html",
+      "image": null,
+      "id": "c1f71b7cd362"
+    },
+    {
       "venue": "Théâtre des Marronniers",
       "venue_slug": "theatre-des-marronniers",
       "title": "Présentation de saison",
@@ -287,6 +79,32 @@
       "url": "https://www.petit-bulletin.fr/agenda-319096-pr-sentation-de-saison.html",
       "image": null,
       "id": "5ad958e49633"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "La Machine de Turing",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-09-07",
+      "date_end": "2026-10-30",
+      "time": "20:00",
+      "url": "https://www.petit-bulletin.fr/agenda-315208-la-machine-de-turing.html",
+      "image": null,
+      "id": "5c3ece87e627"
+    },
+    {
+      "venue": "Le Complexe café-théâtre",
+      "venue_slug": "le-complexe-cafe-theatre",
+      "title": "Complexe comedy club",
+      "subtitle": null,
+      "category": "Humour & Café Théâtre",
+      "date_start": "2026-09-07",
+      "date_end": "2026-10-03",
+      "time": "20:30",
+      "url": "https://www.petit-bulletin.fr/agenda-307482-complexe-comedy-club.html",
+      "image": null,
+      "id": "3be79aec49d0"
     },
     {
       "venue": "Le Complexe café-théâtre",
@@ -318,13 +136,13 @@
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
       "title": "Magic Mardi",
-      "subtitle": "Saku Sahara · Evy Joy · Orcus",
+      "subtitle": null,
       "category": "Musique Electronique",
       "date_start": "2026-09-08",
       "date_end": null,
       "time": "18:00",
-      "url": "https://le-sucre.eu/events/magic-mardi-23-2/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/08/Plan-de-travail-24-copie-3-480x600.png",
+      "url": "https://www.petit-bulletin.fr/agenda-315509-magic-mardi.html",
+      "image": null,
       "id": "275669d0aa9c"
     },
     {
@@ -417,19 +235,6 @@
       "url": "https://www.petit-bulletin.fr/agenda-296542-sandrine-alexi.html",
       "image": null,
       "id": "4c701cb8b1a3"
-    },
-    {
-      "venue": "L'attrape-couleurs",
-      "venue_slug": "l-attrape-couleurs",
-      "title": "Louise Perrussel",
-      "subtitle": null,
-      "category": "Art contemporain et numérique",
-      "date_start": "2026-09-09",
-      "date_end": "2026-11-07",
-      "time": "14:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319075-louise-perrussel.html",
-      "image": null,
-      "id": "9ccea17ff1b0"
     },
     {
       "venue": "Parc de la mairie du 5e",
@@ -560,19 +365,6 @@
       "url": "https://lacommune.co/event/les-vins-electroniques-dj-kunawara/",
       "image": "https://cdn-ilchkjh.nitrocdn.com/gohSAQIvPXRxVnCrOMzXdhxFQyClcfyS/assets/images/optimized/rev-019d817/lacommune.co/wp-content/uploads/2026/05/1080x1350_sept-768x960.jpg",
       "id": "1678da52ddc5"
-    },
-    {
-      "venue": "Fondation Bullukian",
-      "venue_slug": "fondation-bullukian",
-      "title": "Des faits comme défis",
-      "subtitle": null,
-      "category": "Art contemporain et numérique",
-      "date_start": "2026-09-10",
-      "date_end": "2026-12-19",
-      "time": "11:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319047-des-faits-comme-d-fis.html",
-      "image": null,
-      "id": "ef910376136a"
     },
     {
       "venue": "Dr Yeast",
@@ -861,19 +653,6 @@
       "id": "d623acbea7cb"
     },
     {
-      "venue": "La BF15",
-      "venue_slug": "la-bf15",
-      "title": "Charlotte Maucourt et Margot Pietri",
-      "subtitle": null,
-      "category": "Art contemporain et numérique",
-      "date_start": "2026-09-11",
-      "date_end": "2026-10-31",
-      "time": "14:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319094-charlotte-maucourt-et-margot-pietri.html",
-      "image": null,
-      "id": "72c03ed38113"
-    },
-    {
       "venue": "Bibliothèque de la Part-Dieu",
       "venue_slug": "bibliotheque-de-la-part-dieu",
       "title": "La Sélection : NVST",
@@ -928,15 +707,15 @@
     {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
-      "title": "MARIE SARAH",
+      "title": "Marie Sarah",
       "subtitle": null,
-      "category": "concert",
+      "category": "Soul & Funk",
       "date_start": "2026-09-11",
       "date_end": null,
       "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/marie-sarah-11092026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/04/a-mariesarah.jpeg",
-      "id": "3e707d941a59"
+      "url": "https://www.petit-bulletin.fr/agenda-318946-marie-sarah.html",
+      "image": null,
+      "id": "02a2476c1bc9"
     },
     {
       "venue": "Les Subsistances",
@@ -1052,7 +831,7 @@
       "date_end": null,
       "time": "20:00",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/m-pokora-3",
-      "image": "https://www.halle-tony-garnier.com/storage/143535/conversions/2026-09-11-M-POKORA-mpokora-carre-lyon-20251201-141703-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143598/conversions/2026-09-11-M-POKORA-mpokora-carre-lyon-20251201-141703-square.jpg",
       "id": "9be61b916918"
     },
     {
@@ -1149,15 +928,15 @@
     {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
-      "title": "Club x OSHUMARÉ",
-      "subtitle": "Oshumaré · DJ Pompompom · DJ L’yle · DJ Fantastik",
-      "category": "club",
+      "title": "Club x Oshumaré",
+      "subtitle": null,
+      "category": "Musique Electronique",
       "date_start": "2026-09-11",
       "date_end": null,
       "time": "23:00",
-      "url": "https://le-sucre.eu/events/stack-x-oshumare/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/07/IMG_2936-600x400.jpg",
-      "id": "ae0d16d9bb82"
+      "url": "https://www.petit-bulletin.fr/agenda-314901-club-x-oshumar.html",
+      "image": null,
+      "id": "c0bd42b84083"
     },
     {
       "venue": "La Commune",
@@ -1212,19 +991,6 @@
       "id": "4a40fde962fe"
     },
     {
-      "venue": "Autour de l'image",
-      "venue_slug": "autour-de-l-image",
-      "title": "Mirages textiles, fragments d'apparitions",
-      "subtitle": null,
-      "category": "Design & Architecture",
-      "date_start": "2026-09-12",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319236-mirages-textiles-fragments-deapparitions.html",
-      "image": null,
-      "id": "ce00048130cb"
-    },
-    {
       "venue": "Théâtre de la Croix-Rousse",
       "venue_slug": "theatre-de-la-croix-rousse",
       "title": "Fête de rentrée du Théâtre de la Croix-Rousse",
@@ -1236,19 +1002,6 @@
       "url": "https://www.petit-bulletin.fr/agenda-311097-f-te-de-rentr-e-du-th-tre-de-la-croix-rousse.html",
       "image": null,
       "id": "05acfb4faecb"
-    },
-    {
-      "venue": "Orangerie du Parc de la Tête d\\'Or",
-      "venue_slug": "orangerie-du-parc-de-la-tete-d-or",
-      "title": "Le vestiaire des destinées",
-      "subtitle": null,
-      "category": "Design & Architecture",
-      "date_start": "2026-09-12",
-      "date_end": null,
-      "time": "11:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319071-le-vestiaire-des-destin-es.html",
-      "image": null,
-      "id": "7b9fb710235b"
     },
     {
       "venue": "Parc de Miribel-Jonage",
@@ -1357,15 +1110,15 @@
     {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
-      "title": "SATINE + DJ POMPOMPOM + BADDEST + N’ZOLA + LA FEE SEE + DJ L’YLE + DJ FANTASTIK",
+      "title": "Afro futurism open-air",
       "subtitle": null,
-      "category": "concert",
+      "category": "Musique Electronique",
       "date_start": "2026-09-12",
       "date_end": null,
       "time": "18:00",
-      "url": "https://www.transbordeur.fr/evenement/satine-dj-pompompom-baddest-nzola-la-fee-see-dj-lyle-dj-fantastik-12092026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/07/a-oshumare.jpg",
-      "id": "0a6151c77d2b"
+      "url": "https://www.petit-bulletin.fr/agenda-319077-afro-futurism-open-air.html",
+      "image": null,
+      "id": "4cbdaa49f0e4"
     },
     {
       "venue": "La Rayonne",
@@ -1604,15 +1357,15 @@
     {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
-      "title": "club X 20CONTRE1",
-      "subtitle": "Von Bikräv · Dikke Baap · Vilain · Sofiasca",
-      "category": "club",
+      "title": "Club x 20contre1",
+      "subtitle": null,
+      "category": "Musique Electronique",
       "date_start": "2026-09-12",
       "date_end": null,
       "time": "23:00",
-      "url": "https://le-sucre.eu/events/club-20contre1/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/07/2026-09-12-LYON-LE-SUCRE-INSTA-POST-V01-480x600.jpg",
-      "id": "551df9af7942"
+      "url": "https://www.petit-bulletin.fr/agenda-316167-club-x-20contre1.html",
+      "image": null,
+      "id": "429465e0b76e"
     },
     {
       "venue": "Le Petit Salon",
@@ -1639,19 +1392,6 @@
       "url": "https://www.petit-bulletin.fr/agenda-319149-festival-clats-de-cirque.html",
       "image": null,
       "id": "b101677a29a0"
-    },
-    {
-      "venue": "Orangerie du Parc de la Tête d\\'Or",
-      "venue_slug": "orangerie-du-parc-de-la-tete-d-or",
-      "title": "Le vestiaire des destinées",
-      "subtitle": null,
-      "category": "Design & Architecture",
-      "date_start": "2026-09-13",
-      "date_end": null,
-      "time": "11:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319071-le-vestiaire-des-destin-es.html",
-      "image": null,
-      "id": "a1a8a2dc4884"
     },
     {
       "venue": "Parc de Miribel-Jonage",
@@ -1719,19 +1459,6 @@
       "id": "cc6693460b20"
     },
     {
-      "venue": "Le Sucre",
-      "venue_slug": "le-sucre",
-      "title": "S.society x Primal Instinct",
-      "subtitle": "Chlär · Blanka · Glaskin (live)",
-      "category": "club",
-      "date_start": "2026-09-13",
-      "date_end": null,
-      "time": "18:00",
-      "url": "https://le-sucre.eu/events/s-society-primal-instinct/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/07/Chlar_press_byOriolReverter_JPG_10-600x463.jpg",
-      "id": "2458f25a1fcf"
-    },
-    {
       "venue": "Opéra national de Lyon",
       "venue_slug": "opera-lyon",
       "title": "Wagner / Bruckner",
@@ -1782,19 +1509,6 @@
       "url": "https://lacommune.co/event/karaoke-live-cherry-chap-concert-karaoke-avec-musiciens/",
       "image": "https://cdn-ilchkjh.nitrocdn.com/gohSAQIvPXRxVnCrOMzXdhxFQyClcfyS/assets/images/optimized/rev-019d817/lacommune.co/wp-content/uploads/2026/04/14-1-768x960.jpg",
       "id": "99295869ddd3"
-    },
-    {
-      "venue": "Orangerie du Parc de la Tête d\\'Or",
-      "venue_slug": "orangerie-du-parc-de-la-tete-d-or",
-      "title": "Le vestiaire des destinées",
-      "subtitle": null,
-      "category": "Design & Architecture",
-      "date_start": "2026-09-14",
-      "date_end": null,
-      "time": "11:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319071-le-vestiaire-des-destin-es.html",
-      "image": null,
-      "id": "b98b84edcc7e"
     },
     {
       "venue": "LDLC Arena",
@@ -1849,29 +1563,16 @@
       "id": "cc03164048c9"
     },
     {
-      "venue": "Orangerie du Parc de la Tête d\\'Or",
-      "venue_slug": "orangerie-du-parc-de-la-tete-d-or",
-      "title": "Le vestiaire des destinées",
-      "subtitle": null,
-      "category": "Design & Architecture",
-      "date_start": "2026-09-15",
-      "date_end": null,
-      "time": "11:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319071-le-vestiaire-des-destin-es.html",
-      "image": null,
-      "id": "059d1bcc1e15"
-    },
-    {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
       "title": "Magic Mardi",
-      "subtitle": "BADDEST · Schnautzi · SLMVX",
+      "subtitle": null,
       "category": "Musique Electronique",
       "date_start": "2026-09-15",
       "date_end": null,
       "time": "18:00",
-      "url": "https://le-sucre.eu/events/magic-mardi-24-2/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/08/Plan-de-travail-24-copie-2-480x600.png",
+      "url": "https://www.petit-bulletin.fr/agenda-315415-magic-mardi.html",
+      "image": null,
       "id": "5e1d9bdb067c"
     },
     {
@@ -1951,32 +1652,6 @@
       "url": "https://lacommune.co/event/salsa-bachata/",
       "image": "https://cdn-ilchkjh.nitrocdn.com/gohSAQIvPXRxVnCrOMzXdhxFQyClcfyS/assets/images/optimized/rev-019d817/lacommune.co/wp-content/uploads/2025/10/16-1-768x960.jpg",
       "id": "8a04e4d724a9"
-    },
-    {
-      "venue": "Saint-Cyr-au-Mont-d\\'Or",
-      "venue_slug": "saint-cyr-au-mont-d-or",
-      "title": "La traversée",
-      "subtitle": null,
-      "category": "Art contemporain et numérique",
-      "date_start": "2026-09-16",
-      "date_end": "2026-10-02",
-      "time": null,
-      "url": "https://www.petit-bulletin.fr/agenda-319136-la-travers-e.html",
-      "image": null,
-      "id": "06477fe163a3"
-    },
-    {
-      "venue": "Orangerie du Parc de la Tête d\\'Or",
-      "venue_slug": "orangerie-du-parc-de-la-tete-d-or",
-      "title": "Le vestiaire des destinées",
-      "subtitle": null,
-      "category": "Design & Architecture",
-      "date_start": "2026-09-16",
-      "date_end": null,
-      "time": "11:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319071-le-vestiaire-des-destin-es.html",
-      "image": null,
-      "id": "777cc4918f03"
     },
     {
       "venue": "Archives municipales de Lyon",
@@ -2135,19 +1810,6 @@
       "id": "fff51d98da4f"
     },
     {
-      "venue": "Ceysson & Bénétière",
-      "venue_slug": "ceysson-benetiere",
-      "title": "Lionel Sabatté",
-      "subtitle": null,
-      "category": "Art contemporain et numérique",
-      "date_start": "2026-09-17",
-      "date_end": "2026-10-24",
-      "time": "11:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319052-lionel-sabatt.html",
-      "image": null,
-      "id": "33d2d6dc5672"
-    },
-    {
       "venue": "Archives municipales de Lyon",
       "venue_slug": "archives-municipales-de-lyon",
       "title": "Natalie Zemon Davis",
@@ -2215,15 +1877,15 @@
     {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
-      "title": "LA COLONIE DE VACANCES + REBECCA BONTE",
+      "title": "La Colonie de Vacances",
       "subtitle": null,
-      "category": "concert",
+      "category": "Rock & Pop",
       "date_start": "2026-09-17",
       "date_end": null,
       "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/la-colonie-de-vacances-rebecca-bonte-17092026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/03/COLO_02_bichro_creditjeromeblin-a-portrait.jpg",
-      "id": "8bb597d3f63a"
+      "url": "https://www.petit-bulletin.fr/agenda-286577-la-colonie-de-vacances.html",
+      "image": null,
+      "id": "64fe78c40ecb"
     },
     {
       "venue": "Improvidence",
@@ -2443,7 +2105,7 @@
       "date_end": null,
       "time": "13:00",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/the-ink-factory-7",
-      "image": "https://www.halle-tony-garnier.com/storage/143536/conversions/2026-09-18-THE-INK-FACTORY-ink-factory-carre-htg-20260604-085332-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143599/conversions/2026-09-18-THE-INK-FACTORY-ink-factory-carre-htg-20260604-085332-square.jpg",
       "id": "6b6ecac2d670"
     },
     {
@@ -2761,15 +2423,15 @@
     {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
-      "title": "club",
-      "subtitle": "Lolalita and Brennt (live) · Noël Minitel · Saku Sahara",
-      "category": "club",
+      "title": "Club",
+      "subtitle": null,
+      "category": "Musique Electronique",
       "date_start": "2026-09-18",
       "date_end": null,
       "time": "23:00",
-      "url": "https://le-sucre.eu/events/happycorp/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/07/4E6A5CED-F6E5-4803-8B08-184D42E865A8_1_105_c-600x600.jpeg",
-      "id": "9a5fded338d9"
+      "url": "https://www.petit-bulletin.fr/agenda-319086-club.html",
+      "image": null,
+      "id": "be8ff36f6c9b"
     },
     {
       "venue": "La Halle Tony Garnier",
@@ -2781,7 +2443,7 @@
       "date_end": null,
       "time": "10:00",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/the-ink-factory-8",
-      "image": "https://www.halle-tony-garnier.com/storage/143537/conversions/2026-09-19-THE-INK-FACTORY-ink-factory-carre-htg-20260604-090312-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143600/conversions/2026-09-19-THE-INK-FACTORY-ink-factory-carre-htg-20260604-090312-square.jpg",
       "id": "827ab69f8b1b"
     },
     {
@@ -2811,19 +2473,6 @@
       "id": "f7e27ec4e52d"
     },
     {
-      "venue": "URDLA",
-      "venue_slug": "urdla",
-      "title": "Delphine Reist",
-      "subtitle": null,
-      "category": "Art contemporain et numérique",
-      "date_start": "2026-09-19",
-      "date_end": "2026-12-19",
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-318982-delphine-reist.html",
-      "image": null,
-      "id": "fafc5f0e4c02"
-    },
-    {
       "venue": "Brasserie Georges",
       "venue_slug": "brasserie-georges",
       "title": "190 ans de la Brasserie Georges",
@@ -2835,19 +2484,6 @@
       "url": "https://www.petit-bulletin.fr/agenda-319242-190-ans-de-la-brasserie-georges.html",
       "image": null,
       "id": "1cb65481722f"
-    },
-    {
-      "venue": "Centre d'échanges de Perrache",
-      "venue_slug": "centre-d-echanges-de-perrache",
-      "title": "AiRT de famille",
-      "subtitle": null,
-      "category": "Design & Architecture",
-      "date_start": "2026-09-19",
-      "date_end": null,
-      "time": "11:00",
-      "url": "https://www.petit-bulletin.fr/agenda-285983-airt-de-famille.html",
-      "image": null,
-      "id": "3433d8673947"
     },
     {
       "venue": "IAC Villeurbanne",
@@ -2956,15 +2592,15 @@
     {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
-      "title": "ROTATIONAL + OHJEELO + 2SIK! DJS",
+      "title": "2SIK! Open-air",
       "subtitle": null,
-      "category": "concert",
+      "category": "Clubbing",
       "date_start": "2026-09-19",
       "date_end": null,
       "time": "18:00",
-      "url": "https://www.transbordeur.fr/evenement/rotational-ohjeelo-2sik-djs-19092026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/07/a-Rotational.png",
-      "id": "6affd8c115d3"
+      "url": "https://www.petit-bulletin.fr/agenda-315231-2sik-open-air.html",
+      "image": null,
+      "id": "f11f813d87f2"
     },
     {
       "venue": "MJC Louis Aragon / Jack Jack",
@@ -3139,27 +2775,27 @@
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
       "title": "Le Sucre feat Reperkusound - Open air edition",
-      "subtitle": "Line-up soon !",
-      "category": "club",
+      "subtitle": null,
+      "category": "Musique Electronique",
       "date_start": "2026-09-19",
       "date_end": null,
       "time": "23:00",
-      "url": "https://le-sucre.eu/events/le-sucre-feat-reperkusound-open-air-edition/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/05/MAGIC-MARDI-182-400x600.jpg",
+      "url": "https://www.petit-bulletin.fr/agenda-319087-le-sucre-feat-reperkusound-open-air-edition.html",
+      "image": null,
       "id": "f063d078f7ef"
     },
     {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
-      "title": "Club : Garçon Sauvage x Polaris records",
-      "subtitle": "Cormac · Jordan Nocturne · L’Homme Seul",
-      "category": "club",
+      "title": "Garçon Sauvage x Polari records",
+      "subtitle": null,
+      "category": "Musique Electronique",
       "date_start": "2026-09-19",
       "date_end": null,
       "time": "23:00",
-      "url": "https://le-sucre.eu/events/club-garcon-sauvage-polaris-records/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/07/Post-insta-GS-POLARIFormat_1080X1350-484x600.png",
-      "id": "b78895a7b09d"
+      "url": "https://www.petit-bulletin.fr/agenda-319088-gar-on-sauvage-x-polari-records.html",
+      "image": null,
+      "id": "bcf5bc2ecfb3"
     },
     {
       "venue": "Le Petit Salon",
@@ -3184,7 +2820,7 @@
       "date_end": null,
       "time": "10:00",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/the-ink-factory-9",
-      "image": "https://www.halle-tony-garnier.com/storage/143538/conversions/2026-09-20-THE-INK-FACTORY-ink-factory-carre-htg-20260604-091002-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143601/conversions/2026-09-20-THE-INK-FACTORY-ink-factory-carre-htg-20260604-091002-square.jpg",
       "id": "30d1bfca9c30"
     },
     {
@@ -3294,15 +2930,15 @@
     {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
-      "title": "S.society",
-      "subtitle": "Dave Clarke · Yasmin Regisford · Maïa Neel",
-      "category": "club",
+      "title": "S. society",
+      "subtitle": null,
+      "category": "Musique Electronique",
       "date_start": "2026-09-20",
       "date_end": null,
       "time": "18:00",
-      "url": "https://le-sucre.eu/events/s-society-160/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/07/Dave-Clarke_20250731_©-Bastiaan-Woudt_Low-Res_0005_-450x600.jpeg",
-      "id": "352dc87123ef"
+      "url": "https://www.petit-bulletin.fr/agenda-312640-s-society.html",
+      "image": null,
+      "id": "89aad8b94790"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -3320,15 +2956,15 @@
     {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
-      "title": "ASGEIR + HAILAKER",
+      "title": "Ásgeir",
       "subtitle": null,
-      "category": "concert",
+      "category": "Rock & Pop",
       "date_start": "2026-09-20",
       "date_end": null,
       "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/asgeir-hailaker-20092026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/02/a-asgeir.jpeg",
-      "id": "78d1b3ebbeed"
+      "url": "https://www.petit-bulletin.fr/agenda-175188-sgeir.html",
+      "image": null,
+      "id": "54e0ff8cab41"
     },
     {
       "venue": "Improvidence",
@@ -3425,13 +3061,13 @@
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
       "title": "Magic Mardi",
-      "subtitle": "Warum",
+      "subtitle": null,
       "category": "Musique Electronique",
       "date_start": "2026-09-22",
       "date_end": null,
       "time": "18:00",
-      "url": "https://le-sucre.eu/events/magic-mardi-25-2/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/08/Plan-de-travail-24-copie-6-480x600.png",
+      "url": "https://www.petit-bulletin.fr/agenda-315933-magic-mardi.html",
+      "image": null,
       "id": "5a3930d42f14"
     },
     {
@@ -3450,15 +3086,15 @@
     {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
-      "title": "ONLY THE POETS",
+      "title": "Only the poets",
       "subtitle": null,
-      "category": "concert",
+      "category": "Rock & Pop",
       "date_start": "2026-09-22",
       "date_end": null,
       "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/only-the-poets-22092026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/05/a-onlythepoets2.png",
-      "id": "65c92223b2f1"
+      "url": "https://www.petit-bulletin.fr/agenda-318947-only-the-poets.html",
+      "image": null,
+      "id": "a73f26ba8688"
     },
     {
       "venue": "Collège Supérieur Lyon",
@@ -3840,15 +3476,15 @@
     {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
-      "title": "AFAR + CANINE CRACKS + 2016",
+      "title": "Club punk open-air",
       "subtitle": null,
-      "category": "concert",
+      "category": "Rock & Pop",
       "date_start": "2026-09-24",
       "date_end": null,
       "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/afar-canine-cracks-2016-24092026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/07/a-afar.jpeg",
-      "id": "7fff1e06e0e2"
+      "url": "https://www.petit-bulletin.fr/agenda-319078-club-punk-open-air.html",
+      "image": null,
+      "id": "63150329994f"
     },
     {
       "venue": "Toï Toï le Zinc",
@@ -4124,6 +3760,19 @@
       "id": "0d6e41a289c8"
     },
     {
+      "venue": "Grrrnd Zero",
+      "venue_slug": "grrrnd-zero",
+      "title": "Meryll Ampe + IVM Trio + Propel + Sett",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-09-25",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://agenda.villemorte.fr/event/explain-yourselves-meryll-ampe",
+      "image": "https://agenda.villemorte.fr/media/thumb/9b001e526da558f72ae6fd238d22ba05.jpg",
+      "id": "5ffafe4d1027"
+    },
+    {
       "venue": "A Thou Bout d'Chant",
       "venue_slug": "a-thou-bout-d-chant",
       "title": "Fredo des Ogres de Barback",
@@ -4200,19 +3849,6 @@
       "url": "https://www.petit-bulletin.fr/agenda-288842-pablo-mira.html",
       "image": null,
       "id": "b6b13347c337"
-    },
-    {
-      "venue": "Grrrnd Zero",
-      "venue_slug": "grrrnd-zero",
-      "title": "Explain Yourselves + Meryll Ampe",
-      "subtitle": null,
-      "category": null,
-      "date_start": "2026-09-25",
-      "date_end": null,
-      "time": "20:00",
-      "url": "https://agenda.villemorte.fr/event/explain-yourselves-meryll-ampe",
-      "image": null,
-      "id": "c6f4e9a88fd3"
     },
     {
       "venue": "Marché Gare",
@@ -4322,13 +3958,13 @@
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
       "title": "TBM - 8 years birthday",
-      "subtitle": "David Asko · ÆSTR · Hugo Prime · Boyca",
-      "category": "club",
+      "subtitle": null,
+      "category": "Musique Electronique",
       "date_start": "2026-09-25",
       "date_end": null,
       "time": "23:00",
-      "url": "https://le-sucre.eu/events/club-tbm/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/08/20260925_TBM_Lyon-sucre_insta_publi_1080x1350_B-480x600.jpg",
+      "url": "https://www.petit-bulletin.fr/agenda-319089-tbm-8-years-birthday.html",
+      "image": null,
       "id": "085ae50e2231"
     },
     {
@@ -4555,15 +4191,15 @@
     {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
-      "title": "ANIMAL NOCTURNE + ENIRAM + SIBEL S. + SOFIASCA",
+      "title": "Blazing Women open air",
       "subtitle": null,
-      "category": "concert",
+      "category": "Musique Electronique",
       "date_start": "2026-09-26",
       "date_end": null,
       "time": "18:00",
-      "url": "https://www.transbordeur.fr/evenement/animal-nocturne-eniram-sibel-s-sofiasca-26092026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/07/a-animalnocturne2.jpg",
-      "id": "3db579b77de6"
+      "url": "https://www.petit-bulletin.fr/agenda-319079-blazing-women-open-air.html",
+      "image": null,
+      "id": "48fa2ae026ae"
     },
     {
       "venue": "Improvidence",
@@ -4698,28 +4334,28 @@
     {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
-      "title": "LESSSS",
+      "title": "23:59",
       "subtitle": null,
-      "category": "concert",
+      "category": "Musique Electronique",
       "date_start": "2026-09-26",
       "date_end": null,
       "time": "23:30",
-      "url": "https://www.transbordeur.fr/evenement/lessss-26092026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/07/a-lessss2.jpg",
-      "id": "34ace36e276a"
+      "url": "https://www.petit-bulletin.fr/agenda-315958-23-59.html",
+      "image": null,
+      "id": "a21b7dd10276"
     },
     {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
-      "title": "Le Sucre, 24 heures",
-      "subtitle": "Line-up soon !",
-      "category": "club",
+      "title": "Le Sucre 24 heures",
+      "subtitle": null,
+      "category": "Musique Electronique",
       "date_start": "2026-09-26",
       "date_end": null,
       "time": "23:55",
-      "url": "https://le-sucre.eu/events/le-sucre-24-heures-4/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/08/24h_affiche-OK--480x600.jpg",
-      "id": "b582a5abf3aa"
+      "url": "https://www.petit-bulletin.fr/agenda-311670-le-sucre-24-heures.html",
+      "image": null,
+      "id": "0e7902ab53e6"
     },
     {
       "venue": "Les Subsistances",
@@ -4798,19 +4434,6 @@
       "url": "https://improvidence.mapado.com/event/3736-catch-impro-tournoi-regional",
       "image": "https://img.mapado.net/2024/9/17/66e94c9a6d29f-vignette-catch.jpeg_thumbs/600-600.jpeg",
       "id": "4bc747a558a5"
-    },
-    {
-      "venue": "Le Sucre",
-      "venue_slug": "le-sucre",
-      "title": "Le Sucre, 24 heures",
-      "subtitle": "Line-up soon !",
-      "category": "club",
-      "date_start": "2026-09-27",
-      "date_end": null,
-      "time": "23:55",
-      "url": "https://le-sucre.eu/events/le-sucre-24-heures-3/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/08/24h_affiche-OK--480x600.jpg",
-      "id": "6bac500bb23b"
     },
     {
       "venue": "La Commune",
@@ -5242,19 +4865,6 @@
       "id": "24e75b98b113"
     },
     {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "MERYL",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2026-10-01",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/meryl-01102026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2024/04/a-meryl.jpeg",
-      "id": "a5b94fd348ca"
-    },
-    {
       "venue": "Les Subsistances",
       "venue_slug": "les-subs",
       "title": "Khalil Khalil",
@@ -5316,7 +4926,7 @@
       "date_end": null,
       "time": "20:00",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/the-world-of-queen",
-      "image": "https://www.halle-tony-garnier.com/storage/143539/conversions/2026-10-01-THE-WORLD-OF-QUEEN-3-visuel-twoq-carre-1080x1080-copi-20241011-163641-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143602/conversions/2026-10-01-THE-WORLD-OF-QUEEN-3-visuel-twoq-carre-1080x1080-copi-20241011-163641-square.jpg",
       "id": "3611a8088b2f"
     },
     {
@@ -5437,19 +5047,6 @@
       "id": "84e1dbb99dda"
     },
     {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "MIOSSEC",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2026-10-02",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/miossec-02102026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/06/a-miossec.jpeg",
-      "id": "bf85dc0945dc"
-    },
-    {
       "venue": "Les Subsistances",
       "venue_slug": "les-subs",
       "title": "Khalil Khalil",
@@ -5526,19 +5123,6 @@
       "url": "https://improvidence.mapado.com/event/619242-sitcom",
       "image": "https://img.mapado.net/2025/9/4/68b957ca950ae-sitcom-1.jpeg_thumbs/600-600.jpeg",
       "id": "25f3eef5c00e"
-    },
-    {
-      "venue": "Le Sucre",
-      "venue_slug": "le-sucre",
-      "title": "Blob Party",
-      "subtitle": "Line-up soon !",
-      "category": "club",
-      "date_start": "2026-10-02",
-      "date_end": null,
-      "time": "23:00",
-      "url": "https://le-sucre.eu/events/type-beat-x-blob-party/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/09/Blob_logo_16_9_bsp0px-600x338.jpg",
-      "id": "57e3c9fef916"
     },
     {
       "venue": "Bourse du Travail",
@@ -5697,32 +5281,6 @@
       "id": "b0fffd88307d"
     },
     {
-      "venue": "Le Sucre",
-      "venue_slug": "le-sucre",
-      "title": "club",
-      "subtitle": "Erol Alkan · Alex Wilcox (live) · Pechko",
-      "category": "club",
-      "date_start": "2026-10-03",
-      "date_end": null,
-      "time": "23:00",
-      "url": "https://le-sucre.eu/events/club-63/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/09/Erol-Alkan-2024-480x600.jpeg",
-      "id": "2ffdfc218b3b"
-    },
-    {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "JAH TUBBY’S + DIXIE PEACH + WANDEM SOUND SYSTEM & THE HORNSMEN SECTION + JÇÃO + DAVOJAH + JAEL",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2026-10-03",
-      "date_end": null,
-      "time": "23:30",
-      "url": "https://www.transbordeur.fr/evenement/jah-tubbys-dixie-peach-wandem-sound-system-the-hornsmen-section-jcao-davojah-jael-03102026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/07/a-dubecho54.jpg",
-      "id": "36ee0595661c"
-    },
-    {
       "venue": "Bourse du Travail",
       "venue_slug": "bourse-du-travail",
       "title": "Amine Radi - La Suivette - Tournée",
@@ -5864,19 +5422,6 @@
       "url": "https://marchegare.fr/agenda/dejeuner-concert-0",
       "image": "https://marchegare.fr/sites/marchegare/files/styles/large/public/2026-06/dejconcert-defaut.png",
       "id": "723fb5cef99c"
-    },
-    {
-      "venue": "Le Sucre",
-      "venue_slug": "le-sucre",
-      "title": "Magic Mardi",
-      "subtitle": "Line-up soon !",
-      "category": null,
-      "date_start": "2026-10-06",
-      "date_end": null,
-      "time": "18:00",
-      "url": "https://le-sucre.eu/events/magic-mardi-27-2/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/07/Plan-de-travail-24-copie-5-480x600.png",
-      "id": "6d279c35ef62"
     },
     {
       "venue": "L'Épicerie Moderne",
@@ -6100,19 +5645,6 @@
       "id": "d5ad37a58161"
     },
     {
-      "venue": "Le Sucre",
-      "venue_slug": "le-sucre",
-      "title": "Concert",
-      "subtitle": "Liv Del Estal",
-      "category": "concert",
-      "date_start": "2026-10-09",
-      "date_end": null,
-      "time": "18:30",
-      "url": "https://le-sucre.eu/events/concert-5/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/05/carre-600x600.png",
-      "id": "e6fe7cb2af26"
-    },
-    {
       "venue": "La Rayonne",
       "venue_slug": "la-rayonne",
       "title": "ANNULE // Swing",
@@ -6124,19 +5656,6 @@
       "url": "https://larayonne.org/evenement/swing/",
       "image": "https://larayonne.org/wp-content/uploads/2025/10/fb-concert-swing-lyon-30-janvier-2026-la-rayonne-rap-billetterie-high-lo-shotgun-500x281.jpg",
       "id": "cde7fd1ff511"
-    },
-    {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "GUY2BEZBAR",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2026-10-09",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/guy2bezbar-09102026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/02/a-guy2bezbar.png",
-      "id": "29ab8e777dff"
     },
     {
       "venue": "Maison du livre, de l'image et du son",
@@ -6243,19 +5762,6 @@
       "id": "870090e36517"
     },
     {
-      "venue": "Le Sucre",
-      "venue_slug": "le-sucre",
-      "title": "club",
-      "subtitle": "Line-up soon !",
-      "category": "club",
-      "date_start": "2026-10-09",
-      "date_end": null,
-      "time": "23:00",
-      "url": "https://le-sucre.eu/events/club-65/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/07/ACIDSOCIETY@noemielact-23-600x400.jpg",
-      "id": "ce7ddad13e95"
-    },
-    {
       "venue": "Bourse du Travail",
       "venue_slug": "bourse-du-travail",
       "title": "Pierre-Emmanuel Barré - Come Back (Tournée)",
@@ -6343,21 +5849,8 @@
       "date_end": null,
       "time": "18:00",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/soiree-d-ouverture-festival-lumiere",
-      "image": "https://www.halle-tony-garnier.com/storage/143540/conversions/2026-10-10-SOIREE-D-OUVERTURE-FESTIVAL-LUMIERE-fl2026-aff-rs-1080x1080-v2-20260630-111123-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143603/conversions/2026-10-10-SOIREE-D-OUVERTURE-FESTIVAL-LUMIERE-fl2026-aff-rs-1080x1080-v2-20260630-111123-square.jpg",
       "id": "c1ef497316fc"
-    },
-    {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "APPARAT + ANIKA",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2026-10-10",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/apparat-anika-10102026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/04/a-apparat-1.jpeg",
-      "id": "c06cf51919a7"
     },
     {
       "venue": "Improvidence",
@@ -6451,19 +5944,6 @@
       "id": "55621f759b00"
     },
     {
-      "venue": "Le Sucre",
-      "venue_slug": "le-sucre",
-      "title": "club Encore",
-      "subtitle": "Evian Christ · Clouds",
-      "category": "club",
-      "date_start": "2026-10-10",
-      "date_end": null,
-      "time": "23:00",
-      "url": "https://le-sucre.eu/events/club-encore/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/09/insta-3-480x600.jpg",
-      "id": "627d1d112b69"
-    },
-    {
       "venue": "La Commune",
       "venue_slug": "la-commune",
       "title": "Gones Crazy — Animaux des bois",
@@ -6486,7 +5966,7 @@
       "date_end": null,
       "time": "10:15",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/chaplin-en-cine-concert-festival-lumiere",
-      "image": "https://www.halle-tony-garnier.com/storage/143541/conversions/2026-10-11-CHAPLIN-EN-CINE-CONCERT-FESTIVAL-LUMIERE-fl26-rs-chaplin2-20260904-090630-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143604/conversions/2026-10-11-CHAPLIN-EN-CINE-CONCERT-FESTIVAL-LUMIERE-fl26-rs-chaplin2-20260904-090630-square.jpg",
       "id": "b157569987dc"
     },
     {
@@ -6503,19 +5983,6 @@
       "id": "9170ef3be488"
     },
     {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "FOLAMOUR",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2026-10-11",
-      "date_end": null,
-      "time": "17:00",
-      "url": "https://www.transbordeur.fr/evenement/folamour-11102026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/06/a-folamour3.jpg",
-      "id": "2ce1f67151eb"
-    },
-    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "WORLDS APART",
@@ -6527,19 +5994,6 @@
       "url": "https://radiant-bellevue.fr/spectacles/worlds-apart/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2025/12/worlds-apart_radiant-bellevue-500x500.jpg",
       "id": "0f83df41f48b"
-    },
-    {
-      "venue": "Le Sucre",
-      "venue_slug": "le-sucre",
-      "title": "S.society",
-      "subtitle": "Kangding Ray · & more",
-      "category": "club",
-      "date_start": "2026-10-11",
-      "date_end": null,
-      "time": "18:00",
-      "url": "https://le-sucre.eu/events/s-society-161/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/09/11_10-kangding-ray_-600x338.png",
-      "id": "fe61071a7c03"
     },
     {
       "venue": "Improvidence",
@@ -6607,30 +6061,17 @@
       "id": "05122fef4648"
     },
     {
-      "venue": "Le Sucre",
-      "venue_slug": "le-sucre",
-      "title": "Magic Mardi",
-      "subtitle": "Line-up soon !",
-      "category": null,
-      "date_start": "2026-10-13",
-      "date_end": null,
-      "time": "18:00",
-      "url": "https://le-sucre.eu/events/magic-mardi-28-2/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/07/Plan-de-travail-22-480x600.png",
-      "id": "3e95a6eca066"
-    },
-    {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
-      "title": "DJ KRUSH",
+      "title": "DJ Krush",
       "subtitle": null,
-      "category": "concert",
+      "category": "Musique Electronique",
       "date_start": "2026-10-13",
       "date_end": null,
       "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/dj-krush-13102026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/03/nb-djkrush-Grande.jpeg",
-      "id": "ee100081fce5"
+      "url": "https://www.petit-bulletin.fr/agenda-319174-dj-krush.html",
+      "image": null,
+      "id": "0b0294e78e36"
     },
     {
       "venue": "Agend'arts",
@@ -6737,19 +6178,6 @@
       "id": "7fc5fdc05d12"
     },
     {
-      "venue": "Friche Lamartine",
-      "venue_slug": "friche-lamartine",
-      "title": "Damien Saillard",
-      "subtitle": null,
-      "category": "Art contemporain et numérique",
-      "date_start": "2026-10-14",
-      "date_end": null,
-      "time": "16:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319224-damien-saillard.html",
-      "image": null,
-      "id": "f2ab3238d40c"
-    },
-    {
       "venue": "Alliance Française de Lyon (Lyon 3e) ·  Salle des Rancy (Lyon 3e) ·  Le Marché Gare (Lyon 2e)",
       "venue_slug": "alliance-francaise-de-lyon-lyon-3e-salle-des-rancy-lyon-3e-le-marche-gare-lyon-2e",
       "title": "Jarring Fest’ 2026 · 3 jours, 3 lieux du 14 au 16 octobre",
@@ -6774,19 +6202,6 @@
       "url": "https://larayonne.org/evenement/fakear/",
       "image": "https://larayonne.org/wp-content/uploads/2026/05/fakear-electro-lyon-fb-event-500x260.jpg",
       "id": "fc42470ceb78"
-    },
-    {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "FREDZ",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2026-10-14",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/fredz-14102026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/02/a-FREDZ_credits_Sacha-Cohen-visuel-automne.jpeg",
-      "id": "22d29d8d72e2"
     },
     {
       "venue": "Improvidence",
@@ -6852,19 +6267,6 @@
       "url": "https://improvidence.mapado.com/event/464896-les-soirees-dagatha",
       "image": "https://img.mapado.net/2024/12/2/674dca4844720-pes-soirees-agatha-2025-1.jpeg_thumbs/600-600.jpeg",
       "id": "81b11ea85348"
-    },
-    {
-      "venue": "Friche Lamartine",
-      "venue_slug": "friche-lamartine",
-      "title": "Damien Saillard",
-      "subtitle": null,
-      "category": "Art contemporain et numérique",
-      "date_start": "2026-10-15",
-      "date_end": null,
-      "time": "16:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319224-damien-saillard.html",
-      "image": null,
-      "id": "7b5075b14602"
     },
     {
       "venue": "Les Subsistances",
@@ -6982,19 +6384,6 @@
       "url": "https://improvidence.mapado.com/event/14113-mon-pote",
       "image": "https://img.mapado.net/2023/10/3/651c16e6edef5-affiche-mon-pote-web.jpeg_thumbs/600-600.jpeg",
       "id": "794b44057d31"
-    },
-    {
-      "venue": "Friche Lamartine",
-      "venue_slug": "friche-lamartine",
-      "title": "Damien Saillard",
-      "subtitle": null,
-      "category": "Art contemporain et numérique",
-      "date_start": "2026-10-16",
-      "date_end": null,
-      "time": "16:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319224-damien-saillard.html",
-      "image": null,
-      "id": "79d11ea44414"
     },
     {
       "venue": "La Rayonne",
@@ -7140,19 +6529,6 @@
       "id": "e4f430e11666"
     },
     {
-      "venue": "Le Sucre",
-      "venue_slug": "le-sucre",
-      "title": "club",
-      "subtitle": "Fasme (live) · Quadraschulz (live) · & more",
-      "category": "club",
-      "date_start": "2026-10-16",
-      "date_end": null,
-      "time": "23:00",
-      "url": "https://le-sucre.eu/events/club-64/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/09/DSCF0698-600x400.jpg",
-      "id": "07569d4e0d99"
-    },
-    {
       "venue": "Bourse du Travail",
       "venue_slug": "bourse-du-travail",
       "title": "Panayotis Pascot - Entre Les Deux - Tournée",
@@ -7177,19 +6553,6 @@
       "url": "https://www.les-subs.com/evenement/minipousses-cirque/",
       "image": "https://www.les-subs.com/wp-content/uploads/2024/04/re1604-1091-200x200.jpg",
       "id": "9b15f19ba5a2"
-    },
-    {
-      "venue": "Friche Lamartine",
-      "venue_slug": "friche-lamartine",
-      "title": "Damien Saillard",
-      "subtitle": null,
-      "category": "Art contemporain et numérique",
-      "date_start": "2026-10-17",
-      "date_end": null,
-      "time": "16:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319224-damien-saillard.html",
-      "image": null,
-      "id": "ed48a33d5a9b"
     },
     {
       "venue": "Improvidence",
@@ -7218,19 +6581,6 @@
       "id": "b8a3297f352a"
     },
     {
-      "venue": "Le Sucre",
-      "venue_slug": "le-sucre",
-      "title": "EXT.12",
-      "subtitle": "Line-up soon !",
-      "category": null,
-      "date_start": "2026-10-17",
-      "date_end": null,
-      "time": "18:00",
-      "url": "https://le-sucre.eu/events/ext-12-9/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/09/Plan-de-travail-66-600x600.png",
-      "id": "acfd2989dc6b"
-    },
-    {
       "venue": "La Rayonne",
       "venue_slug": "la-rayonne",
       "title": "VEN1",
@@ -7242,19 +6592,6 @@
       "url": "https://larayonne.org/evenement/ven1/",
       "image": "https://larayonne.org/wp-content/uploads/2025/07/fb-5-500x281.jpg",
       "id": "b05958fdeab4"
-    },
-    {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "SETH GUEKO",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2026-10-17",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/seth-gueko-17102026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/06/a-sethgueko.jpg",
-      "id": "e04c0b895c1d"
     },
     {
       "venue": "Improvidence",
@@ -7322,19 +6659,6 @@
       "id": "bcd836608668"
     },
     {
-      "venue": "Friche Lamartine",
-      "venue_slug": "friche-lamartine",
-      "title": "Damien Saillard",
-      "subtitle": null,
-      "category": "Art contemporain et numérique",
-      "date_start": "2026-10-18",
-      "date_end": null,
-      "time": "16:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319224-damien-saillard.html",
-      "image": null,
-      "id": "74aeecfe6fc6"
-    },
-    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "La Relève",
@@ -7346,19 +6670,6 @@
       "url": "https://improvidence.mapado.com/event/154968-la-releve",
       "image": "https://img.mapado.net/2022/10/24/635646c2a2c98-1.jpeg_thumbs/600-600.jpeg",
       "id": "b85fd073e520"
-    },
-    {
-      "venue": "Le Sucre",
-      "venue_slug": "le-sucre",
-      "title": "S.society",
-      "subtitle": "Line-up soon !",
-      "category": "club",
-      "date_start": "2026-10-18",
-      "date_end": null,
-      "time": "18:00",
-      "url": "https://le-sucre.eu/events/s-society-162/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/08/2026-06-14-Le-Sucre-S-Society-Mall-Grab_@w.illch_WEB-62-600x400.jpg",
-      "id": "2fbd80c4052f"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -7376,15 +6687,15 @@
     {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
-      "title": "TIF",
+      "title": "Tif",
       "subtitle": null,
-      "category": "concert",
+      "category": "Rap",
       "date_start": "2026-10-18",
       "date_end": null,
       "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/tif-18102026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/06/PHOTO-DE-PRESSE-_-credit-_-Loubet_.jpg",
-      "id": "d9edc8231393"
+      "url": "https://www.petit-bulletin.fr/agenda-319203-tif.html",
+      "image": null,
+      "id": "b4a898e55f86"
     },
     {
       "venue": "Improvidence",
@@ -7411,32 +6722,6 @@
       "url": "https://marchegare.fr/agenda/formation-pro-elaboration-dun-projet-musical-octobre-26",
       "image": "https://marchegare.fr/sites/marchegare/files/styles/large/public/2026-06/music_business_19_10_2.png",
       "id": "2ac280926125"
-    },
-    {
-      "venue": "Le Sucre",
-      "venue_slug": "le-sucre",
-      "title": "Concert",
-      "subtitle": "Sofie Royer",
-      "category": "concert",
-      "date_start": "2026-10-19",
-      "date_end": null,
-      "time": "18:30",
-      "url": "https://le-sucre.eu/events/concert-9/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/06/CARRE-Sofie-Royer-600x600.jpg",
-      "id": "875b4b80a997"
-    },
-    {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "GHINZU",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2026-10-19",
-      "date_end": null,
-      "time": "18:30",
-      "url": "https://www.transbordeur.fr/evenement/ghinzu-19102026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/04/sq-ghinzu-Grande.jpeg",
-      "id": "a653498daf92"
     },
     {
       "venue": "La Rayonne",
@@ -7491,32 +6776,6 @@
       "id": "e552bc77a8a4"
     },
     {
-      "venue": "Le Sucre",
-      "venue_slug": "le-sucre",
-      "title": "Magic Mardi",
-      "subtitle": "Line-up soon !",
-      "category": null,
-      "date_start": "2026-10-20",
-      "date_end": null,
-      "time": "18:00",
-      "url": "https://le-sucre.eu/events/magic-mardi-92/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/06/Plan-de-travail-24-1-480x600.png",
-      "id": "d2120c55bc65"
-    },
-    {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "ZED YUN PAVAROTTI",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2026-10-20",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/zed-yun-pavarotti-20102026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/04/a-zedyunpavarotti3.jpeg",
-      "id": "2219595ec2ee"
-    },
-    {
       "venue": "Le Sonic",
       "venue_slug": "sonic",
       "title": "The Homesick + group-ensemble",
@@ -7569,19 +6828,6 @@
       "id": "2be377ad7f7b"
     },
     {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "THE CELTIC SOCIAL CLUB",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2026-10-21",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/the-celtic-social-club-21102026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2024/04/a-TCSC.jpeg",
-      "id": "83f2c31dd25e"
-    },
-    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "La fin justifie les moyens",
@@ -7621,19 +6867,6 @@
       "id": "2786dcc1f222"
     },
     {
-      "venue": "Le Sucre",
-      "venue_slug": "le-sucre",
-      "title": "Khalil Epi présente TUQS",
-      "subtitle": "Khalil EPI",
-      "category": "concert",
-      "date_start": "2026-10-22",
-      "date_end": null,
-      "time": "18:30",
-      "url": "https://le-sucre.eu/events/concert-15/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/08/1-480x600.png",
-      "id": "efac55434281"
-    },
-    {
       "venue": "La Rayonne",
       "venue_slug": "la-rayonne",
       "title": "FOREVER NU! – Tribute to System of a Down, Slipknot, Machine Head & Papa Roach",
@@ -7645,19 +6878,6 @@
       "url": "https://larayonne.org/evenement/forever-nu-tribute-to-system-of-a-down-slipknot-machine-head-papa-roach/",
       "image": "https://larayonne.org/wp-content/uploads/2025/12/Lyon-500x500.png",
       "id": "aa46462cb270"
-    },
-    {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "A6EL",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2026-10-22",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/a6el-22102026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/06/@tamslay1.png",
-      "id": "0671217ab9d0"
     },
     {
       "venue": "Improvidence",
@@ -7688,7 +6908,7 @@
     {
       "venue": "Grrrnd Zero",
       "venue_slug": "grrrnd-zero",
-      "title": "Warzou + Brodinski + Aracoeli + Ecko Bazz",
+      "title": "Aracoeli + Brodinski b2b Warzou + Maelita + Silence Collapse + Westdale",
       "subtitle": null,
       "category": null,
       "date_start": "2026-10-22",
@@ -7696,7 +6916,7 @@
       "time": "20:00",
       "url": "https://agenda.villemorte.fr/event/warzou-brodinski-aracoeli-ecko-bazz",
       "image": null,
-      "id": "91678dd60859"
+      "id": "6b49271b4e74"
     },
     {
       "venue": "Le Sonic",
@@ -7777,32 +6997,6 @@
       "id": "046c8b36c411"
     },
     {
-      "venue": "Le Sucre",
-      "venue_slug": "le-sucre",
-      "title": "Concert",
-      "subtitle": "ROMSII",
-      "category": "concert",
-      "date_start": "2026-10-23",
-      "date_end": null,
-      "time": "18:30",
-      "url": "https://le-sucre.eu/events/concert-6/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/05/carre-4-600x600.jpg",
-      "id": "cd8af662c816"
-    },
-    {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "NES",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2026-10-23",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/nes-23102026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/01/a-nes.png",
-      "id": "35581083eafe"
-    },
-    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "La fin justifie les moyens",
@@ -7868,19 +7062,6 @@
       "id": "ab2aa060bcb3"
     },
     {
-      "venue": "Le Sucre",
-      "venue_slug": "le-sucre",
-      "title": "Soeurs Malsaines",
-      "subtitle": "Amaryllis · Oreille Interne · Shirin & Keton · Salome DV · Tasmania (performance)",
-      "category": "club",
-      "date_start": "2026-10-23",
-      "date_end": null,
-      "time": "23:00",
-      "url": "https://le-sucre.eu/events/soeurs-malsaines/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/09/2024-12-10-Ariane-Oreille-Interne-10988-Edit-400x600.jpg",
-      "id": "541b1a83e232"
-    },
-    {
       "venue": "La Rayonne",
       "venue_slug": "la-rayonne",
       "title": "PHYSICAL TOOL x LA RAYONNE : BASS MUSIC DAY CLUB",
@@ -7918,19 +7099,6 @@
       "url": "https://improvidence.mapado.com/event/282963-la-fin-justifie-les-moyens",
       "image": "https://img.mapado.net/2025/10/20/68f5fd197257f-vignette-mapado-la-fin-2025.jpeg_thumbs/600-600.jpeg",
       "id": "3c8fc3c58e7d"
-    },
-    {
-      "venue": "Le Sucre",
-      "venue_slug": "le-sucre",
-      "title": "Concert",
-      "subtitle": "ÈVE + ULYSSE",
-      "category": "concert",
-      "date_start": "2026-10-24",
-      "date_end": null,
-      "time": "18:30",
-      "url": "https://le-sucre.eu/events/concert-13/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/07/EVEULYSSE-pop-lyon-site-carre.jpg",
-      "id": "0dc2a9b1041e"
     },
     {
       "venue": "Improvidence",
@@ -7974,19 +7142,6 @@
     {
       "venue": "Grrrnd Zero",
       "venue_slug": "grrrnd-zero",
-      "title": "Cancer Void + Teratoma + Abyssal Blast",
-      "subtitle": null,
-      "category": null,
-      "date_start": "2026-10-24",
-      "date_end": null,
-      "time": "20:00",
-      "url": "https://agenda.villemorte.fr/event/cancer-void-teratoma-abyssal-blast",
-      "image": null,
-      "id": "2aaac977b13e"
-    },
-    {
-      "venue": "Grrrnd Zero",
-      "venue_slug": "grrrnd-zero",
       "title": "soirée de soutien à collectif queer afghan",
       "subtitle": null,
       "category": null,
@@ -7996,6 +7151,19 @@
       "url": "https://agenda.villemorte.fr/event/soiree-de-soutien-a-collectif-queer-afghan",
       "image": null,
       "id": "464037b8a809"
+    },
+    {
+      "venue": "Grrrnd Zero",
+      "venue_slug": "grrrnd-zero",
+      "title": "Cancer Void + Teratoma + Abyssal Blast",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-10-24",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://agenda.villemorte.fr/event/cancer-void-teratoma-abyssal-blast",
+      "image": null,
+      "id": "2aaac977b13e"
     },
     {
       "venue": "Marché Gare",
@@ -8046,34 +7214,21 @@
       "date_end": null,
       "time": "22:00",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/nuit-encore-x-23-59",
-      "image": "https://www.halle-tony-garnier.com/storage/143542/conversions/2026-10-24-NUIT-ENCORE-X-23-59-carre-4-20260703-170839-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143605/conversions/2026-10-24-NUIT-ENCORE-X-23-59-carre-4-20260703-170839-square.jpg",
       "id": "2fff0957546e"
-    },
-    {
-      "venue": "Le Sucre",
-      "venue_slug": "le-sucre",
-      "title": "club",
-      "subtitle": "Akalex · Deekapz · & more",
-      "category": "club",
-      "date_start": "2026-10-24",
-      "date_end": null,
-      "time": "23:00",
-      "url": "https://le-sucre.eu/events/club-66/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/09/DEEKAPZ-REEDICAO-19-600x409.png",
-      "id": "cdd8bd8bc903"
     },
     {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
-      "title": "HILIGHT TRIBE + MANUDIGITAL + SPOINK + LUNERIS + FLUPKE + EX-ECHO + CRETE & MOUSTACHE",
+      "title": "Hilight Tribe + Manudigital + Spoink + Luneris + Flupke + Ex-echo + Crete & Moustache",
       "subtitle": null,
-      "category": "concert",
+      "category": "Musique Electronique",
       "date_start": "2026-10-24",
       "date_end": null,
       "time": "23:30",
-      "url": "https://www.transbordeur.fr/evenement/hilight-tribe-manudigital-spoink-luneris-flupke-ex-echo-crete-moustache-24102026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/02/a-hilighttribe.jpg",
-      "id": "7b4559db3b9f"
+      "url": "https://www.petit-bulletin.fr/agenda-319175-hilight-tribe-manudigital-spoink-luneris-flupke-ex-echo-crete-moustache.html",
+      "image": null,
+      "id": "4a3e5087f1bc"
     },
     {
       "venue": "Improvidence",
@@ -8100,19 +7255,6 @@
       "url": "https://improvidence.mapado.com/event/282963-la-fin-justifie-les-moyens",
       "image": "https://img.mapado.net/2025/10/20/68f5fd197257f-vignette-mapado-la-fin-2025.jpeg_thumbs/600-600.jpeg",
       "id": "c0e889dc479a"
-    },
-    {
-      "venue": "Le Sucre",
-      "venue_slug": "le-sucre",
-      "title": "S.society",
-      "subtitle": "Jeff Mills · Modhérée",
-      "category": "club",
-      "date_start": "2026-10-25",
-      "date_end": null,
-      "time": "18:00",
-      "url": "https://le-sucre.eu/events/s-society-163/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/09/25_10-noir-600x338.png",
-      "id": "ac102a7c2718"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -8152,19 +7294,6 @@
       "url": "https://www.periscope-lyon.com/concerts/swell-invite%c2%b7es/",
       "image": "https://www.periscope-lyon.com/wp-content/uploads/2026/09/john-and-sean-1-e1788449606268.jpg",
       "id": "dd084dbba638"
-    },
-    {
-      "venue": "Le Sucre",
-      "venue_slug": "le-sucre",
-      "title": "Magic Mardi",
-      "subtitle": "Line-up soon !",
-      "category": null,
-      "date_start": "2026-10-27",
-      "date_end": null,
-      "time": "18:00",
-      "url": "https://le-sucre.eu/events/magic-mardi-30-2/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/07/Plan-de-travail-24_4-2-480x600.png",
-      "id": "bca416d3187e"
     },
     {
       "venue": "Improvidence",
@@ -8258,19 +7387,6 @@
       "id": "e781da806ff0"
     },
     {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "WALLACE CLEAVER",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2026-10-28",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/wallace-cleaver-28102026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/03/a-wallacecleaver1-e1774624267890.jpeg",
-      "id": "473f3dcad9b4"
-    },
-    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "THE HU",
@@ -8358,7 +7474,7 @@
       "date_end": null,
       "time": "15:00",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/salon-des-vignerons-independants-6",
-      "image": "https://www.halle-tony-garnier.com/storage/143543/conversions/2026-10-29-SALON-DES-VIGNERONS-INDEPENDANTS-lyon-carre-1-20260824-164659-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143606/conversions/2026-10-29-SALON-DES-VIGNERONS-INDEPENDANTS-lyon-carre-1-20260824-164659-square.jpg",
       "id": "210b883f9443"
     },
     {
@@ -8475,21 +7591,8 @@
       "date_end": null,
       "time": "10:00",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/salon-des-vignerons-independants-7",
-      "image": "https://www.halle-tony-garnier.com/storage/143544/conversions/2026-10-30-SALON-DES-VIGNERONS-INDEPENDANTS-lyon-carre-1-20260824-164827-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143607/conversions/2026-10-30-SALON-DES-VIGNERONS-INDEPENDANTS-lyon-carre-1-20260824-164827-square.jpg",
       "id": "ad12b2b22ce3"
-    },
-    {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "ZOUFRIS MARACAS",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2026-10-30",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/zoufris-maracas-30102026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2024/04/a-zoufrismaracas.jpg",
-      "id": "ced6fd968199"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -8516,32 +7619,6 @@
       "url": "https://improvidence.mapado.com/event/824348-les-ephemeres-duos-fugaces-de-la-lily",
       "image": "https://img.mapado.net/2026/8/4/6a71b8bd1b0e3-affiche-br.jpeg_thumbs/600-600.jpeg",
       "id": "d374a3c20a31"
-    },
-    {
-      "venue": "Le Sucre",
-      "venue_slug": "le-sucre",
-      "title": "A week-end with Jen Cardini",
-      "subtitle": "CUERPOS(live) · Maara · Warum",
-      "category": "club",
-      "date_start": "2026-10-30",
-      "date_end": null,
-      "time": "23:00",
-      "url": "https://le-sucre.eu/events/a-week-end-with-jen-cardini/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/09/a4a2eb11-a3a1-4515-8a0f-a561efd1ea70-588x600.png",
-      "id": "98f8e583dbb7"
-    },
-    {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "DJ DIDA + DJ KAWEST + DJ DOULY",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2026-10-30",
-      "date_end": null,
-      "time": "23:30",
-      "url": "https://www.transbordeur.fr/evenement/dj-dida-dj-kawest-dj-douly-30102026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/04/PHOTO-2026-04-22-23-28-29-2.jpg",
-      "id": "923de5c0fb75"
     },
     {
       "venue": "Bourse du Travail",
@@ -8579,7 +7656,7 @@
       "date_end": null,
       "time": "10:00",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/salon-des-vignerons-independants-8",
-      "image": "https://www.halle-tony-garnier.com/storage/143545/conversions/2026-10-31-SALON-DES-VIGNERONS-INDEPENDANTS-lyon-carre-1-20260824-164941-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143608/conversions/2026-10-31-SALON-DES-VIGNERONS-INDEPENDANTS-lyon-carre-1-20260824-164941-square.jpg",
       "id": "d83e0a392b7b"
     },
     {
@@ -8594,19 +7671,6 @@
       "url": "https://improvidence.mapado.com/event/606705-en-deux-deux",
       "image": "https://img.mapado.net/2025/8/4/6890c69867523-en-deux-deux-duo-affiche-spectacle-v1-3.png_thumbs/600-600.png",
       "id": "5a3ee999b3c8"
-    },
-    {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "FINK",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2026-10-31",
-      "date_end": null,
-      "time": "18:30",
-      "url": "https://www.transbordeur.fr/evenement/fink-31102026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/03/a-fink.jpeg",
-      "id": "d9890c776af9"
     },
     {
       "venue": "Agend'arts",
@@ -8648,19 +7712,6 @@
       "id": "12c1ce696f2a"
     },
     {
-      "venue": "Le Sucre",
-      "venue_slug": "le-sucre",
-      "title": "A week-end with Jen Cardini",
-      "subtitle": "TTristana · Ciel · bouillante.x · Maggy Smiss · Boréale",
-      "category": "club",
-      "date_start": "2026-10-31",
-      "date_end": null,
-      "time": "23:00",
-      "url": "https://le-sucre.eu/events/a-week-end-with-jen-cardini-2/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/09/a4a2eb11-a3a1-4515-8a0f-a561efd1ea70-588x600.png",
-      "id": "4bdd2f3e83b8"
-    },
-    {
       "venue": "La Halle Tony Garnier",
       "venue_slug": "halle-tony-garnier",
       "title": "Salon Des Vignerons Independants",
@@ -8670,7 +7721,7 @@
       "date_end": null,
       "time": "10:00",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/salon-des-vignerons-independants-9",
-      "image": "https://www.halle-tony-garnier.com/storage/143546/conversions/2026-11-01-SALON-DES-VIGNERONS-INDEPENDANTS-lyon-carre-1-20260824-165114-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143609/conversions/2026-11-01-SALON-DES-VIGNERONS-INDEPENDANTS-lyon-carre-1-20260824-165114-square.jpg",
       "id": "8a18d20aa5e0"
     },
     {
@@ -8687,6 +7738,19 @@
       "id": "bcf8cb63bc9d"
     },
     {
+      "venue": "Improvidence",
+      "venue_slug": "improvidence",
+      "title": "CATCH IMPRO - Tournoi Régional",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-11-01",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://improvidence.mapado.com/event/3736-catch-impro-tournoi-regional",
+      "image": "https://img.mapado.net/2024/9/17/66e94c9a6d29f-vignette-catch.jpeg_thumbs/600-600.jpeg",
+      "id": "e2b5c1f69c41"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "SAINT LEVANT",
@@ -8698,19 +7762,6 @@
       "url": "https://radiant-bellevue.fr/spectacles/saint-levant/",
       "image": null,
       "id": "73543218a303"
-    },
-    {
-      "venue": "Le Sucre",
-      "venue_slug": "le-sucre",
-      "title": "A week-end with Jen Cardini",
-      "subtitle": "Jen Cardini (all day long)",
-      "category": "club",
-      "date_start": "2026-11-01",
-      "date_end": null,
-      "time": "23:00",
-      "url": "https://le-sucre.eu/events/a-week-end-with-jen-cardini-3/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/09/01_11-600x338.png",
-      "id": "d6fa3a6c487d"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -8737,19 +7788,6 @@
       "url": "https://www.opera-lyon.com/fr/programmation/saison-2026-2027/danse/le-sacre-du-printemps-house",
       "image": "https://api.opera-lyon.com/assets/q80-w634-c448x568/29b8e90d/principal_sacre.jpg",
       "id": "36a0ee1d140f"
-    },
-    {
-      "venue": "Bibliothèque de la Part-Dieu",
-      "venue_slug": "bibliotheque-de-la-part-dieu",
-      "title": "Dans l'œil : collection contemporaine d'art de la BmL",
-      "subtitle": null,
-      "category": "Art contemporain et numérique",
-      "date_start": "2026-11-03",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319227-dans-l-il-collection-contemporaine-d-art-de-la-bml.html",
-      "image": null,
-      "id": "085c0e1131b1"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -8802,19 +7840,6 @@
       "url": "https://radiant-bellevue.fr/spectacles/emily-loizeau-quatuor-debussy/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/06/emily-loizeau_radiant-bellevue-500x500.jpg",
       "id": "c260c0672a21"
-    },
-    {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "MIKE D",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2026-11-04",
-      "date_end": null,
-      "time": "18:30",
-      "url": "https://www.transbordeur.fr/evenement/mike-d-04112026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/07/a-miked2.jpeg",
-      "id": "6d60d6346aff"
     },
     {
       "venue": "Improvidence",
@@ -8904,7 +7929,7 @@
       "date_end": null,
       "time": "20:00",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/djadja-dinaz-2",
-      "image": "https://www.halle-tony-garnier.com/storage/143547/conversions/2026-11-05-DJADJA-DINAZ-carre-5-20250709-085039-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143610/conversions/2026-11-05-DJADJA-DINAZ-carre-5-20250709-085039-square.jpg",
       "id": "38be92eb323a"
     },
     {
@@ -8973,19 +7998,6 @@
       "id": "101e69fa3aaf"
     },
     {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "LA P’TITE FUMEE",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2026-11-06",
-      "date_end": null,
-      "time": "18:30",
-      "url": "https://www.transbordeur.fr/evenement/la-ptite-fumee-06112026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/03/a-laptitefumee.jpeg",
-      "id": "989740773865"
-    },
-    {
       "venue": "La Rayonne",
       "venue_slug": "la-rayonne",
       "title": "ZELIE",
@@ -9034,7 +8046,7 @@
       "date_end": null,
       "time": "20:00",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/djadja-dinaz-3",
-      "image": "https://www.halle-tony-garnier.com/storage/143548/conversions/2026-11-06-DJADJA-DINAZ-carre-djadja2-20260126-105855-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143611/conversions/2026-11-06-DJADJA-DINAZ-carre-djadja2-20260126-105855-square.jpg",
       "id": "8b3f2fdf62ff"
     },
     {
@@ -9155,32 +8167,6 @@
       "id": "b9bb381b8134"
     },
     {
-      "venue": "Le Sucre",
-      "venue_slug": "le-sucre",
-      "title": "Plavace 5 ans :",
-      "subtitle": "63OG · Yjick",
-      "category": "concert",
-      "date_start": "2026-11-07",
-      "date_end": null,
-      "time": "18:30",
-      "url": "https://le-sucre.eu/events/concert-12/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-06-at-14.53.25-480x600.jpeg",
-      "id": "1f9ea40d053a"
-    },
-    {
-      "venue": "Espace Gerson",
-      "venue_slug": "espace-gerson",
-      "title": "Le Grand Sacripant",
-      "subtitle": null,
-      "category": "Humour & Café Théâtre",
-      "date_start": "2026-11-07",
-      "date_end": "2026-11-21",
-      "time": "18:45",
-      "url": "https://www.petit-bulletin.fr/agenda-317834-le-grand-sacripant.html",
-      "image": null,
-      "id": "c6e34efc4386"
-    },
-    {
       "venue": "La Rayonne",
       "venue_slug": "la-rayonne",
       "title": "Kamelot + Exit Eden + Temperance",
@@ -9192,19 +8178,6 @@
       "url": "https://larayonne.org/evenement/kamelot-exit-eden-temperance/",
       "image": "https://larayonne.org/wp-content/uploads/2026/02/NEW-dark-asylum-tour-poster-europe-500x675.jpg",
       "id": "d473928662e4"
-    },
-    {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "JWLES",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2026-11-07",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/jwles-07112026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/04/a-jwles.jpg",
-      "id": "733e9ea5ad7e"
     },
     {
       "venue": "Agend'arts",
@@ -9229,7 +8202,7 @@
       "date_end": null,
       "time": "20:00",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/josman-2",
-      "image": "https://www.halle-tony-garnier.com/storage/143549/conversions/2026-11-07-JOSMAN-carre-josma-20260210-152457-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143612/conversions/2026-11-07-JOSMAN-carre-josma-20260210-152457-square.jpg",
       "id": "1b4efb369f99"
     },
     {
@@ -9298,19 +8271,6 @@
       "id": "a589242a184d"
     },
     {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "KLOFAMA",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2026-11-07",
-      "date_end": null,
-      "time": "23:30",
-      "url": "https://www.transbordeur.fr/evenement/klofama-07112026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/06/a-klofama.jpg",
-      "id": "5f28e5db1243"
-    },
-    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "Elie Semoun",
@@ -9350,19 +8310,6 @@
       "id": "7825cc02173f"
     },
     {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "AMISTAT + ORANGE OAK",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2026-11-09",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/amistat-orange-oak-09112026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/04/a-amistat-rotated.jpg",
-      "id": "e0edd5629515"
-    },
-    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "UN SOIR AVEC PIERRE ARDITI",
@@ -9387,19 +8334,6 @@
       "url": "https://larayonne.org/evenement/impericon-festival-2026-death-dominion-avec-carnifex-despised-icon-suffocation-gates-to-hell/",
       "image": "https://larayonne.org/wp-content/uploads/2026/04/Header-500x281.jpg",
       "id": "9225684a9a11"
-    },
-    {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "8RUKI + TH + ZED",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2026-11-10",
-      "date_end": null,
-      "time": "18:30",
-      "url": "https://www.transbordeur.fr/evenement/8ruki-th-zed-10112026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/06/ZED.jpeg",
-      "id": "af63d4317fb2"
     },
     {
       "venue": "Agend'arts",
@@ -9437,7 +8371,7 @@
       "date_end": null,
       "time": "20:00",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/the-world-of-hans-zimmer-2",
-      "image": "https://www.halle-tony-garnier.com/storage/143550/conversions/2026-11-10-THE-WORLD-OF-HANS-ZIMMER-wohz-2026-generique-visuelweb-newsletter-2400x200-20250317-112306-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143613/conversions/2026-11-10-THE-WORLD-OF-HANS-ZIMMER-wohz-2026-generique-visuelweb-newsletter-2400x200-20250317-112306-square.jpg",
       "id": "a256426cb8c7"
     },
     {
@@ -9480,19 +8414,6 @@
       "id": "b53bc4467397"
     },
     {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "SCHUR + JEANIE",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2026-11-11",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/schur-jeanie-11112026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/05/nb-schur-2560x3840.jpg",
-      "id": "8bb554460fe8"
-    },
-    {
       "venue": "Agend'arts",
       "venue_slug": "agend-arts",
       "title": "Chante avec agend’Arts – La KaraChorale – novembre",
@@ -9515,7 +8436,7 @@
       "date_end": null,
       "time": "20:00",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/malik-bentalha-2",
-      "image": "https://www.halle-tony-garnier.com/storage/143551/conversions/2026-11-11-MALIK-BENTALHA-malikbentalha-nouveaumonde-officiel-digitick-1080x108-20250829-144651-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143614/conversions/2026-11-11-MALIK-BENTALHA-malikbentalha-nouveaumonde-officiel-digitick-1080x108-20250829-144651-square.jpg",
       "id": "dfa88e684fee"
     },
     {
@@ -9530,19 +8451,6 @@
       "url": "https://www.bourse-du-travail.com/thomas-wiesel-338820.html",
       "image": "https://www.bourse-du-travail.com/img/evenement/thomas-wiesel-dans-societe-ecrans-4.jpg",
       "id": "ab49d37542bd"
-    },
-    {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "SNIPER",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2026-11-12",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/sniper-12112026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2024/04/SHOOT_TUNIS_AKE-241-Modifier.jpg",
-      "id": "445535cab77c"
     },
     {
       "venue": "Les Subsistances",
@@ -9638,15 +8546,15 @@
     {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
-      "title": "Concert",
-      "subtitle": "Ajna",
-      "category": "concert",
+      "title": "Ajna",
+      "subtitle": null,
+      "category": "Rap",
       "date_start": "2026-11-13",
       "date_end": null,
       "time": "18:30",
-      "url": "https://le-sucre.eu/events/concert-8/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/06/carre-6-600x600.jpg",
-      "id": "4bd9cc54ef0d"
+      "url": "https://www.petit-bulletin.fr/agenda-319205-ajna.html",
+      "image": null,
+      "id": "f5371f623b51"
     },
     {
       "venue": "La Rayonne",
@@ -9818,32 +8726,6 @@
       "id": "40c5c4955f2f"
     },
     {
-      "venue": "Le Sucre",
-      "venue_slug": "le-sucre",
-      "title": "High-Lo présente :",
-      "subtitle": "Bianca Costa",
-      "category": "concert",
-      "date_start": "2026-11-14",
-      "date_end": null,
-      "time": "18:30",
-      "url": "https://le-sucre.eu/events/high-lo-presente-12/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/03/insta-480x600.jpg",
-      "id": "5e117d5da632"
-    },
-    {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "BOY HARSHER",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2026-11-14",
-      "date_end": null,
-      "time": "18:30",
-      "url": "https://www.transbordeur.fr/evenement/boy-harsher-14112026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/07/a-boyharsher.jpg",
-      "id": "d84545a07db3"
-    },
-    {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
       "title": "Le Grand Sacripant",
@@ -9976,15 +8858,15 @@
     {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
-      "title": "BEAST IN BLACK + FROZEN CROWN + SONATA ARCTICA",
+      "title": "Beast in Black + Frozen Crown + Sonata Arctica",
       "subtitle": null,
-      "category": "concert",
+      "category": "Rock & Pop",
       "date_start": "2026-11-15",
       "date_end": null,
       "time": "18:00",
-      "url": "https://www.transbordeur.fr/evenement/beast-in-black-frozen-crown-sonata-arctica-15112026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2025/10/BIB_hellraiser_©Jarmo-Katila-_-Toni-Kilpinen.jpg",
-      "id": "ee8ca3789eab"
+      "url": "https://www.petit-bulletin.fr/agenda-282948-beast-in-black-frozen-crown-sonata-arctica.html",
+      "image": null,
+      "id": "e8766fde2b42"
     },
     {
       "venue": "L'Épicerie Moderne",
@@ -10024,19 +8906,6 @@
       "url": "https://www.petit-bulletin.fr/agenda-319185-quand-on-dort-on-n-a-pas-faim.html",
       "image": null,
       "id": "d201b387c106"
-    },
-    {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "COLOURS IN THE STREET",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2026-11-17",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/colours-in-the-street-17112026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2024/04/a-cits.jpg",
-      "id": "55ef8b43abc7"
     },
     {
       "venue": "La Ruche industrielle",
@@ -10117,19 +8986,6 @@
       "id": "4a8a3318e601"
     },
     {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "MARCUS GAD",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2026-11-18",
-      "date_end": null,
-      "time": "20:00",
-      "url": "https://www.transbordeur.fr/evenement/marcus-gad-18112026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/04/a-marcusgad.jpeg",
-      "id": "2fb363df6cd6"
-    },
-    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "THE WITCHER III",
@@ -10171,15 +9027,15 @@
     {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
-      "title": "GOGO PENGUIN + DAUDI MATSIKO",
+      "title": "GoGo Penguin + Daudi Matsiko",
       "subtitle": null,
-      "category": "concert",
+      "category": "Jazz",
       "date_start": "2026-11-19",
       "date_end": null,
       "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/gogo-penguin-daudi-matsiko-19112026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/04/a-gogopenguin2.jpeg",
-      "id": "cbb78115b527"
+      "url": "https://www.petit-bulletin.fr/agenda-289873-gogo-penguin-daudi-matsiko.html",
+      "image": null,
+      "id": "0edc55b59769"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -10217,7 +9073,7 @@
       "date_end": null,
       "time": "20:00",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/l-heritage-goldman-2-2",
-      "image": "https://www.halle-tony-garnier.com/storage/143552/conversions/2026-11-19-L-HERITAGE-GOLDMAN-2-heritagegoldman-1080-lyo-20251002-100344-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143615/conversions/2026-11-19-L-HERITAGE-GOLDMAN-2-heritagegoldman-1080-lyo-20251002-100344-square.jpg",
       "id": "d019b4b5bf44"
     },
     {
@@ -10247,19 +9103,6 @@
       "id": "44e8fa130b6e"
     },
     {
-      "venue": "Le Sucre",
-      "venue_slug": "le-sucre",
-      "title": "Concert",
-      "subtitle": "Spider Zed",
-      "category": "concert",
-      "date_start": "2026-11-20",
-      "date_end": null,
-      "time": "18:30",
-      "url": "https://le-sucre.eu/events/concert-4/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/04/insta-2-480x600.jpg",
-      "id": "c54c77d30364"
-    },
-    {
       "venue": "La Rayonne",
       "venue_slug": "la-rayonne",
       "title": "Elmer Food Beat",
@@ -10271,19 +9114,6 @@
       "url": "https://larayonne.org/evenement/elmer-food-beat/",
       "image": "https://larayonne.org/wp-content/uploads/2025/11/elmer_food_beat-500x262.jpg",
       "id": "fb3c149aa09b"
-    },
-    {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "IBEYI",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2026-11-20",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/ibeyi-20112026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2024/04/a-ibeyi-Grande.jpeg",
-      "id": "0d07263bcd96"
     },
     {
       "venue": "Improvidence",
@@ -10392,15 +9222,15 @@
     {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
-      "title": "Concert",
-      "subtitle": "Bamby",
-      "category": "concert",
+      "title": "Bamby",
+      "subtitle": null,
+      "category": "Rap",
       "date_start": "2026-11-21",
       "date_end": null,
       "time": "18:30",
-      "url": "https://le-sucre.eu/events/concert-7/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/06/carre-5-600x600.jpg",
-      "id": "b8675ebe88aa"
+      "url": "https://www.petit-bulletin.fr/agenda-319206-bamby.html",
+      "image": null,
+      "id": "7074d02f2661"
     },
     {
       "venue": "Bar Rock'n Eat",
@@ -10572,19 +9402,6 @@
       "id": "ef2e4e5676ce"
     },
     {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "LAURA FERRE",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2026-11-24",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/laura-ferre-24112026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2025/11/40_60.jpg",
-      "id": "603d4449abfd"
-    },
-    {
       "venue": "Agend'arts",
       "venue_slug": "agend-arts",
       "title": "Cercles Carmins – Quinzaine « Paroles de femmes »",
@@ -10622,19 +9439,6 @@
       "url": "https://agenda.villemorte.fr/event/dans-la-grotte-cie-la-voliere-myriam-boudenia",
       "image": "https://agenda.villemorte.fr/media/thumb/b24e749ccc0e22dcfa5bd17d23ea0478.jpg",
       "id": "d7ef1cd3d95a"
-    },
-    {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "ACCEPT + DYNAZTY + TAILGUNNER",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2026-11-25",
-      "date_end": null,
-      "time": "18:00",
-      "url": "https://www.transbordeur.fr/evenement/accept-dynazty-tailgunner-25112026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2024/04/a-accept2.jpg",
-      "id": "2ba510789187"
     },
     {
       "venue": "La Rayonne",
@@ -10730,15 +9534,15 @@
     {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
-      "title": "BEN PLG",
+      "title": "Ben Plg",
       "subtitle": null,
-      "category": "concert",
+      "category": "Rap",
       "date_start": "2026-11-26",
       "date_end": null,
       "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/ben-plg-26112026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/05/a-benplg.jpg",
-      "id": "0446d58205ab"
+      "url": "https://www.petit-bulletin.fr/agenda-308881-ben-plg.html",
+      "image": null,
+      "id": "df1297230af3"
     },
     {
       "venue": "Ô Totem live",
@@ -10871,19 +9675,6 @@
       "id": "cdf60c10a733"
     },
     {
-      "venue": "Le Sucre",
-      "venue_slug": "le-sucre",
-      "title": "Concert",
-      "subtitle": "Lisa Pariente",
-      "category": "concert",
-      "date_start": "2026-11-27",
-      "date_end": null,
-      "time": "18:30",
-      "url": "https://le-sucre.eu/events/concert-10/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/06/CARRE-lisa-pariente-600x600.jpg",
-      "id": "40429d8c95fc"
-    },
-    {
       "venue": "La Rayonne",
       "venue_slug": "la-rayonne",
       "title": "PIERPOLJAK",
@@ -10895,19 +9686,6 @@
       "url": "https://larayonne.org/evenement/pierpoljak/",
       "image": "https://larayonne.org/wp-content/uploads/2026/06/PIERPOLJAK-1200X628-271126-VILLEURBANNE-500x262.jpg",
       "id": "f77b2a1db1a8"
-    },
-    {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "KID FRANCESCOLI + WOODY",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2026-11-27",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/kid-francescoli-woody-27112026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2024/04/Kid-Francescoli-Credit-Photo-Samantha-Grenouiller.jpg",
-      "id": "69e0e2b2e02f"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -11027,19 +9805,6 @@
       "id": "4876aad118f4"
     },
     {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "LENAIG",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2026-11-28",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/lenaig-28112026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/04/a-lenaig2.jpg",
-      "id": "e96d19e547ba"
-    },
-    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins-theatre-de-lyon",
       "title": "Pétrole",
@@ -11157,19 +9922,6 @@
       "id": "5c7444c7cc82"
     },
     {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "THE STRANGLERS",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2026-11-30",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/the-stranglers-30112026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2024/04/The-Stranglers-bike.jpg",
-      "id": "e2f6bad836f0"
-    },
-    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins-theatre-de-lyon",
       "title": "Pétrole",
@@ -11250,15 +10002,15 @@
     {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
-      "title": "SLIFT",
+      "title": "Slift",
       "subtitle": null,
-      "category": "concert",
+      "category": "Rock & Pop",
       "date_start": "2026-12-02",
       "date_end": null,
       "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/slift-02122026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/04/a-slift2.jpg",
-      "id": "356ee96e4b13"
+      "url": "https://www.petit-bulletin.fr/agenda-319218-slift.html",
+      "image": null,
+      "id": "9e5cfed3dccb"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -11363,19 +10115,6 @@
       "url": "https://agenda.villemorte.fr/event/visite-en-lsf-avec-martin-dutrait",
       "image": "https://agenda.villemorte.fr/media/thumb/24d9c42f5c53d2245a240d7f7f6e95b4.jpg",
       "id": "9a945dae8d42"
-    },
-    {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "ELUVEITIE + PAIN + WOLFHEART",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2026-12-03",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/eluveitie-pain-wolfheart-03122026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/02/a-eluveitie2.jpg",
-      "id": "aad28de4cec8"
     },
     {
       "venue": "Les Subsistances",
@@ -11508,19 +10247,6 @@
       "id": "04a8868fcfe9"
     },
     {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "LUTHER",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2026-12-04",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/luther-04122026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2024/04/a-luther.png",
-      "id": "0b1779aecea2"
-    },
-    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "Toi + Moi = ?",
@@ -11582,7 +10308,7 @@
       "date_end": null,
       "time": "20:00",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/disiz",
-      "image": "https://www.halle-tony-garnier.com/storage/143553/conversions/2026-12-04-disiz-disiz500x500-20251204-130657-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143616/conversions/2026-12-04-disiz-disiz500x500-20251204-130657-square.jpg",
       "id": "8ccde2d1c8ab"
     },
     {
@@ -11623,19 +10349,6 @@
       "url": "https://improvidence.mapado.com/event/489025-flemme",
       "image": "https://img.mapado.net/2025/10/22/68f8d4dc2597f-affiche-flemme-superette.jpeg_thumbs/600-600.jpeg",
       "id": "916c2d39b9d1"
-    },
-    {
-      "venue": "Le Sucre",
-      "venue_slug": "le-sucre",
-      "title": "SUBLIME CLUB",
-      "subtitle": "Line-up soon !",
-      "category": "club",
-      "date_start": "2026-12-04",
-      "date_end": null,
-      "time": "23:00",
-      "url": "https://le-sucre.eu/events/sublime-club/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/04/club-rap-lyon-post-insta-480x600.jpg",
-      "id": "60bee1b43b36"
     },
     {
       "venue": "TNG",
@@ -11688,32 +10401,6 @@
       "url": "https://larayonne.org/evenement/tambours-du-bronx-sidilarsen/",
       "image": "https://larayonne.org/wp-content/uploads/2025/12/1080-x-580-La-Rayonne-Site-500x282.png",
       "id": "e32f8230b8d2"
-    },
-    {
-      "venue": "Le Sucre",
-      "venue_slug": "le-sucre",
-      "title": "Concert",
-      "subtitle": "55ASKY",
-      "category": "concert",
-      "date_start": "2026-12-05",
-      "date_end": null,
-      "time": "18:30",
-      "url": "https://le-sucre.eu/events/concert-14/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/08/carre-7-600x600.jpg",
-      "id": "7cd2771d089d"
-    },
-    {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "ROUNHAA",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2026-12-05",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/rounhaa-05122026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2024/04/a-rounhaa-1.png",
-      "id": "2d5ae72baddd"
     },
     {
       "venue": "TNP - Théâtre National Populaire",
@@ -11794,19 +10481,6 @@
       "id": "5245bf3f994b"
     },
     {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "LA RVFLEUZE",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2026-12-06",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/la-rvfleuze-06122026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/05/a-larvfleuze.jpg",
-      "id": "f5d855ebf76d"
-    },
-    {
       "venue": "Théâtre des Clochards Célestes",
       "venue_slug": "theatre-des-clochards-celestes",
       "title": "Dialogue entre deux espèces",
@@ -11833,19 +10507,6 @@
       "id": "3113ec171a00"
     },
     {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "CORY WONG",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2026-12-07",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/cory-wong-07122026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/05/a-corywong.jpg",
-      "id": "d728b172d4c2"
-    },
-    {
       "venue": "Théâtre des Clochards Célestes",
       "venue_slug": "theatre-des-clochards-celestes",
       "title": "Dialogue entre deux espèces",
@@ -11870,19 +10531,6 @@
       "url": "https://radiant-bellevue.fr/spectacles/camille-tu-dors/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/07/camille-tu-dors-500x500.jpg",
       "id": "f26a89d8a1d2"
-    },
-    {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "MINITEL",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2026-12-09",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/minitel-09122026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/06/a-minitel.jpeg",
-      "id": "0475186f4102"
     },
     {
       "venue": "Improvidence",
@@ -12015,19 +10663,6 @@
       "id": "6bde45ac942b"
     },
     {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "MARGUERITE",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2026-12-11",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/marguerite-11122026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/04/a-marguerite.jpg",
-      "id": "01b1f5d0b5d4"
-    },
-    {
       "venue": "Agend'arts",
       "venue_slug": "agend-arts",
       "title": "Scène ouverte slam – session de décembre",
@@ -12089,7 +10724,7 @@
       "date_end": null,
       "time": "21:30",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/face2face-all-night-long",
-      "image": "https://www.halle-tony-garnier.com/storage/143554/conversions/2026-12-11-FACE2FACE-ALL-NIGHT-LONG-4to-20260721-115213-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143617/conversions/2026-12-11-FACE2FACE-ALL-NIGHT-LONG-4to-20260721-115213-square.jpg",
       "id": "87c50ab049ac"
     },
     {
@@ -12197,19 +10832,6 @@
       "id": "8d38c0574fcf"
     },
     {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "SAM SAUVAGE",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2026-12-12",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/sam-sauvage-12122026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/02/a-samsauvage.png",
-      "id": "fbccab0e5fae"
-    },
-    {
       "venue": "MJC Louis Aragon / Jack Jack",
       "venue_slug": "mjc-louis-aragon-jack-jack",
       "title": "Les Riffs Du Coeur",
@@ -12286,19 +10908,6 @@
       "url": "https://improvidence.mapado.com/event/161318-le-telefilm-de-noel-improvise",
       "image": "https://img.mapado.net/2023/11/13/6551fe08673f2-100-noel.png_thumbs/600-600.png",
       "id": "dc4495d15e64"
-    },
-    {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "AXEL BAUER",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2026-12-13",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/axel-bauer-13122026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/01/a-axelbauer2.jpg",
-      "id": "00fd982a5fdf"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -12418,19 +11027,6 @@
       "id": "a95d93c4b0c3"
     },
     {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "FFF",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2026-12-17",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/fff-17122026/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2024/04/a-fff.jpeg",
-      "id": "7e047c7d6838"
-    },
-    {
       "venue": "Le Sonic",
       "venue_slug": "sonic",
       "title": "Neptune",
@@ -12544,7 +11140,7 @@
       "date_end": null,
       "time": "20:00",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/disney-en-concert-suivez-vos-reves",
-      "image": "https://www.halle-tony-garnier.com/storage/143555/conversions/2026-12-18-DISNEY-EN-CONCERT-SUIVEZ-VOS-REVES-disney-carre-lyo-20251104-163638-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143618/conversions/2026-12-18-DISNEY-EN-CONCERT-SUIVEZ-VOS-REVES-disney-carre-lyo-20251104-163638-square.jpg",
       "id": "4c46d99b7e0b"
     },
     {
@@ -12637,19 +11233,6 @@
       "url": "https://improvidence.mapado.com/event/351368-senflix",
       "image": "https://img.mapado.net/2025/1/29/6799fb363c759-senflix-affiche-web.jpeg_thumbs/600-600.jpeg",
       "id": "1cc801114590"
-    },
-    {
-      "venue": "Le Sucre",
-      "venue_slug": "le-sucre",
-      "title": "club",
-      "subtitle": "Panteros666",
-      "category": "club",
-      "date_start": "2026-12-19",
-      "date_end": null,
-      "time": "23:00",
-      "url": "https://le-sucre.eu/events/club-53/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/07/IMG_0146-450x600.jpeg",
-      "id": "70c09d149709"
     },
     {
       "venue": "Bourse du Travail",
@@ -12886,19 +11469,6 @@
       "id": "00cabaf9a371"
     },
     {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "ACID ARAB",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2027-01-07",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/acid-arab-07012027/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2024/04/a-acidarab2.jpg",
-      "id": "1fdc990aabb3"
-    },
-    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "L’AFFAIRE DE LA RUE DE LOURCINE",
@@ -12947,7 +11517,7 @@
       "date_end": null,
       "time": "20:00",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/goldmen-concert-100-goldman",
-      "image": "https://www.halle-tony-garnier.com/storage/143556/conversions/2027-01-08-GOLDMEN-CONCERT-100-GOLDMAN-goldmen-carre-copi-20250411-144142-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143619/conversions/2027-01-08-GOLDMEN-CONCERT-100-GOLDMAN-goldmen-carre-copi-20250411-144142-square.jpg",
       "id": "9cae03700f3c"
     },
     {
@@ -12999,7 +11569,7 @@
       "date_end": null,
       "time": "20:00",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/harry-potter-et-le-prince-de-sang-mele",
-      "image": "https://www.halle-tony-garnier.com/storage/143557/conversions/2027-01-09-HARRY-POTTER-ET-LE-PRINCE-DE-SANG-MELE-hp6-artwor-20260105-143104-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143620/conversions/2027-01-09-HARRY-POTTER-ET-LE-PRINCE-DE-SANG-MELE-hp6-artwor-20260105-143104-square.jpg",
       "id": "80487e51b923"
     },
     {
@@ -13077,7 +11647,7 @@
       "date_end": null,
       "time": "20:00",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/one-night-of-queen-2",
-      "image": "https://www.halle-tony-garnier.com/storage/143558/conversions/2027-01-13-ONE-NIGHT-OF-QUEEN-onoq-1080-lyo-20250507-141114-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143621/conversions/2027-01-13-ONE-NIGHT-OF-QUEEN-onoq-1080-lyo-20250507-141114-square.jpg",
       "id": "d36fa43e7d82"
     },
     {
@@ -13181,7 +11751,7 @@
       "date_end": null,
       "time": "20:00",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/les-chevaliers-du-fiel-2",
-      "image": "https://www.halle-tony-garnier.com/storage/143559/conversions/2027-01-14-LES-CHEVALIERS-DU-FIEL-header-event-carre-20260710-150605-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143622/conversions/2027-01-14-LES-CHEVALIERS-DU-FIEL-header-event-carre-20260710-150605-square.jpg",
       "id": "5265d5dc149c"
     },
     {
@@ -13222,19 +11792,6 @@
       "url": "https://www.bourse-du-travail.com/philippe-caveriviere-363777.html",
       "image": "https://www.bourse-du-travail.com/img/evenement/philippe-caveriviere-4.jpg",
       "id": "3a5eed4a6205"
-    },
-    {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "GIEDRE",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2027-01-15",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/giedre-15012027/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2024/04/a-giedre2.jpg",
-      "id": "5437cf18e7fb"
     },
     {
       "venue": "La Machinerie - Théâtre de Vénissieux",
@@ -13298,7 +11855,7 @@
       "date_end": null,
       "time": "15:00",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/lion-le-roi-est-de-retour",
-      "image": "https://www.halle-tony-garnier.com/storage/143560/conversions/2027-01-16-LION-LE-ROI-EST-DE-RETOUR-lion-1080x1080-copie-20260409-104932-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143623/conversions/2027-01-16-LION-LE-ROI-EST-DE-RETOUR-lion-1080x1080-copie-20260409-104932-square.jpg",
       "id": "91d9dd9e0953"
     },
     {
@@ -13328,19 +11885,6 @@
       "id": "88a62c71ec91"
     },
     {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "FILLS MONKEY",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2027-01-16",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/fills-monkey-16012027/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/04/a-fillsmonkey2.jpg",
-      "id": "de7e73915937"
-    },
-    {
       "venue": "La Halle Tony Garnier",
       "venue_slug": "halle-tony-garnier",
       "title": "Olivier De Benoist",
@@ -13350,7 +11894,7 @@
       "date_end": null,
       "time": "20:30",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/olivier-de-benoist",
-      "image": "https://www.halle-tony-garnier.com/storage/143561/conversions/2027-01-16-OLIVIER-DE-BENOIST-odb-ledroitaubonheur-tournee-carre-copi-20260423-100914-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143624/conversions/2027-01-16-OLIVIER-DE-BENOIST-odb-ledroitaubonheur-tournee-carre-copi-20260423-100914-square.jpg",
       "id": "da6add811841"
     },
     {
@@ -13365,19 +11909,6 @@
       "url": "https://radiant-bellevue.fr/spectacles/camille-chamoux-2/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2025/03/Portrait-Camille-Chamoux-Benjamin-Guillonneau-scaled-e1741944598749-500x500.jpg",
       "id": "6c3de221073a"
-    },
-    {
-      "venue": "Le Sucre",
-      "venue_slug": "le-sucre",
-      "title": "club",
-      "subtitle": "Bellaire",
-      "category": "club",
-      "date_start": "2027-01-16",
-      "date_end": null,
-      "time": "23:00",
-      "url": "https://le-sucre.eu/events/club-62/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/07/BELLAIRE-BORN-FUNKY-PRESS-PICTURES-FUNKY-BREAKFAST-BANNER-2-600x400.jpg",
-      "id": "e94ad8c79c20"
     },
     {
       "venue": "Bourse du Travail",
@@ -13415,7 +11946,7 @@
       "date_end": null,
       "time": "20:00",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/clement-viktorovitch",
-      "image": "https://www.halle-tony-garnier.com/storage/143562/conversions/2027-01-19-CLEMENT-VIKTOROVITCH-cviktor-carre-lyo-20260417-103157-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143625/conversions/2027-01-19-CLEMENT-VIKTOROVITCH-cviktor-carre-lyo-20260417-103157-square.jpg",
       "id": "bba5ebee3dbe"
     },
     {
@@ -13443,19 +11974,6 @@
       "url": "https://larayonne.org/evenement/orden-ogan/",
       "image": "https://larayonne.org/wp-content/uploads/2025/12/Event-Header-1-500x262.jpg",
       "id": "23512e849d3c"
-    },
-    {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "TÉTÉ",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2027-01-20",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/tete-20012027/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/05/a-tete.jpg",
-      "id": "715fcfd6e206"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -13495,19 +12013,6 @@
       "url": "https://www.bourse-du-travail.com/meryem-benoua-343413.html",
       "image": "https://www.bourse-du-travail.com/img/evenement/meryem-benoua-dans-reflet-4.jpg",
       "id": "cf86898367c9"
-    },
-    {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "ZAOUI",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2027-01-21",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/zaoui-21012027/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/04/a-zaoui2.jpg",
-      "id": "eda182261fed"
     },
     {
       "venue": "La Machinerie - Théâtre de Vénissieux",
@@ -13560,19 +12065,6 @@
       "url": "https://larayonne.org/evenement/vulves-assassines-poesie-zero-citron-sucre/",
       "image": "https://larayonne.org/wp-content/uploads/2026/05/poesiezrovulvesassassines-punk-lyon-fb-event-500x260.jpg",
       "id": "aa28fc5264ba"
-    },
-    {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "RESOLVE + SILENT PLANET + SPLEEN",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2027-01-22",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/resolve-silent-planet-spleen-22012027/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/04/a-resolve.jpg",
-      "id": "c6012651a9a7"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -13705,19 +12197,6 @@
       "id": "063fa8d43d43"
     },
     {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "NTO",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2027-01-28",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/nto-28012027/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/06/a-nto.png",
-      "id": "47b30352ac4a"
-    },
-    {
       "venue": "Les Subsistances",
       "venue_slug": "les-subs",
       "title": "Marc",
@@ -13792,7 +12271,7 @@
       "date_end": null,
       "time": "19:30",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/disney-sur-glace-le-voyage-enchante-3",
-      "image": "https://www.halle-tony-garnier.com/storage/143564/conversions/2027-01-29-DISNEY-SUR-GLACE-LE-VOYAGE-ENCHANTE-d36-lyon-1080x108-20260424-160502-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143627/conversions/2027-01-29-DISNEY-SUR-GLACE-LE-VOYAGE-ENCHANTE-d36-lyon-1080x108-20260424-160502-square.jpg",
       "id": "2ebfe953dfc1"
     },
     {
@@ -13857,7 +12336,7 @@
       "date_end": null,
       "time": "10:15",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/disney-sur-glace-le-voyage-enchante-4",
-      "image": "https://www.halle-tony-garnier.com/storage/143565/conversions/2027-01-30-DISNEY-SUR-GLACE-LE-VOYAGE-ENCHANTE-d36-lyon-1080x108-20260424-160802-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143628/conversions/2027-01-30-DISNEY-SUR-GLACE-LE-VOYAGE-ENCHANTE-d36-lyon-1080x108-20260424-160802-square.jpg",
       "id": "960700e6646d"
     },
     {
@@ -13922,7 +12401,7 @@
       "date_end": null,
       "time": "10:15",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/disney-sur-glace-le-voyage-enchante-7",
-      "image": "https://www.halle-tony-garnier.com/storage/143568/conversions/2027-01-31-DISNEY-SUR-GLACE-LE-VOYAGE-ENCHANTE-d36-lyon-1080x108-20260424-161311-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143631/conversions/2027-01-31-DISNEY-SUR-GLACE-LE-VOYAGE-ENCHANTE-d36-lyon-1080x108-20260424-161311-square.jpg",
       "id": "9b8c4c1badaf"
     },
     {
@@ -13937,19 +12416,6 @@
       "url": "https://radiant-bellevue.fr/spectacles/la-soeur-de-jesus-christ/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/06/la-soeur-de-jesus-christ-500x500.jpg",
       "id": "cd4f20cb44d5"
-    },
-    {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "JF PAUZE",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2027-02-02",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/jf-pauze-02022027/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/03/a-jfpauze2.jpg",
-      "id": "543bf0414101"
     },
     {
       "venue": "Théâtre La Mouche",
@@ -13974,7 +12440,7 @@
       "date_end": null,
       "time": "20:00",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/forever-tribute-michael-jackson",
-      "image": "https://www.halle-tony-garnier.com/storage/143570/conversions/2027-02-02-FOREVER-TRIBUTE-MICHAEL-JACKSON-forever-carre-lyo-20250828-084343-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143633/conversions/2027-02-02-FOREVER-TRIBUTE-MICHAEL-JACKSON-forever-carre-lyo-20250828-084343-square.jpg",
       "id": "14148c08ae28"
     },
     {
@@ -14041,19 +12507,6 @@
       "url": "https://agenda.villemorte.fr/event/nelvar-le-royaume-sans-peuple-logan-de-carvalho-et-margaux-desailly",
       "image": "https://agenda.villemorte.fr/media/thumb/094c2fa7770aa65fc4659263c0b5d1a9.jpg",
       "id": "72e8ec4b231d"
-    },
-    {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "REVNOIR + ICE SEALED EYES",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2027-02-04",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/revnoir-ice-sealed-eyes-04022027/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/04/a-revnoir.jpg",
-      "id": "f04104c16645"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -14143,7 +12596,7 @@
       "date_end": null,
       "time": "15:00",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/aldebert-3",
-      "image": "https://www.halle-tony-garnier.com/storage/143571/conversions/2027-02-06-1.-ALDEBERT-LDC-carre-lyon-copie-20260121-150153-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143634/conversions/2027-02-06-1.-ALDEBERT-LDC-carre-lyon-copie-20260121-150153-square.jpg",
       "id": "21397db5a6f9"
     },
     {
@@ -14208,7 +12661,7 @@
       "date_end": null,
       "time": "18:00",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/square-enix",
-      "image": "https://www.halle-tony-garnier.com/storage/143572/conversions/2027-02-07-SQUARE-ENIX-kv-3000x3000-lyo-20251205-091514-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143635/conversions/2027-02-07-SQUARE-ENIX-kv-3000x3000-lyo-20251205-091514-square.jpg",
       "id": "272b1ca3aa4a"
     },
     {
@@ -14299,7 +12752,7 @@
       "date_end": null,
       "time": "20:00",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/nawell-madani",
-      "image": "https://www.halle-tony-garnier.com/storage/143573/conversions/2027-02-10-NAWELL-MADANI-carre-9568-u-20260127-113850-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143636/conversions/2027-02-10-NAWELL-MADANI-carre-9568-u-20260127-113850-square.jpg",
       "id": "1e43f410343a"
     },
     {
@@ -14446,19 +12899,6 @@
       "id": "bd73877f658e"
     },
     {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "UGLY KID JOE",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2027-02-12",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/ugly-kid-joe-12022027/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/06/a-uglykidjoe.jpeg",
-      "id": "3e137455d050"
-    },
-    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "MATHIEU STEPSON",
@@ -14524,19 +12964,6 @@
       "id": "2371240e67a8"
     },
     {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "JEANJASS",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2027-02-17",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/jeanjass-17022027/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/05/a-jeanjass.jpg",
-      "id": "ec76c86c9fd3"
-    },
-    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "Ca handi long",
@@ -14585,7 +13012,7 @@
       "date_end": null,
       "time": "19:30",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/holiday-on-ice-cinema-of-dreams",
-      "image": "https://www.halle-tony-garnier.com/storage/143574/conversions/2027-02-19-HOLIDAY-ON-ICE-CINEMA-OF-DREAMS-02-1080x1080-hoi-cod-lyo-20260311-145844-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143637/conversions/2027-02-19-HOLIDAY-ON-ICE-CINEMA-OF-DREAMS-02-1080x1080-hoi-cod-lyo-20260311-145844-square.jpg",
       "id": "2352ed756750"
     },
     {
@@ -14624,7 +13051,7 @@
       "date_end": null,
       "time": "14:00",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/holiday-on-ice-cinema-of-dreams-2",
-      "image": "https://www.halle-tony-garnier.com/storage/143575/conversions/2027-02-20-HOLIDAY-ON-ICE-CINEMA-OF-DREAMS-02-1080x1080-hoi-cod-lyo-20260311-150100-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143638/conversions/2027-02-20-HOLIDAY-ON-ICE-CINEMA-OF-DREAMS-02-1080x1080-hoi-cod-lyo-20260311-150100-square.jpg",
       "id": "b2618ecfeaa6"
     },
     {
@@ -14650,7 +13077,7 @@
       "date_end": null,
       "time": "13:00",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/holiday-on-ice-cinema-of-dreams-4",
-      "image": "https://www.halle-tony-garnier.com/storage/143577/conversions/2027-02-21-HOLIDAY-ON-ICE-CINEMA-OF-DREAMS-02-1080x1080-hoi-cod-lyo-20260311-150331-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143640/conversions/2027-02-21-HOLIDAY-ON-ICE-CINEMA-OF-DREAMS-02-1080x1080-hoi-cod-lyo-20260311-150331-square.jpg",
       "id": "f6ae54e9ebe7"
     },
     {
@@ -14678,19 +13105,6 @@
       "url": "https://radiant-bellevue.fr/spectacles/thais/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/08/thais-500x500.jpg",
       "id": "dcf3a1da9203"
-    },
-    {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "EZRA COLLECTIVE + JOY (ANONYMOUS)",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2027-02-23",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/ezra-collective-joy-anonymous-23022027/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2024/04/a-ezracollectif.jpeg",
-      "id": "aca7c19bdb1f"
     },
     {
       "venue": "Improvidence",
@@ -14953,19 +13367,6 @@
       "id": "b8dbac2fb8f3"
     },
     {
-      "venue": "Le Transbordeur",
-      "venue_slug": "transbordeur",
-      "title": "UNCLE ACID AND THE DEADBEATS + CONAN + EARTH TONGUE",
-      "subtitle": null,
-      "category": "concert",
-      "date_start": "2027-03-03",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://www.transbordeur.fr/evenement/uncle-acid-and-the-deadbeats-conan-earth-tongue-03032027/",
-      "image": "https://www.transbordeur.fr/wp-content/uploads/2026/09/a-uncleacid1.jpeg",
-      "id": "44bd10972b4c"
-    },
-    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "LE CHANT DES LIONS",
@@ -15053,8 +13454,47 @@
       "date_end": null,
       "time": "20:00",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/marine",
-      "image": "https://www.halle-tony-garnier.com/storage/143579/conversions/2027-03-05-MARINE-marine-tournee-2026-carr-20251218-093105-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143642/conversions/2027-03-05-MARINE-marine-tournee-2026-carr-20251218-093105-square.jpg",
       "id": "74b78cf742fb"
+    },
+    {
+      "venue": "TNG",
+      "venue_slug": "tng",
+      "title": "Traversée",
+      "subtitle": "Marie-Eve Huot, Le Carrousel",
+      "category": "théâtre",
+      "date_start": "2027-03-06",
+      "date_end": null,
+      "time": null,
+      "url": "https://www.tng-lyon.fr/evenement/traversee/",
+      "image": "https://www.tng-lyon.fr/wp-content/uploads/2026/06/460x460_TRAVERSEE.png",
+      "id": "a0510dff8edb"
+    },
+    {
+      "venue": "TNG",
+      "venue_slug": "tng",
+      "title": "Atelier de pratique théâtrale en LSF",
+      "subtitle": "Autour du spectacle Traversée",
+      "category": "théâtre",
+      "date_start": "2027-03-06",
+      "date_end": null,
+      "time": null,
+      "url": "https://www.tng-lyon.fr/evenement/atelier-de-pratique-theatrale-en-lsf/",
+      "image": "https://www.tng-lyon.fr/wp-content/uploads/2026/06/Ateliers-LSF-Traversee_460x460.png",
+      "id": "b6e4854fae15"
+    },
+    {
+      "venue": "Improvidence",
+      "venue_slug": "improvidence",
+      "title": "Détours",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2027-03-06",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://improvidence.mapado.com/event/496781-detours",
+      "image": "https://img.mapado.net/2025/3/13/67d2f63cab215-affiche-detours2.png_thumbs/600-600.png",
+      "id": "b76e79631d8f"
     },
     {
       "venue": "Bourse du Travail",
@@ -15079,8 +13519,21 @@
       "date_end": null,
       "time": "20:00",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/les-annees-80-2",
-      "image": "https://www.halle-tony-garnier.com/storage/143580/conversions/2027-03-06-LES-ANNEES-80-la80-carre-lyo-20251212-115951-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143643/conversions/2027-03-06-LES-ANNEES-80-la80-carre-lyo-20251212-115951-square.jpg",
       "id": "a094e7839744"
+    },
+    {
+      "venue": "Radiant-Bellevue",
+      "venue_slug": "radiant-bellevue",
+      "title": "LA JALOUSIE",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-03-06",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://radiant-bellevue.fr/spectacles/la-jalousie/",
+      "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/06/la-jalousie-500x500.jpg",
+      "id": "e0104fd128c6"
     },
     {
       "venue": "Bourse du Travail",
@@ -15287,7 +13740,7 @@
       "date_end": null,
       "time": "20:00",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/bernard-lavilliers",
-      "image": "https://www.halle-tony-garnier.com/storage/143581/conversions/2027-03-17-BERNARD-LAVILLIERS-bernard-lavilliers-2026-digital-post-1080x1080-copi-20260220-095930-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143644/conversions/2027-03-17-BERNARD-LAVILLIERS-bernard-lavilliers-2026-digital-post-1080x1080-copi-20260220-095930-square.jpg",
       "id": "66b581d45da6"
     },
     {
@@ -15352,7 +13805,7 @@
       "date_end": null,
       "time": "20:00",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/michele-laroque-kad-merad-l-age-bete",
-      "image": "https://www.halle-tony-garnier.com/storage/143582/conversions/2027-03-19-MICHELE-LAROQUE-KAD-MERAD-L-AGE-BETE-lagebete-ecommerce-1080x108-20251017-104323-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143645/conversions/2027-03-19-MICHELE-LAROQUE-KAD-MERAD-L-AGE-BETE-lagebete-ecommerce-1080x108-20251017-104323-square.jpg",
       "id": "e108ea3962f2"
     },
     {
@@ -15391,7 +13844,7 @@
       "date_end": null,
       "time": "20:00",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/500-voix-pour-johnny",
-      "image": "https://www.halle-tony-garnier.com/storage/143583/conversions/2027-03-20-500-VOIX-POUR-JOHNNY-affiche-johnny-officielle-2-20260707-171745-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143646/conversions/2027-03-20-500-VOIX-POUR-JOHNNY-affiche-johnny-officielle-2-20260707-171745-square.jpg",
       "id": "f227e3726650"
     },
     {
@@ -15768,7 +14221,7 @@
       "date_end": null,
       "time": "20:00",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/patrick-fiori-2",
-      "image": "https://www.halle-tony-garnier.com/storage/143584/conversions/2027-04-03-PATRICK-FIORI-patrick-fiori-270328-lyon-carr-20260901-115919-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143647/conversions/2027-04-03-PATRICK-FIORI-patrick-fiori-270328-lyon-carr-20260901-115919-square.jpg",
       "id": "93411b98f25b"
     },
     {
@@ -15781,7 +14234,7 @@
       "date_end": null,
       "time": "18:00",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/glorious",
-      "image": "https://www.halle-tony-garnier.com/storage/143585/conversions/2027-04-04-GLORIOUS-500x500-lyon-glorious-20260415-121947-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143648/conversions/2027-04-04-GLORIOUS-500x500-lyon-glorious-20260415-121947-square.jpg",
       "id": "ba9cb766b04c"
     },
     {
@@ -15833,7 +14286,7 @@
       "date_end": null,
       "time": "19:00",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/megadeth",
-      "image": "https://www.halle-tony-garnier.com/storage/143586/conversions/2027-04-08-MEGADETH-megadeth-2027-visuelweb-post-1080x1080-lyo-20260824-150112-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143649/conversions/2027-04-08-MEGADETH-megadeth-2027-visuelweb-post-1080x1080-lyo-20260824-150112-square.jpg",
       "id": "8aa2f77da146"
     },
     {
@@ -15898,7 +14351,7 @@
       "date_end": null,
       "time": "20:00",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/star-wars-in-concert-un-nouvel-espoir",
-      "image": "https://www.halle-tony-garnier.com/storage/143587/conversions/2027-04-10-STAR-WARS-star-wars-carre-lyo-20260428-160425-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143650/conversions/2027-04-10-STAR-WARS-star-wars-carre-lyo-20260428-160425-square.jpg",
       "id": "7015d6516327"
     },
     {
@@ -15915,19 +14368,6 @@
       "id": "edf06199435a"
     },
     {
-      "venue": "Improvidence",
-      "venue_slug": "improvidence",
-      "title": "Ça handi long",
-      "subtitle": null,
-      "category": "Impro",
-      "date_start": "2027-04-14",
-      "date_end": null,
-      "time": "19:30",
-      "url": "https://www.petit-bulletin.fr/agenda-318692-a-handi-long.html",
-      "image": null,
-      "id": "37c4b2711353"
-    },
-    {
       "venue": "La Halle Tony Garnier",
       "venue_slug": "halle-tony-garnier",
       "title": "Mosimann",
@@ -15937,7 +14377,7 @@
       "date_end": null,
       "time": "20:00",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/mosimann",
-      "image": "https://www.halle-tony-garnier.com/storage/143588/conversions/2027-04-16-MOSIMANN-carre-mosi1-20260824-164020-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143651/conversions/2027-04-16-MOSIMANN-carre-mosi1-20260824-164020-square.jpg",
       "id": "da506224d7eb"
     },
     {
@@ -16071,6 +14511,19 @@
       "id": "009fd03a963e"
     },
     {
+      "venue": "Improvidence",
+      "venue_slug": "improvidence",
+      "title": "Ça handi long",
+      "subtitle": null,
+      "category": "Impro",
+      "date_start": "2027-05-13",
+      "date_end": null,
+      "time": "21:00",
+      "url": "https://www.petit-bulletin.fr/agenda-318692-a-handi-long.html",
+      "image": null,
+      "id": "34e2076f4d3f"
+    },
+    {
       "venue": "Bourse du Travail",
       "venue_slug": "bourse-du-travail",
       "title": "Tom Baldetti",
@@ -16093,7 +14546,7 @@
       "date_end": null,
       "time": "20:00",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/suzane",
-      "image": "https://www.halle-tony-garnier.com/storage/143589/conversions/2027-05-18-SUZANE-2000x2000-suzane-zenithstour-lyo-20260331-151852-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143652/conversions/2027-05-18-SUZANE-2000x2000-suzane-zenithstour-lyo-20260331-151852-square.jpg",
       "id": "113efc2897c8"
     },
     {
@@ -16227,6 +14680,19 @@
       "id": "add17a039a06"
     },
     {
+      "venue": "Théâtre Théo Argence",
+      "venue_slug": "theatre-theo-argence",
+      "title": "Il ne m'est jamais rien arrivé",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2027-05-29",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.petit-bulletin.fr/agenda-314279-il-ne-m-est-jamais-rien-arriv.html",
+      "image": null,
+      "id": "d9c03ebdef5d"
+    },
+    {
       "venue": "Bourse du Travail",
       "venue_slug": "bourse-du-travail",
       "title": "Edgar-Yves Jr.",
@@ -16318,19 +14784,6 @@
       "id": "9f9897666f7c"
     },
     {
-      "venue": "Parc de la Tête-d'Or",
-      "venue_slug": "parc-de-la-tete-d-or",
-      "title": "Le château hanté",
-      "subtitle": null,
-      "category": "Spectacles Divers",
-      "date_start": "2027-09-05",
-      "date_end": null,
-      "time": "11:30",
-      "url": "https://www.petit-bulletin.fr/agenda-319144-le-ch-teau-hant.html",
-      "image": null,
-      "id": "bf38f6819058"
-    },
-    {
       "venue": "La Halle Tony Garnier",
       "venue_slug": "halle-tony-garnier",
       "title": "Generation Celine",
@@ -16340,7 +14793,7 @@
       "date_end": null,
       "time": "20:00",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/generation-celine-2",
-      "image": "https://www.halle-tony-garnier.com/storage/143590/conversions/2027-09-29-GENERATION-CELINE-generationceline-carre-lyon-202-20260105-154614-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143653/conversions/2027-09-29-GENERATION-CELINE-generationceline-carre-lyon-202-20260105-154614-square.jpg",
       "id": "4f8eececf37d"
     },
     {
@@ -16353,7 +14806,7 @@
       "date_end": null,
       "time": "20:00",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/la-rue-ketanou",
-      "image": "https://www.halle-tony-garnier.com/storage/143591/conversions/2027-10-01-LA-RUE-KETANOU-larueketanou-chanson-lyon-site-carre-1-20260624-105135-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143654/conversions/2027-10-01-LA-RUE-KETANOU-larueketanou-chanson-lyon-site-carre-1-20260624-105135-square.jpg",
       "id": "620a0d9b3588"
     },
     {
@@ -16379,7 +14832,7 @@
       "date_end": null,
       "time": "14:30",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/salut-les-copains-la-tournee",
-      "image": "https://www.halle-tony-garnier.com/storage/143592/conversions/2027-11-18-SALUT-LES-COPAINS-LA-TOURNEE-postsalut-les-copains-lyo-20260715-134159-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143655/conversions/2027-11-18-SALUT-LES-COPAINS-LA-TOURNEE-postsalut-les-copains-lyo-20260715-134159-square.jpg",
       "id": "25538db13fb8"
     },
     {
@@ -16392,7 +14845,7 @@
       "date_end": null,
       "time": "20:00",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/i-gotta-feeling-saison-3",
-      "image": "https://www.halle-tony-garnier.com/storage/143593/conversions/2027-11-18-I-GOTTA-FEELING-SAISON-3-igf-2027-carre-769-lyo-20260204-141943-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143656/conversions/2027-11-18-I-GOTTA-FEELING-SAISON-3-igf-2027-carre-769-lyo-20260204-141943-square.jpg",
       "id": "fb2d7ec96427"
     },
     {
@@ -16416,10 +14869,10 @@
       "category": "humour",
       "date_start": "2027-11-25",
       "date_end": null,
-      "time": null,
+      "time": "20:00",
       "url": "https://www.bourse-du-travail.com/david-castello-lopes-410446.html",
       "image": "https://www.bourse-du-travail.com/img/evenement/david-castello-lopes-dans-delicieux.jpg",
-      "id": "415818d54c69"
+      "id": "42f895d6dabd"
     },
     {
       "venue": "Bourse du Travail",
@@ -16444,7 +14897,7 @@
       "date_end": null,
       "time": "20:00",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/gael-faye",
-      "image": "https://www.halle-tony-garnier.com/storage/143594/conversions/2027-11-27-GAEL-FAYE-gae-9568-el-faye-tourne-9568-ue-ze-9568-unith-1080-1350-copi-20260603-163108-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143657/conversions/2027-11-27-GAEL-FAYE-gae-9568-el-faye-tourne-9568-ue-ze-9568-unith-1080-1350-copi-20260603-163108-square.jpg",
       "id": "6beb9713ac66"
     },
     {
@@ -16457,7 +14910,7 @@
       "date_end": null,
       "time": "20:00",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/philippe-caveriviere",
-      "image": "https://www.halle-tony-garnier.com/storage/143595/conversions/2027-12-10-PHILIPPE-CAVERIVIERE-philippecaveriviere-tournee-fnac-1080x1080-copie-1-20260414-114358-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143658/conversions/2027-12-10-PHILIPPE-CAVERIVIERE-philippecaveriviere-tournee-fnac-1080x1080-copie-1-20260414-114358-square.jpg",
       "id": "95ab438b6959"
     },
     {
@@ -16470,7 +14923,7 @@
       "date_end": null,
       "time": "20:00",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/festival-mondial-de-la-magie",
-      "image": "https://www.halle-tony-garnier.com/storage/143596/conversions/2028-01-14-FESTIVAL-MONDIAL-DE-LA-MAGIE-vignette-billetterie-saison-4-copi-20251121-110434-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143659/conversions/2028-01-14-FESTIVAL-MONDIAL-DE-LA-MAGIE-vignette-billetterie-saison-4-copi-20251121-110434-square.jpg",
       "id": "745d9cc9feff"
     },
     {
@@ -16483,7 +14936,7 @@
       "date_end": null,
       "time": "20:00",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/era-2",
-      "image": "https://www.halle-tony-garnier.com/storage/143597/conversions/2028-03-01-ERA-era1-bi-20260330-165423-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143660/conversions/2028-03-01-ERA-era1-bi-20260330-165423-square.jpg",
       "id": "661d7f33aa0b"
     }
   ]
