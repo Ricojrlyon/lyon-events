@@ -661,6 +661,43 @@
     background: linear-gradient(to bottom,
         rgba(22,31,37,.6) 0%, rgba(22,31,37,.26) 38%, rgba(22,31,37,.04) 60%);
   }
+  /* ---------- logo de salle sur les cartes groupées ----------
+     Une carte groupée n'a pas d'affiche : elle représente plusieurs
+     spectacles à la fois, et tirait donc le motif de secours. Pour les
+     salles qui jouent plusieurs fois par soir, la marque du lieu dit
+     mieux de quoi il s'agit — et c'est le même geste que pour une
+     affiche, à un cadrage près : une affiche est en `cover` et remplit
+     la carte, un logo est posé à sa taille et déborde un peu.
+
+     La hauteur est en pour cent de la carte, la largeur suit d'elle-même
+     le rapport intrinsèque de l'image — d'où `width: auto` sur la balise
+     plutôt qu'une boîte à `aspect-ratio`, qui aurait obligé à déclarer
+     le ratio de chaque fichier et à le maintenir à la main.
+
+     Le débordement haut et bas est voulu : le fondu de .visual-bg le
+     reprend et le logo s'efface aux deux bords comme le reste.
+
+     brightness un cran plus bas que les affiches (0,50 contre 0,60) :
+     un logo est un aplat, il n'a pas le bruit d'une photographie et
+     ressort donc plus fort à luminosité égale. */
+  .visual-bg .logo-img {
+    position: absolute;
+    inset: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: var(--k, 150%);
+    width: auto;
+    object-fit: contain;
+    object-position: center;
+    filter: brightness(0.50) contrast(1.06);
+  }
+  /* Le motif reste dans le DOM sous le logo, mais éteint : si le fichier
+     manque, l'onerror retire la classe et le motif reprend sa place.
+     C'est l'invariant du site — la couche de secours est toujours là —
+     appliqué à un visuel local plutôt qu'à une affiche distante. */
+  .visual-bg.has-logo > svg { display: none; }
+
   /* Le contenu passe au-dessus de la couche visuelle.
      .event-list en fait partie, et son absence était un bug : une boîte
      NON positionnée se peint sous une boîte qui l'est, quel que soit
@@ -1273,6 +1310,27 @@ const VENUES_PINNED_LAST = new Map([
   ['Improvidence', 10000],
 ]);
 
+/* Logos de salle, pour les cartes groupées uniquement (voir groupCard).
+   Les cartes d'un groupe déplié gardent leur affiche : c'est la carte de
+   tête, celle qui résume la soirée, qui porte la marque du lieu.
+
+   Chaque fichier est recadré sur la boîte de son dessin. C'est ce qui
+   rend ces pourcentages comparables : les originaux portent des marges
+   vides très inégales — 67 % pour Improvidence, 55 % pour Le Complexe,
+   0 % pour Gerson — et sans recadrage une même valeur donnait des
+   dessins de tailles très différentes.
+
+   `k` est la hauteur en pour cent de la carte. Les Subsistances sont à
+   102 % et non 150 % parce que leur marque est un ruban de ratio 2,12,
+   le plus large des quatre : à 150 % elle sortirait largement de la
+   carte. Les trois autres sont entre 0,98 et 1,33. */
+const VENUE_LOGOS = new Map([
+  ['Improvidence',             { f: 'logos/improvidence.png',     k: 150 }],
+  ['Espace Gerson',            { f: 'logos/espace-gerson.png',    k: 150 }],
+  ['Le Complexe café-théâtre', { f: 'logos/le-complexe.png',      k: 150 }],
+  ['Les Subsistances',         { f: 'logos/les-subsistances.png', k: 102 }],
+]);
+
 const VENUE_DISPLAY_ORDER = ['soirée', 'concerts', 'spectacles & musiques', 'lieux hybrides', 'théâtre & danse', 'classique', 'musées & galeries', 'autre'];
 
 /* venue -> arrondissement mapping. Researched against Wikipedia, the
@@ -1679,6 +1737,16 @@ function patternSVG(seed) {
        + '<svg class="rings" viewBox="0 0 320 160" '
        + 'preserveAspectRatio="xMidYMid slice" aria-hidden="true">'
        + '<use href="#formes-' + m.id + '"/></svg>';
+}
+
+/* Repli d'un logo de salle manquant : on retire la classe qui éteint le
+   motif, et le motif reprend sa place. Une fonction nommée plutôt qu'un
+   onerror en ligne : il y a deux instructions et un garde, ce qui dans
+   un attribut aurait demandé des guillemets imbriqués. */
+function logoIntrouvable(img) {
+  const couche = img.closest('.visual-bg');
+  if (couche) couche.classList.remove('has-logo');
+  img.remove();
 }
 
 /* Couche visuelle d'une carte : motif toujours en sous-couche, affiche
@@ -2659,7 +2727,21 @@ function groupCard(venue, evs, key) {
   // Graine du motif : le lieu seul, pour que la grappe garde la même
   // apparence d'un jour à l'autre. Le suffixe évite de tomber sur la
   // graine d'un vrai événement.
-  const visual = '<div class="visual-bg">' + patternSVG(venue + '|·groupe') + '</div>';
+  // Le logo du lieu s'il y en a un, le motif seul sinon. La trame
+  // sérigraphie vient d'un .photo-wrap VIDE : la règle du site s'y
+  // applique telle quelle et ses points couvrent alors toute la carte,
+  // pas seulement le logo — sans quoi elle aurait rejoué, cadrée sur la
+  // marque, le motif qu'on vient justement d'éteindre. Elle se peint
+  // après le voile, comme le ::after d'un vrai .photo-wrap se dessine
+  // par-dessus le voile qu'il contient.
+  const logo = VENUE_LOGOS.get(venue);
+  const visual = logo
+    ? '<div class="visual-bg has-logo">' + patternSVG(venue + '|·groupe')
+      + '<img class="logo-img" src="' + escapeHtml(logo.f) + '" alt=""'
+      + ' loading="lazy" decoding="async" style="--k:' + logo.k + '%"'
+      + ' onerror="logoIntrouvable(this)">'
+      + '<div class="scrim"></div><div class="photo-wrap"></div></div>'
+    : '<div class="visual-bg">' + patternSVG(venue + '|·groupe') + '</div>';
 
   return [
     '<button type="button" class="event" data-venue-day="' + escapeHtml(key) + '"',
