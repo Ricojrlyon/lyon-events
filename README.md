@@ -8,7 +8,7 @@ et affichés sur une page statique hébergée par GitHub Pages :
 ## Fonctionnement
 
 ```
-17 scrapers venue ──┐
+18 scrapers venue ──┐
                     ├─→ dédup 3 passes ─→ events.json ─→ index.html (GitHub Pages)
 2 agrégateurs ──────┘         │
 (Petit Bulletin,              ├─→ venue_arrondissements.json (géocodage Nominatim)
@@ -31,6 +31,14 @@ les trois fichiers de données.
   l'Espace Gerson à la Salle Victor Hugo et à la Bourse du Travail (que
   nocturne scrappe déjà). Chaque scraper fournit donc son prédicat de
   lieu, appliqué sur le Venue que Mapado expose en clair.
+- **`scrapers/complexe.py`** — Le Complexe café-théâtre, seul scraper à
+  exiger un User-Agent PARTICULIER : le pare-feu du site renvoie 403 à
+  toute chaîne contenant « Mozilla/5.0 (compatible », donc l'UA y est
+  franc, sans déguisement en navigateur. Ne pas l'aligner sur les autres.
+  Autre particularité : les dates des séances n'y portent pas d'année,
+  déduite de la plage du catalogue puis roulée quand le mois recule — et
+  validée par le nom du jour de la semaine, qui écarte toute déduction
+  fausse plutôt que de publier une date erronée.
 - **`scrapers/aggregators/`** — sources multi-lieux : Petit Bulletin et
   Ville Morte (API Gancio). Priorité inférieure aux scrapers venue : en cas
   de doublon, le scraper de la salle gagne l'identité et hérite des champs

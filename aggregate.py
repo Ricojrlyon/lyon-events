@@ -39,7 +39,7 @@ from scrapers import (
     petit_salon, sonic, periscope, la_commune,
     heat, halle_tony_garnier,
     opera_lyon, tng,
-    bourse_du_travail, improvidence, espace_gerson,
+    bourse_du_travail, improvidence, espace_gerson, complexe,
 )
 from scrapers.aggregators import villemorte, petit_bulletin
 from scrapers.dedup import deduplicate, canonical_venue_name
@@ -66,6 +66,7 @@ SCRAPERS: list[tuple[str, Callable[[], List[Event]]]] = [
     ("Bourse du Travail",       bourse_du_travail.fetch),
     ("Improvidence",            improvidence.fetch),
     ("Espace Gerson",           espace_gerson.fetch),
+    ("Le Complexe",             complexe.fetch),
 ]
 
 # Aggregators — priority lower than venue scrapers (lose against them on

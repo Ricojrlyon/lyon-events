@@ -69,6 +69,10 @@ VENUE_CANONICAL: dict[str, list[str]] = {
     # sources tomberaient dans deux groupes de dedup distincts.
     "Espace Gerson":          ["espace gerson", "gerson",
                                "l espace gerson"],
+    # Le Petit Bulletin l'ecrit « Le Complexe cafe-theatre ».
+    "Le Complexe café-théâtre": ["le complexe cafe theatre",
+                                 "complexe cafe theatre",
+                                 "le complexe", "complexe"],
     # === New venues from aggregators (canonical names) ===
     "Toï Toï le Zinc":        ["toi toi le zinc", "toi toi", "toitoi"],
     "Grrrnd Zero":            ["grrrnd zero", "grrnd zero", "grrrnd-zero",
