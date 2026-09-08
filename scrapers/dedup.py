@@ -74,6 +74,11 @@ VENUE_CANONICAL: dict[str, list[str]] = {
                                  "complexe cafe theatre",
                                  "le complexe", "complexe"],
     # === New venues from aggregators (canonical names) ===
+    # Le TNP s'écrit de bien des façons. « tnp » seul suffirait presque,
+    # mais le nom complet et sa version sans tiret circulent aussi.
+    "TNP - Théâtre National Populaire": ["tnp", "tnp villeurbanne",
+                                         "theatre national populaire",
+                                         "tnp theatre national populaire"],
     # Le Petit Bulletin écrit « Célestins, théâtre de Lyon », le site
     # lui-même « Les Célestins » et l'usage « Théâtre des Célestins ».
     "Célestins, théâtre de Lyon": ["celestins theatre de lyon", "les celestins",

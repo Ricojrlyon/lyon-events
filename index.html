@@ -1437,7 +1437,8 @@ const VENUE_GROUPS = [
      dans VENUE_ARRONDISSEMENT est conservée — inoffensive, et utile si
      un événement y remonte un jour via un agrégateur. */
   { name: 'théâtre & danse',       venues: ['Opéra national de Lyon', 'TNG', 'Maison de la Danse', 'Improvidence', 'Espace Gerson', 'Le Complexe café-théâtre',
-                                     'Célestins, théâtre de Lyon'] },
+                                     'Célestins, théâtre de Lyon',
+                                     'TNP - Théâtre National Populaire'] },
   { name: 'classique',             venues: ['Auditorium de Lyon', 'Chapelle de la Trinité', 'Salle Molière'] },
   /* 'musées & galeries' is dynamically populated by inferGroupForVenue
      (anything containing musée / galerie / institut). */
@@ -1590,6 +1591,7 @@ const VENUE_ARRONDISSEMENT = {
 
   // Villeurbanne
   'Le Transbordeur': 'Villeurbanne',
+  'TNP - Théâtre National Populaire': 'Villeurbanne', // 8 place Lazare-Goujon
   'La Rayonne': 'Villeurbanne',
   'Toï Toï le Zinc': 'Villeurbanne',
   'Café Nanoum': 'Villeurbanne',  // 16 rue Branly

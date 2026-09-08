@@ -8,7 +8,7 @@ et affichés sur une page statique hébergée par GitHub Pages :
 ## Fonctionnement
 
 ```
-19 scrapers venue ──┐
+20 scrapers venue ──┐
                     ├─→ dédup 3 passes ─→ events.json ─→ index.html (GitHub Pages)
 2 agrégateurs ──────┘         │
 (Petit Bulletin,              ├─→ venue_arrondissements.json (géocodage Nominatim)
@@ -31,6 +31,13 @@ les trois fichiers de données.
   l'Espace Gerson à la Salle Victor Hugo et à la Bourse du Travail (que
   nocturne scrappe déjà). Chaque scraper fournit donc son prédicat de
   lieu, appliqué sur le Venue que Mapado expose en clair.
+- **`scrapers/tnp.py`** — le TNP, seul scraper à s'être vu REFUSER une
+  API qui existe : le site est un WordPress mais son robots.txt interdit
+  /wp-json/. On lit donc /agenda/, qui a l'avantage de rendre la saison
+  entière en une requête, avec des attributs `datetime` lisibles à la
+  machine. Les affiches viennent de l'`og:image` des fiches spectacle —
+  dix-sept fiches pour cent vingt-trois représentations, le même
+  spectacle se jouant dix à dix-sept fois.
 - **`scrapers/celestins.py`** — Les Célestins, seule salle du dépôt à
   offrir une API JSON DOCUMENTÉE : le site tourne sous Roadiz, son
   robots.txt n'interdit que /api/docs, et /api/docs.json rend la
