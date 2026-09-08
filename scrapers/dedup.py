@@ -53,7 +53,12 @@ VENUE_CANONICAL: dict[str, list[str]] = {
     "Radiant-Bellevue":       ["radiant", "radiant bellevue"],
     "Opéra national de Lyon": ["opera lyon", "opera national de lyon",
                                "opera de lyon"],
-    "TNG":                    ["tng", "theatre nouvelle generation"],
+    # Le TNG a deux sites, Vaise et Les Ateliers. Le Petit Bulletin
+    # nomme le premier « TNG-VAISE » : sans cette entrée il devenait un
+    # lieu à part entière, avec un seul événement, alors que la salle
+    # est déjà scrappée en direct.
+    "TNG":                    ["tng", "theatre nouvelle generation",
+                               "tng vaise", "tng les ateliers"],
     "HEAT":                   ["heat"],
     "La Halle Tony Garnier":  ["halle tony garnier", "halle tony-garnier"],
     "Bourse du Travail":      ["bourse du travail"],
