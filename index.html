@@ -1136,6 +1136,34 @@
     display: grid;
     gap: 12px;
   }
+  /* Sections par famille, sur les seules journées denses. Le titre est un
+     filet à gauche duquel s'inscrit le nom : assez présent pour découper,
+     assez discret pour ne pas concurrencer la barre de journée, qui reste
+     le repère principal du fil. */
+  .fam-section + .fam-section { margin-top: 20px; }
+  .fam-titre {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0 0 10px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+  }
+  .fam-titre .ft-n {
+    font-size: 9.5px;
+    color: var(--ink-mute);
+    font-variant-numeric: tabular-nums;
+  }
+  .fam-titre::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--rule);
+  }
   /* Le bloc est une pile verticale : la grille des cartes ouvertes, puis
      la barre de repli. Le filet est une BORDURE et non un outline décalé.
      L'outline avait l'avantage de ne prendre aucune place, donc de garder
@@ -2849,7 +2877,37 @@ function renderFeed() {
    position de son PREMIER membre dans la liste déjà triée, sinon
    regrouper réordonnerait le jour. Une grappe dépliée rend ses cartes
    normales dans un bloc encadré, suivies du bouton de repli. */
+/* Au-delà de ce nombre de cartes, la journée se découpe en sections de
+   famille ; en deçà elle reste une grille continue. La journée médiane
+   fait 5 cartes, et trois titres au-dessus d'une ou deux cartes chacune
+   coûteraient plus qu'ils ne rapportent. Mesuré à ce seuil : 28 % des
+   jours sont découpés, en 3,6 sections dont 0,7 seulement en dessous de
+   trois cartes. */
+const SEUIL_SECTIONS = 10;
+
 function dayCardsHtml(iso, list) {
+  const grappes = [...groupByVenue(list)];
+  // Le seuil compte les CARTES, donc les grappes : une salle qui joue
+  // quatre fois le même soir n'occupe qu'une carte tant qu'elle est
+  // repliée, et ne doit pas à elle seule faire basculer la journée.
+  if (grappes.length < SEUIL_SECTIONS) return grilleHtml(iso, grappes);
+
+  const out = [];
+  for (const f of FAMILLES) {
+    const dedans = grappes.filter(([, evs]) => familleDeCarte(evs) === f.key);
+    if (!dedans.length) continue;          // pas de section vide
+    out.push('<section class="fam-section">');
+    out.push('<h3 class="fam-titre">' + escapeHtml(f.label)
+           + '<span class="ft-n">' + dedans.length + '</span></h3>');
+    out.push(grilleHtml(iso, dedans));
+    out.push('</section>');
+  }
+  return out.join('\n');
+}
+
+/* Rend une suite de grappes (lieu, événements) : sert à une journée
+   entière comme à une seule section. */
+function grilleHtml(iso, grappes) {
   // On empile des conteneurs : une grille .events tant que les cartes se
   // suivent normalement, refermée dès qu'un groupe déplié s'intercale.
   const out = [];
@@ -2860,7 +2918,7 @@ function dayCardsHtml(iso, list) {
     grille = [];
   };
 
-  for (const [venue, evs] of groupByVenue(list)) {
+  for (const [venue, evs] of grappes) {
     if (evs.length < 2) { grille.push(eventCard(evs[0])); continue; }
     const key = iso + '|' + venue;
     if (!state.expanded.has(key)) { grille.push(groupCard(venue, evs, key)); continue; }

@@ -167,7 +167,10 @@ motif.
   expos, autres. Quatre et non dix-huit — les buckets restent la maille
   fine, mais autant de sections dans une journée seraient illisibles.
   Chaque barre de journée porte un bouton par famille : l'état est
-  GLOBAL, le compte est celui du JOUR. Tout bucket non rangé dans une
+  GLOBAL, le compte est celui du JOUR. Au-delà de dix cartes la journée
+  se découpe en sections titrées par famille (`SEUIL_SECTIONS`) ; en
+  deçà elle reste une grille continue, la journée médiane ne faisant que
+  cinq cartes. Tout bucket non rangé dans une
   famille tombe dans « autres », et une alerte console le signale : le
   repli évite de perdre un événement, il ne doit pas masquer un oubli.
 - **Événements longs** (expos, festivals au long cours) : conservés sous
