@@ -3,13 +3,13 @@
     "arr": null,
     "checked_at": "2026-09-01",
     "confidence": "failed",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Amphithéâtre - Salle 3000": {
     "arr": "6e",
     "checked_at": "2026-09-01",
     "confidence": "high",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Amphithéâtre de l'Opéra": {
     "arr": null,
@@ -21,13 +21,13 @@
     "arr": "2e",
     "checked_at": "2026-09-01",
     "confidence": "high",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Au Rikiki": {
     "arr": "1er",
     "checked_at": "2026-08-12",
     "confidence": "high",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Au bonheur des ogres": {
     "arr": "9e",
@@ -51,37 +51,37 @@
     "arr": "5e",
     "checked_at": "2026-08-12",
     "confidence": "high",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Bibliothèque de Saint Didier-au-Mont-d'Or - Maison Meunier": {
     "arr": null,
     "checked_at": "2026-09-01",
     "confidence": "failed",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Bibliothèque de la Part-Dieu": {
     "arr": "3e",
     "checked_at": "2026-09-01",
     "confidence": "high",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Bibliothèque du 3e Lacassagne": {
     "arr": "3e",
     "checked_at": "2026-09-01",
     "confidence": "high",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Bibliothèque du 7e Gerland Hannah Arendt": {
     "arr": "7e",
     "checked_at": "2026-09-01",
     "confidence": "high",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Bieristan": {
     "arr": "Villeurbanne",
     "checked_at": "2026-08-12",
     "confidence": "high",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Bizarre!": {
     "arr": "Autre",
@@ -123,31 +123,43 @@
     "arr": "1er",
     "checked_at": "2026-08-27",
     "confidence": "high",
-    "seen_at": "2026-08-27"
+    "seen_at": "2026-09-08"
   },
   "Centre d'échanges de Perrache": {
     "arr": "2e",
     "checked_at": "2026-09-01",
     "confidence": "high",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Centre social des Buers": {
     "arr": "Villeurbanne",
     "checked_at": "2026-08-12",
     "confidence": "high",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Ceysson & Bénétière": {
     "arr": "1er",
     "checked_at": "2026-09-01",
     "confidence": "high",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Chapelle Notre-Dame-de-l\\'île-Barbe": {
     "arr": null,
     "checked_at": "2026-08-18",
     "confidence": "failed",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
+  },
+  "Chapelle du Vinatier": {
+    "arr": "3e",
+    "checked_at": "2026-09-08",
+    "confidence": "high",
+    "seen_at": "2026-09-08"
+  },
+  "Cinéma Le Zola": {
+    "arr": "Villeurbanne",
+    "checked_at": "2026-09-08",
+    "confidence": "high",
+    "seen_at": "2026-09-08"
   },
   "Colline de Fourvière": {
     "arr": "5e",
@@ -159,7 +171,7 @@
     "arr": "7e",
     "checked_at": "2026-09-01",
     "confidence": "high",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Comoedia": {
     "arr": "7e",
@@ -171,7 +183,7 @@
     "arr": "2e",
     "checked_at": "2026-08-12",
     "confidence": "high",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Dr Yeast": {
     "arr": "4e",
@@ -184,14 +196,14 @@
     "checked_at": "2026-09-01",
     "commune": "La Tour-de-Salvagny",
     "confidence": "low",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Espace Albert Camus": {
     "arr": "Autre",
     "checked_at": "2026-09-01",
     "commune": "Bron",
     "confidence": "low",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Esplanade du Gros caillou": {
     "arr": "4e",
@@ -199,11 +211,17 @@
     "confidence": "high",
     "seen_at": "2026-08-26"
   },
+  "Factatory": {
+    "arr": null,
+    "checked_at": "2026-09-08",
+    "confidence": "failed",
+    "seen_at": "2026-09-08"
+  },
   "Fnac Part-Dieu": {
     "arr": "3e",
     "checked_at": "2026-08-27",
     "confidence": "high",
-    "seen_at": "2026-08-27"
+    "seen_at": "2026-09-08"
   },
   "Fondation Bullukian": {
     "arr": "2e",
@@ -217,52 +235,64 @@
     "confidence": "high",
     "seen_at": "2026-09-02"
   },
+  "Galerie Catherine Mainguy": {
+    "arr": null,
+    "checked_at": "2026-09-08",
+    "confidence": "failed",
+    "seen_at": "2026-09-08"
+  },
   "Galerie Françoise Besson": {
     "arr": "1er",
     "checked_at": "2026-08-12",
     "confidence": "high",
-    "seen_at": "2026-08-12"
+    "seen_at": "2026-09-08"
   },
   "Galerie Imag'In": {
     "arr": "4e",
     "checked_at": "2026-08-12",
     "confidence": "high",
-    "seen_at": "2026-08-12"
+    "seen_at": "2026-09-08"
+  },
+  "Galerie Jean-Louis Mandon": {
+    "arr": "2e",
+    "checked_at": "2026-09-08",
+    "confidence": "high",
+    "seen_at": "2026-09-08"
   },
   "Galerie Kashagan": {
     "arr": null,
     "checked_at": "2026-08-12",
     "confidence": "failed",
-    "seen_at": "2026-08-12"
+    "seen_at": "2026-09-08"
   },
   "Galerie Masurel": {
     "arr": null,
     "checked_at": "2026-08-12",
     "confidence": "failed",
-    "seen_at": "2026-08-12"
+    "seen_at": "2026-09-08"
   },
   "Galerie Michel Estades": {
     "arr": null,
     "checked_at": "2026-08-12",
     "confidence": "failed",
-    "seen_at": "2026-08-12"
+    "seen_at": "2026-09-08"
   },
   "Gare de Perrache": {
     "arr": "2e",
     "checked_at": "2026-08-27",
     "confidence": "high",
-    "seen_at": "2026-08-27"
+    "seen_at": "2026-09-08"
   },
   "Grand Hôtel-Dieu": {
     "arr": "2e",
     "checked_at": "2026-08-18",
     "confidence": "high",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Groom": {
     "arr": "1er",
     "confidence": "high",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Gros Caillou": {
     "arr": "4e",
@@ -279,7 +309,7 @@
     "arr": "2e",
     "checked_at": "2026-08-26",
     "confidence": "high",
-    "seen_at": "2026-08-26"
+    "seen_at": "2026-09-08"
   },
   "IAC Villeurbanne": {
     "arr": "Villeurbanne",
@@ -291,32 +321,38 @@
     "arr": "Villeurbanne",
     "checked_at": "2026-09-01",
     "confidence": "high",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Irigny": {
     "arr": "Autre",
     "checked_at": "2026-08-18",
     "commune": "Irigny",
     "confidence": "low",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Jardin Gilibert (géré par la MJC Confluence)": {
     "arr": null,
     "checked_at": "2026-09-01",
     "confidence": "failed",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
+  },
+  "L'Aînée - Librairie Vivement Dimanche": {
+    "arr": null,
+    "checked_at": "2026-09-08",
+    "confidence": "failed",
+    "seen_at": "2026-09-08"
   },
   "L'attrape-couleurs": {
     "arr": null,
     "checked_at": "2026-08-25",
     "confidence": "failed",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "La Ferme du Vinatier": {
     "arr": null,
     "checked_at": "2026-08-18",
     "confidence": "failed",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "La Galerue": {
     "arr": "4e",
@@ -328,37 +364,37 @@
     "arr": "Autre",
     "commune": "Vénissieux",
     "confidence": "low",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "La Madeleine": {
     "arr": "7e",
     "checked_at": "2026-08-27",
     "confidence": "high",
-    "seen_at": "2026-08-27"
+    "seen_at": "2026-09-08"
   },
   "La Médiane, tiers-lieu féministe": {
     "arr": null,
     "checked_at": "2026-09-01",
     "confidence": "failed",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "La Pente": {
     "arr": "1er",
     "checked_at": "2026-09-01",
     "confidence": "high",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "La Relève": {
     "arr": "5e",
     "checked_at": "2026-09-01",
     "confidence": "high",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "La Ruche industrielle": {
     "arr": "Autre",
     "commune": "Vénissieux",
     "confidence": "low",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "La Torpille": {
     "arr": "4e",
@@ -376,27 +412,27 @@
     "arr": null,
     "checked_at": "2026-08-12",
     "confidence": "failed",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Le Faitout": {
     "arr": "Autre",
     "checked_at": "2026-09-01",
     "commune": "La Mulatière",
     "confidence": "low",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Le Flâneur": {
     "arr": "7e",
     "checked_at": "2026-09-01",
     "confidence": "high",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Le Toboggan": {
     "arr": "Autre",
     "checked_at": "2026-08-12",
     "commune": "Décines-Charpieu",
     "confidence": "low",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Le Trokson": {
     "arr": "1er",
@@ -414,44 +450,62 @@
     "checked_at": "2026-08-12",
     "commune": "Francheville",
     "confidence": "low",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Librairie Adrienne": {
     "arr": "2e",
     "checked_at": "2026-08-27",
     "confidence": "high",
-    "seen_at": "2026-08-27"
+    "seen_at": "2026-09-08"
+  },
+  "Librairie Esperluette": {
+    "arr": "5e",
+    "checked_at": "2026-09-08",
+    "confidence": "high",
+    "seen_at": "2026-09-08"
   },
   "Librairie Expérience": {
     "arr": "2e",
     "checked_at": "2026-08-27",
     "confidence": "high",
-    "seen_at": "2026-08-27"
+    "seen_at": "2026-09-08"
   },
   "Librairie L'œil cacodylate": {
     "arr": "2e",
     "checked_at": "2026-08-27",
     "confidence": "high",
-    "seen_at": "2026-08-27"
+    "seen_at": "2026-09-08"
   },
   "Librairie La Bonne Étoile": {
     "arr": "Autre",
     "checked_at": "2026-08-27",
     "commune": "Irigny",
     "confidence": "low",
-    "seen_at": "2026-08-27"
+    "seen_at": "2026-09-08"
+  },
+  "Librairie Momie": {
+    "arr": "2e",
+    "checked_at": "2026-09-08",
+    "confidence": "high",
+    "seen_at": "2026-09-08"
   },
   "Librairie Passages": {
     "arr": "2e",
     "checked_at": "2026-08-27",
     "confidence": "high",
-    "seen_at": "2026-08-27"
+    "seen_at": "2026-09-08"
   },
   "Librairie Terre des livres": {
     "arr": "7e",
     "checked_at": "2026-08-12",
     "confidence": "high",
-    "seen_at": "2026-08-26"
+    "seen_at": "2026-09-08"
+  },
+  "Librairie Traits d'union": {
+    "arr": "7e",
+    "checked_at": "2026-09-08",
+    "confidence": "high",
+    "seen_at": "2026-09-08"
   },
   "Librairie à soi.e": {
     "arr": "1er",
@@ -468,25 +522,25 @@
   "Lyon": {
     "arr": null,
     "confidence": "skip",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "L’Amicale Du Futur": {
     "arr": "7e",
     "checked_at": "2026-09-01",
     "confidence": "high",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "MAM - Musée des Arts et de la Marionnette": {
     "arr": null,
     "checked_at": "2026-08-12",
     "confidence": "failed",
-    "seen_at": "2026-08-12"
+    "seen_at": "2026-09-08"
   },
   "MJC Louis Aragon / Jack Jack": {
     "arr": null,
     "checked_at": "2026-08-12",
     "confidence": "failed",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Maison Ravier": {
     "arr": "7e",
@@ -498,7 +552,7 @@
     "arr": "7e",
     "checked_at": "2026-09-01",
     "confidence": "high",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Maison du Livre, de l\\'Image et du Son": {
     "arr": null,
@@ -510,25 +564,31 @@
     "arr": null,
     "checked_at": "2026-09-01",
     "confidence": "failed",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
+  },
+  "Momie Romance": {
+    "arr": null,
+    "checked_at": "2026-09-08",
+    "confidence": "failed",
+    "seen_at": "2026-09-08"
   },
   "Musée Jean Couty": {
     "arr": "9e",
     "checked_at": "2026-08-12",
     "confidence": "high",
-    "seen_at": "2026-08-12"
+    "seen_at": "2026-09-08"
   },
   "Musée Paul-Dini": {
     "arr": null,
     "checked_at": "2026-08-12",
     "confidence": "failed",
-    "seen_at": "2026-08-12"
+    "seen_at": "2026-09-08"
   },
   "Musée Urbain Tony Garnier": {
     "arr": "8e",
     "checked_at": "2026-08-12",
     "confidence": "high",
-    "seen_at": "2026-08-12"
+    "seen_at": "2026-09-08"
   },
   "Musée de Fourvière": {
     "arr": "5e",
@@ -540,19 +600,19 @@
     "arr": "5e",
     "checked_at": "2026-09-01",
     "confidence": "high",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Ninkasi Cordeliers": {
     "arr": "2e",
     "checked_at": "2026-09-01",
     "confidence": "high",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Ninkasi Gratte-Ciel": {
     "arr": "Villeurbanne",
     "checked_at": "2026-09-01",
     "confidence": "high",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Office de tourisme": {
     "arr": "Autre",
@@ -565,20 +625,20 @@
     "arr": null,
     "checked_at": "2026-09-01",
     "confidence": "failed",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Parc Maurice Sautier": {
     "arr": null,
     "checked_at": "2026-08-12",
     "confidence": "failed",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Parc de Miribel-Jonage": {
     "arr": "Autre",
     "checked_at": "2026-09-01",
     "commune": "Meyzieu",
     "confidence": "low",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Parc de la Tête-d'Or": {
     "arr": "Autre",
@@ -591,13 +651,13 @@
     "arr": "5e",
     "checked_at": "2026-09-01",
     "confidence": "high",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Parc des Oiseaux": {
     "arr": null,
     "checked_at": "2026-09-01",
     "confidence": "failed",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Parking Henri Despréaux": {
     "arr": "Autre",
@@ -610,7 +670,7 @@
     "arr": "Villeurbanne",
     "checked_at": "2026-09-01",
     "confidence": "high",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Place Ambroise Courtois": {
     "arr": "8e",
@@ -622,13 +682,13 @@
     "arr": "3e",
     "checked_at": "2026-09-01",
     "confidence": "high",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Place Saint-Jean": {
     "arr": "5e",
     "checked_at": "2026-09-01",
     "confidence": "high",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Place de la Paix": {
     "arr": "Villeurbanne",
@@ -659,27 +719,33 @@
     "checked_at": "2026-08-12",
     "commune": "Rontalon",
     "confidence": "low",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Saint-Cyr-au-Mont-d\\'Or": {
     "arr": "Autre",
     "checked_at": "2026-09-01",
     "commune": "Saint-Cyr-au-Mont-d'Or",
     "confidence": "low",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Salle Victor Hugo": {
     "arr": "Autre",
     "checked_at": "2026-09-01",
     "commune": "Sathonay-Camp",
     "confidence": "low",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
+  },
+  "Showroom galerie 7": {
+    "arr": null,
+    "checked_at": "2026-09-08",
+    "confidence": "failed",
+    "seen_at": "2026-09-08"
   },
   "Spacejunk": {
     "arr": "1er",
     "checked_at": "2026-08-18",
     "confidence": "high",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Square Delestraint": {
     "arr": "3e",
@@ -691,50 +757,50 @@
     "arr": null,
     "checked_at": "2026-09-01",
     "confidence": "failed",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "TNP - Théâtre National Populaire": {
     "arr": "Villeurbanne",
     "checked_at": "2026-08-12",
     "confidence": "high",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Théâtre La Mouche": {
     "arr": "7e",
     "checked_at": "2026-08-12",
     "confidence": "high",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Théâtre Théo Argence": {
     "arr": "Autre",
     "checked_at": "2026-08-12",
     "commune": "Saint-Priest",
     "confidence": "low",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Théâtre de l'Iris": {
     "arr": "Villeurbanne",
     "checked_at": "2026-08-12",
     "confidence": "high",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Théâtre de l\\'Élysée": {
     "arr": "7e",
     "checked_at": "2026-09-01",
     "confidence": "high",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Théâtre de la Croix-Rousse": {
     "arr": "4e",
     "checked_at": "2026-08-12",
     "confidence": "high",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Théâtre de la Renaissance": {
     "arr": null,
     "checked_at": "2026-09-01",
     "confidence": "failed",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Théâtre de l’Elysée": {
     "arr": "7e",
@@ -744,26 +810,26 @@
     "arr": "1er",
     "checked_at": "2026-09-01",
     "confidence": "high",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Théâtre des Marronniers": {
     "arr": "2e",
     "checked_at": "2026-09-01",
     "confidence": "high",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Théâtre du Point du Jour": {
     "arr": "5e",
     "checked_at": "2026-08-12",
     "confidence": "high",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Théâtre à l'Ouest": {
     "arr": "Autre",
     "checked_at": "2026-09-01",
     "commune": "Décines-Charpieu",
     "confidence": "low",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Théâtres romains de Fourvière": {
     "arr": "5e",
@@ -773,25 +839,25 @@
     "arr": "9e",
     "checked_at": "2026-08-25",
     "confidence": "high",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Trokson": {
     "arr": "1er",
     "checked_at": "2026-09-01",
     "confidence": "high",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "UC4 Bron-Parilly": {
     "arr": null,
     "checked_at": "2026-09-01",
     "confidence": "failed",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "UC5 Bron-Parilly": {
     "arr": null,
     "checked_at": "2026-09-01",
     "confidence": "failed",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "URDLA": {
     "arr": "Villeurbanne",
@@ -804,7 +870,7 @@
     "checked_at": "2026-09-01",
     "commune": "Meyzieu",
     "confidence": "low",
-    "seen_at": "2026-09-01"
+    "seen_at": "2026-09-08"
   },
   "Ô Totem live": {
     "arr": null,

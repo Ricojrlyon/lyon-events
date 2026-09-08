@@ -83,6 +83,10 @@
     "fetched_at": "2026-07-12",
     "time": "17:30"
   },
+  "https://h-eat.eu/events/crush-open-air/": {
+    "fetched_at": "2026-09-08",
+    "time": "19:00"
+  },
   "https://h-eat.eu/events/dans-les-bacs-cymka-aladdin/": {
     "fetched_at": "2026-07-17",
     "time": "18:00"
@@ -1170,6 +1174,11 @@
   "https://www.transbordeur.fr/evenement/asgeir-hailaker-20092026/": {
     "fetched_at": "2026-09-03",
     "image": "https://www.transbordeur.fr/wp-content/uploads/2026/02/a-asgeir.jpeg",
+    "time": "19:00"
+  },
+  "https://www.transbordeur.fr/evenement/aupinard-19022027/": {
+    "fetched_at": "2026-09-08",
+    "image": "https://www.transbordeur.fr/wp-content/uploads/2026/09/a-aupinard.jpeg",
     "time": "19:00"
   },
   "https://www.transbordeur.fr/evenement/axel-bauer-13122026/": {
