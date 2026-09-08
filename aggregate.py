@@ -42,6 +42,7 @@ from scrapers import (
     bourse_du_travail, improvidence, espace_gerson, complexe,
 )
 from scrapers.aggregators import villemorte, petit_bulletin
+from scrapers.categorie import combler as combler_categories
 from scrapers.dedup import deduplicate, canonical_venue_name
 from scrapers.detail_cache import save_if_dirty as save_detail_cache
 from scrapers.geo import resolve_new_venues
@@ -246,6 +247,15 @@ def main() -> int:
     # 7) Sort by date then time then venue.
     unique.sort(key=lambda e: (e.date_start, e.time or "00:00", e.venue))
 
+
+    # 7b) Combler les catégories manquantes. APRÈS la déduplication, et
+    #     c'est important : quand un même événement remonte de deux
+    #     sources, la dédup a déjà hérité la catégorie de celle qui en
+    #     avait une. On ne déduit donc que pour ce qui en manque
+    #     réellement, et jamais par-dessus une catégorie de source.
+    comble, sans_cat = combler_categories(unique)
+    print(f"[catégories] {comble} comblée(s) par déduction, "
+          f"{sans_cat} restée(s) sans catégorie")
 
     # 8) Geocode any new venues not already in the frontend's hardcoded
     #    VENUE_ARRONDISSEMENT map (parsée en direct depuis index.html —

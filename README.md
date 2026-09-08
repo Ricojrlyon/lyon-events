@@ -48,6 +48,17 @@ les trois fichiers de données.
   fuzzy-match des titres ≥ 0,7 (les plages multi-jours sont indexées sur
   chaque jour couvert), cross-venue ≥ 0,85 (titres génériques exclus),
   puis pairing scraper/agrégateur à effectifs égaux avec garde temporel 4 h.
+- **`scrapers/categorie.py`** — comble la catégorie quand la source n'en
+  donne aucune, après la déduplication et sans jamais écraser une
+  catégorie de source. Le TITRE d'abord — ces salles y annoncent le genre
+  en clair (« Projection Ciné-Club », « [Punk Rock] », « comedy club ») —
+  puis un défaut de LIEU, réservé aux salles réellement mono-genre : à
+  Marché Gare les événements sans catégorie comprennent une projection et
+  deux formations, au Bieristan des quiz. Ce qui ne se déduit pas reste
+  vide, « LP » ou « Face B » ne disant rien. Attention : les étiquettes
+  produites doivent être reconnues par `TYPE_BUCKETS` (index.html),
+  sinon le comblement ne sert à rien — deux pièges vérifiés, « ciné » ne
+  correspond pas à sa propre regex et « électro » accentué non plus.
 - **`scrapers/geo.py`** — géocodage Nominatim des lieux inconnus →
   arrondissement, mis en cache dans `venue_arrondissements.json`. Les lieux
   déjà hardcodés dans `VENUE_ARRONDISSEMENT` (index.html, source de vérité,
