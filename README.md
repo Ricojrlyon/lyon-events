@@ -164,6 +164,13 @@ motif.
   en entier, « art » seul emporterait « Art graphique » et « Street Art ».
   La catégorie reste facultative : un événement non catégorisé n'est
   jamais écarté.
+- **Familles d'affichage** (`FAMILLES`, index.html) : musique, scène,
+  expos, autres. Quatre et non dix-huit — les buckets restent la maille
+  fine, mais autant de sections dans une journée seraient illisibles.
+  Chaque barre de journée porte un bouton par famille : l'état est
+  GLOBAL, le compte est celui du JOUR. Tout bucket non rangé dans une
+  famille tombe dans « autres », et une alerte console le signale : le
+  repli évite de perdre un événement, il ne doit pas masquer un oubli.
 - **Événements longs** (expos, festivals au long cours) : conservés sous
   forme de plage `date_start`..`date_end` au lieu d'être jetés. Le frontend
   les affiche avec un badge « en cours » au-delà de 30 jours.
