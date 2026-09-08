@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-08T12:53:31.874580+00:00",
-  "count": 2181,
+  "generated_at": "2026-09-08T13:35:45.395755+00:00",
+  "count": 2267,
   "events": [
     {
       "venue": "Opéra national de Lyon",
@@ -326,6 +326,19 @@
       "url": "https://agenda.villemorte.fr/event/game-of-quizz-100-culture-g",
       "image": null,
       "id": "97c2cbdb2ac5"
+    },
+    {
+      "venue": "La Rayonne",
+      "venue_slug": "la-rayonne",
+      "title": "THE PINEAPPLE THIEF",
+      "subtitle": null,
+      "category": "musique",
+      "date_start": "2026-09-08",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://larayonne.org/evenement/the-pineapple-thief-2/",
+      "image": "https://larayonne.org/wp-content/uploads/2026/09/Header-500x266.jpg",
+      "id": "bb1de5e02d4b"
     },
     {
       "venue": "Librairie Passages",
@@ -2627,6 +2640,19 @@
       "url": "https://www.petit-bulletin.fr/agenda-319238-exposition-collective.html",
       "image": null,
       "id": "5102f52d6553"
+    },
+    {
+      "venue": "Au Rikiki",
+      "venue_slug": "au-rikiki",
+      "title": "Rouge",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-09-16",
+      "date_end": "2026-10-14",
+      "time": "10:30",
+      "url": "https://www.petit-bulletin.fr/agenda-319347-rouge.html",
+      "image": null,
+      "id": "9a22db29b2f0"
     },
     {
       "venue": "Orangerie du Parc de la Tête d\\'Or",
@@ -5177,6 +5203,19 @@
       "id": "5b8084eea627"
     },
     {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "My Fierce Ignorant Step",
+      "subtitle": "Christos  Papadopoulos",
+      "category": "danse",
+      "date_start": "2026-09-23",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/my-fierce-ignorant-step",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/christos-papadopoulos-s.jpg?itok=UvcH19su",
+      "id": "622582d8cd00"
+    },
+    {
       "venue": "Rita-Plage",
       "venue_slug": "rita-plage",
       "title": "L'ovaire du décor",
@@ -5292,19 +5331,6 @@
       "url": "https://www.lecomplexelyon.com/programme/jules-robin-besoin-damour/",
       "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/jules-robin-540x800.jpg",
       "id": "b1c932b05ae3"
-    },
-    {
-      "venue": "Maison de la Danse",
-      "venue_slug": "maison-de-la-danse",
-      "title": "My fierce ignorant step",
-      "subtitle": null,
-      "category": "Danse",
-      "date_start": "2026-09-23",
-      "date_end": null,
-      "time": "20:30",
-      "url": "https://www.petit-bulletin.fr/agenda-319005-my-fierce-ignorant-step.html",
-      "image": null,
-      "id": "e3ecf776dc8e"
     },
     {
       "venue": "Trokson",
@@ -5647,15 +5673,15 @@
     {
       "venue": "Maison de la Danse",
       "venue_slug": "maison-de-la-danse",
-      "title": "My fierce ignorant step",
-      "subtitle": null,
-      "category": "Danse",
+      "title": "My Fierce Ignorant Step",
+      "subtitle": "Christos  Papadopoulos",
+      "category": "danse",
       "date_start": "2026-09-24",
       "date_end": null,
       "time": "20:30",
-      "url": "https://www.petit-bulletin.fr/agenda-319005-my-fierce-ignorant-step.html",
-      "image": null,
-      "id": "454f1cd8da51"
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/my-fierce-ignorant-step",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/christos-papadopoulos-s.jpg?itok=UvcH19su",
+      "id": "b46f2bb2fb2e"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -6011,15 +6037,15 @@
     {
       "venue": "Maison de la Danse",
       "venue_slug": "maison-de-la-danse",
-      "title": "My fierce ignorant step",
-      "subtitle": null,
-      "category": "Danse",
+      "title": "My Fierce Ignorant Step",
+      "subtitle": "Christos  Papadopoulos",
+      "category": "danse",
       "date_start": "2026-09-25",
       "date_end": null,
       "time": "20:30",
-      "url": "https://www.petit-bulletin.fr/agenda-319005-my-fierce-ignorant-step.html",
-      "image": null,
-      "id": "6190edf1fc64"
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/my-fierce-ignorant-step",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/christos-papadopoulos-s.jpg?itok=UvcH19su",
+      "id": "1eea17b0cdf6"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -7231,6 +7257,19 @@
       "id": "36aa6064dd1d"
     },
     {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "Requiem(s)",
+      "subtitle": "Angelin Preljocaj",
+      "category": "danse",
+      "date_start": "2026-09-30",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/requiems",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/angelin-preljocaj-s_0.jpg?itok=SPKdrAV3",
+      "id": "71eb1267cb2e"
+    },
+    {
       "venue": "TNP - Théâtre National Populaire",
       "venue_slug": "tnp",
       "title": "Une petite affaire",
@@ -7359,19 +7398,6 @@
       "url": "https://www.lecomplexelyon.com/programme/surbooking/",
       "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/surbooking-540x800.jpg",
       "id": "70efb53b8fec"
-    },
-    {
-      "venue": "Maison de la Danse",
-      "venue_slug": "maison-de-la-danse",
-      "title": "Requiem(s)",
-      "subtitle": null,
-      "category": "Danse",
-      "date_start": "2026-09-30",
-      "date_end": "2026-10-08",
-      "time": "20:30",
-      "url": "https://www.petit-bulletin.fr/agenda-319006-requiem-s.html",
-      "image": null,
-      "id": "1478f4a1a739"
     },
     {
       "venue": "Improvidence",
@@ -7632,6 +7658,19 @@
       "url": "https://www.les-subs.com/evenement/festival-sens-interdits-2026-shabaab-samar-haddad-king/",
       "image": "https://www.les-subs.com/wp-content/uploads/2026/03/samar-haddad-king-headshot-200x200.jpg",
       "id": "65cccdeb4955"
+    },
+    {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "Requiem(s)",
+      "subtitle": "Angelin Preljocaj",
+      "category": "danse",
+      "date_start": "2026-10-01",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/requiems",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/angelin-preljocaj-s_0.jpg?itok=SPKdrAV3",
+      "id": "a082e6b64bc2"
     },
     {
       "venue": "Marché Gare",
@@ -7907,6 +7946,19 @@
       "id": "e5e365e650bb"
     },
     {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "Requiem(s)",
+      "subtitle": "Angelin Preljocaj",
+      "category": "danse",
+      "date_start": "2026-10-02",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/requiems",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/angelin-preljocaj-s_0.jpg?itok=SPKdrAV3",
+      "id": "56a1e9cf25d5"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "SITCOM",
@@ -7918,19 +7970,6 @@
       "url": "https://improvidence.mapado.com/event/619242-sitcom",
       "image": "https://img.mapado.net/2025/9/4/68b957ca950ae-sitcom-1.jpeg_thumbs/600-600.jpeg",
       "id": "25f3eef5c00e"
-    },
-    {
-      "venue": "Bourse du Travail",
-      "venue_slug": "bourse-du-travail",
-      "title": "Les Femmes Ont Toujours Raison, Les Hommes N'ont Jamais Tort",
-      "subtitle": null,
-      "category": "humour",
-      "date_start": "2026-10-03",
-      "date_end": null,
-      "time": null,
-      "url": "https://www.bourse-du-travail.com/les-femmes-ont-toujours-raison-les-hommes-n-ont-jamais-tort-316252.html",
-      "image": "https://www.bourse-du-travail.com/img/evenement/les-femmes-ont-toujours-raison-les-hommes-nont-jamais-tort-4.jpg",
-      "id": "6bb27825f81b"
     },
     {
       "venue": "Le Périscope",
@@ -8154,6 +8193,32 @@
       "id": "310cfa65929e"
     },
     {
+      "venue": "Bourse du Travail",
+      "venue_slug": "bourse-du-travail",
+      "title": "Les Femmes Ont Toujours Raison, Les Hommes N'ont Jamais Tort",
+      "subtitle": null,
+      "category": "humour",
+      "date_start": "2026-10-03",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://www.bourse-du-travail.com/les-femmes-ont-toujours-raison-les-hommes-n-ont-jamais-tort-316252.html",
+      "image": "https://www.bourse-du-travail.com/img/evenement/les-femmes-ont-toujours-raison-les-hommes-nont-jamais-tort-4.jpg",
+      "id": "35e07ce1ff75"
+    },
+    {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "Requiem(s)",
+      "subtitle": "Angelin Preljocaj",
+      "category": "danse",
+      "date_start": "2026-10-03",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/requiems",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/angelin-preljocaj-s_0.jpg?itok=SPKdrAV3",
+      "id": "957b5c790545"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "Senflix",
@@ -8282,6 +8347,19 @@
       "url": "https://www.petit-bulletin.fr/agenda-319240-petru-ceban.html",
       "image": null,
       "id": "8a9bd8a3859a"
+    },
+    {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "Requiem(s)",
+      "subtitle": "Angelin Preljocaj",
+      "category": "danse",
+      "date_start": "2026-10-04",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/requiems",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/angelin-preljocaj-s_0.jpg?itok=SPKdrAV3",
+      "id": "8fbbe2eff6fc"
     },
     {
       "venue": "TNP - Théâtre National Populaire",
@@ -8557,6 +8635,19 @@
       "id": "8acff9cad336"
     },
     {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "Requiem(s)",
+      "subtitle": "Angelin Preljocaj",
+      "category": "danse",
+      "date_start": "2026-10-06",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/requiems",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/angelin-preljocaj-s_0.jpg?itok=SPKdrAV3",
+      "id": "710217248d3b"
+    },
+    {
       "venue": "La Commune",
       "venue_slug": "la-commune",
       "title": "Club Bingo",
@@ -8672,6 +8763,19 @@
       "url": "https://improvidence.mapado.com/event/667220-nos-futurs",
       "image": "https://img.mapado.net/2026/1/22/69722f82c40c8-nos-futurs-dernier-lundi-de-chaque-mois.png_thumbs/600-600.png",
       "id": "ec8446a79d8d"
+    },
+    {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "Requiem(s)",
+      "subtitle": "Angelin Preljocaj",
+      "category": "danse",
+      "date_start": "2026-10-07",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/requiems",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/angelin-preljocaj-s_0.jpg?itok=SPKdrAV3",
+      "id": "919bd7fe406a"
     },
     {
       "venue": "TNP - Théâtre National Populaire",
@@ -8997,6 +9101,19 @@
       "url": "https://www.lecomplexelyon.com/programme/chloe-drouet-rode/",
       "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/chloe-drouet-rode-540x800.jpg",
       "id": "2ab481df8ff6"
+    },
+    {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "Requiem(s)",
+      "subtitle": "Angelin Preljocaj",
+      "category": "danse",
+      "date_start": "2026-10-08",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/requiems",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/angelin-preljocaj-s_0.jpg?itok=SPKdrAV3",
+      "id": "92d7badbae1e"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -10169,6 +10286,19 @@
       "id": "7faefebca808"
     },
     {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "Trailer Park",
+      "subtitle": "tanzmainz | Moritz Ostruschnjak",
+      "category": "danse",
+      "date_start": "2026-10-13",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/trailer-park",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/tanzmainz-s.jpg?itok=-7Ly0KvA",
+      "id": "22beb238e10d"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "JOE JACKSON",
@@ -10336,6 +10466,19 @@
       "url": "https://improvidence.mapado.com/event/17447-elle",
       "image": "https://img.mapado.net/2024/10/11/6708ec4423da3-vignette-elle.jpeg_thumbs/600-600.jpeg",
       "id": "87b497a43676"
+    },
+    {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "Trailer Park",
+      "subtitle": "tanzmainz | Moritz Ostruschnjak",
+      "category": "danse",
+      "date_start": "2026-10-14",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/trailer-park",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/tanzmainz-s.jpg?itok=-7Ly0KvA",
+      "id": "82fa6137594f"
     },
     {
       "venue": "TNP - Théâtre National Populaire",
@@ -10713,6 +10856,19 @@
       "url": "https://www.lecomplexelyon.com/programme/anne-depetrini-dans-a-cote/",
       "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/anne-depetrini-540x800.jpg",
       "id": "26c5e05889d3"
+    },
+    {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "Trailer Park",
+      "subtitle": "tanzmainz | Moritz Ostruschnjak",
+      "category": "danse",
+      "date_start": "2026-10-15",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/trailer-park",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/tanzmainz-s.jpg?itok=-7Ly0KvA",
+      "id": "e1861ef2a9c5"
     },
     {
       "venue": "Théâtre de la Renaissance",
@@ -11508,6 +11664,19 @@
       "id": "f3f48e571058"
     },
     {
+      "venue": "Au Rikiki",
+      "venue_slug": "au-rikiki",
+      "title": "Le loup en slip",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-10-19",
+      "date_end": null,
+      "time": "14:30",
+      "url": "https://www.petit-bulletin.fr/agenda-289297-le-loup-en-slip.html",
+      "image": null,
+      "id": "c7545a0a055b"
+    },
+    {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
       "title": "Concert",
@@ -11638,6 +11807,19 @@
       "id": "754b4c150a3e"
     },
     {
+      "venue": "Au Rikiki",
+      "venue_slug": "au-rikiki",
+      "title": "Le loup en slip",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-10-20",
+      "date_end": null,
+      "time": "14:30",
+      "url": "https://www.petit-bulletin.fr/agenda-289297-le-loup-en-slip.html",
+      "image": null,
+      "id": "8c7f21d35585"
+    },
+    {
       "venue": "Le Complexe café-théâtre",
       "venue_slug": "le-complexe",
       "title": "IMPRO'MINOTS",
@@ -11766,6 +11948,19 @@
       "url": "https://www.petit-bulletin.fr/agenda-304802-le-chant-des-lucioles.html",
       "image": null,
       "id": "be2bcec8e9e8"
+    },
+    {
+      "venue": "Au Rikiki",
+      "venue_slug": "au-rikiki",
+      "title": "Le loup en slip",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-10-21",
+      "date_end": null,
+      "time": "14:30",
+      "url": "https://www.petit-bulletin.fr/agenda-289297-le-loup-en-slip.html",
+      "image": null,
+      "id": "f33eea9e9fae"
     },
     {
       "venue": "IAC Villeurbanne",
@@ -11909,6 +12104,19 @@
       "url": "https://www.petit-bulletin.fr/agenda-304802-le-chant-des-lucioles.html",
       "image": null,
       "id": "3f3882ba6c71"
+    },
+    {
+      "venue": "Au Rikiki",
+      "venue_slug": "au-rikiki",
+      "title": "Le loup en slip",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-10-22",
+      "date_end": null,
+      "time": "14:30",
+      "url": "https://www.petit-bulletin.fr/agenda-289297-le-loup-en-slip.html",
+      "image": null,
+      "id": "7313e6cec0c7"
     },
     {
       "venue": "Le Complexe café-théâtre",
@@ -12104,6 +12312,19 @@
       "url": "https://www.petit-bulletin.fr/agenda-304802-le-chant-des-lucioles.html",
       "image": null,
       "id": "a19bd6f3768a"
+    },
+    {
+      "venue": "Au Rikiki",
+      "venue_slug": "au-rikiki",
+      "title": "Le loup en slip",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-10-23",
+      "date_end": null,
+      "time": "14:30",
+      "url": "https://www.petit-bulletin.fr/agenda-289297-le-loup-en-slip.html",
+      "image": null,
+      "id": "805135166c23"
     },
     {
       "venue": "La Salle de bains",
@@ -12312,6 +12533,19 @@
       "url": "https://www.petit-bulletin.fr/agenda-304802-le-chant-des-lucioles.html",
       "image": null,
       "id": "f4953e0fff77"
+    },
+    {
+      "venue": "Au Rikiki",
+      "venue_slug": "au-rikiki",
+      "title": "Le loup en slip",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-10-24",
+      "date_end": null,
+      "time": "14:30",
+      "url": "https://www.petit-bulletin.fr/agenda-289297-le-loup-en-slip.html",
+      "image": null,
+      "id": "78a72d323027"
     },
     {
       "venue": "La Rayonne",
@@ -12613,6 +12847,19 @@
       "id": "f3333b3ee04e"
     },
     {
+      "venue": "Au Rikiki",
+      "venue_slug": "au-rikiki",
+      "title": "Le loup en slip",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-10-25",
+      "date_end": null,
+      "time": "14:30",
+      "url": "https://www.petit-bulletin.fr/agenda-289297-le-loup-en-slip.html",
+      "image": null,
+      "id": "3581c35de0dd"
+    },
+    {
       "venue": "TNP - Théâtre National Populaire",
       "venue_slug": "tnp",
       "title": "Piano solo #précipité",
@@ -12678,6 +12925,32 @@
       "id": "03f43ef9827d"
     },
     {
+      "venue": "Au Rikiki",
+      "venue_slug": "au-rikiki",
+      "title": "S'envoler sans voler !",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-10-26",
+      "date_end": null,
+      "time": "10:30",
+      "url": "https://www.petit-bulletin.fr/agenda-319348-s-envoler-sans-voler.html",
+      "image": null,
+      "id": "793b242f8ddc"
+    },
+    {
+      "venue": "Au Rikiki",
+      "venue_slug": "au-rikiki",
+      "title": "Lucie et la potion pourrite",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-10-26",
+      "date_end": null,
+      "time": "14:30",
+      "url": "https://www.petit-bulletin.fr/agenda-319349-lucie-et-la-potion-pourrite.html",
+      "image": null,
+      "id": "c0c1344fb3db"
+    },
+    {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
       "title": "Plateaux de Gerson-dernier lundi de chaque mois",
@@ -12728,6 +13001,32 @@
       "url": "https://www.periscope-lyon.com/concerts/swell-invite%c2%b7es/",
       "image": "https://www.periscope-lyon.com/wp-content/uploads/2026/09/john-and-sean-1-e1788449606268.jpg",
       "id": "dd084dbba638"
+    },
+    {
+      "venue": "Au Rikiki",
+      "venue_slug": "au-rikiki",
+      "title": "S'envoler sans voler !",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-10-27",
+      "date_end": null,
+      "time": "10:30",
+      "url": "https://www.petit-bulletin.fr/agenda-319348-s-envoler-sans-voler.html",
+      "image": null,
+      "id": "182db1f26ee8"
+    },
+    {
+      "venue": "Au Rikiki",
+      "venue_slug": "au-rikiki",
+      "title": "Lucie et la potion pourrite",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-10-27",
+      "date_end": null,
+      "time": "14:30",
+      "url": "https://www.petit-bulletin.fr/agenda-319349-lucie-et-la-potion-pourrite.html",
+      "image": null,
+      "id": "3b659aab9309"
     },
     {
       "venue": "Le Complexe café-théâtre",
@@ -12873,6 +13172,32 @@
       "id": "7bf4fcc0b104"
     },
     {
+      "venue": "Au Rikiki",
+      "venue_slug": "au-rikiki",
+      "title": "S'envoler sans voler !",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-10-28",
+      "date_end": null,
+      "time": "10:30",
+      "url": "https://www.petit-bulletin.fr/agenda-319348-s-envoler-sans-voler.html",
+      "image": null,
+      "id": "1d5fa51c23f8"
+    },
+    {
+      "venue": "Au Rikiki",
+      "venue_slug": "au-rikiki",
+      "title": "Lucie et la potion pourrite",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-10-28",
+      "date_end": null,
+      "time": "14:30",
+      "url": "https://www.petit-bulletin.fr/agenda-319349-lucie-et-la-potion-pourrite.html",
+      "image": null,
+      "id": "96b538f797f8"
+    },
+    {
       "venue": "Le Complexe café-théâtre",
       "venue_slug": "le-complexe",
       "title": "IMPRO'MINOTS",
@@ -12977,6 +13302,19 @@
       "id": "3e903c429c53"
     },
     {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "SACRE",
+      "subtitle": "Daniel Larrieu",
+      "category": "danse",
+      "date_start": "2026-10-28",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/sacre",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/daniel-larrieu.jpg?itok=PBybuDud",
+      "id": "fae969c3f8e1"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "On n'a pas le même titre !",
@@ -13016,6 +13354,19 @@
       "id": "262cee255b5c"
     },
     {
+      "venue": "Au Rikiki",
+      "venue_slug": "au-rikiki",
+      "title": "S'envoler sans voler !",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-10-29",
+      "date_end": null,
+      "time": "10:30",
+      "url": "https://www.petit-bulletin.fr/agenda-319348-s-envoler-sans-voler.html",
+      "image": null,
+      "id": "283ca71cdf1f"
+    },
+    {
       "venue": "Factatory",
       "venue_slug": "factatory",
       "title": "Open Studio",
@@ -13027,6 +13378,19 @@
       "url": "https://www.petit-bulletin.fr/agenda-319321-open-studio.html",
       "image": null,
       "id": "31796b5ad40d"
+    },
+    {
+      "venue": "Au Rikiki",
+      "venue_slug": "au-rikiki",
+      "title": "Lucie et la potion pourrite",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-10-29",
+      "date_end": null,
+      "time": "14:30",
+      "url": "https://www.petit-bulletin.fr/agenda-319349-lucie-et-la-potion-pourrite.html",
+      "image": null,
+      "id": "6632a044459c"
     },
     {
       "venue": "La Halle Tony Garnier",
@@ -13211,6 +13575,32 @@
       "id": "ad12b2b22ce3"
     },
     {
+      "venue": "Au Rikiki",
+      "venue_slug": "au-rikiki",
+      "title": "S'envoler sans voler !",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-10-30",
+      "date_end": null,
+      "time": "10:30",
+      "url": "https://www.petit-bulletin.fr/agenda-319348-s-envoler-sans-voler.html",
+      "image": null,
+      "id": "749e0e880522"
+    },
+    {
+      "venue": "Au Rikiki",
+      "venue_slug": "au-rikiki",
+      "title": "Lucie et la potion pourrite",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-10-30",
+      "date_end": null,
+      "time": "14:30",
+      "url": "https://www.petit-bulletin.fr/agenda-319349-lucie-et-la-potion-pourrite.html",
+      "image": null,
+      "id": "c45e188736de"
+    },
+    {
       "venue": "Le Complexe café-théâtre",
       "venue_slug": "le-complexe",
       "title": "IMPRO'MINOTS",
@@ -13365,6 +13755,32 @@
       "url": "https://www.halle-tony-garnier.com/fr/programmation/salon-des-vignerons-independants-8",
       "image": "https://www.halle-tony-garnier.com/storage/143675/conversions/2026-10-31-SALON-DES-VIGNERONS-INDEPENDANTS-lyon-carre-1-20260824-164941-square.jpg",
       "id": "d83e0a392b7b"
+    },
+    {
+      "venue": "Au Rikiki",
+      "venue_slug": "au-rikiki",
+      "title": "S'envoler sans voler !",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-10-31",
+      "date_end": null,
+      "time": "10:30",
+      "url": "https://www.petit-bulletin.fr/agenda-319348-s-envoler-sans-voler.html",
+      "image": null,
+      "id": "9e28ec453755"
+    },
+    {
+      "venue": "Au Rikiki",
+      "venue_slug": "au-rikiki",
+      "title": "Lucie et la potion pourrite",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-10-31",
+      "date_end": null,
+      "time": "14:30",
+      "url": "https://www.petit-bulletin.fr/agenda-319349-lucie-et-la-potion-pourrite.html",
+      "image": null,
+      "id": "fbae0cdbd208"
     },
     {
       "venue": "Improvidence",
@@ -13653,6 +14069,19 @@
       "id": "1d0e9714ba7f"
     },
     {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "LA440",
+      "subtitle": "Louison Valette",
+      "category": "danse",
+      "date_start": "2026-11-03",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/la440",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/louison-valette-s.jpg?itok=9hP7fhrl",
+      "id": "bb0ea04969b4"
+    },
+    {
       "venue": "Agend'arts",
       "venue_slug": "agend-arts",
       "title": "37 minutes et des poussières",
@@ -13720,15 +14149,15 @@
     {
       "venue": "Maison de la Danse",
       "venue_slug": "maison-de-la-danse",
-      "title": "Un peu pour mon cœur...",
-      "subtitle": null,
-      "category": "Danse",
+      "title": "Un peu pour mon cœur…",
+      "subtitle": "Dalila Belaza",
+      "category": "danse",
       "date_start": "2026-11-03",
       "date_end": null,
       "time": "20:30",
-      "url": "https://www.petit-bulletin.fr/agenda-319176-un-peu-pour-mon-c-ura.html",
-      "image": null,
-      "id": "d6150adda0e1"
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/un-peu-pour-mon-coeur",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/dalila-belaza-s.jpg?itok=DCXjTzn_",
+      "id": "c99da84d5454"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -13755,6 +14184,19 @@
       "url": "https://www.transbordeur.fr/evenement/mike-d-04112026/",
       "image": "https://www.transbordeur.fr/wp-content/uploads/2026/07/a-miked2.jpeg",
       "id": "6d60d6346aff"
+    },
+    {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "LA440",
+      "subtitle": "Louison Valette",
+      "category": "danse",
+      "date_start": "2026-11-04",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/la440",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/louison-valette-s.jpg?itok=9hP7fhrl",
+      "id": "9ee8b8d34c40"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -13859,6 +14301,19 @@
       "url": "https://www.lecomplexelyon.com/programme/calvin-bavoux-fais-le/",
       "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/calvin-bavoux-540x800.jpg",
       "id": "85f974f396c4"
+    },
+    {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "Un peu pour mon cœur…",
+      "subtitle": "Dalila Belaza",
+      "category": "danse",
+      "date_start": "2026-11-04",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/un-peu-pour-mon-coeur",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/dalila-belaza-s.jpg?itok=DCXjTzn_",
+      "id": "b187048c3ac6"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -14249,6 +14704,19 @@
       "url": "https://espacegerson.mapado.com/event/695526-francois-guedon-aux-urnes-et-caetera",
       "image": "https://img.mapado.net/2026/4/2/69ce809172b08-guedon.png_thumbs/600-600.png",
       "id": "9d61babd131e"
+    },
+    {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "LA TOTALE!",
+      "subtitle": "Une soirée cabaret d’exception",
+      "category": "danse",
+      "date_start": "2026-11-06",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/la-totale",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/soiree-cabaret-s.jpg?itok=RAmLNr2o",
+      "id": "aea420191166"
     },
     {
       "venue": "Improvidence",
@@ -15421,6 +15889,19 @@
       "id": "39a902b1cffc"
     },
     {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "d’amour",
+      "subtitle": "Thomas Lebrun",
+      "category": "danse",
+      "date_start": "2026-11-14",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/damour",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/thomas-lebrun-s_1.jpg?itok=0SOwRtPy",
+      "id": "eab7eed09fa8"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "30 Impros Chrono",
@@ -15549,6 +16030,19 @@
       "url": "https://agenda.villemorte.fr/event/infinity-song",
       "image": "https://agenda.villemorte.fr/media/thumb/8e49a9e25327ab7edf9e668d0787d01c.jpg",
       "id": "e4d1985e7f4d"
+    },
+    {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "d’amour",
+      "subtitle": "Thomas Lebrun",
+      "category": "danse",
+      "date_start": "2026-11-14",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/damour",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/thomas-lebrun-s_1.jpg?itok=0SOwRtPy",
+      "id": "78e58591c2d0"
     },
     {
       "venue": "Le Complexe café-théâtre",
@@ -15915,6 +16409,19 @@
       "id": "e92938b0dc9f"
     },
     {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "Nos monstres",
+      "subtitle": "Cie La Troisième Chute",
+      "category": "danse",
+      "date_start": "2026-11-18",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/nos-monstres",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/bianca-ivonne-s.jpg?itok=TcWdJtty",
+      "id": "9fa93a4daaee"
+    },
+    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins",
       "title": "Le Procès de Jeanne Bloch",
@@ -16045,6 +16552,19 @@
       "id": "1c2f8f489494"
     },
     {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "In Satie & The Rite of Spring",
+      "subtitle": "Xiexin Dance Theatre",
+      "category": "danse",
+      "date_start": "2026-11-18",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/satie-rite-spring",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/xiexin-s.jpg?itok=rb2MbBKu",
+      "id": "df696a0b6a4b"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "LE CANAPE",
@@ -16082,6 +16602,19 @@
       "url": "https://www.transbordeur.fr/evenement/gogo-penguin-daudi-matsiko-19112026/",
       "image": "https://www.transbordeur.fr/wp-content/uploads/2026/04/a-gogopenguin2.jpeg",
       "id": "cbb78115b527"
+    },
+    {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "Nos monstres",
+      "subtitle": "Cie La Troisième Chute",
+      "category": "danse",
+      "date_start": "2026-11-19",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/nos-monstres",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/bianca-ivonne-s.jpg?itok=TcWdJtty",
+      "id": "ada07fac6c14"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -16199,6 +16732,19 @@
       "url": "https://www.lecomplexelyon.com/programme/salima-passion/",
       "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/salima-passion-540x800.jpg",
       "id": "269ccc1afeee"
+    },
+    {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "In Satie & The Rite of Spring",
+      "subtitle": "Xiexin Dance Theatre",
+      "category": "danse",
+      "date_start": "2026-11-19",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/satie-rite-spring",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/xiexin-s.jpg?itok=rb2MbBKu",
+      "id": "5633023a96c5"
     },
     {
       "venue": "Improvidence",
@@ -16394,6 +16940,19 @@
       "url": "https://espacegerson.mapado.com/event/686269-manuel-pratt-stand-up-debout",
       "image": "https://img.mapado.net/2026/3/19/69bc1c078eed4-pratt.png_thumbs/600-600.png",
       "id": "d54fe216445f"
+    },
+    {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "In Satie & The Rite of Spring",
+      "subtitle": "Xiexin Dance Theatre",
+      "category": "danse",
+      "date_start": "2026-11-20",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/satie-rite-spring",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/xiexin-s.jpg?itok=rb2MbBKu",
+      "id": "9778f8e19164"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -16994,6 +17553,19 @@
       "id": "a1978a4c786f"
     },
     {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "Slava’s Snowshow",
+      "subtitle": null,
+      "category": "danse",
+      "date_start": "2026-11-25",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/slavas-snowshow",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/slava_snowshow-s.jpg?itok=aPKlMSMr",
+      "id": "8fa21bcc094d"
+    },
+    {
       "venue": "TNP - Théâtre National Populaire",
       "venue_slug": "tnp",
       "title": "Oh les beaux jours",
@@ -17280,6 +17852,19 @@
       "id": "9c07639d50c5"
     },
     {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "Slava’s Snowshow",
+      "subtitle": null,
+      "category": "danse",
+      "date_start": "2026-11-26",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/slavas-snowshow",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/slava_snowshow-s.jpg?itok=aPKlMSMr",
+      "id": "52c27865ae2e"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "Scènes de crime",
@@ -17475,6 +18060,19 @@
       "id": "657f3d2771f6"
     },
     {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "Slava’s Snowshow",
+      "subtitle": null,
+      "category": "danse",
+      "date_start": "2026-11-27",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/slavas-snowshow",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/slava_snowshow-s.jpg?itok=aPKlMSMr",
+      "id": "06c4c96bcce3"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "Scènes de crime",
@@ -17525,6 +18123,19 @@
       "url": "https://www.les-subs.com/evenement/minipousses-cirque/",
       "image": "https://www.les-subs.com/wp-content/uploads/2024/04/re1604-1091-200x200.jpg",
       "id": "b65316965872"
+    },
+    {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "Slava’s Snowshow",
+      "subtitle": null,
+      "category": "danse",
+      "date_start": "2026-11-28",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/slavas-snowshow",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/slava_snowshow-s.jpg?itok=aPKlMSMr",
+      "id": "975a0673efea"
     },
     {
       "venue": "Improvidence",
@@ -17683,6 +18294,32 @@
       "id": "578d5a349ed9"
     },
     {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "SACRE",
+      "subtitle": "Daniel Larrieu",
+      "category": "danse",
+      "date_start": "2026-11-28",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/sacre",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/daniel-larrieu.jpg?itok=PBybuDud",
+      "id": "8fb117b3feaa"
+    },
+    {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "Slava’s Snowshow",
+      "subtitle": null,
+      "category": "danse",
+      "date_start": "2026-11-28",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/slavas-snowshow",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/slava_snowshow-s.jpg?itok=aPKlMSMr",
+      "id": "6db27c82db57"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "L’expérience Théâtrale",
@@ -17748,6 +18385,19 @@
       "id": "76fb88442dac"
     },
     {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "Slava’s Snowshow",
+      "subtitle": null,
+      "category": "danse",
+      "date_start": "2026-11-29",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/slavas-snowshow",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/slava_snowshow-s.jpg?itok=aPKlMSMr",
+      "id": "2d6c09dacc43"
+    },
+    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins",
       "title": "Pétrole",
@@ -17798,6 +18448,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/marillion/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/02/marillion_radiant-bellevue-500x500.jpg",
       "id": "6f5ef7c44c8c"
+    },
+    {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "Slava’s Snowshow",
+      "subtitle": null,
+      "category": "danse",
+      "date_start": "2026-11-29",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/slavas-snowshow",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/slava_snowshow-s.jpg?itok=aPKlMSMr",
+      "id": "10a045d2fa6a"
     },
     {
       "venue": "Le Transbordeur",
@@ -17969,6 +18632,19 @@
       "id": "961f0bc7564e"
     },
     {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "Slava’s Snowshow",
+      "subtitle": null,
+      "category": "danse",
+      "date_start": "2026-12-01",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/slavas-snowshow",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/slava_snowshow-s.jpg?itok=aPKlMSMr",
+      "id": "2dd948060c70"
+    },
+    {
       "venue": "Bourse du Travail",
       "venue_slug": "bourse-du-travail",
       "title": "Marine Leonardi",
@@ -17980,6 +18656,19 @@
       "url": "https://www.bourse-du-travail.com/marine-leonardi-338745.html",
       "image": "https://www.bourse-du-travail.com/img/evenement/marine-leonardi--6.jpg",
       "id": "addf6a8c474c"
+    },
+    {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "Slava’s Snowshow",
+      "subtitle": null,
+      "category": "danse",
+      "date_start": "2026-12-02",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/slavas-snowshow",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/slava_snowshow-s.jpg?itok=aPKlMSMr",
+      "id": "b6a4c49443be"
     },
     {
       "venue": "Le Transbordeur",
@@ -18019,6 +18708,19 @@
       "url": "https://improvidence.mapado.com/event/17447-elle",
       "image": "https://img.mapado.net/2024/10/11/6708ec4423da3-vignette-elle.jpeg_thumbs/600-600.jpeg",
       "id": "c39128ee0c46"
+    },
+    {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "Slava’s Snowshow",
+      "subtitle": null,
+      "category": "danse",
+      "date_start": "2026-12-02",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/slavas-snowshow",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/slava_snowshow-s.jpg?itok=aPKlMSMr",
+      "id": "89f450df5d67"
     },
     {
       "venue": "TNP - Théâtre National Populaire",
@@ -18320,6 +19022,19 @@
       "id": "d2d013558422"
     },
     {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "Slava’s Snowshow",
+      "subtitle": null,
+      "category": "danse",
+      "date_start": "2026-12-03",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/slavas-snowshow",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/slava_snowshow-s.jpg?itok=aPKlMSMr",
+      "id": "4547e9f5e7fe"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "Friendzone",
@@ -18463,6 +19178,19 @@
       "id": "455fec6eaa8f"
     },
     {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "Slava’s Snowshow",
+      "subtitle": null,
+      "category": "danse",
+      "date_start": "2026-12-04",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/slavas-snowshow",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/slava_snowshow-s.jpg?itok=aPKlMSMr",
+      "id": "00216137e6d0"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "Garou",
@@ -18515,6 +19243,19 @@
       "id": "3177a07f7775"
     },
     {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "Slava’s Snowshow",
+      "subtitle": null,
+      "category": "danse",
+      "date_start": "2026-12-05",
+      "date_end": null,
+      "time": "11:00",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/slavas-snowshow",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/slava_snowshow-s.jpg?itok=aPKlMSMr",
+      "id": "bea4c6209a10"
+    },
+    {
       "venue": "TNP - Théâtre National Populaire",
       "venue_slug": "tnp",
       "title": "L’hors-présence",
@@ -18539,6 +19280,19 @@
       "url": "https://www.les-subs.com/evenement/minipousses-danse/",
       "image": "https://www.les-subs.com/wp-content/uploads/2023/03/lessubs-minipousses-cirqueogregoryrubinstein-collectifdesflousfurieux-3-200x200.jpg",
       "id": "52b6b60c5345"
+    },
+    {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "Slava’s Snowshow",
+      "subtitle": null,
+      "category": "danse",
+      "date_start": "2026-12-05",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/slavas-snowshow",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/slava_snowshow-s.jpg?itok=aPKlMSMr",
+      "id": "259aad191dd9"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -18747,6 +19501,19 @@
       "url": "https://www.lecomplexelyon.com/programme/le-complexe-comedy-club-4-humoristes/",
       "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/complexe-comedy-club-540x800.jpg",
       "id": "99ed66dfabe9"
+    },
+    {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "Slava’s Snowshow",
+      "subtitle": null,
+      "category": "danse",
+      "date_start": "2026-12-06",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/slavas-snowshow",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/slava_snowshow-s.jpg?itok=aPKlMSMr",
+      "id": "23574a5efd7a"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -18970,6 +19737,19 @@
       "id": "c6ec1c3a266c"
     },
     {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "Lullaby shot",
+      "subtitle": "Leïla Ka",
+      "category": "danse",
+      "date_start": "2026-12-09",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/lullaby-shot",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/leila-ka-s.jpg?itok=Q2hcaizF",
+      "id": "acd6d8880c6b"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "Benjamin Biolay",
@@ -19178,6 +19958,19 @@
       "id": "addb6023307c"
     },
     {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "Lullaby shot",
+      "subtitle": "Leïla Ka",
+      "category": "danse",
+      "date_start": "2026-12-10",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/lullaby-shot",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/leila-ka-s.jpg?itok=Q2hcaizF",
+      "id": "e5f80686ba74"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "Le Bourgeois Gentilhomme",
@@ -19332,6 +20125,19 @@
       "url": "https://espacegerson.mapado.com/event/685524-kostia-entre-deux",
       "image": "https://img.mapado.net/2026/3/18/69bacaecd0e4c-kostia-1.jpeg_thumbs/600-600.jpeg",
       "id": "aeb5eff21d9f"
+    },
+    {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "Lullaby shot",
+      "subtitle": "Leïla Ka",
+      "category": "danse",
+      "date_start": "2026-12-11",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/lullaby-shot",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/leila-ka-s.jpg?itok=Q2hcaizF",
+      "id": "68ea3223c29b"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -19867,6 +20673,19 @@
       "id": "b892c5edae07"
     },
     {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "White Space",
+      "subtitle": "A.I.M by Kyle Abraham",
+      "category": "danse",
+      "date_start": "2026-12-15",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/white-space",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/kyle-abraham-s.jpg?itok=rB3oWIkn",
+      "id": "c4c1bd922f88"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "OLDELAF",
@@ -19917,6 +20736,19 @@
       "url": "https://improvidence.mapado.com/event/336906-ca-handi-long",
       "image": "https://img.mapado.net/2024/4/17/661f9a994c96d-affiche-vignette-cahandilong.jpeg_thumbs/600-600.jpeg",
       "id": "51b1fe432bd8"
+    },
+    {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "White Space",
+      "subtitle": "A.I.M by Kyle Abraham",
+      "category": "danse",
+      "date_start": "2026-12-16",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/white-space",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/kyle-abraham-s.jpg?itok=rB3oWIkn",
+      "id": "84f941d0ebb5"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -20151,6 +20983,19 @@
       "url": "https://www.lecomplexelyon.com/programme/samuel-certenais-comment-devenir-un-homme-quand-on-ne-veut-pas-ressembler-a-son-pere/",
       "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/samuel-certenais-540x800.jpg",
       "id": "c4f655745b49"
+    },
+    {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "White Space",
+      "subtitle": "A.I.M by Kyle Abraham",
+      "category": "danse",
+      "date_start": "2026-12-17",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/white-space",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/kyle-abraham-s.jpg?itok=rB3oWIkn",
+      "id": "00bd6804bcb6"
     },
     {
       "venue": "Improvidence",
@@ -21492,6 +22337,19 @@
       "id": "5cbbf5f36eb6"
     },
     {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "Les Autres",
+      "subtitle": "Anton Lachky",
+      "category": "danse",
+      "date_start": "2027-01-06",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/les-autres",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/anton-lachky-s.jpg?itok=w917sy5d",
+      "id": "94e504a7b9bd"
+    },
+    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins",
       "title": "Mahabharata, une histoire de la violence",
@@ -21791,6 +22649,19 @@
       "id": "17769ffabe2d"
     },
     {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "Les Autres",
+      "subtitle": "Anton Lachky",
+      "category": "danse",
+      "date_start": "2027-01-09",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/les-autres",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/anton-lachky-s.jpg?itok=w917sy5d",
+      "id": "0d74489f1f8d"
+    },
+    {
       "venue": "La Machinerie - Théâtre de Vénissieux",
       "venue_slug": "la-machinerie-theatre-de-venissieux",
       "title": "WoooOOOoool - Cie bob Théâtre, Denis Athimon",
@@ -22023,6 +22894,19 @@
       "url": "https://www.theatredescelestins.com/fr/programmation/2026-2027/grande-salle/mahabharata-une-histoire-de-la-violence",
       "image": "https://www.theatredescelestins.com/assets/q75-w600/e9a94857/mahabharata2_myriam_boulos.jpg",
       "id": "b4a53fbc0eff"
+    },
+    {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "Same Same",
+      "subtitle": "Phare Circus",
+      "category": "danse",
+      "date_start": "2027-01-13",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/same-same",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/phare_circus-s.jpg?itok=RoxTq0zn",
+      "id": "a85bce7a96b7"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -22285,6 +23169,19 @@
       "id": "84897f99ef9d"
     },
     {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "Same Same",
+      "subtitle": "Phare Circus",
+      "category": "danse",
+      "date_start": "2027-01-14",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/same-same",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/phare_circus-s.jpg?itok=RoxTq0zn",
+      "id": "2107a750f332"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "POTICHE",
@@ -22413,6 +23310,19 @@
       "url": "https://espacegerson.mapado.com/event/704640-cecile-marx-iconique",
       "image": "https://img.mapado.net/2026/4/17/69e2342e9a5f1-cecile-marx.png_thumbs/600-600.png",
       "id": "5167f64da4ea"
+    },
+    {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "Same Same",
+      "subtitle": "Phare Circus",
+      "category": "danse",
+      "date_start": "2027-01-15",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/same-same",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/phare_circus-s.jpg?itok=RoxTq0zn",
+      "id": "7b05d266a2ec"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -22805,6 +23715,19 @@
       "id": "281a68f53c51"
     },
     {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "All Ears",
+      "subtitle": "Cloud Gate Dance Theatre of Taiwan",
+      "category": "danse",
+      "date_start": "2027-01-20",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/all-ears",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/cloud-gate-s.jpg?itok=yn_PvtgE",
+      "id": "4fd6daff7347"
+    },
+    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins",
       "title": "Nos Empereurs",
@@ -23000,6 +23923,19 @@
       "id": "d5483d414d51"
     },
     {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "All Ears",
+      "subtitle": "Cloud Gate Dance Theatre of Taiwan",
+      "category": "danse",
+      "date_start": "2027-01-21",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/all-ears",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/cloud-gate-s.jpg?itok=yn_PvtgE",
+      "id": "71ee50760202"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "LE PÈRE",
@@ -23156,6 +24092,19 @@
       "id": "417603e81524"
     },
     {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "All Ears",
+      "subtitle": "Cloud Gate Dance Theatre of Taiwan",
+      "category": "danse",
+      "date_start": "2027-01-22",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/all-ears",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/cloud-gate-s.jpg?itok=yn_PvtgE",
+      "id": "08125dd889c9"
+    },
+    {
       "venue": "Le Complexe café-théâtre",
       "venue_slug": "le-complexe",
       "title": "LE COMPLEXE COMEDY CLUB - Un plateau d'humoristes !",
@@ -23271,6 +24220,19 @@
       "url": "https://www.lecomplexelyon.com/programme/alice-lombard-dans-karaoke/",
       "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/alice-lombard-540x800.jpg",
       "id": "0cd5280ba04e"
+    },
+    {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "All Ears",
+      "subtitle": "Cloud Gate Dance Theatre of Taiwan",
+      "category": "danse",
+      "date_start": "2027-01-23",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/all-ears",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/cloud-gate-s.jpg?itok=yn_PvtgE",
+      "id": "6397215e41b9"
     },
     {
       "venue": "Espace Gerson",
@@ -23494,6 +24456,19 @@
       "id": "1e93aef32ac6"
     },
     {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "Karole Armitage / MazelFreten",
+      "subtitle": "CCN — Ballet de Lorraine",
+      "category": "danse",
+      "date_start": "2027-01-26",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/karole-armitage-mazelfreten",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/ballet_de_lorraine-s.jpg?itok=yNo0LRI6",
+      "id": "3dc66c7c6801"
+    },
+    {
       "venue": "La Halle Tony Garnier",
       "venue_slug": "halle-tony-garnier",
       "title": "Disney Sur Glace - Le Voyage Enchante",
@@ -23557,6 +24532,19 @@
       "url": "https://improvidence.mapado.com/event/824299-album-de-famille",
       "image": "https://img.mapado.net/2026/8/4/6a71b13d2f050-album-de-famille-visuel-1.png_thumbs/600-600.png",
       "id": "c2a5b07ea30d"
+    },
+    {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "Karole Armitage / MazelFreten",
+      "subtitle": "CCN — Ballet de Lorraine",
+      "category": "danse",
+      "date_start": "2027-01-27",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/karole-armitage-mazelfreten",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/ballet_de_lorraine-s.jpg?itok=yNo0LRI6",
+      "id": "5457c20c94e4"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -23780,6 +24768,19 @@
       "id": "c7fec17acbad"
     },
     {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "Karole Armitage / MazelFreten",
+      "subtitle": "CCN — Ballet de Lorraine",
+      "category": "danse",
+      "date_start": "2027-01-28",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/karole-armitage-mazelfreten",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/ballet_de_lorraine-s.jpg?itok=yNo0LRI6",
+      "id": "b22c83928e6a"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "LE FANTÔME DE L’OPÉRA",
@@ -23895,6 +24896,19 @@
       "url": "https://www.tnp-villeurbanne.com/spectacle/zone-dattente/",
       "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_Zone_dattentecMacha-Makeieff.jpg",
       "id": "6b26e16c06c1"
+    },
+    {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "Karole Armitage / MazelFreten",
+      "subtitle": "CCN — Ballet de Lorraine",
+      "category": "danse",
+      "date_start": "2027-01-29",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/karole-armitage-mazelfreten",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/ballet_de_lorraine-s.jpg?itok=yNo0LRI6",
+      "id": "491bb8f7ebda"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -24313,6 +25327,19 @@
       "id": "78d7ef3ee70b"
     },
     {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "Badke(remix)",
+      "subtitle": "Amir Sabra & Ata Khatab",
+      "category": "danse",
+      "date_start": "2027-02-03",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/badkeremix",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/badke-s.jpg?itok=O_BzP0bu",
+      "id": "4a3195ab0871"
+    },
+    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins",
       "title": "Hautes Perchées",
@@ -24469,6 +25496,19 @@
       "id": "f738bd7e0a0e"
     },
     {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "Badke(remix)",
+      "subtitle": "Amir Sabra & Ata Khatab",
+      "category": "danse",
+      "date_start": "2027-02-04",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/badkeremix",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/badke-s.jpg?itok=O_BzP0bu",
+      "id": "4f28119a5ddd"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "LA FOLLE JOURNÉE OU LE MARIAGE DE FIGARO",
@@ -24506,6 +25546,19 @@
       "url": "https://www.bourse-du-travail.com/pierre-emmanuel-barre-aymeric-lompret-une-heure-trente-tournee-382075.html",
       "image": "https://www.bourse-du-travail.com/img/evenement/pierre-emmanuel-barre-and-aymeric-lompret--une-heure-trente---tournee-2.jpg",
       "id": "01930ae3c83b"
+    },
+    {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "Within This Party",
+      "subtitle": "Amir Sabra",
+      "category": "danse",
+      "date_start": "2027-02-05",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/within-party",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/within-this-party-s.jpg?itok=s9aQ9xgE",
+      "id": "141174ac97fb"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -24597,6 +25650,19 @@
       "url": "https://espacegerson.mapado.com/event/841652-pierre-antoine-damecour-jamais-trop-tard",
       "image": "https://img.mapado.net/2026/9/3/6a997ca737523-damecour.png_thumbs/600-600.png",
       "id": "d97d283cd825"
+    },
+    {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "Badke(remix)",
+      "subtitle": "Amir Sabra & Ata Khatab",
+      "category": "danse",
+      "date_start": "2027-02-05",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/badkeremix",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/badke-s.jpg?itok=O_BzP0bu",
+      "id": "913095c3af80"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -24989,6 +26055,19 @@
       "id": "dfeddf9db579"
     },
     {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "Silence",
+      "subtitle": "Mathilde Monnier & Lucie Antunes",
+      "category": "danse",
+      "date_start": "2027-02-10",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/silence",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/mathilde-monnier-1.jpg?itok=RoQVC6Ox",
+      "id": "1978525b3ecb"
+    },
+    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins",
       "title": "A Place of Safety",
@@ -25195,6 +26274,19 @@
       "url": "https://www.lecomplexelyon.com/programme/mathilde-abassi/",
       "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/mathilde-abassi-540x800.jpg",
       "id": "a346616114e1"
+    },
+    {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "Silence",
+      "subtitle": "Mathilde Monnier & Lucie Antunes",
+      "category": "danse",
+      "date_start": "2027-02-11",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/silence",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/mathilde-monnier-1.jpg?itok=RoQVC6Ox",
+      "id": "324a9a83c011"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -26523,6 +27615,19 @@
       "id": "ddfb8e0bdaca"
     },
     {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "Le Sacre du printemps",
+      "subtitle": "Saša Asentić & Collaborators",
+      "category": "danse",
+      "date_start": "2027-03-03",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/le-sacre-du-printemps",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/sasa_asentic-s.jpg?itok=Na2T0mKF",
+      "id": "05546df76c54"
+    },
+    {
       "venue": "TNP - Théâtre National Populaire",
       "venue_slug": "tnp",
       "title": "7 minutes",
@@ -26625,6 +27730,19 @@
       "url": "https://improvidence.mapado.com/event/9864-duos-des-eux",
       "image": "https://img.mapado.net/2025/7/16/6877a93c803cf-duos-des-eux-vignette.jpeg_thumbs/600-600.jpeg",
       "id": "b4df591f7832"
+    },
+    {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "Le Sacre du printemps",
+      "subtitle": "Saša Asentić & Collaborators",
+      "category": "danse",
+      "date_start": "2027-03-04",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/le-sacre-du-printemps",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/sasa_asentic-s.jpg?itok=Na2T0mKF",
+      "id": "86b87ebc1a04"
     },
     {
       "venue": "TNP - Théâtre National Populaire",
@@ -26924,6 +28042,19 @@
       "url": "https://www.bourse-du-travail.com/charlie-haid-410726.html",
       "image": "https://www.bourse-du-travail.com/img/evenement/charlie-haid-dans-intensement-mentaliste.jpg",
       "id": "2487b4b2569c"
+    },
+    {
+      "venue": "Maison de la Danse",
+      "venue_slug": "maison-de-la-danse",
+      "title": "Piracema / Parabelo",
+      "subtitle": "Grupo Corpo",
+      "category": "danse",
+      "date_start": "2027-03-07",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://maisondeladanse.com/programmation/saison2026-2027/piracema-parabelo",
+      "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/grupo-corpo-s.jpg?itok=tLN-iwuW",
+      "id": "d4af5e24b519"
     },
     {
       "venue": "TNP - Théâtre National Populaire",
@@ -27433,19 +28564,6 @@
       "id": "4b33c6aa7871"
     },
     {
-      "venue": "Espace Gerson",
-      "venue_slug": "espace-gerson",
-      "title": "L'impro FFF",
-      "subtitle": null,
-      "category": "Impro",
-      "date_start": "2027-03-30",
-      "date_end": null,
-      "time": "20:30",
-      "url": "https://www.petit-bulletin.fr/agenda-319345-l-impro-fff.html",
-      "image": null,
-      "id": "382c83031e53"
-    },
-    {
       "venue": "La Machinerie - Théâtre de Vénissieux",
       "venue_slug": "la-machinerie-theatre-de-venissieux",
       "title": "Papy Quichotte - Elsa Granat",
@@ -27927,6 +29045,19 @@
       "id": "009fd03a963e"
     },
     {
+      "venue": "Improvidence",
+      "venue_slug": "improvidence",
+      "title": "Ça handi long",
+      "subtitle": null,
+      "category": "Impro",
+      "date_start": "2027-05-13",
+      "date_end": null,
+      "time": "21:00",
+      "url": "https://www.petit-bulletin.fr/agenda-318692-a-handi-long.html",
+      "image": null,
+      "id": "34e2076f4d3f"
+    },
+    {
       "venue": "Bourse du Travail",
       "venue_slug": "bourse-du-travail",
       "title": "Tom Baldetti",
@@ -28016,6 +29147,19 @@
       "url": "https://www.petit-bulletin.fr/agenda-319198-pieuvre-1-2.html",
       "image": null,
       "id": "423f5b35e5db"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "L'impro FFF",
+      "subtitle": null,
+      "category": "Impro",
+      "date_start": "2027-05-25",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://www.petit-bulletin.fr/agenda-319345-l-impro-fff.html",
+      "image": null,
+      "id": "64ebd63b18de"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -28172,32 +29316,6 @@
       "url": "https://www.bourse-du-travail.com/sofia-belabbes-376106.html",
       "image": "https://www.bourse-du-travail.com/img/evenement/sofia-belabbes-5.jpg",
       "id": "9f9897666f7c"
-    },
-    {
-      "venue": "Espace Gerson",
-      "venue_slug": "espace-gerson",
-      "title": "L'impro FFF",
-      "subtitle": null,
-      "category": "Impro",
-      "date_start": "2027-06-29",
-      "date_end": null,
-      "time": "20:30",
-      "url": "https://www.petit-bulletin.fr/agenda-319345-l-impro-fff.html",
-      "image": null,
-      "id": "051e9b6215bf"
-    },
-    {
-      "venue": "Improvidence",
-      "venue_slug": "improvidence",
-      "title": "Ça handi long",
-      "subtitle": null,
-      "category": "Impro",
-      "date_start": "2027-07-15",
-      "date_end": null,
-      "time": "21:00",
-      "url": "https://www.petit-bulletin.fr/agenda-318692-a-handi-long.html",
-      "image": null,
-      "id": "f0fffb55d01d"
     },
     {
       "venue": "La Halle Tony Garnier",

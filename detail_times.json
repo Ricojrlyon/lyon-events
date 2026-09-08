@@ -535,6 +535,648 @@
     "fetched_at": "2026-07-12",
     "time": "23:00"
   },
+  "https://maisondeladanse.com/programmation/saison2026-2027/abonnez-vous": {
+    "fetched_at": "2026-09-08",
+    "lieu": "Maison de la Danse",
+    "seances": [
+      [
+        "jeudi",
+        4,
+        6,
+        "11:00"
+      ]
+    ]
+  },
+  "https://maisondeladanse.com/programmation/saison2026-2027/all-ears": {
+    "fetched_at": "2026-09-08",
+    "lieu": "Maison de la danse - Grande salle",
+    "seances": [
+      [
+        "mercredi",
+        20,
+        1,
+        "19:30"
+      ],
+      [
+        "jeudi",
+        21,
+        1,
+        "20:30"
+      ],
+      [
+        "vendredi",
+        22,
+        1,
+        "20:30"
+      ],
+      [
+        "samedi",
+        23,
+        1,
+        "20:30"
+      ]
+    ]
+  },
+  "https://maisondeladanse.com/programmation/saison2026-2027/badkeremix": {
+    "fetched_at": "2026-09-08",
+    "lieu": "Maison de la danse - Grande salle",
+    "seances": [
+      [
+        "mercredi",
+        3,
+        2,
+        "19:30"
+      ],
+      [
+        "jeudi",
+        4,
+        2,
+        "20:30"
+      ],
+      [
+        "vendredi",
+        5,
+        2,
+        "20:30"
+      ]
+    ]
+  },
+  "https://maisondeladanse.com/programmation/saison2026-2027/damour": {
+    "fetched_at": "2026-09-08",
+    "lieu": "Maison de la danse - Grande salle",
+    "seances": [
+      [
+        "samedi",
+        14,
+        11,
+        "15:00"
+      ],
+      [
+        "samedi",
+        14,
+        11,
+        "19:30"
+      ]
+    ]
+  },
+  "https://maisondeladanse.com/programmation/saison2026-2027/karole-armitage-mazelfreten": {
+    "fetched_at": "2026-09-08",
+    "lieu": "Maison de la danse - Grande salle",
+    "seances": [
+      [
+        "mardi",
+        26,
+        1,
+        "20:30"
+      ],
+      [
+        "mercredi",
+        27,
+        1,
+        "19:30"
+      ],
+      [
+        "jeudi",
+        28,
+        1,
+        "20:30"
+      ],
+      [
+        "vendredi",
+        29,
+        1,
+        "20:30"
+      ]
+    ]
+  },
+  "https://maisondeladanse.com/programmation/saison2026-2027/la-demande-dasile": {
+    "fetched_at": "2026-09-08",
+    "lieu": "Les SUBS",
+    "seances": [
+      [
+        "jeudi",
+        17,
+        9,
+        "20:00"
+      ],
+      [
+        "vendredi",
+        18,
+        9,
+        "20:00"
+      ]
+    ]
+  },
+  "https://maisondeladanse.com/programmation/saison2026-2027/la-totale": {
+    "fetched_at": "2026-09-08",
+    "lieu": "Maison de la danse - Grande salle",
+    "seances": [
+      [
+        "vendredi",
+        6,
+        11,
+        "20:30"
+      ]
+    ]
+  },
+  "https://maisondeladanse.com/programmation/saison2026-2027/la440": {
+    "fetched_at": "2026-09-08",
+    "lieu": "Maison de la danse - Studio",
+    "seances": [
+      [
+        "mardi",
+        3,
+        11,
+        "19:00"
+      ],
+      [
+        "mercredi",
+        4,
+        11,
+        "19:00"
+      ]
+    ]
+  },
+  "https://maisondeladanse.com/programmation/saison2026-2027/le-sacre-du-printemps": {
+    "fetched_at": "2026-09-08",
+    "lieu": "Maison de la danse - Grande salle",
+    "seances": [
+      [
+        "mercredi",
+        3,
+        3,
+        "19:30"
+      ],
+      [
+        "jeudi",
+        4,
+        3,
+        "19:30"
+      ]
+    ]
+  },
+  "https://maisondeladanse.com/programmation/saison2026-2027/les-autres": {
+    "fetched_at": "2026-09-08",
+    "lieu": "Maison de la danse - Grande salle",
+    "seances": [
+      [
+        "mercredi",
+        6,
+        1,
+        "15:00"
+      ],
+      [
+        "samedi",
+        9,
+        1,
+        "15:00"
+      ]
+    ]
+  },
+  "https://maisondeladanse.com/programmation/saison2026-2027/lullaby-shot": {
+    "fetched_at": "2026-09-08",
+    "lieu": "Maison de la danse - Grande salle",
+    "seances": [
+      [
+        "mercredi",
+        9,
+        12,
+        "19:30"
+      ],
+      [
+        "jeudi",
+        10,
+        12,
+        "20:30"
+      ],
+      [
+        "vendredi",
+        11,
+        12,
+        "20:30"
+      ]
+    ]
+  },
+  "https://maisondeladanse.com/programmation/saison2026-2027/my-fierce-ignorant-step": {
+    "fetched_at": "2026-09-08",
+    "lieu": "Maison de la danse - Grande salle",
+    "seances": [
+      [
+        "mercredi",
+        23,
+        9,
+        "19:30"
+      ],
+      [
+        "jeudi",
+        24,
+        9,
+        "20:30"
+      ],
+      [
+        "vendredi",
+        25,
+        9,
+        "20:30"
+      ]
+    ]
+  },
+  "https://maisondeladanse.com/programmation/saison2026-2027/nos-monstres": {
+    "fetched_at": "2026-09-08",
+    "lieu": "Maison de la danse - Studio",
+    "seances": [
+      [
+        "mercredi",
+        18,
+        11,
+        "19:00"
+      ],
+      [
+        "jeudi",
+        19,
+        11,
+        "19:00"
+      ]
+    ]
+  },
+  "https://maisondeladanse.com/programmation/saison2026-2027/piracema-parabelo": {
+    "fetched_at": "2026-09-08",
+    "lieu": "Maison de la danse - Grande salle",
+    "seances": [
+      [
+        "dimanche",
+        7,
+        3,
+        "15:00"
+      ],
+      [
+        "lundi",
+        8,
+        3,
+        "19:30"
+      ],
+      [
+        "mardi",
+        9,
+        3,
+        "20:30"
+      ],
+      [
+        "mercredi",
+        10,
+        3,
+        "19:30"
+      ],
+      [
+        "jeudi",
+        11,
+        3,
+        "20:30"
+      ],
+      [
+        "samedi",
+        13,
+        3,
+        "20:30"
+      ],
+      [
+        "dimanche",
+        14,
+        3,
+        "15:00"
+      ]
+    ]
+  },
+  "https://maisondeladanse.com/programmation/saison2026-2027/requiems": {
+    "fetched_at": "2026-09-08",
+    "lieu": "Maison de la danse - Grande salle",
+    "seances": [
+      [
+        "mercredi",
+        30,
+        9,
+        "19:30"
+      ],
+      [
+        "jeudi",
+        1,
+        10,
+        "20:30"
+      ],
+      [
+        "vendredi",
+        2,
+        10,
+        "20:30"
+      ],
+      [
+        "samedi",
+        3,
+        10,
+        "20:30"
+      ],
+      [
+        "dimanche",
+        4,
+        10,
+        "15:00"
+      ],
+      [
+        "mardi",
+        6,
+        10,
+        "20:30"
+      ],
+      [
+        "mercredi",
+        7,
+        10,
+        "19:30"
+      ],
+      [
+        "jeudi",
+        8,
+        10,
+        "20:30"
+      ]
+    ]
+  },
+  "https://maisondeladanse.com/programmation/saison2026-2027/sacre": {
+    "fetched_at": "2026-09-08",
+    "lieu": "",
+    "seances": [
+      [
+        "mercredi",
+        28,
+        10,
+        "20:30"
+      ],
+      [
+        "samedi",
+        28,
+        11,
+        "20:30"
+      ]
+    ]
+  },
+  "https://maisondeladanse.com/programmation/saison2026-2027/same-same": {
+    "fetched_at": "2026-09-08",
+    "lieu": "Maison de la danse - Grande salle",
+    "seances": [
+      [
+        "mercredi",
+        13,
+        1,
+        "19:30"
+      ],
+      [
+        "jeudi",
+        14,
+        1,
+        "20:30"
+      ],
+      [
+        "vendredi",
+        15,
+        1,
+        "20:30"
+      ]
+    ]
+  },
+  "https://maisondeladanse.com/programmation/saison2026-2027/satie-rite-spring": {
+    "fetched_at": "2026-09-08",
+    "lieu": "Maison de la danse - Grande salle",
+    "seances": [
+      [
+        "mercredi",
+        18,
+        11,
+        "20:30"
+      ],
+      [
+        "jeudi",
+        19,
+        11,
+        "20:30"
+      ],
+      [
+        "vendredi",
+        20,
+        11,
+        "20:30"
+      ]
+    ]
+  },
+  "https://maisondeladanse.com/programmation/saison2026-2027/shout-twice": {
+    "fetched_at": "2026-09-08",
+    "lieu": "Les SUBS",
+    "seances": [
+      [
+        "vendredi",
+        11,
+        9,
+        "21:00"
+      ],
+      [
+        "samedi",
+        12,
+        9,
+        "18:00"
+      ]
+    ]
+  },
+  "https://maisondeladanse.com/programmation/saison2026-2027/silence": {
+    "fetched_at": "2026-09-08",
+    "lieu": "Maison de la danse - Grande salle",
+    "seances": [
+      [
+        "mercredi",
+        10,
+        2,
+        "19:30"
+      ],
+      [
+        "jeudi",
+        11,
+        2,
+        "20:30"
+      ]
+    ]
+  },
+  "https://maisondeladanse.com/programmation/saison2026-2027/slavas-snowshow": {
+    "fetched_at": "2026-09-08",
+    "lieu": "Maison de la danse - Grande salle",
+    "seances": [
+      [
+        "mercredi",
+        25,
+        11,
+        "19:30"
+      ],
+      [
+        "jeudi",
+        26,
+        11,
+        "20:30"
+      ],
+      [
+        "vendredi",
+        27,
+        11,
+        "20:30"
+      ],
+      [
+        "samedi",
+        28,
+        11,
+        "15:00"
+      ],
+      [
+        "samedi",
+        28,
+        11,
+        "20:30"
+      ],
+      [
+        "dimanche",
+        29,
+        11,
+        "15:00"
+      ],
+      [
+        "dimanche",
+        29,
+        11,
+        "19:30"
+      ],
+      [
+        "mardi",
+        1,
+        12,
+        "20:30"
+      ],
+      [
+        "mercredi",
+        2,
+        12,
+        "15:00"
+      ],
+      [
+        "mercredi",
+        2,
+        12,
+        "19:30"
+      ],
+      [
+        "jeudi",
+        3,
+        12,
+        "20:30"
+      ],
+      [
+        "vendredi",
+        4,
+        12,
+        "20:30"
+      ],
+      [
+        "samedi",
+        5,
+        12,
+        "11:00"
+      ],
+      [
+        "samedi",
+        5,
+        12,
+        "15:00"
+      ],
+      [
+        "dimanche",
+        6,
+        12,
+        "15:00"
+      ]
+    ]
+  },
+  "https://maisondeladanse.com/programmation/saison2026-2027/trailer-park": {
+    "fetched_at": "2026-09-08",
+    "lieu": "Maison de la danse - Grande salle",
+    "seances": [
+      [
+        "mardi",
+        13,
+        10,
+        "20:30"
+      ],
+      [
+        "mercredi",
+        14,
+        10,
+        "19:30"
+      ],
+      [
+        "jeudi",
+        15,
+        10,
+        "20:30"
+      ]
+    ]
+  },
+  "https://maisondeladanse.com/programmation/saison2026-2027/un-peu-pour-mon-coeur": {
+    "fetched_at": "2026-09-08",
+    "lieu": "Maison de la danse - Grande salle",
+    "seances": [
+      [
+        "mardi",
+        3,
+        11,
+        "20:30"
+      ],
+      [
+        "mercredi",
+        4,
+        11,
+        "20:30"
+      ]
+    ]
+  },
+  "https://maisondeladanse.com/programmation/saison2026-2027/white-space": {
+    "fetched_at": "2026-09-08",
+    "lieu": "Maison de la danse - Grande salle",
+    "seances": [
+      [
+        "mardi",
+        15,
+        12,
+        "20:30"
+      ],
+      [
+        "mercredi",
+        16,
+        12,
+        "19:30"
+      ],
+      [
+        "jeudi",
+        17,
+        12,
+        "20:30"
+      ]
+    ]
+  },
+  "https://maisondeladanse.com/programmation/saison2026-2027/within-party": {
+    "fetched_at": "2026-09-08",
+    "lieu": "Maison de la danse - Studio",
+    "seances": [
+      [
+        "vendredi",
+        5,
+        2,
+        "19:00"
+      ]
+    ]
+  },
   "https://radiant-bellevue.fr/spectacles/4211-km/": {
     "fetched_at": "2026-08-18",
     "time": "20:30"
