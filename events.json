@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-08T10:38:47.817692+00:00",
-  "count": 2019,
+  "generated_at": "2026-09-08T12:53:31.874580+00:00",
+  "count": 2181,
   "events": [
     {
       "venue": "Opéra national de Lyon",
@@ -653,6 +653,19 @@
       "id": "b036d0cd0f94"
     },
     {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Onda (avec Yann Gourdon)",
+      "subtitle": "Nova Materia invite Yann Gourdon",
+      "category": "musique",
+      "date_start": "2026-09-09",
+      "date_end": null,
+      "time": "21:30",
+      "url": "https://www.les-subs.com/evenement/optimisme-ambient-2026-onda-nova-materia/",
+      "image": "https://www.les-subs.com/wp-content/uploads/2026/03/img-9939-2-200x200.jpg",
+      "id": "15fda28739f1"
+    },
+    {
       "venue": "La Commune",
       "venue_slug": "la-commune",
       "title": "Caviste & Platines",
@@ -823,16 +836,16 @@
     },
     {
       "venue": "TNP - Théâtre National Populaire",
-      "venue_slug": "tnp-theatre-national-populaire",
-      "title": "Mémoire de fille",
+      "venue_slug": "tnp",
+      "title": "Mémoire de fille",
       "subtitle": null,
-      "category": "Théâtre",
+      "category": "théâtre",
       "date_start": "2026-09-10",
-      "date_end": "2026-09-20",
+      "date_end": null,
       "time": "20:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319002-m-moire-de-fille.html",
-      "image": null,
-      "id": "c2a7e6bed1e3"
+      "url": "https://www.tnp-villeurbanne.com/spectacle/memoire-de-fille/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/3_Memoire_de_fillecMarie_Clauzade.jpg",
+      "id": "6ed31f721ac7"
     },
     {
       "venue": "Espace Gerson",
@@ -1290,6 +1303,19 @@
       "id": "dd9299516f82"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Mémoire de fille",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-09-11",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/memoire-de-fille/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/3_Memoire_de_fillecMarie_Clauzade.jpg",
+      "id": "859ad0a21252"
+    },
+    {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
       "title": "Gabrielle Giraud - Au naturel",
@@ -1366,6 +1392,19 @@
       "url": "https://www.periscope-lyon.com/concerts/barrut/",
       "image": "https://www.periscope-lyon.com/wp-content/uploads/2026/07/BARRUT-2-650x472.jpg",
       "id": "d1d01f5863d6"
+    },
+    {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "GARDERIE : LES P'TITES COULISSES",
+      "subtitle": "Les P'tites Coulisses",
+      "category": "atelier",
+      "date_start": "2026-09-11",
+      "date_end": null,
+      "time": "21:00",
+      "url": "https://www.les-subs.com/evenement/atelier-creatif-pour-enfants/",
+      "image": "https://www.les-subs.com/wp-content/uploads/2026/02/ptites-coulisses-200x200.jpg",
+      "id": "7a0fe27ab4f7"
     },
     {
       "venue": "Les Subsistances",
@@ -1665,6 +1704,19 @@
       "url": "https://www.les-subs.com/evenement/optimisme-ambient-2026-shout-twice-katerina-andreou-melissa-guex/",
       "image": "https://www.les-subs.com/wp-content/uploads/2026/03/shouttwice-a7r5434blandinesoulage-les-grandes-locos-metropole-de-lyon-hd-200x200.jpg",
       "id": "73fb49d61a5c"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Mémoire de fille",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-09-12",
+      "date_end": null,
+      "time": "18:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/memoire-de-fille/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/3_Memoire_de_fillecMarie_Clauzade.jpg",
+      "id": "11cd65b2701b"
     },
     {
       "venue": "Espace Gerson",
@@ -2057,6 +2109,19 @@
       "id": "e75d89bb0a28"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Mémoire de fille",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-09-13",
+      "date_end": null,
+      "time": "16:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/memoire-de-fille/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/3_Memoire_de_fillecMarie_Clauzade.jpg",
+      "id": "caaf008a5eb3"
+    },
+    {
       "venue": "Les Subsistances",
       "venue_slug": "les-subs",
       "title": "Rave des Kids",
@@ -2408,6 +2473,19 @@
       "id": "6619966f2ed4"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Mémoire de fille",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-09-15",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/memoire-de-fille/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/3_Memoire_de_fillecMarie_Clauzade.jpg",
+      "id": "8f175fc27c53"
+    },
+    {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
       "title": "Les Divines",
@@ -2733,6 +2811,19 @@
       "id": "bb6ee656eef7"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Mémoire de fille",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-09-16",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/memoire-de-fille/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/3_Memoire_de_fillecMarie_Clauzade.jpg",
+      "id": "64b8910dfc3d"
+    },
+    {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
       "title": "Anthony Kavanagh - Rodage",
@@ -2887,6 +2978,19 @@
       "url": "https://agenda.villemorte.fr/event/soiree-mix-live-ratio-tapes-jean-bender-et-f-man",
       "image": "https://agenda.villemorte.fr/media/thumb/a7c7b90aea06c194c10673fb46f759d1.jpg",
       "id": "5f35cd56180b"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Mémoire de fille",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-09-17",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/memoire-de-fille/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/3_Memoire_de_fillecMarie_Clauzade.jpg",
+      "id": "e729b7a65a11"
     },
     {
       "venue": "Hôtel 71",
@@ -3201,6 +3305,19 @@
       "id": "28279f3c4aff"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Journées européennes du Patrimoine 2026",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-09-18",
+      "date_end": null,
+      "time": null,
+      "url": "https://www.tnp-villeurbanne.com/spectacle/journees-europeennes-du-patrimoine-2026/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2025/06/TNP-facade-2020-2-Jacques-Grison-scaled.jpg",
+      "id": "a6b57062ab58"
+    },
+    {
       "venue": "Galerie Imag'In",
       "venue_slug": "galerie-imag-in",
       "title": "Uraraka Matsuzawa",
@@ -3383,6 +3500,19 @@
       "id": "a3c770aec642"
     },
     {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Fais ton cirque !",
+      "subtitle": "École de cirque de Lyon",
+      "category": "atelier",
+      "date_start": "2026-09-18",
+      "date_end": null,
+      "time": "18:15",
+      "url": "https://www.les-subs.com/evenement/fais-ton-cirque/",
+      "image": "https://www.les-subs.com/wp-content/uploads/2024/04/lessubs-minipousses-cirqueogregoryrubinstein-collectifdesflousfurieux-54-200x200.jpg",
+      "id": "6a76ad257973"
+    },
+    {
       "venue": "Chapelle de la Trinité",
       "venue_slug": "chapelle-de-la-trinite",
       "title": "Qui êtes-vous M. Gurdjieff ?",
@@ -3563,6 +3693,19 @@
       "url": "https://www.petit-bulletin.fr/agenda-318967-leop-ra-par-leorchestre.html",
       "image": null,
       "id": "127589766054"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Mémoire de fille",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-09-18",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/memoire-de-fille/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/3_Memoire_de_fillecMarie_Clauzade.jpg",
+      "id": "7c70592a463b"
     },
     {
       "venue": "Espace Gerson",
@@ -3760,6 +3903,19 @@
       "id": "fafc5f0e4c02"
     },
     {
+      "venue": "TNG",
+      "venue_slug": "tng-vaise",
+      "title": "Visite des journées du patrimoine",
+      "subtitle": null,
+      "category": "Visites",
+      "date_start": "2026-09-19",
+      "date_end": null,
+      "time": "10:30",
+      "url": "https://www.petit-bulletin.fr/agenda-318990-visite-des-journ-es-du-patrimoine.html",
+      "image": null,
+      "id": "acf8de860984"
+    },
+    {
       "venue": "Brasserie Georges",
       "venue_slug": "brasserie-georges",
       "title": "190 ans de la Brasserie Georges",
@@ -3849,6 +4005,32 @@
       "url": "https://agenda.villemorte.fr/event/jeune-creation-internationale-18e-biennale-de-lyon",
       "image": "https://agenda.villemorte.fr/media/thumb/1d5253535110318803ea95b138e1deeb.jpg",
       "id": "b8206cb2e06f"
+    },
+    {
+      "venue": "Célestins, théâtre de Lyon",
+      "venue_slug": "celestins",
+      "title": "Atelier théâtre",
+      "subtitle": null,
+      "category": "atelier",
+      "date_start": "2026-09-19",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.theatredescelestins.com/fr/programmation/2026-2027/les-samedis-celestins/moliere-et-ses-masques-1/atelier-theatre",
+      "image": "https://www.theatredescelestins.com/assets/q75-w600/a3b8fb03/atelier_theatre.jpg",
+      "id": "e9ce6925e41f"
+    },
+    {
+      "venue": "Célestins, théâtre de Lyon",
+      "venue_slug": "celestins",
+      "title": "Atelier masques",
+      "subtitle": null,
+      "category": "atelier",
+      "date_start": "2026-09-19",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.theatredescelestins.com/fr/programmation/2026-2027/les-samedis-celestins/moliere-et-ses-masques-1/atelier-masques",
+      "image": "https://www.theatredescelestins.com/assets/q75-w600/2d95e473/masque4.jpg",
+      "id": "e39dcd2f3144"
     },
     {
       "venue": "Fnac Part-Dieu",
@@ -4033,6 +4215,19 @@
       "id": "07a82f4a8702"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Mémoire de fille",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-09-19",
+      "date_end": null,
+      "time": "18:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/memoire-de-fille/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/3_Memoire_de_fillecMarie_Clauzade.jpg",
+      "id": "3bfe57b12697"
+    },
+    {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
       "title": "Le voisin #3 - Nouveau spectacle",
@@ -4163,6 +4358,19 @@
       "id": "fda44bc7b8bb"
     },
     {
+      "venue": "Célestins, théâtre de Lyon",
+      "venue_slug": "celestins",
+      "title": "Molière et ses masques",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-09-19",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://www.theatredescelestins.com/fr/programmation/2026-2027/des-10-11-ans/moliere-et-ses-masques",
+      "image": "https://www.theatredescelestins.com/assets/q75-w600/2ba22463/moliere_site.jpg",
+      "id": "9d6900cdb2c8"
+    },
+    {
       "venue": "Toï Toï le Zinc",
       "venue_slug": "toi-toi-le-zinc",
       "title": "Zermatt + Marguterie + Don't kill the cow",
@@ -4280,6 +4488,19 @@
       "id": "39aaad436432"
     },
     {
+      "venue": "Célestins, théâtre de Lyon",
+      "venue_slug": "celestins",
+      "title": "Journées européennes du patrimoine",
+      "subtitle": null,
+      "category": "visite",
+      "date_start": "2026-09-20",
+      "date_end": null,
+      "time": "09:30",
+      "url": "https://www.theatredescelestins.com/fr/programmation/2026-2027/visite/journees-europeennes-du-patrimoine-4",
+      "image": "https://www.theatredescelestins.com/assets/q75-w600/2b04148a/saison2627_05.jpg",
+      "id": "00c7230bf208"
+    },
+    {
       "venue": "Galerie Imag'In",
       "venue_slug": "galerie-imag-in",
       "title": "Chantal Parise",
@@ -4369,6 +4590,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/quatuor-leonis/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/06/quatuor-leonis_radiant-bellevue-500x500.jpg",
       "id": "8c7701342410"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Mémoire de fille",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-09-20",
+      "date_end": null,
+      "time": "16:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/memoire-de-fille/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/3_Memoire_de_fillecMarie_Clauzade.jpg",
+      "id": "a788cfe83526"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -5998,7 +6232,7 @@
     {
       "venue": "La Rayonne",
       "venue_slug": "la-rayonne",
-      "title": "SOS Homophobie x La Rayonne",
+      "title": "SOS Homophobie x La Rayonne : Lou Trotignon présente Mérou",
       "subtitle": null,
       "category": "humour",
       "date_start": "2026-09-26",
@@ -6006,7 +6240,7 @@
       "time": "14:00",
       "url": "https://larayonne.org/evenement/sos-homophobie-x-la-rayonne/",
       "image": "https://larayonne.org/wp-content/uploads/2026/08/de-7E-14E-entree-gratuite-en-terrasse-2-500x263.jpg",
-      "id": "32e72c9cd764"
+      "id": "b68657edf7fd"
     },
     {
       "venue": "Institut d\\'Art Contemporain",
@@ -6371,6 +6605,19 @@
       "url": "https://espacegerson.mapado.com/event/638404-pablo-mira-cherche-encore-le-titre-de-son-spectacle",
       "image": "https://img.mapado.net/2025/11/21/692099b0b87c9-pablo-mira.png_thumbs/600-600.png",
       "id": "a3d76a626e8e"
+    },
+    {
+      "venue": "Le Complexe café-théâtre",
+      "venue_slug": "le-complexe",
+      "title": "LE COMPLEXE COMEDY CLUB - Un plateau d'humoristes !",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-09-26",
+      "date_end": null,
+      "time": "22:00",
+      "url": "https://www.lecomplexelyon.com/programme/le-complexe-comedy-club-4-humoristes/",
+      "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/complexe-comedy-club-540x800.jpg",
+      "id": "e8a83e9b7f3b"
     },
     {
       "venue": "Le Transbordeur",
@@ -6764,16 +7011,16 @@
     },
     {
       "venue": "TNP - Théâtre National Populaire",
-      "venue_slug": "tnp-theatre-national-populaire",
-      "title": "Seul dans Berlin - Une petite affaire",
-      "subtitle": null,
-      "category": "Théâtre",
+      "venue_slug": "tnp",
+      "title": "Une petite affaire",
+      "subtitle": "d'après Seul dans Berlin",
+      "category": "théâtre",
       "date_start": "2026-09-29",
-      "date_end": "2026-10-17",
+      "date_end": null,
       "time": "19:30",
-      "url": "https://www.petit-bulletin.fr/agenda-319003-seul-dans-berlin-une-petite-affaire.html",
-      "image": null,
-      "id": "ec16f160d071"
+      "url": "https://www.tnp-villeurbanne.com/spectacle/seul-dans-berlin/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/5_Seul_dans_Berlin_repetitions.jpg",
+      "id": "d9c39089502f"
     },
     {
       "venue": "Agend'arts",
@@ -6982,6 +7229,19 @@
       "url": "https://www.theatredescelestins.com/fr/programmation/2026-2027/creation/true-west",
       "image": "https://www.theatredescelestins.com/assets/q75-w600/b8b12f1c/true_west3_benoit_martin.jpg",
       "id": "36aa6064dd1d"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Une petite affaire",
+      "subtitle": "d'après Seul dans Berlin",
+      "category": "théâtre",
+      "date_start": "2026-09-30",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/seul-dans-berlin/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/5_Seul_dans_Berlin_repetitions.jpg",
+      "id": "d79223a0418e"
     },
     {
       "venue": "Agend'arts",
@@ -7257,6 +7517,19 @@
       "id": "2723a755f9ee"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Une petite affaire",
+      "subtitle": "d'après Seul dans Berlin",
+      "category": "théâtre",
+      "date_start": "2026-10-01",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/seul-dans-berlin/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/5_Seul_dans_Berlin_repetitions.jpg",
+      "id": "830039b1218b"
+    },
+    {
       "venue": "A Thou Bout d'Chant",
       "venue_slug": "a-thou-bout-d-chant",
       "title": "CONCERT | JULIETTE MAGNEVASOA",
@@ -7292,7 +7565,7 @@
       "date_end": null,
       "time": "20:00",
       "url": "https://www.halle-tony-garnier.com/fr/programmation/the-world-of-queen",
-      "image": "https://www.halle-tony-garnier.com/storage/143668/conversions/2026-10-01-THE-WORLD-OF-QUEEN-3-visuel-twoq-carre-1080x1080-copi-20241011-163641-square.jpg",
+      "image": "https://www.halle-tony-garnier.com/storage/143728/conversions/2026-10-01-THE-WORLD-OF-QUEEN-3-visuel-twoq-carre-1080x1080-copi-20241011-163641-square.jpg",
       "id": "3611a8088b2f"
     },
     {
@@ -7504,6 +7777,19 @@
       "id": "91f90cd4d2bc"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Une petite affaire",
+      "subtitle": "d'après Seul dans Berlin",
+      "category": "théâtre",
+      "date_start": "2026-10-02",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/seul-dans-berlin/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/5_Seul_dans_Berlin_repetitions.jpg",
+      "id": "cbcdcfa6112b"
+    },
+    {
       "venue": "A Thou Bout d'Chant",
       "venue_slug": "a-thou-bout-d-chant",
       "title": "CO-PLATEAU | NINE + LOUFOX",
@@ -7699,6 +7985,19 @@
       "id": "ade24303c3dd"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Une petite affaire",
+      "subtitle": "d'après Seul dans Berlin",
+      "category": "théâtre",
+      "date_start": "2026-10-03",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/seul-dans-berlin/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/5_Seul_dans_Berlin_repetitions.jpg",
+      "id": "d27df8fae03f"
+    },
+    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins",
       "title": "True West",
@@ -7881,6 +8180,19 @@
       "id": "470f4fd864ce"
     },
     {
+      "venue": "Le Complexe café-théâtre",
+      "venue_slug": "le-complexe",
+      "title": "LE COMPLEXE COMEDY CLUB - Un plateau d'humoristes !",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-10-03",
+      "date_end": null,
+      "time": "22:00",
+      "url": "https://www.lecomplexelyon.com/programme/le-complexe-comedy-club-4-humoristes/",
+      "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/complexe-comedy-club-540x800.jpg",
+      "id": "0f49f52bcde3"
+    },
+    {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
       "title": "club",
@@ -7970,6 +8282,19 @@
       "url": "https://www.petit-bulletin.fr/agenda-319240-petru-ceban.html",
       "image": null,
       "id": "8a9bd8a3859a"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Une petite affaire",
+      "subtitle": "d'après Seul dans Berlin",
+      "category": "théâtre",
+      "date_start": "2026-10-04",
+      "date_end": null,
+      "time": "15:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/seul-dans-berlin/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/5_Seul_dans_Berlin_repetitions.jpg",
+      "id": "89c40a910aaf"
     },
     {
       "venue": "Improvidence",
@@ -8167,6 +8492,19 @@
       "id": "b1b631711f7b"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Une petite affaire",
+      "subtitle": "d'après Seul dans Berlin",
+      "category": "théâtre",
+      "date_start": "2026-10-06",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/seul-dans-berlin/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/5_Seul_dans_Berlin_repetitions.jpg",
+      "id": "894cf7a67415"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "FAT FREDDY’S DROP",
@@ -8336,6 +8674,19 @@
       "id": "ec8446a79d8d"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Une petite affaire",
+      "subtitle": "d'après Seul dans Berlin",
+      "category": "théâtre",
+      "date_start": "2026-10-07",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/seul-dans-berlin/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/5_Seul_dans_Berlin_repetitions.jpg",
+      "id": "1be6e896cb35"
+    },
+    {
       "venue": "Bizarre!",
       "venue_slug": "bizarre",
       "title": "Hold Fast",
@@ -8412,6 +8763,19 @@
       "url": "https://www.lecomplexelyon.com/programme/faites-lapero-pas-la-guerre-2/",
       "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/faites-lapero-pas-la-guerre-540x800.jpg",
       "id": "6c96690ec006"
+    },
+    {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Malacca",
+      "subtitle": "Compagnie Voltaïk",
+      "category": "danse",
+      "date_start": "2026-10-07",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://www.les-subs.com/evenement/malacca/",
+      "image": "https://www.les-subs.com/wp-content/uploads/2026/07/voltaik-c-julie-cherki-5e808-1-200x200.jpg",
+      "id": "d5bbaaec4808"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -8518,6 +8882,19 @@
       "id": "fbe36e2bb46d"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Une petite affaire",
+      "subtitle": "d'après Seul dans Berlin",
+      "category": "théâtre",
+      "date_start": "2026-10-08",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/seul-dans-berlin/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/5_Seul_dans_Berlin_repetitions.jpg",
+      "id": "b6b5971eac3f"
+    },
+    {
       "venue": "Agend'arts",
       "venue_slug": "agend-arts",
       "title": "Concert de Federica e Marco – È una canzone d’amore",
@@ -8572,7 +8949,7 @@
     {
       "venue": "Marché Gare",
       "venue_slug": "marche-gare",
-      "title": "Rap ANTON SERRA · LUCIO BUKOWSKI · OSTER LAPWASS Nouvelle date !",
+      "title": "Bientôt complet ! Rap ANTON SERRA · LUCIO BUKOWSKI · OSTER LAPWASS Nouvelle date !",
       "subtitle": null,
       "category": "rap",
       "date_start": "2026-10-08",
@@ -8580,7 +8957,7 @@
       "time": "20:00",
       "url": "https://marchegare.fr/agenda/lucio-bukowski-anton-serra-oster-lapwass-nouvelle-date",
       "image": "https://marchegare.fr/sites/marchegare/files/styles/large/public/import_billetterie/386-field_illustration_id-1779110997.jpg",
-      "id": "d55fc9958128"
+      "id": "4b02ee059a29"
     },
     {
       "venue": "Espace Gerson",
@@ -8752,6 +9129,19 @@
       "id": "c8ae8e27f927"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Une petite affaire",
+      "subtitle": "d'après Seul dans Berlin",
+      "category": "théâtre",
+      "date_start": "2026-10-09",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/seul-dans-berlin/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/5_Seul_dans_Berlin_repetitions.jpg",
+      "id": "3fbfb70427ef"
+    },
+    {
       "venue": "Agend'arts",
       "venue_slug": "agend-arts",
       "title": "Concert de Faustine Lewandowski & de Hortense",
@@ -8856,6 +9246,19 @@
       "id": "0d7a12111b4d"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Rapport pour une académie",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-10-09",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/rapport-pour-une-acadmie/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/3_Rapport_academiecMarie_Clauzade.jpg",
+      "id": "d5f7ff820e69"
+    },
+    {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
       "title": "Thomas Piet - Koala",
@@ -8932,6 +9335,19 @@
       "url": "https://le-sucre.eu/events/club-65/",
       "image": "https://le-sucre.eu/wp-content/uploads/2026/07/ACIDSOCIETY@noemielact-23-600x400.jpg",
       "id": "ce7ddad13e95"
+    },
+    {
+      "venue": "La Commune",
+      "venue_slug": "la-commune",
+      "title": "BEFORE CAN YOU ROCK ?",
+      "subtitle": null,
+      "category": "danse",
+      "date_start": "2026-10-10",
+      "date_end": null,
+      "time": null,
+      "url": "https://lacommune.co/event/before-can-you-rock-la-commune-lyon/",
+      "image": "https://cdn-ilchkjh.nitrocdn.com/gohSAQIvPXRxVnCrOMzXdhxFQyClcfyS/assets/images/optimized/rev-7a708fa/lacommune.co/wp-content/uploads/2026/04/1080x1350_OCTOBRE-768x960.jpg",
+      "id": "12278a9c062d"
     },
     {
       "venue": "Le Petit Salon",
@@ -9012,6 +9428,19 @@
       "id": "81bc521469af"
     },
     {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Minipousses danse",
+      "subtitle": "Alice Boivin",
+      "category": "atelier",
+      "date_start": "2026-10-10",
+      "date_end": null,
+      "time": "16:00",
+      "url": "https://www.les-subs.com/evenement/minipousses-danse/",
+      "image": "https://www.les-subs.com/wp-content/uploads/2023/03/lessubs-minipousses-cirqueogregoryrubinstein-collectifdesflousfurieux-3-200x200.jpg",
+      "id": "714b76b56b71"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "Toi + Moi = ?",
@@ -9049,6 +9478,19 @@
       "url": "https://www.theatredescelestins.com/fr/programmation/2026-2027/celestine/7-rue-des-alouettes",
       "image": "https://www.theatredescelestins.com/assets/q75-w600/30b243af/7_rue_des_alouettes_garance_li_0021.jpg",
       "id": "72fc9cbed56a"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Rapport pour une académie",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-10-10",
+      "date_end": null,
+      "time": "18:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/rapport-pour-une-acadmie/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/3_Rapport_academiecMarie_Clauzade.jpg",
+      "id": "5e539d15bc07"
     },
     {
       "venue": "Espace Gerson",
@@ -9101,6 +9543,19 @@
       "url": "https://improvidence.mapado.com/event/351368-senflix",
       "image": "https://img.mapado.net/2025/1/29/6799fb363c759-senflix-affiche-web.jpeg_thumbs/600-600.jpeg",
       "id": "4ea9648615b7"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Une petite affaire",
+      "subtitle": "d'après Seul dans Berlin",
+      "category": "théâtre",
+      "date_start": "2026-10-10",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/seul-dans-berlin/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/5_Seul_dans_Berlin_repetitions.jpg",
+      "id": "d2f7afa61a02"
     },
     {
       "venue": "Agend'arts",
@@ -9322,6 +9777,32 @@
       "url": "https://agenda.villemorte.fr/event/visites-en-famille-un-dimanche-apres-midi-a-liac-frac-rhone-alpes",
       "image": "https://agenda.villemorte.fr/media/thumb/ffe67e143d04e4d5296e6417d126dfa7.jpg",
       "id": "9170ef3be488"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Une petite affaire",
+      "subtitle": "d'après Seul dans Berlin",
+      "category": "théâtre",
+      "date_start": "2026-10-11",
+      "date_end": null,
+      "time": "15:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/seul-dans-berlin/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/5_Seul_dans_Berlin_repetitions.jpg",
+      "id": "c05cf6a52abc"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Rapport pour une académie",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-10-11",
+      "date_end": null,
+      "time": "16:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/rapport-pour-une-acadmie/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/3_Rapport_academiecMarie_Clauzade.jpg",
+      "id": "f6d122bf804e"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -9597,6 +10078,19 @@
       "id": "fc4980c22128"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Une petite affaire",
+      "subtitle": "d'après Seul dans Berlin",
+      "category": "théâtre",
+      "date_start": "2026-10-13",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/seul-dans-berlin/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/5_Seul_dans_Berlin_repetitions.jpg",
+      "id": "cc451aafecc8"
+    },
+    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins",
       "title": "7 rue des Alouettes",
@@ -9621,6 +10115,19 @@
       "url": "https://www.petit-bulletin.fr/agenda-319220-monolord-dopelord.html",
       "image": "https://agenda.villemorte.fr/media/thumb/32bd3de2e87eb9bd9ee5ee53a2b35f7a.jpg",
       "id": "c807789e40f7"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Rapport pour une académie",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-10-13",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/rapport-pour-une-acadmie/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/3_Rapport_academiecMarie_Clauzade.jpg",
+      "id": "f3455463e234"
     },
     {
       "venue": "Espace Gerson",
@@ -9686,6 +10193,19 @@
       "url": "https://www.petit-bulletin.fr/agenda-319182-le-lac.html",
       "image": null,
       "id": "6d70e9b67bf9"
+    },
+    {
+      "venue": "Improvidence",
+      "venue_slug": "improvidence",
+      "title": "La Relève",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-10-13",
+      "date_end": null,
+      "time": "21:00",
+      "url": "https://improvidence.mapado.com/event/154968-la-releve",
+      "image": "https://img.mapado.net/2022/10/24/635646c2a2c98-1.jpeg_thumbs/600-600.jpeg",
+      "id": "df31985f2e3e"
     },
     {
       "venue": "Le Périscope",
@@ -9818,6 +10338,19 @@
       "id": "87b497a43676"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Une petite affaire",
+      "subtitle": "d'après Seul dans Berlin",
+      "category": "théâtre",
+      "date_start": "2026-10-14",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/seul-dans-berlin/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/5_Seul_dans_Berlin_repetitions.jpg",
+      "id": "6d18c84ae6b6"
+    },
+    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins",
       "title": "Dan Då Dan Dog",
@@ -9842,6 +10375,19 @@
       "url": "https://sonic-lyon.fr/evenement/leya/",
       "image": "https://sonic-lyon.fr/wp-content/uploads/2026/05/2026-EU-Tour-Press-Photo-1-1024x768.jpeg",
       "id": "72241909fb71"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Rapport pour une académie",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-10-14",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/rapport-pour-une-acadmie/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/3_Rapport_academiecMarie_Clauzade.jpg",
+      "id": "35b0c8725120"
     },
     {
       "venue": "Au Rikiki",
@@ -10000,6 +10546,19 @@
       "id": "b625c6fea2bd"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Une petite affaire",
+      "subtitle": "d'après Seul dans Berlin",
+      "category": "théâtre",
+      "date_start": "2026-10-15",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/seul-dans-berlin/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/5_Seul_dans_Berlin_repetitions.jpg",
+      "id": "fb9fd5311557"
+    },
+    {
       "venue": "Théâtre de l'Iris",
       "venue_slug": "theatre-de-l-iris",
       "title": "L'ovaire du décor",
@@ -10089,6 +10648,19 @@
       "url": "https://www.petit-bulletin.fr/agenda-308324-alex-fredo.html",
       "image": null,
       "id": "e79d6f4efc7c"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Rapport pour une académie",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-10-15",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/rapport-pour-une-acadmie/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/3_Rapport_academiecMarie_Clauzade.jpg",
+      "id": "59370c95315b"
     },
     {
       "venue": "A Thou Bout d'Chant",
@@ -10247,6 +10819,19 @@
       "id": "0d991f524afd"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Une petite affaire",
+      "subtitle": "d'après Seul dans Berlin",
+      "category": "théâtre",
+      "date_start": "2026-10-16",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/seul-dans-berlin/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/5_Seul_dans_Berlin_repetitions.jpg",
+      "id": "2306cb8e6cb8"
+    },
+    {
       "venue": "Agend'arts",
       "venue_slug": "agend-arts",
       "title": "Scène ouverte slam – session d’octobre",
@@ -10375,6 +10960,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/les-wriggles/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/02/les-wriggles-credit-Pauline-Desanneaux-500x500.png",
       "id": "2c966d0fea36"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Rapport pour une académie",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-10-16",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/rapport-pour-une-acadmie/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/3_Rapport_academiecMarie_Clauzade.jpg",
+      "id": "61b8476492bf"
     },
     {
       "venue": "Espace Gerson",
@@ -10533,6 +11131,32 @@
       "id": "d6947c98571a"
     },
     {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Minipousses cirque",
+      "subtitle": "Fanny Vrinat",
+      "category": "atelier",
+      "date_start": "2026-10-17",
+      "date_end": null,
+      "time": "16:30",
+      "url": "https://www.les-subs.com/evenement/minipousses-cirque/",
+      "image": "https://www.les-subs.com/wp-content/uploads/2024/04/re1604-1091-200x200.jpg",
+      "id": "022af251097c"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Rapport pour une académie",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-10-17",
+      "date_end": null,
+      "time": "17:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/rapport-pour-une-acadmie/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/3_Rapport_academiecMarie_Clauzade.jpg",
+      "id": "a83742ea86cc"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "La fin justifie les moyens",
@@ -10557,6 +11181,19 @@
       "url": "https://le-sucre.eu/events/ext-12-9/",
       "image": "https://le-sucre.eu/wp-content/uploads/2026/09/Plan-de-travail-66-600x600.png",
       "id": "acfd2989dc6b"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Une petite affaire",
+      "subtitle": "d'après Seul dans Berlin",
+      "category": "théâtre",
+      "date_start": "2026-10-17",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/seul-dans-berlin/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/5_Seul_dans_Berlin_repetitions.jpg",
+      "id": "9ac4fcf27b99"
     },
     {
       "venue": "Espace Gerson",
@@ -10726,6 +11363,19 @@
       "url": "https://espacegerson.mapado.com/event/714690-thomas-angelvy-en-rodage",
       "image": "https://img.mapado.net/2026/5/5/69fa2f26c1969-angelvy.jpeg_thumbs/600-600.jpeg",
       "id": "9c9a697ee9a0"
+    },
+    {
+      "venue": "Le Complexe café-théâtre",
+      "venue_slug": "le-complexe",
+      "title": "LE COMPLEXE COMEDY CLUB - Un plateau d'humoristes !",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-10-17",
+      "date_end": null,
+      "time": "22:00",
+      "url": "https://www.lecomplexelyon.com/programme/le-complexe-comedy-club-4-humoristes/",
+      "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/complexe-comedy-club-540x800.jpg",
+      "id": "a4d60802103b"
     },
     {
       "venue": "Le Transbordeur",
@@ -11716,6 +12366,19 @@
       "id": "0dc2a9b1041e"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "La Troupe éphémère #précipité",
+      "subtitle": "— Message personnel",
+      "category": "théâtre",
+      "date_start": "2026-10-24",
+      "date_end": null,
+      "time": "18:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/la-troupe-ephemere-precipite/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2024/05/250504_RdL_0321-scaled.jpg",
+      "id": "d35796fd406b"
+    },
+    {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
       "title": "Le voisin #3 - Nouveau spectacle",
@@ -11872,6 +12535,19 @@
       "id": "049122c3279c"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Sylvain Morand - Nouveau spectacle",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-10-24",
+      "date_end": null,
+      "time": "21:15",
+      "url": "https://espacegerson.mapado.com/event/710336-sylvain-morand-nouveau-spectacle",
+      "image": "https://img.mapado.net/2026/4/27/69ef6ff660e3a-sylvain-morand.png_thumbs/600-600.png",
+      "id": "8d8ef81d7c7e"
+    },
+    {
       "venue": "La Halle Tony Garnier",
       "venue_slug": "halle-tony-garnier",
       "title": "Nuit Encore X 23:59",
@@ -11883,6 +12559,19 @@
       "url": "https://www.halle-tony-garnier.com/fr/programmation/nuit-encore-x-23-59",
       "image": "https://www.halle-tony-garnier.com/storage/143672/conversions/2026-10-24-NUIT-ENCORE-X-23-59-carre-4-20260703-170839-square.jpg",
       "id": "2fff0957546e"
+    },
+    {
+      "venue": "Le Complexe café-théâtre",
+      "venue_slug": "le-complexe",
+      "title": "LE COMPLEXE COMEDY CLUB - Un plateau d'humoristes !",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-10-24",
+      "date_end": null,
+      "time": "22:00",
+      "url": "https://www.lecomplexelyon.com/programme/le-complexe-comedy-club-4-humoristes/",
+      "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/complexe-comedy-club-540x800.jpg",
+      "id": "8b350783319e"
     },
     {
       "venue": "Le Sucre",
@@ -11922,6 +12611,19 @@
       "url": "https://www.petit-bulletin.fr/agenda-304802-le-chant-des-lucioles.html",
       "image": null,
       "id": "f3333b3ee04e"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Piano solo #précipité",
+      "subtitle": "— Pour te comprendre",
+      "category": "théâtre",
+      "date_start": "2026-10-25",
+      "date_end": null,
+      "time": "15:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/piano-solo-precipite/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/05/1_solo_piano_pour_te_comprendre.jpg",
+      "id": "835ba2d41ce1"
     },
     {
       "venue": "Improvidence",
@@ -12769,6 +13471,19 @@
       "id": "c08f7d6a0729"
     },
     {
+      "venue": "Le Complexe café-théâtre",
+      "venue_slug": "le-complexe",
+      "title": "LE COMPLEXE COMEDY CLUB - Un plateau d'humoristes !",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-10-31",
+      "date_end": null,
+      "time": "22:00",
+      "url": "https://www.lecomplexelyon.com/programme/le-complexe-comedy-club-4-humoristes/",
+      "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/complexe-comedy-club-540x800.jpg",
+      "id": "c11fdb1559a6"
+    },
+    {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
       "title": "A week-end with Jen Cardini",
@@ -13094,6 +13809,19 @@
       "id": "7a76600e302f"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Amadoca",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-04",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/amadoca-2026/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2025/04/Amadoca_Christophe-Raynaud-de-Lage4.jpg",
+      "id": "5c960bf228a6"
+    },
+    {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
       "title": "François Guédon - Aux Urnes et caetera",
@@ -13198,6 +13926,19 @@
       "id": "09ef3db83a93"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Barber Shop Chronicles",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-05",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/barber-shop-chronicles/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_Barber_ShopcStef_Stessel.jpg",
+      "id": "2dbec53fae98"
+    },
+    {
       "venue": "La Halle Tony Garnier",
       "venue_slug": "halle-tony-garnier",
       "title": "Djadja & Dinaz",
@@ -13222,6 +13963,19 @@
       "url": "https://agenda.villemorte.fr/event/musiques-en-heritage-compagnie-libomna-ludmila-dabo",
       "image": "https://agenda.villemorte.fr/media/thumb/cf1e9b0f9975fce408c0a84b9d982a63.jpg",
       "id": "d86311b005c7"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Amadoca",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-05",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/amadoca-2026/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2025/04/Amadoca_Christophe-Raynaud-de-Lage4.jpg",
+      "id": "77ce989d84ac"
     },
     {
       "venue": "Espace Gerson",
@@ -13380,6 +14134,19 @@
       "id": "12e84c534b17"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Barber Shop Chronicles",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-06",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/barber-shop-chronicles/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_Barber_ShopcStef_Stessel.jpg",
+      "id": "0c30cba1b81b"
+    },
+    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins",
       "title": "La Distance",
@@ -13456,6 +14223,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/lp/",
       "image": null,
       "id": "4dae556f89d2"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Amadoca",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-06",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/amadoca-2026/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2025/04/Amadoca_Christophe-Raynaud-de-Lage4.jpg",
+      "id": "b478ac110a4b"
     },
     {
       "venue": "Espace Gerson",
@@ -13586,6 +14366,19 @@
       "url": "https://improvidence.mapado.com/event/268472-toi-moi",
       "image": "https://img.mapado.net/2026/1/26/69772dc1cb2f5-toi-moi-affiche-facon-film-1.png_thumbs/600-600.png",
       "id": "b9bb381b8134"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Barber Shop Chronicles",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-07",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/barber-shop-chronicles/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_Barber_ShopcStef_Stessel.jpg",
+      "id": "f2015f769bb9"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -13822,6 +14615,19 @@
       "id": "5f28e5db1243"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Barber Shop Chronicles",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-08",
+      "date_end": null,
+      "time": "15:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/barber-shop-chronicles/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_Barber_ShopcStef_Stessel.jpg",
+      "id": "e412cd3f4ce0"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "Elie Semoun",
@@ -13978,6 +14784,19 @@
       "id": "e69b29046077"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Barber Shop Chronicles",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-10",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/barber-shop-chronicles/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_Barber_ShopcStef_Stessel.jpg",
+      "id": "b94db28f768c"
+    },
+    {
       "venue": "Bourse du Travail",
       "venue_slug": "bourse-du-travail",
       "title": "David Castello-Lopes",
@@ -14093,6 +14912,19 @@
       "url": "https://www.transbordeur.fr/evenement/schur-jeanie-11112026/",
       "image": "https://www.transbordeur.fr/wp-content/uploads/2026/05/nb-schur-2560x3840.jpg",
       "id": "8bb554460fe8"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Barber Shop Chronicles",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-11",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/barber-shop-chronicles/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_Barber_ShopcStef_Stessel.jpg",
+      "id": "82b8fa34f108"
     },
     {
       "venue": "Agend'arts",
@@ -14654,6 +15486,19 @@
       "id": "d84545a07db3"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Martin Eden",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-14",
+      "date_end": null,
+      "time": "18:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/martin-eden-2026/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2025/04/Martin-Eden_RdL1.jpg",
+      "id": "cbc528b508c3"
+    },
+    {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
       "title": "Le Grand Sacripant - Andromède",
@@ -14732,19 +15577,6 @@
       "id": "73080e371116"
     },
     {
-      "venue": "TNP - Théâtre National Populaire",
-      "venue_slug": "tnp-theatre-national-populaire",
-      "title": "Martin Eden",
-      "subtitle": null,
-      "category": "Théâtre",
-      "date_start": "2026-11-14",
-      "date_end": "2026-11-22",
-      "time": "20:00",
-      "url": "https://www.petit-bulletin.fr/agenda-316315-martin-eden.html",
-      "image": null,
-      "id": "99380835fae3"
-    },
-    {
       "venue": "Les Subsistances",
       "venue_slug": "les-subs",
       "title": "DJ Fantastik",
@@ -14821,6 +15653,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/sans-regrets-2/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/06/sans-regrets_radiant-bellevue-500x500.jpg",
       "id": "92f75d32899b"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Martin Eden",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-15",
+      "date_end": null,
+      "time": "16:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/martin-eden-2026/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2025/04/Martin-Eden_RdL1.jpg",
+      "id": "c701c939339b"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -14940,6 +15785,19 @@
       "id": "55ef8b43abc7"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Oh les beaux jours",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-17",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/oh-les-beaux-jours/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/2_Oh_les_beaux_jourscJean_Louis_Fernandez.jpg",
+      "id": "fc2cf35ed44c"
+    },
+    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins",
       "title": "Le Procès de Jeanne Bloch",
@@ -14964,6 +15822,19 @@
       "url": "https://agenda.villemorte.fr/event/ma-republique-et-moi-compagnie-iwa-issam-rachyq-ahrad",
       "image": "https://agenda.villemorte.fr/media/thumb/32b14c49b334219532c5dc0fc169a6f0.jpg",
       "id": "23cbda40ac87"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Martin Eden",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-17",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/martin-eden-2026/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2025/04/Martin-Eden_RdL1.jpg",
+      "id": "ff1afe7b9494"
     },
     {
       "venue": "Espace Gerson",
@@ -15057,6 +15928,19 @@
       "id": "fade5b736bd5"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Oh les beaux jours",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-18",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/oh-les-beaux-jours/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/2_Oh_les_beaux_jourscJean_Louis_Fernandez.jpg",
+      "id": "a54bfc76f44b"
+    },
+    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins",
       "title": "Thésée, sa vie nouvelle",
@@ -15107,6 +15991,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/the-witcher-iii/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2025/11/the-witcher-carre.jpg",
       "id": "ba0b7e557cea"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Martin Eden",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-18",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/martin-eden-2026/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2025/04/Martin-Eden_RdL1.jpg",
+      "id": "20ea5df9c96a"
     },
     {
       "venue": "Espace Gerson",
@@ -15213,6 +16110,19 @@
       "id": "800145451808"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Oh les beaux jours",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-19",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/oh-les-beaux-jours/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/2_Oh_les_beaux_jourscJean_Louis_Fernandez.jpg",
+      "id": "ff9ba66342b7"
+    },
+    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins",
       "title": "Le Procès de Jeanne Bloch",
@@ -15237,6 +16147,19 @@
       "url": "https://www.halle-tony-garnier.com/fr/programmation/l-heritage-goldman-2-2",
       "image": "https://www.halle-tony-garnier.com/storage/143682/conversions/2026-11-19-L-HERITAGE-GOLDMAN-2-heritagegoldman-1080-lyo-20251002-100344-square.jpg",
       "id": "d019b4b5bf44"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Martin Eden",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-19",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/martin-eden-2026/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2025/04/Martin-Eden_RdL1.jpg",
+      "id": "27dec96b5ff6"
     },
     {
       "venue": "Espace Gerson",
@@ -15369,6 +16292,19 @@
       "id": "ae32bcb63ab6"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Oh les beaux jours",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-20",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/oh-les-beaux-jours/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/2_Oh_les_beaux_jourscJean_Louis_Fernandez.jpg",
+      "id": "ba1d6a5ca7ed"
+    },
+    {
       "venue": "Bizarre!",
       "venue_slug": "bizarre",
       "title": "Zinée",
@@ -15432,6 +16368,19 @@
       "url": "https://www.lecomplexelyon.com/programme/salima-passion/",
       "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/salima-passion-540x800.jpg",
       "id": "6a1cd2fdf58a"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Martin Eden",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-20",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/martin-eden-2026/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2025/04/Martin-Eden_RdL1.jpg",
+      "id": "8fdda3bd4044"
     },
     {
       "venue": "Espace Gerson",
@@ -15512,6 +16461,19 @@
       "id": "008e087d6e1c"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Oh les beaux jours",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-21",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/oh-les-beaux-jours/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/2_Oh_les_beaux_jourscJean_Louis_Fernandez.jpg",
+      "id": "52f2e43b961d"
+    },
+    {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
       "title": "Concert",
@@ -15523,6 +16485,19 @@
       "url": "https://le-sucre.eu/events/concert-7/",
       "image": "https://le-sucre.eu/wp-content/uploads/2026/06/carre-5-600x600.jpg",
       "id": "b8675ebe88aa"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Martin Eden",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-21",
+      "date_end": null,
+      "time": "18:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/martin-eden-2026/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2025/04/Martin-Eden_RdL1.jpg",
+      "id": "b3e886b6391c"
     },
     {
       "venue": "Espace Gerson",
@@ -15694,6 +16669,19 @@
       "id": "0c71502549e4"
     },
     {
+      "venue": "Le Complexe café-théâtre",
+      "venue_slug": "le-complexe",
+      "title": "LE COMPLEXE COMEDY CLUB - Un plateau d'humoristes !",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-11-21",
+      "date_end": null,
+      "time": "22:00",
+      "url": "https://www.lecomplexelyon.com/programme/le-complexe-comedy-club-4-humoristes/",
+      "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/complexe-comedy-club-540x800.jpg",
+      "id": "0abcf8605bdf"
+    },
+    {
       "venue": "IAC Villeurbanne",
       "venue_slug": "iac-villeurbanne",
       "title": "Visites en famille - Un dimanche après-midi à l'IAC / Frac Rhône-Alpes !",
@@ -15707,6 +16695,19 @@
       "id": "d061ee3f1b31"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Oh les beaux jours",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-22",
+      "date_end": null,
+      "time": "15:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/oh-les-beaux-jours/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/2_Oh_les_beaux_jourscJean_Louis_Fernandez.jpg",
+      "id": "a3a5a13ddf45"
+    },
+    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins",
       "title": "Thésée, sa vie nouvelle",
@@ -15718,6 +16719,19 @@
       "url": "https://www.theatredescelestins.com/fr/programmation/2026-2027/grande-salle/thesee-sa-vie-nouvelle",
       "image": "https://www.theatredescelestins.com/assets/q75-w600/b9394898/thesee_sa_vie_nouvelle_theatre_vidy_lausanne_claudia_ndebele_4.jpg",
       "id": "17feba6c89de"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Martin Eden",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-22",
+      "date_end": null,
+      "time": "16:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/martin-eden-2026/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2025/04/Martin-Eden_RdL1.jpg",
+      "id": "534d07724d3a"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -15822,6 +16836,19 @@
       "url": "https://www.transbordeur.fr/evenement/laura-ferre-24112026/",
       "image": "https://www.transbordeur.fr/wp-content/uploads/2025/11/40_60.jpg",
       "id": "603d4449abfd"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Oh les beaux jours",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-24",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/oh-les-beaux-jours/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/2_Oh_les_beaux_jourscJean_Louis_Fernandez.jpg",
+      "id": "a749e0ff41a8"
     },
     {
       "venue": "Agend'arts",
@@ -15965,6 +16992,19 @@
       "url": "https://improvidence.mapado.com/event/336906-ca-handi-long",
       "image": "https://img.mapado.net/2024/4/17/661f9a994c96d-affiche-vignette-cahandilong.jpeg_thumbs/600-600.jpeg",
       "id": "a1978a4c786f"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Oh les beaux jours",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-25",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/oh-les-beaux-jours/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/2_Oh_les_beaux_jourscJean_Louis_Fernandez.jpg",
+      "id": "3a343052b341"
     },
     {
       "venue": "Amphithéâtre de l'Opéra",
@@ -16240,6 +17280,19 @@
       "id": "9c07639d50c5"
     },
     {
+      "venue": "Improvidence",
+      "venue_slug": "improvidence",
+      "title": "Scènes de crime",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-11-26",
+      "date_end": null,
+      "time": "21:00",
+      "url": "https://improvidence.mapado.com/event/14527-scenes-de-crime",
+      "image": "https://img.mapado.net/2023/11/16/6556217687939-affiche-scene-s-de-crime-rvb.jpeg_thumbs/600-600.jpeg",
+      "id": "44f66cbc0579"
+    },
+    {
       "venue": "Bourse du Travail",
       "venue_slug": "bourse-du-travail",
       "title": "Fabrice Eboue",
@@ -16422,6 +17475,19 @@
       "id": "657f3d2771f6"
     },
     {
+      "venue": "Improvidence",
+      "venue_slug": "improvidence",
+      "title": "Scènes de crime",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-11-27",
+      "date_end": null,
+      "time": "21:00",
+      "url": "https://improvidence.mapado.com/event/14527-scenes-de-crime",
+      "image": "https://img.mapado.net/2023/11/16/6556217687939-affiche-scene-s-de-crime-rvb.jpeg_thumbs/600-600.jpeg",
+      "id": "298457e1cc12"
+    },
+    {
       "venue": "Le Complexe café-théâtre",
       "venue_slug": "le-complexe",
       "title": "LE COMPLEXE COMEDY CLUB - Un plateau d'humoristes !",
@@ -16472,6 +17538,19 @@
       "url": "https://improvidence.mapado.com/event/619242-sitcom",
       "image": "https://img.mapado.net/2025/9/4/68b957ca950ae-sitcom-1.jpeg_thumbs/600-600.jpeg",
       "id": "cf42c992feed"
+    },
+    {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Minipousses cirque",
+      "subtitle": "Fanny Vrinat",
+      "category": "atelier",
+      "date_start": "2026-11-28",
+      "date_end": null,
+      "time": "16:30",
+      "url": "https://www.les-subs.com/evenement/minipousses-cirque/",
+      "image": "https://www.les-subs.com/wp-content/uploads/2024/04/re1604-1091-200x200.jpg",
+      "id": "e31b2309b4e6"
     },
     {
       "venue": "Improvidence",
@@ -16628,6 +17707,19 @@
       "url": "https://improvidence.mapado.com/event/351368-senflix",
       "image": "https://img.mapado.net/2025/1/29/6799fb363c759-senflix-affiche-web.jpeg_thumbs/600-600.jpeg",
       "id": "733acb268892"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Axel Lattuada - P.E.R.A.V.",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-11-28",
+      "date_end": null,
+      "time": "21:15",
+      "url": "https://espacegerson.mapado.com/event/716517-axel-lattuada-p-e-r-a-v",
+      "image": "https://img.mapado.net/2026/5/5/69fa0900cc812-lattuada.png_thumbs/600-600.png",
+      "id": "c74e73776f55"
     },
     {
       "venue": "Le Complexe café-théâtre",
@@ -16800,16 +17892,16 @@
     },
     {
       "venue": "TNP - Théâtre National Populaire",
-      "venue_slug": "tnp-theatre-national-populaire",
-      "title": "L'Hors présence",
-      "subtitle": null,
-      "category": "Théâtre",
+      "venue_slug": "tnp",
+      "title": "L’hors-présence",
+      "subtitle": "ou Chimères du pays de Morsan",
+      "category": "théâtre",
       "date_start": "2026-12-01",
       "date_end": null,
       "time": "19:30",
-      "url": "https://www.petit-bulletin.fr/agenda-319188-l-hors-pr-sence.html",
-      "image": null,
-      "id": "1ebf23c9fbd5"
+      "url": "https://www.tnp-villeurbanne.com/spectacle/lhors-presence-ou-chimeres-du-pays-de-morsan/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/3_Lhors_presencecSimon_Gosselin.jpg",
+      "id": "d4ecde786b89"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -16930,16 +18022,16 @@
     },
     {
       "venue": "TNP - Théâtre National Populaire",
-      "venue_slug": "tnp-theatre-national-populaire",
-      "title": "L'Hors présence",
-      "subtitle": null,
-      "category": "Théâtre",
+      "venue_slug": "tnp",
+      "title": "L’hors-présence",
+      "subtitle": "ou Chimères du pays de Morsan",
+      "category": "théâtre",
       "date_start": "2026-12-02",
       "date_end": null,
       "time": "19:30",
-      "url": "https://www.petit-bulletin.fr/agenda-319188-l-hors-pr-sence.html",
-      "image": null,
-      "id": "6a37b2d31891"
+      "url": "https://www.tnp-villeurbanne.com/spectacle/lhors-presence-ou-chimeres-du-pays-de-morsan/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/3_Lhors_presencecSimon_Gosselin.jpg",
+      "id": "7ff0b31b1139"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -16953,6 +18045,19 @@
       "url": "https://www.theatredescelestins.com/fr/programmation/2026-2027/artistes-associe-es/paradoxe",
       "image": "https://www.theatredescelestins.com/assets/q75-w600/075930c1/paradoxe_gwendal_le_flem6.jpg",
       "id": "95bb2d474620"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Les corps incorruptibles",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-12-02",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/les-corps-incorruptibles/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_Les_corps_incorruptiblescJean_Louis_Fernandez.jpg",
+      "id": "085a22c0469d"
     },
     {
       "venue": "Le Complexe café-théâtre",
@@ -17086,16 +18191,16 @@
     },
     {
       "venue": "TNP - Théâtre National Populaire",
-      "venue_slug": "tnp-theatre-national-populaire",
-      "title": "L'Hors présence",
-      "subtitle": null,
-      "category": "Théâtre",
+      "venue_slug": "tnp",
+      "title": "L’hors-présence",
+      "subtitle": "ou Chimères du pays de Morsan",
+      "category": "théâtre",
       "date_start": "2026-12-03",
       "date_end": null,
       "time": "19:30",
-      "url": "https://www.petit-bulletin.fr/agenda-319188-l-hors-pr-sence.html",
-      "image": null,
-      "id": "a2c3a15f5570"
+      "url": "https://www.tnp-villeurbanne.com/spectacle/lhors-presence-ou-chimeres-du-pays-de-morsan/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/3_Lhors_presencecSimon_Gosselin.jpg",
+      "id": "e28090c4df9b"
     },
     {
       "venue": "Théâtre des Clochards Célestes",
@@ -17148,6 +18253,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/imany/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/06/imany-500x500.jpg",
       "id": "08203c940f44"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Les corps incorruptibles",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-12-03",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/les-corps-incorruptibles/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_Les_corps_incorruptiblescJean_Louis_Fernandez.jpg",
+      "id": "acbe0ff76498"
     },
     {
       "venue": "Le Complexe café-théâtre",
@@ -17255,16 +18373,16 @@
     },
     {
       "venue": "TNP - Théâtre National Populaire",
-      "venue_slug": "tnp-theatre-national-populaire",
-      "title": "L'Hors présence",
-      "subtitle": null,
-      "category": "Théâtre",
+      "venue_slug": "tnp",
+      "title": "L’hors-présence",
+      "subtitle": "ou Chimères du pays de Morsan",
+      "category": "théâtre",
       "date_start": "2026-12-04",
       "date_end": null,
       "time": "19:30",
-      "url": "https://www.petit-bulletin.fr/agenda-319188-l-hors-pr-sence.html",
-      "image": null,
-      "id": "200b39c2ee5b"
+      "url": "https://www.tnp-villeurbanne.com/spectacle/lhors-presence-ou-chimeres-du-pays-de-morsan/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/3_Lhors_presencecSimon_Gosselin.jpg",
+      "id": "3516c382f8c6"
     },
     {
       "venue": "Théâtre des Clochards Célestes",
@@ -17332,6 +18450,19 @@
       "id": "5b3b078c675b"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Les corps incorruptibles",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-12-04",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/les-corps-incorruptibles/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_Les_corps_incorruptiblescJean_Louis_Fernandez.jpg",
+      "id": "455fec6eaa8f"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "Garou",
@@ -17384,6 +18515,19 @@
       "id": "3177a07f7775"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "L’hors-présence",
+      "subtitle": "ou Chimères du pays de Morsan",
+      "category": "théâtre",
+      "date_start": "2026-12-05",
+      "date_end": null,
+      "time": "14:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/lhors-presence-ou-chimeres-du-pays-de-morsan/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/3_Lhors_presencecSimon_Gosselin.jpg",
+      "id": "09b1388b7416"
+    },
+    {
       "venue": "Les Subsistances",
       "venue_slug": "les-subs",
       "title": "Minipousses danse",
@@ -17410,6 +18554,19 @@
       "id": "014cd44888df"
     },
     {
+      "venue": "Les Subsistances",
+      "venue_slug": "les-subs",
+      "title": "Minipousses danse",
+      "subtitle": "Alice Boivin",
+      "category": "atelier",
+      "date_start": "2026-12-05",
+      "date_end": null,
+      "time": "16:00",
+      "url": "https://www.les-subs.com/evenement/minipousses-danse/",
+      "image": "https://www.les-subs.com/wp-content/uploads/2023/03/lessubs-minipousses-cirqueogregoryrubinstein-collectifdesflousfurieux-3-200x200.jpg",
+      "id": "ab02a08558ad"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "Le Putsch",
@@ -17421,6 +18578,19 @@
       "url": "https://improvidence.mapado.com/event/66776-le-putsch",
       "image": "https://img.mapado.net/2023/6/19/64901c6f31b4c-affiche-le-putsch-sans-dates.jpeg_thumbs/600-600.jpeg",
       "id": "49a93158984c"
+    },
+    {
+      "venue": "Improvidence",
+      "venue_slug": "improvidence",
+      "title": "Le Putsch",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-12-05",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://improvidence.mapado.com/event/66776-le-putsch",
+      "image": "https://img.mapado.net/2023/6/19/64901c6f31b4c-affiche-le-putsch-sans-dates.jpeg_thumbs/600-600.jpeg",
+      "id": "38d566a0e63e"
     },
     {
       "venue": "La Rayonne",
@@ -17449,6 +18619,19 @@
       "id": "7cd2771d089d"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Les corps incorruptibles",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-12-05",
+      "date_end": null,
+      "time": "18:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/les-corps-incorruptibles/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_Les_corps_incorruptiblescJean_Louis_Fernandez.jpg",
+      "id": "133944db4025"
+    },
+    {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
       "title": "ROUNHAA",
@@ -17462,17 +18645,17 @@
       "id": "2d5ae72baddd"
     },
     {
-      "venue": "TNP - Théâtre National Populaire",
-      "venue_slug": "tnp-theatre-national-populaire",
-      "title": "L'Hors présence",
+      "venue": "Improvidence",
+      "venue_slug": "improvidence",
+      "title": "Le Putsch",
       "subtitle": null,
-      "category": "Théâtre",
+      "category": "café-théâtre",
       "date_start": "2026-12-05",
       "date_end": null,
       "time": "19:30",
-      "url": "https://www.petit-bulletin.fr/agenda-319188-l-hors-pr-sence.html",
-      "image": null,
-      "id": "e4b3640a777d"
+      "url": "https://improvidence.mapado.com/event/66776-le-putsch",
+      "image": "https://img.mapado.net/2023/6/19/64901c6f31b4c-affiche-le-putsch-sans-dates.jpeg_thumbs/600-600.jpeg",
+      "id": "d564480eb10e"
     },
     {
       "venue": "Théâtre des Clochards Célestes",
@@ -17540,6 +18723,19 @@
       "id": "ebf313abe635"
     },
     {
+      "venue": "Improvidence",
+      "venue_slug": "improvidence",
+      "title": "Le Putsch",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-12-05",
+      "date_end": null,
+      "time": "21:00",
+      "url": "https://improvidence.mapado.com/event/66776-le-putsch",
+      "image": "https://img.mapado.net/2023/6/19/64901c6f31b4c-affiche-le-putsch-sans-dates.jpeg_thumbs/600-600.jpeg",
+      "id": "877fbedc36c3"
+    },
+    {
       "venue": "Le Complexe café-théâtre",
       "venue_slug": "le-complexe",
       "title": "LE COMPLEXE COMEDY CLUB - Un plateau d'humoristes !",
@@ -17564,6 +18760,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/la-miserable/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/06/la-miserable-500x500.jpg",
       "id": "04b013233b82"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Les corps incorruptibles",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-12-06",
+      "date_end": null,
+      "time": "16:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/les-corps-incorruptibles/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_Les_corps_incorruptiblescJean_Louis_Fernandez.jpg",
+      "id": "1ad085338f07"
     },
     {
       "venue": "Improvidence",
@@ -17683,6 +18892,19 @@
       "id": "f26a89d8a1d2"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Les corps incorruptibles",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-12-08",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/les-corps-incorruptibles/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_Les_corps_incorruptiblescJean_Louis_Fernandez.jpg",
+      "id": "51c72f0cfb6b"
+    },
+    {
       "venue": "Le Complexe café-théâtre",
       "venue_slug": "le-complexe",
       "title": "COMEDY CLUB - QUEER !!",
@@ -17759,6 +18981,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/benjamin-biolay-3/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/06/benjamin-biolay-500x500.jpg",
       "id": "6ca9da066895"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Les corps incorruptibles",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-12-09",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/les-corps-incorruptibles/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_Les_corps_incorruptiblescJean_Louis_Fernandez.jpg",
+      "id": "13507eecc08a"
     },
     {
       "venue": "Espace Gerson",
@@ -17865,6 +19100,19 @@
       "id": "399e5c115ea1"
     },
     {
+      "venue": "Célestins, théâtre de Lyon",
+      "venue_slug": "celestins",
+      "title": "Projet Nanashi",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-12-10",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.theatredescelestins.com/fr/programmation/2026-2027/artistes-associe-es/projet-nanashi",
+      "image": "https://www.theatredescelestins.com/assets/q75-w600/195da00d/projet_nanashi_b.jpg",
+      "id": "b58032c8bacb"
+    },
+    {
       "venue": "Les Subsistances",
       "venue_slug": "les-subs",
       "title": "Ateliers d'hiver",
@@ -17876,6 +19124,19 @@
       "url": "https://www.les-subs.com/evenement/ateliers-dhiver-du-cnsmd/",
       "image": "https://www.les-subs.com/wp-content/uploads/2026/07/ateliershiver2026-a7r6891blandinesoulage-200x200.jpg",
       "id": "705a7d634b3b"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Les corps incorruptibles",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-12-10",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/les-corps-incorruptibles/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_Les_corps_incorruptiblescJean_Louis_Fernandez.jpg",
+      "id": "ec285e3db4fc"
     },
     {
       "venue": "Espace Gerson",
@@ -18047,6 +19308,19 @@
       "id": "39c1b2612d2e"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Les corps incorruptibles",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-12-11",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/les-corps-incorruptibles/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_Les_corps_incorruptiblescJean_Louis_Fernandez.jpg",
+      "id": "3150d169a723"
+    },
+    {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
       "title": "Kostia - Entre deux",
@@ -18188,6 +19462,19 @@
       "url": "https://improvidence.mapado.com/event/499637-celles-qui-restent",
       "image": "https://img.mapado.net/2025/3/20/67dc2098ca8dc-affiche-cellesquirestent.png_thumbs/600-600.png",
       "id": "1f2c5106bb20"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Les corps incorruptibles",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-12-12",
+      "date_end": null,
+      "time": "18:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/les-corps-incorruptibles/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_Les_corps_incorruptiblescJean_Louis_Fernandez.jpg",
+      "id": "740b7f56f794"
     },
     {
       "venue": "Espace Gerson",
@@ -18372,6 +19659,19 @@
       "id": "c10ab2b7029b"
     },
     {
+      "venue": "Le Complexe café-théâtre",
+      "venue_slug": "le-complexe",
+      "title": "Dava",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-12-12",
+      "date_end": null,
+      "time": "22:00",
+      "url": "https://www.lecomplexelyon.com/programme/dava/",
+      "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/dava-540x800.jpg",
+      "id": "8ffe8cabf3cd"
+    },
+    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins",
       "title": "Le Dindon",
@@ -18515,6 +19815,19 @@
       "id": "e323ae1d8e59"
     },
     {
+      "venue": "Célestins, théâtre de Lyon",
+      "venue_slug": "celestins",
+      "title": "Projet Nanashi",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-12-15",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.theatredescelestins.com/fr/programmation/2026-2027/artistes-associe-es/projet-nanashi",
+      "image": "https://www.theatredescelestins.com/assets/q75-w600/195da00d/projet_nanashi_b.jpg",
+      "id": "70136e6b89eb"
+    },
+    {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
       "title": "Embrasse ta mère",
@@ -18565,6 +19878,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/oldelaf/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/04/oldelaf-500x500.jpg",
       "id": "42323fd5cd88"
+    },
+    {
+      "venue": "Improvidence",
+      "venue_slug": "improvidence",
+      "title": "La Relève",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-12-15",
+      "date_end": null,
+      "time": "21:00",
+      "url": "https://improvidence.mapado.com/event/154968-la-releve",
+      "image": "https://img.mapado.net/2022/10/24/635646c2a2c98-1.jpeg_thumbs/600-600.jpeg",
+      "id": "9c646fbd9af7"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -18734,6 +20060,19 @@
       "url": "https://www.theatredescelestins.com/fr/programmation/2026-2027/grande-salle/le-dindon-1",
       "image": "https://www.theatredescelestins.com/assets/q75-w600/21d3860a/dindon2_myriam_boulos.jpg",
       "id": "541c788a9363"
+    },
+    {
+      "venue": "Célestins, théâtre de Lyon",
+      "venue_slug": "celestins",
+      "title": "Projet Nanashi",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-12-17",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.theatredescelestins.com/fr/programmation/2026-2027/artistes-associe-es/projet-nanashi",
+      "image": "https://www.theatredescelestins.com/assets/q75-w600/195da00d/projet_nanashi_b.jpg",
+      "id": "43876096be8b"
     },
     {
       "venue": "Le Sonic",
@@ -19124,6 +20463,19 @@
       "url": "https://espacegerson.mapado.com/event/685594-jeanne-elima-grande-fille",
       "image": "https://img.mapado.net/2026/3/18/69bac16a3a04f-jeanne-elima.png_thumbs/600-600.png",
       "id": "644adde7aa35"
+    },
+    {
+      "venue": "Le Complexe café-théâtre",
+      "venue_slug": "le-complexe",
+      "title": "LE COMPLEXE COMEDY CLUB - Un plateau d'humoristes !",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-12-19",
+      "date_end": null,
+      "time": "22:00",
+      "url": "https://www.lecomplexelyon.com/programme/le-complexe-comedy-club-4-humoristes/",
+      "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/complexe-comedy-club-540x800.jpg",
+      "id": "0ea681db5a69"
     },
     {
       "venue": "Le Sucre",
@@ -19581,6 +20933,19 @@
       "id": "9d1aafeff2d7"
     },
     {
+      "venue": "Le Complexe café-théâtre",
+      "venue_slug": "le-complexe",
+      "title": "LE COMPLEXE COMEDY CLUB - Un plateau d'humoristes !",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-12-26",
+      "date_end": null,
+      "time": "22:00",
+      "url": "https://www.lecomplexelyon.com/programme/le-complexe-comedy-club-4-humoristes/",
+      "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/complexe-comedy-club-540x800.jpg",
+      "id": "9e898c68aeab"
+    },
+    {
       "venue": "Bourse du Travail",
       "venue_slug": "bourse-du-travail",
       "title": "Ali Amran En Concert À Lyon",
@@ -19958,6 +21323,45 @@
       "id": "51328d9316c0"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Jérémie Reners - Rafale",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-12-31",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://espacegerson.mapado.com/event/822514-jeremie-reners-rafale",
+      "image": "https://img.mapado.net/2026/7/29/6a6a1817cb205-reners-31dec.png_thumbs/600-600.png",
+      "id": "e343efa7143c"
+    },
+    {
+      "venue": "Le Complexe café-théâtre",
+      "venue_slug": "le-complexe",
+      "title": "Sous le sapin les emmerdes !",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-12-31",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.lecomplexelyon.com/programme/sous-le-sapin-les-emmerdes-3/",
+      "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/sous-le-sapin-les-emmerdes-31dec-540x800.jpg",
+      "id": "7541755c4567"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "Jérémie Reners - Rafale",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2026-12-31",
+      "date_end": null,
+      "time": "22:00",
+      "url": "https://espacegerson.mapado.com/event/822514-jeremie-reners-rafale",
+      "image": "https://img.mapado.net/2026/7/29/6a6a1817cb205-reners-31dec.png_thumbs/600-600.png",
+      "id": "67c8d4671426"
+    },
+    {
       "venue": "Le Complexe café-théâtre",
       "venue_slug": "le-complexe",
       "title": "LE COMPLEXE COMEDY CLUB - Un plateau d'humoristes !",
@@ -19982,6 +21386,19 @@
       "url": "https://www.lecomplexelyon.com/programme/sous-le-sapin-les-emmerdes/",
       "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/sous-le-sapin-les-emmerdes-540x800.jpg",
       "id": "8fb0ccc7f3bb"
+    },
+    {
+      "venue": "Le Complexe café-théâtre",
+      "venue_slug": "le-complexe",
+      "title": "LE COMPLEXE COMEDY CLUB - Un plateau d'humoristes !",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2027-01-02",
+      "date_end": null,
+      "time": "22:00",
+      "url": "https://www.lecomplexelyon.com/programme/le-complexe-comedy-club-4-humoristes/",
+      "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/complexe-comedy-club-540x800.jpg",
+      "id": "8518a96059cf"
     },
     {
       "venue": "Bourse du Travail",
@@ -20465,6 +21882,19 @@
       "id": "1970971e57d3"
     },
     {
+      "venue": "Le Complexe café-théâtre",
+      "venue_slug": "le-complexe",
+      "title": "LE COMPLEXE COMEDY CLUB - Un plateau d'humoristes !",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2027-01-09",
+      "date_end": null,
+      "time": "22:00",
+      "url": "https://www.lecomplexelyon.com/programme/le-complexe-comedy-club-4-humoristes/",
+      "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/complexe-comedy-club-540x800.jpg",
+      "id": "662cdf1aad56"
+    },
+    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins",
       "title": "Mahabharata, une histoire de la violence",
@@ -20790,6 +22220,19 @@
       "id": "5265d5dc149c"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Zone d’Attente",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-01-14",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/zone-dattente/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_Zone_dattentecMacha-Makeieff.jpg",
+      "id": "37d308872021"
+    },
+    {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
       "title": "Cécile Marx - Iconique",
@@ -20946,6 +22389,19 @@
       "id": "53e7c16d24d2"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Zone d’Attente",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-01-15",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/zone-dattente/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_Zone_dattentecMacha-Makeieff.jpg",
+      "id": "dcac75a1a167"
+    },
+    {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
       "title": "Cécile Marx - Iconique",
@@ -21022,6 +22478,19 @@
       "url": "https://improvidence.mapado.com/event/496781-detours",
       "image": "https://img.mapado.net/2025/3/13/67d2f63cab215-affiche-detours2.png_thumbs/600-600.png",
       "id": "9768731f07f4"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Zone d’Attente",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-01-16",
+      "date_end": null,
+      "time": "18:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/zone-dattente/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_Zone_dattentecMacha-Makeieff.jpg",
+      "id": "819ccb6afb0f"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -21167,6 +22636,19 @@
       "id": "2372645570e5"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Zone d’Attente",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-01-17",
+      "date_end": null,
+      "time": "16:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/zone-dattente/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_Zone_dattentecMacha-Makeieff.jpg",
+      "id": "414b1b04da03"
+    },
+    {
       "venue": "Le Complexe café-théâtre",
       "venue_slug": "le-complexe",
       "title": "Ghislain Blique dans \"Aucune compétence particulière\"",
@@ -21245,6 +22727,19 @@
       "id": "2a2e3f374cfb"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Zone d’Attente",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-01-19",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/zone-dattente/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_Zone_dattentecMacha-Makeieff.jpg",
+      "id": "08c44d610359"
+    },
+    {
       "venue": "Le Complexe café-théâtre",
       "venue_slug": "le-complexe",
       "title": "Life Time",
@@ -21321,6 +22816,19 @@
       "url": "https://www.theatredescelestins.com/fr/programmation/2026-2027/grande-salle/nos-empereurs",
       "image": "https://www.theatredescelestins.com/assets/q75-w600/24c0d764/empereurs_1.jpg",
       "id": "ca6f9f489666"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Zone d’Attente",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-01-20",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/zone-dattente/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_Zone_dattentecMacha-Makeieff.jpg",
+      "id": "9be57d4ce2dc"
     },
     {
       "venue": "Espace Gerson",
@@ -21414,6 +22922,19 @@
       "id": "7d19c6e2d1d1"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Mobile Homes",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-01-21",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/mobile-homes/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_Mobile_homescTristan_Dubois.jpg",
+      "id": "aadc224e34eb"
+    },
+    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins",
       "title": "Amour, Gloire et Ciment !",
@@ -21438,6 +22959,19 @@
       "url": "https://agenda.villemorte.fr/event/la-pastasciutta-antifascista-de-casa-cervi-floriane-facchini-and-cie",
       "image": "https://agenda.villemorte.fr/media/thumb/41515d5cd2f79a29f2988b38d3e502ba.jpg",
       "id": "af9f37e48772"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Zone d’Attente",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-01-21",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/zone-dattente/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_Zone_dattentecMacha-Makeieff.jpg",
+      "id": "6dd4d0433200"
     },
     {
       "venue": "Espace Gerson",
@@ -21492,6 +23026,19 @@
       "id": "c88bad7cefdc"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Mobile Homes",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-01-22",
+      "date_end": null,
+      "time": "14:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/mobile-homes/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_Mobile_homescTristan_Dubois.jpg",
+      "id": "99bb704425c0"
+    },
+    {
       "venue": "La Rayonne",
       "venue_slug": "la-rayonne",
       "title": "VULVES ASSASSINES & POÉSIE ZÉRO + CITRON SUCRÉ",
@@ -21529,6 +23076,19 @@
       "url": "https://www.theatredescelestins.com/fr/programmation/2026-2027/celestine/amour-gloire-et-ciment",
       "image": "https://www.theatredescelestins.com/assets/q75-w600/2c8c78c1/amourgloire_et_ciment_.jpg",
       "id": "edb757137d95"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Mobile Homes",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-01-22",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/mobile-homes/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_Mobile_homescTristan_Dubois.jpg",
+      "id": "68cd7a6fd165"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -21570,6 +23130,19 @@
       "id": "eda197dd06c0"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Zone d’Attente",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-01-22",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/zone-dattente/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_Zone_dattentecMacha-Makeieff.jpg",
+      "id": "880d5c43fd79"
+    },
+    {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
       "title": "Arthur Gomez - Please Stand-Up",
@@ -21609,6 +23182,19 @@
       "id": "f3fdbf1881fe"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Mobile Homes",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-01-23",
+      "date_end": null,
+      "time": "17:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/mobile-homes/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_Mobile_homescTristan_Dubois.jpg",
+      "id": "96dc78c58f9a"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "Celles qui restent",
@@ -21633,6 +23219,19 @@
       "url": "https://www.theatredescelestins.com/fr/programmation/2026-2027/celestine/amour-gloire-et-ciment",
       "image": "https://www.theatredescelestins.com/assets/q75-w600/2c8c78c1/amourgloire_et_ciment_.jpg",
       "id": "ae06f116c011"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Zone d’Attente",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-01-23",
+      "date_end": null,
+      "time": "18:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/zone-dattente/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_Zone_dattentecMacha-Makeieff.jpg",
+      "id": "278191cb478a"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -21713,6 +23312,19 @@
       "id": "6ac101ccfeb1"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Mobile Homes",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-01-24",
+      "date_end": null,
+      "time": "15:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/mobile-homes/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_Mobile_homescTristan_Dubois.jpg",
+      "id": "737472f1753a"
+    },
+    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins",
       "title": "Nos Empereurs",
@@ -21737,6 +23349,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/immo/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/06/immo-500x500.jpg",
       "id": "d977989406b6"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Zone d’Attente",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-01-24",
+      "date_end": null,
+      "time": "16:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/zone-dattente/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_Zone_dattentecMacha-Makeieff.jpg",
+      "id": "946ca343c73a"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -21765,6 +23390,32 @@
       "id": "e651e80ba7d3"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Mobile Homes",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-01-26",
+      "date_end": null,
+      "time": "10:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/mobile-homes/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_Mobile_homescTristan_Dubois.jpg",
+      "id": "22092683d94f"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Mobile Homes",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-01-26",
+      "date_end": null,
+      "time": "14:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/mobile-homes/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_Mobile_homescTristan_Dubois.jpg",
+      "id": "b639223f019f"
+    },
+    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins",
       "title": "Bunker",
@@ -21789,6 +23440,19 @@
       "url": "https://www.theatredescelestins.com/fr/programmation/2026-2027/celestine/amour-gloire-et-ciment",
       "image": "https://www.theatredescelestins.com/assets/q75-w600/2c8c78c1/amourgloire_et_ciment_.jpg",
       "id": "941972890788"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Zone d’Attente",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-01-26",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/zone-dattente/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_Zone_dattentecMacha-Makeieff.jpg",
+      "id": "f54eaf30628f"
     },
     {
       "venue": "Espace Gerson",
@@ -21843,6 +23507,32 @@
       "id": "13871667903e"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Mobile Homes",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-01-27",
+      "date_end": null,
+      "time": "15:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/mobile-homes/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_Mobile_homescTristan_Dubois.jpg",
+      "id": "1e606eedc453"
+    },
+    {
+      "venue": "La Halle Tony Garnier",
+      "venue_slug": "halle-tony-garnier",
+      "title": "Disney Sur Glace - Le Voyage Enchante",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2027-01-27",
+      "date_end": null,
+      "time": "17:30",
+      "url": "https://www.halle-tony-garnier.com/fr/programmation/disney-sur-glace-le-voyage-enchante-2",
+      "image": "https://www.halle-tony-garnier.com/storage/143693/conversions/2027-01-27-DISNEY-SUR-GLACE-LE-VOYAGE-ENCHANTE-d36-lyon-1080x108-20260424-160137-square.jpg",
+      "id": "4595c3a3c14a"
+    },
+    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins",
       "title": "Amour, Gloire et Ciment !",
@@ -21880,6 +23570,19 @@
       "url": "https://www.theatredescelestins.com/fr/programmation/2026-2027/grande-salle/bunker",
       "image": "https://www.theatredescelestins.com/assets/q75-w600/41b132b5/bunker_matthieu_bareyre.jpg",
       "id": "6d922a5f10cd"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Zone d’Attente",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-01-27",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/zone-dattente/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_Zone_dattentecMacha-Makeieff.jpg",
+      "id": "88d145cccb2d"
     },
     {
       "venue": "Le Complexe café-théâtre",
@@ -21934,6 +23637,19 @@
       "id": "063fa8d43d43"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Mobile Homes",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-01-28",
+      "date_end": null,
+      "time": "14:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/mobile-homes/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_Mobile_homescTristan_Dubois.jpg",
+      "id": "bfb08420992d"
+    },
+    {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
       "title": "NTO",
@@ -21973,6 +23689,19 @@
       "id": "183fe5a49145"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Mobile Homes",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-01-28",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/mobile-homes/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_Mobile_homescTristan_Dubois.jpg",
+      "id": "8d7069ca8acd"
+    },
+    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins",
       "title": "Amour, Gloire et Ciment !",
@@ -21997,6 +23726,19 @@
       "url": "https://agenda.villemorte.fr/event/je-suis-venue-pour-rien-cie-spell-mistakes-maianne-barthes",
       "image": "https://agenda.villemorte.fr/media/thumb/d3fe61904ef4753726a26f2e6897ee50.jpg",
       "id": "bb3771bb341b"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Zone d’Attente",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-01-28",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/zone-dattente/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_Zone_dattentecMacha-Makeieff.jpg",
+      "id": "7a255123f18c"
     },
     {
       "venue": "Le Complexe café-théâtre",
@@ -22090,6 +23832,19 @@
       "id": "2ebfe953dfc1"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Mobile Homes",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-01-29",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/mobile-homes/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_Mobile_homescTristan_Dubois.jpg",
+      "id": "d36f130437ac"
+    },
+    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins",
       "title": "Bunker",
@@ -22127,6 +23882,19 @@
       "url": "https://www.lecomplexelyon.com/programme/anne-boissard-dans-assume/",
       "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/anne-boissard-540x800.jpg",
       "id": "0f5a9ba0fa64"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Zone d’Attente",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-01-29",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/zone-dattente/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_Zone_dattentecMacha-Makeieff.jpg",
+      "id": "6b26e16c06c1"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -22205,6 +23973,58 @@
       "url": "https://www.halle-tony-garnier.com/fr/programmation/disney-sur-glace-le-voyage-enchante-4",
       "image": "https://www.halle-tony-garnier.com/storage/143695/conversions/2027-01-30-DISNEY-SUR-GLACE-LE-VOYAGE-ENCHANTE-d36-lyon-1080x108-20260424-160802-square.jpg",
       "id": "960700e6646d"
+    },
+    {
+      "venue": "La Halle Tony Garnier",
+      "venue_slug": "halle-tony-garnier",
+      "title": "Disney Sur Glace - Le Voyage Enchante",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2027-01-30",
+      "date_end": null,
+      "time": "14:00",
+      "url": "https://www.halle-tony-garnier.com/fr/programmation/disney-sur-glace-le-voyage-enchante-5",
+      "image": "https://www.halle-tony-garnier.com/storage/143696/conversions/2027-01-30-DISNEY-SUR-GLACE-LE-VOYAGE-ENCHANTE-d36-lyon-1080x108-20260424-160958-square.jpg",
+      "id": "7e76c60d891c"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Zone d’Attente",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-01-30",
+      "date_end": null,
+      "time": "16:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/zone-dattente/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_Zone_dattentecMacha-Makeieff.jpg",
+      "id": "6de79af496ee"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Mobile Homes",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-01-30",
+      "date_end": null,
+      "time": "17:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/mobile-homes/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_Mobile_homescTristan_Dubois.jpg",
+      "id": "6b9e5b8fabc1"
+    },
+    {
+      "venue": "La Halle Tony Garnier",
+      "venue_slug": "halle-tony-garnier",
+      "title": "Disney Sur Glace - Le Voyage Enchante",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2027-01-30",
+      "date_end": null,
+      "time": "17:30",
+      "url": "https://www.halle-tony-garnier.com/fr/programmation/disney-sur-glace-le-voyage-enchante-6",
+      "image": "https://www.halle-tony-garnier.com/storage/143697/conversions/2027-01-30-DISNEY-SUR-GLACE-LE-VOYAGE-ENCHANTE-d36-lyon-1080x108-20260424-161133-square.jpg",
+      "id": "3693d238ea58"
     },
     {
       "venue": "Improvidence",
@@ -22322,6 +24142,19 @@
       "url": "https://www.halle-tony-garnier.com/fr/programmation/disney-sur-glace-le-voyage-enchante-7",
       "image": "https://www.halle-tony-garnier.com/storage/143698/conversions/2027-01-31-DISNEY-SUR-GLACE-LE-VOYAGE-ENCHANTE-d36-lyon-1080x108-20260424-161311-square.jpg",
       "id": "9b8c4c1badaf"
+    },
+    {
+      "venue": "La Halle Tony Garnier",
+      "venue_slug": "halle-tony-garnier",
+      "title": "Disney Sur Glace - Le Voyage Enchante",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2027-01-31",
+      "date_end": null,
+      "time": "14:00",
+      "url": "https://www.halle-tony-garnier.com/fr/programmation/disney-sur-glace-le-voyage-enchante-8",
+      "image": "https://www.halle-tony-garnier.com/storage/143699/conversions/2027-01-31-DISNEY-SUR-GLACE-LE-VOYAGE-ENCHANTE-d36-lyon-1080x108-20260424-161449-square.jpg",
+      "id": "b56d26a893dd"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -22740,6 +24573,19 @@
       "id": "4958908d9ffe"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Tout est calme dans les hauteurs",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-02-05",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/tout-est-calme-dans-les-hauteurs/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/5_Tout_est_calmecJean-Louis_Fernandez.jpg",
+      "id": "e831709b4735"
+    },
+    {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
       "title": "Pierre Antoine Damecour - Jamais trop tard",
@@ -22844,6 +24690,19 @@
       "id": "fb103d948190"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Tout est calme dans les hauteurs",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-02-06",
+      "date_end": null,
+      "time": "18:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/tout-est-calme-dans-les-hauteurs/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/5_Tout_est_calmecJean-Louis_Fernandez.jpg",
+      "id": "975acc949e50"
+    },
+    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins",
       "title": "Hautes Perchées",
@@ -22922,6 +24781,19 @@
       "id": "5f5333c6fd8b"
     },
     {
+      "venue": "Le Complexe café-théâtre",
+      "venue_slug": "le-complexe",
+      "title": "LE COMPLEXE COMEDY CLUB - Un plateau d'humoristes !",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2027-02-06",
+      "date_end": null,
+      "time": "22:00",
+      "url": "https://www.lecomplexelyon.com/programme/le-complexe-comedy-club-4-humoristes/",
+      "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/complexe-comedy-club-540x800.jpg",
+      "id": "d3188b2adad7"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "BAZAR CIRCUS",
@@ -22933,6 +24805,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/bazar-circus/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/06/bazar-circus-500x500.jpg",
       "id": "b98966baa346"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Tout est calme dans les hauteurs",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-02-07",
+      "date_end": null,
+      "time": "16:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/tout-est-calme-dans-les-hauteurs/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/5_Tout_est_calmecJean-Louis_Fernandez.jpg",
+      "id": "e006087010ae"
     },
     {
       "venue": "La Halle Tony Garnier",
@@ -23024,6 +24909,19 @@
       "url": "https://www.theatredescelestins.com/fr/programmation/2026-2027/celestine/oratorio-nomade",
       "image": "https://www.theatredescelestins.com/assets/q75-w600/5fe31a30/oratorio_documentaire.jpg",
       "id": "e72227b82c1e"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Tout est calme dans les hauteurs",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-02-09",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/tout-est-calme-dans-les-hauteurs/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/5_Tout_est_calmecJean-Louis_Fernandez.jpg",
+      "id": "68a87eb39189"
     },
     {
       "venue": "Le Complexe café-théâtre",
@@ -23130,6 +25028,19 @@
       "id": "62bc64dec03c"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Tout est calme dans les hauteurs",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-02-10",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/tout-est-calme-dans-les-hauteurs/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/5_Tout_est_calmecJean-Louis_Fernandez.jpg",
+      "id": "995b1cc53ebb"
+    },
+    {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
       "title": "Stéphanie Machart - Entre deux",
@@ -23232,6 +25143,19 @@
       "url": "https://agenda.villemorte.fr/event/les-clairvoyantes-camille-joviado-et-claire-chastel",
       "image": "https://agenda.villemorte.fr/media/thumb/ef57158f178f9a4d1abd2afcf414e47e.jpg",
       "id": "b766c8b291dc"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Tout est calme dans les hauteurs",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-02-11",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/tout-est-calme-dans-les-hauteurs/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/5_Tout_est_calmecJean-Louis_Fernandez.jpg",
+      "id": "31a87bee9a6a"
     },
     {
       "venue": "Espace Gerson",
@@ -23416,6 +25340,19 @@
       "id": "cdd006710fb9"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Tout est calme dans les hauteurs",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-02-12",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/tout-est-calme-dans-les-hauteurs/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/5_Tout_est_calmecJean-Louis_Fernandez.jpg",
+      "id": "73dc0e0e6061"
+    },
+    {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
       "title": "Stéphanie Machart - Entre deux",
@@ -23481,6 +25418,19 @@
       "id": "1b86beb293bc"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Tout est calme dans les hauteurs",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-02-13",
+      "date_end": null,
+      "time": "18:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/tout-est-calme-dans-les-hauteurs/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/5_Tout_est_calmecJean-Louis_Fernandez.jpg",
+      "id": "2b879a8457bc"
+    },
+    {
       "venue": "Le Complexe café-théâtre",
       "venue_slug": "le-complexe",
       "title": "Faites l'apéro pas la guerre",
@@ -23544,6 +25494,19 @@
       "url": "https://www.lecomplexelyon.com/programme/le-complexe-comedy-club-4-humoristes/",
       "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/complexe-comedy-club-540x800.jpg",
       "id": "9a874dbf75b8"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Tout est calme dans les hauteurs",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-02-14",
+      "date_end": null,
+      "time": "16:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/tout-est-calme-dans-les-hauteurs/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/5_Tout_est_calmecJean-Louis_Fernandez.jpg",
+      "id": "1b2dce30f580"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -23845,6 +25808,19 @@
       "id": "521a0e8064a4"
     },
     {
+      "venue": "La Halle Tony Garnier",
+      "venue_slug": "halle-tony-garnier",
+      "title": "Holiday On Ice - Cinema Of Dreams",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2027-02-20",
+      "date_end": null,
+      "time": "17:30",
+      "url": "https://www.halle-tony-garnier.com/fr/programmation/holiday-on-ice-cinema-of-dreams-3",
+      "image": "https://www.halle-tony-garnier.com/storage/143706/conversions/2027-02-20-HOLIDAY-ON-ICE-CINEMA-OF-DREAMS-02-1080x1080-hoi-cod-lyo-20260311-150224-square.jpg",
+      "id": "9b73f68acc52"
+    },
+    {
       "venue": "Le Complexe café-théâtre",
       "venue_slug": "le-complexe",
       "title": "LE COMPLEXE COMEDY CLUB - Un plateau d'humoristes !",
@@ -23871,6 +25847,19 @@
       "id": "2f3807bb027e"
     },
     {
+      "venue": "Le Complexe café-théâtre",
+      "venue_slug": "le-complexe",
+      "title": "LE COMPLEXE COMEDY CLUB - Un plateau d'humoristes !",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2027-02-20",
+      "date_end": null,
+      "time": "22:00",
+      "url": "https://www.lecomplexelyon.com/programme/le-complexe-comedy-club-4-humoristes/",
+      "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/complexe-comedy-club-540x800.jpg",
+      "id": "4dbf7277f08f"
+    },
+    {
       "venue": "La Halle Tony Garnier",
       "venue_slug": "halle-tony-garnier",
       "title": "Holiday On Ice - Cinema Of Dreams",
@@ -23895,6 +25884,19 @@
       "url": "https://improvidence.mapado.com/event/825678-portrait-de-famille",
       "image": "https://img.mapado.net/2026/8/7/6a75a20aa7e6b-img-20260707-wa0002-1.jpeg_thumbs/600-600.jpeg",
       "id": "c683d3318933"
+    },
+    {
+      "venue": "La Halle Tony Garnier",
+      "venue_slug": "halle-tony-garnier",
+      "title": "Holiday On Ice - Cinema Of Dreams",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2027-02-21",
+      "date_end": null,
+      "time": "16:30",
+      "url": "https://www.halle-tony-garnier.com/fr/programmation/holiday-on-ice-cinema-of-dreams-5",
+      "image": "https://www.halle-tony-garnier.com/storage/143708/conversions/2027-02-21-HOLIDAY-ON-ICE-CINEMA-OF-DREAMS-02-1080x1080-hoi-cod-lyo-20260311-150434-square.jpg",
+      "id": "9333db6e2bca"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -24521,6 +26523,19 @@
       "id": "ddfb8e0bdaca"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "7 minutes",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-03-03",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/7-minutes/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_7minutescFelipe_Dupouy.jpg",
+      "id": "4f5d4676e39d"
+    },
+    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins",
       "title": "L’Amante anglaise",
@@ -24612,6 +26627,19 @@
       "id": "b4df591f7832"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "7 minutes",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-03-04",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/7-minutes/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_7minutescFelipe_Dupouy.jpg",
+      "id": "9a621c478a09"
+    },
+    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins",
       "title": "Collatéral – Le Projet Ma Sœur",
@@ -24636,6 +26664,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/les-coquettes-2/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/06/les-coquettes-500x500.jpg",
       "id": "509ad983859b"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Une soirée avec Fatima Daas",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-03-04",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/une-soire-avec-fatima-daas/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_EcransMixtescEcrans_Mixtes.jpg",
+      "id": "e92c0f575259"
     },
     {
       "venue": "Improvidence",
@@ -24664,6 +26705,19 @@
       "id": "e14c6496809a"
     },
     {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "7 minutes",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-03-05",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/7-minutes/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_7minutescFelipe_Dupouy.jpg",
+      "id": "460d7c9e670d"
+    },
+    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins",
       "title": "L’Amante anglaise",
@@ -24688,6 +26742,19 @@
       "url": "https://www.halle-tony-garnier.com/fr/programmation/marine",
       "image": "https://www.halle-tony-garnier.com/storage/143709/conversions/2027-03-05-MARINE-marine-tournee-2026-carr-20251218-093105-square.jpg",
       "id": "74b78cf742fb"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "Une soirée avec Fatima Daas",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-03-05",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/une-soire-avec-fatima-daas/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_EcransMixtescEcrans_Mixtes.jpg",
+      "id": "7319402dd2dc"
     },
     {
       "venue": "Le Complexe café-théâtre",
@@ -24740,6 +26807,19 @@
       "url": "https://improvidence.mapado.com/event/496781-detours",
       "image": "https://img.mapado.net/2025/3/13/67d2f63cab215-affiche-detours2.png_thumbs/600-600.png",
       "id": "b76e79631d8f"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "7 minutes",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-03-06",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/7-minutes/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_7minutescFelipe_Dupouy.jpg",
+      "id": "7849fd0d6fbf"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -24820,6 +26900,19 @@
       "id": "e0104fd128c6"
     },
     {
+      "venue": "Le Complexe café-théâtre",
+      "venue_slug": "le-complexe",
+      "title": "LE COMPLEXE COMEDY CLUB - Un plateau d'humoristes !",
+      "subtitle": null,
+      "category": "café-théâtre",
+      "date_start": "2027-03-06",
+      "date_end": null,
+      "time": "22:00",
+      "url": "https://www.lecomplexelyon.com/programme/le-complexe-comedy-club-4-humoristes/",
+      "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/complexe-comedy-club-540x800.jpg",
+      "id": "c2633a2e2efc"
+    },
+    {
       "venue": "Bourse du Travail",
       "venue_slug": "bourse-du-travail",
       "title": "Charlie Haid",
@@ -24831,6 +26924,19 @@
       "url": "https://www.bourse-du-travail.com/charlie-haid-410726.html",
       "image": "https://www.bourse-du-travail.com/img/evenement/charlie-haid-dans-intensement-mentaliste.jpg",
       "id": "2487b4b2569c"
+    },
+    {
+      "venue": "TNP - Théâtre National Populaire",
+      "venue_slug": "tnp",
+      "title": "7 minutes",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-03-07",
+      "date_end": null,
+      "time": "15:30",
+      "url": "https://www.tnp-villeurbanne.com/spectacle/7-minutes/",
+      "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_7minutescFelipe_Dupouy.jpg",
+      "id": "b00dada3c4b4"
     },
     {
       "venue": "La Rayonne",
