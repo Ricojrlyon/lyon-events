@@ -8,7 +8,7 @@ et affichés sur une page statique hébergée par GitHub Pages :
 ## Fonctionnement
 
 ```
-21 scrapers venue ──┐
+22 scrapers venue ──┐
                     ├─→ dédup 3 passes ─→ events.json ─→ index.html (GitHub Pages)
 2 agrégateurs ──────┘         │
 (Petit Bulletin,              ├─→ venue_arrondissements.json (géocodage Nominatim)
@@ -31,6 +31,16 @@ les trois fichiers de données.
   l'Espace Gerson à la Salle Victor Hugo et à la Bourse du Travail (que
   nocturne scrappe déjà). Chaque scraper fournit donc son prédicat de
   lieu, appliqué sur le Venue que Mapado expose en clair.
+- **`scrapers/croix_rousse.py`** — le Théâtre de la Croix-Rousse.
+  WordPress dont l'API REST est OUVERTE, à la différence du TNP : elle
+  donne la liste de la saison avec titres, affiches et genres. Les dates
+  n'y sont pas — l'ACF est vide partout — et viennent du HTML des
+  fiches. Deux pièges : `title.rendered` est du HTML, pas du texte, et
+  treize titres portaient des entités qui se seraient affichées telles
+  quelles ; et la taxonomie nommée `genre` contient en réalité les noms
+  d'ARTISTES, ce sont les termes `event_type` qui portent les genres.
+  Un lien de billetterie par séance permet de distinguer « 14h30 19h30 »
+  — deux séances — de « 17h > 17h50 », une seule avec son heure de fin.
 - **`scrapers/maison_de_la_danse.py`** — la Maison de la Danse, seul
   site du dépôt à demander un `Crawl-delay` (10 s). Il est respecté, et
   c'est ce qui rend `detail_cache` indispensable : le délai est posé DANS

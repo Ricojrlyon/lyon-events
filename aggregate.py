@@ -7,6 +7,11 @@ the whole pipeline to break.
 
 v34 changes:
   - Removed Célestins, TNP, Croix-Rousse, Comédie Odéon (theatres dropped)
+    — REVENU DEPUIS : Célestins, TNP, Maison de la Danse et Croix-Rousse
+    sont de nouveau scrappés en direct (septembre 2026). C'étaient les
+    quatre plus gros écarts entre ce qu'une salle programme et ce que
+    le feed en montrait, chacune remontée sans une seule affiche par le
+    seul Petit Bulletin.
   - Added Ville Morte as an aggregator (cross-venue source)
   - Cross-source deduplication: when the same event is reported by both a
     venue scraper and an aggregator, the venue scraper wins (it's
@@ -22,7 +27,8 @@ Politique éditoriale (août 2026) : les agrégateurs ne filtrent PLUS rien.
     les doublons quand un événement est publié à la fois par un
     agrégateur et par la salle elle-même. Les scrapers de salle gardent
     la priorité (100 contre 60 et 50).
-  - TNG reste le seul théâtre scrappé en direct.
+  - Théâtres scrappés en direct : TNG, Célestins, TNP, Maison de la
+    Danse et Croix-Rousse.
 """
 from __future__ import annotations
 import json
@@ -40,7 +46,7 @@ from scrapers import (
     heat, halle_tony_garnier,
     opera_lyon, tng,
     bourse_du_travail, improvidence, espace_gerson, complexe,
-    celestins, tnp, maison_de_la_danse,
+    celestins, tnp, maison_de_la_danse, croix_rousse,
 )
 from scrapers.aggregators import villemorte, petit_bulletin
 from scrapers.categorie import combler as combler_categories
@@ -72,6 +78,7 @@ SCRAPERS: list[tuple[str, Callable[[], List[Event]]]] = [
     ("Célestins",               celestins.fetch),
     ("TNP",                     tnp.fetch),
     ("Maison de la Danse",      maison_de_la_danse.fetch),
+    ("Théâtre de la Croix-Rousse", croix_rousse.fetch),
 ]
 
 # Aggregators — priority lower than venue scrapers (lose against them on
