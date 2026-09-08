@@ -67,6 +67,11 @@ les trois fichiers de données.
   fuzzy-match des titres ≥ 0,7 (les plages multi-jours sont indexées sur
   chaque jour couvert), cross-venue ≥ 0,85 (titres génériques exclus),
   puis pairing scraper/agrégateur à effectifs égaux avec garde temporel 4 h.
+  Les deux premières passes portent un garde supplémentaire
+  (`_seances_distinctes`) : au sein d'une MÊME source, deux horaires
+  connus et différents sont deux représentations, jamais un doublon. Sans
+  lui, une matinée et sa soirée fusionnaient — 44 couples de séances
+  réelles perdus sur sept salles avant correction.
 - **`scrapers/categorie.py`** — comble la catégorie quand la source n'en
   donne aucune, après la déduplication et sans jamais écraser une
   catégorie de source. Le TITRE d'abord — ces salles y annoncent le genre

@@ -249,6 +249,29 @@ def _days_covered(ev: Event, max_days: int = 30) -> List[str]:
     return days
 
 
+def _seances_distinctes(a: Event, prio_a: int, b: Event, prio_b: int) -> bool:
+    """Deux séances distinctes du même spectacle, plutôt qu'un doublon ?
+
+    Le critère est la SOURCE, pas l'écart d'horaire. Au sein d'une même
+    source — même priorité, donc même scraper ou même agrégateur — deux
+    horaires connus et différents sont toujours deux représentations : une
+    source ne publie pas deux fois la même séance. Entre deux sources en
+    revanche, un écart d'horaire est banal (20:00 chez la salle, 20:30 au
+    Petit Bulletin) et doit se fusionner.
+
+    Un seuil temporel ne ferait pas l'affaire : les vraies doubles séances
+    mesurées vont de 60 minutes (ateliers des Célestins à 14h et 15h) à
+    5 heures, et aucun seuil ne sépare les 60 minutes d'un simple écart de
+    saisie. La source, elle, tranche sans ambiguïté.
+
+    Les événements sans horaire ne sont jamais concernés : il faut DEUX
+    horaires connus pour conclure.
+    """
+    return (prio_a == prio_b
+            and bool(a.time) and bool(b.time)
+            and a.time != b.time)
+
+
 def _primary_dedup(tagged_events: List[Tuple[Event, int]]) -> List[Tuple[Event, int]]:
     """Group by (canonical_venue, day) then fuzzy-cluster titles >= 0.7.
 
@@ -279,10 +302,19 @@ def _primary_dedup(tagged_events: List[Tuple[Event, int]]) -> List[Tuple[Event, 
             placed = False
             for cluster in clusters:
                 ref_ev = cluster[0][0]
-                if _title_similarity(ev.title, ref_ev.title) >= 0.7:
-                    cluster.append((ev, prio))
-                    placed = True
-                    break
+                if _title_similarity(ev.title, ref_ev.title) < 0.7:
+                    continue
+                # Le titre concorde, mais est-ce bien le même événement ?
+                # Comparé à TOUS les membres et non au seul premier : un
+                # groupe peut déjà contenir la séance de 14h et celle de
+                # 15h d'une autre source, et n'en rejeter qu'une serait
+                # arbitraire.
+                if any(_seances_distinctes(ev, prio, m_ev, m_prio)
+                       for m_ev, m_prio in cluster):
+                    continue
+                cluster.append((ev, prio))
+                placed = True
+                break
             if not placed:
                 clusters.append([(ev, prio)])
         for cluster in clusters:
@@ -322,10 +354,19 @@ def _secondary_dedup(events_with_prio: List[Tuple[Event, int]]) -> List[Tuple[Ev
                 ref_ev = cluster[0][0]
                 if _is_unmergeable_across_venues(ref_ev.title):
                     continue
-                if _title_similarity(ev.title, ref_ev.title) >= 0.85:
-                    cluster.append((ev, prio))
-                    placed = True
-                    break
+                if _title_similarity(ev.title, ref_ev.title) < 0.85:
+                    continue
+                # Même garde qu'en passe 1, et elle est indispensable ici :
+                # cette passe regroupe par DATE SEULE, elle refait donc se
+                # croiser deux séances d'un même lieu que la passe 1 venait
+                # justement de séparer. Sans ce test, l'atelier de 14h et
+                # celui de 15h se retrouvaient fusionnés un cran plus loin.
+                if any(_seances_distinctes(ev, prio, m_ev, m_prio)
+                       for m_ev, m_prio in cluster):
+                    continue
+                cluster.append((ev, prio))
+                placed = True
+                break
             if not placed:
                 clusters.append([(ev, prio)])
         for cluster in clusters:
