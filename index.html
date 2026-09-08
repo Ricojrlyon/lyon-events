@@ -1240,16 +1240,8 @@
 
     <div class="filter-drawer" id="filterDrawer" hidden>
       <div class="filter-row">
-        <span class="filter-label">où</span>
-        <div class="filter-group venue-groups" id="filterVenue"></div>
-      </div>
-      <div class="filter-row">
         <span class="filter-label">arr.</span>
         <div class="filter-group" id="filterArr"></div>
-      </div>
-      <div class="filter-row">
-        <span class="filter-label">type</span>
-        <div class="filter-group" id="filterCategory"></div>
         <button class="clear-link" id="clearFilters">tout effacer</button>
       </div>
     </div>
@@ -1817,9 +1809,7 @@ function visualLayerHtml(e, seedOverride) {
 const state = {
   when: 'all',
   customRange: null,
-  venues: new Set(),
   arrondissements: new Set(),
-  buckets: new Set(),
   search: '',          // free text search: venue name or event title
   events: [],
   occurrences: [],     // expandOccurrences(events), calculé une fois au load
@@ -2048,9 +2038,8 @@ async function load() {
     new Set(state.events.map(e => e.venue)).size;
   document.getElementById('lastUpdated').textContent = formatUpdated(data.generated_at);
 
-  buildVenueFilters();
+  classerLieux();
   buildArrondissementFilters();
-  buildTypeFilters();
   buildDaystrip();
   render();
 }
@@ -2210,11 +2199,12 @@ function rebuildVenueGroupOrderIndex() {
   });
 }
 
-function buildVenueFilters() {
-  const container = document.getElementById('filterVenue');
-  container.innerHTML = '';
-  const venuesWithEvents = new Set(state.events.map(e => e.venue));
-
+/* Classe chaque lieu dans un VENUE_GROUP, puis rafraîchit l'index de tri.
+   Cette fonction dessinait aussi les puces du filtre « où », supprimé ;
+   il ne reste que le travail STRUCTUREL, dont dépend le tri de chaque
+   journée — VENUE_GROUPS sert des deux côtés, et c'est pour ça qu'on ne
+   peut pas le retirer avec son filtre. */
+function classerLieux() {
   // Step 1: collect all venues currently known (static groups, NOT including 'autre').
   const knownVenues = new Set();
   for (const g of VENUE_GROUPS) {
@@ -2257,94 +2247,6 @@ function buildVenueFilters() {
   // Step 4: refresh the venue-to-group sort index so dynamically added
   // venues sort correctly in the day-by-day card listing.
   rebuildVenueGroupOrderIndex();
-
-  for (const group of VENUE_GROUPS) {
-    // Skip 'autre' if no venues
-    if (group.name === 'autre' && (!group.venues || group.venues.length === 0)) continue;
-
-    const groupEl = document.createElement('div');
-    groupEl.className = 'venue-group';
-    groupEl.dataset.group = group.name;
-
-    const groupChip = document.createElement('button');
-    groupChip.className = 'chip chip-group';
-    // For 'autre', show a counter "(+N)"
-    if (group.name === 'autre') {
-      groupChip.textContent = `autre (+${group.venues.length})`;
-    } else {
-      groupChip.textContent = group.name;
-    }
-    groupChip.addEventListener('click', e => {
-      e.stopPropagation();
-      handleGroupClick(group, groupEl, groupChip);
-    });
-
-    const sublist = document.createElement('div');
-    sublist.className = 'venue-sublist';
-    for (const venueName of group.venues) {
-      const venueChip = document.createElement('button');
-      venueChip.className = 'chip chip-sub';
-      venueChip.textContent = venueName.toLowerCase();
-      venueChip.dataset.venue = venueName;
-      if (!venuesWithEvents.has(venueName)) {
-        venueChip.style.opacity = '0.4';
-        venueChip.title = 'aucun événement';
-      }
-      venueChip.addEventListener('click', e => {
-        e.stopPropagation();
-        toggleVenue(venueName, venueChip, group, groupEl, groupChip);
-      });
-      sublist.appendChild(venueChip);
-    }
-
-    groupEl.appendChild(groupChip);
-    groupEl.appendChild(sublist);
-    container.appendChild(groupEl);
-  }
-}
-
-function handleGroupClick(group, groupEl, groupChip) {
-  // First click: just expand/collapse
-  if (!groupEl.classList.contains('expanded')) {
-    groupEl.classList.add('expanded');
-    return;
-  }
-  // Already expanded: behave as bulk select / deselect
-  const wasFullySelected = group.venues.every(v => state.venues.has(v));
-  if (wasFullySelected) {
-    group.venues.forEach(v => state.venues.delete(v));
-    groupEl.querySelectorAll('.chip-sub').forEach(c => c.classList.remove('active'));
-    groupChip.classList.remove('active', 'partial');
-    groupEl.classList.remove('expanded');
-  } else {
-    group.venues.forEach(v => state.venues.add(v));
-    groupEl.querySelectorAll('.chip-sub').forEach(c => c.classList.add('active'));
-    groupChip.classList.add('active');
-    groupChip.classList.remove('partial');
-  }
-  render();
-}
-
-function toggleVenue(venueName, venueChip, group, groupEl, groupChip) {
-  groupEl.classList.add('expanded');
-  if (state.venues.has(venueName)) {
-    state.venues.delete(venueName);
-    venueChip.classList.remove('active');
-  } else {
-    state.venues.add(venueName);
-    venueChip.classList.add('active');
-  }
-  const selectedInGroup = group.venues.filter(v => state.venues.has(v)).length;
-  if (selectedInGroup === 0) {
-    groupChip.classList.remove('active', 'partial');
-  } else if (selectedInGroup === group.venues.length) {
-    groupChip.classList.add('active');
-    groupChip.classList.remove('partial');
-  } else {
-    groupChip.classList.remove('active');
-    groupChip.classList.add('partial');
-  }
-  render();
 }
 
 /* ---------- build arrondissement chips ---------- */
@@ -2375,32 +2277,6 @@ function buildArrondissementFilters() {
   }
 }
 
-/* ---------- build type buckets ---------- */
-function buildTypeFilters() {
-  const container = document.getElementById('filterCategory');
-  container.innerHTML = '';
-  const present = new Set();
-  for (const e of state.events) present.add(bucketOf(e.category));
-
-  for (const b of ALL_BUCKETS) {
-    if (!present.has(b.key)) continue;
-    const btn = document.createElement('button');
-    btn.className = 'chip';
-    btn.textContent = b.label;
-    btn.dataset.bucket = b.key;
-    btn.addEventListener('click', () => {
-      if (state.buckets.has(b.key)) {
-        state.buckets.delete(b.key);
-        btn.classList.remove('active');
-      } else {
-        state.buckets.add(b.key);
-        btn.classList.add('active');
-      }
-      render();
-    });
-    container.appendChild(btn);
-  }
-}
 
 /* ---------- when filter ---------- */
 document.getElementById('filterWhen').addEventListener('click', e => {
@@ -2417,9 +2293,7 @@ document.getElementById('filterWhen').addEventListener('click', e => {
 document.getElementById('clearFilters').addEventListener('click', () => {
   state.when = 'all';
   state.customRange = null;
-  state.venues.clear();
   state.arrondissements.clear();
-  state.buckets.clear();
   state.search = '';
   const searchEl = document.getElementById('filterSearch');
   if (searchEl) searchEl.value = '';
@@ -2427,7 +2301,6 @@ document.getElementById('clearFilters').addEventListener('click', () => {
   document.querySelectorAll('.chip.active, .chip.partial').forEach(c => {
     c.classList.remove('active', 'partial');
   });
-  document.querySelectorAll('.venue-group.expanded').forEach(g => g.classList.remove('expanded'));
   document.querySelector('#filterWhen .chip[data-when="all"]').classList.add('active');
   document.getElementById('dateBtn').classList.remove('active');
   closeDatepicker();
@@ -2554,12 +2427,7 @@ function filtered() {
     const occDate = parseIso(occ._date);
     if (occDate < now) return false;
     if (!withinWhen(occ._date)) return false;
-    if (state.venues.size && !state.venues.has(occ.venue)) return false;
     if (state.arrondissements.size && !state.arrondissements.has(eventArrondissement(occ))) return false;
-    if (state.buckets.size) {
-      const b = bucketOf(occ.category);
-      if (!state.buckets.has(b)) return false;
-    }
     if (state.search) {
       const q = state.search;
       const titleMatch = normSearch(occ.title).includes(q);
