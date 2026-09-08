@@ -8,7 +8,7 @@ et affichés sur une page statique hébergée par GitHub Pages :
 ## Fonctionnement
 
 ```
-22 scrapers venue ──┐
+23 scrapers venue ──┐
                     ├─→ dédup 3 passes ─→ events.json ─→ index.html (GitHub Pages)
 2 agrégateurs ──────┘         │
 (Petit Bulletin,              ├─→ venue_arrondissements.json (géocodage Nominatim)
@@ -31,6 +31,16 @@ les trois fichiers de données.
   l'Espace Gerson à la Salle Victor Hugo et à la Bourse du Travail (que
   nocturne scrappe déjà). Chaque scraper fournit donc son prédicat de
   lieu, appliqué sur le Venue que Mapado expose en clair.
+- **`scrapers/comedie_odeon.py`** — la Comédie Odéon. Le type
+  « spectacle » n'est pas exposé à l'API REST, mais /spectacle/ porte
+  TOUT en une requête : les cartes et un calendrier mensuel dont chaque
+  cellule nomme les spectacles du jour. C'est le calendrier qui fait foi
+  pour les dates — la fiche ne décrit qu'un rythme en français (« Du
+  mercredi au samedi à 20h », « Relâches : 15/10 + 16/10 ») qu'il serait
+  fragile de régénérer. Le gain est net : le Petit Bulletin publiait
+  « La Machine de Turing » comme une plage de 53 jours, relâches
+  comprises ; le scraper en rend les 29 vraies dates, dont celle à 19h
+  au lieu de 20h.
 - **`scrapers/croix_rousse.py`** — le Théâtre de la Croix-Rousse.
   WordPress dont l'API REST est OUVERTE, à la différence du TNP : elle
   donne la liste de la saison avec titres, affiches et genres. Les dates

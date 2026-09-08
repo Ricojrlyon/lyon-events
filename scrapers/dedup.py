@@ -79,6 +79,8 @@ VENUE_CANONICAL: dict[str, list[str]] = {
                                  "complexe cafe theatre",
                                  "le complexe", "complexe"],
     # === New venues from aggregators (canonical names) ===
+    "Comédie Odéon":          ["comedie odeon", "la comedie odeon",
+                               "theatre comedie odeon"],
     # PAS d'alias « croix rousse » nu : c'est un QUARTIER de Lyon avant
     # d'être une salle, et il capturerait tout lieu ainsi nommé — un
     # marché, un bar. Seules les formes qui désignent le théâtre.
