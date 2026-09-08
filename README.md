@@ -8,7 +8,7 @@ et affichés sur une page statique hébergée par GitHub Pages :
 ## Fonctionnement
 
 ```
-18 scrapers venue ──┐
+19 scrapers venue ──┐
                     ├─→ dédup 3 passes ─→ events.json ─→ index.html (GitHub Pages)
 2 agrégateurs ──────┘         │
 (Petit Bulletin,              ├─→ venue_arrondissements.json (géocodage Nominatim)
@@ -31,6 +31,18 @@ les trois fichiers de données.
   l'Espace Gerson à la Salle Victor Hugo et à la Bourse du Travail (que
   nocturne scrappe déjà). Chaque scraper fournit donc son prédicat de
   lieu, appliqué sur le Venue que Mapado expose en clair.
+- **`scrapers/celestins.py`** — Les Célestins, seule salle du dépôt à
+  offrir une API JSON DOCUMENTÉE : le site tourne sous Roadiz, son
+  robots.txt n'interdit que /api/docs, et /api/docs.json rend la
+  spécification OpenAPI complète. Deux appels sont nécessaires,
+  /api/event_dates pour les représentations et /api/events pour les
+  affiches, que la première sérialisation n'embarque pas — or c'est
+  précisément l'image qui manquait, le Petit Bulletin remontant cette
+  salle sans une seule. Point d'attention : les Célestins programment
+  HORS LES MURS, 17 représentations sur 228 au TNP, au TNG et à la
+  Croix-Rousse. Sans filtre de lieu elles seraient publiées sous
+  « Célestins », et la dédup ne pourrait rien y faire puisqu'elle
+  regroupe justement par lieu.
 - **`scrapers/complexe.py`** — Le Complexe café-théâtre, seul scraper à
   exiger un User-Agent PARTICULIER : le pare-feu du site renvoie 403 à
   toute chaîne contenant « Mozilla/5.0 (compatible », donc l'UA y est

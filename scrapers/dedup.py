@@ -74,6 +74,10 @@ VENUE_CANONICAL: dict[str, list[str]] = {
                                  "complexe cafe theatre",
                                  "le complexe", "complexe"],
     # === New venues from aggregators (canonical names) ===
+    # Le Petit Bulletin écrit « Célestins, théâtre de Lyon », le site
+    # lui-même « Les Célestins » et l'usage « Théâtre des Célestins ».
+    "Célestins, théâtre de Lyon": ["celestins theatre de lyon", "les celestins",
+                                   "theatre des celestins", "celestins"],
     "Toï Toï le Zinc":        ["toi toi le zinc", "toi toi", "toitoi"],
     "Grrrnd Zero":            ["grrrnd zero", "grrnd zero", "grrrnd-zero",
                                "grrrnd zero fort"],
