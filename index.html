@@ -1505,7 +1505,7 @@ const TYPE_BUCKETS = [
   { key: 'atelier',     label: 'atelier',     match: /atelier|workshop|stage\s+de|masterclass|formation/i },
   // Generic music catch-all (for events tagged just "concert" or "musique"
   // without specifying a subgenre). Comes AFTER the specific genres.
-  { key: 'musique',     label: 'musique',     match: /musique|concert/i },
+  { key: 'musique',     label: 'musique',     match: /musique|concert|\bsoul\b|\bfunk\b|\bdisco\b/i },
   // Non-music. humour BEFORE theatre because "Humour & Café Théâtre" must
   // go to humour (theatre regex would match the "Théâtre" substring).
   // Note: 'théâtre' has circumflex â, so the regex uses [aâ]tre to match
@@ -1513,9 +1513,17 @@ const TYPE_BUCKETS = [
   { key: 'humour',      label: 'humour',      match: /humour|stand[\s-]?up|one[\s-]?man|comedy|caf[ée][\s-]*th[ée][aâ]tre/i },
   { key: 'theatre',     label: 'théâtre',     match: /th[ée][aâ]tre|spectacle\s*musical|com[ée]die\s*musicale|cabaret/i },
   { key: 'danse',       label: 'danse',       match: /danse|ballet|cho[ré]graph/i },
-  { key: 'expo',        label: 'expo',        match: /\bexpo|exposition|vernissage|installation/i },
+  // Cirque, magie, drag, performance : de la scène qui n'est ni théâtre
+  // ni danse ni humour. Placé APRÈS ces trois-là, plus précis — sinon
+  // « spectacle musical » quitterait le théâtre pour venir ici.
+  { key: 'spectacle',   label: 'spectacle',   match: /spectacle|cirque|magie|\bdrag\b|performance|marionnette/i },
+  { key: 'expo',        label: 'expo',        match: /\bexpo|exposition|vernissage|installation|\bvisite|street\s*art|sculpture|art\s*graphique/i },
   { key: 'cine',        label: 'ciné',        match: /cin[ée]ma|projection|s[ée]ance|documentaire|court[\s-]?m[ée]trage/i },
-  { key: 'conference',  label: 'conférence',  match: /conf[ée]rence|rencontre|d[ée]bat|table\s*ronde|discussion|colloque|lecture/i },
+  { key: 'conference',  label: 'conférence',  match: /conf[ée]rence|rencontre|d[ée]bat|table\s*ronde|discussion|colloque|lecture|sciences/i },
+  // Quiz, blind test, karaoké : ni musique ni scène, mais assez présents
+  // pour mériter leur filtre. En dernier, aucun autre bucket ne les
+  // revendiquant.
+  { key: 'jeux',        label: 'jeux',        match: /\bjeux?\b|\bquiz+|blind\s*test|karaok|\bbingo\b|\bloto\b|\b[ée]checs?\b/i },
 ];
 function bucketOf(rawCategory) {
   if (!rawCategory) return 'autre';
