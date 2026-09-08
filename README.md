@@ -8,7 +8,7 @@ et affichés sur une page statique hébergée par GitHub Pages :
 ## Fonctionnement
 
 ```
-23 scrapers venue ──┐
+24 scrapers venue ──┐
                     ├─→ dédup 3 passes ─→ events.json ─→ index.html (GitHub Pages)
 2 agrégateurs ──────┘         │
 (Petit Bulletin,              ├─→ venue_arrondissements.json (géocodage Nominatim)
@@ -31,6 +31,22 @@ les trois fichiers de données.
   l'Espace Gerson à la Salle Victor Hugo et à la Bourse du Travail (que
   nocturne scrappe déjà). Chaque scraper fournit donc son prédicat de
   lieu, appliqué sur le Venue que Mapado expose en clair.
+- **`scrapers/agendarts.py`** — agend'Arts, qui n'a pas de site à soi :
+  la salle publie sur un blog WordPress.com, un billet par spectacle,
+  servi sans clé par l'API publique. La date de publication n'est pas
+  celle du spectacle — un billet de juin annonce un concert de décembre
+  — et la vraie date s'écrit en toutes lettres dans la première phrase.
+  Elle est lue par deux sources indépendantes : la prose, et les liens
+  de billetterie HelloAsso dont le slug porte la date complète. Sur 325
+  couples jour+mois, elles concordent 324 fois ; le désaccord restant
+  est un cas que la prose seule ne peut pas voir. L'année, elle, n'est
+  presque jamais écrite : quatre sources y répondent dans l'ordre, et à
+  défaut la date est abandonnée plutôt que projetée sur l'année en
+  cours. Deux règles évitent des dates fausses — seule la suite de
+  quantièmes COLLÉE au nom du mois compte, sans quoi « Les 3 becs »
+  produirait un 3 septembre ; et une suite introduite par une
+  annulation est écartée, publier une séance annulée étant plus grave
+  que d'en manquer une.
 - **`scrapers/comedie_odeon.py`** — la Comédie Odéon. Le type
   « spectacle » n'est pas exposé à l'API REST, mais /spectacle/ porte
   TOUT en une requête : les cartes et un calendrier mensuel dont chaque
