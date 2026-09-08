@@ -151,6 +151,53 @@
     border-color: var(--warm);
     color: var(--warm);
   }
+  /* Listes à cocher : lieux et tags. Une liste plutôt que des puces
+     parce qu'il y a 173 lieux — en puces la rangée ferait dix lignes et
+     on n'y retrouverait rien. Triée alphabétiquement : c'est une liste
+     où l'on CHERCHE un nom, pas où l'on découvre. */
+  .filter-liste {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(196px, 1fr));
+    gap: 1px 16px;
+    align-content: start;
+    max-height: 188px;
+    overflow-y: auto;
+    flex: 1 1 100%;
+    padding: 2px 8px 2px 0;
+    border-left: 1px solid var(--rule);
+    padding-left: 12px;
+  }
+  .filter-liste label {
+    display: flex;
+    align-items: baseline;
+    gap: 7px;
+    padding: 2px 0;
+    font-size: 12px;
+    color: var(--ink-soft);
+    cursor: pointer;
+    min-width: 0;
+  }
+  .filter-liste label:hover { color: var(--ink); }
+  .filter-liste input {
+    accent-color: var(--hot);
+    margin: 0;
+    flex: 0 0 auto;
+    align-self: center;
+  }
+  .filter-liste .fl-nom {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .filter-liste .fl-n {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: var(--ink-mute);
+    font-variant-numeric: tabular-nums;
+    margin-left: auto;
+    flex: 0 0 auto;
+  }
+  .filter-liste label:has(input:checked) { color: var(--hot); }
   .filter-label {
     font-family: 'JetBrains Mono', monospace;
     font-size: 10px;
@@ -1305,6 +1352,14 @@
         <div class="filter-group" id="filterArr"></div>
         <button class="clear-link" id="clearFilters">tout effacer</button>
       </div>
+      <div class="filter-row">
+        <span class="filter-label">lieux</span>
+        <div class="filter-liste" id="filterLieux"></div>
+      </div>
+      <div class="filter-row">
+        <span class="filter-label">tags</span>
+        <div class="filter-liste" id="filterTags"></div>
+      </div>
     </div>
 
   </div>
@@ -1969,6 +2024,12 @@ const state = {
   when: 'all',
   customRange: null,
   arrondissements: new Set(),
+  // Listes à cocher. VIDE = tout s'affiche ; dès qu'une case est cochée,
+  // SEULES les cases cochées s'affichent. C'est l'inverse des familles,
+  // qui partent toutes allumées et qu'on éteint — l'une sert à isoler,
+  // l'autre à dégrossir.
+  lieux: new Set(),
+  tags: new Set(),
   // Familles ÉTEINTES. Vide = tout s'affiche. L'état est global et non
   // par journée : éteindre « autres » le 12 septembre le garde éteint le
   // 13, ce qui est ce qu'on attend d'un tri qu'on vient de faire.
@@ -2203,6 +2264,8 @@ async function load() {
 
   classerLieux();
   buildArrondissementFilters();
+  buildLieuxFilters();
+  buildTagsFilters();
   buildDaystrip();
   render();
 }
@@ -2412,6 +2475,58 @@ function classerLieux() {
   rebuildVenueGroupOrderIndex();
 }
 
+/* Liste à cocher générique. Construite UNE fois au chargement : cocher
+   une case ne touche que l'état et relance le rendu, sans reconstruire
+   les 173 lignes. */
+function construireListe(idConteneur, entrees, ensemble) {
+  const c = document.getElementById(idConteneur);
+  c.innerHTML = '';
+  for (const { cle, nom, n } of entrees) {
+    const label = document.createElement('label');
+    const box = document.createElement('input');
+    box.type = 'checkbox';
+    box.checked = ensemble.has(cle);
+    box.addEventListener('change', () => {
+      if (box.checked) ensemble.add(cle); else ensemble.delete(cle);
+      render();
+    });
+    const nomEl = document.createElement('span');
+    nomEl.className = 'fl-nom';
+    nomEl.textContent = nom;
+    const nEl = document.createElement('span');
+    nEl.className = 'fl-n';
+    nEl.textContent = n;
+    label.append(box, nomEl, nEl);
+    label.title = nom + ' — ' + n + ' événement' + (n > 1 ? 's' : '');
+    c.appendChild(label);
+  }
+}
+
+function buildLieuxFilters() {
+  const n = new Map();
+  for (const e of state.events) {
+    if (!e.venue) continue;
+    n.set(e.venue, (n.get(e.venue) || 0) + 1);
+  }
+  const entrees = [...n.entries()]
+    .sort((a, b) => a[0].localeCompare(b[0], 'fr'))
+    .map(([v, c]) => ({ cle: v, nom: v, n: c }));
+  construireListe('filterLieux', entrees, state.lieux);
+}
+
+function buildTagsFilters() {
+  const n = new Map();
+  for (const e of state.events) {
+    const b = bucketOf(e.category);
+    n.set(b, (n.get(b) || 0) + 1);
+  }
+  const entrees = ALL_BUCKETS
+    .filter(b => n.has(b.key))
+    .map(b => ({ cle: b.key, nom: b.label, n: n.get(b.key) }))
+    .sort((a, b) => a.nom.localeCompare(b.nom, 'fr'));
+  construireListe('filterTags', entrees, state.tags);
+}
+
 /* ---------- build arrondissement chips ---------- */
 function buildArrondissementFilters() {
   const container = document.getElementById('filterArr');
@@ -2457,6 +2572,10 @@ document.getElementById('clearFilters').addEventListener('click', () => {
   state.when = 'all';
   state.customRange = null;
   state.arrondissements.clear();
+  state.lieux.clear();
+  state.tags.clear();
+  document.querySelectorAll('.filter-liste input:checked')
+          .forEach(b => { b.checked = false; });
   state.famillesOff.clear();
   state.search = '';
   const searchEl = document.getElementById('filterSearch');
@@ -2592,6 +2711,8 @@ function filtered() {
     if (occDate < now) return false;
     if (!withinWhen(occ._date)) return false;
     if (state.arrondissements.size && !state.arrondissements.has(eventArrondissement(occ))) return false;
+    if (state.lieux.size && !state.lieux.has(occ.venue)) return false;
+    if (state.tags.size && !state.tags.has(bucketOf(occ.category))) return false;
     if (state.search) {
       const q = state.search;
       const titleMatch = normSearch(occ.title).includes(q);
