@@ -1633,6 +1633,13 @@
     "fetched_at": "2026-08-12",
     "time": "20:00"
   },
+  "https://www.comedieodeon.com/spectacle/la-machine-de-turing/": {
+    "defaut": "20:00",
+    "exceptions": {
+      "10-09": "19:00"
+    },
+    "fetched_at": "2026-09-08"
+  },
   "https://www.croix-rousse.com/au-programme/21188/": {
     "fetched_at": "2026-09-08",
     "seances": [

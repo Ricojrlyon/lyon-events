@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-08T13:58:43.006272+00:00",
-  "count": 2371,
+  "generated_at": "2026-09-08T14:12:41.500858+00:00",
+  "count": 2508,
   "events": [
     {
       "venue": "Opéra national de Lyon",
@@ -380,19 +380,6 @@
       "id": "5e4fa1c21f18"
     },
     {
-      "venue": "Comédie Odéon",
-      "venue_slug": "comedie-odeon",
-      "title": "La Machine de Turing",
-      "subtitle": null,
-      "category": "Théâtre",
-      "date_start": "2026-09-08",
-      "date_end": "2026-10-30",
-      "time": "20:00",
-      "url": "https://www.petit-bulletin.fr/agenda-315208-la-machine-de-turing.html",
-      "image": null,
-      "id": "9f077a0ec6ac"
-    },
-    {
       "venue": "Le Sonic",
       "venue_slug": "sonic",
       "title": "TVOD + Moldy Stew",
@@ -599,6 +586,19 @@
       "url": "https://www.petit-bulletin.fr/agenda-208794-sigur-r-s.html",
       "image": null,
       "id": "8bc021143a13"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "La Machine de Turing",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-09-09",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.comedieodeon.com/spectacle/la-machine-de-turing/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2025/04/LaMachine_Turing_afftournee_GENARO_BD-1.jpg",
+      "id": "f4a240ccfbdf"
     },
     {
       "venue": "Les Subsistances",
@@ -833,6 +833,19 @@
       "url": "https://agenda.villemorte.fr/event/hugo-riche-meddor",
       "image": "https://agenda.villemorte.fr/media/thumb/debf01f94ae8e7584f5bbc3bfa7b1d3b.jpg",
       "id": "7e6151da0d4c"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "La Machine de Turing",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-09-10",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.comedieodeon.com/spectacle/la-machine-de-turing/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2025/04/LaMachine_Turing_afftournee_GENARO_BD-1.jpg",
+      "id": "ed7a338ada32"
     },
     {
       "venue": "Le Périscope",
@@ -1262,6 +1275,19 @@
       "url": "https://www.bourse-du-travail.com/covertramp-hommage-a-supertramp-274720.html",
       "image": "https://www.bourse-du-travail.com/img/evenement/covertramp--hommage-a-supertramp-5.jpg",
       "id": "c9d747f00b8f"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "La Machine de Turing",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-09-11",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.comedieodeon.com/spectacle/la-machine-de-turing/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2025/04/LaMachine_Turing_afftournee_GENARO_BD-1.jpg",
+      "id": "4d583493cc7e"
     },
     {
       "venue": "HEAT",
@@ -1862,6 +1888,19 @@
       "id": "9d9190ed351d"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "La Machine de Turing",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-09-12",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.comedieodeon.com/spectacle/la-machine-de-turing/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2025/04/LaMachine_Turing_afftournee_GENARO_BD-1.jpg",
+      "id": "0d3aec850886"
+    },
+    {
       "venue": "Le Complexe café-théâtre",
       "venue_slug": "le-complexe",
       "title": "Geryy \"Je comprends rien\"",
@@ -2302,6 +2341,19 @@
       "url": "https://www.petit-bulletin.fr/agenda-319071-le-vestiaire-des-destin-es.html",
       "image": null,
       "id": "b98b84edcc7e"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Soirée de présentation",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-09-14",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.comedieodeon.com/spectacle/soiree-de-presentation/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2023/07/Affiche-presentationsaison_BD-scaled.jpg",
+      "id": "1895039b8251"
     },
     {
       "venue": "LDLC Arena",
@@ -2837,6 +2889,19 @@
       "id": "0645f9fa8da5"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "La Machine de Turing",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-09-16",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.comedieodeon.com/spectacle/la-machine-de-turing/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2025/04/LaMachine_Turing_afftournee_GENARO_BD-1.jpg",
+      "id": "583e016785f7"
+    },
+    {
       "venue": "Groom",
       "venue_slug": "groom",
       "title": "MANGER LES OISEAUX + WENDY MARTINEZ",
@@ -3186,6 +3251,19 @@
       "url": "https://agenda.villemorte.fr/event/projection-debat-laissez-nous-les-cles-en-presence-du-realisateur-transformer-un-macdo-en-lieu-collectif-autogere",
       "image": "https://agenda.villemorte.fr/media/thumb/f617748a029f594e6aade3dddecee7e1.jpg",
       "id": "6e94d381cfb1"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "La Machine de Turing",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-09-17",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.comedieodeon.com/spectacle/la-machine-de-turing/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2025/04/LaMachine_Turing_afftournee_GENARO_BD-1.jpg",
+      "id": "fd4e9009fecf"
     },
     {
       "venue": "Le Sonic",
@@ -3654,6 +3732,19 @@
       "url": "https://agenda.villemorte.fr/event/concert-de-merienne-and-dalias-blob-1",
       "image": "https://agenda.villemorte.fr/media/thumb/e9237e919725b75087367455f0f495e4.jpg",
       "id": "6a93e96b8ffd"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "La Machine de Turing",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-09-18",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.comedieodeon.com/spectacle/la-machine-de-turing/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2025/04/LaMachine_Turing_afftournee_GENARO_BD-1.jpg",
+      "id": "d5a6ccae9f66"
     },
     {
       "venue": "Le Complexe café-théâtre",
@@ -4369,6 +4460,19 @@
       "url": "https://www.bourse-du-travail.com/guihome-379266.html",
       "image": "https://www.bourse-du-travail.com/img/evenement/guihome-dans-guihome-vous-detend-5.jpg",
       "id": "127e89b834ec"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "La Machine de Turing",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-09-19",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.comedieodeon.com/spectacle/la-machine-de-turing/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2025/04/LaMachine_Turing_afftournee_GENARO_BD-1.jpg",
+      "id": "0babb66c1cbe"
     },
     {
       "venue": "Le Complexe café-théâtre",
@@ -5255,6 +5359,19 @@
       "id": "d4564443464d"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "La Machine de Turing",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-09-23",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.comedieodeon.com/spectacle/la-machine-de-turing/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2025/04/LaMachine_Turing_afftournee_GENARO_BD-1.jpg",
+      "id": "7f31db78264b"
+    },
+    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins",
       "title": "Dans le ventre des cerveaux",
@@ -5632,6 +5749,19 @@
       "id": "e253d718d430"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "La Machine de Turing",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-09-24",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.comedieodeon.com/spectacle/la-machine-de-turing/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2025/04/LaMachine_Turing_afftournee_GENARO_BD-1.jpg",
+      "id": "210c3df13b59"
+    },
+    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins",
       "title": "True West",
@@ -6007,6 +6137,19 @@
       "url": "https://www.bourse-du-travail.com/arnaud-tsamere-253951.html",
       "image": "https://www.bourse-du-travail.com/img/evenement/arnaud-tsamere-98.jpg",
       "id": "80e383d5032f"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "La Machine de Turing",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-09-25",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.comedieodeon.com/spectacle/la-machine-de-turing/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2025/04/LaMachine_Turing_afftournee_GENARO_BD-1.jpg",
+      "id": "932c4308dea3"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -6566,6 +6709,19 @@
       "url": "https://www.bourse-du-travail.com/mesdames-en-vraies-366978.html",
       "image": "https://www.bourse-du-travail.com/img/evenement/mesdames-dans-en-vraies--4.jpg",
       "id": "f1174974978f"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "La Machine de Turing",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-09-26",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.comedieodeon.com/spectacle/la-machine-de-turing/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2025/04/LaMachine_Turing_afftournee_GENARO_BD-1.jpg",
+      "id": "c812e1c6e53a"
     },
     {
       "venue": "Le Complexe café-théâtre",
@@ -7361,6 +7517,19 @@
       "id": "b808291f4f6d"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "La Machine de Turing",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-09-30",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.comedieodeon.com/spectacle/la-machine-de-turing/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2025/04/LaMachine_Turing_afftournee_GENARO_BD-1.jpg",
+      "id": "99af3f3714c9"
+    },
+    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins",
       "title": "Dans le ventre des cerveaux",
@@ -7619,6 +7788,19 @@
       "url": "https://agenda.villemorte.fr/event/concert-or-juliette-magnevasoa",
       "image": "https://agenda.villemorte.fr/media/thumb/5e5a1db94fcca42bb47b41f41655d76f.jpg",
       "id": "b49e46217cea"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "La Machine de Turing",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-10-01",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.comedieodeon.com/spectacle/la-machine-de-turing/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2025/04/LaMachine_Turing_afftournee_GENARO_BD-1.jpg",
+      "id": "d65aaa54d9bc"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -7907,6 +8089,19 @@
       "id": "379d4a84cc08"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "La Machine de Turing",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-10-02",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.comedieodeon.com/spectacle/la-machine-de-turing/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2025/04/LaMachine_Turing_afftournee_GENARO_BD-1.jpg",
+      "id": "f36027520210"
+    },
+    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins",
       "title": "Dans le ventre des cerveaux",
@@ -8063,6 +8258,19 @@
       "id": "7309389dc512"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Telle est la question",
+      "subtitle": null,
+      "category": "one-man-show",
+      "date_start": "2026-10-03",
+      "date_end": null,
+      "time": "17:00",
+      "url": "https://www.comedieodeon.com/spectacle/telle-est-la-question/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/06/Affiche_TELQ_A2_BD.jpg",
+      "id": "bacb677a0ff4"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "On n'a pas le même titre !",
@@ -8165,6 +8373,19 @@
       "url": "https://agenda.villemorte.fr/event/concert-or-claude-lemesles",
       "image": "https://agenda.villemorte.fr/media/thumb/5b95ec7e4721782bbae26f603ff739f4.jpg",
       "id": "0745f1cf0707"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "La Machine de Turing",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-10-03",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.comedieodeon.com/spectacle/la-machine-de-turing/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2025/04/LaMachine_Turing_afftournee_GENARO_BD-1.jpg",
+      "id": "0b4cd8c3798e"
     },
     {
       "venue": "Grrrnd Zero",
@@ -8856,6 +9077,19 @@
       "id": "72317662e78b"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "La Machine de Turing",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-10-07",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.comedieodeon.com/spectacle/la-machine-de-turing/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2025/04/LaMachine_Turing_afftournee_GENARO_BD-1.jpg",
+      "id": "8b26b358667e"
+    },
+    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins",
       "title": "L’Angelo del Focolare",
@@ -9103,6 +9337,19 @@
       "id": "60b7a3381010"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "La Machine de Turing",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-10-08",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.comedieodeon.com/spectacle/la-machine-de-turing/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2025/04/LaMachine_Turing_afftournee_GENARO_BD-1.jpg",
+      "id": "51862912e0d3"
+    },
+    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins",
       "title": "7 rue des Alouettes",
@@ -9257,6 +9504,19 @@
       "url": "https://le-sucre.eu/events/concert-5/",
       "image": "https://le-sucre.eu/wp-content/uploads/2026/05/carre-600x600.png",
       "id": "e6fe7cb2af26"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "La Machine de Turing",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-10-09",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.comedieodeon.com/spectacle/la-machine-de-turing/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2025/04/LaMachine_Turing_afftournee_GENARO_BD-1.jpg",
+      "id": "33a359577879"
     },
     {
       "venue": "La Rayonne",
@@ -9504,6 +9764,19 @@
       "url": "https://www.petit-bulletin.fr/agenda-317559-scapin-mode-deemploi.html",
       "image": null,
       "id": "f8c39ca35275"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Merwane Benlazar – Nouveau spectacle",
+      "subtitle": null,
+      "category": "one-man-show",
+      "date_start": "2026-10-09",
+      "date_end": null,
+      "time": "21:00",
+      "url": "https://www.comedieodeon.com/spectacle/merwane-benlazar-nouveau-spectacle/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/06/40_60-AFFICHE-MERWANE-BENLAZAR_BD.jpg",
+      "id": "797171720a92"
     },
     {
       "venue": "Improvidence",
@@ -9816,6 +10089,19 @@
       "url": "https://www.bourse-du-travail.com/pierre-emmanuel-barre-come-back-tournee-359460.html",
       "image": "https://www.bourse-du-travail.com/img/evenement/pierre-emmanuel-barre--come-back-tournee-38.jpg",
       "id": "5163465ba6eb"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "La Machine de Turing",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-10-10",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.comedieodeon.com/spectacle/la-machine-de-turing/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2025/04/LaMachine_Turing_afftournee_GENARO_BD-1.jpg",
+      "id": "8a0fcd5d28c9"
     },
     {
       "venue": "La Machinerie - Bizarre !",
@@ -10596,6 +10882,19 @@
       "url": "https://www.tnp-villeurbanne.com/spectacle/seul-dans-berlin/",
       "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/5_Seul_dans_Berlin_repetitions.jpg",
       "id": "6d18c84ae6b6"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "La Machine de Turing",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-10-14",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.comedieodeon.com/spectacle/la-machine-de-turing/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2025/04/LaMachine_Turing_afftournee_GENARO_BD-1.jpg",
+      "id": "93b29e503640"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -11469,6 +11768,19 @@
       "id": "022af251097c"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Telle est la question",
+      "subtitle": null,
+      "category": "one-man-show",
+      "date_start": "2026-10-17",
+      "date_end": null,
+      "time": "17:00",
+      "url": "https://www.comedieodeon.com/spectacle/telle-est-la-question/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/06/Affiche_TELQ_A2_BD.jpg",
+      "id": "85683b67db00"
+    },
+    {
       "venue": "TNP - Théâtre National Populaire",
       "venue_slug": "tnp",
       "title": "Rapport pour une académie",
@@ -11610,6 +11922,19 @@
       "url": "https://agenda.villemorte.fr/event/spectacle-de-christine-brotons-chansons-deshabillees",
       "image": "https://agenda.villemorte.fr/media/thumb/478cbd9cb40308bd8187e7b62cf012e2.jpg",
       "id": "3fe8e35a45e1"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "La Machine de Turing",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-10-17",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.comedieodeon.com/spectacle/la-machine-de-turing/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2025/04/LaMachine_Turing_afftournee_GENARO_BD-1.jpg",
+      "id": "f6527316e5a7"
     },
     {
       "venue": "Grrrnd Zero",
@@ -11846,6 +12171,19 @@
       "id": "c7545a0a055b"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Quel Cirque !",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-10-19",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.comedieodeon.com/spectacle/quel-cirque/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Affiche_quelcirque_BD.jpg",
+      "id": "19ab29b6ce24"
+    },
+    {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
       "title": "Concert",
@@ -11987,6 +12325,19 @@
       "url": "https://www.petit-bulletin.fr/agenda-289297-le-loup-en-slip.html",
       "image": null,
       "id": "8c7f21d35585"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Quel Cirque !",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-10-20",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.comedieodeon.com/spectacle/quel-cirque/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Affiche_quelcirque_BD.jpg",
+      "id": "234ad0aa0687"
     },
     {
       "venue": "Le Complexe café-théâtre",
@@ -12145,6 +12496,19 @@
       "id": "b9bdd06cb578"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Quel Cirque !",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-10-21",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.comedieodeon.com/spectacle/quel-cirque/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Affiche_quelcirque_BD.jpg",
+      "id": "a1242822e99d"
+    },
+    {
       "venue": "Le Complexe café-théâtre",
       "venue_slug": "le-complexe",
       "title": "IMPRO'MINOTS",
@@ -12195,6 +12559,19 @@
       "url": "https://improvidence.mapado.com/event/282963-la-fin-justifie-les-moyens",
       "image": "https://img.mapado.net/2025/10/20/68f5fd197257f-vignette-mapado-la-fin-2025.jpeg_thumbs/600-600.jpeg",
       "id": "f792815bca87"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "La Machine de Turing",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-10-21",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.comedieodeon.com/spectacle/la-machine-de-turing/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2025/04/LaMachine_Turing_afftournee_GENARO_BD-1.jpg",
+      "id": "277d1cdbea60"
     },
     {
       "venue": "Espace Gerson",
@@ -12288,6 +12665,19 @@
       "id": "7313e6cec0c7"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Quel Cirque !",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-10-22",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.comedieodeon.com/spectacle/quel-cirque/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Affiche_quelcirque_BD.jpg",
+      "id": "5d78a8635c0d"
+    },
+    {
       "venue": "Le Complexe café-théâtre",
       "venue_slug": "le-complexe",
       "title": "IMPRO'MINOTS",
@@ -12351,6 +12741,19 @@
       "url": "https://improvidence.mapado.com/event/282963-la-fin-justifie-les-moyens",
       "image": "https://img.mapado.net/2025/10/20/68f5fd197257f-vignette-mapado-la-fin-2025.jpeg_thumbs/600-600.jpeg",
       "id": "13b0ba6dde66"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "La Machine de Turing",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-10-22",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.comedieodeon.com/spectacle/la-machine-de-turing/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2025/04/LaMachine_Turing_afftournee_GENARO_BD-1.jpg",
+      "id": "07780d596375"
     },
     {
       "venue": "Groom",
@@ -12496,6 +12899,19 @@
       "id": "805135166c23"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Quel Cirque !",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-10-23",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.comedieodeon.com/spectacle/quel-cirque/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Affiche_quelcirque_BD.jpg",
+      "id": "f4794f931bef"
+    },
+    {
       "venue": "La Salle de bains",
       "venue_slug": "la-salle-de-bains",
       "title": "Merlin Carpenter",
@@ -12598,6 +13014,19 @@
       "url": "https://improvidence.mapado.com/event/282963-la-fin-justifie-les-moyens",
       "image": "https://img.mapado.net/2025/10/20/68f5fd197257f-vignette-mapado-la-fin-2025.jpeg_thumbs/600-600.jpeg",
       "id": "bca00698fad0"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "La Machine de Turing",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-10-23",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.comedieodeon.com/spectacle/la-machine-de-turing/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2025/04/LaMachine_Turing_afftournee_GENARO_BD-1.jpg",
+      "id": "a89427fea033"
     },
     {
       "venue": "Grrrnd Zero",
@@ -12715,6 +13144,19 @@
       "url": "https://www.petit-bulletin.fr/agenda-289297-le-loup-en-slip.html",
       "image": null,
       "id": "78a72d323027"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Quel Cirque !",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-10-24",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.comedieodeon.com/spectacle/quel-cirque/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Affiche_quelcirque_BD.jpg",
+      "id": "66f41f90c979"
     },
     {
       "venue": "La Rayonne",
@@ -12845,6 +13287,19 @@
       "url": "https://agenda.villemorte.fr/event/spectacle-de-ddi-et-chrlie",
       "image": "https://agenda.villemorte.fr/media/thumb/e24cefb69764fbebf7fabf4076b89334.jpg",
       "id": "f000b4edb2dd"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "La Machine de Turing",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-10-24",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.comedieodeon.com/spectacle/la-machine-de-turing/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2025/04/LaMachine_Turing_afftournee_GENARO_BD-1.jpg",
+      "id": "5774d8868174"
     },
     {
       "venue": "Grrrnd Zero",
@@ -13120,6 +13575,19 @@
       "id": "c0c1344fb3db"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Quel Cirque !",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-10-26",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.comedieodeon.com/spectacle/quel-cirque/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Affiche_quelcirque_BD.jpg",
+      "id": "b571bd310486"
+    },
+    {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
       "title": "Plateaux de Gerson-dernier lundi de chaque mois",
@@ -13196,6 +13664,19 @@
       "url": "https://www.petit-bulletin.fr/agenda-319349-lucie-et-la-potion-pourrite.html",
       "image": null,
       "id": "3b659aab9309"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Quel Cirque !",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-10-27",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.comedieodeon.com/spectacle/quel-cirque/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Affiche_quelcirque_BD.jpg",
+      "id": "96eab5027b2d"
     },
     {
       "venue": "Le Complexe café-théâtre",
@@ -13367,6 +13848,19 @@
       "id": "96b538f797f8"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Quel Cirque !",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-10-28",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.comedieodeon.com/spectacle/quel-cirque/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Affiche_quelcirque_BD.jpg",
+      "id": "5ea56a26e10e"
+    },
+    {
       "venue": "Le Complexe café-théâtre",
       "venue_slug": "le-complexe",
       "title": "IMPRO'MINOTS",
@@ -13404,6 +13898,19 @@
       "url": "https://www.transbordeur.fr/evenement/wallace-cleaver-28102026/",
       "image": "https://www.transbordeur.fr/wp-content/uploads/2026/03/a-wallacecleaver1-e1774624267890.jpeg",
       "id": "473f3dcad9b4"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "La Machine de Turing",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-10-28",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.comedieodeon.com/spectacle/la-machine-de-turing/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2025/04/LaMachine_Turing_afftournee_GENARO_BD-1.jpg",
+      "id": "34cd8ee4e770"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -13562,6 +14069,19 @@
       "id": "6632a044459c"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Quel Cirque !",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-10-29",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.comedieodeon.com/spectacle/quel-cirque/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Affiche_quelcirque_BD.jpg",
+      "id": "9ee4542539a7"
+    },
+    {
       "venue": "La Halle Tony Garnier",
       "venue_slug": "halle-tony-garnier",
       "title": "Salon Des Vignerons Independants",
@@ -13625,6 +14145,19 @@
       "url": "https://agenda.villemorte.fr/event/concert-de-thibaut-preciat-and-de-marco-carollo",
       "image": "https://agenda.villemorte.fr/media/thumb/1c590205e243cfdbeeefb85d13942943.jpg",
       "id": "2ee108cd1616"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "La Machine de Turing",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-10-29",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.comedieodeon.com/spectacle/la-machine-de-turing/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2025/04/LaMachine_Turing_afftournee_GENARO_BD-1.jpg",
+      "id": "1c0e6e3e84a8"
     },
     {
       "venue": "Espace Gerson",
@@ -13757,6 +14290,19 @@
       "id": "c45e188736de"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Quel Cirque !",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-10-30",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.comedieodeon.com/spectacle/quel-cirque/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Affiche_quelcirque_BD.jpg",
+      "id": "ee3be889ad88"
+    },
+    {
       "venue": "Le Complexe café-théâtre",
       "venue_slug": "le-complexe",
       "title": "IMPRO'MINOTS",
@@ -13794,6 +14340,19 @@
       "url": "https://www.bourse-du-travail.com/toute-l-histoire-de-la-peinture-en-moins-de-deux-heures-321077.html",
       "image": "https://www.bourse-du-travail.com/img/evenement/toute-lhistoire-de-la-peinture-en-moins-de-deux-heures-par-hector-obalk--tournee-2.jpg",
       "id": "40c612ca86f5"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "La Machine de Turing",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-10-30",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.comedieodeon.com/spectacle/la-machine-de-turing/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2025/04/LaMachine_Turing_afftournee_GENARO_BD-1.jpg",
+      "id": "43d48089eaab"
     },
     {
       "venue": "Le Complexe café-théâtre",
@@ -13952,6 +14511,19 @@
       "id": "fbae0cdbd208"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Quel Cirque !",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-10-31",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.comedieodeon.com/spectacle/quel-cirque/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Affiche_quelcirque_BD.jpg",
+      "id": "54a382b0b351"
+    },
+    {
       "venue": "Théâtre de la Croix-Rousse",
       "venue_slug": "croix-rousse",
       "title": "Projection : L’Étrange Noël de monsieur Jack de Tim Burton & Henry Selick",
@@ -13976,6 +14548,19 @@
       "url": "https://improvidence.mapado.com/event/606705-en-deux-deux",
       "image": "https://img.mapado.net/2025/8/4/6890c69867523-en-deux-deux-duo-affiche-spectacle-v1-3.png_thumbs/600-600.png",
       "id": "5a3ee999b3c8"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Telle est la question",
+      "subtitle": null,
+      "category": "one-man-show",
+      "date_start": "2026-10-31",
+      "date_end": null,
+      "time": "17:00",
+      "url": "https://www.comedieodeon.com/spectacle/telle-est-la-question/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/06/Affiche_TELQ_A2_BD.jpg",
+      "id": "a43abdfde2c0"
     },
     {
       "venue": "Le Transbordeur",
@@ -14368,6 +14953,19 @@
       "id": "6d60d6346aff"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le Porteur d’Histoire",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-04",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.comedieodeon.com/spectacle/le-porteur-dhistoire/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2017/07/LPH_Affiche_NEUTRE.jpg",
+      "id": "e3a166f4005e"
+    },
+    {
       "venue": "Maison de la Danse",
       "venue_slug": "maison-de-la-danse",
       "title": "LA440",
@@ -14524,6 +15122,19 @@
       "id": "8d31a4d836ad"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "C’était quand la dernière fois ?",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-04",
+      "date_end": null,
+      "time": "21:00",
+      "url": "https://www.comedieodeon.com/spectacle/cetait-quand-la-derniere-fois/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Affiche_CQLDF.jpg",
+      "id": "8f87629ae21b"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "ON RESTE EN CONTACT",
@@ -14548,6 +15159,19 @@
       "url": "https://www.petit-bulletin.fr/agenda-319228-geraldine-kosiak-et-yveline-loiseur.html",
       "image": null,
       "id": "93fad5d4e595"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le Porteur d’Histoire",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-05",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.comedieodeon.com/spectacle/le-porteur-dhistoire/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2017/07/LPH_Affiche_NEUTRE.jpg",
+      "id": "338ec37b1324"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -14693,6 +15317,19 @@
       "id": "4ba49e4aa160"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "C’était quand la dernière fois ?",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-05",
+      "date_end": null,
+      "time": "21:00",
+      "url": "https://www.comedieodeon.com/spectacle/cetait-quand-la-derniere-fois/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Affiche_CQLDF.jpg",
+      "id": "e5e7bc9fdcdb"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "Friendzone",
@@ -14756,6 +15393,19 @@
       "url": "https://www.transbordeur.fr/evenement/la-ptite-fumee-06112026/",
       "image": "https://www.transbordeur.fr/wp-content/uploads/2026/03/a-laptitefumee.jpeg",
       "id": "989740773865"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le Porteur d’Histoire",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-06",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.comedieodeon.com/spectacle/le-porteur-dhistoire/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2017/07/LPH_Affiche_NEUTRE.jpg",
+      "id": "c5adb6722071"
     },
     {
       "venue": "La Rayonne",
@@ -14966,6 +15616,19 @@
       "id": "1920b95c26c0"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "C’était quand la dernière fois ?",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-06",
+      "date_end": null,
+      "time": "21:00",
+      "url": "https://www.comedieodeon.com/spectacle/cetait-quand-la-derniere-fois/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Affiche_CQLDF.jpg",
+      "id": "6bcb313e426e"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "FLEMME",
@@ -15148,6 +15811,19 @@
       "id": "88e0dbad242e"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le Porteur d’Histoire",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-07",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.comedieodeon.com/spectacle/le-porteur-dhistoire/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2017/07/LPH_Affiche_NEUTRE.jpg",
+      "id": "42a18ea3c909"
+    },
+    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins",
       "title": "La Distance",
@@ -15317,6 +15993,19 @@
       "id": "d5bd7b2c5417"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "C’était quand la dernière fois ?",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-07",
+      "date_end": null,
+      "time": "21:00",
+      "url": "https://www.comedieodeon.com/spectacle/cetait-quand-la-derniere-fois/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Affiche_CQLDF.jpg",
+      "id": "a30d9e149d81"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "Duos des Eux",
@@ -15380,6 +16069,19 @@
       "url": "https://www.tnp-villeurbanne.com/spectacle/barber-shop-chronicles/",
       "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_Barber_ShopcStef_Stessel.jpg",
       "id": "e412cd3f4ce0"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le petit coiffeur",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-08",
+      "date_end": null,
+      "time": "17:00",
+      "url": "https://www.comedieodeon.com/spectacle/le-petit-coiffeur/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2024/06/2024_06_Le_petit_coiffeur_Affiche20x30cm_HD-scaled.jpg",
+      "id": "842447b4622c"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -15642,6 +16344,19 @@
       "id": "8b6197ffb1c8"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le Porteur d’Histoire",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-11",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.comedieodeon.com/spectacle/le-porteur-dhistoire/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2017/07/LPH_Affiche_NEUTRE.jpg",
+      "id": "6edd16676653"
+    },
+    {
       "venue": "La Rayonne",
       "venue_slug": "la-rayonne",
       "title": "LUIZA",
@@ -15759,6 +16474,19 @@
       "id": "0891e424ee2f"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "C’était quand la dernière fois ?",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-11",
+      "date_end": null,
+      "time": "21:00",
+      "url": "https://www.comedieodeon.com/spectacle/cetait-quand-la-derniere-fois/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Affiche_CQLDF.jpg",
+      "id": "97ca7bd18afe"
+    },
+    {
       "venue": "Bourse du Travail",
       "venue_slug": "bourse-du-travail",
       "title": "Thomas Wiesel",
@@ -15770,6 +16498,19 @@
       "url": "https://www.bourse-du-travail.com/thomas-wiesel-338820.html",
       "image": "https://www.bourse-du-travail.com/img/evenement/thomas-wiesel-dans-societe-ecrans-4.jpg",
       "id": "ab49d37542bd"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le Porteur d’Histoire",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-12",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.comedieodeon.com/spectacle/le-porteur-dhistoire/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2017/07/LPH_Affiche_NEUTRE.jpg",
+      "id": "65e54e86a5ca"
     },
     {
       "venue": "Le Transbordeur",
@@ -15967,6 +16708,19 @@
       "id": "81cf68444451"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "C’était quand la dernière fois ?",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-12",
+      "date_end": null,
+      "time": "21:00",
+      "url": "https://www.comedieodeon.com/spectacle/cetait-quand-la-derniere-fois/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Affiche_CQLDF.jpg",
+      "id": "649486eac151"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "Playlist",
@@ -15991,6 +16745,19 @@
       "url": "https://le-sucre.eu/events/concert-8/",
       "image": "https://le-sucre.eu/wp-content/uploads/2026/06/carre-6-600x600.jpg",
       "id": "4bd9cc54ef0d"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le Porteur d’Histoire",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-13",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.comedieodeon.com/spectacle/le-porteur-dhistoire/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2017/07/LPH_Affiche_NEUTRE.jpg",
+      "id": "8504fc8d9b04"
     },
     {
       "venue": "La Rayonne",
@@ -16201,6 +16968,19 @@
       "id": "251deaec3bb3"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "C’était quand la dernière fois ?",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-13",
+      "date_end": null,
+      "time": "21:00",
+      "url": "https://www.comedieodeon.com/spectacle/cetait-quand-la-derniere-fois/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Affiche_CQLDF.jpg",
+      "id": "d3c48961906b"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "Les p'tits riens",
@@ -16305,6 +17085,19 @@
       "id": "df624025c459"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Telle est la question",
+      "subtitle": null,
+      "category": "one-man-show",
+      "date_start": "2026-11-14",
+      "date_end": null,
+      "time": "17:00",
+      "url": "https://www.comedieodeon.com/spectacle/telle-est-la-question/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/06/Affiche_TELQ_A2_BD.jpg",
+      "id": "4b919919b67d"
+    },
+    {
       "venue": "Les Subsistances",
       "venue_slug": "les-subs",
       "title": "Ne me faites pas entendre ce que je n'ai pas dit",
@@ -16394,6 +17187,19 @@
       "url": "https://espacegerson.mapado.com/event/733814-le-grand-sacripant-andromede",
       "image": "https://img.mapado.net/2026/7/24/6a638a28b7373-grand-sacripant-2-septembre-1.jpeg_thumbs/600-600.jpeg",
       "id": "b285e0b75228"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le Porteur d’Histoire",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-14",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.comedieodeon.com/spectacle/le-porteur-dhistoire/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2017/07/LPH_Affiche_NEUTRE.jpg",
+      "id": "fe872b2d2fbb"
     },
     {
       "venue": "La Rayonne",
@@ -16498,6 +17304,19 @@
       "url": "https://www.les-subs.com/evenement/nuit-du-cirque-2026-dj-fantastik/",
       "image": "https://www.les-subs.com/wp-content/uploads/2026/07/capture-200x200.jpg",
       "id": "52fc42981fbd"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "C’était quand la dernière fois ?",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-14",
+      "date_end": null,
+      "time": "21:00",
+      "url": "https://www.comedieodeon.com/spectacle/cetait-quand-la-derniere-fois/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Affiche_CQLDF.jpg",
+      "id": "2ff314a97b5d"
     },
     {
       "venue": "Improvidence",
@@ -16838,6 +17657,19 @@
       "id": "ec34f1a35c20"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le Porteur d’Histoire",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-18",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.comedieodeon.com/spectacle/le-porteur-dhistoire/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2017/07/LPH_Affiche_NEUTRE.jpg",
+      "id": "4882228790f9"
+    },
+    {
       "venue": "La Rayonne",
       "venue_slug": "la-rayonne",
       "title": "THE LOCOS",
@@ -17007,6 +17839,19 @@
       "id": "df696a0b6a4b"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Barbara, de théâtre en théâtre…",
+      "subtitle": null,
+      "category": "spectacle musical",
+      "date_start": "2026-11-18",
+      "date_end": null,
+      "time": "21:00",
+      "url": "https://www.comedieodeon.com/spectacle/barbara-de-theatre-en-theatre/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Affiche-Barbara@Thelma-Dutrievoz.png",
+      "id": "df2321d9bfea"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "LE CANAPE",
@@ -17018,6 +17863,19 @@
       "url": "https://improvidence.mapado.com/event/3921-le-canape",
       "image": "https://img.mapado.net/2024/9/2/66d5820012170-canape-site-improvidence-2024.jpeg_thumbs/600-600.jpeg",
       "id": "ac4cdbf86ca7"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le Porteur d’Histoire",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-19",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.comedieodeon.com/spectacle/le-porteur-dhistoire/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2017/07/LPH_Affiche_NEUTRE.jpg",
+      "id": "53cf674aca0e"
     },
     {
       "venue": "La Rayonne",
@@ -17202,6 +18060,19 @@
       "id": "5633023a96c5"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Barbara, de théâtre en théâtre…",
+      "subtitle": null,
+      "category": "spectacle musical",
+      "date_start": "2026-11-19",
+      "date_end": null,
+      "time": "21:00",
+      "url": "https://www.comedieodeon.com/spectacle/barbara-de-theatre-en-theatre/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Affiche-Barbara@Thelma-Dutrievoz.png",
+      "id": "7ca5962d83dd"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "On n'a pas le même titre !",
@@ -17239,6 +18110,19 @@
       "url": "https://le-sucre.eu/events/concert-4/",
       "image": "https://le-sucre.eu/wp-content/uploads/2026/04/insta-2-480x600.jpg",
       "id": "c54c77d30364"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le Porteur d’Histoire",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-20",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.comedieodeon.com/spectacle/le-porteur-dhistoire/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2017/07/LPH_Affiche_NEUTRE.jpg",
+      "id": "aae9b5064117"
     },
     {
       "venue": "La Rayonne",
@@ -17566,6 +18450,19 @@
       "id": "8113653c405a"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le Porteur d’Histoire",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-21",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.comedieodeon.com/spectacle/le-porteur-dhistoire/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2017/07/LPH_Affiche_NEUTRE.jpg",
+      "id": "c8ef57b1ea7f"
+    },
+    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins",
       "title": "Thésée, sa vie nouvelle",
@@ -17709,6 +18606,19 @@
       "id": "960f84c5f77e"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Barbara, de théâtre en théâtre…",
+      "subtitle": null,
+      "category": "spectacle musical",
+      "date_start": "2026-11-21",
+      "date_end": null,
+      "time": "21:00",
+      "url": "https://www.comedieodeon.com/spectacle/barbara-de-theatre-en-theatre/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Affiche-Barbara@Thelma-Dutrievoz.png",
+      "id": "364d34c284e9"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "Une grande table avec du monde autour",
@@ -17824,6 +18734,19 @@
       "url": "https://www.theatredescelestins.com/fr/programmation/2026-2027/creation/le-proces-de-jeanne-bloch",
       "image": "https://www.theatredescelestins.com/assets/q75-w600/52125380/le_proces_de_jeanne_bloch_cedric_roulliat_2.jpg",
       "id": "054d67a58d45"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le petit coiffeur",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-22",
+      "date_end": null,
+      "time": "17:00",
+      "url": "https://www.comedieodeon.com/spectacle/le-petit-coiffeur/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2024/06/2024_06_Le_petit_coiffeur_Affiche20x30cm_HD-scaled.jpg",
+      "id": "acbd5fbc6dd0"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -18047,6 +18970,19 @@
       "id": "2ba510789187"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le Porteur d’Histoire",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-25",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.comedieodeon.com/spectacle/le-porteur-dhistoire/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2017/07/LPH_Affiche_NEUTRE.jpg",
+      "id": "d8d5c9b788fa"
+    },
+    {
       "venue": "La Rayonne",
       "venue_slug": "la-rayonne",
       "title": "COMPLET // ELOIZ",
@@ -18177,6 +19113,19 @@
       "id": "0a8c5ffdceaf"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Barbara, de théâtre en théâtre…",
+      "subtitle": null,
+      "category": "spectacle musical",
+      "date_start": "2026-11-25",
+      "date_end": null,
+      "time": "21:00",
+      "url": "https://www.comedieodeon.com/spectacle/barbara-de-theatre-en-theatre/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Affiche-Barbara@Thelma-Dutrievoz.png",
+      "id": "abe2b86fb2e9"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "Seconds couteaux",
@@ -18227,6 +19176,19 @@
       "url": "https://le-sucre.eu/events/concert-16/",
       "image": "https://le-sucre.eu/wp-content/uploads/2026/09/31cbe4c6-3bb9-450f-9c5c-b23b624bcc2b-557x600.jpg",
       "id": "14c1551b98fb"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le Porteur d’Histoire",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-26",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.comedieodeon.com/spectacle/le-porteur-dhistoire/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2017/07/LPH_Affiche_NEUTRE.jpg",
+      "id": "2d6d0dccca7b"
     },
     {
       "venue": "La Rayonne",
@@ -18435,6 +19397,19 @@
       "url": "https://maisondeladanse.com/programmation/saison2026-2027/slavas-snowshow",
       "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/slava_snowshow-s.jpg?itok=aPKlMSMr",
       "id": "52c27865ae2e"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Barbara, de théâtre en théâtre…",
+      "subtitle": null,
+      "category": "spectacle musical",
+      "date_start": "2026-11-26",
+      "date_end": null,
+      "time": "21:00",
+      "url": "https://www.comedieodeon.com/spectacle/barbara-de-theatre-en-theatre/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Affiche-Barbara@Thelma-Dutrievoz.png",
+      "id": "9e18159f485e"
     },
     {
       "venue": "Improvidence",
@@ -18697,6 +19672,19 @@
       "id": "06c4c96bcce3"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Barbara, de théâtre en théâtre…",
+      "subtitle": null,
+      "category": "spectacle musical",
+      "date_start": "2026-11-27",
+      "date_end": null,
+      "time": "21:00",
+      "url": "https://www.comedieodeon.com/spectacle/barbara-de-theatre-en-theatre/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Affiche-Barbara@Thelma-Dutrievoz.png",
+      "id": "19725883e8a8"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "Scènes de crime",
@@ -18853,6 +19841,19 @@
       "id": "e31b2309b4e6"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Telle est la question",
+      "subtitle": null,
+      "category": "one-man-show",
+      "date_start": "2026-11-28",
+      "date_end": null,
+      "time": "17:00",
+      "url": "https://www.comedieodeon.com/spectacle/telle-est-la-question/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/06/Affiche_TELQ_A2_BD.jpg",
+      "id": "06eafbd1a298"
+    },
+    {
       "venue": "Théâtre de la Croix-Rousse",
       "venue_slug": "croix-rousse",
       "title": "Goûter philo avec Muriel Imbach",
@@ -18903,6 +19904,19 @@
       "url": "https://espacegerson.mapado.com/event/716517-axel-lattuada-p-e-r-a-v",
       "image": "https://img.mapado.net/2026/5/5/69fa0900cc812-lattuada.png_thumbs/600-600.png",
       "id": "9a839c713602"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le Porteur d’Histoire",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-28",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.comedieodeon.com/spectacle/le-porteur-dhistoire/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2017/07/LPH_Affiche_NEUTRE.jpg",
+      "id": "6ae7e294338c"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -19033,6 +20047,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/lexperience-theatrale/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/06/l-experience-theatrale-500x500.jpg",
       "id": "cab4b3d85772"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Barbara, de théâtre en théâtre…",
+      "subtitle": null,
+      "category": "spectacle musical",
+      "date_start": "2026-11-28",
+      "date_end": null,
+      "time": "21:00",
+      "url": "https://www.comedieodeon.com/spectacle/barbara-de-theatre-en-theatre/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Affiche-Barbara@Thelma-Dutrievoz.png",
+      "id": "248a811cff23"
     },
     {
       "venue": "Improvidence",
@@ -19386,6 +20413,19 @@
       "id": "b6a4c49443be"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le Porteur d’Histoire",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-12-02",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.comedieodeon.com/spectacle/le-porteur-dhistoire/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2017/07/LPH_Affiche_NEUTRE.jpg",
+      "id": "6b28838526a4"
+    },
+    {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
       "title": "SLIFT",
@@ -19529,6 +20569,19 @@
       "id": "842339f50021"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Dernier réveillon avant l’année prochaine",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-12-02",
+      "date_end": null,
+      "time": "21:00",
+      "url": "https://www.comedieodeon.com/spectacle/dernier-reveillon-avant-lannee-prochaine/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Dernier-Reveillon_WEB_RVB_72dpi-pr-diffusion-web-et-reseaux-sociaux.jpg",
+      "id": "1f224f389fdf"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "ON RESTE EN CONTACT",
@@ -19566,6 +20619,19 @@
       "url": "https://agenda.villemorte.fr/event/visite-en-lsf-avec-martin-dutrait",
       "image": "https://agenda.villemorte.fr/media/thumb/24d9c42f5c53d2245a240d7f7f6e95b4.jpg",
       "id": "9a945dae8d42"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le Porteur d’Histoire",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-12-03",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.comedieodeon.com/spectacle/le-porteur-dhistoire/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2017/07/LPH_Affiche_NEUTRE.jpg",
+      "id": "9fdb6bdb8644"
     },
     {
       "venue": "Le Transbordeur",
@@ -19776,6 +20842,19 @@
       "id": "4547e9f5e7fe"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Dernier réveillon avant l’année prochaine",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-12-03",
+      "date_end": null,
+      "time": "21:00",
+      "url": "https://www.comedieodeon.com/spectacle/dernier-reveillon-avant-lannee-prochaine/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Dernier-Reveillon_WEB_RVB_72dpi-pr-diffusion-web-et-reseaux-sociaux.jpg",
+      "id": "4cd73d444357"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "Friendzone",
@@ -19800,6 +20879,19 @@
       "url": "https://www.croix-rousse.com/au-programme/visite-tactile-des-decors-et-des-costumes-4/",
       "image": "https://www.croix-rousse.com/wp-content/uploads/2026/06/Visite-tactile-1080x1080-1.png",
       "id": "a8ebce835578"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le Porteur d’Histoire",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-12-04",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.comedieodeon.com/spectacle/le-porteur-dhistoire/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2017/07/LPH_Affiche_NEUTRE.jpg",
+      "id": "abb1f659aa57"
     },
     {
       "venue": "Le Transbordeur",
@@ -19969,6 +21061,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/garou/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2025/04/recadre-500x500.jpg",
       "id": "3c781bc45b68"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Dernier réveillon avant l’année prochaine",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-12-04",
+      "date_end": null,
+      "time": "21:00",
+      "url": "https://www.comedieodeon.com/spectacle/dernier-reveillon-avant-lannee-prochaine/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Dernier-Reveillon_WEB_RVB_72dpi-pr-diffusion-web-et-reseaux-sociaux.jpg",
+      "id": "2a23d3aed522"
     },
     {
       "venue": "Improvidence",
@@ -20179,6 +21284,19 @@
       "id": "133944db4025"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le Porteur d’Histoire",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-12-05",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.comedieodeon.com/spectacle/le-porteur-dhistoire/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2017/07/LPH_Affiche_NEUTRE.jpg",
+      "id": "1642d6a84bc6"
+    },
+    {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
       "title": "ROUNHAA",
@@ -20270,6 +21388,19 @@
       "id": "ebf313abe635"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Dernier réveillon avant l’année prochaine",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-12-05",
+      "date_end": null,
+      "time": "21:00",
+      "url": "https://www.comedieodeon.com/spectacle/dernier-reveillon-avant-lannee-prochaine/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Dernier-Reveillon_WEB_RVB_72dpi-pr-diffusion-web-et-reseaux-sociaux.jpg",
+      "id": "1d8eaaa1dce9"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "Le Putsch",
@@ -20346,6 +21477,19 @@
       "url": "https://improvidence.mapado.com/event/606705-en-deux-deux",
       "image": "https://img.mapado.net/2025/8/4/6890c69867523-en-deux-deux-duo-affiche-spectacle-v1-3.png_thumbs/600-600.png",
       "id": "5245bf3f994b"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le petit coiffeur",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-12-06",
+      "date_end": null,
+      "time": "17:00",
+      "url": "https://www.comedieodeon.com/spectacle/le-petit-coiffeur/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2024/06/2024_06_Le_petit_coiffeur_Affiche20x30cm_HD-scaled.jpg",
+      "id": "5e5b96d26ff3"
     },
     {
       "venue": "Le Transbordeur",
@@ -20491,6 +21635,19 @@
       "id": "85a74af50887"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le Porteur d’Histoire",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-12-09",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.comedieodeon.com/spectacle/le-porteur-dhistoire/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2017/07/LPH_Affiche_NEUTRE.jpg",
+      "id": "1e355025b243"
+    },
+    {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
       "title": "MINITEL",
@@ -20621,6 +21778,19 @@
       "id": "b26fefea1820"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Dernier réveillon avant l’année prochaine",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-12-09",
+      "date_end": null,
+      "time": "21:00",
+      "url": "https://www.comedieodeon.com/spectacle/dernier-reveillon-avant-lannee-prochaine/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Dernier-Reveillon_WEB_RVB_72dpi-pr-diffusion-web-et-reseaux-sociaux.jpg",
+      "id": "21bd9e5a567c"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "4L Trop Filles",
@@ -20658,6 +21828,19 @@
       "url": "https://www.theatredescelestins.com/fr/programmation/2026-2027/artistes-associe-es/projet-nanashi",
       "image": "https://www.theatredescelestins.com/assets/q75-w600/195da00d/projet_nanashi_b.jpg",
       "id": "fa5dcc2ff952"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le Porteur d’Histoire",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-12-10",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.comedieodeon.com/spectacle/le-porteur-dhistoire/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2017/07/LPH_Affiche_NEUTRE.jpg",
+      "id": "0fbcc42c53c7"
     },
     {
       "venue": "Improvidence",
@@ -20801,6 +21984,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/le-bourgeois-gentilhomme/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/06/le-bourgeois-gentilhomme-500x500.jpg",
       "id": "045092db6849"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Dernier réveillon avant l’année prochaine",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-12-10",
+      "date_end": null,
+      "time": "21:00",
+      "url": "https://www.comedieodeon.com/spectacle/dernier-reveillon-avant-lannee-prochaine/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Dernier-Reveillon_WEB_RVB_72dpi-pr-diffusion-web-et-reseaux-sociaux.jpg",
+      "id": "7afcb2848da0"
     },
     {
       "venue": "Improvidence",
@@ -20972,6 +22168,19 @@
       "id": "af6c546ae98c"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Dernier réveillon avant l’année prochaine",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-12-11",
+      "date_end": null,
+      "time": "21:00",
+      "url": "https://www.comedieodeon.com/spectacle/dernier-reveillon-avant-lannee-prochaine/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Dernier-Reveillon_WEB_RVB_72dpi-pr-diffusion-web-et-reseaux-sociaux.jpg",
+      "id": "c712bc1d2793"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "Tentative d'épuisement d'un texte insignifiant",
@@ -21115,6 +22324,19 @@
       "id": "3622e06fa4a4"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le Porteur d’Histoire",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-12-12",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.comedieodeon.com/spectacle/le-porteur-dhistoire/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2017/07/LPH_Affiche_NEUTRE.jpg",
+      "id": "8f7995c45f3c"
+    },
+    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins",
       "title": "Le Dindon",
@@ -21243,6 +22465,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/murmuration-level-2/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/03/murmuration-level_radiant-bellevue-500x500.jpg",
       "id": "722522ed70d4"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Dernier réveillon avant l’année prochaine",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-12-12",
+      "date_end": null,
+      "time": "21:00",
+      "url": "https://www.comedieodeon.com/spectacle/dernier-reveillon-avant-lannee-prochaine/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Dernier-Reveillon_WEB_RVB_72dpi-pr-diffusion-web-et-reseaux-sociaux.jpg",
+      "id": "a986af9fccc0"
     },
     {
       "venue": "Improvidence",
@@ -21544,6 +22779,19 @@
       "id": "9c646fbd9af7"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le Porteur d’Histoire",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-12-16",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.comedieodeon.com/spectacle/le-porteur-dhistoire/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2017/07/LPH_Affiche_NEUTRE.jpg",
+      "id": "338064d19569"
+    },
+    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins",
       "title": "Projet Nanashi",
@@ -21674,6 +22922,19 @@
       "id": "9012c365466b"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Dernier réveillon avant l’année prochaine",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-12-16",
+      "date_end": null,
+      "time": "21:00",
+      "url": "https://www.comedieodeon.com/spectacle/dernier-reveillon-avant-lannee-prochaine/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Dernier-Reveillon_WEB_RVB_72dpi-pr-diffusion-web-et-reseaux-sociaux.jpg",
+      "id": "5146caf4c4c8"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "Le téléfilm de Noël improvisé",
@@ -21711,6 +22972,19 @@
       "url": "https://www.theatredescelestins.com/fr/programmation/2026-2027/artistes-associe-es/projet-nanashi",
       "image": "https://www.theatredescelestins.com/assets/q75-w600/195da00d/projet_nanashi_b.jpg",
       "id": "75c86d57e95c"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le Porteur d’Histoire",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-12-17",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.comedieodeon.com/spectacle/le-porteur-dhistoire/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2017/07/LPH_Affiche_NEUTRE.jpg",
+      "id": "6850821022f4"
     },
     {
       "venue": "Le Transbordeur",
@@ -21856,6 +23130,19 @@
       "id": "00bd6804bcb6"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Dernier réveillon avant l’année prochaine",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-12-17",
+      "date_end": null,
+      "time": "21:00",
+      "url": "https://www.comedieodeon.com/spectacle/dernier-reveillon-avant-lannee-prochaine/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Dernier-Reveillon_WEB_RVB_72dpi-pr-diffusion-web-et-reseaux-sociaux.jpg",
+      "id": "16e894aa6fc7"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "On n'a pas le même titre !",
@@ -21893,6 +23180,19 @@
       "url": "https://www.bourse-du-travail.com/d-jal-278014.html",
       "image": "https://www.bourse-du-travail.com/img/evenement/djal-dans-en-pleine-conscience-4.jpg",
       "id": "01a6fd019302"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le Porteur d’Histoire",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-12-18",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.comedieodeon.com/spectacle/le-porteur-dhistoire/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2017/07/LPH_Affiche_NEUTRE.jpg",
+      "id": "c9425fb7828d"
     },
     {
       "venue": "La Rayonne",
@@ -22012,6 +23312,19 @@
       "id": "e73779d2c1fa"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Dernier réveillon avant l’année prochaine",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-12-18",
+      "date_end": null,
+      "time": "21:00",
+      "url": "https://www.comedieodeon.com/spectacle/dernier-reveillon-avant-lannee-prochaine/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Dernier-Reveillon_WEB_RVB_72dpi-pr-diffusion-web-et-reseaux-sociaux.jpg",
+      "id": "58c3b66f1ef1"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "Les Éphémères - Duos fugaces de la Lily",
@@ -22088,6 +23401,19 @@
       "url": "https://espacegerson.mapado.com/event/733814-le-grand-sacripant-andromede",
       "image": "https://img.mapado.net/2026/7/24/6a638a28b7373-grand-sacripant-2-septembre-1.jpeg_thumbs/600-600.jpeg",
       "id": "683722171716"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le Porteur d’Histoire",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-12-19",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.comedieodeon.com/spectacle/le-porteur-dhistoire/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2017/07/LPH_Affiche_NEUTRE.jpg",
+      "id": "7954ad773424"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -22181,6 +23507,19 @@
       "id": "54a84e88c04f"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Dernier réveillon avant l’année prochaine",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-12-19",
+      "date_end": null,
+      "time": "21:00",
+      "url": "https://www.comedieodeon.com/spectacle/dernier-reveillon-avant-lannee-prochaine/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Dernier-Reveillon_WEB_RVB_72dpi-pr-diffusion-web-et-reseaux-sociaux.jpg",
+      "id": "b1468317e26c"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "Senflix",
@@ -22246,6 +23585,19 @@
       "id": "9c74e5fba7f1"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le petit coiffeur",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-12-20",
+      "date_end": null,
+      "time": "17:00",
+      "url": "https://www.comedieodeon.com/spectacle/le-petit-coiffeur/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2024/06/2024_06_Le_petit_coiffeur_Affiche20x30cm_HD-scaled.jpg",
+      "id": "1af2a0dd126d"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "ANTHONY KAVANAGH",
@@ -22257,6 +23609,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/anthony-kavanagh-3/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/04/anthony-kavanagh_radiant-bellevue-500x500.jpg",
       "id": "16bc876edd44"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Au lit ! Demain c’est Noël !",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-12-21",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.comedieodeon.com/spectacle/au-lit-demain-cest-noel/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/ALDN-Affiche_BD.jpg",
+      "id": "4276a4d88a18"
     },
     {
       "venue": "Le Complexe café-théâtre",
@@ -22322,6 +23687,19 @@
       "url": "https://www.bourse-du-travail.com/le-lac-des-cygnes-international-classical-ballet-of-ukraine-tournee-375244.html",
       "image": "https://www.bourse-du-travail.com/img/evenement/le-lac-des-cygnes--international-classical-ballet-of-ukraine--tournee-43.jpg",
       "id": "70b008093cff"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Au lit ! Demain c’est Noël !",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-12-22",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.comedieodeon.com/spectacle/au-lit-demain-cest-noel/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/ALDN-Affiche_BD.jpg",
+      "id": "43ce734a864e"
     },
     {
       "venue": "Le Complexe café-théâtre",
@@ -22428,6 +23806,19 @@
       "id": "d596bb6dc953"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Au lit ! Demain c’est Noël !",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-12-23",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.comedieodeon.com/spectacle/au-lit-demain-cest-noel/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/ALDN-Affiche_BD.jpg",
+      "id": "69d4707ccf0a"
+    },
+    {
       "venue": "Le Complexe café-théâtre",
       "venue_slug": "le-complexe",
       "title": "IMPRO'MINOTS",
@@ -22439,6 +23830,19 @@
       "url": "https://www.lecomplexelyon.com/programme/improminots/",
       "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/improminots.jpg",
       "id": "6a748f568ef3"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le Porteur d’Histoire",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-12-23",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.comedieodeon.com/spectacle/le-porteur-dhistoire/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2017/07/LPH_Affiche_NEUTRE.jpg",
+      "id": "3f3137ee489d"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -22504,6 +23908,19 @@
       "url": "https://www.lecomplexelyon.com/programme/sous-le-sapin-les-emmerdes/",
       "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/sous-le-sapin-les-emmerdes-540x800.jpg",
       "id": "37e23c4a490c"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Dernier réveillon avant l’année prochaine",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-12-23",
+      "date_end": null,
+      "time": "21:00",
+      "url": "https://www.comedieodeon.com/spectacle/dernier-reveillon-avant-lannee-prochaine/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Dernier-Reveillon_WEB_RVB_72dpi-pr-diffusion-web-et-reseaux-sociaux.jpg",
+      "id": "15504b350ded"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -22597,6 +24014,19 @@
       "id": "fb60009f6702"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Au lit ! Demain c’est Noël !",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-12-26",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.comedieodeon.com/spectacle/au-lit-demain-cest-noel/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/ALDN-Affiche_BD.jpg",
+      "id": "8850689d8fc4"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "30 Impros Chrono",
@@ -22608,6 +24038,19 @@
       "url": "https://improvidence.mapado.com/event/189814-30-impros-chrono",
       "image": "https://img.mapado.net/2023/3/24/641dcdaeee02f-affiche-30-impros-chrono.jpeg_thumbs/600-600.jpeg",
       "id": "c926700b339b"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le Porteur d’Histoire",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-12-26",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.comedieodeon.com/spectacle/le-porteur-dhistoire/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2017/07/LPH_Affiche_NEUTRE.jpg",
+      "id": "755b7e49a0cb"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -22660,6 +24103,19 @@
       "url": "https://www.lecomplexelyon.com/programme/bonne-fete-des-meres/",
       "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/bonne-fete-des-meres.jpg",
       "id": "2c32cf41eec2"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Dernier réveillon avant l’année prochaine",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-12-26",
+      "date_end": null,
+      "time": "21:00",
+      "url": "https://www.comedieodeon.com/spectacle/dernier-reveillon-avant-lannee-prochaine/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Dernier-Reveillon_WEB_RVB_72dpi-pr-diffusion-web-et-reseaux-sociaux.jpg",
+      "id": "350952f95284"
     },
     {
       "venue": "Improvidence",
@@ -22738,6 +24194,19 @@
       "url": "https://www.theatredescelestins.com/fr/programmation/2026-2027/grande-salle/coup-fatal",
       "image": "https://www.theatredescelestins.com/assets/q75-w600/707246c0/coupfatal_zoeaubry_dsc0348.jpg",
       "id": "798fac36dfcb"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Au lit ! Demain c’est Noël !",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-12-28",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.comedieodeon.com/spectacle/au-lit-demain-cest-noel/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/ALDN-Affiche_BD.jpg",
+      "id": "e3e31c3f3ff8"
     },
     {
       "venue": "Le Complexe café-théâtre",
@@ -22831,6 +24300,19 @@
       "id": "795f69d5a755"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Au lit ! Demain c’est Noël !",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-12-29",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.comedieodeon.com/spectacle/au-lit-demain-cest-noel/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/ALDN-Affiche_BD.jpg",
+      "id": "88e9f5909b01"
+    },
+    {
       "venue": "Le Complexe café-théâtre",
       "venue_slug": "le-complexe",
       "title": "IMPRO'MINOTS",
@@ -22922,6 +24404,19 @@
       "id": "dcffc2929761"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Au lit ! Demain c’est Noël !",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-12-30",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.comedieodeon.com/spectacle/au-lit-demain-cest-noel/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/ALDN-Affiche_BD.jpg",
+      "id": "fe6192ec815e"
+    },
+    {
       "venue": "Le Complexe café-théâtre",
       "venue_slug": "le-complexe",
       "title": "IMPRO'MINOTS",
@@ -22933,6 +24428,19 @@
       "url": "https://www.lecomplexelyon.com/programme/improminots/",
       "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/improminots.jpg",
       "id": "1129d4c1c84d"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le Porteur d’Histoire",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-12-30",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.comedieodeon.com/spectacle/le-porteur-dhistoire/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2017/07/LPH_Affiche_NEUTRE.jpg",
+      "id": "ed531cde82a4"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -22987,6 +24495,19 @@
       "id": "7316da611071"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Dernier réveillon avant l’année prochaine",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-12-30",
+      "date_end": null,
+      "time": "21:00",
+      "url": "https://www.comedieodeon.com/spectacle/dernier-reveillon-avant-lannee-prochaine/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Dernier-Reveillon_WEB_RVB_72dpi-pr-diffusion-web-et-reseaux-sociaux.jpg",
+      "id": "6e4136242e45"
+    },
+    {
       "venue": "Bourse du Travail",
       "venue_slug": "bourse-du-travail",
       "title": "Le Grand Soir De L'année - Bourse Du Travail - Lyon",
@@ -23013,6 +24534,19 @@
       "id": "f446184f584b"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Au lit ! Demain c’est Noël !",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-12-31",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.comedieodeon.com/spectacle/au-lit-demain-cest-noel/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/ALDN-Affiche_BD.jpg",
+      "id": "bf0bbe640ffe"
+    },
+    {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
       "title": "Jérémie Reners - Rafale",
@@ -23037,6 +24571,19 @@
       "url": "https://www.lecomplexelyon.com/programme/sous-le-sapin-les-emmerdes-3/",
       "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/sous-le-sapin-les-emmerdes-31dec-540x800.jpg",
       "id": "ccd2da1a4a5f"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le Porteur d’Histoire",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-12-31",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.comedieodeon.com/spectacle/le-porteur-dhistoire/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2017/07/LPH_Affiche_NEUTRE.jpg",
+      "id": "a42177a57ee4"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -23091,6 +24638,19 @@
       "id": "7541755c4567"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Dernier réveillon avant l’année prochaine",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-12-31",
+      "date_end": null,
+      "time": "21:00",
+      "url": "https://www.comedieodeon.com/spectacle/dernier-reveillon-avant-lannee-prochaine/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Dernier-Reveillon_WEB_RVB_72dpi-pr-diffusion-web-et-reseaux-sociaux.jpg",
+      "id": "c09dff016ff7"
+    },
+    {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
       "title": "Jérémie Reners - Rafale",
@@ -23102,6 +24662,32 @@
       "url": "https://espacegerson.mapado.com/event/822514-jeremie-reners-rafale",
       "image": "https://img.mapado.net/2026/7/29/6a6a1817cb205-reners-31dec.png_thumbs/600-600.png",
       "id": "67c8d4671426"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Au lit ! Demain c’est Noël !",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2027-01-02",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.comedieodeon.com/spectacle/au-lit-demain-cest-noel/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/ALDN-Affiche_BD.jpg",
+      "id": "e454dcd26909"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le Porteur d’Histoire",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-01-02",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.comedieodeon.com/spectacle/le-porteur-dhistoire/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2017/07/LPH_Affiche_NEUTRE.jpg",
+      "id": "4fe7d47fd04a"
     },
     {
       "venue": "Le Complexe café-théâtre",
@@ -23130,6 +24716,19 @@
       "id": "8fb0ccc7f3bb"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Dernier réveillon avant l’année prochaine",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-01-02",
+      "date_end": null,
+      "time": "21:00",
+      "url": "https://www.comedieodeon.com/spectacle/dernier-reveillon-avant-lannee-prochaine/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Dernier-Reveillon_WEB_RVB_72dpi-pr-diffusion-web-et-reseaux-sociaux.jpg",
+      "id": "657d6bc6d22d"
+    },
+    {
       "venue": "Le Complexe café-théâtre",
       "venue_slug": "le-complexe",
       "title": "LE COMPLEXE COMEDY CLUB - Un plateau d'humoristes !",
@@ -23154,6 +24753,19 @@
       "url": "https://www.bourse-du-travail.com/k-pop-shadow-slayers-tournee-375689.html",
       "image": "https://www.bourse-du-travail.com/img/evenement/k-pop-shadow-hunters--tournee-3.jpg",
       "id": "8b95150bcb13"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le petit coiffeur",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-01-03",
+      "date_end": null,
+      "time": "17:00",
+      "url": "https://www.comedieodeon.com/spectacle/le-petit-coiffeur/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2024/06/2024_06_Le_petit_coiffeur_Affiche20x30cm_HD-scaled.jpg",
+      "id": "410fdeef4da4"
     },
     {
       "venue": "Le Complexe café-théâtre",
@@ -24311,6 +25923,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/moguiz-2/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2025/04/mog-1-scaled.jpg",
       "id": "160eb7ff67f5"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Léandre – Privilégié",
+      "subtitle": null,
+      "category": "one-man-show",
+      "date_start": "2027-01-15",
+      "date_end": null,
+      "time": "21:00",
+      "url": "https://www.comedieodeon.com/spectacle/leandre-dans-sablier/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2025/10/LEANDRE-40x60_BD.jpg",
+      "id": "0bb45211340b"
     },
     {
       "venue": "Théâtre de la Croix-Rousse",
@@ -27849,6 +29474,32 @@
       "id": "2371240e67a8"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le Petit Prince",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2027-02-15",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.comedieodeon.com/spectacle/le-petit-prince/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Affiche_Le-petit-prince_BD.jpg",
+      "id": "60c63d9a0c50"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le Petit Prince",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2027-02-16",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.comedieodeon.com/spectacle/le-petit-prince/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Affiche_Le-petit-prince_BD.jpg",
+      "id": "b4c958e72843"
+    },
+    {
       "venue": "Le Complexe café-théâtre",
       "venue_slug": "le-complexe",
       "title": "IMPRO'MINOTS",
@@ -27873,6 +29524,19 @@
       "url": "https://www.lecomplexelyon.com/programme/life-time/",
       "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/life-time.jpg",
       "id": "363c4d0fee73"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le Petit Prince",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2027-02-17",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.comedieodeon.com/spectacle/le-petit-prince/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Affiche_Le-petit-prince_BD.jpg",
+      "id": "da7e2df54f29"
     },
     {
       "venue": "Le Complexe café-théâtre",
@@ -27953,6 +29617,19 @@
       "id": "321ccffd69d0"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le Petit Prince",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2027-02-18",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.comedieodeon.com/spectacle/le-petit-prince/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Affiche_Le-petit-prince_BD.jpg",
+      "id": "01b00eb6d459"
+    },
+    {
       "venue": "Le Complexe café-théâtre",
       "venue_slug": "le-complexe",
       "title": "IMPRO'MINOTS",
@@ -28016,6 +29693,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/adel-fugazi/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/04/adel-fugazi-500x500.jpg",
       "id": "9866e1fd333b"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le Petit Prince",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2027-02-19",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.comedieodeon.com/spectacle/le-petit-prince/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Affiche_Le-petit-prince_BD.jpg",
+      "id": "29080fe2d743"
     },
     {
       "venue": "Le Complexe café-théâtre",
@@ -28120,6 +29810,19 @@
       "url": "https://www.halle-tony-garnier.com/fr/programmation/holiday-on-ice-cinema-of-dreams-2",
       "image": "https://www.halle-tony-garnier.com/storage/143705/conversions/2027-02-20-HOLIDAY-ON-ICE-CINEMA-OF-DREAMS-02-1080x1080-hoi-cod-lyo-20260311-150100-square.jpg",
       "id": "b2618ecfeaa6"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le Petit Prince",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2027-02-20",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.comedieodeon.com/spectacle/le-petit-prince/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Affiche_Le-petit-prince_BD.jpg",
+      "id": "d5694b4eff0b"
     },
     {
       "venue": "Improvidence",
@@ -28239,6 +29942,19 @@
       "id": "dcf3a1da9203"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le Petit Prince",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2027-02-22",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.comedieodeon.com/spectacle/le-petit-prince/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Affiche_Le-petit-prince_BD.jpg",
+      "id": "9f9d79fbb0b8"
+    },
+    {
       "venue": "Le Complexe café-théâtre",
       "venue_slug": "le-complexe",
       "title": "L'Open Mic du Complexe",
@@ -28250,6 +29966,19 @@
       "url": "https://www.lecomplexelyon.com/programme/lopen-mic-du-complexe/",
       "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/lopen-mic-du-complexe-540x800.jpg",
       "id": "36e30f472243"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le Petit Prince",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2027-02-23",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.comedieodeon.com/spectacle/le-petit-prince/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Affiche_Le-petit-prince_BD.jpg",
+      "id": "bd71fbd4dbda"
     },
     {
       "venue": "Le Complexe café-théâtre",
@@ -28343,6 +30072,19 @@
       "id": "f6ebd542d39f"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le Petit Prince",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2027-02-24",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.comedieodeon.com/spectacle/le-petit-prince/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Affiche_Le-petit-prince_BD.jpg",
+      "id": "16822d822c9e"
+    },
+    {
       "venue": "Le Complexe café-théâtre",
       "venue_slug": "le-complexe",
       "title": "IMPRO'MINOTS",
@@ -28419,6 +30161,19 @@
       "url": "https://improvidence.mapado.com/event/9973-on-reste-en-contact",
       "image": "https://img.mapado.net/2018/12/2/5c043197ed152-on-reste-en-contact.jpeg_thumbs/600-600.jpeg",
       "id": "91543396dc68"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le Petit Prince",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2027-02-25",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.comedieodeon.com/spectacle/le-petit-prince/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Affiche_Le-petit-prince_BD.jpg",
+      "id": "657f163ae679"
     },
     {
       "venue": "Le Complexe café-théâtre",
@@ -28510,6 +30265,19 @@
       "url": "https://www.petit-bulletin.fr/agenda-319231-alchimies-photographiques.html",
       "image": null,
       "id": "e21b376f23d7"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le Petit Prince",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2027-02-26",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.comedieodeon.com/spectacle/le-petit-prince/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Affiche_Le-petit-prince_BD.jpg",
+      "id": "3fa91ac3037a"
     },
     {
       "venue": "Le Complexe café-théâtre",
@@ -28614,6 +30382,19 @@
       "url": "https://www.bourse-du-travail.com/dany-boon-355761.html",
       "image": "https://www.bourse-du-travail.com/img/evenement/dany-boon-dans-clown-nest-pas-un-metier--4.jpg",
       "id": "c41e55b04b46"
+    },
+    {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "Le Petit Prince",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2027-02-27",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.comedieodeon.com/spectacle/le-petit-prince/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Affiche_Le-petit-prince_BD.jpg",
+      "id": "4aeff290594e"
     },
     {
       "venue": "Improvidence",
