@@ -154,16 +154,15 @@ motif.
 - **Ville Morte : aucun filtre**, tout son agenda remonte. C'est la
   déduplication qui écarte les doublons quand un événement est aussi
   publié par la salle elle-même.
-- **Petit Bulletin : deux filtres**, et deux seulement
-  (`scrapers/aggregators/petit_bulletin.py`). Par LIEU, les musées et
-  galeries — leurs accrochages courent sur des mois et saturaient le feed.
-  Par CATÉGORIE, ce qui n'est pas une sortie de soirée : rencontres et
-  dédicaces, lectures, débats, photographie, design & architecture, art
-  contemporain, peinture & dessin. Chaque motif est vérifié contre la
-  taxonomie complète avant d'être ajouté — « art contemporain » est pris
-  en entier, « art » seul emporterait « Art graphique » et « Street Art ».
-  La catégorie reste facultative : un événement non catégorisé n'est
-  jamais écarté.
+- **Petit Bulletin : aucun filtre**, comme Ville Morte. Deux filtres y
+  existaient — musées et galeries d'un côté, une liste de catégories de
+  l'autre — parce que les accrochages, courant sur des mois, saturaient
+  le feed. Ils sont levés : chaque journée se répartit désormais en
+  quatre familles qu'un bouton éteint, et c'est au lecteur de dire qu'il
+  ne veut pas d'expositions ce soir. Sans filtre le scraper rapporte 572
+  événements au lieu de 400, dont 119 en famille « expos » — laquelle
+  n'en comptait que 27 auparavant, et n'apparaissait que sur un jour
+  chargé sur quatre.
 - **Familles d'affichage** (`FAMILLES`, index.html) : musique, scène,
   expos, autres. Quatre et non dix-huit — les buckets restent la maille
   fine, mais autant de sections dans une journée seraient illisibles.

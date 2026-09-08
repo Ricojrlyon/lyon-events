@@ -1532,7 +1532,7 @@ const TYPE_BUCKETS = [
   // Music sub-genres FIRST (order matters: first regex match wins).
   // The previous single "musique" bucket was too broad; with aggregators
   // bringing in 100+ events per scrape, having sub-genres is essential.
-  { key: 'club',        label: 'club',        match: /\belectro|techno|house|trance|drum.?n.?bass|\bdnb\b|\bdj\b|soir[ée]e|club\b|after/i },
+  { key: 'club',        label: 'club',        match: /\belectro|techno|house|trance|drum.?n.?bass|\bdnb\b|\bdj\b|soir[ée]e|club\b|clubbing|after/i },
   { key: 'jazz',        label: 'jazz',        match: /\bjazz|\bblues|\bswing\b|\bimpro\b/i },
   { key: 'rock',        label: 'rock & pop',  match: /\brock\b|\bpop\b|m[ée]tal|punk\b|indie|garage\b|hardcore/i },
   // 'rap' BEFORE 'chanson' so "Hip Hop / Rap" doesn't get caught by chanson's
@@ -1560,7 +1560,13 @@ const TYPE_BUCKETS = [
   // ni danse ni humour. Placé APRÈS ces trois-là, plus précis — sinon
   // « spectacle musical » quitterait le théâtre pour venir ici.
   { key: 'spectacle',   label: 'spectacle',   match: /spectacle|cirque|magie|\bdrag\b|performance|marionnette/i },
-  { key: 'expo',        label: 'expo',        match: /\bexpo|exposition|vernissage|installation|\bvisite|street\s*art|sculpture|art\s*graphique/i },
+  // Les disciplines plastiques que la taxonomie du Petit Bulletin nomme
+  // sans jamais dire « exposition ». Elles ne remontaient pas avant : le
+  // scraper les écartait. Depuis qu'il ne filtre plus, ces cent
+  // événements iraient grossir « autres » faute de bucket, et le bouton
+  // « expos » — qui justifie précisément d'avoir levé le filtre —
+  // resterait vide.
+  { key: 'expo',        label: 'expo',        match: /\bexpo|exposition|vernissage|installation|\bvisite|street\s*art|sculpture|art\s*graphique|peinture|dessin|art\s*contemporain|photograph|design|architecture/i },
   { key: 'cine',        label: 'ciné',        match: /cin[ée]ma|projection|s[ée]ance|documentaire|court[\s-]?m[ée]trage/i },
   { key: 'conference',  label: 'conférence',  match: /conf[ée]rence|rencontre|d[ée]bat|table\s*ronde|discussion|colloque|lecture|sciences/i },
   // Quiz, blind test, karaoké : ni musique ni scène, mais assez présents
