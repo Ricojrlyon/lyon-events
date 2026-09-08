@@ -79,6 +79,11 @@ VENUE_CANONICAL: dict[str, list[str]] = {
                                  "complexe cafe theatre",
                                  "le complexe", "complexe"],
     # === New venues from aggregators (canonical names) ===
+    # Le site écrit « Maison de la danse » sans majuscule à danse, le
+    # Petit Bulletin avec. La normalisation gomme la casse, mais pas la
+    # variante « - Grande salle » ni l'article.
+    "Maison de la Danse":     ["maison de la danse", "la maison de la danse",
+                               "maison de la danse grande salle"],
     # Le TNP s'écrit de bien des façons. « tnp » seul suffirait presque,
     # mais le nom complet et sa version sans tiret circulent aussi.
     "TNP - Théâtre National Populaire": ["tnp", "tnp villeurbanne",

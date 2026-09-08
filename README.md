@@ -8,7 +8,7 @@ et affichés sur une page statique hébergée par GitHub Pages :
 ## Fonctionnement
 
 ```
-20 scrapers venue ──┐
+21 scrapers venue ──┐
                     ├─→ dédup 3 passes ─→ events.json ─→ index.html (GitHub Pages)
 2 agrégateurs ──────┘         │
 (Petit Bulletin,              ├─→ venue_arrondissements.json (géocodage Nominatim)
@@ -31,6 +31,18 @@ les trois fichiers de données.
   l'Espace Gerson à la Salle Victor Hugo et à la Bourse du Travail (que
   nocturne scrappe déjà). Chaque scraper fournit donc son prédicat de
   lieu, appliqué sur le Venue que Mapado expose en clair.
+- **`scrapers/maison_de_la_danse.py`** — la Maison de la Danse, seul
+  site du dépôt à demander un `Crawl-delay` (10 s). Il est respecté, et
+  c'est ce qui rend `detail_cache` indispensable : le délai est posé DANS
+  le fetcher, donc il ne frappe que les fiches réellement téléchargées —
+  216 s au premier passage, 11 s aux suivants. Trois pièges y ont coûté
+  des spectacles entiers, tous silencieux : les séries à cheval sur deux
+  mois portent un titre « NOVEMBRE - DÉCEMBRE » et non un mois unique ;
+  un quantième qui se répète un mois plus tard (mercredi 28 octobre puis
+  samedi 28 novembre) ne recule pas, seul le nom du jour distingue ce cas
+  d'une double séance ; et une fiche sans bloc « Lieu » n'est pas un
+  accueil extérieur mais un lieu non précisé — les accueils, eux, le
+  renseignent toujours.
 - **`scrapers/tnp.py`** — le TNP, seul scraper à s'être vu REFUSER une
   API qui existe : le site est un WordPress mais son robots.txt interdit
   /wp-json/. On lit donc /agenda/, qui a l'avantage de rendre la saison
