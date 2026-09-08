@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-08T14:12:41.500858+00:00",
-  "count": 2508,
+  "generated_at": "2026-09-08T19:59:49.814030+00:00",
+  "count": 2550,
   "events": [
     {
       "venue": "Opéra national de Lyon",
@@ -315,19 +315,6 @@
       "id": "a23a4bdc3bcf"
     },
     {
-      "venue": "Bieristan",
-      "venue_slug": "bieristan",
-      "title": "Game of quizz 100% Culture G",
-      "subtitle": null,
-      "category": "jeux",
-      "date_start": "2026-09-08",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://agenda.villemorte.fr/event/game-of-quizz-100-culture-g",
-      "image": null,
-      "id": "97c2cbdb2ac5"
-    },
-    {
       "venue": "La Rayonne",
       "venue_slug": "la-rayonne",
       "title": "THE PINEAPPLE THIEF",
@@ -354,19 +341,6 @@
       "id": "baf0fda7ba83"
     },
     {
-      "venue": "Radio Canut",
-      "venue_slug": "radio-canut",
-      "title": "Radio Canut - Ne nous écoutez pas ... Rejoignez nous !",
-      "subtitle": null,
-      "category": null,
-      "date_start": "2026-09-08",
-      "date_end": null,
-      "time": "19:00",
-      "url": "https://agenda.villemorte.fr/event/radio-canut-ne-nous-ecoutez-pas-rejoignez-nous-8",
-      "image": null,
-      "id": "e760db880a90"
-    },
-    {
       "venue": "Théâtre des Marronniers",
       "venue_slug": "theatre-des-marronniers",
       "title": "Soirée de rentrée littéraire",
@@ -391,19 +365,6 @@
       "url": "https://sonic-lyon.fr/evenement/tvod/",
       "image": "https://sonic-lyon.fr/wp-content/uploads/2026/05/TVOD_Band-Pic-683x1024.jpg",
       "id": "ce41efb86d8a"
-    },
-    {
-      "venue": "Espace Gerson",
-      "venue_slug": "espace-gerson",
-      "title": "Les Divines",
-      "subtitle": null,
-      "category": "café-théâtre",
-      "date_start": "2026-09-08",
-      "date_end": null,
-      "time": "20:30",
-      "url": "https://espacegerson.mapado.com/event/722992-les-divines",
-      "image": "https://img.mapado.net/2026/5/29/6a199d4fdfb7f-les-divines.png_thumbs/600-600.png",
-      "id": "a5815d402cf7"
     },
     {
       "venue": "Le Complexe café-théâtre",
@@ -570,8 +531,8 @@
       "date_start": "2026-09-09",
       "date_end": null,
       "time": "20:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319022-agn-s-bihl.html",
-      "image": "https://agenda.villemorte.fr/media/thumb/aa1f3d467abcfb98c013dfd69fe60d5c.jpg",
+      "url": "https://agendarts.wordpress.com/2026/06/21/agnes-bihl/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/agnesbihl-by-zoe-satche.jpeg?w=640",
       "id": "4832487eb8df"
     },
     {
@@ -811,15 +772,15 @@
     {
       "venue": "Agend'arts",
       "venue_slug": "agend-arts",
-      "title": "Concert d'Agnès Bihl",
+      "title": "Agnès Bihl",
       "subtitle": null,
       "category": "musique",
       "date_start": "2026-09-10",
       "date_end": null,
       "time": "20:00",
-      "url": "https://agenda.villemorte.fr/event/concert-dagnes-bihl-1",
-      "image": "https://agenda.villemorte.fr/media/thumb/d5da61b3e3b8e94160ddb1c375382ce6.jpg",
-      "id": "23a8aefec390"
+      "url": "https://agendarts.wordpress.com/2026/06/21/agnes-bihl/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/agnesbihl-by-zoe-satche.jpeg?w=640",
+      "id": "bf4a8aff3175"
     },
     {
       "venue": "Boskop",
@@ -1259,8 +1220,8 @@
       "date_start": "2026-09-11",
       "date_end": null,
       "time": "20:00",
-      "url": "https://agenda.villemorte.fr/event/scene-ouverte-slam-session-de-septembre",
-      "image": "https://agenda.villemorte.fr/media/thumb/2a4574f500ca6c503bdc1fd52f350d46.jpg",
+      "url": "https://agendarts.wordpress.com/2026/06/21/scene-ouverte-slam-session-de-septembre/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/slam-1.jpg?w=1024",
       "id": "bd5700697ed0"
     },
     {
@@ -1838,15 +1799,15 @@
     {
       "venue": "Agend'arts",
       "venue_slug": "agend-arts",
-      "title": "La blouse",
+      "title": "Perrine Rouland – Blouse",
       "subtitle": null,
       "category": "Humour & Café Théâtre",
       "date_start": "2026-09-12",
       "date_end": null,
       "time": "20:00",
-      "url": "https://www.petit-bulletin.fr/agenda-311004-la-blouse.html",
-      "image": "https://agenda.villemorte.fr/media/thumb/034639873dca62a82368e2555deb4b00.jpg",
-      "id": "d2ddff4b66b2"
+      "url": "https://agendarts.wordpress.com/2026/06/21/perrine-rouland-blouse/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/blouse-3-visuel-granville-26.pdf.jpg?w=724",
+      "id": "5946e6680a4f"
     },
     {
       "venue": "Amphithéâtre - Salle 3000",
@@ -1951,6 +1912,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/yanns/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/03/yanns_radiant-bellevue-500x500.jpg",
       "id": "f11f7dbe3eb3"
+    },
+    {
+      "venue": "Bar Rock'n Eat",
+      "venue_slug": "rock-n-eat",
+      "title": "BIG MOUTH (punk hardcore) + LEFT BANK (punk-rock, Nantes) + NICK HEYWOOD (punk)",
+      "subtitle": null,
+      "category": "musique",
+      "date_start": "2026-09-12",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://agenda.villemorte.fr/event/big-mouth-punk-hardcore-left-bank-punk-rock-nantes-nick-heywood-punk",
+      "image": "https://agenda.villemorte.fr/media/thumb/fd5d3c31e31b03d524bf5bc04257dfa4.jpg",
+      "id": "d5cc65116a49"
     },
     {
       "venue": "Bar des Capucins",
@@ -2202,15 +2176,15 @@
     {
       "venue": "Agend'arts",
       "venue_slug": "agend-arts",
-      "title": "Spectacle de Perrine Rouland – Blouse",
+      "title": "Perrine Rouland – Blouse",
       "subtitle": null,
       "category": "théâtre",
       "date_start": "2026-09-13",
       "date_end": null,
       "time": "18:00",
-      "url": "https://agenda.villemorte.fr/event/spectacle-de-perrine-rouland-blouse-1",
-      "image": "https://agenda.villemorte.fr/media/thumb/6e04524c04b465757ea4a92a28b5c913.jpg",
-      "id": "00963753dc00"
+      "url": "https://agendarts.wordpress.com/2026/06/21/perrine-rouland-blouse/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/blouse-3-visuel-granville-26.pdf.jpg?w=724",
+      "id": "92389f227ed4"
     },
     {
       "venue": "Boskop",
@@ -2546,8 +2520,8 @@
       "date_start": "2026-09-15",
       "date_end": null,
       "time": "19:30",
-      "url": "https://agenda.villemorte.fr/event/les-mardis-du-4-session-de-septembre",
-      "image": "https://agenda.villemorte.fr/media/thumb/a540767d2f0f4b583385d8e751e81cb0.jpg",
+      "url": "https://agendarts.wordpress.com/2026/06/21/les-mardis-du-4-session-de-septembre-2/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/lmd4-150926-2.jpg?w=1024",
       "id": "6619966f2ed4"
     },
     {
@@ -3205,12 +3179,12 @@
       "venue_slug": "agend-arts",
       "title": "Merienne + Alias Blob",
       "subtitle": null,
-      "category": "Chanson",
+      "category": "chanson",
       "date_start": "2026-09-17",
       "date_end": null,
       "time": "20:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319024-merienne-alias-blob.html",
-      "image": "https://agenda.villemorte.fr/media/thumb/33e442b12b785baaac3a2b459f25e597.jpg",
+      "url": "https://agendarts.wordpress.com/2026/06/21/merienne-alias-blob/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/merienne-blob.jpg?w=1024",
       "id": "6e0582816569"
     },
     {
@@ -3723,15 +3697,15 @@
     {
       "venue": "Agend'arts",
       "venue_slug": "agend-arts",
-      "title": "Concert de Merienne & d'Alias Blob",
+      "title": "Merienne + Alias Blob",
       "subtitle": null,
-      "category": "musique",
+      "category": "chanson",
       "date_start": "2026-09-18",
       "date_end": null,
       "time": "20:00",
-      "url": "https://agenda.villemorte.fr/event/concert-de-merienne-and-dalias-blob-1",
-      "image": "https://agenda.villemorte.fr/media/thumb/e9237e919725b75087367455f0f495e4.jpg",
-      "id": "6a93e96b8ffd"
+      "url": "https://agendarts.wordpress.com/2026/06/21/merienne-alias-blob/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/merienne-blob.jpg?w=1024",
+      "id": "061f990fe598"
     },
     {
       "venue": "Comédie Odéon",
@@ -3866,15 +3840,15 @@
     {
       "venue": "La Ferme du Vinatier",
       "venue_slug": "la-ferme-du-vinatier",
-      "title": "Wathever [shebringswesing]",
+      "title": "Whatever [shebringswesing]",
       "subtitle": null,
       "category": "Chanson",
       "date_start": "2026-09-18",
       "date_end": null,
       "time": "20:30",
-      "url": "https://www.petit-bulletin.fr/agenda-319092-wathever-shebringswesing.html",
+      "url": "https://www.petit-bulletin.fr/agenda-319092-whatever-shebringswesing.html",
       "image": null,
-      "id": "67fbb5e4daf6"
+      "id": "3eca5d4a355b"
     },
     {
       "venue": "Trokson",
@@ -3953,6 +3927,19 @@
       "url": "https://www.petit-bulletin.fr/agenda-319238-exposition-collective.html",
       "image": null,
       "id": "c0a86fd504bb"
+    },
+    {
+      "venue": "Ile Egalité",
+      "venue_slug": "ile-egalite",
+      "title": "Week-end de rentrée à l'île égalité",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-20",
+      "time": "10:00",
+      "url": "https://agenda.villemorte.fr/event/week-end-de-rentree-a-lile-egalite",
+      "image": null,
+      "id": "95966f78c2f3"
     },
     {
       "venue": "La Halle Tony Garnier",
@@ -4425,15 +4412,15 @@
     {
       "venue": "Agend'arts",
       "venue_slug": "agend-arts",
-      "title": "La centième nuit, chansons d'Anne Sylvestre",
+      "title": "Les 3 becs – “La centième nuit, chansons d’Anne Sylvestre”",
       "subtitle": null,
       "category": "Théâtre",
       "date_start": "2026-09-19",
       "date_end": null,
       "time": "20:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319026-la-centi-me-nuit-chansons-deanne-sylvestre.html",
-      "image": "https://agenda.villemorte.fr/media/thumb/8a1d8ba02444e2da3d2594d53049dd86.jpg",
-      "id": "7a069e747f7d"
+      "url": "https://agendarts.wordpress.com/2026/06/21/les-3-becs-la-centieme-nuit-chansons-danne-sylvestre/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/les-3-becs-a-agendarts.jpg?w=960",
+      "id": "9ea4b3ddb8b4"
     },
     {
       "venue": "Boskop",
@@ -4594,15 +4581,15 @@
     {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
-      "title": "Le Sucre feat Reperkusound - Open air edition",
-      "subtitle": "Line-up soon !",
+      "title": "Le Sucre x Reperkusound - Open air edition",
+      "subtitle": "ASIŁ · BETÏSES · Kirara · Formula Juan · Romane Santarelli · RADAR · La Waw!",
       "category": "club",
       "date_start": "2026-09-19",
       "date_end": null,
       "time": "23:00",
       "url": "https://le-sucre.eu/events/le-sucre-feat-reperkusound-open-air-edition/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/05/MAGIC-MARDI-182-400x600.jpg",
-      "id": "f063d078f7ef"
+      "image": "https://le-sucre.eu/wp-content/uploads/2026/07/openair-reperkusoundxlesucre-2026-A6-424x600.jpg",
+      "id": "1b27157d7271"
     },
     {
       "venue": "Le Sucre",
@@ -4789,15 +4776,15 @@
     {
       "venue": "Agend'arts",
       "venue_slug": "agend-arts",
-      "title": "Spectacle Des 3 becs – “La centième nuit, chansons d’Anne Sylvestre”",
+      "title": "Les 3 becs – “La centième nuit, chansons d’Anne Sylvestre”",
       "subtitle": null,
       "category": "musique",
       "date_start": "2026-09-20",
       "date_end": null,
       "time": "18:00",
-      "url": "https://agenda.villemorte.fr/event/spectacle-des-3-becs-la-centieme-nuit-chansons-danne-sylvestre",
-      "image": "https://agenda.villemorte.fr/media/thumb/b616fe96fffa9b8610bae0b5b478cca0.jpg",
-      "id": "133d041bd23d"
+      "url": "https://agendarts.wordpress.com/2026/06/21/les-3-becs-la-centieme-nuit-chansons-danne-sylvestre/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/les-3-becs-a-agendarts.jpg?w=960",
+      "id": "5411e95cde88"
     },
     {
       "venue": "Baràgones",
@@ -5725,15 +5712,15 @@
     {
       "venue": "Agend'arts",
       "venue_slug": "agend-arts",
-      "title": "Je suis là",
+      "title": "Simon Pichetti – Je suis là",
       "subtitle": null,
       "category": "Spectacles Divers",
       "date_start": "2026-09-24",
       "date_end": null,
       "time": "20:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319028-je-suis-l.html",
-      "image": "https://agenda.villemorte.fr/media/thumb/7b35f1863a834f911b6f39db7cd2ec9b.jpg",
-      "id": "b30fe75a3c13"
+      "url": "https://agendarts.wordpress.com/2026/06/21/simon-pichetti-je-suis-la/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/simonpichetti.jpg?w=1024",
+      "id": "9a464215d828"
     },
     {
       "venue": "Auditorium de Lyon",
@@ -6089,15 +6076,15 @@
     {
       "venue": "Agend'arts",
       "venue_slug": "agend-arts",
-      "title": "Spectacle de Simon Pichetti – Je suis là",
+      "title": "Simon Pichetti – Je suis là",
       "subtitle": null,
       "category": "musique",
       "date_start": "2026-09-25",
       "date_end": null,
       "time": "20:00",
-      "url": "https://agenda.villemorte.fr/event/spectacle-de-simon-pichetti-je-suis-la",
-      "image": "https://agenda.villemorte.fr/media/thumb/8490f49fed982017e967b271caab105b.jpg",
-      "id": "274173f9c88f"
+      "url": "https://agendarts.wordpress.com/2026/06/21/simon-pichetti-je-suis-la/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/simonpichetti.jpg?w=1024",
+      "id": "38294c6b81e6"
     },
     {
       "venue": "Auditorium de Lyon",
@@ -6674,15 +6661,15 @@
     {
       "venue": "Agend'arts",
       "venue_slug": "agend-arts",
-      "title": "Téklash",
+      "title": "TÉKLASH",
       "subtitle": null,
       "category": "Sono Mondiale",
       "date_start": "2026-09-26",
       "date_end": null,
       "time": "20:00",
-      "url": "https://www.petit-bulletin.fr/agenda-308428-t-klash.html",
-      "image": "https://agenda.villemorte.fr/media/thumb/d0c73151bcac512b425bcbe4c66b7548.jpg",
-      "id": "c243fde21915"
+      "url": "https://agendarts.wordpress.com/2026/06/21/teklash/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/teklash-c2a9stephane-brouchoud-12.jpg?w=1024",
+      "id": "fc291a8533e3"
     },
     {
       "venue": "Aquarium ciné-café",
@@ -6960,15 +6947,15 @@
     {
       "venue": "Agend'arts",
       "venue_slug": "agend-arts",
-      "title": "Concert de TÉKLASH",
+      "title": "TÉKLASH",
       "subtitle": null,
       "category": "musique",
       "date_start": "2026-09-27",
       "date_end": null,
       "time": "18:00",
-      "url": "https://agenda.villemorte.fr/event/concert-de-teklash-1",
-      "image": "https://agenda.villemorte.fr/media/thumb/21e7df1127a4d0f9088b5ccf08a185f5.jpg",
-      "id": "43af4ba3a538"
+      "url": "https://agendarts.wordpress.com/2026/06/21/teklash/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/teklash-c2a9stephane-brouchoud-12.jpg?w=1024",
+      "id": "17322bb0f54f"
     },
     {
       "venue": "Improvidence",
@@ -7252,8 +7239,8 @@
       "date_start": "2026-09-29",
       "date_end": null,
       "time": "20:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319031-bouches-de-coton.html",
-      "image": "https://agenda.villemorte.fr/media/thumb/c727078154cece32a7e858db21a063b2.jpg",
+      "url": "https://agendarts.wordpress.com/2026/06/20/bouches-de-coton/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/bouches-de-coton.jpg?w=1024",
       "id": "39cba133fc06"
     },
     {
@@ -7480,15 +7467,15 @@
     {
       "venue": "Agend'arts",
       "venue_slug": "agend-arts",
-      "title": "Concert de Bouches de coton",
+      "title": "Bouches de coton",
       "subtitle": null,
       "category": "musique",
       "date_start": "2026-09-30",
       "date_end": null,
       "time": "20:00",
-      "url": "https://agenda.villemorte.fr/event/concert-de-bouches-de-coton",
-      "image": "https://agenda.villemorte.fr/media/thumb/c6520a00cc4cb8585568350170b74592.jpg",
-      "id": "fa2cc5d5038f"
+      "url": "https://agendarts.wordpress.com/2026/06/20/bouches-de-coton/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/bouches-de-coton.jpg?w=1024",
+      "id": "377bac113779"
     },
     {
       "venue": "Bourse du Travail",
@@ -8011,6 +7998,19 @@
       "id": "84e1dbb99dda"
     },
     {
+      "venue": "Cloître du Fourvière Hôtel",
+      "venue_slug": "cloitre-du-fourviere-hotel",
+      "title": "Portraits Hôtel - Jours de désirs",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-10-02",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://www.petit-bulletin.fr/agenda-319366-portraits-h-tel-jours-de-d-sirs.html",
+      "image": null,
+      "id": "0d6145237a65"
+    },
+    {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
       "title": "MIOSSEC",
@@ -8050,6 +8050,19 @@
       "id": "91f90cd4d2bc"
     },
     {
+      "venue": "TNG",
+      "venue_slug": "tng-vaise",
+      "title": "Boule de neige",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-10-02",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.petit-bulletin.fr/agenda-319354-boule-de-neige.html",
+      "image": null,
+      "id": "3edf17929934"
+    },
+    {
       "venue": "TNP - Théâtre National Populaire",
       "venue_slug": "tnp",
       "title": "Une petite affaire",
@@ -8082,10 +8095,10 @@
       "subtitle": null,
       "category": "théâtre",
       "date_start": "2026-10-02",
-      "date_end": "2026-10-04",
+      "date_end": null,
       "time": "20:00",
-      "url": "https://agenda.villemorte.fr/event/lamour-selon-anton-tchekhov",
-      "image": "https://agenda.villemorte.fr/media/thumb/e36cae2253076242e284daa61fe1e0b3.jpg",
+      "url": "https://agendarts.wordpress.com/2026/03/18/lamour-selon-anton-tchekhov/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/03/tchekhov.jpg?w=507",
       "id": "379d4a84cc08"
     },
     {
@@ -8178,6 +8191,19 @@
       "url": "https://www.petit-bulletin.fr/agenda-319329-love.html",
       "image": null,
       "id": "5fd0e61469ef"
+    },
+    {
+      "venue": "Le Toboggan",
+      "venue_slug": "le-toboggan",
+      "title": "Un petit pas de trop",
+      "subtitle": null,
+      "category": "Danse",
+      "date_start": "2026-10-02",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://www.petit-bulletin.fr/agenda-319367-un-petit-pas-de-trop.html",
+      "image": null,
+      "id": "6f9713becfb6"
     },
     {
       "venue": "Les Subsistances",
@@ -8373,6 +8399,19 @@
       "url": "https://agenda.villemorte.fr/event/concert-or-claude-lemesles",
       "image": "https://agenda.villemorte.fr/media/thumb/5b95ec7e4721782bbae26f603ff739f4.jpg",
       "id": "0745f1cf0707"
+    },
+    {
+      "venue": "Agend'arts",
+      "venue_slug": "agend-arts",
+      "title": "L’amour selon Anton Tchekhov",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-10-03",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://agendarts.wordpress.com/2026/03/18/lamour-selon-anton-tchekhov/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/03/tchekhov.jpg?w=507",
+      "id": "071d432ad09d"
     },
     {
       "venue": "Comédie Odéon",
@@ -8635,6 +8674,19 @@
       "id": "89c40a910aaf"
     },
     {
+      "venue": "Agend'arts",
+      "venue_slug": "agend-arts",
+      "title": "L’amour selon Anton Tchekhov",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-10-04",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://agendarts.wordpress.com/2026/03/18/lamour-selon-anton-tchekhov/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/03/tchekhov.jpg?w=507",
+      "id": "578a0324d8af"
+    },
+    {
       "venue": "Bourse du Travail",
       "venue_slug": "bourse-du-travail",
       "title": "Amine Radi - La Suivette - Tournée",
@@ -8646,6 +8698,19 @@
       "url": "https://www.bourse-du-travail.com/amine-radi-la-suivette-tournee-368696.html",
       "image": "https://www.bourse-du-travail.com/img/evenement/amine-radi--la-suivette--tournee.jpg",
       "id": "99085113a7b4"
+    },
+    {
+      "venue": "Hôtel Carlton",
+      "venue_slug": "hotel-carlton",
+      "title": "Portraits Hôtel - Jours de désirs",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-10-04",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://www.petit-bulletin.fr/agenda-319366-portraits-h-tel-jours-de-d-sirs.html",
+      "image": null,
+      "id": "606e79c1c6b8"
     },
     {
       "venue": "Improvidence",
@@ -8698,6 +8763,19 @@
       "url": "https://www.petit-bulletin.fr/agenda-319325-jean-olivier-granger.html",
       "image": null,
       "id": "99f6f12392bc"
+    },
+    {
+      "venue": "Théâtre des Marronniers",
+      "venue_slug": "theatre-des-marronniers",
+      "title": "Rendez-vous du lundi - Carte blanche à Julien Tiphaine",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-10-05",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.petit-bulletin.fr/agenda-319357-rendez-vous-du-lundi-carte-blanche-julien-tiphaine.html",
+      "image": null,
+      "id": "37dfc8fee15c"
     },
     {
       "venue": "Grrrnd Zero",
@@ -8867,6 +8945,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/fat-freddys-drop/",
       "image": null,
       "id": "8319a399ef79"
+    },
+    {
+      "venue": "Théâtre La Mouche",
+      "venue_slug": "theatre-la-mouche",
+      "title": "Fauxfaire Fauxvoir",
+      "subtitle": null,
+      "category": "Cirque",
+      "date_start": "2026-10-06",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.petit-bulletin.fr/agenda-317095-fauxfaire-fauxvoir.html",
+      "image": null,
+      "id": "e109ea5e7b57"
     },
     {
       "venue": "Espace Gerson",
@@ -9311,17 +9402,30 @@
       "id": "e732557041c1"
     },
     {
+      "venue": "Théâtre des Marronniers",
+      "venue_slug": "theatre-des-marronniers",
+      "title": "À ce stade de la nuit",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-10-08",
+      "date_end": "2026-10-18",
+      "time": "19:30",
+      "url": "https://www.petit-bulletin.fr/agenda-319358-ce-stade-de-la-nuit.html",
+      "image": null,
+      "id": "0f459e41fb62"
+    },
+    {
       "venue": "Agend'arts",
       "venue_slug": "agend-arts",
-      "title": "Concert de Federica e Marco – È una canzone d’amore",
+      "title": "Federica e Marco – È una canzone d’amore",
       "subtitle": null,
       "category": "musique",
       "date_start": "2026-10-08",
       "date_end": null,
       "time": "20:00",
-      "url": "https://agenda.villemorte.fr/event/concert-de-federica-e-marco-e-una-canzone-damore",
-      "image": "https://agenda.villemorte.fr/media/thumb/7dcd209cb0ccd4d85fe7c9be691f370b.jpg",
-      "id": "f90ae79ad24b"
+      "url": "https://agendarts.wordpress.com/2026/06/20/federica-e-marco-e-una-canzone-damore/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/marcoefederica.jpeg?w=687",
+      "id": "37c40ed72162"
     },
     {
       "venue": "Bizarre!",
@@ -9599,15 +9703,15 @@
     {
       "venue": "Agend'arts",
       "venue_slug": "agend-arts",
-      "title": "Concert de Faustine Lewandowski & de Hortense",
+      "title": "Faustine Lewandowski + Hortense",
       "subtitle": null,
-      "category": "musique",
+      "category": "chanson",
       "date_start": "2026-10-09",
       "date_end": null,
       "time": "20:00",
-      "url": "https://agenda.villemorte.fr/event/concert-de-faustine-lewandowski-and-de-hortense",
-      "image": "https://agenda.villemorte.fr/media/thumb/e6a111736724f4821687eaae03b0cdf7.jpg",
-      "id": "5b5e7a5c49e1"
+      "url": "https://agendarts.wordpress.com/2026/06/20/faustine-lewandowski-hortense/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/faustine-hortense.jpg?w=1024",
+      "id": "dbb4ae6b1cbd"
     },
     {
       "venue": "Bizarre!",
@@ -10054,15 +10158,15 @@
     {
       "venue": "Agend'arts",
       "venue_slug": "agend-arts",
-      "title": "Concert d'Electric Louve & de Da Capo",
+      "title": "Electric Louve + Da Capo",
       "subtitle": null,
-      "category": "musique",
+      "category": "rock",
       "date_start": "2026-10-10",
-      "date_end": "2026-10-11",
+      "date_end": null,
       "time": "20:00",
-      "url": "https://agenda.villemorte.fr/event/concert-delectric-louve-and-de-da-capo",
-      "image": "https://agenda.villemorte.fr/media/thumb/28753065da84d36247980ac27c243642.jpg",
-      "id": "f7004d280b5f"
+      "url": "https://agendarts.wordpress.com/2026/06/20/electric-louve-da-capo/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/electric-louve-da-capo.jpg?w=1024",
+      "id": "335db4684357"
     },
     {
       "venue": "Boskop",
@@ -10351,6 +10455,19 @@
       "id": "0f83df41f48b"
     },
     {
+      "venue": "Agend'arts",
+      "venue_slug": "agend-arts",
+      "title": "Electric Louve + Da Capo",
+      "subtitle": null,
+      "category": "rock",
+      "date_start": "2026-10-11",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://agendarts.wordpress.com/2026/06/20/electric-louve-da-capo/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/electric-louve-da-capo.jpg?w=1024",
+      "id": "8ff9265ded21"
+    },
+    {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
       "title": "S.society",
@@ -10554,8 +10671,8 @@
       "date_start": "2026-10-13",
       "date_end": null,
       "time": "19:30",
-      "url": "https://agenda.villemorte.fr/event/les-mardis-du-4-session-doctobre",
-      "image": "https://agenda.villemorte.fr/media/thumb/0de0465981160c7c6fb5f95726419631.jpg",
+      "url": "https://agendarts.wordpress.com/2026/06/20/les-mardis-du-4-session-doctobre-2/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/lmd4-1.jpg?w=1024",
       "id": "77e29afe5461"
     },
     {
@@ -10765,6 +10882,19 @@
       "url": "https://www.petit-bulletin.fr/agenda-319326-exposition-collective.html",
       "image": null,
       "id": "ace304da5d17"
+    },
+    {
+      "venue": "Théâtre des Clochards Célestes",
+      "venue_slug": "theatre-des-clochards-celestes",
+      "title": "2m² de forêt",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-10-14",
+      "date_end": null,
+      "time": "10:30",
+      "url": "https://www.petit-bulletin.fr/agenda-319352-2mi-de-for-t.html",
+      "image": null,
+      "id": "366469503770"
     },
     {
       "venue": "Bibliothèque du 7e Gerland Hannah Arendt",
@@ -11053,6 +11183,19 @@
       "id": "0f4740a34c6b"
     },
     {
+      "venue": "Théâtre des Clochards Célestes",
+      "venue_slug": "theatre-des-clochards-celestes",
+      "title": "2m² de forêt",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-10-15",
+      "date_end": null,
+      "time": "10:30",
+      "url": "https://www.petit-bulletin.fr/agenda-319352-2mi-de-for-t.html",
+      "image": null,
+      "id": "d66806ec8eaa"
+    },
+    {
       "venue": "Théâtre La Mouche",
       "venue_slug": "theatre-la-mouche",
       "title": "Fortes et fières",
@@ -11235,6 +11378,19 @@
       "id": "59370c95315b"
     },
     {
+      "venue": "Théâtre La Mouche",
+      "venue_slug": "theatre-la-mouche",
+      "title": "Sandra Nkaké",
+      "subtitle": null,
+      "category": "Soul & Funk",
+      "date_start": "2026-10-15",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.petit-bulletin.fr/agenda-306127-sandra-nkak.html",
+      "image": null,
+      "id": "cb7a27602fdc"
+    },
+    {
       "venue": "A Thou Bout d'Chant",
       "venue_slug": "a-thou-bout-d-chant",
       "title": "Nuit Noire + Arkange",
@@ -11365,6 +11521,19 @@
       "id": "2708f20ddc96"
     },
     {
+      "venue": "Théâtre des Clochards Célestes",
+      "venue_slug": "theatre-des-clochards-celestes",
+      "title": "2m² de forêt",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-10-16",
+      "date_end": null,
+      "time": "10:30",
+      "url": "https://www.petit-bulletin.fr/agenda-319352-2mi-de-for-t.html",
+      "image": null,
+      "id": "fa9bf0f81f0c"
+    },
+    {
       "venue": "Théâtre de la Croix-Rousse",
       "venue_slug": "croix-rousse",
       "title": "Visite au musée des Beaux-Arts avec Élise Chatauret",
@@ -11451,8 +11620,8 @@
       "date_start": "2026-10-16",
       "date_end": null,
       "time": "20:00",
-      "url": "https://agenda.villemorte.fr/event/scene-ouverte-slam-session-doctobre",
-      "image": "https://agenda.villemorte.fr/media/thumb/ee047659d42cd7ca074d96b79539317f.jpg",
+      "url": "https://agendarts.wordpress.com/2026/06/20/scene-ouverte-slam-session-doctobre/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/slam-1.jpg?w=1024",
       "id": "a2aa639308fa"
     },
     {
@@ -11716,6 +11885,19 @@
       "id": "5397d14a6ea8"
     },
     {
+      "venue": "Théâtre des Clochards Célestes",
+      "venue_slug": "theatre-des-clochards-celestes",
+      "title": "2m² de forêt",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-10-17",
+      "date_end": null,
+      "time": "10:30",
+      "url": "https://www.petit-bulletin.fr/agenda-319352-2mi-de-for-t.html",
+      "image": null,
+      "id": "e0ce88db0b4a"
+    },
+    {
       "venue": "Les Subsistances",
       "venue_slug": "les-subs",
       "title": "Minipousses cirque",
@@ -11913,15 +12095,15 @@
     {
       "venue": "Agend'arts",
       "venue_slug": "agend-arts",
-      "title": "Spectacle de Christine Brotons – “Chansons déshabillées”",
+      "title": "Christine Brotons – “Chansons déshabillées”",
       "subtitle": null,
-      "category": "musique",
+      "category": null,
       "date_start": "2026-10-17",
-      "date_end": "2026-10-18",
+      "date_end": null,
       "time": "20:00",
-      "url": "https://agenda.villemorte.fr/event/spectacle-de-christine-brotons-chansons-deshabillees",
-      "image": "https://agenda.villemorte.fr/media/thumb/478cbd9cb40308bd8187e7b62cf012e2.jpg",
-      "id": "3fe8e35a45e1"
+      "url": "https://agendarts.wordpress.com/2026/06/20/christine-brotons-chansons-deshabillees/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/thumbnail_img_9917-copie.jpg?w=445",
+      "id": "ebc01002d14f"
     },
     {
       "venue": "Comédie Odéon",
@@ -12054,6 +12236,19 @@
       "id": "d8db1644f583"
     },
     {
+      "venue": "Théâtre des Clochards Célestes",
+      "venue_slug": "theatre-des-clochards-celestes",
+      "title": "2m² de forêt",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-10-18",
+      "date_end": null,
+      "time": "10:30",
+      "url": "https://www.petit-bulletin.fr/agenda-319352-2mi-de-for-t.html",
+      "image": null,
+      "id": "a83d337e96a2"
+    },
+    {
       "venue": "Friche Lamartine",
       "venue_slug": "friche-lamartine",
       "title": "Damien Saillard",
@@ -12078,6 +12273,19 @@
       "url": "https://improvidence.mapado.com/event/154968-la-releve",
       "image": "https://img.mapado.net/2022/10/24/635646c2a2c98-1.jpeg_thumbs/600-600.jpeg",
       "id": "b85fd073e520"
+    },
+    {
+      "venue": "Agend'arts",
+      "venue_slug": "agend-arts",
+      "title": "Christine Brotons – “Chansons déshabillées”",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-10-18",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://agendarts.wordpress.com/2026/06/20/christine-brotons-chansons-deshabillees/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/thumbnail_img_9917-copie.jpg?w=445",
+      "id": "14d0f21052d7"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -12522,6 +12730,19 @@
       "id": "afe70f734962"
     },
     {
+      "venue": "Théâtre La Mouche",
+      "venue_slug": "theatre-la-mouche",
+      "title": "Turbo Minus",
+      "subtitle": null,
+      "category": "Musique Electronique",
+      "date_start": "2026-10-21",
+      "date_end": null,
+      "time": "16:00",
+      "url": "https://www.petit-bulletin.fr/agenda-319360-turbo-minus.html",
+      "image": null,
+      "id": "82cedd5d28e0"
+    },
+    {
       "venue": "La Rayonne",
       "venue_slug": "la-rayonne",
       "title": "Gloryhammer + Majestica + Arion",
@@ -12559,6 +12780,19 @@
       "url": "https://improvidence.mapado.com/event/282963-la-fin-justifie-les-moyens",
       "image": "https://img.mapado.net/2025/10/20/68f5fd197257f-vignette-mapado-la-fin-2025.jpeg_thumbs/600-600.jpeg",
       "id": "f792815bca87"
+    },
+    {
+      "venue": "Théâtre des Marronniers",
+      "venue_slug": "theatre-des-marronniers",
+      "title": "[Re]-Me",
+      "subtitle": null,
+      "category": "Danse",
+      "date_start": "2026-10-21",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.petit-bulletin.fr/agenda-319359-re-me.html",
+      "image": null,
+      "id": "5e656d436180"
     },
     {
       "venue": "Comédie Odéon",
@@ -12741,6 +12975,19 @@
       "url": "https://improvidence.mapado.com/event/282963-la-fin-justifie-les-moyens",
       "image": "https://img.mapado.net/2025/10/20/68f5fd197257f-vignette-mapado-la-fin-2025.jpeg_thumbs/600-600.jpeg",
       "id": "13b0ba6dde66"
+    },
+    {
+      "venue": "Théâtre des Marronniers",
+      "venue_slug": "theatre-des-marronniers",
+      "title": "[Re]-Me",
+      "subtitle": null,
+      "category": "Danse",
+      "date_start": "2026-10-22",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.petit-bulletin.fr/agenda-319359-re-me.html",
+      "image": null,
+      "id": "4861a4fa9e9e"
     },
     {
       "venue": "Comédie Odéon",
@@ -13016,6 +13263,19 @@
       "id": "bca00698fad0"
     },
     {
+      "venue": "Théâtre des Marronniers",
+      "venue_slug": "theatre-des-marronniers",
+      "title": "[Re]-Me",
+      "subtitle": null,
+      "category": "Danse",
+      "date_start": "2026-10-23",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.petit-bulletin.fr/agenda-319359-re-me.html",
+      "image": null,
+      "id": "c8a0290f765f"
+    },
+    {
       "venue": "Comédie Odéon",
       "venue_slug": "comedie-odeon",
       "title": "La Machine de Turing",
@@ -13276,17 +13536,30 @@
       "id": "62e00624914d"
     },
     {
+      "venue": "Théâtre des Marronniers",
+      "venue_slug": "theatre-des-marronniers",
+      "title": "[Re]-Me",
+      "subtitle": null,
+      "category": "Danse",
+      "date_start": "2026-10-24",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.petit-bulletin.fr/agenda-319359-re-me.html",
+      "image": null,
+      "id": "4ebec373d6cd"
+    },
+    {
       "venue": "Agend'arts",
       "venue_slug": "agend-arts",
-      "title": "Spectacle de D@di et Ch@rlie",
+      "title": "D@di et Ch@rlie",
       "subtitle": null,
-      "category": "musique",
+      "category": null,
       "date_start": "2026-10-24",
-      "date_end": "2026-10-25",
+      "date_end": null,
       "time": "20:00",
-      "url": "https://agenda.villemorte.fr/event/spectacle-de-ddi-et-chrlie",
-      "image": "https://agenda.villemorte.fr/media/thumb/e24cefb69764fbebf7fabf4076b89334.jpg",
-      "id": "f000b4edb2dd"
+      "url": "https://agendarts.wordpress.com/2026/06/20/ddi-et-chrlie/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/dadietcharlie_photo-j.-pierre-dupraz.jpeg?w=1024",
+      "id": "7af46973b51e"
     },
     {
       "venue": "Comédie Odéon",
@@ -13510,6 +13783,19 @@
       "id": "e491f21b3264"
     },
     {
+      "venue": "Agend'arts",
+      "venue_slug": "agend-arts",
+      "title": "D@di et Ch@rlie",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-10-25",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://agendarts.wordpress.com/2026/06/20/ddi-et-chrlie/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/dadietcharlie_photo-j.-pierre-dupraz.jpeg?w=1024",
+      "id": "0c1f070a2ccc"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "La fin justifie les moyens",
@@ -13718,6 +14004,19 @@
       "id": "c1f7e6d23d24"
     },
     {
+      "venue": "Théâtre des Clochards Célestes",
+      "venue_slug": "theatre-des-clochards-celestes",
+      "title": "Vania / Laboratoire",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-10-27",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.petit-bulletin.fr/agenda-319353-vania-laboratoire.html",
+      "image": null,
+      "id": "f25536bed1c6"
+    },
+    {
       "venue": "Marché Gare",
       "venue_slug": "marche-gare",
       "title": "Folk Indie Pop BLACK SEA DAHU + MEL D",
@@ -13898,6 +14197,19 @@
       "url": "https://www.transbordeur.fr/evenement/wallace-cleaver-28102026/",
       "image": "https://www.transbordeur.fr/wp-content/uploads/2026/03/a-wallacecleaver1-e1774624267890.jpeg",
       "id": "473f3dcad9b4"
+    },
+    {
+      "venue": "Théâtre des Clochards Célestes",
+      "venue_slug": "theatre-des-clochards-celestes",
+      "title": "Vania / Laboratoire",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-10-28",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.petit-bulletin.fr/agenda-319353-vania-laboratoire.html",
+      "image": null,
+      "id": "e1ba76df3948"
     },
     {
       "venue": "Comédie Odéon",
@@ -14134,17 +14446,30 @@
       "id": "ba682c7545ab"
     },
     {
+      "venue": "Théâtre des Clochards Célestes",
+      "venue_slug": "theatre-des-clochards-celestes",
+      "title": "Vania / Laboratoire",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-10-29",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.petit-bulletin.fr/agenda-319353-vania-laboratoire.html",
+      "image": null,
+      "id": "6e3d681debdf"
+    },
+    {
       "venue": "Agend'arts",
       "venue_slug": "agend-arts",
-      "title": "Concert de Thibaut Préciat & de Marco Carollo",
+      "title": "Thibaut Préciat + Marco Carollo",
       "subtitle": null,
       "category": "musique",
       "date_start": "2026-10-29",
-      "date_end": "2026-10-30",
+      "date_end": null,
       "time": "20:00",
-      "url": "https://agenda.villemorte.fr/event/concert-de-thibaut-preciat-and-de-marco-carollo",
-      "image": "https://agenda.villemorte.fr/media/thumb/1c590205e243cfdbeeefb85d13942943.jpg",
-      "id": "2ee108cd1616"
+      "url": "https://agendarts.wordpress.com/2026/06/20/thibaut-preciat-marco-carollo/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/thibaut-marco.png?w=1024",
+      "id": "ecbf4c32dcc5"
     },
     {
       "venue": "Comédie Odéon",
@@ -14327,6 +14652,32 @@
       "url": "https://www.transbordeur.fr/evenement/zoufris-maracas-30102026/",
       "image": "https://www.transbordeur.fr/wp-content/uploads/2024/04/a-zoufrismaracas.jpg",
       "id": "ced6fd968199"
+    },
+    {
+      "venue": "Théâtre des Clochards Célestes",
+      "venue_slug": "theatre-des-clochards-celestes",
+      "title": "Vania / Laboratoire",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-10-30",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.petit-bulletin.fr/agenda-319353-vania-laboratoire.html",
+      "image": null,
+      "id": "dbe9b2da3d2b"
+    },
+    {
+      "venue": "Agend'arts",
+      "venue_slug": "agend-arts",
+      "title": "Thibaut Préciat + Marco Carollo",
+      "subtitle": null,
+      "category": "musique",
+      "date_start": "2026-10-30",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://agendarts.wordpress.com/2026/06/20/thibaut-preciat-marco-carollo/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/thibaut-marco.png?w=1024",
+      "id": "118e4216b2a0"
     },
     {
       "venue": "Bourse du Travail",
@@ -14576,17 +14927,30 @@
       "id": "d9890c776af9"
     },
     {
+      "venue": "Théâtre des Clochards Célestes",
+      "venue_slug": "theatre-des-clochards-celestes",
+      "title": "Vania / Laboratoire",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-10-31",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.petit-bulletin.fr/agenda-319353-vania-laboratoire.html",
+      "image": null,
+      "id": "a8656dd2298c"
+    },
+    {
       "venue": "Agend'arts",
       "venue_slug": "agend-arts",
-      "title": "Concert de Matildy & de Nico Etoile",
+      "title": "Matildy + Nico Etoile",
       "subtitle": null,
-      "category": "musique",
+      "category": "chanson",
       "date_start": "2026-10-31",
-      "date_end": "2026-11-01",
+      "date_end": null,
       "time": "20:00",
-      "url": "https://agenda.villemorte.fr/event/concert-de-matildy-and-de-nico-etoile",
-      "image": "https://agenda.villemorte.fr/media/thumb/461da0510d8c09f503dc9c62c70e938b.jpg",
-      "id": "12574306695a"
+      "url": "https://agendarts.wordpress.com/2026/06/20/matildy-nico-etoile/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/matildy-nico.jpg?w=1024",
+      "id": "b10520214d9d"
     },
     {
       "venue": "Le Complexe café-théâtre",
@@ -14691,6 +15055,19 @@
       "url": "https://www.halle-tony-garnier.com/fr/programmation/salon-des-vignerons-independants-9",
       "image": "https://www.halle-tony-garnier.com/storage/143676/conversions/2026-11-01-SALON-DES-VIGNERONS-INDEPENDANTS-lyon-carre-1-20260824-165114-square.jpg",
       "id": "8a18d20aa5e0"
+    },
+    {
+      "venue": "Agend'arts",
+      "venue_slug": "agend-arts",
+      "title": "Matildy + Nico Etoile",
+      "subtitle": null,
+      "category": "chanson",
+      "date_start": "2026-11-01",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://agendarts.wordpress.com/2026/06/20/matildy-nico-etoile/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/matildy-nico.jpg?w=1024",
+      "id": "6375e91c1f46"
     },
     {
       "venue": "Improvidence",
@@ -14855,10 +15232,10 @@
       "subtitle": null,
       "category": null,
       "date_start": "2026-11-03",
-      "date_end": "2026-11-04",
+      "date_end": null,
       "time": "20:00",
-      "url": "https://agenda.villemorte.fr/event/37-minutes-et-des-poussieres",
-      "image": "https://agenda.villemorte.fr/media/thumb/618492d3f465bca5405afbd61ded798a.jpg",
+      "url": "https://agendarts.wordpress.com/2026/06/20/37-minutes-et-des-poussieres/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/37minutes_09-1.jpg?w=885",
       "id": "f8d2a206602f"
     },
     {
@@ -15003,6 +15380,19 @@
       "url": "https://improvidence.mapado.com/event/667220-nos-futurs",
       "image": "https://img.mapado.net/2026/1/22/69722f82c40c8-nos-futurs-dernier-lundi-de-chaque-mois.png_thumbs/600-600.png",
       "id": "17efbd020ee4"
+    },
+    {
+      "venue": "Agend'arts",
+      "venue_slug": "agend-arts",
+      "title": "37 minutes et des poussières",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-11-04",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://agendarts.wordpress.com/2026/06/20/37-minutes-et-des-poussieres/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/37minutes_09-1.jpg?w=885",
+      "id": "d575e63768bf"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -15878,15 +16268,15 @@
     {
       "venue": "Agend'arts",
       "venue_slug": "agend-arts",
-      "title": "Concert de Nicolas Jules",
+      "title": "Nicolas Jules",
       "subtitle": null,
-      "category": "musique",
+      "category": "chanson",
       "date_start": "2026-11-07",
-      "date_end": "2026-11-08",
+      "date_end": null,
       "time": "20:00",
-      "url": "https://agenda.villemorte.fr/event/concert-de-nicolas-jules",
-      "image": "https://agenda.villemorte.fr/media/thumb/7ab2335b0e3d66d5a8a5aa647c9a74b7.jpg",
-      "id": "7d223f00e67a"
+      "url": "https://agendarts.wordpress.com/2026/06/20/nicolas-jules-2/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2025/06/dsf9071.jpg?w=1024",
+      "id": "ce2d86f9e412"
     },
     {
       "venue": "La Halle Tony Garnier",
@@ -16084,6 +16474,19 @@
       "id": "842447b4622c"
     },
     {
+      "venue": "Agend'arts",
+      "venue_slug": "agend-arts",
+      "title": "Nicolas Jules",
+      "subtitle": null,
+      "category": "chanson",
+      "date_start": "2026-11-08",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://agendarts.wordpress.com/2026/06/20/nicolas-jules-2/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2025/06/dsf9071.jpg?w=1024",
+      "id": "2cab882dae46"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "Elie Semoun",
@@ -16222,8 +16625,8 @@
       "date_start": "2026-11-10",
       "date_end": null,
       "time": "19:30",
-      "url": "https://agenda.villemorte.fr/event/les-mardis-du-4-session-de-novembre",
-      "image": "https://agenda.villemorte.fr/media/thumb/278cd0a849872b20daa385c158dac3d6.jpg",
+      "url": "https://agendarts.wordpress.com/2026/06/20/les-mardis-du-4-session-de-novembre-3/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/lmd4-1.jpg?w=1024",
       "id": "1d6cf37b08e8"
     },
     {
@@ -16404,8 +16807,8 @@
       "date_start": "2026-11-11",
       "date_end": null,
       "time": "20:00",
-      "url": "https://agenda.villemorte.fr/event/chante-avec-agendarts-la-karachorale-novembre",
-      "image": "https://agenda.villemorte.fr/media/thumb/1961bb4d196861dbf48804ca9e954b2b.jpg",
+      "url": "https://agendarts.wordpress.com/2026/06/20/chante-avec-agendarts-la-karachorale-novembre/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/chante-avec-agendarts-logo.jpg?w=1024",
       "id": "5f60cadaaec2"
     },
     {
@@ -16827,15 +17230,15 @@
     {
       "venue": "Agend'arts",
       "venue_slug": "agend-arts",
-      "title": "Concert de Laurent Berger & de Christopher Murray",
+      "title": "Laurent Berger + Christopher Murray",
       "subtitle": null,
-      "category": "musique",
+      "category": "chanson",
       "date_start": "2026-11-13",
-      "date_end": "2026-11-14",
+      "date_end": null,
       "time": "20:00",
-      "url": "https://agenda.villemorte.fr/event/concert-de-laurent-berger-and-de-christopher-murray",
-      "image": "https://agenda.villemorte.fr/media/thumb/0ea7e12a8e8eb631455b4e33c7bba946.jpg",
-      "id": "2fad2c3834e0"
+      "url": "https://agendarts.wordpress.com/2026/06/20/laurent-berger-christopher-murray/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/laurent-christopher.jpg?w=1024",
+      "id": "d2ba6059f9a0"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -17254,6 +17657,19 @@
       "id": "78e58591c2d0"
     },
     {
+      "venue": "Agend'arts",
+      "venue_slug": "agend-arts",
+      "title": "Laurent Berger + Christopher Murray",
+      "subtitle": null,
+      "category": "chanson",
+      "date_start": "2026-11-14",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://agendarts.wordpress.com/2026/06/20/laurent-berger-christopher-murray/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/laurent-christopher.jpg?w=1024",
+      "id": "0fbb470da178"
+    },
+    {
       "venue": "Le Complexe café-théâtre",
       "venue_slug": "le-complexe",
       "title": "Détenus à tout prix",
@@ -17412,15 +17828,15 @@
     {
       "venue": "Agend'arts",
       "venue_slug": "agend-arts",
-      "title": "Concert de LeHache all stars",
+      "title": "LeHache all stars",
       "subtitle": null,
-      "category": "musique",
+      "category": "chanson",
       "date_start": "2026-11-15",
       "date_end": null,
       "time": "18:00",
-      "url": "https://agenda.villemorte.fr/event/concert-de-lehache-all-stars",
-      "image": "https://agenda.villemorte.fr/media/thumb/42a3f646f79fb37ca481e9f30dbc65b7.jpg",
-      "id": "e860d076a1fe"
+      "url": "https://agendarts.wordpress.com/2026/06/20/lehache-all-stars-2/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/lehache-ph-christine-pascal-2.jpg?w=819",
+      "id": "7f3008ead260"
     },
     {
       "venue": "Le Transbordeur",
@@ -17865,6 +18281,19 @@
       "id": "ac4cdbf86ca7"
     },
     {
+      "venue": "Agend'arts",
+      "venue_slug": "agend-arts",
+      "title": "Exposition INFIMINITY + vernissage – Quinzaine « Paroles de femmes »",
+      "subtitle": null,
+      "category": "expo",
+      "date_start": "2026-11-19",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://agendarts.wordpress.com/2026/06/20/exposition-infiminity-vernissage-quinzaine-paroles-de-femmes/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/07/femmerougee-1june-phield024x768.jpg?w=1024",
+      "id": "5ca11fe27f67"
+    },
+    {
       "venue": "Comédie Odéon",
       "venue_slug": "comedie-odeon",
       "title": "Le Porteur d’Histoire",
@@ -18188,6 +18617,19 @@
       "url": "https://www.tnp-villeurbanne.com/spectacle/oh-les-beaux-jours/",
       "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/2_Oh_les_beaux_jourscJean_Louis_Fernandez.jpg",
       "id": "ba1d6a5ca7ed"
+    },
+    {
+      "venue": "Agend'arts",
+      "venue_slug": "agend-arts",
+      "title": "Les Carnets de Saba + Myriade de Mots – Quinzaine « Paroles de femmes »",
+      "subtitle": null,
+      "category": "chanson",
+      "date_start": "2026-11-20",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://agendarts.wordpress.com/2026/06/20/les-carnets-de-saba-myriade-de-mots-quinzaine-paroles-de-femmes/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/saba-myriade.jpg?w=1024",
+      "id": "fa69a8382d58"
     },
     {
       "venue": "Bizarre!",
@@ -18517,15 +18959,15 @@
     {
       "venue": "Agend'arts",
       "venue_slug": "agend-arts",
-      "title": "Concert de Bonnie Bécasse – Quinzaine « Paroles de femmes »",
+      "title": "Bonnie Bécasse – Quinzaine « Paroles de femmes »",
       "subtitle": null,
-      "category": "musique",
+      "category": "chanson",
       "date_start": "2026-11-21",
-      "date_end": "2026-11-22",
+      "date_end": null,
       "time": "20:00",
-      "url": "https://agenda.villemorte.fr/event/concert-de-bonnie-becasse-quinzaine-paroles-de-femmes",
-      "image": "https://agenda.villemorte.fr/media/thumb/58c0ee01488beea541b67b3462dc423c.jpg",
-      "id": "7d3ecde733d3"
+      "url": "https://agendarts.wordpress.com/2026/06/20/bonnie-becasse-quinzaine-paroles-de-femmes/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/bonniebecasse.png?w=723",
+      "id": "908a4101504f"
     },
     {
       "venue": "La Torpille",
@@ -18762,6 +19204,19 @@
       "id": "8c1045a4972a"
     },
     {
+      "venue": "Agend'arts",
+      "venue_slug": "agend-arts",
+      "title": "Bonnie Bécasse – Quinzaine « Paroles de femmes »",
+      "subtitle": null,
+      "category": "chanson",
+      "date_start": "2026-11-22",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://agendarts.wordpress.com/2026/06/20/bonnie-becasse-quinzaine-paroles-de-femmes/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/bonniebecasse.png?w=723",
+      "id": "e4d135927e10"
+    },
+    {
       "venue": "Auditorium de Lyon",
       "venue_slug": "auditorium-de-lyon",
       "title": "Tigran Hamasyan",
@@ -18861,8 +19316,8 @@
       "date_start": "2026-11-24",
       "date_end": null,
       "time": "20:00",
-      "url": "https://agenda.villemorte.fr/event/cercles-carmins-quinzaine-paroles-de-femmes",
-      "image": "https://agenda.villemorte.fr/media/thumb/f19eb59c0c1ff4b830510e6a23ab4f3a.jpg",
+      "url": "https://agendarts.wordpress.com/2026/06/20/cercles-carmins/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/cercles-carmins.jpg?w=683",
       "id": "8acd428b54b3"
     },
     {
@@ -19273,12 +19728,12 @@
       "venue_slug": "agend-arts",
       "title": "Puissantes – Quinzaine « Paroles de femmes »",
       "subtitle": null,
-      "category": null,
+      "category": "chanson",
       "date_start": "2026-11-26",
       "date_end": null,
       "time": "20:00",
-      "url": "https://agenda.villemorte.fr/event/puissantes-quinzaine-paroles-de-femmes",
-      "image": "https://agenda.villemorte.fr/media/thumb/4d2687c44a1be273119f63ddaccf8fe2.jpg",
+      "url": "https://agendarts.wordpress.com/2026/06/20/puissantes/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/celine-antoine.jpg?w=894",
       "id": "3f9b0a6272e4"
     },
     {
@@ -19971,6 +20426,19 @@
       "id": "c7e5650deedd"
     },
     {
+      "venue": "Agend'arts",
+      "venue_slug": "agend-arts",
+      "title": "Maldonne – Quinzaine « Paroles de femmes »",
+      "subtitle": null,
+      "category": "rap",
+      "date_start": "2026-11-28",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://agendarts.wordpress.com/2026/09/04/maldonne-quinzaine-paroles-de-femmes/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/09/photo-maldonne-1-credit-theo-dantimo.jpg?w=705",
+      "id": "ceba1f4c93aa"
+    },
+    {
       "venue": "Le Complexe café-théâtre",
       "venue_slug": "le-complexe",
       "title": "Comme tombé du ciel",
@@ -20155,15 +20623,15 @@
     {
       "venue": "Agend'arts",
       "venue_slug": "agend-arts",
-      "title": "Une fille comme les autres – Quinzaine « Paroles de femmes »",
+      "title": "Une fille comme les autres – Quinzaine “Paroles de femmes”",
       "subtitle": null,
-      "category": "théâtre",
+      "category": "conférence",
       "date_start": "2026-11-29",
       "date_end": null,
       "time": "18:00",
-      "url": "https://agenda.villemorte.fr/event/une-fille-comme-les-autres-quinzaine-paroles-de-femmes",
-      "image": "https://agenda.villemorte.fr/media/thumb/f1eaeda2577aa81cd47b1319ceb5495c.jpg",
-      "id": "a5c5808373ab"
+      "url": "https://agendarts.wordpress.com/2026/06/20/une-fille-comme-les-autres/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/une-fille-comme-les-autres-2-copie.jpg?w=1024",
+      "id": "acbb554f66a0"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -20255,6 +20723,19 @@
       "url": "https://www.lecomplexelyon.com/programme/lopen-mic-du-complexe/",
       "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/lopen-mic-du-complexe-540x800.jpg",
       "id": "68e37858cdd0"
+    },
+    {
+      "venue": "Agend'arts",
+      "venue_slug": "agend-arts",
+      "title": "Exposition INFIMINITY + vernissage – Quinzaine « Paroles de femmes »",
+      "subtitle": null,
+      "category": "expo",
+      "date_start": "2026-12-01",
+      "date_end": null,
+      "time": null,
+      "url": "https://agendarts.wordpress.com/2026/06/20/exposition-infiminity-vernissage-quinzaine-paroles-de-femmes/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/07/femmerougee-1june-phield024x768.jpg?w=1024",
+      "id": "35f05ab5e094"
     },
     {
       "venue": "Bourse du Travail",
@@ -20961,15 +21442,15 @@
     {
       "venue": "Agend'arts",
       "venue_slug": "agend-arts",
-      "title": "Concert d'Erwan Pinard",
+      "title": "Erwan Pinard",
       "subtitle": null,
-      "category": "musique",
+      "category": null,
       "date_start": "2026-12-04",
-      "date_end": "2026-12-06",
+      "date_end": null,
       "time": "20:00",
-      "url": "https://agenda.villemorte.fr/event/concert-derwan-pinard",
-      "image": "https://agenda.villemorte.fr/media/thumb/29c3e5d4671cd5ad2ae6312cecd0b81a.jpg",
-      "id": "6ff4ee74b0cf"
+      "url": "https://agendarts.wordpress.com/2026/06/18/erwan-pinard-3/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2025/06/copie-de-copie-de-erwan-pinard.jpg?w=1024",
+      "id": "1ca9f4328639"
     },
     {
       "venue": "La Halle Tony Garnier",
@@ -21336,6 +21817,19 @@
       "id": "c8075fceb155"
     },
     {
+      "venue": "Agend'arts",
+      "venue_slug": "agend-arts",
+      "title": "Erwan Pinard",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-12-05",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://agendarts.wordpress.com/2026/06/18/erwan-pinard-3/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2025/06/copie-de-copie-de-erwan-pinard.jpg?w=1024",
+      "id": "d453c1a0db4b"
+    },
+    {
       "venue": "Le Complexe café-théâtre",
       "venue_slug": "le-complexe",
       "title": "Guillaume Sentou \"Un mec cool\"",
@@ -21490,6 +21984,19 @@
       "url": "https://www.comedieodeon.com/spectacle/le-petit-coiffeur/",
       "image": "https://www.comedieodeon.com/wp-content/uploads/2024/06/2024_06_Le_petit_coiffeur_Affiche20x30cm_HD-scaled.jpg",
       "id": "5e5b96d26ff3"
+    },
+    {
+      "venue": "Agend'arts",
+      "venue_slug": "agend-arts",
+      "title": "Erwan Pinard",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-12-06",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://agendarts.wordpress.com/2026/06/18/erwan-pinard-3/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2025/06/copie-de-copie-de-erwan-pinard.jpg?w=1024",
+      "id": "84086f08c985"
     },
     {
       "venue": "Le Transbordeur",
@@ -21871,15 +22378,15 @@
     {
       "venue": "Agend'arts",
       "venue_slug": "agend-arts",
-      "title": "Concert d'Antoine Gasse & de K.LOHË",
+      "title": "Antoine Gasse + K.LOHË",
       "subtitle": null,
-      "category": "musique",
+      "category": "chanson",
       "date_start": "2026-12-10",
       "date_end": null,
       "time": "20:00",
-      "url": "https://agenda.villemorte.fr/event/concert-dantoine-gasse-and-de-klohe",
-      "image": "https://agenda.villemorte.fr/media/thumb/564402649fdf72f5cd33cc9a58920957.jpg",
-      "id": "399e5c115ea1"
+      "url": "https://agendarts.wordpress.com/2026/06/18/antoine-gasse-k-lohe/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/antoine-k.lohe_-1.jpg?w=1024",
+      "id": "92fe8799b075"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -22059,8 +22566,8 @@
       "date_start": "2026-12-11",
       "date_end": null,
       "time": "20:00",
-      "url": "https://agenda.villemorte.fr/event/scene-ouverte-slam-session-de-decembre",
-      "image": "https://agenda.villemorte.fr/media/thumb/7b884d79a0461f85e5be6897b979887c.jpg",
+      "url": "https://agendarts.wordpress.com/2026/06/18/scene-ouverte-slam-session-de-decembre/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/slam-1.jpg?w=1024",
       "id": "0aebbfb71f5e"
     },
     {
@@ -22404,15 +22911,15 @@
     {
       "venue": "Agend'arts",
       "venue_slug": "agend-arts",
-      "title": "Concert de Fleur de Tempête",
+      "title": "Fleur de Tempête",
       "subtitle": null,
-      "category": "musique",
+      "category": "rock",
       "date_start": "2026-12-12",
-      "date_end": "2026-12-13",
+      "date_end": null,
       "time": "20:00",
-      "url": "https://agenda.villemorte.fr/event/concert-de-fleur-de-tempete",
-      "image": "https://agenda.villemorte.fr/media/thumb/00e958d3a1fa429afc8fb4103acfe4fc.jpg",
-      "id": "89ee1db07c5b"
+      "url": "https://agendarts.wordpress.com/2026/06/18/fleur-de-tempete/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/img-20260605-wa0005.jpg?w=1024",
+      "id": "bd7b30f57eaf"
     },
     {
       "venue": "Le Complexe café-théâtre",
@@ -22556,6 +23063,19 @@
       "url": "https://www.theatredescelestins.com/fr/programmation/2026-2027/artistes-associe-es/projet-nanashi",
       "image": "https://www.theatredescelestins.com/assets/q75-w600/195da00d/projet_nanashi_b.jpg",
       "id": "44a3e12c34ec"
+    },
+    {
+      "venue": "Agend'arts",
+      "venue_slug": "agend-arts",
+      "title": "Fleur de Tempête",
+      "subtitle": null,
+      "category": "rock",
+      "date_start": "2026-12-13",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://agendarts.wordpress.com/2026/06/18/fleur-de-tempete/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/img-20260605-wa0005.jpg?w=1024",
+      "id": "55ccb18a6554"
     },
     {
       "venue": "Improvidence",
@@ -23227,10 +23747,10 @@
       "subtitle": null,
       "category": "théâtre",
       "date_start": "2026-12-18",
-      "date_end": "2026-12-20",
+      "date_end": null,
       "time": "20:00",
-      "url": "https://agenda.villemorte.fr/event/sapperlot-ou-lorigine-de-mes-nevroses-anne-fromm",
-      "image": "https://agenda.villemorte.fr/media/thumb/5437cdfd5aa57cfadd36ecd39ef8a016.jpg",
+      "url": "https://agendarts.wordpress.com/2026/06/18/sapperlot-ou-lorigine-de-mes-nevroses-anne-fromm/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/sapperlot-affichealt2026-1.jpg?w=724",
       "id": "ad830e5934e8"
     },
     {
@@ -23455,6 +23975,19 @@
       "id": "3645abc23338"
     },
     {
+      "venue": "Agend'arts",
+      "venue_slug": "agend-arts",
+      "title": "Sapperlot ! Ou l’origine de mes névroses – Anne Fromm",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-12-19",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://agendarts.wordpress.com/2026/06/18/sapperlot-ou-lorigine-de-mes-nevroses-anne-fromm/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/sapperlot-affichealt2026-1.jpg?w=724",
+      "id": "e1bbd70dc4d0"
+    },
+    {
       "venue": "La Torpille",
       "venue_slug": "la-torpille",
       "title": "Vente aux enchères de Noël au profit de Jamais Sans Toit",
@@ -23598,6 +24131,19 @@
       "id": "1af2a0dd126d"
     },
     {
+      "venue": "Agend'arts",
+      "venue_slug": "agend-arts",
+      "title": "Sapperlot ! Ou l’origine de mes névroses – Anne Fromm",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-12-20",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://agendarts.wordpress.com/2026/06/18/sapperlot-ou-lorigine-de-mes-nevroses-anne-fromm/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/sapperlot-affichealt2026-1.jpg?w=724",
+      "id": "1cee9843ce5f"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "ANTHONY KAVANAGH",
@@ -23723,8 +24269,8 @@
       "date_start": "2026-12-22",
       "date_end": null,
       "time": "20:00",
-      "url": "https://agenda.villemorte.fr/event/chante-avec-agendarts-la-karachorale-decembre",
-      "image": "https://agenda.villemorte.fr/media/thumb/5051e08400db99c66fc7a23f3cc71b2e.jpg",
+      "url": "https://agendarts.wordpress.com/2026/06/18/chante-avec-agendarts-la-karachorale-decembre/",
+      "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/chante-avec-agendarts-logo.jpg?w=1024",
       "id": "5371f82cb33d"
     },
     {
@@ -31528,6 +32074,19 @@
       "id": "9e318a26ac8e"
     },
     {
+      "venue": "Improvidence",
+      "venue_slug": "improvidence",
+      "title": "Ça handi long",
+      "subtitle": null,
+      "category": "Impro",
+      "date_start": "2027-03-24",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.petit-bulletin.fr/agenda-318692-a-handi-long.html",
+      "image": null,
+      "id": "7be77bf53060"
+    },
+    {
       "venue": "Les Subsistances",
       "venue_slug": "les-subs",
       "title": "Au Grand Passage",
@@ -32022,19 +32581,6 @@
       "id": "edf06199435a"
     },
     {
-      "venue": "Improvidence",
-      "venue_slug": "improvidence",
-      "title": "Ça handi long",
-      "subtitle": null,
-      "category": "Impro",
-      "date_start": "2027-04-14",
-      "date_end": null,
-      "time": "19:30",
-      "url": "https://www.petit-bulletin.fr/agenda-318692-a-handi-long.html",
-      "image": null,
-      "id": "37c4b2711353"
-    },
-    {
       "venue": "La Halle Tony Garnier",
       "venue_slug": "halle-tony-garnier",
       "title": "Mosimann",
@@ -32189,6 +32735,19 @@
       "url": "https://www.bourse-du-travail.com/mam-issabre-au-festival-les-lions-du-rire-379267.html",
       "image": "https://www.bourse-du-travail.com/img/evenement/mam-issabre-au-festival-les-lions-du-rire.jpg",
       "id": "009fd03a963e"
+    },
+    {
+      "venue": "Improvidence",
+      "venue_slug": "improvidence",
+      "title": "Ça handi long",
+      "subtitle": null,
+      "category": "Impro",
+      "date_start": "2027-05-13",
+      "date_end": null,
+      "time": "21:00",
+      "url": "https://www.petit-bulletin.fr/agenda-318692-a-handi-long.html",
+      "image": null,
+      "id": "34e2076f4d3f"
     },
     {
       "venue": "Bourse du Travail",
@@ -32523,10 +33082,10 @@
       "category": "humour",
       "date_start": "2027-11-25",
       "date_end": null,
-      "time": null,
+      "time": "20:00",
       "url": "https://www.bourse-du-travail.com/david-castello-lopes-410446.html",
       "image": "https://www.bourse-du-travail.com/img/evenement/david-castello-lopes-dans-delicieux.jpg",
-      "id": "415818d54c69"
+      "id": "42f895d6dabd"
     },
     {
       "venue": "Bourse du Travail",
@@ -32566,19 +33125,6 @@
       "url": "https://www.halle-tony-garnier.com/fr/programmation/philippe-caveriviere",
       "image": "https://www.halle-tony-garnier.com/storage/143725/conversions/2027-12-10-PHILIPPE-CAVERIVIERE-philippecaveriviere-tournee-fnac-1080x1080-copie-1-20260414-114358-square.jpg",
       "id": "95ab438b6959"
-    },
-    {
-      "venue": "Improvidence",
-      "venue_slug": "improvidence",
-      "title": "Ça handi long",
-      "subtitle": null,
-      "category": "Impro",
-      "date_start": "2027-12-22",
-      "date_end": null,
-      "time": "19:30",
-      "url": "https://www.petit-bulletin.fr/agenda-318692-a-handi-long.html",
-      "image": null,
-      "id": "46d73ae64d2d"
     },
     {
       "venue": "La Halle Tony Garnier",
