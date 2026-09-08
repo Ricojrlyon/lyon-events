@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-08T09:31:10.021739+00:00",
-  "count": 1517,
+  "generated_at": "2026-09-08T10:23:32.382979+00:00",
+  "count": 1535,
   "events": [
     {
       "venue": "Opéra national de Lyon",
@@ -51,7 +51,7 @@
       "date_end": null,
       "time": null,
       "url": "https://lacommune.co/event/atelier-decouverte-cyanotype/",
-      "image": "https://lacommune.co/wp-content/uploads/2026/03/8-1-768x960.jpg",
+      "image": "https://cdn-ilchkjh.nitrocdn.com/gohSAQIvPXRxVnCrOMzXdhxFQyClcfyS/assets/images/optimized/rev-7a708fa/lacommune.co/wp-content/uploads/2026/03/8-1-768x960.jpg",
       "id": "e0edd47a52aa"
     },
     {
@@ -558,7 +558,7 @@
       "date_end": null,
       "time": "19:30",
       "url": "https://lacommune.co/event/soiree-latina-hommage-femmes-voces-vivas/",
-      "image": "https://lacommune.co/wp-content/uploads/2026/06/1080x1350_sept-768x960.jpg",
+      "image": "https://cdn-ilchkjh.nitrocdn.com/gohSAQIvPXRxVnCrOMzXdhxFQyClcfyS/assets/images/optimized/rev-7a708fa/lacommune.co/wp-content/uploads/2026/06/1080x1350_sept-768x960.jpg",
       "id": "a7cf6cf966e2"
     },
     {
@@ -636,7 +636,7 @@
       "date_end": null,
       "time": null,
       "url": "https://lacommune.co/event/les-vins-electroniques-dj-kunawara/",
-      "image": "https://lacommune.co/wp-content/uploads/2026/05/1080x1350_sept-768x960.jpg",
+      "image": "https://cdn-ilchkjh.nitrocdn.com/gohSAQIvPXRxVnCrOMzXdhxFQyClcfyS/assets/images/optimized/rev-7a708fa/lacommune.co/wp-content/uploads/2026/05/1080x1350_sept-768x960.jpg",
       "id": "1678da52ddc5"
     },
     {
@@ -935,7 +935,7 @@
       "date_end": null,
       "time": null,
       "url": "https://lacommune.co/event/taimes-les-roses-la-commune-soiree-uk-garage-lyon/",
-      "image": "https://lacommune.co/wp-content/uploads/2026/03/1080x1350_sept-768x960.jpg",
+      "image": "https://cdn-ilchkjh.nitrocdn.com/gohSAQIvPXRxVnCrOMzXdhxFQyClcfyS/assets/images/optimized/rev-7a708fa/lacommune.co/wp-content/uploads/2026/03/1080x1350_sept-768x960.jpg",
       "id": "8f140c8c5d53"
     },
     {
@@ -1351,7 +1351,7 @@
       "date_end": null,
       "time": null,
       "url": "https://lacommune.co/event/mini-circus-market-la-commune-lyon/",
-      "image": "https://lacommune.co/wp-content/uploads/2025/10/1080x1350_sept-768x960.jpg",
+      "image": "https://cdn-ilchkjh.nitrocdn.com/gohSAQIvPXRxVnCrOMzXdhxFQyClcfyS/assets/images/optimized/rev-7a708fa/lacommune.co/wp-content/uploads/2025/10/1080x1350_sept-768x960.jpg",
       "id": "ea4e7dd5a9dc"
     },
     {
@@ -1962,7 +1962,7 @@
       "date_end": null,
       "time": "14:30",
       "url": "https://lacommune.co/event/pimp-my-vinyl/",
-      "image": "https://lacommune.co/wp-content/uploads/2025/11/13-1-768x960.jpg",
+      "image": "https://cdn-ilchkjh.nitrocdn.com/gohSAQIvPXRxVnCrOMzXdhxFQyClcfyS/assets/images/optimized/rev-7a708fa/lacommune.co/wp-content/uploads/2025/11/13-1-768x960.jpg",
       "id": "e75d89bb0a28"
     },
     {
@@ -2079,7 +2079,7 @@
       "date_end": null,
       "time": null,
       "url": "https://lacommune.co/event/karaoke-live-cherry-chap-concert-karaoke-avec-musiciens/",
-      "image": "https://lacommune.co/wp-content/uploads/2026/04/14-1-768x960.jpg",
+      "image": "https://cdn-ilchkjh.nitrocdn.com/gohSAQIvPXRxVnCrOMzXdhxFQyClcfyS/assets/images/optimized/rev-7a708fa/lacommune.co/wp-content/uploads/2026/04/14-1-768x960.jpg",
       "id": "99295869ddd3"
     },
     {
@@ -2170,7 +2170,7 @@
       "date_end": null,
       "time": null,
       "url": "https://lacommune.co/event/masterclass-djing-neo-records-marquise/",
-      "image": "https://lacommune.co/wp-content/uploads/2025/02/1080x1350_sept-1-768x960.jpg",
+      "image": "https://cdn-ilchkjh.nitrocdn.com/gohSAQIvPXRxVnCrOMzXdhxFQyClcfyS/assets/images/optimized/rev-7a708fa/lacommune.co/wp-content/uploads/2025/02/1080x1350_sept-1-768x960.jpg",
       "id": "cc03164048c9"
     },
     {
@@ -2304,6 +2304,19 @@
       "id": "7fc80ab21ed9"
     },
     {
+      "venue": "Trokson",
+      "venue_slug": "trokson",
+      "title": "INNER DOG (post hardcore - Londres) + OFF MY WAY",
+      "subtitle": null,
+      "category": "musique",
+      "date_start": "2026-09-15",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://agenda.villemorte.fr/event/inner-dog-post-hardcore-londres",
+      "image": "https://agenda.villemorte.fr/media/thumb/c186267876aface076160bc7beb360ad.jpg",
+      "id": "3b51e5ae75f4"
+    },
+    {
       "venue": "La Relève",
       "venue_slug": "la-releve",
       "title": "Jarnal",
@@ -2330,19 +2343,6 @@
       "id": "f0d287a356d1"
     },
     {
-      "venue": "Trokson",
-      "venue_slug": "trokson",
-      "title": "INNER DOG (post hardcore - Londres) + OFF MY WAY",
-      "subtitle": null,
-      "category": "musique",
-      "date_start": "2026-09-15",
-      "date_end": null,
-      "time": "21:00",
-      "url": "https://agenda.villemorte.fr/event/inner-dog-post-hardcore-londres",
-      "image": "https://agenda.villemorte.fr/media/thumb/c186267876aface076160bc7beb360ad.jpg",
-      "id": "33f073a3fcad"
-    },
-    {
       "venue": "Théâtre à l'Ouest",
       "venue_slug": "theatre-a-l-ouest",
       "title": "PV",
@@ -2365,7 +2365,7 @@
       "date_end": null,
       "time": null,
       "url": "https://lacommune.co/event/salsa-bachata/",
-      "image": "https://lacommune.co/wp-content/uploads/2025/10/16-1-768x960.jpg",
+      "image": "https://cdn-ilchkjh.nitrocdn.com/gohSAQIvPXRxVnCrOMzXdhxFQyClcfyS/assets/images/optimized/rev-7a708fa/lacommune.co/wp-content/uploads/2025/10/16-1-768x960.jpg",
       "id": "8a04e4d724a9"
     },
     {
@@ -2625,7 +2625,7 @@
       "date_end": null,
       "time": null,
       "url": "https://lacommune.co/event/dj-set-estival-a-lyon-suntrax/",
-      "image": "https://lacommune.co/wp-content/uploads/2026/07/17-1-768x960.jpg",
+      "image": "https://cdn-ilchkjh.nitrocdn.com/gohSAQIvPXRxVnCrOMzXdhxFQyClcfyS/assets/images/optimized/rev-7a708fa/lacommune.co/wp-content/uploads/2026/07/17-1-768x960.jpg",
       "id": "fff51d98da4f"
     },
     {
@@ -2976,7 +2976,7 @@
       "date_end": null,
       "time": null,
       "url": "https://lacommune.co/event/casse-noisette-lyon/",
-      "image": "https://lacommune.co/wp-content/uploads/2025/08/18-1-768x960.jpg",
+      "image": "https://cdn-ilchkjh.nitrocdn.com/gohSAQIvPXRxVnCrOMzXdhxFQyClcfyS/assets/images/optimized/rev-7a708fa/lacommune.co/wp-content/uploads/2025/08/18-1-768x960.jpg",
       "id": "4daa6685393b"
     },
     {
@@ -4159,7 +4159,7 @@
       "date_end": null,
       "time": null,
       "url": "https://lacommune.co/event/atelier-phonograffiti-lyon-custom-vinyles-street-art/",
-      "image": "https://lacommune.co/wp-content/uploads/2026/07/21-1-1-768x960.jpg",
+      "image": "https://cdn-ilchkjh.nitrocdn.com/gohSAQIvPXRxVnCrOMzXdhxFQyClcfyS/assets/images/optimized/rev-7a708fa/lacommune.co/wp-content/uploads/2026/07/21-1-1-768x960.jpg",
       "id": "fe9ce7c0d416"
     },
     {
@@ -4237,7 +4237,7 @@
       "date_end": null,
       "time": null,
       "url": "https://lacommune.co/event/piano-bar-lyon/",
-      "image": "https://lacommune.co/wp-content/uploads/2025/11/22-1-768x960.jpg",
+      "image": "https://cdn-ilchkjh.nitrocdn.com/gohSAQIvPXRxVnCrOMzXdhxFQyClcfyS/assets/images/optimized/rev-7a708fa/lacommune.co/wp-content/uploads/2025/11/22-1-768x960.jpg",
       "id": "7b3e83710166"
     },
     {
@@ -4393,7 +4393,7 @@
       "date_end": null,
       "time": null,
       "url": "https://lacommune.co/event/maxi-buzzer-blind-test/",
-      "image": "https://lacommune.co/wp-content/uploads/2025/05/1080x1350_sept-768x960.jpg",
+      "image": "https://cdn-ilchkjh.nitrocdn.com/gohSAQIvPXRxVnCrOMzXdhxFQyClcfyS/assets/images/optimized/rev-7a708fa/lacommune.co/wp-content/uploads/2025/05/1080x1350_sept-768x960.jpg",
       "id": "7a95972995d4"
     },
     {
@@ -4705,7 +4705,7 @@
       "date_end": null,
       "time": null,
       "url": "https://lacommune.co/event/vinyl-story-session-ecoute-diggers-okaou/",
-      "image": "https://lacommune.co/wp-content/uploads/2026/06/1080x1350_sept-1-768x960.jpg",
+      "image": "https://cdn-ilchkjh.nitrocdn.com/gohSAQIvPXRxVnCrOMzXdhxFQyClcfyS/assets/images/optimized/rev-7a708fa/lacommune.co/wp-content/uploads/2026/06/1080x1350_sept-1-768x960.jpg",
       "id": "46a647c7a200"
     },
     {
@@ -4919,7 +4919,7 @@
     {
       "venue": "Le Sonic",
       "venue_slug": "sonic",
-      "title": "Sofia",
+      "title": "Sofia + Christian Suicide",
       "subtitle": null,
       "category": "concert",
       "date_start": "2026-09-24",
@@ -4927,7 +4927,7 @@
       "time": "20:00",
       "url": "https://sonic-lyon.fr/evenement/sofia/",
       "image": "https://sonic-lyon.fr/wp-content/uploads/2026/06/a3068401126_10-1024x1024.jpg",
-      "id": "dc02f0576746"
+      "id": "d400ed806282"
     },
     {
       "venue": "Marché Gare",
@@ -5030,7 +5030,7 @@
       "date_end": null,
       "time": null,
       "url": "https://lacommune.co/event/atelier-peinture-ceramique-sur-inscription/",
-      "image": "https://lacommune.co/wp-content/uploads/2026/01/1080x1350_sept-1-768x960.jpg",
+      "image": "https://cdn-ilchkjh.nitrocdn.com/gohSAQIvPXRxVnCrOMzXdhxFQyClcfyS/assets/images/optimized/rev-7a708fa/lacommune.co/wp-content/uploads/2026/01/1080x1350_sept-1-768x960.jpg",
       "id": "1b7a1dabc4a6"
     },
     {
@@ -5817,7 +5817,7 @@
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
       "title": "Le Sucre, 24 heures",
-      "subtitle": "Line-up soon !",
+      "subtitle": "G!G! · Thelma b2b DJ physical · Surusinghe · LEGRAM VG · Sidequest : CBS & Rigo · Aladdin · Tony Romera · Skin On Skin · Kirara · Fake_Friends (Airod & Jacidorex)",
       "category": "club",
       "date_start": "2026-09-26",
       "date_end": null,
@@ -5934,7 +5934,7 @@
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
       "title": "Le Sucre, 24 heures",
-      "subtitle": "Line-up soon !",
+      "subtitle": "G!G! · Thelma b2b DJ physical · Surusinghe · LEGRAM VG · Sidequest : CBS & Rigo · Aladdin · Tony Romera · Skin On Skin · Kirara · Fake_Friends (Airod & Jacidorex)",
       "category": "club",
       "date_start": "2026-09-27",
       "date_end": null,
@@ -5953,7 +5953,7 @@
       "date_end": null,
       "time": null,
       "url": "https://lacommune.co/event/atelier-ecriture-creative/",
-      "image": "https://lacommune.co/wp-content/uploads/2026/08/28-2-768x960.jpg",
+      "image": "https://cdn-ilchkjh.nitrocdn.com/gohSAQIvPXRxVnCrOMzXdhxFQyClcfyS/assets/images/optimized/rev-7a708fa/lacommune.co/wp-content/uploads/2026/08/28-2-768x960.jpg",
       "id": "1dbbd595fe30"
     },
     {
@@ -5966,7 +5966,7 @@
       "date_end": null,
       "time": null,
       "url": "https://lacommune.co/event/happy-hour-la-commune/",
-      "image": "https://lacommune.co/wp-content/uploads/2025/08/28-1-768x960.jpg",
+      "image": "https://cdn-ilchkjh.nitrocdn.com/gohSAQIvPXRxVnCrOMzXdhxFQyClcfyS/assets/images/optimized/rev-7a708fa/lacommune.co/wp-content/uploads/2025/08/28-1-768x960.jpg",
       "id": "5066a0a6e383"
     },
     {
@@ -6460,7 +6460,7 @@
       "date_end": null,
       "time": null,
       "url": "https://lacommune.co/event/trax-x-vice-experience-dj-set-house-electro-techno/",
-      "image": "https://lacommune.co/wp-content/uploads/2025/11/1-1-768x960.jpg",
+      "image": "https://cdn-ilchkjh.nitrocdn.com/gohSAQIvPXRxVnCrOMzXdhxFQyClcfyS/assets/images/optimized/rev-7a708fa/lacommune.co/wp-content/uploads/2025/11/1-1-768x960.jpg",
       "id": "78928f3699b3"
     },
     {
@@ -7039,7 +7039,7 @@
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
       "title": "club",
-      "subtitle": "Erol Alkan · Alex Wilcox",
+      "subtitle": "Erol Alkan · Alex Wilcox · Pechko",
       "category": "club",
       "date_start": "2026-10-03",
       "date_end": null,
@@ -7084,7 +7084,7 @@
       "date_end": null,
       "time": null,
       "url": "https://lacommune.co/event/oktoberfest-duckies-concert-blues-rockabilly-lyon/",
-      "image": "https://lacommune.co/wp-content/uploads/2025/11/4-1-768x960.jpg",
+      "image": "https://cdn-ilchkjh.nitrocdn.com/gohSAQIvPXRxVnCrOMzXdhxFQyClcfyS/assets/images/optimized/rev-7a708fa/lacommune.co/wp-content/uploads/2025/11/4-1-768x960.jpg",
       "id": "08862a508c0a"
     },
     {
@@ -7331,7 +7331,7 @@
       "date_end": null,
       "time": null,
       "url": "https://lacommune.co/event/club-bingo-bingo-musical-la-commune-lyon/",
-      "image": "https://lacommune.co/wp-content/uploads/2025/07/7-4-768x960.jpg",
+      "image": "https://cdn-ilchkjh.nitrocdn.com/gohSAQIvPXRxVnCrOMzXdhxFQyClcfyS/assets/images/optimized/rev-7a708fa/lacommune.co/wp-content/uploads/2025/07/7-4-768x960.jpg",
       "id": "3f1b256ba1ce"
     },
     {
@@ -7504,6 +7504,19 @@
       "id": "92bda1f8d50a"
     },
     {
+      "venue": "Au Rikiki",
+      "venue_slug": "au-rikiki",
+      "title": "Scapin : mode d'emploi",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-10-07",
+      "date_end": null,
+      "time": "20:45",
+      "url": "https://www.petit-bulletin.fr/agenda-317559-scapin-mode-deemploi.html",
+      "image": null,
+      "id": "29b917e05244"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "4L Trop Filles",
@@ -7526,7 +7539,7 @@
       "date_end": null,
       "time": null,
       "url": "https://lacommune.co/event/karaoke-blind-test/",
-      "image": "https://lacommune.co/wp-content/uploads/2025/09/8-2-768x960.jpg",
+      "image": "https://cdn-ilchkjh.nitrocdn.com/gohSAQIvPXRxVnCrOMzXdhxFQyClcfyS/assets/images/optimized/rev-7a708fa/lacommune.co/wp-content/uploads/2025/09/8-2-768x960.jpg",
       "id": "e21557bc1117"
     },
     {
@@ -7658,6 +7671,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/secrets-medical/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/06/secret-medical_radiant-bellevue-500x500.jpg",
       "id": "bd5c8e2aac4c"
+    },
+    {
+      "venue": "Au Rikiki",
+      "venue_slug": "au-rikiki",
+      "title": "Scapin : mode d'emploi",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-10-08",
+      "date_end": null,
+      "time": "20:45",
+      "url": "https://www.petit-bulletin.fr/agenda-317559-scapin-mode-deemploi.html",
+      "image": null,
+      "id": "2bfcbfa8f8cf"
     },
     {
       "venue": "Improvidence",
@@ -7853,6 +7879,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/kyle-eastwood/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/06/kyle-eastwood_radiant-bellevue-500x500.jpg",
       "id": "bedc9c47826f"
+    },
+    {
+      "venue": "Au Rikiki",
+      "venue_slug": "au-rikiki",
+      "title": "Scapin : mode d'emploi",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-10-09",
+      "date_end": null,
+      "time": "20:45",
+      "url": "https://www.petit-bulletin.fr/agenda-317559-scapin-mode-deemploi.html",
+      "image": null,
+      "id": "f8c39ca35275"
     },
     {
       "venue": "Improvidence",
@@ -8115,6 +8154,19 @@
       "id": "977f07e1160d"
     },
     {
+      "venue": "Au Rikiki",
+      "venue_slug": "au-rikiki",
+      "title": "Scapin : mode d'emploi",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-10-10",
+      "date_end": null,
+      "time": "20:45",
+      "url": "https://www.petit-bulletin.fr/agenda-317559-scapin-mode-deemploi.html",
+      "image": null,
+      "id": "6895b82938f7"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "Mon pote",
@@ -8150,7 +8202,7 @@
       "date_end": null,
       "time": null,
       "url": "https://lacommune.co/event/gones-crazy-animaux-des-bois-la-commune/",
-      "image": "https://lacommune.co/wp-content/uploads/2025/08/11-1-768x960.jpg",
+      "image": "https://cdn-ilchkjh.nitrocdn.com/gohSAQIvPXRxVnCrOMzXdhxFQyClcfyS/assets/images/optimized/rev-7a708fa/lacommune.co/wp-content/uploads/2025/08/11-1-768x960.jpg",
       "id": "2d3b91dca6cc"
     },
     {
@@ -8306,7 +8358,7 @@
       "date_end": null,
       "time": null,
       "url": "https://lacommune.co/event/west-coast-swing-initiation-soiree-la-commune/",
-      "image": "https://lacommune.co/wp-content/uploads/2025/07/13-1-768x960.jpg",
+      "image": "https://cdn-ilchkjh.nitrocdn.com/gohSAQIvPXRxVnCrOMzXdhxFQyClcfyS/assets/images/optimized/rev-7a708fa/lacommune.co/wp-content/uploads/2025/07/13-1-768x960.jpg",
       "id": "4e6ec4526c85"
     },
     {
@@ -8633,6 +8685,19 @@
       "url": "https://sonic-lyon.fr/evenement/leya/",
       "image": "https://sonic-lyon.fr/wp-content/uploads/2026/05/2026-EU-Tour-Press-Photo-1-1024x768.jpeg",
       "id": "72241909fb71"
+    },
+    {
+      "venue": "Au Rikiki",
+      "venue_slug": "au-rikiki",
+      "title": "4L trop filles",
+      "subtitle": null,
+      "category": "Impro",
+      "date_start": "2026-10-14",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://www.petit-bulletin.fr/agenda-313369-4l-trop-filles.html",
+      "image": null,
+      "id": "14f5e07d3153"
     },
     {
       "venue": "Espace Gerson",
@@ -9090,6 +9155,19 @@
       "id": "ade32d4348f5"
     },
     {
+      "venue": "Au Rikiki",
+      "venue_slug": "au-rikiki",
+      "title": "Scapin : mode d'emploi",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-10-16",
+      "date_end": null,
+      "time": "20:45",
+      "url": "https://www.petit-bulletin.fr/agenda-317559-scapin-mode-deemploi.html",
+      "image": null,
+      "id": "3f9abac2e8f6"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "Mon pote",
@@ -9454,6 +9532,19 @@
       "id": "b06c088c8473"
     },
     {
+      "venue": "Au Rikiki",
+      "venue_slug": "au-rikiki",
+      "title": "Le chant des lucioles",
+      "subtitle": null,
+      "category": "Lecture et conte",
+      "date_start": "2026-10-19",
+      "date_end": null,
+      "time": "10:30",
+      "url": "https://www.petit-bulletin.fr/agenda-304802-le-chant-des-lucioles.html",
+      "image": null,
+      "id": "f3f48e571058"
+    },
+    {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
       "title": "Concert",
@@ -9545,6 +9636,19 @@
       "id": "e552bc77a8a4"
     },
     {
+      "venue": "Au Rikiki",
+      "venue_slug": "au-rikiki",
+      "title": "Le chant des lucioles",
+      "subtitle": null,
+      "category": "Lecture et conte",
+      "date_start": "2026-10-20",
+      "date_end": null,
+      "time": "10:30",
+      "url": "https://www.petit-bulletin.fr/agenda-304802-le-chant-des-lucioles.html",
+      "image": null,
+      "id": "754b4c150a3e"
+    },
+    {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
       "title": "ZED YUN PAVAROTTI",
@@ -9597,6 +9701,19 @@
       "id": "63cb2dab879a"
     },
     {
+      "venue": "Au Rikiki",
+      "venue_slug": "au-rikiki",
+      "title": "Scapin : mode d'emploi",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-10-20",
+      "date_end": "2026-10-31",
+      "time": "20:45",
+      "url": "https://www.petit-bulletin.fr/agenda-317559-scapin-mode-deemploi.html",
+      "image": null,
+      "id": "22764372a43e"
+    },
+    {
       "venue": "Le Périscope",
       "venue_slug": "periscope",
       "title": "Cromorne + Transe Ar Gwez + Proto-Monde DJ",
@@ -9608,6 +9725,19 @@
       "url": "https://www.periscope-lyon.com/concerts/cromorne-transe-ar-gwez/",
       "image": "https://www.periscope-lyon.com/wp-content/uploads/2026/07/13.Tag-Pernette-Houdayer-650x433.jpg",
       "id": "5e6c4a4dab7c"
+    },
+    {
+      "venue": "Au Rikiki",
+      "venue_slug": "au-rikiki",
+      "title": "Le chant des lucioles",
+      "subtitle": null,
+      "category": "Lecture et conte",
+      "date_start": "2026-10-21",
+      "date_end": null,
+      "time": "10:30",
+      "url": "https://www.petit-bulletin.fr/agenda-304802-le-chant-des-lucioles.html",
+      "image": null,
+      "id": "be2bcec8e9e8"
     },
     {
       "venue": "IAC Villeurbanne",
@@ -9699,6 +9829,19 @@
       "url": "https://www.periscope-lyon.com/concerts/jokari-invite%c2%b7es/",
       "image": "https://www.periscope-lyon.com/wp-content/uploads/2026/07/analog686-650x435.jpg",
       "id": "2786dcc1f222"
+    },
+    {
+      "venue": "Au Rikiki",
+      "venue_slug": "au-rikiki",
+      "title": "Le chant des lucioles",
+      "subtitle": null,
+      "category": "Lecture et conte",
+      "date_start": "2026-10-22",
+      "date_end": null,
+      "time": "10:30",
+      "url": "https://www.petit-bulletin.fr/agenda-304802-le-chant-des-lucioles.html",
+      "image": null,
+      "id": "3f3882ba6c71"
     },
     {
       "venue": "Le Sucre",
@@ -9840,8 +9983,21 @@
       "date_end": null,
       "time": null,
       "url": "https://lacommune.co/event/dispo-dating/",
-      "image": "https://lacommune.co/wp-content/uploads/2026/01/23-1-768x960.jpg",
+      "image": "https://cdn-ilchkjh.nitrocdn.com/gohSAQIvPXRxVnCrOMzXdhxFQyClcfyS/assets/images/optimized/rev-7a708fa/lacommune.co/wp-content/uploads/2026/01/23-1-768x960.jpg",
       "id": "98d11bfbbbca"
+    },
+    {
+      "venue": "Au Rikiki",
+      "venue_slug": "au-rikiki",
+      "title": "Le chant des lucioles",
+      "subtitle": null,
+      "category": "Lecture et conte",
+      "date_start": "2026-10-23",
+      "date_end": null,
+      "time": "10:30",
+      "url": "https://www.petit-bulletin.fr/agenda-304802-le-chant-des-lucioles.html",
+      "image": null,
+      "id": "a19bd6f3768a"
     },
     {
       "venue": "La Salle de bains",
@@ -9998,6 +10154,19 @@
       "url": "https://improvidence.mapado.com/event/15189-antoine-rabault-improvise-avec-lui-meme",
       "image": "https://img.mapado.net/2025/1/17/678a70d655221-affiche-antoine-rabault-2025-web.jpeg_thumbs/600-600.jpeg",
       "id": "ab2aa060bcb3"
+    },
+    {
+      "venue": "Au Rikiki",
+      "venue_slug": "au-rikiki",
+      "title": "Le chant des lucioles",
+      "subtitle": null,
+      "category": "Lecture et conte",
+      "date_start": "2026-10-24",
+      "date_end": null,
+      "time": "10:30",
+      "url": "https://www.petit-bulletin.fr/agenda-304802-le-chant-des-lucioles.html",
+      "image": null,
+      "id": "f4953e0fff77"
     },
     {
       "venue": "La Rayonne",
@@ -10185,7 +10354,7 @@
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
       "title": "club",
-      "subtitle": "Akalex · Maka",
+      "subtitle": "Akalex · Deekapz · Maka",
       "category": "club",
       "date_start": "2026-10-24",
       "date_end": null,
@@ -10206,6 +10375,19 @@
       "url": "https://www.transbordeur.fr/evenement/hilight-tribe-manudigital-spoink-luneris-flupke-ex-echo-crete-moustache-24102026/",
       "image": "https://www.transbordeur.fr/wp-content/uploads/2026/02/a-hilighttribe.jpg",
       "id": "7b4559db3b9f"
+    },
+    {
+      "venue": "Au Rikiki",
+      "venue_slug": "au-rikiki",
+      "title": "Le chant des lucioles",
+      "subtitle": null,
+      "category": "Lecture et conte",
+      "date_start": "2026-10-25",
+      "date_end": null,
+      "time": "10:30",
+      "url": "https://www.petit-bulletin.fr/agenda-304802-le-chant-des-lucioles.html",
+      "image": null,
+      "id": "f3333b3ee04e"
     },
     {
       "venue": "Improvidence",
@@ -10845,6 +11027,19 @@
       "id": "c08f7d6a0729"
     },
     {
+      "venue": "Le Sucre",
+      "venue_slug": "le-sucre",
+      "title": "A week-end with Jen Cardini",
+      "subtitle": "Bouillante.x · Boréale · Ciel (live) · Maggy Smiss · TTristana · Valentinae",
+      "category": "club",
+      "date_start": "2026-10-31",
+      "date_end": null,
+      "time": "23:00",
+      "url": "https://le-sucre.eu/events/a-week-end-with-jen-cardini-2/",
+      "image": "https://le-sucre.eu/wp-content/uploads/2026/09/a4a2eb11-a3a1-4515-8a0f-a561efd1ea70-1-588x600.png",
+      "id": "4bdd2f3e83b8"
+    },
+    {
       "venue": "La Halle Tony Garnier",
       "venue_slug": "halle-tony-garnier",
       "title": "Salon Des Vignerons Independants",
@@ -10895,6 +11090,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/saint-levant/",
       "image": null,
       "id": "73543218a303"
+    },
+    {
+      "venue": "Le Sucre",
+      "venue_slug": "le-sucre",
+      "title": "A week-end with Jen Cardini",
+      "subtitle": "Jen Cardini (all day long)",
+      "category": "club",
+      "date_start": "2026-11-01",
+      "date_end": null,
+      "time": "23:00",
+      "url": "https://le-sucre.eu/events/a-week-end-with-jen-cardini-3/",
+      "image": "https://le-sucre.eu/wp-content/uploads/2026/09/a4a2eb11-a3a1-4515-8a0f-a561efd1ea70-1-588x600.png",
+      "id": "d6fa3a6c487d"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -13196,6 +13404,19 @@
       "url": "https://improvidence.mapado.com/event/602043-seconds-couteaux",
       "image": "https://img.mapado.net/2026/8/4/6a71afd65a4c9-visuel-seconds-couteaux-2026-07-1.png_thumbs/600-600.png",
       "id": "ffe8c4845d5d"
+    },
+    {
+      "venue": "Le Sucre",
+      "venue_slug": "le-sucre",
+      "title": "concert",
+      "subtitle": "Superpoze (live)",
+      "category": "concert",
+      "date_start": "2026-11-26",
+      "date_end": null,
+      "time": "18:30",
+      "url": "https://le-sucre.eu/events/concert-16/",
+      "image": "https://le-sucre.eu/wp-content/uploads/2026/09/31cbe4c6-3bb9-450f-9c5c-b23b624bcc2b-557x600.jpg",
+      "id": "14c1551b98fb"
     },
     {
       "venue": "La Rayonne",
@@ -19555,17 +19776,30 @@
       "id": "9f9897666f7c"
     },
     {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "L'impro FFF",
+      "subtitle": null,
+      "category": "Impro",
+      "date_start": "2027-06-29",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://www.petit-bulletin.fr/agenda-319345-l-impro-fff.html",
+      "image": null,
+      "id": "051e9b6215bf"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "Ça handi long",
       "subtitle": null,
       "category": "Impro",
-      "date_start": "2027-08-26",
+      "date_start": "2027-07-15",
       "date_end": null,
       "time": "21:00",
       "url": "https://www.petit-bulletin.fr/agenda-318692-a-handi-long.html",
       "image": null,
-      "id": "b0f3cc037624"
+      "id": "f0fffb55d01d"
     },
     {
       "venue": "La Halle Tony Garnier",
