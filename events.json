@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-08T13:35:45.395755+00:00",
-  "count": 2267,
+  "generated_at": "2026-09-08T13:58:43.006272+00:00",
+  "count": 2371,
   "events": [
     {
       "venue": "Opéra national de Lyon",
@@ -1537,19 +1537,6 @@
       "id": "ce00048130cb"
     },
     {
-      "venue": "Théâtre de la Croix-Rousse",
-      "venue_slug": "theatre-de-la-croix-rousse",
-      "title": "Fête de rentrée du Théâtre de la Croix-Rousse",
-      "subtitle": null,
-      "category": "Conférences",
-      "date_start": "2026-09-12",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-311097-f-te-de-rentr-e-du-th-tre-de-la-croix-rousse.html",
-      "image": null,
-      "id": "05acfb4faecb"
-    },
-    {
       "venue": "Orangerie du Parc de la Tête d\\'Or",
       "venue_slug": "orangerie-du-parc-de-la-tete-d-or",
       "title": "Le vestiaire des destinées",
@@ -1561,6 +1548,19 @@
       "url": "https://www.petit-bulletin.fr/agenda-319071-le-vestiaire-des-destin-es.html",
       "image": null,
       "id": "7b9fb710235b"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Fête de rentrée",
+      "subtitle": null,
+      "category": "Conférences",
+      "date_start": "2026-09-12",
+      "date_end": null,
+      "time": "12:00",
+      "url": "https://www.croix-rousse.com/au-programme/fete-de-rentree-2/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/Fête-de-rentrée-1080x1080-1.png",
+      "id": "c156462fed94"
     },
     {
       "venue": "Parc de Miribel-Jonage",
@@ -1665,6 +1665,19 @@
       "url": "https://h-eat.eu/events/la-place-bleue-yuksek-mangabey-live-pedro-bertho-b2b-p-errine/",
       "image": "https://h-eat.eu/wp-content/uploads/2026/08/1664-juliettevalero44-480x720.jpg",
       "id": "4f860b723964"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Joga Bonito",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-09-12",
+      "date_end": null,
+      "time": "17:00",
+      "url": "https://www.croix-rousse.com/au-programme/joga-bonito/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/09/0.-Joga-Bonito-1080x1080-1.png",
+      "id": "96abe50dbe27"
     },
     {
       "venue": "Théâtre du Point du Jour",
@@ -3968,6 +3981,19 @@
       "id": "3433d8673947"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Visite du TXR",
+      "subtitle": null,
+      "category": "expo",
+      "date_start": "2026-09-19",
+      "date_end": null,
+      "time": "11:00",
+      "url": "https://www.croix-rousse.com/au-programme/visite-du-txr-2/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/Visite-TXR-2.png",
+      "id": "67d24a427752"
+    },
+    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins",
       "title": "Atelier masques",
@@ -5425,16 +5451,16 @@
     },
     {
       "venue": "Théâtre de la Croix-Rousse",
-      "venue_slug": "theatre-de-la-croix-rousse",
+      "venue_slug": "croix-rousse",
       "title": "Blanche-Neige ou la chute du mur de Berlin",
       "subtitle": null,
-      "category": "Théâtre",
+      "category": "ciné-spectacle",
       "date_start": "2026-09-24",
       "date_end": null,
       "time": "14:30",
-      "url": "https://www.petit-bulletin.fr/agenda-319007-blanche-neige-ou-la-chute-du-mur-de-berlin.html",
-      "image": null,
-      "id": "98e3848fd216"
+      "url": "https://www.croix-rousse.com/au-programme/blanche-neige-ou-la-chute-du-mur-de-berlin/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/BLANCHE-BERLIN-1080x1080-1.png",
+      "id": "6da172a6c1df"
     },
     {
       "venue": "Jardin Gilibert (géré par la MJC Confluence)",
@@ -5539,6 +5565,19 @@
       "url": "https://improvidence.mapado.com/event/28130-playlist",
       "image": "https://img.mapado.net/2020/9/16/5f61dd72f1bd4-affiche-playlist-web.jpeg_thumbs/600-600.jpeg",
       "id": "01490655b390"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Blanche-Neige ou la chute du mur de Berlin",
+      "subtitle": null,
+      "category": "ciné-spectacle",
+      "date_start": "2026-09-24",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.croix-rousse.com/au-programme/blanche-neige-ou-la-chute-du-mur-de-berlin/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/BLANCHE-BERLIN-1080x1080-1.png",
+      "id": "95048467f951"
     },
     {
       "venue": "Théâtre des Marronniers",
@@ -5814,19 +5853,6 @@
       "id": "62f43e5d112f"
     },
     {
-      "venue": "Théâtre de la Croix-Rousse",
-      "venue_slug": "theatre-de-la-croix-rousse",
-      "title": "Blanche-Neige ou la chute du mur de Berlin",
-      "subtitle": null,
-      "category": "Théâtre",
-      "date_start": "2026-09-25",
-      "date_end": null,
-      "time": "14:30",
-      "url": "https://www.petit-bulletin.fr/agenda-319007-blanche-neige-ou-la-chute-du-mur-de-berlin.html",
-      "image": null,
-      "id": "1a5d890747e0"
-    },
-    {
       "venue": "Librairie Momie",
       "venue_slug": "librairie-momie",
       "title": "Nora Moretti",
@@ -5903,6 +5929,19 @@
       "url": "https://agenda.villemorte.fr/event/explain-yourselves-meryll-ampe",
       "image": "https://agenda.villemorte.fr/media/thumb/9b001e526da558f72ae6fd238d22ba05.jpg",
       "id": "5ffafe4d1027"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Blanche-Neige ou la chute du mur de Berlin",
+      "subtitle": null,
+      "category": "ciné-spectacle",
+      "date_start": "2026-09-25",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.croix-rousse.com/au-programme/blanche-neige-ou-la-chute-du-mur-de-berlin/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/BLANCHE-BERLIN-1080x1080-1.png",
+      "id": "7ccca34fc1e6"
     },
     {
       "venue": "A Thou Bout d'Chant",
@@ -6295,19 +6334,6 @@
       "id": "63b3b9e4391a"
     },
     {
-      "venue": "Théâtre de la Croix-Rousse",
-      "venue_slug": "theatre-de-la-croix-rousse",
-      "title": "Blanche-Neige ou la chute du mur de Berlin",
-      "subtitle": null,
-      "category": "Théâtre",
-      "date_start": "2026-09-26",
-      "date_end": null,
-      "time": "14:30",
-      "url": "https://www.petit-bulletin.fr/agenda-319007-blanche-neige-ou-la-chute-du-mur-de-berlin.html",
-      "image": null,
-      "id": "20958c24bbf8"
-    },
-    {
       "venue": "Fnac Part-Dieu",
       "venue_slug": "fnac-part-dieu",
       "title": "Simon Bournel-Bosson",
@@ -6436,6 +6462,19 @@
       "url": "https://www.transbordeur.fr/evenement/animal-nocturne-eniram-sibel-s-sofiasca-26092026/",
       "image": "https://www.transbordeur.fr/wp-content/uploads/2026/07/a-animalnocturne2.jpg",
       "id": "3db579b77de6"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Blanche-Neige ou la chute du mur de Berlin",
+      "subtitle": null,
+      "category": "ciné-spectacle",
+      "date_start": "2026-09-26",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://www.croix-rousse.com/au-programme/blanche-neige-ou-la-chute-du-mur-de-berlin/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/BLANCHE-BERLIN-1080x1080-1.png",
+      "id": "8c97dd66c3ff"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -7349,16 +7388,16 @@
     },
     {
       "venue": "Théâtre de la Croix-Rousse",
-      "venue_slug": "theatre-de-la-croix-rousse",
+      "venue_slug": "croix-rousse",
       "title": "Maldonne",
       "subtitle": null,
-      "category": "Danse",
+      "category": "danse",
       "date_start": "2026-09-30",
       "date_end": null,
       "time": "20:00",
-      "url": "https://www.petit-bulletin.fr/agenda-315266-maldonne.html",
-      "image": null,
-      "id": "335290bc475d"
+      "url": "https://www.croix-rousse.com/au-programme/maldonne/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/06/2.-Maldonne-complet-1080x1080-1.png",
+      "id": "04542b5cebf2"
     },
     {
       "venue": "Espace Albert Camus",
@@ -7554,6 +7593,19 @@
       "url": "https://www.tnp-villeurbanne.com/spectacle/seul-dans-berlin/",
       "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/5_Seul_dans_Berlin_repetitions.jpg",
       "id": "830039b1218b"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Maldonne",
+      "subtitle": null,
+      "category": "danse",
+      "date_start": "2026-10-01",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.croix-rousse.com/au-programme/maldonne/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/06/2.-Maldonne-complet-1080x1080-1.png",
+      "id": "e999136d90e7"
     },
     {
       "venue": "A Thou Bout d'Chant",
@@ -8284,19 +8336,6 @@
       "id": "36ee0595661c"
     },
     {
-      "venue": "Bourse du Travail",
-      "venue_slug": "bourse-du-travail",
-      "title": "Amine Radi - La Suivette - Tournée",
-      "subtitle": null,
-      "category": "humour",
-      "date_start": "2026-10-04",
-      "date_end": null,
-      "time": null,
-      "url": "https://www.bourse-du-travail.com/amine-radi-la-suivette-tournee-368696.html",
-      "image": "https://www.bourse-du-travail.com/img/evenement/amine-radi--la-suivette--tournee.jpg",
-      "id": "27656491fd54"
-    },
-    {
       "venue": "La Commune",
       "venue_slug": "la-commune",
       "title": "Oktoberfest x Concert Duckies",
@@ -8373,6 +8412,19 @@
       "url": "https://www.tnp-villeurbanne.com/spectacle/seul-dans-berlin/",
       "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/5_Seul_dans_Berlin_repetitions.jpg",
       "id": "89c40a910aaf"
+    },
+    {
+      "venue": "Bourse du Travail",
+      "venue_slug": "bourse-du-travail",
+      "title": "Amine Radi - La Suivette - Tournée",
+      "subtitle": null,
+      "category": "humour",
+      "date_start": "2026-10-04",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://www.bourse-du-travail.com/amine-radi-la-suivette-tournee-368696.html",
+      "image": "https://www.bourse-du-travail.com/img/evenement/amine-radi--la-suivette--tournee.jpg",
+      "id": "99085113a7b4"
     },
     {
       "venue": "Improvidence",
@@ -8479,19 +8531,6 @@
       "id": "3a3786023627"
     },
     {
-      "venue": "Bourse du Travail",
-      "venue_slug": "bourse-du-travail",
-      "title": "Marie Benoliel",
-      "subtitle": null,
-      "category": "humour",
-      "date_start": "2026-10-06",
-      "date_end": null,
-      "time": null,
-      "url": "https://www.bourse-du-travail.com/marie-benoliel-411985.html",
-      "image": "https://www.bourse-du-travail.com/img/evenement/marie-benoliel.jpg",
-      "id": "be79af181262"
-    },
-    {
       "venue": "TNG",
       "venue_slug": "tng",
       "title": "Boule de neige",
@@ -8581,6 +8620,19 @@
       "url": "https://www.tnp-villeurbanne.com/spectacle/seul-dans-berlin/",
       "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/5_Seul_dans_Berlin_repetitions.jpg",
       "id": "894cf7a67415"
+    },
+    {
+      "venue": "Bourse du Travail",
+      "venue_slug": "bourse-du-travail",
+      "title": "Marie Benoliel",
+      "subtitle": null,
+      "category": "humour",
+      "date_start": "2026-10-06",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.bourse-du-travail.com/marie-benoliel-411985.html",
+      "image": "https://www.bourse-du-travail.com/img/evenement/marie-benoliel.jpg",
+      "id": "4bef579cfbf8"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -8830,6 +8882,19 @@
       "id": "a8b03c7f3a16"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Back to reality",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-10-07",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.croix-rousse.com/au-programme/back-to-reality/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/Back-to-reality-1080x1080-1.png",
+      "id": "7adfeb884079"
+    },
+    {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
       "title": "Thomas Piet - Koala",
@@ -8997,6 +9062,19 @@
       "url": "https://www.tnp-villeurbanne.com/spectacle/seul-dans-berlin/",
       "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/5_Seul_dans_Berlin_repetitions.jpg",
       "id": "b6b5971eac3f"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Back to reality",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-10-08",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.croix-rousse.com/au-programme/back-to-reality/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/Back-to-reality-1080x1080-1.png",
+      "id": "e732557041c1"
     },
     {
       "venue": "Agend'arts",
@@ -9376,6 +9454,19 @@
       "id": "d5f7ff820e69"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Back to reality",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-10-09",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.croix-rousse.com/au-programme/back-to-reality/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/Back-to-reality-1080x1080-1.png",
+      "id": "0a739ced82a3"
+    },
+    {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
       "title": "Thomas Piet - Koala",
@@ -9647,6 +9738,19 @@
       "url": "https://www.transbordeur.fr/evenement/apparat-anika-10102026/",
       "image": "https://www.transbordeur.fr/wp-content/uploads/2026/04/a-apparat-1.jpeg",
       "id": "c06cf51919a7"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Back to reality",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-10-10",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.croix-rousse.com/au-programme/back-to-reality/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/Back-to-reality-1080x1080-1.png",
+      "id": "5b20260c7b8b"
     },
     {
       "venue": "Improvidence",
@@ -10533,6 +10637,19 @@
       "id": "35b0c8725120"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Nos corps désirants",
+      "subtitle": null,
+      "category": "danse",
+      "date_start": "2026-10-14",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.croix-rousse.com/au-programme/nos-corps-desirants/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/06/4.-Nos-corps-déisrants-1140x500-3.png",
+      "id": "b3d8b185d44a"
+    },
+    {
       "venue": "Au Rikiki",
       "venue_slug": "au-rikiki",
       "title": "4L trop filles",
@@ -10715,6 +10832,19 @@
       "id": "efdd0449b4c1"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Nos corps désirants",
+      "subtitle": null,
+      "category": "danse",
+      "date_start": "2026-10-15",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.croix-rousse.com/au-programme/nos-corps-desirants/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/06/4.-Nos-corps-déisrants-1140x500-3.png",
+      "id": "9b18b5e95fef"
+    },
+    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins",
       "title": "7 rue des Alouettes",
@@ -10871,6 +11001,19 @@
       "id": "e1861ef2a9c5"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Projection : Portrait de la jeune fille en feu de Céline Sciamma",
+      "subtitle": null,
+      "category": "projection",
+      "date_start": "2026-10-15",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://www.croix-rousse.com/au-programme/projection-portrait-de-la-jeune-fille-en-feu-de-celine-sciamma/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/Portrait-de-la-jeune-fille-en-feu-1.png",
+      "id": "6fa06e24f547"
+    },
+    {
       "venue": "Théâtre de la Renaissance",
       "venue_slug": "theatre-de-la-renaissance",
       "title": "Le Lac",
@@ -10921,6 +11064,19 @@
       "url": "https://www.petit-bulletin.fr/agenda-319226-animal-culte.html",
       "image": null,
       "id": "2708f20ddc96"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Visite au musée des Beaux-Arts avec Élise Chatauret",
+      "subtitle": null,
+      "category": "expo",
+      "date_start": "2026-10-16",
+      "date_end": null,
+      "time": "12:30",
+      "url": "https://www.croix-rousse.com/au-programme/visite-au-musee-des-beaux-arts-avec-elise-chatauret/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/Visite-Musée-des-Beaux-Arts-1.png",
+      "id": "9eb866a484bf"
     },
     {
       "venue": "Friche Lamartine",
@@ -11129,6 +11285,19 @@
       "url": "https://www.tnp-villeurbanne.com/spectacle/rapport-pour-une-acadmie/",
       "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/3_Rapport_academiecMarie_Clauzade.jpg",
       "id": "61b8476492bf"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Nos corps désirants",
+      "subtitle": null,
+      "category": "danse",
+      "date_start": "2026-10-16",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.croix-rousse.com/au-programme/nos-corps-desirants/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/06/4.-Nos-corps-déisrants-1140x500-3.png",
+      "id": "b489c8259d4b"
     },
     {
       "venue": "Espace Gerson",
@@ -13523,19 +13692,6 @@
       "id": "0d4dc0bb627e"
     },
     {
-      "venue": "Bourse du Travail",
-      "venue_slug": "bourse-du-travail",
-      "title": "Toute L'histoire De La Peinture En Moins De Deux Heures",
-      "subtitle": null,
-      "category": "humour",
-      "date_start": "2026-10-30",
-      "date_end": null,
-      "time": null,
-      "url": "https://www.bourse-du-travail.com/toute-l-histoire-de-la-peinture-en-moins-de-deux-heures-321077.html",
-      "image": "https://www.bourse-du-travail.com/img/evenement/toute-lhistoire-de-la-peinture-en-moins-de-deux-heures-par-hector-obalk--tournee-2.jpg",
-      "id": "5083d7dc97bf"
-    },
-    {
       "venue": "Le Périscope",
       "venue_slug": "periscope",
       "title": "Sandrine Marchetti solo + Incandescente Sextet + Jam session",
@@ -13625,6 +13781,19 @@
       "url": "https://www.transbordeur.fr/evenement/zoufris-maracas-30102026/",
       "image": "https://www.transbordeur.fr/wp-content/uploads/2024/04/a-zoufrismaracas.jpg",
       "id": "ced6fd968199"
+    },
+    {
+      "venue": "Bourse du Travail",
+      "venue_slug": "bourse-du-travail",
+      "title": "Toute L'histoire De La Peinture En Moins De Deux Heures",
+      "subtitle": null,
+      "category": "humour",
+      "date_start": "2026-10-30",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.bourse-du-travail.com/toute-l-histoire-de-la-peinture-en-moins-de-deux-heures-321077.html",
+      "image": "https://www.bourse-du-travail.com/img/evenement/toute-lhistoire-de-la-peinture-en-moins-de-deux-heures-par-hector-obalk--tournee-2.jpg",
+      "id": "40c612ca86f5"
     },
     {
       "venue": "Le Complexe café-théâtre",
@@ -13781,6 +13950,19 @@
       "url": "https://www.petit-bulletin.fr/agenda-319349-lucie-et-la-potion-pourrite.html",
       "image": null,
       "id": "fbae0cdbd208"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Projection : L’Étrange Noël de monsieur Jack de Tim Burton & Henry Selick",
+      "subtitle": null,
+      "category": "projection",
+      "date_start": "2026-10-31",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.croix-rousse.com/au-programme/projection-letrange-noel-de-monsieur-jack-de-tim-burton-henry-selick/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/Monsieur-Jack-3.png",
+      "id": "8d74e44f8187"
     },
     {
       "venue": "Improvidence",
@@ -14329,6 +14511,19 @@
       "id": "2372ef404664"
     },
     {
+      "venue": "Au Rikiki",
+      "venue_slug": "au-rikiki",
+      "title": "Scapin : mode d'emploi",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-11-04",
+      "date_end": null,
+      "time": "20:45",
+      "url": "https://www.petit-bulletin.fr/agenda-317559-scapin-mode-deemploi.html",
+      "image": null,
+      "id": "8d31a4d836ad"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "ON RESTE EN CONTACT",
@@ -14485,6 +14680,19 @@
       "id": "8fd9327a4d49"
     },
     {
+      "venue": "Au Rikiki",
+      "venue_slug": "au-rikiki",
+      "title": "Scapin : mode d'emploi",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-11-05",
+      "date_end": null,
+      "time": "20:45",
+      "url": "https://www.petit-bulletin.fr/agenda-317559-scapin-mode-deemploi.html",
+      "image": null,
+      "id": "4ba49e4aa160"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "Friendzone",
@@ -14522,6 +14730,19 @@
       "url": "https://agenda.villemorte.fr/event/visites-sur-le-pouce-cote-coulisses",
       "image": "https://agenda.villemorte.fr/media/thumb/48036b10ce1f7c77baef58eb83793f09.jpg",
       "id": "101e69fa3aaf"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Santa Park",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-06",
+      "date_end": null,
+      "time": "14:30",
+      "url": "https://www.croix-rousse.com/au-programme/santa-park/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/Santa-PArk-1080x1080-1.png",
+      "id": "f8de90c138c7"
     },
     {
       "venue": "Le Transbordeur",
@@ -14693,6 +14914,19 @@
       "id": "b478ac110a4b"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Santa Park",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-06",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.croix-rousse.com/au-programme/santa-park/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/Santa-PArk-1080x1080-1.png",
+      "id": "f79c8a0f67ad"
+    },
+    {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
       "title": "François Guédon - Aux Urnes et caetera",
@@ -14717,6 +14951,19 @@
       "url": "https://maisondeladanse.com/programmation/saison2026-2027/la-totale",
       "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/soiree-cabaret-s.jpg?itok=RAmLNr2o",
       "id": "aea420191166"
+    },
+    {
+      "venue": "Au Rikiki",
+      "venue_slug": "au-rikiki",
+      "title": "Scapin : mode d'emploi",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-11-06",
+      "date_end": null,
+      "time": "20:45",
+      "url": "https://www.petit-bulletin.fr/agenda-317559-scapin-mode-deemploi.html",
+      "image": null,
+      "id": "1920b95c26c0"
     },
     {
       "venue": "Improvidence",
@@ -14849,6 +15096,19 @@
       "id": "f2015f769bb9"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Santa Park",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-07",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://www.croix-rousse.com/au-programme/santa-park/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/Santa-PArk-1080x1080-1.png",
+      "id": "e75dcb4cf9f3"
+    },
+    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins",
       "title": "One Night at the Golden Bar",
@@ -14925,6 +15185,19 @@
       "url": "https://www.transbordeur.fr/evenement/jwles-07112026/",
       "image": "https://www.transbordeur.fr/wp-content/uploads/2026/04/a-jwles.jpg",
       "id": "733e9ea5ad7e"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Soirée Halloween",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-11-07",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.croix-rousse.com/au-programme/soiree-halloween/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/Soirée-Halloween.png",
+      "id": "97b7c12167d3"
     },
     {
       "venue": "Agend'arts",
@@ -15029,6 +15302,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/cochons-dinde/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/06/cochons-d-inde_radiant-bellevue-500x500.jpg",
       "id": "08c9d67b2542"
+    },
+    {
+      "venue": "Au Rikiki",
+      "venue_slug": "au-rikiki",
+      "title": "Scapin : mode d'emploi",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-11-07",
+      "date_end": null,
+      "time": "20:45",
+      "url": "https://www.petit-bulletin.fr/agenda-317559-scapin-mode-deemploi.html",
+      "image": null,
+      "id": "d5bd7b2c5417"
     },
     {
       "venue": "Improvidence",
@@ -15590,6 +15876,45 @@
       "id": "32d0c0de4c46"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "On a failli t’appeler Marthe !",
+      "subtitle": null,
+      "category": "humour",
+      "date_start": "2026-11-12",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.croix-rousse.com/au-programme/on-a-failli-tappeler-marthe/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/06/7.-MArthe-1080x1080picto.png",
+      "id": "da28cf1c77b1"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Cabaret La Bouche #2",
+      "subtitle": null,
+      "category": "cabaret",
+      "date_start": "2026-11-12",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.croix-rousse.com/au-programme/cabaret-la-bouche-2/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/06/6.-LaBouche-1080x1080-picto.png",
+      "id": "09cb5b1f0b18"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Festiv·iel",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-11-12",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.croix-rousse.com/au-programme/festiv%c2%b7iel2627/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/06/0.-Festiv·iel-1080x1080-1.png",
+      "id": "eed10545ee39"
+    },
+    {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
       "title": "William Pilet - Normal n'existe pas",
@@ -15811,6 +16136,32 @@
       "id": "457bc6252cc7"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "On a failli t’appeler Marthe !",
+      "subtitle": null,
+      "category": "humour",
+      "date_start": "2026-11-13",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.croix-rousse.com/au-programme/on-a-failli-tappeler-marthe/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/06/7.-MArthe-1080x1080picto.png",
+      "id": "61466cb39d9c"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Cabaret La Bouche #2",
+      "subtitle": null,
+      "category": "cabaret",
+      "date_start": "2026-11-13",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.croix-rousse.com/au-programme/cabaret-la-bouche-2/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/06/6.-LaBouche-1080x1080-picto.png",
+      "id": "809f36ec9816"
+    },
+    {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
       "title": "William Pilet - Normal n'existe pas",
@@ -15863,6 +16214,19 @@
       "id": "dc207e06c8c3"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Fête d’ouverture Festiv·iel : Club La Bouche",
+      "subtitle": null,
+      "category": "club",
+      "date_start": "2026-11-13",
+      "date_end": null,
+      "time": "21:45",
+      "url": "https://www.croix-rousse.com/au-programme/fete-douverture-festiv%c2%b7iel-club-la-bouche/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/Fête-ouverture-festiviel.png",
+      "id": "1f594f4e7983"
+    },
+    {
       "venue": "Le Complexe café-théâtre",
       "venue_slug": "le-complexe",
       "title": "LE COMPLEXE COMEDY CLUB - Un plateau d'humoristes !",
@@ -15874,6 +16238,19 @@
       "url": "https://www.lecomplexelyon.com/programme/le-complexe-comedy-club-4-humoristes/",
       "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/complexe-comedy-club-540x800.jpg",
       "id": "8701db758a92"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Atelier d’écriture avec Mélissa Zehner",
+      "subtitle": null,
+      "category": "atelier",
+      "date_start": "2026-11-14",
+      "date_end": null,
+      "time": "14:00",
+      "url": "https://www.croix-rousse.com/au-programme/atelier-decriture-avec-melissa-zehner/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/06/Mélissa-Zhener-1080x1080-1.png",
+      "id": "bf7b930a9617"
     },
     {
       "venue": "Les Subsistances",
@@ -15902,6 +16279,19 @@
       "id": "eab7eed09fa8"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "On a failli t’appeler Marthe !",
+      "subtitle": null,
+      "category": "humour",
+      "date_start": "2026-11-14",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.croix-rousse.com/au-programme/on-a-failli-tappeler-marthe/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/06/7.-MArthe-1080x1080picto.png",
+      "id": "7fba62ef1b09"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "30 Impros Chrono",
@@ -15926,6 +16316,19 @@
       "url": "https://www.les-subs.com/evenement/nuit-du-cirque-2026-ne-me-faites-pas-entendre-ce-que-je-nai-pas-dit-victor-hollebecq-david-perreard/",
       "image": "https://www.les-subs.com/wp-content/uploads/2026/07/ne-me-faites-pas-entendre-ce-que-j-ai-pas-dit-e1783335171190-200x200.jpg",
       "id": "40c5c4955f2f"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "On a failli t’appeler Marthe !",
+      "subtitle": null,
+      "category": "humour",
+      "date_start": "2026-11-14",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://www.croix-rousse.com/au-programme/on-a-failli-tappeler-marthe/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/06/7.-MArthe-1080x1080picto.png",
+      "id": "2d06ea4a9c70"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -16069,6 +16472,19 @@
       "url": "https://www.lecomplexelyon.com/programme/amy-london-jetais-pas-prete/",
       "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/amy-london-540x800.jpg",
       "id": "73080e371116"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Dyke",
+      "subtitle": null,
+      "category": "cabaret",
+      "date_start": "2026-11-14",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.croix-rousse.com/au-programme/dyke/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/06/8.-Dyke-1080x1080picto.png",
+      "id": "ec812d380fa5"
     },
     {
       "venue": "Les Subsistances",
@@ -16228,16 +16644,16 @@
     },
     {
       "venue": "Théâtre de la Croix-Rousse",
-      "venue_slug": "theatre-de-la-croix-rousse",
-      "title": "Quand on dort on n'a pas faim",
+      "venue_slug": "croix-rousse",
+      "title": "Quand on dort on n’a pas faim",
       "subtitle": null,
-      "category": "Théâtre",
+      "category": "théâtre",
       "date_start": "2026-11-16",
       "date_end": null,
       "time": "20:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319185-quand-on-dort-on-n-a-pas-faim.html",
-      "image": null,
-      "id": "d201b387c106"
+      "url": "https://www.croix-rousse.com/au-programme/quand-on-dort-on-na-pas-faim/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/06/9.-Quand-on-dort-on-n_a-pas-faim-1080x1080picto.png",
+      "id": "dfd5204a5260"
     },
     {
       "venue": "Espace Gerson",
@@ -16331,6 +16747,19 @@
       "id": "ff1afe7b9494"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Quand on dort on n’a pas faim",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-17",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.croix-rousse.com/au-programme/quand-on-dort-on-na-pas-faim/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/06/9.-Quand-on-dort-on-n_a-pas-faim-1080x1080picto.png",
+      "id": "57519cb4ad7b"
+    },
+    {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
       "title": "Embrasse ta mère",
@@ -16394,6 +16823,19 @@
       "url": "https://www.bourse-du-travail.com/marine-leonardi-378481.html",
       "image": "https://www.bourse-du-travail.com/img/evenement/marine-leonardi-dans-mauvaise-graine-8.jpg",
       "id": "ad0e67ce195d"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Jeux de société inclusifs en famille",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-11-18",
+      "date_end": null,
+      "time": "16:00",
+      "url": "https://www.croix-rousse.com/au-programme/jeux-de-societe-inclusifs-en-famille/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/06/Jeux-de-société.png",
+      "id": "ec34f1a35c20"
     },
     {
       "venue": "La Rayonne",
@@ -16695,6 +17137,19 @@
       "id": "27dec96b5ff6"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Magistral·e·s",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-19",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.croix-rousse.com/au-programme/magistral%c2%b7e%c2%b7s/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/06/10.-Magistral-1080x1080picto.png",
+      "id": "d2eed67a928c"
+    },
+    {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
       "title": "Manuel Pratt - Stand-up, Debout !",
@@ -16929,6 +17384,19 @@
       "id": "8fdda3bd4044"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Magistral·e·s",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-20",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.croix-rousse.com/au-programme/magistral%c2%b7e%c2%b7s/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/06/10.-Magistral-1080x1080picto.png",
+      "id": "25b8a0943cfb"
+    },
+    {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
       "title": "Manuel Pratt - Stand-up, Debout !",
@@ -16992,6 +17460,32 @@
       "url": "https://www.lecomplexelyon.com/programme/le-complexe-comedy-club-4-humoristes/",
       "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/complexe-comedy-club-540x800.jpg",
       "id": "db742cf21a3e"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Atelier d’écriture avec Mélissa Zehner",
+      "subtitle": null,
+      "category": "atelier",
+      "date_start": "2026-11-21",
+      "date_end": null,
+      "time": "10:00",
+      "url": "https://www.croix-rousse.com/au-programme/atelier-decriture-avec-melissa-zehner/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/06/Mélissa-Zhener-1080x1080-1.png",
+      "id": "9db3b20c1208"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Voix féministes latino-américaines",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-11-21",
+      "date_end": null,
+      "time": "14:00",
+      "url": "https://www.croix-rousse.com/au-programme/voix-feministes-latino-americaines/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/06/Voix-féministes-latinos.png",
+      "id": "0d6bb715ba27"
     },
     {
       "venue": "Improvidence",
@@ -17189,6 +17683,19 @@
       "id": "2875d2a43209"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Mérou",
+      "subtitle": null,
+      "category": "humour",
+      "date_start": "2026-11-21",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.croix-rousse.com/au-programme/merou/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/06/11.-Mérou-1080x1080picto.png",
+      "id": "493cfe08f73b"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "LES PEINTRES AU CHARBON",
@@ -17226,6 +17733,19 @@
       "url": "https://espacegerson.mapado.com/event/686269-manuel-pratt-stand-up-debout",
       "image": "https://img.mapado.net/2026/3/19/69bc1c078eed4-pratt.png_thumbs/600-600.png",
       "id": "0c71502549e4"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Karaoké féministe HFX+",
+      "subtitle": null,
+      "category": "jeux",
+      "date_start": "2026-11-21",
+      "date_end": null,
+      "time": "21:15",
+      "url": "https://www.croix-rousse.com/au-programme/karaoke-feministe-hfx/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/KaraokeHFX.png",
+      "id": "44d95989cca4"
     },
     {
       "venue": "Le Complexe café-théâtre",
@@ -17501,6 +18021,19 @@
       "id": "d7ef1cd3d95a"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "À l’envers, à l’endroit",
+      "subtitle": null,
+      "category": "bruitages",
+      "date_start": "2026-11-25",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.croix-rousse.com/au-programme/a-lenvers-a-lendroit/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/06/12.-À-lenvers-à-lendroitpicto.png",
+      "id": "64c117f738b6"
+    },
+    {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
       "title": "ACCEPT + DYNAZTY + TAILGUNNER",
@@ -17655,6 +18188,32 @@
       "url": "https://improvidence.mapado.com/event/602043-seconds-couteaux",
       "image": "https://img.mapado.net/2026/8/4/6a71afd65a4c9-visuel-seconds-couteaux-2026-07-1.png_thumbs/600-600.png",
       "id": "ffe8c4845d5d"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "À l’envers, à l’endroit",
+      "subtitle": null,
+      "category": "bruitages",
+      "date_start": "2026-11-26",
+      "date_end": null,
+      "time": "10:00",
+      "url": "https://www.croix-rousse.com/au-programme/a-lenvers-a-lendroit/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/06/12.-À-lenvers-à-lendroitpicto.png",
+      "id": "b32c08bb8d71"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "À l’envers, à l’endroit",
+      "subtitle": null,
+      "category": "bruitages",
+      "date_start": "2026-11-26",
+      "date_end": null,
+      "time": "14:30",
+      "url": "https://www.croix-rousse.com/au-programme/a-lenvers-a-lendroit/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/06/12.-À-lenvers-à-lendroitpicto.png",
+      "id": "0bd6860717e0"
     },
     {
       "venue": "Le Sucre",
@@ -17813,6 +18372,19 @@
       "id": "9e24ff3cfb89"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Un tiro cada uno",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-26",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.croix-rousse.com/au-programme/un-tiro-cada-uno/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/06/13.-Un-tiro-cada-uno-1080x1080picto.png",
+      "id": "e7e5cf557fad"
+    },
+    {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
       "title": "Axel Lattuada - P.E.R.A.V.",
@@ -17904,6 +18476,19 @@
       "id": "443e739311e2"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "À l’envers, à l’endroit",
+      "subtitle": null,
+      "category": "bruitages",
+      "date_start": "2026-11-27",
+      "date_end": null,
+      "time": "10:00",
+      "url": "https://www.croix-rousse.com/au-programme/a-lenvers-a-lendroit/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/06/12.-À-lenvers-à-lendroitpicto.png",
+      "id": "259ef09af567"
+    },
+    {
       "venue": "IAC Villeurbanne",
       "venue_slug": "iac-villeurbanne",
       "title": "Visites sur le pouce - Pendant la pause déjeuner !",
@@ -17915,6 +18500,32 @@
       "url": "https://agenda.villemorte.fr/event/visites-sur-le-pouce-pendant-la-pause-dejeuner-1",
       "image": "https://agenda.villemorte.fr/media/thumb/343ff62082a40ba2cb8e57128163fc22.jpg",
       "id": "cdf60c10a733"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Atelier d’écriture avec Laura Sbdar",
+      "subtitle": null,
+      "category": "atelier",
+      "date_start": "2026-11-27",
+      "date_end": null,
+      "time": "14:00",
+      "url": "https://www.croix-rousse.com/au-programme/atelier-decriture-avec-laura-sbdar/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/06/Atelier-écriture-1.png",
+      "id": "97ee73640d2f"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "À l’envers, à l’endroit",
+      "subtitle": null,
+      "category": "bruitages",
+      "date_start": "2026-11-27",
+      "date_end": null,
+      "time": "14:30",
+      "url": "https://www.croix-rousse.com/au-programme/a-lenvers-a-lendroit/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/06/12.-À-lenvers-à-lendroitpicto.png",
+      "id": "e9b553a3fbc1"
     },
     {
       "venue": "Le Sucre",
@@ -18034,6 +18645,19 @@
       "id": "35221f7731fc"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Un tiro cada uno",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2026-11-27",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.croix-rousse.com/au-programme/un-tiro-cada-uno/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/06/13.-Un-tiro-cada-uno-1080x1080picto.png",
+      "id": "fce3485a95ae"
+    },
+    {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
       "title": "Axel Lattuada - P.E.R.A.V.",
@@ -18086,6 +18710,19 @@
       "id": "298457e1cc12"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Concert du Gang Lang",
+      "subtitle": null,
+      "category": "musique",
+      "date_start": "2026-11-27",
+      "date_end": null,
+      "time": "21:15",
+      "url": "https://www.croix-rousse.com/au-programme/concert-du-gang-lang/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/06/Gang-lang-1.png",
+      "id": "dd44fd538222"
+    },
+    {
       "venue": "Le Complexe café-théâtre",
       "venue_slug": "le-complexe",
       "title": "LE COMPLEXE COMEDY CLUB - Un plateau d'humoristes !",
@@ -18110,6 +18747,32 @@
       "url": "https://www.bourse-du-travail.com/fabrice-eboue-377207.html",
       "image": "https://www.bourse-du-travail.com/img/evenement/fabrice-eboue-144.jpg",
       "id": "1e519b6ae236"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "À l’envers, à l’endroit",
+      "subtitle": null,
+      "category": "bruitages",
+      "date_start": "2026-11-28",
+      "date_end": null,
+      "time": "11:00",
+      "url": "https://www.croix-rousse.com/au-programme/a-lenvers-a-lendroit/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/06/12.-À-lenvers-à-lendroitpicto.png",
+      "id": "1761154d41d5"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Atelier bruitage adulte-enfant",
+      "subtitle": null,
+      "category": "atelier",
+      "date_start": "2026-11-28",
+      "date_end": null,
+      "time": "14:00",
+      "url": "https://www.croix-rousse.com/au-programme/atelier-bruitage-adulte-enfant/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/06/Atelier-bruitages.png",
+      "id": "8e0595c1d46e"
     },
     {
       "venue": "Les Subsistances",
@@ -18138,6 +18801,32 @@
       "id": "975a0673efea"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Festiv·iel",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-11-28",
+      "date_end": null,
+      "time": "16:00",
+      "url": "https://www.croix-rousse.com/au-programme/festiv%c2%b7iel2627/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/06/0.-Festiv·iel-1080x1080-1.png",
+      "id": "b5d1bf1959bc"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "À l’envers, à l’endroit",
+      "subtitle": null,
+      "category": "bruitages",
+      "date_start": "2026-11-28",
+      "date_end": null,
+      "time": "16:00",
+      "url": "https://www.croix-rousse.com/au-programme/a-lenvers-a-lendroit/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/06/12.-À-lenvers-à-lendroitpicto.png",
+      "id": "85179617e2f2"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "SITCOM",
@@ -18162,6 +18851,19 @@
       "url": "https://www.les-subs.com/evenement/minipousses-cirque/",
       "image": "https://www.les-subs.com/wp-content/uploads/2024/04/re1604-1091-200x200.jpg",
       "id": "e31b2309b4e6"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Goûter philo avec Muriel Imbach",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-11-28",
+      "date_end": null,
+      "time": "17:00",
+      "url": "https://www.croix-rousse.com/au-programme/gouter-philo-avec-muriel-imbach/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/06/Goûter-philo.png",
+      "id": "9938c75ffb43"
     },
     {
       "venue": "Improvidence",
@@ -18593,6 +19295,19 @@
       "id": "bcb216a02f6b"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Israel & Mohamed",
+      "subtitle": null,
+      "category": "danse",
+      "date_start": "2026-12-01",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.croix-rousse.com/au-programme/israel-mohamed/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/IM-1080x1080-1.png",
+      "id": "3cf60e1e9419"
+    },
+    {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
       "title": "Embrasse ta mère",
@@ -18762,6 +19477,19 @@
       "id": "085a22c0469d"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Israel & Mohamed",
+      "subtitle": null,
+      "category": "danse",
+      "date_start": "2026-12-02",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.croix-rousse.com/au-programme/israel-mohamed/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/IM-1080x1080-1.png",
+      "id": "2ab51cdeec45"
+    },
+    {
       "venue": "Le Complexe café-théâtre",
       "venue_slug": "le-complexe",
       "title": "\"La Mauvaise Éducation\" de Sarah Lélé",
@@ -18903,6 +19631,19 @@
       "url": "https://www.tnp-villeurbanne.com/spectacle/lhors-presence-ou-chimeres-du-pays-de-morsan/",
       "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/3_Lhors_presencecSimon_Gosselin.jpg",
       "id": "e28090c4df9b"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Israel & Mohamed",
+      "subtitle": null,
+      "category": "danse",
+      "date_start": "2026-12-03",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.croix-rousse.com/au-programme/israel-mohamed/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/IM-1080x1080-1.png",
+      "id": "f4b09fdd5e6c"
     },
     {
       "venue": "Théâtre des Clochards Célestes",
@@ -19048,6 +19789,19 @@
       "id": "04a8868fcfe9"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Visite tactile des décors et des costumes",
+      "subtitle": null,
+      "category": "expo",
+      "date_start": "2026-12-04",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://www.croix-rousse.com/au-programme/visite-tactile-des-decors-et-des-costumes-4/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/06/Visite-tactile-1080x1080-1.png",
+      "id": "a8ebce835578"
+    },
+    {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
       "title": "LUTHER",
@@ -19178,6 +19932,19 @@
       "id": "455fec6eaa8f"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Israel & Mohamed",
+      "subtitle": null,
+      "category": "danse",
+      "date_start": "2026-12-04",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.croix-rousse.com/au-programme/israel-mohamed/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/IM-1080x1080-1.png",
+      "id": "833705c0403a"
+    },
+    {
       "venue": "Maison de la Danse",
       "venue_slug": "maison-de-la-danse",
       "title": "Slava’s Snowshow",
@@ -19243,6 +20010,19 @@
       "id": "3177a07f7775"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Atelier corps & mouvement",
+      "subtitle": null,
+      "category": "atelier",
+      "date_start": "2026-12-05",
+      "date_end": null,
+      "time": "10:00",
+      "url": "https://www.croix-rousse.com/au-programme/atelier-corps-mouvement-2/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/06/Atelier-corps-et-mouvement-2-1.png",
+      "id": "ea3b5f8511cb"
+    },
+    {
       "venue": "Maison de la Danse",
       "venue_slug": "maison-de-la-danse",
       "title": "Slava’s Snowshow",
@@ -19293,6 +20073,19 @@
       "url": "https://maisondeladanse.com/programmation/saison2026-2027/slavas-snowshow",
       "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/slava_snowshow-s.jpg?itok=aPKlMSMr",
       "id": "259aad191dd9"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Voix et récits en musique",
+      "subtitle": null,
+      "category": "musique",
+      "date_start": "2026-12-05",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.croix-rousse.com/au-programme/voix-et-recits-en-musique/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/06/Voix-et-récits-en-musique-1.png",
+      "id": "32f128887772"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -19750,6 +20543,19 @@
       "id": "acd6d8880c6b"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Radio Live – Nos vies à venir",
+      "subtitle": null,
+      "category": "radio",
+      "date_start": "2026-12-09",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.croix-rousse.com/au-programme/radio-live-nos-vies-a-venir/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/14.-Radio-live-1080x1080-1.png",
+      "id": "c888f83dd68e"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "Benjamin Biolay",
@@ -19865,6 +20671,19 @@
       "url": "https://improvidence.mapado.com/event/14113-mon-pote",
       "image": "https://img.mapado.net/2023/10/3/651c16e6edef5-affiche-mon-pote-web.jpeg_thumbs/600-600.jpeg",
       "id": "ff1f136d050e"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Radio Live – Nos vies à venir",
+      "subtitle": null,
+      "category": "radio",
+      "date_start": "2026-12-10",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.croix-rousse.com/au-programme/radio-live-nos-vies-a-venir/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/14.-Radio-live-1080x1080-1.png",
+      "id": "20006a2813bb"
     },
     {
       "venue": "Agend'arts",
@@ -20634,6 +21453,19 @@
       "id": "70136e6b89eb"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Cabaret Les Meneuses",
+      "subtitle": null,
+      "category": "cabaret",
+      "date_start": "2026-12-15",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.croix-rousse.com/au-programme/cabaret-les-meneuses/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/Les-Meneuses-1080x1080-1.png",
+      "id": "e892fcc5e128"
+    },
+    {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
       "title": "Embrasse ta mère",
@@ -20777,6 +21609,19 @@
       "id": "c9ced6668cdd"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Cabaret Les Meneuses",
+      "subtitle": null,
+      "category": "cabaret",
+      "date_start": "2026-12-16",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.croix-rousse.com/au-programme/cabaret-les-meneuses/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/Les-Meneuses-1080x1080-1.png",
+      "id": "c5e8e666b047"
+    },
+    {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
       "title": "Jeanne Elima - Grande fille",
@@ -20892,6 +21737,19 @@
       "url": "https://www.theatredescelestins.com/fr/programmation/2026-2027/grande-salle/le-dindon-1",
       "image": "https://www.theatredescelestins.com/assets/q75-w600/21d3860a/dindon2_myriam_boulos.jpg",
       "id": "541c788a9363"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Cabaret Les Meneuses",
+      "subtitle": null,
+      "category": "cabaret",
+      "date_start": "2026-12-17",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.croix-rousse.com/au-programme/cabaret-les-meneuses/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/Les-Meneuses-1080x1080-1.png",
+      "id": "a75ad24d6d8e"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -21128,6 +21986,19 @@
       "id": "306591ee9545"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Cabaret Les Meneuses",
+      "subtitle": null,
+      "category": "cabaret",
+      "date_start": "2026-12-18",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.croix-rousse.com/au-programme/cabaret-les-meneuses/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/Les-Meneuses-1080x1080-1.png",
+      "id": "91ca7e7da294"
+    },
+    {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
       "title": "Jeanne Elima - Grande fille",
@@ -21230,6 +22101,32 @@
       "url": "https://www.theatredescelestins.com/fr/programmation/2026-2027/grande-salle/le-dindon-1",
       "image": "https://www.theatredescelestins.com/assets/q75-w600/21d3860a/dindon2_myriam_boulos.jpg",
       "id": "a392306d047f"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Garderie : Les P’tites Coulisses",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-12-19",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.croix-rousse.com/au-programme/garderie-les-ptites-coulisses/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/06/les_ptites_coulisses_1080x1080.png",
+      "id": "0988efd320d0"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Cabaret Les Meneuses",
+      "subtitle": null,
+      "category": "cabaret",
+      "date_start": "2026-12-19",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.croix-rousse.com/au-programme/cabaret-les-meneuses/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/Les-Meneuses-1080x1080-1.png",
+      "id": "3645abc23338"
     },
     {
       "venue": "La Torpille",
@@ -22831,6 +23728,19 @@
       "id": "fbb9009e6a23"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Roméo et Juliette",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-01-12",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.croix-rousse.com/au-programme/romeo-et-juliette-3/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/Roméo-et-Juliette-1080x1080-1.png",
+      "id": "28f8440fd486"
+    },
+    {
       "venue": "Le Complexe café-théâtre",
       "venue_slug": "le-complexe",
       "title": "COMEDY CLUB - QUEER !!",
@@ -22935,6 +23845,19 @@
       "id": "d36fa43e7d82"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Roméo et Juliette",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-01-13",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.croix-rousse.com/au-programme/romeo-et-juliette-3/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/Roméo-et-Juliette-1080x1080-1.png",
+      "id": "f2ada44ed5cd"
+    },
+    {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
       "title": "Cécile Marx - Iconique",
@@ -23026,6 +23949,19 @@
       "id": "71ee594b1f4c"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Roméo et Juliette",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-01-14",
+      "date_end": null,
+      "time": "14:30",
+      "url": "https://www.croix-rousse.com/au-programme/romeo-et-juliette-3/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/Roméo-et-Juliette-1080x1080-1.png",
+      "id": "18e0a6a34ab4"
+    },
+    {
       "venue": "Les Subsistances",
       "venue_slug": "les-subs",
       "title": "DEBOUT//PUBLIC",
@@ -23076,6 +24012,19 @@
       "url": "https://improvidence.mapado.com/event/268472-toi-moi",
       "image": "https://img.mapado.net/2026/1/26/69772dc1cb2f5-toi-moi-affiche-facon-film-1.png_thumbs/600-600.png",
       "id": "4351b553e5c2"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Roméo et Juliette",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-01-14",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.croix-rousse.com/au-programme/romeo-et-juliette-3/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/Roméo-et-Juliette-1080x1080-1.png",
+      "id": "74b7eaddf680"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -23195,6 +24144,19 @@
       "id": "66b7aa14d2af"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Projection : Roméo + Juliette de Baz Luhrmann",
+      "subtitle": null,
+      "category": "projection",
+      "date_start": "2027-01-14",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://www.croix-rousse.com/au-programme/projection-romeo-juliette-de-baz-luhrmann/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/Roméo-Juliette-1080x1080-1.png",
+      "id": "8ebffa5db609"
+    },
+    {
       "venue": "Bourse du Travail",
       "venue_slug": "bourse-du-travail",
       "title": "Philippe Caveriviere",
@@ -23299,6 +24261,19 @@
       "id": "dcac75a1a167"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Roméo et Juliette",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-01-15",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.croix-rousse.com/au-programme/romeo-et-juliette-3/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/Roméo-et-Juliette-1080x1080-1.png",
+      "id": "9ca869c1b78b"
+    },
+    {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
       "title": "Cécile Marx - Iconique",
@@ -23336,6 +24311,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/moguiz-2/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2025/04/mog-1-scaled.jpg",
       "id": "160eb7ff67f5"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Bal masqué électro",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2027-01-15",
+      "date_end": null,
+      "time": "22:00",
+      "url": "https://www.croix-rousse.com/au-programme/bal-masque-electro/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/Bal-masqué.png",
+      "id": "92ea63b8d845"
     },
     {
       "venue": "Bourse du Travail",
@@ -23440,6 +24428,19 @@
       "url": "https://www.transbordeur.fr/evenement/fills-monkey-16012027/",
       "image": "https://www.transbordeur.fr/wp-content/uploads/2026/04/a-fillsmonkey2.jpg",
       "id": "de7e73915937"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Roméo et Juliette",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-01-16",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.croix-rousse.com/au-programme/romeo-et-juliette-3/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/Roméo-et-Juliette-1080x1080-1.png",
+      "id": "cca4a711e96a"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -23598,6 +24599,19 @@
       "id": "23ea9c331362"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Table-ronde Faire famille aujourd’hui",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2027-01-19",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.croix-rousse.com/au-programme/table-ronde-faire-famille-aujourdhui/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/06/Table-ronde-faire-famille.png",
+      "id": "1faad66471d7"
+    },
+    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins",
       "title": "Amour, Gloire et Ciment !",
@@ -23754,6 +24768,19 @@
       "id": "9be57d4ce2dc"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Affaires familiales",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-01-20",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.croix-rousse.com/au-programme/affaires-familiales/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/Affaires-familiales-1080x1080-1.png",
+      "id": "40c330b0c439"
+    },
+    {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
       "title": "Arthur Gomez - Please Stand-Up",
@@ -23856,6 +24883,19 @@
       "url": "https://www.tnp-villeurbanne.com/spectacle/mobile-homes/",
       "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_Mobile_homescTristan_Dubois.jpg",
       "id": "aadc224e34eb"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Affaires familiales",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-01-21",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.croix-rousse.com/au-programme/affaires-familiales/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/Affaires-familiales-1080x1080-1.png",
+      "id": "7cd770abde3f"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -23975,6 +25015,19 @@
       "id": "99bb704425c0"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Visite du Palais de Justice historique de Lyon",
+      "subtitle": null,
+      "category": "expo",
+      "date_start": "2027-01-22",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.croix-rousse.com/au-programme/visite-du-palais-de-justice-historique-de-lyon/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/Visite-palais-de-justice-historique-de-lyon_.png",
+      "id": "eb6b287f1ddf"
+    },
+    {
       "venue": "La Rayonne",
       "venue_slug": "la-rayonne",
       "title": "VULVES ASSASSINES & POÉSIE ZÉRO + CITRON SUCRÉ",
@@ -24077,6 +25130,19 @@
       "url": "https://www.tnp-villeurbanne.com/spectacle/zone-dattente/",
       "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_Zone_dattentecMacha-Makeieff.jpg",
       "id": "880d5c43fd79"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Affaires familiales",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-01-22",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.croix-rousse.com/au-programme/affaires-familiales/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/Affaires-familiales-1080x1080-1.png",
+      "id": "2c6c49f301d2"
     },
     {
       "venue": "Espace Gerson",
@@ -24194,6 +25260,19 @@
       "url": "https://www.theatredescelestins.com/fr/programmation/2026-2027/grande-salle/nos-empereurs",
       "image": "https://www.theatredescelestins.com/assets/q75-w600/24c0d764/empereurs_1.jpg",
       "id": "37485e6d8079"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Affaires familiales",
+      "subtitle": null,
+      "category": "théâtre",
+      "date_start": "2027-01-23",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.croix-rousse.com/au-programme/affaires-familiales/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/Affaires-familiales-1080x1080-1.png",
+      "id": "d1beb8c69b91"
     },
     {
       "venue": "Le Complexe café-théâtre",
@@ -24573,6 +25652,19 @@
       "id": "88d145cccb2d"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "«________»",
+      "subtitle": null,
+      "category": "cirque",
+      "date_start": "2027-01-27",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.croix-rousse.com/au-programme/21188/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/Camille-Boitel-1080x1080-1.png",
+      "id": "7fcd720107e7"
+    },
+    {
       "venue": "Le Complexe café-théâtre",
       "venue_slug": "le-complexe",
       "title": "LE COMPLEXE COMEDY CLUB - Un plateau d'humoristes !",
@@ -24688,6 +25780,19 @@
       "url": "https://www.tnp-villeurbanne.com/spectacle/mobile-homes/",
       "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_Mobile_homescTristan_Dubois.jpg",
       "id": "8d7069ca8acd"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "«________»",
+      "subtitle": null,
+      "category": "cirque",
+      "date_start": "2027-01-28",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.croix-rousse.com/au-programme/21188/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/Camille-Boitel-1080x1080-1.png",
+      "id": "041d90357a79"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -24898,6 +26003,19 @@
       "id": "6b26e16c06c1"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "«________»",
+      "subtitle": null,
+      "category": "cirque",
+      "date_start": "2027-01-29",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.croix-rousse.com/au-programme/21188/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/Camille-Boitel-1080x1080-1.png",
+      "id": "b74c6f3013d2"
+    },
+    {
       "venue": "Maison de la Danse",
       "venue_slug": "maison-de-la-danse",
       "title": "Karole Armitage / MazelFreten",
@@ -25080,6 +26198,19 @@
       "id": "d986db64ddca"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "«________»",
+      "subtitle": null,
+      "category": "cirque",
+      "date_start": "2027-01-30",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.croix-rousse.com/au-programme/21188/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/Camille-Boitel-1080x1080-1.png",
+      "id": "d6d0bee7d337"
+    },
+    {
       "venue": "Le Complexe café-théâtre",
       "venue_slug": "le-complexe",
       "title": "Faites l'apéro pas la guerre",
@@ -25249,6 +26380,19 @@
       "id": "14148c08ae28"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Il n’y a pas que les chat·tes qui ont neuf vies",
+      "subtitle": null,
+      "category": "cabaret",
+      "date_start": "2027-02-02",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.croix-rousse.com/au-programme/il-ny-a-pas-que-les-chat%c2%b7tes-qui-ont-neuf-vies/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/19.-Cirque-queer-1080x1080-1.png",
+      "id": "29d120f4b2b1"
+    },
+    {
       "venue": "Le Complexe café-théâtre",
       "venue_slug": "le-complexe",
       "title": "LE COMPLEXE COMEDY CLUB - Un plateau d'humoristes !",
@@ -25353,6 +26497,19 @@
       "id": "f35f2a7ae955"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Il n’y a pas que les chat·tes qui ont neuf vies",
+      "subtitle": null,
+      "category": "cabaret",
+      "date_start": "2027-02-03",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.croix-rousse.com/au-programme/il-ny-a-pas-que-les-chat%c2%b7tes-qui-ont-neuf-vies/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/19.-Cirque-queer-1080x1080-1.png",
+      "id": "e289b9a8a489"
+    },
+    {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
       "title": "Pierre Antoine Damecour - Jamais trop tard",
@@ -25429,6 +26586,19 @@
       "url": "https://www.theatredescelestins.com/fr/programmation/2026-2027/grande-salle/hautes-perchees",
       "image": "https://www.theatredescelestins.com/assets/q75-w600/ca23443e/haute_perchees_myriam_boulos.jpg",
       "id": "8071e86eb006"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Il n’y a pas que les chat·tes qui ont neuf vies",
+      "subtitle": null,
+      "category": "cabaret",
+      "date_start": "2027-02-04",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.croix-rousse.com/au-programme/il-ny-a-pas-que-les-chat%c2%b7tes-qui-ont-neuf-vies/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/19.-Cirque-queer-1080x1080-1.png",
+      "id": "44a22ee2d0f2"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -25639,6 +26809,19 @@
       "id": "e831709b4735"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Il n’y a pas que les chat·tes qui ont neuf vies",
+      "subtitle": null,
+      "category": "cabaret",
+      "date_start": "2027-02-05",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.croix-rousse.com/au-programme/il-ny-a-pas-que-les-chat%c2%b7tes-qui-ont-neuf-vies/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/19.-Cirque-queer-1080x1080-1.png",
+      "id": "3285b8c09da0"
+    },
+    {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
       "title": "Pierre Antoine Damecour - Jamais trop tard",
@@ -25782,6 +26965,19 @@
       "id": "b1b9eefc7743"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Il n’y a pas que les chat·tes qui ont neuf vies",
+      "subtitle": null,
+      "category": "cabaret",
+      "date_start": "2027-02-06",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.croix-rousse.com/au-programme/il-ny-a-pas-que-les-chat%c2%b7tes-qui-ont-neuf-vies/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/19.-Cirque-queer-1080x1080-1.png",
+      "id": "d892e5c32a30"
+    },
+    {
       "venue": "Le Complexe café-théâtre",
       "venue_slug": "le-complexe",
       "title": "LE COMPLEXE COMEDY CLUB - Un plateau d'humoristes !",
@@ -25819,6 +27015,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/lets-twist-again/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/06/lets-twist-again-500x500.jpg",
       "id": "912df24bf093"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "After Party du Cirque Queer",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2027-02-06",
+      "date_end": null,
+      "time": "20:45",
+      "url": "https://www.croix-rousse.com/au-programme/after-party-du-cirque-queer/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/06/After-party-cirque-queer-1.png",
+      "id": "30a57259db58"
     },
     {
       "venue": "Improvidence",
@@ -26328,6 +27537,19 @@
       "id": "7ef340fd86ed"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Soirée afro-électro",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2027-02-11",
+      "date_end": null,
+      "time": "22:00",
+      "url": "https://www.croix-rousse.com/au-programme/soiree-afro-electro/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/06/Soirée-afro-électro-1.png",
+      "id": "c1b4c6e0e14a"
+    },
+    {
       "venue": "TNG",
       "venue_slug": "tng",
       "title": "Bazar Circus, l’orchestre fait son cirque !",
@@ -26664,6 +27886,19 @@
       "url": "https://www.lecomplexelyon.com/programme/improminots/",
       "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/improminots.jpg",
       "id": "1adb99e63b1a"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Apéro-répèt’ avec Sébastien Valignat",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2027-02-17",
+      "date_end": null,
+      "time": "18:30",
+      "url": "https://www.croix-rousse.com/au-programme/apero-repet-avec-sebastien-valignat/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/06/Apéro-repet-Sébastien-1.png",
+      "id": "0cc418924ece"
     },
     {
       "venue": "Le Transbordeur",
@@ -27093,6 +28328,19 @@
       "url": "https://www.lecomplexelyon.com/programme/mon-heros/",
       "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/mon-heros-540x800.jpg",
       "id": "0a7c26a3ff12"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Projection : L’Exercice de l’État de Pierre Schoeller",
+      "subtitle": null,
+      "category": "projection",
+      "date_start": "2027-02-23",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://www.croix-rousse.com/au-programme/projection-lexercice-de-letat-de-pierre-schoeller/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/LExercice-de-lÉtat-1.png",
+      "id": "f6ebd542d39f"
     },
     {
       "venue": "Le Complexe café-théâtre",
@@ -27537,6 +28785,19 @@
       "id": "8e7f275bab2f"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Ve République, on n’a pas trouvé mieux",
+      "subtitle": null,
+      "category": "humour",
+      "date_start": "2027-03-02",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.croix-rousse.com/au-programme/ve-republique-on-na-pas-trouve-mieux/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/V-république-1080x1080-1.png",
+      "id": "5693ce9a95dc"
+    },
+    {
       "venue": "Le Complexe café-théâtre",
       "venue_slug": "le-complexe",
       "title": "LE COMPLEXE COMEDY CLUB - Un plateau d'humoristes !",
@@ -27654,6 +28915,19 @@
       "id": "8e175e6447ea"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Ve République, on n’a pas trouvé mieux",
+      "subtitle": null,
+      "category": "humour",
+      "date_start": "2027-03-03",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.croix-rousse.com/au-programme/ve-republique-on-na-pas-trouve-mieux/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/V-république-1080x1080-1.png",
+      "id": "0b8af56f8b8a"
+    },
+    {
       "venue": "Le Complexe café-théâtre",
       "venue_slug": "le-complexe",
       "title": "LE COMPLEXE COMEDY CLUB - Un plateau d'humoristes !",
@@ -27756,6 +29030,19 @@
       "url": "https://www.tnp-villeurbanne.com/spectacle/7-minutes/",
       "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_7minutescFelipe_Dupouy.jpg",
       "id": "9a621c478a09"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Ve République, on n’a pas trouvé mieux",
+      "subtitle": null,
+      "category": "humour",
+      "date_start": "2027-03-04",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.croix-rousse.com/au-programme/ve-republique-on-na-pas-trouve-mieux/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/V-république-1080x1080-1.png",
+      "id": "ee95a641336a"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -27862,6 +29149,19 @@
       "id": "74b78cf742fb"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Ve République, on n’a pas trouvé mieux",
+      "subtitle": null,
+      "category": "humour",
+      "date_start": "2027-03-05",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.croix-rousse.com/au-programme/ve-republique-on-na-pas-trouve-mieux/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/V-république-1080x1080-1.png",
+      "id": "5aa8293ddd24"
+    },
+    {
       "venue": "TNP - Théâtre National Populaire",
       "venue_slug": "tnp",
       "title": "Une soirée avec Fatima Daas",
@@ -27914,6 +29214,32 @@
       "id": "b6e4854fae15"
     },
     {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Atelier d’écriture avec Logan De Carvalho",
+      "subtitle": null,
+      "category": "atelier",
+      "date_start": "2027-03-06",
+      "date_end": null,
+      "time": "14:00",
+      "url": "https://www.croix-rousse.com/au-programme/atelier-decriture-avec-logan-de-carvalho/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/06/Logan-De-Carvalho-1080x1080-1.png",
+      "id": "b5f4e0794ba9"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "L’Art d’avoir toujours raison",
+      "subtitle": null,
+      "category": "conférence",
+      "date_start": "2027-03-06",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.croix-rousse.com/au-programme/lart-davoir-toujours-raison-2/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/LART-davoir-toujours-raison-1080x1080-1.png",
+      "id": "f47eb2e2d4ae"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "Détours",
@@ -27964,6 +29290,19 @@
       "url": "https://www.theatredescelestins.com/fr/programmation/2026-2027/grande-salle/l-amante-anglaise-1",
       "image": "https://www.theatredescelestins.com/assets/q75-w600/6bc7061f/amante_anglaise_cover.jpg",
       "id": "51bcd6d6d1d7"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Ve République, on n’a pas trouvé mieux",
+      "subtitle": null,
+      "category": "humour",
+      "date_start": "2027-03-06",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.croix-rousse.com/au-programme/ve-republique-on-na-pas-trouve-mieux/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/V-république-1080x1080-1.png",
+      "id": "a8a5220fee65"
     },
     {
       "venue": "Bourse du Travail",
@@ -28055,6 +29394,19 @@
       "url": "https://maisondeladanse.com/programmation/saison2026-2027/piracema-parabelo",
       "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/grupo-corpo-s.jpg?itok=tLN-iwuW",
       "id": "d4af5e24b519"
+    },
+    {
+      "venue": "Théâtre de la Croix-Rousse",
+      "venue_slug": "croix-rousse",
+      "title": "Visite guidée au musée Lugdunum",
+      "subtitle": null,
+      "category": "expo",
+      "date_start": "2027-03-07",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.croix-rousse.com/au-programme/visite-guidee-au-musee-lugdunum/",
+      "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/Visite-Lugdunum.png",
+      "id": "59a7a91a0307"
     },
     {
       "venue": "TNP - Théâtre National Populaire",
@@ -28393,19 +29745,6 @@
       "url": "https://www.bourse-du-travail.com/edouard-deloignon-378811.html",
       "image": "https://www.bourse-du-travail.com/img/evenement/edouard-deloignon-grandira-plus-tard-4.jpg",
       "id": "9e318a26ac8e"
-    },
-    {
-      "venue": "Improvidence",
-      "venue_slug": "improvidence",
-      "title": "Ça handi long",
-      "subtitle": null,
-      "category": "Impro",
-      "date_start": "2027-03-24",
-      "date_end": null,
-      "time": "19:30",
-      "url": "https://www.petit-bulletin.fr/agenda-318692-a-handi-long.html",
-      "image": null,
-      "id": "7be77bf53060"
     },
     {
       "venue": "Les Subsistances",
@@ -28902,6 +30241,19 @@
       "id": "edf06199435a"
     },
     {
+      "venue": "Improvidence",
+      "venue_slug": "improvidence",
+      "title": "Ça handi long",
+      "subtitle": null,
+      "category": "Impro",
+      "date_start": "2027-04-14",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.petit-bulletin.fr/agenda-318692-a-handi-long.html",
+      "image": null,
+      "id": "37c4b2711353"
+    },
+    {
       "venue": "La Halle Tony Garnier",
       "venue_slug": "halle-tony-garnier",
       "title": "Mosimann",
@@ -28952,6 +30304,19 @@
       "url": "https://www.petit-bulletin.fr/agenda-311257-david-castello-lopes.html",
       "image": null,
       "id": "86f2e30e4445"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "L'impro FFF",
+      "subtitle": null,
+      "category": "Impro",
+      "date_start": "2027-04-27",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://www.petit-bulletin.fr/agenda-319345-l-impro-fff.html",
+      "image": null,
+      "id": "ab7b3eea00be"
     },
     {
       "venue": "Théâtre de la Croix-Rousse",
@@ -29045,19 +30410,6 @@
       "id": "009fd03a963e"
     },
     {
-      "venue": "Improvidence",
-      "venue_slug": "improvidence",
-      "title": "Ça handi long",
-      "subtitle": null,
-      "category": "Impro",
-      "date_start": "2027-05-13",
-      "date_end": null,
-      "time": "21:00",
-      "url": "https://www.petit-bulletin.fr/agenda-318692-a-handi-long.html",
-      "image": null,
-      "id": "34e2076f4d3f"
-    },
-    {
       "venue": "Bourse du Travail",
       "venue_slug": "bourse-du-travail",
       "title": "Tom Baldetti",
@@ -29147,19 +30499,6 @@
       "url": "https://www.petit-bulletin.fr/agenda-319198-pieuvre-1-2.html",
       "image": null,
       "id": "423f5b35e5db"
-    },
-    {
-      "venue": "Espace Gerson",
-      "venue_slug": "espace-gerson",
-      "title": "L'impro FFF",
-      "subtitle": null,
-      "category": "Impro",
-      "date_start": "2027-05-25",
-      "date_end": null,
-      "time": "20:30",
-      "url": "https://www.petit-bulletin.fr/agenda-319345-l-impro-fff.html",
-      "image": null,
-      "id": "64ebd63b18de"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -29403,10 +30742,10 @@
       "category": "humour",
       "date_start": "2027-11-25",
       "date_end": null,
-      "time": "20:00",
+      "time": null,
       "url": "https://www.bourse-du-travail.com/david-castello-lopes-410446.html",
       "image": "https://www.bourse-du-travail.com/img/evenement/david-castello-lopes-dans-delicieux.jpg",
-      "id": "42f895d6dabd"
+      "id": "415818d54c69"
     },
     {
       "venue": "Bourse du Travail",
@@ -29446,6 +30785,19 @@
       "url": "https://www.halle-tony-garnier.com/fr/programmation/philippe-caveriviere",
       "image": "https://www.halle-tony-garnier.com/storage/143725/conversions/2027-12-10-PHILIPPE-CAVERIVIERE-philippecaveriviere-tournee-fnac-1080x1080-copie-1-20260414-114358-square.jpg",
       "id": "95ab438b6959"
+    },
+    {
+      "venue": "Improvidence",
+      "venue_slug": "improvidence",
+      "title": "Ça handi long",
+      "subtitle": null,
+      "category": "Impro",
+      "date_start": "2027-12-22",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.petit-bulletin.fr/agenda-318692-a-handi-long.html",
+      "image": null,
+      "id": "46d73ae64d2d"
     },
     {
       "venue": "La Halle Tony Garnier",
