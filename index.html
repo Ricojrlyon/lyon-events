@@ -579,6 +579,16 @@
     color: var(--ink);
   }
   .fam-chip:focus-visible { outline: 2px solid var(--warm); outline-offset: 2px; }
+  /* Dans l'état vide les boutons ne sont plus dans une barre de journée
+     et n'héritent donc plus de sa police monospace. */
+  .empty-familles {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 16px;
+    font-family: 'JetBrains Mono', monospace;
+  }
   .day-bar .db-count {
     font-size: 9.5px;
     color: var(--ink-mute);
@@ -1629,7 +1639,17 @@ function familleDeCarte(evs) {
    le regroupement par lieu est refait à l'identique de l'affichage. */
 function comptesParFamille(list) {
   const n = new Map(FAMILLES.map(f => [f.key, 0]));
-  for (const [, evs] of groupByVenue(list)) {
+  // Groupé par (jour, lieu) et non par lieu seul : appelé sur une seule
+  // journée les deux reviennent au même, mais l'état vide s'en sert sur
+  // toute la période, où un même lieu deux soirs de suite fait bien deux
+  // cartes.
+  const parJour = new Map();
+  for (const e of list) {
+    const cle = e._date + '|' + (e.venue || '');
+    if (!parJour.has(cle)) parJour.set(cle, []);
+    parJour.get(cle).push(e);
+  }
+  for (const evs of parJour.values()) {
     const k = familleDeCarte(evs);
     n.set(k, (n.get(k) || 0) + 1);
   }
@@ -2690,8 +2710,15 @@ function renderFeed() {
   // garde-fou du début — qui compte les ÉVÉNEMENTS, avant regroupement —
   // ne pouvait pas le voir.
   if (!html.length) {
-    feed.innerHTML = '<div class="empty-state"><p>toutes les familles '
-                   + 'sont masquées</p></div>';
+    // Les boutons vivent dans les barres de journée : sans journée, plus
+    // de boutons, et donc aucun moyen de revenir en arrière. L'état vide
+    // porte donc ses propres boutons, avec les comptes de TOUTE la
+    // période plutôt que d'un jour.
+    const total = comptesParFamille(events);
+    feed.innerHTML = '<div class="empty-state">'
+                   + '<p>toutes les familles sont masquées</p>'
+                   + '<div class="empty-familles">' + famillesHtml(total) + '</div>'
+                   + '</div>';
     return;
   }
   feed.innerHTML = html.join('\n');
