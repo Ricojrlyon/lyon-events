@@ -117,6 +117,10 @@ VENUE_CANONICAL: dict[str, list[str]] = {
     "Auditorium de Lyon":     ["auditorium de lyon", "auditorium lyon",
                                "auditorium orchestre national de lyon",
                                "auditorium onl", "auditorium de lyon onl"],
+    # Pas d'alias « confluence » seul : le quartier porte ce nom, et la
+    # MJC Confluence est un autre lieu du feed.
+    "Musée des Confluences":  ["musee des confluences", "musee confluences",
+                               "museedesconfluences"],
     "Big White":              ["big white"],
     # Added in v34.3: Bar Rock'n Eat (PB) === Rock'n Eat (Ville Morte)
     "Bar Rock'n Eat":         ["bar rock n eat", "rock n eat", "rocknreat",

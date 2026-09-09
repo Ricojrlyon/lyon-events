@@ -8,7 +8,7 @@ et affichés sur une page statique hébergée par GitHub Pages :
 ## Fonctionnement
 
 ```
-25 scrapers venue ──┐
+26 scrapers venue ──┐
                     ├─→ dédup 3 passes ─→ events.json ─→ index.html (GitHub Pages)
 2 agrégateurs ──────┘         │
 (Petit Bulletin,              ├─→ venue_arrondissements.json (géocodage Nominatim)
@@ -74,6 +74,24 @@ les trois fichiers de données.
   « La Machine de Turing » comme une plage de 53 jours, relâches
   comprises ; le scraper en rend les 29 vraies dates, dont celle à 19h
   au lieu de 20h.
+- **`scrapers/confluences.py`** — le Musée des Confluences, seul site
+  du dépôt à exposer une JSON:API Drupal. Deux taxonomies y donnent
+  gratuitement ce qu'il faut deviner ailleurs : `field_activites` porte
+  le genre, `field_public` sépare le grand public des classes et des
+  groupes. Le choix central est de NE PAS tout prendre : le musée
+  publie 6 447 séances sur six mois — plus du double du site entier —
+  parce qu'il exprime ses visites et ses ateliers récurrents en RRULE,
+  une seule visite jouée quatre jours par semaine pendant cinq mois
+  pesant quatre-vingt-dix séances. Le type `slot` est pire : 1 200
+  créneaux pour une seule semaine, dont 583 à neuf heures, soit une
+  grille de réservation de groupes. On retient donc conférences,
+  cinéma, spectacles et concerts pour le grand public, plus les
+  expositions temporaires — dont `field_state` dit « En cours », « À
+  venir » ou « Passées », et dont la période est écrite en toutes
+  lettres, là où les agrégateurs n'en donnaient qu'une approximation.
+  Aucune des fiches retenues ne porte de récurrence encore vive ; si
+  cela changeait, elle serait signalée plutôt que tronquée en silence à
+  sa première date.
 - **`scrapers/croix_rousse.py`** — le Théâtre de la Croix-Rousse.
   WordPress dont l'API REST est OUVERTE, à la différence du TNP : elle
   donne la liste de la saison avec titres, affiches et genres. Les dates
