@@ -2846,34 +2846,46 @@ function withinWhen(dateStr) {
 }
 
 /* ---------- expand multi-day ---------- */
-const LONG_RUN_THRESHOLD = 30;
+/* Horizon d'affichage. Il n'en existait pas : inutile tant qu'une plage
+   de plus de trente jours ne pesait qu'une carte. Maintenant qu'on les
+   déploie toutes, « Papillons » — ouverte jusqu'au 22 octobre 2028 —
+   fabriquerait à elle seule six cent soixante-quinze journées. La valeur
+   reprend celle des scrapers (HORIZON_DAYS = 180) : c'est déjà l'horizon
+   réel du feed, les agrégateurs seuls annonçant plus loin. */
+const HORIZON_JOURS = 180;
+
+/* Toutes les occurrences d'un événement, un par jour de sa durée.
+   L'ancien seuil LONG_RUN_THRESHOLD repliait les séries de plus de trente
+   jours en UNE carte, datée d'aujourd'hui : une exposition de cinq mois
+   n'apparaissait qu'une fois puis disparaissait. Décision de septembre
+   2026 : on affiche tout, tous les jours, et les arts plastiques du Petit
+   Bulletin sont écartés en amont pour que le volume reste tenable. */
 function expandOccurrences(events) {
   const out = [];
-  const todayIso = isoOf(new Date());
+  const dayMs = 86400000;
+  const today = new Date(); today.setHours(0, 0, 0, 0);
+  const horizon = new Date(today.getTime() + HORIZON_JOURS * dayMs);
+  const horizonIso = isoOf(horizon);
   for (const e of events) {
     const start = parseIso(e.date_start);
     const end = e.date_end ? parseIso(e.date_end) : start;
-    const dayMs = 86400000;
     const totalDays = Math.round((end - start) / dayMs) + 1;
-    if (totalDays > LONG_RUN_THRESHOLD) {
-      // Long run déjà commencé (expo, festival) : dater l'occurrence
-      // d'aujourd'hui — avec _date = date_start passée, elle serait
-      // filtrée par occDate < now et l'événement « en cours » resterait
-      // invisible.
-      const occDate = e.date_start > todayIso ? e.date_start : todayIso;
-      out.push({ ...e, _date: occDate, _dayIndex: 1, _totalDays: totalDays, _isLongRun: true });
+    // On ne déploie que la partie utile : le passé est de toute façon
+    // filtré plus loin, et l'au-delà de l'horizon n'a pas de journée.
+    const depuis = start < today ? today : start;
+    if (depuis > horizon) {
+      // Série entièrement au-delà de l'horizon — un agrégateur annonce
+      // parfois à deux ans. Une carte à sa date d'ouverture, pour ne pas
+      // la faire disparaître du feed.
+      out.push({ ...e, _date: e.date_start, _totalDays: totalDays,
+                 _isLast: totalDays === 1 });
       continue;
     }
-    for (let i = 0; i < totalDays; i++) {
-      const d = new Date(start);
-      d.setDate(start.getDate() + i);
-      out.push({
-        ...e,
-        _date: isoOf(d),
-        _dayIndex: i + 1,
-        _totalDays: totalDays,
-        _isLongRun: false,
-      });
+    for (let d = new Date(depuis); d <= end && isoOf(d) <= horizonIso;
+         d.setDate(d.getDate() + 1)) {
+      const iso = isoOf(d);
+      out.push({ ...e, _date: iso, _totalDays: totalDays,
+                 _isLast: iso === (e.date_end || e.date_start) });
     }
   }
   return out;
@@ -3120,6 +3132,20 @@ function majorityCategory(evs) {
    (12) retranchés des 132 px de contenu ; quatre rangées de 18 px plus
    trois gouttières de 3 en occupent 81. Au-delà, on montre les trois
    premières et une ligne de report. */
+/* Date de fin d'un événement qui dure, en JJ/MM — l'année n'apparaît que
+   si elle diffère de celle de la carte. Les agrégateurs annoncent des
+   accrochages à deux ans, et « jusqu'au 22/10 » lu un 9 septembre 2026 se
+   comprend comme 2026 quand l'exposition ferme en 2028. Sert au badge des
+   cartes simples comme à la colonne de droite des cartes groupées, pour
+   qu'elles ne divergent pas. */
+function finCourte(e) {
+  const f = parseIso(e.date_end || e.date_start);
+  const dd = String(f.getDate()).padStart(2, '0');
+  const mm = String(f.getMonth() + 1).padStart(2, '0');
+  const meme = f.getFullYear() === parseIso(e._date).getFullYear();
+  return dd + '/' + mm + (meme ? '' : '/' + String(f.getFullYear()).slice(-2));
+}
+
 const GROUP_MAX_LINES = 4;
 
 function groupCard(venue, evs, key) {
@@ -3129,8 +3155,14 @@ function groupCard(venue, evs, key) {
   let lines = '';
   for (const e of shown) {
     const t = (e.title && e.title.trim()) ? e.title.trim() : 'titre non précisé';
+    // Une exposition n'a pas d'heure : la colonne affichait « — » et
+    // l'échéance, portée par le badge d'une carte simple, disparaissait
+    // du groupe. On y met la fin, dans la même convention.
+    const droite = e.time
+      || (e.date_end && e.date_end !== e.date_start
+          ? (e._isLast ? 'dernier' : '→ ' + finCourte(e)) : '—');
     lines += '<span class="event-line"><span class="t">' + escapeHtml(t)
-           + '</span><span class="h">' + escapeHtml(e.time || '—') + '</span></span>';
+           + '</span><span class="h">' + escapeHtml(droite) + '</span></span>';
   }
   if (rest > 0) {
     lines += '<span class="event-line"><span class="t more">+' + rest
@@ -3208,12 +3240,17 @@ function eventCard(e, seedOverride) {
     : '<span class="event-cat"></span>';
 
   let runBadge = '';
-  if (e._isLongRun) {
-    runBadge = '<span class="event-run">en cours</span>';
-  } else if (e._totalDays && e._totalDays > 1) {
-    if (e._dayIndex === 1) runBadge = '<span class="event-run">' + e._totalDays + ' dates</span>';
-    else if (e._dayIndex === e._totalDays) runBadge = '<span class="event-run">dernière</span>';
-    else runBadge = '<span class="event-run">' + e._dayIndex + '/' + e._totalDays + '</span>';
+  /* Un événement qui dure porte sa fin, pas son rang : « 12/29 » ne dit
+     rien d'utile à qui lit la carte, « jusqu'au 30/10 » dit s'il reste du
+     temps. Le dernier jour est nommé, c'est la seule information qui
+     presse. */
+  if (e._totalDays && e._totalDays > 1) {
+    if (e._isLast) {
+      runBadge = '<span class="event-run">dernier</span>';
+    } else {
+      runBadge = '<span class="event-run">jusqu\'au ' + finCourte(e)
+               + '</span>';
+    }
   }
 
   const sourceBadge = sourceBadgeHtml(e);

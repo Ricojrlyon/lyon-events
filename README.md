@@ -294,15 +294,19 @@ motif.
 - **Ville Morte : aucun filtre**, tout son agenda remonte. C'est la
   déduplication qui écarte les doublons quand un événement est aussi
   publié par la salle elle-même.
-- **Petit Bulletin : aucun filtre**, comme Ville Morte. Deux filtres y
-  existaient — musées et galeries d'un côté, une liste de catégories de
-  l'autre — parce que les accrochages, courant sur des mois, saturaient
-  le feed. Ils sont levés : chaque journée se répartit désormais en
-  quatre familles qu'un bouton éteint, et c'est au lecteur de dire qu'il
-  ne veut pas d'expositions ce soir. Sans filtre le scraper rapporte 572
-  événements au lieu de 400, dont 119 en famille « expos » — laquelle
-  n'en comptait que 27 auparavant, et n'apparaissait que sur un jour
-  chargé sur quatre.
+- **Petit Bulletin : un seul filtre**, quatre catégories d'arts
+  plastiques — Peinture & Dessin, Art contemporain et numérique,
+  Photographie, Design & Architecture (`CATEGORIES_ECARTEES`). La
+  décision a changé deux fois, et pour des raisons différentes. Deux
+  filtres existaient à l'origine — musées et galeries d'un côté, une
+  liste de catégories de l'autre — parce que les accrochages saturaient
+  le feed ; ils ont été levés en août 2026, au motif que le lecteur peut
+  éteindre la famille « expos » d'un bouton. Le filtre de catégories
+  revient en septembre parce que les événements longs sont désormais
+  déployés sur chacun de leurs jours : un accrochage de trois mois pesait
+  une carte, il en pèse quatre-vingt-dix. Mesuré à la réintroduction :
+  100 événements écartés, dont 68 en galerie et 9 en musée non scrappé,
+  soit 1 443 jours cumulés d'accrochage sur l'horizon.
 - **Familles d'affichage** (`FAMILLES`, index.html) : musique, scène,
   expos, autres. Quatre et non dix-huit — les buckets restent la maille
   fine, mais autant de sections dans une journée seraient illisibles.
@@ -314,8 +318,23 @@ motif.
   famille tombe dans « autres », et une alerte console le signale : le
   repli évite de perdre un événement, il ne doit pas masquer un oubli.
 - **Événements longs** (expos, festivals au long cours) : conservés sous
-  forme de plage `date_start`..`date_end` au lieu d'être jetés. Le frontend
-  les affiche avec un badge « en cours » au-delà de 30 jours.
+  forme de plage `date_start`..`date_end`, et affichés sur CHACUN de leurs
+  jours. Un seuil `LONG_RUN_THRESHOLD` repliait les séries de plus de
+  trente jours en une carte unique datée d'aujourd'hui : une exposition
+  de cinq mois n'apparaissait qu'une fois puis disparaissait du site. Il
+  est supprimé (septembre 2026). La carte porte alors sa fin plutôt que
+  son rang — « jusqu'au 30/10 », et « dernier » le dernier jour — car
+  « 12/29 » ne renseigne pas le lecteur. L'année s'ajoute quand elle
+  diffère de celle de la carte : un agrégateur annonce des accrochages à
+  deux ans, et « jusqu'au 22/10 » lu en 2026 se comprendrait mal pour une
+  fermeture en 2028. Les cartes groupées portent la même échéance dans
+  leur colonne de droite, là où l'heure manque.
+- **Horizon d'affichage** (`HORIZON_JOURS`, index.html) : 180 jours, la
+  valeur des scrapers. Il n'en existait pas, faute d'utilité tant qu'une
+  longue plage ne pesait qu'une carte ; sans lui, une exposition annoncée
+  jusqu'en octobre 2028 fabriquerait six cent soixante-quinze journées.
+  Ce qui commence au-delà garde une carte à sa date d'ouverture, pour ne
+  pas disparaître.
 - **Horizon** : les événements à plus de 180 jours sont écartés avant la
   phase de fetch des pages détail (scrapers de salle uniquement).
 - **Plages d'agrégateur sur un lieu scrappé** : écartées. Un agrégateur
