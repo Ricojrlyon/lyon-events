@@ -39,7 +39,7 @@
     "arr": "2e",
     "checked_at": "2026-09-02",
     "confidence": "high",
-    "seen_at": "2026-09-02"
+    "seen_at": "2026-09-09"
   },
   "Bar des Capucins": {
     "arr": null,
@@ -111,7 +111,7 @@
     "arr": "1er",
     "checked_at": "2026-08-12",
     "confidence": "high",
-    "seen_at": "2026-09-02"
+    "seen_at": "2026-09-09"
   },
   "CCVA": {
     "arr": "Villeurbanne",
@@ -233,13 +233,13 @@
     "arr": "2e",
     "checked_at": "2026-08-19",
     "confidence": "high",
-    "seen_at": "2026-09-02"
+    "seen_at": "2026-09-09"
   },
   "Friche Lamartine": {
     "arr": "3e",
     "checked_at": "2026-09-02",
     "confidence": "high",
-    "seen_at": "2026-09-02"
+    "seen_at": "2026-09-09"
   },
   "Galerie Catherine Mainguy": {
     "arr": null,
@@ -564,7 +564,7 @@
     "arr": "7e",
     "checked_at": "2026-08-12",
     "confidence": "high",
-    "seen_at": "2026-09-02"
+    "seen_at": "2026-09-09"
   },
   "Maison de l'environnement": {
     "arr": "7e",
@@ -881,7 +881,7 @@
     "arr": "Villeurbanne",
     "checked_at": "2026-08-12",
     "confidence": "high",
-    "seen_at": "2026-09-02"
+    "seen_at": "2026-09-09"
   },
   "médiathèque de Meyzieu": {
     "arr": "Autre",
