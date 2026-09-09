@@ -17,6 +17,18 @@
     "confidence": "failed",
     "seen_at": "2026-09-07"
   },
+  "Amphithéâtre du Centre de Congrès": {
+    "arr": null,
+    "checked_at": "2026-09-09",
+    "confidence": "failed",
+    "seen_at": "2026-09-09"
+  },
+  "Archives départementales et métropolitaines": {
+    "arr": "3e",
+    "checked_at": "2026-09-09",
+    "confidence": "high",
+    "seen_at": "2026-09-09"
+  },
   "Archives municipales de Lyon": {
     "arr": "2e",
     "checked_at": "2026-09-01",
@@ -225,6 +237,13 @@
     "confidence": "low",
     "seen_at": "2026-09-08"
   },
+  "Espace Culturel Éole": {
+    "arr": "Autre",
+    "checked_at": "2026-09-09",
+    "commune": "Craponne",
+    "confidence": "low",
+    "seen_at": "2026-09-09"
+  },
   "Esplanade du Gros caillou": {
     "arr": "4e",
     "checked_at": "2026-08-12",
@@ -379,6 +398,12 @@
     "checked_at": "2026-09-09",
     "commune": "Rillieux-la-Pape",
     "confidence": "low",
+    "seen_at": "2026-09-09"
+  },
+  "L'Escale": {
+    "arr": "2e",
+    "checked_at": "2026-09-09",
+    "confidence": "high",
     "seen_at": "2026-09-09"
   },
   "L'attrape-couleurs": {
@@ -755,6 +780,12 @@
     "confidence": "high",
     "seen_at": "2026-09-01"
   },
+  "Polaris": {
+    "arr": "6e",
+    "checked_at": "2026-09-09",
+    "confidence": "high",
+    "seen_at": "2026-09-09"
+  },
   "Radio Canut": {
     "arr": "1er",
     "checked_at": "2026-09-07",
@@ -817,6 +848,12 @@
     "checked_at": "2026-08-12",
     "confidence": "high",
     "seen_at": "2026-09-08"
+  },
+  "Théâtre Cinéma Jean Carmet": {
+    "arr": null,
+    "checked_at": "2026-09-09",
+    "confidence": "failed",
+    "seen_at": "2026-09-09"
   },
   "Théâtre François Ponsard": {
     "arr": null,
