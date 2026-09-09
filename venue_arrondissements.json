@@ -783,6 +783,12 @@
     "confidence": "high",
     "seen_at": "2026-09-08"
   },
+  "Théâtre François Ponsard": {
+    "arr": null,
+    "checked_at": "2026-09-09",
+    "confidence": "failed",
+    "seen_at": "2026-09-09"
+  },
   "Théâtre La Mouche": {
     "arr": "7e",
     "checked_at": "2026-08-12",

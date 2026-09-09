@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-09T07:57:14.631657+00:00",
-  "count": 2629,
+  "generated_at": "2026-09-09T08:36:50.148511+00:00",
+  "count": 2693,
   "events": [
     {
       "venue": "Opéra national de Lyon",
@@ -68,6 +68,45 @@
       "id": "9a81a7023750"
     },
     {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Trop forts !",
+      "subtitle": null,
+      "category": "exposition",
+      "date_start": "2026-09-09",
+      "date_end": "2026-10-18",
+      "time": null,
+      "url": "https://museedesconfluences.fr/expositions/expositions-temporaires/trop-forts-expofr",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2024-09/une-tropforts-exposition.png",
+      "id": "cc11be9831fe"
+    },
+    {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Corée du Nord",
+      "subtitle": "par Stéphan Gladieu",
+      "category": "exposition",
+      "date_start": "2026-09-09",
+      "date_end": "2028-01-02",
+      "time": null,
+      "url": "https://museedesconfluences.fr/expositions/expositions-temporaires/coree-du-nord-expo",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2025-06/une-expo-coree.png",
+      "id": "bffd1dd6ad76"
+    },
+    {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Au Mali, quand les animaux dansent",
+      "subtitle": "Donation Sonia et Albert Loeb",
+      "category": "exposition",
+      "date_start": "2026-09-09",
+      "date_end": "2027-02-07",
+      "time": null,
+      "url": "https://museedesconfluences.fr/expositions/expositions-temporaires/au-mali",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-04/photo_exposition_mali-animaux-dansent_museedesconfluences2.jpg",
+      "id": "00ed102bed4f"
+    },
+    {
       "venue": "Galerie Imag'In",
       "venue_slug": "galerie-imag-in",
       "title": "Christophe Ménart",
@@ -131,32 +170,6 @@
       "url": "https://www.petit-bulletin.fr/agenda-314275-carte-blanche-la-compagnie-le-rire-l-intime-le-politique.html",
       "image": null,
       "id": "9fc392b1e60c"
-    },
-    {
-      "venue": "Musée des Confluences",
-      "venue_slug": "musee-des-confluences",
-      "title": "Au Mali, quand les animaux dansent",
-      "subtitle": null,
-      "category": "Sciences et Histoire",
-      "date_start": "2026-09-09",
-      "date_end": "2027-02-01",
-      "time": "10:30",
-      "url": "https://www.petit-bulletin.fr/agenda-316780-au-mali-quand-les-animaux-dansent.html",
-      "image": null,
-      "id": "713764d31e52"
-    },
-    {
-      "venue": "Musée des Confluences",
-      "venue_slug": "musee-des-confluences",
-      "title": "Stéphan Gladieu",
-      "subtitle": null,
-      "category": "Photographie",
-      "date_start": "2026-09-09",
-      "date_end": "2028-01-02",
-      "time": "10:30",
-      "url": "https://www.petit-bulletin.fr/agenda-318496-st-phan-gladieu.html",
-      "image": null,
-      "id": "b78848172413"
     },
     {
       "venue": "Tomaselli Collection",
@@ -2651,7 +2664,7 @@
       "date_end": null,
       "time": "19:00",
       "url": "https://h-eat.eu/events/atelier-de-danse-et-dimprovisation-danse/",
-      "image": "https://h-eat.eu/wp-content/uploads/2026/09/enthusiastic-young-adults-dancing-outdoors-on-sunn-2026-03-24-01-27-00-utc-1079x720.jpg",
+      "image": "https://h-eat.eu/wp-content/uploads/2026/09/atelier-danse-1079x720.jpg",
       "id": "3de6a468bce4"
     },
     {
@@ -4020,6 +4033,19 @@
       "id": "b8206cb2e06f"
     },
     {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "L’énigme d’une momie égyptienne • JEP 2026",
+      "subtitle": "12 ans et +",
+      "category": "conférence",
+      "date_start": "2026-09-19",
+      "date_end": null,
+      "time": "14:00",
+      "url": "https://museedesconfluences.fr/agenda/lenigme-dune-momie-egyptienne-jep-2026",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-06/images_siteweb_mdc_1080-1080_momie.jpg",
+      "id": "763cb3409bb7"
+    },
+    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins",
       "title": "Atelier théâtre",
@@ -4148,6 +4174,19 @@
       "url": "https://www.petit-bulletin.fr/agenda-319250-aurore-payelle-et-sonia-j-sam.html",
       "image": null,
       "id": "8fe4379d3276"
+    },
+    {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "La couleur chez les Yorubas, l’enquête sur des recettes oubliées • JEP 2026",
+      "subtitle": "10 ans et +",
+      "category": "conférence",
+      "date_start": "2026-09-19",
+      "date_end": null,
+      "time": "16:00",
+      "url": "https://museedesconfluences.fr/agenda/la-couleur-chez-les-yorubas-lenquete-sur-des-recettes-oubliees-jep-2026",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-06/images_siteweb_mdc_1080-1080_yoruba.jpg",
+      "id": "91a0d214655e"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -6646,6 +6685,19 @@
       "id": "87b1b0d90f90"
     },
     {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "OUM – Dialddar",
+      "subtitle": "Concert",
+      "category": "concert",
+      "date_start": "2026-09-26",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://museedesconfluences.fr/agenda/oum-dialddar",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-06/images_siteweb_mdc_1080-1080_oum.jpg",
+      "id": "bb38c669e7f3"
+    },
+    {
       "venue": "Espace Albert Camus",
       "venue_slug": "espace-albert-camus",
       "title": "20 ans déjà",
@@ -7582,6 +7634,32 @@
       "id": "24e75b98b113"
     },
     {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Nocturne Sciences en Live",
+      "subtitle": "En écho à la Fête de la Science 2026",
+      "category": "conférence",
+      "date_start": "2026-10-01",
+      "date_end": null,
+      "time": "18:30",
+      "url": "https://museedesconfluences.fr/agenda/nocturne-sciences-en-live",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-06/plantbeing.jpg",
+      "id": "322bf12c3a00"
+    },
+    {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Art et sciences · Plant being",
+      "subtitle": "Une installation en écho à la Fête de la science 2026",
+      "category": "conférence",
+      "date_start": "2026-10-01",
+      "date_end": null,
+      "time": "18:30",
+      "url": "https://museedesconfluences.fr/agenda/art-et-sciences-plant-being",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-07/images_siteweb_mdc_1920-1080_plantbeing_fdls.jpg",
+      "id": "b4599b9237e2"
+    },
+    {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
       "title": "MERYL",
@@ -7892,6 +7970,32 @@
       "url": "https://www.petit-bulletin.fr/agenda-319240-petru-ceban.html",
       "image": null,
       "id": "b10232dae3ae"
+    },
+    {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Fête de la science 2026 Ctrl+EAT",
+      "subtitle": null,
+      "category": "conférence",
+      "date_start": "2026-10-02",
+      "date_end": null,
+      "time": "10:30",
+      "url": "https://museedesconfluences.fr/agenda/fete-de-la-science-2026",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-09/visuel_fetedelascience2.jpg",
+      "id": "26e977247a4b"
+    },
+    {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Art et sciences · Plant being",
+      "subtitle": "Une installation en écho à la Fête de la science 2026",
+      "category": "conférence",
+      "date_start": "2026-10-02",
+      "date_end": null,
+      "time": "10:30",
+      "url": "https://museedesconfluences.fr/agenda/art-et-sciences-plant-being",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-07/images_siteweb_mdc_1920-1080_plantbeing_fdls.jpg",
+      "id": "f9a970dfea87"
     },
     {
       "venue": "IAC Villeurbanne",
@@ -8232,6 +8336,97 @@
       "id": "7309389dc512"
     },
     {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Fête de la science 2026 Ctrl+EAT",
+      "subtitle": null,
+      "category": "conférence",
+      "date_start": "2026-10-03",
+      "date_end": null,
+      "time": "10:30",
+      "url": "https://museedesconfluences.fr/agenda/fete-de-la-science-2026",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-09/visuel_fetedelascience2.jpg",
+      "id": "5a378a1605de"
+    },
+    {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Art et sciences · Plant being",
+      "subtitle": "Une installation en écho à la Fête de la science 2026",
+      "category": "conférence",
+      "date_start": "2026-10-03",
+      "date_end": null,
+      "time": "10:30",
+      "url": "https://museedesconfluences.fr/agenda/art-et-sciences-plant-being",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-07/images_siteweb_mdc_1920-1080_plantbeing_fdls.jpg",
+      "id": "b85a89506ab8"
+    },
+    {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Immersion sonore dans le marché du Grand Châtelet à Paris au 18e siècle",
+      "subtitle": "Week-end Fête de la science 2026",
+      "category": "conférence",
+      "date_start": "2026-10-03",
+      "date_end": null,
+      "time": "10:30",
+      "url": "https://museedesconfluences.fr/agenda/immersion-sonore-dans-le-marche-du-grand-chatelet-paris-au-18e-siecle",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-07/fdls_immersionsonore.png",
+      "id": "95ca89ff9684"
+    },
+    {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Le banquet d’Astérix. L’alimentation antique décryptée",
+      "subtitle": "Week-end Fête de la science 2026",
+      "category": "conférence",
+      "date_start": "2026-10-03",
+      "date_end": null,
+      "time": "11:00",
+      "url": "https://museedesconfluences.fr/agenda/le-banquet-dasterix-lalimentation-antique-decryptee",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-07/le-banquet-d-asterix.jpg",
+      "id": "978274f68785"
+    },
+    {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Archéologie des bruits, une balade dans le Paris du 18e siècle",
+      "subtitle": "Week-end Fête de la science 2026",
+      "category": "conférence",
+      "date_start": "2026-10-03",
+      "date_end": null,
+      "time": "11:30",
+      "url": "https://museedesconfluences.fr/agenda/archeologie-des-bruits-une-balade-dans-le-paris-du-18e-siecle",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-07/fdls_archobruit.jpg",
+      "id": "bf1e9d70f63f"
+    },
+    {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Des odeurs aux saveurs : quand le cerveau s’en mêle",
+      "subtitle": "Week-end Fête de la science 2026",
+      "category": "conférence",
+      "date_start": "2026-10-03",
+      "date_end": null,
+      "time": "14:00",
+      "url": "https://museedesconfluences.fr/agenda/des-odeurs-aux-saveurs-quand-le-cerveau-sen-mele",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-07/odeurssaveur_cerveaux.jpg",
+      "id": "8402b06025d5"
+    },
+    {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Le banquet d’Astérix. L’alimentation antique décryptée",
+      "subtitle": "Week-end Fête de la science 2026",
+      "category": "conférence",
+      "date_start": "2026-10-03",
+      "date_end": null,
+      "time": "15:30",
+      "url": "https://museedesconfluences.fr/agenda/le-banquet-dasterix-lalimentation-antique-decryptee",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-07/le-banquet-d-asterix.jpg",
+      "id": "1ccdd3b961ef"
+    },
+    {
       "venue": "TNP - Théâtre National Populaire",
       "venue_slug": "tnp",
       "title": "Avant que les mots ne retournent à l’air",
@@ -8256,6 +8451,19 @@
       "url": "https://www.comedieodeon.com/spectacle/telle-est-la-question/",
       "image": "https://www.comedieodeon.com/wp-content/uploads/2026/06/Affiche_TELQ_A2_BD.jpg",
       "id": "bacb677a0ff4"
+    },
+    {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Les frigos sacrés",
+      "subtitle": "Week-end Fête de la science 2026",
+      "category": "conférence",
+      "date_start": "2026-10-03",
+      "date_end": null,
+      "time": "17:00",
+      "url": "https://museedesconfluences.fr/agenda/les-frigos-sacres",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-07/lesfrigossacres.jpg",
+      "id": "3b124cc23a6b"
     },
     {
       "venue": "Auditorium de Lyon",
@@ -8622,6 +8830,71 @@
       "id": "8a9bd8a3859a"
     },
     {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Fête de la science 2026 Ctrl+EAT",
+      "subtitle": null,
+      "category": "conférence",
+      "date_start": "2026-10-04",
+      "date_end": null,
+      "time": "10:30",
+      "url": "https://museedesconfluences.fr/agenda/fete-de-la-science-2026",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-09/visuel_fetedelascience2.jpg",
+      "id": "bb5114cef3db"
+    },
+    {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Art et sciences · Plant being",
+      "subtitle": "Une installation en écho à la Fête de la science 2026",
+      "category": "conférence",
+      "date_start": "2026-10-04",
+      "date_end": null,
+      "time": "10:30",
+      "url": "https://museedesconfluences.fr/agenda/art-et-sciences-plant-being",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-07/images_siteweb_mdc_1920-1080_plantbeing_fdls.jpg",
+      "id": "a576b28e9f22"
+    },
+    {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Immersion sonore dans le marché du Grand Châtelet à Paris au 18e siècle",
+      "subtitle": "Week-end Fête de la science 2026",
+      "category": "conférence",
+      "date_start": "2026-10-04",
+      "date_end": null,
+      "time": "10:30",
+      "url": "https://museedesconfluences.fr/agenda/immersion-sonore-dans-le-marche-du-grand-chatelet-paris-au-18e-siecle",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-07/fdls_immersionsonore.png",
+      "id": "2a8ba606d55e"
+    },
+    {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Au menu des dinos",
+      "subtitle": "Week-end Fête de la science 2026",
+      "category": "conférence",
+      "date_start": "2026-10-04",
+      "date_end": null,
+      "time": "11:00",
+      "url": "https://museedesconfluences.fr/agenda/au-menu-des-dinos",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-07/aumenudesdinos.jpg",
+      "id": "d0b29b8c0544"
+    },
+    {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "À table ! Le banquet au cinéma",
+      "subtitle": "Week-end Fête de la science 2026",
+      "category": "conférence",
+      "date_start": "2026-10-04",
+      "date_end": null,
+      "time": "14:00",
+      "url": "https://museedesconfluences.fr/agenda/table-le-banquet-au-cinema",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-07/atablecinema.jpg",
+      "id": "41c8ef9fead0"
+    },
+    {
       "venue": "Maison de la Danse",
       "venue_slug": "maison-de-la-danse",
       "title": "Requiem(s)",
@@ -8633,6 +8906,32 @@
       "url": "https://maisondeladanse.com/programmation/saison2026-2027/requiems",
       "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/angelin-preljocaj-s_0.jpg?itok=SPKdrAV3",
       "id": "8fbbe2eff6fc"
+    },
+    {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Archéologie des bruits, une balade dans le Paris du 18e siècle",
+      "subtitle": "Week-end Fête de la science 2026",
+      "category": "conférence",
+      "date_start": "2026-10-04",
+      "date_end": null,
+      "time": "15:30",
+      "url": "https://museedesconfluences.fr/agenda/archeologie-des-bruits-une-balade-dans-le-paris-du-18e-siecle",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-07/fdls_archobruit.jpg",
+      "id": "f2a00251bdb8"
+    },
+    {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Le show culinaire",
+      "subtitle": "Week-end Fête de la science 2026",
+      "category": "conférence",
+      "date_start": "2026-10-04",
+      "date_end": null,
+      "time": "15:30",
+      "url": "https://museedesconfluences.fr/agenda/le-show-culinaire",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-07/leshowculinaire.jpg",
+      "id": "866978fce1c7"
     },
     {
       "venue": "TNP - Théâtre National Populaire",
@@ -8997,6 +9296,19 @@
       "url": "https://maisondeladanse.com/programmation/saison2026-2027/requiems",
       "image": "https://maisondeladanse.com/sites/default/files/styles/vignette_saison_2016/public/spectacle/saison/angelin-preljocaj-s_0.jpg?itok=SPKdrAV3",
       "id": "710217248d3b"
+    },
+    {
+      "venue": "Théâtre François Ponsard",
+      "venue_slug": "theatre-francois-ponsard",
+      "title": "Montaigne, les essais",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-10-06",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://www.petit-bulletin.fr/agenda-319368-montaigne-les-essais.html",
+      "image": null,
+      "id": "d15c7dd66c95"
     },
     {
       "venue": "La Commune",
@@ -9582,6 +9894,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/secrets-medical/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/06/secret-medical_radiant-bellevue-500x500.jpg",
       "id": "bd5c8e2aac4c"
+    },
+    {
+      "venue": "Théâtre François Ponsard",
+      "venue_slug": "theatre-francois-ponsard",
+      "title": "The rabbit eaters",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-10-08",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://www.petit-bulletin.fr/agenda-319369-the-rabbit-eaters.html",
+      "image": null,
+      "id": "e9f9b2c4b826"
     },
     {
       "venue": "Au Rikiki",
@@ -10310,6 +10635,19 @@
       "url": "https://marchegare.fr/agenda/hypno5e-hippotraktor",
       "image": "https://marchegare.fr/sites/marchegare/files/styles/large/public/2026-04/1532-15_web.jpg",
       "id": "97773a76ce7f"
+    },
+    {
+      "venue": "Le Toboggan",
+      "venue_slug": "le-toboggan",
+      "title": "Bal clandestin",
+      "subtitle": null,
+      "category": "Danse",
+      "date_start": "2026-10-10",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://www.petit-bulletin.fr/agenda-314180-bal-clandestin.html",
+      "image": null,
+      "id": "e9d3321f3efb"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -11577,12 +11915,12 @@
       "venue_slug": "musee-des-confluences",
       "title": "Animal culte",
       "subtitle": null,
-      "category": "Sciences et Histoire",
+      "category": "exposition",
       "date_start": "2026-10-16",
-      "date_end": null,
+      "date_end": "2027-08-15",
       "time": "10:30",
-      "url": "https://www.petit-bulletin.fr/agenda-319226-animal-culte.html",
-      "image": null,
+      "url": "https://museedesconfluences.fr/expositions/expositions-temporaires/animal-culte",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-05/photo_exposition_animalculte_pagexpo_2.jpg",
       "id": "2708f20ddc96"
     },
     {
@@ -12769,6 +13107,32 @@
       "id": "be2bcec8e9e8"
     },
     {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Théâtre kamishibaï - Bama et l'antilope cheval",
+      "subtitle": "De 3 à 6 ans",
+      "category": "concert",
+      "date_start": "2026-10-21",
+      "date_end": null,
+      "time": "10:30",
+      "url": "https://museedesconfluences.fr/agenda/theatre-kamishibai-bama-et-lantilope-cheval",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-06/images_siteweb_mdc_1080-1080_conte-bama.jpg",
+      "id": "0f64cb2e0b0b"
+    },
+    {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Théâtre kamishibaï - Bama et l'antilope cheval",
+      "subtitle": "De 3 à 6 ans",
+      "category": "concert",
+      "date_start": "2026-10-21",
+      "date_end": null,
+      "time": "14:00",
+      "url": "https://museedesconfluences.fr/agenda/theatre-kamishibai-bama-et-lantilope-cheval",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-06/images_siteweb_mdc_1080-1080_conte-bama.jpg",
+      "id": "2062f7303a97"
+    },
+    {
       "venue": "Au Rikiki",
       "venue_slug": "au-rikiki",
       "title": "Le loup en slip",
@@ -12808,6 +13172,19 @@
       "id": "a1242822e99d"
     },
     {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Théâtre kamishibaï - Bama et l'antilope cheval",
+      "subtitle": "De 3 à 6 ans",
+      "category": "concert",
+      "date_start": "2026-10-21",
+      "date_end": null,
+      "time": "15:15",
+      "url": "https://museedesconfluences.fr/agenda/theatre-kamishibai-bama-et-lantilope-cheval",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-06/images_siteweb_mdc_1080-1080_conte-bama.jpg",
+      "id": "37146d39fc95"
+    },
+    {
       "venue": "Le Complexe café-théâtre",
       "venue_slug": "le-complexe",
       "title": "IMPRO'MINOTS",
@@ -12832,6 +13209,19 @@
       "url": "https://www.petit-bulletin.fr/agenda-319360-turbo-minus.html",
       "image": null,
       "id": "82cedd5d28e0"
+    },
+    {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Théâtre kamishibaï - Bama et l'antilope cheval",
+      "subtitle": "De 3 à 6 ans",
+      "category": "concert",
+      "date_start": "2026-10-21",
+      "date_end": null,
+      "time": "16:30",
+      "url": "https://museedesconfluences.fr/agenda/theatre-kamishibai-bama-et-lantilope-cheval",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-06/images_siteweb_mdc_1080-1080_conte-bama.jpg",
+      "id": "1d4372a7a656"
     },
     {
       "venue": "Auditorium de Lyon",
@@ -13263,6 +13653,19 @@
       "id": "a19bd6f3768a"
     },
     {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Ciné-Science · Kirikou et les bêtes sauvages",
+      "subtitle": "6 ans et +",
+      "category": "projection",
+      "date_start": "2026-10-23",
+      "date_end": null,
+      "time": "14:00",
+      "url": "https://museedesconfluences.fr/agenda/cine-science-kirikou-et-les-betes-sauvages",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-06/images_siteweb_mdc_1080-1080_kirikou2.jpg",
+      "id": "e3c7316f359e"
+    },
+    {
       "venue": "Au Rikiki",
       "venue_slug": "au-rikiki",
       "title": "Le loup en slip",
@@ -13313,6 +13716,19 @@
       "url": "https://www.lecomplexelyon.com/programme/improminots/",
       "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/improminots.jpg",
       "id": "3afb631e21ce"
+    },
+    {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Déambulation – Spectacle : Le Bal poussière de Congo Massa",
+      "subtitle": "3 ans et +",
+      "category": "concert",
+      "date_start": "2026-10-23",
+      "date_end": null,
+      "time": "16:00",
+      "url": "https://museedesconfluences.fr/agenda/deambulation-spectacle-le-bal-poussiere-de-congo-massa",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-06/lebalp-1.JPG",
+      "id": "665f27f7dba5"
     },
     {
       "venue": "CCVA",
@@ -14108,6 +14524,19 @@
       "id": "96eab5027b2d"
     },
     {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Conférence à hauteur d'enfant : Animaux en mouvements, le pouvoir des marionnettes",
+      "subtitle": "7 ans et +",
+      "category": "conférence",
+      "date_start": "2026-10-27",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://museedesconfluences.fr/agenda/conference-hauteur-denfant-animaux-en-mouvements-le-pouvoir-des-marionnettes",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-06/images_1080-1080_confanimauxmvt.jpg",
+      "id": "708a4f26d947"
+    },
+    {
       "venue": "Le Complexe café-théâtre",
       "venue_slug": "le-complexe",
       "title": "IMPRO'MINOTS",
@@ -14498,6 +14927,19 @@
       "id": "283ca71cdf1f"
     },
     {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Atelier-spectacle : Puppet party",
+      "subtitle": "8 ans et +",
+      "category": "concert",
+      "date_start": "2026-10-29",
+      "date_end": null,
+      "time": "10:30",
+      "url": "https://museedesconfluences.fr/agenda/atelier-spectacle-puppet-party",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-06/images_siteweb_mdc_1080-1080_puppetatelier.jpg",
+      "id": "286ec6f1c705"
+    },
+    {
       "venue": "Factatory",
       "venue_slug": "factatory",
       "title": "Open Studio",
@@ -14548,6 +14990,19 @@
       "url": "https://www.halle-tony-garnier.com/fr/programmation/salon-des-vignerons-independants-6",
       "image": "https://www.halle-tony-garnier.com/storage/143738/conversions/2026-10-29-SALON-DES-VIGNERONS-INDEPENDANTS-lyon-carre-1-20260824-164659-square.jpg",
       "id": "210b883f9443"
+    },
+    {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Atelier-spectacle : Puppet party",
+      "subtitle": "8 ans et +",
+      "category": "concert",
+      "date_start": "2026-10-29",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://museedesconfluences.fr/agenda/atelier-spectacle-puppet-party",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-06/images_siteweb_mdc_1080-1080_puppetatelier.jpg",
+      "id": "fd934059a3e4"
     },
     {
       "venue": "Le Complexe café-théâtre",
@@ -15733,6 +16188,19 @@
       "id": "93fad5d4e595"
     },
     {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Nocturne Animale",
+      "subtitle": "Concert Bal électro-folk Le Mange bal, projection...",
+      "category": "conférence",
+      "date_start": "2026-11-05",
+      "date_end": null,
+      "time": "18:30",
+      "url": "https://museedesconfluences.fr/agenda/nocturne-animale",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-06/images_siteweb_mdc_1080-1080_nocturne_animale.jpg",
+      "id": "206e6422d762"
+    },
+    {
       "venue": "Comédie Odéon",
       "venue_slug": "comedie-odeon",
       "title": "Le Porteur d’Histoire",
@@ -15770,6 +16238,19 @@
       "url": "https://improvidence.mapado.com/event/9864-duos-des-eux",
       "image": "https://img.mapado.net/2025/7/16/6877a93c803cf-duos-des-eux-vignette.jpeg_thumbs/600-600.jpeg",
       "id": "09ef3db83a93"
+    },
+    {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Bal électro-folk Le mange bal - Réveillez l’animal qui sommeille en vous",
+      "subtitle": "Concert · Nocturne Animale",
+      "category": "concert",
+      "date_start": "2026-11-05",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://museedesconfluences.fr/agenda/bal-electro-folk-le-mange-bal-reveillez-lanimal-qui-sommeille-en-vous",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-06/images_siteweb_mdc_1080-1080_mangebalconcert.jpg",
+      "id": "53b3eb5fe791"
     },
     {
       "venue": "TNP - Théâtre National Populaire",
@@ -16537,6 +17018,19 @@
       "url": "https://marchegare.fr/agenda/ferdi",
       "image": "https://marchegare.fr/sites/marchegare/files/styles/large/public/2026-02/image00004.jpeg",
       "id": "f049e79a68db"
+    },
+    {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Dasom Baek et Dal:Um",
+      "subtitle": "Concert",
+      "category": "concert",
+      "date_start": "2026-11-07",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://museedesconfluences.fr/agenda/dasom-baek-et-dalum",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-06/images_siteweb_mdc_1080-1080_coree.jpg",
+      "id": "1e7a0976a973"
     },
     {
       "venue": "Salle Molière",
@@ -17965,7 +18459,7 @@
       "date_end": null,
       "time": "20:30",
       "url": "https://www.les-subs.com/evenement/nuit-du-cirque-2026-dj-fantastik/",
-      "image": "https://www.les-subs.com/wp-content/uploads/2026/07/capture-200x200.jpg",
+      "image": "https://www.les-subs.com/wp-content/uploads/2026/07/a-djfantastik-200x200.jpg",
       "id": "52fc42981fbd"
     },
     {
@@ -18084,6 +18578,19 @@
       "url": "https://agendarts.wordpress.com/2026/06/20/lehache-all-stars-2/",
       "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/lehache-ph-christine-pascal-2.jpg?w=819",
       "id": "7f3008ead260"
+    },
+    {
+      "venue": "Le Sucre",
+      "venue_slug": "le-sucre",
+      "title": "S.society",
+      "subtitle": "Mac Declos",
+      "category": null,
+      "date_start": "2026-11-15",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://le-sucre.eu/events/s-society-162/",
+      "image": "https://le-sucre.eu/wp-content/uploads/2026/09/15_11-450x600.png",
+      "id": "f57cb9ae4a14"
     },
     {
       "venue": "Le Transbordeur",
@@ -18606,6 +19113,19 @@
       "id": "ada07fac6c14"
     },
     {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Table ronde · Fox Power ! Le renard, de l’animal sauvage au héros pop",
+      "subtitle": "12 ans et +",
+      "category": "conférence",
+      "date_start": "2026-11-19",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://museedesconfluences.fr/agenda/table-ronde-fox-power-le-renard-de-lanimal-sauvage-au-heros-pop",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-06/images_siteweb_mdc_1080-1080_fox.jpg",
+      "id": "f139c0e41de3"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "POLYPHIA",
@@ -19100,6 +19620,19 @@
       "id": "0e992e27edc3"
     },
     {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Ciné-Science · Les Enfants loups, Ame et Yuki",
+      "subtitle": "7 ans et +",
+      "category": "projection",
+      "date_start": "2026-11-21",
+      "date_end": null,
+      "time": "14:00",
+      "url": "https://museedesconfluences.fr/agenda/cine-science-les-enfants-loups-ame-et-yuki",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-06/images_siteweb_mdc_1080-1080-enfantsloupsjpg.jpg",
+      "id": "602b21fdeaad"
+    },
+    {
       "venue": "Théâtre de la Croix-Rousse",
       "venue_slug": "croix-rousse",
       "title": "Voix féministes latino-américaines",
@@ -19137,6 +19670,19 @@
       "url": "https://improvidence.mapado.com/event/189814-30-impros-chrono",
       "image": "https://img.mapado.net/2023/3/24/641dcdaeee02f-affiche-30-impros-chrono.jpeg_thumbs/600-600.jpeg",
       "id": "664ca4bbadad"
+    },
+    {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Ciné-Science · Le règne animal",
+      "subtitle": "14 ans et +",
+      "category": "projection",
+      "date_start": "2026-11-21",
+      "date_end": null,
+      "time": "17:15",
+      "url": "https://museedesconfluences.fr/agenda/cine-science-le-regne-animal",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-06/images_siteweb_mdc_1080-1080_regneanimal.jpg",
+      "id": "9596b734c946"
     },
     {
       "venue": "Auditorium de Lyon",
@@ -20010,6 +20556,19 @@
       "id": "0446d58205ab"
     },
     {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Table ronde : Le vivant sacré, un voyage dans les mondes animistes",
+      "subtitle": "16 ans et +",
+      "category": "conférence",
+      "date_start": "2026-11-26",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://museedesconfluences.fr/agenda/table-ronde-le-vivant-sacre-un-voyage-dans-les-mondes-animistes",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-07/images_siteweb_mdc_1080-1080_vivantsacreanimiste_0.jpg",
+      "id": "1b5cca16ffcb"
+    },
+    {
       "venue": "Ô Totem live",
       "venue_slug": "o-totem-live",
       "title": "Imperial Triumphant + Knoll + Alpha du Centaure",
@@ -20829,6 +21388,19 @@
       "id": "f50198af9216"
     },
     {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Arthur H, Nicolas Repac et Benjamin Flao · Techniciens du Sacré",
+      "subtitle": "Concert et lecture musicale dessinée",
+      "category": "concert",
+      "date_start": "2026-11-28",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://museedesconfluences.fr/agenda/arthur-h-nicolas-repac-et-benjamin-flao-techniciens-du-sacre",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-06/images_siteweb_mdc_1080-1080_arthurh.jpg",
+      "id": "40250ceded68"
+    },
+    {
       "venue": "Théâtre Théo Argence",
       "venue_slug": "theatre-theo-argence",
       "title": "L'opéra par l'Orchestre",
@@ -20970,6 +21542,19 @@
       "url": "https://www.theatredescelestins.com/fr/programmation/2026-2027/grande-salle/petrole",
       "image": "https://www.theatredescelestins.com/assets/q75-w600/7bc3297c/petrole2_myriam_boulos.jpg",
       "id": "5dbf521df3e8"
+    },
+    {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Dans les paysages de Miyazaki · Les Debussy",
+      "subtitle": "Récital",
+      "category": "concert",
+      "date_start": "2026-11-29",
+      "date_end": null,
+      "time": "16:00",
+      "url": "https://museedesconfluences.fr/agenda/dans-les-paysages-de-miyazaki-les-debussy",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-06/images_siteweb_mdc_1080-1080_qdebussy.jpg",
+      "id": "41fc98af8ad0"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -22805,6 +23390,19 @@
       "id": "0fbcc42c53c7"
     },
     {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Conférence humoristique illustrée : Tu riras moins bête !",
+      "subtitle": "14 ans et +",
+      "category": "conférence",
+      "date_start": "2026-12-10",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://museedesconfluences.fr/agenda/conference-humoristique-illustree-tu-riras-moins-bete",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-06/images_siteweb_mdc_1080-1080_riramoinsbete.jpg",
+      "id": "a1893cb06de2"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "Mon pote",
@@ -23232,6 +23830,19 @@
       "url": "https://www.les-subs.com/evenement/ateliers-dhiver-du-cnsmd/",
       "image": "https://www.les-subs.com/wp-content/uploads/2026/07/ateliershiver2026-a7r6891blandinesoulage-200x200.jpg",
       "id": "8d45cf7c87d6"
+    },
+    {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Contes sous le Baobab",
+      "subtitle": "6 ans et +",
+      "category": "concert",
+      "date_start": "2026-12-12",
+      "date_end": null,
+      "time": "16:00",
+      "url": "https://museedesconfluences.fr/agenda/contes-sous-le-baobab",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-06/images_siteweb_mdc_1080-1080_contesbaobab2.jpg",
+      "id": "a72cc8b5574f"
     },
     {
       "venue": "Improvidence",
@@ -24196,6 +24807,19 @@
       "id": "01a6fd019302"
     },
     {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Papillons",
+      "subtitle": null,
+      "category": "exposition",
+      "date_start": "2026-12-18",
+      "date_end": "2028-10-22",
+      "time": null,
+      "url": "https://museedesconfluences.fr/expositions/expositions-temporaires/papillons",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-06/photo_tetiere_expo_papillon_v4.jpg",
+      "id": "f36d61f00fb8"
+    },
+    {
       "venue": "Auditorium de Lyon",
       "venue_slug": "auditorium-lyon",
       "title": "Alma Bettencourt",
@@ -24664,6 +25288,19 @@
       "id": "1cee9843ce5f"
     },
     {
+      "venue": "Le Sucre",
+      "venue_slug": "le-sucre",
+      "title": "S.society",
+      "subtitle": "Patrick Mason · Vel",
+      "category": "club",
+      "date_start": "2026-12-20",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://le-sucre.eu/events/s-society-163/",
+      "image": "https://le-sucre.eu/wp-content/uploads/2026/09/20_12-vel--450x600.png",
+      "id": "ee33a46a7389"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "ANTHONY KAVANAGH",
@@ -25078,6 +25715,19 @@
       "url": "https://www.theatredescelestins.com/fr/programmation/2026-2027/grande-salle/dark-circus",
       "image": "https://www.theatredescelestins.com/assets/q75-w600/e36ac76c/dark_circus4_stereoptik..jpg",
       "id": "fb60009f6702"
+    },
+    {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Ciné-Noël · Rebelle",
+      "subtitle": "8 ans et +",
+      "category": "projection",
+      "date_start": "2026-12-26",
+      "date_end": null,
+      "time": "14:30",
+      "url": "https://museedesconfluences.fr/agenda/cine-noel-rebelle",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-08/rebelle.jpg",
+      "id": "f42ae02dab79"
     },
     {
       "venue": "Comédie Odéon",
@@ -27732,6 +28382,19 @@
       "id": "eda182261fed"
     },
     {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Conférence Illustrée : Chroniques d’un monde d'après",
+      "subtitle": "14 ans et +",
+      "category": "conférence",
+      "date_start": "2027-01-21",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://museedesconfluences.fr/agenda/conference-illustree-chroniques-dun-monde-dapres",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-06/images_siteweb_mdc_1080-1080_conf-chronique.jpg",
+      "id": "9a5a0aa93209"
+    },
+    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins",
       "title": "Nos Empereurs",
@@ -27938,6 +28601,19 @@
       "url": "https://www.transbordeur.fr/evenement/resolve-silent-planet-spleen-22012027/",
       "image": "https://www.transbordeur.fr/wp-content/uploads/2026/04/a-resolve.jpg",
       "id": "c6012651a9a7"
+    },
+    {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Benjamin Allegrini et Alain Damasio explorent les mémoires animales !",
+      "subtitle": "Table ronde et lecture musicale",
+      "category": "concert",
+      "date_start": "2027-01-22",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://museedesconfluences.fr/agenda/benjamin-allegrini-et-alain-damasio-explorent-les-memoires-animales",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-06/images_siteweb_mdc_1080-1080_damasio2.jpg",
+      "id": "b7a34aa5e3ec"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -28928,6 +29604,19 @@
       "id": "0f5a9ba0fa64"
     },
     {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Kerbez · Musiques nomades du Kirghizistan",
+      "subtitle": "Concert",
+      "category": "concert",
+      "date_start": "2027-01-29",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://museedesconfluences.fr/agenda/kerbez-musiques-nomades-du-kirghizistan",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-06/images_siteweb_mdc_1080-1080_kerbez_0.jpg",
+      "id": "7b35ce4ca9b0"
+    },
+    {
       "venue": "TNP - Théâtre National Populaire",
       "venue_slug": "tnp",
       "title": "Zone d’Attente",
@@ -29526,6 +30215,19 @@
       "id": "8f1448869528"
     },
     {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Nocturne Dabkeh on Fire",
+      "subtitle": null,
+      "category": "concert",
+      "date_start": "2027-02-04",
+      "date_end": null,
+      "time": "18:30",
+      "url": "https://museedesconfluences.fr/agenda/nocturne-dabkeh-fire",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-06/images_siteweb_mdc_1080-1080_dabkeh.jpg",
+      "id": "eee84ad62085"
+    },
+    {
       "venue": "La Machinerie - Théâtre de Vénissieux",
       "venue_slug": "la-machinerie-theatre-de-venissieux",
       "title": "Nelvar, Le Royaume sans peuple - Logan de Carvalho et Margaux Desailly",
@@ -30007,6 +30709,19 @@
       "id": "ebbf2e644d12"
     },
     {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Duo Sabîl et Vincent Segal – Tawaf",
+      "subtitle": "Concert · Méditations musicales sur l’espace et le temps",
+      "category": "concert",
+      "date_start": "2027-02-06",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://museedesconfluences.fr/agenda/duo-sabil-et-vincent-segal-tawaf",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-06/images_siteweb_mdc_1080-1080_sabil-segal.jpg",
+      "id": "e3d07b28c8cf"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "LET’S TWIST AGAIN",
@@ -30395,6 +31110,19 @@
       "url": "https://www.bourse-du-travail.com/akim-omiri-contexte-tournee-382475.html",
       "image": "https://www.bourse-du-travail.com/img/evenement/akim-omiri--contexte--tournee-14.jpg",
       "id": "7317e34e2578"
+    },
+    {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Table ronde · Femmes et oiseaux, une autre histoire du vivant",
+      "subtitle": "14 ans et +",
+      "category": "conférence",
+      "date_start": "2027-02-11",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://museedesconfluences.fr/agenda/table-ronde-femmes-et-oiseaux-une-autre-histoire-du-vivant",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-06/images_siteweb_mdc_1080-1080_femmeoiseaux.jpg",
+      "id": "e22bf02bd173"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -30956,6 +31684,19 @@
       "id": "1adb99e63b1a"
     },
     {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Boréale, la naissance des aurores",
+      "subtitle": "Spectacle Jeune public · 3 ans et +",
+      "category": "concert",
+      "date_start": "2027-02-17",
+      "date_end": null,
+      "time": "16:00",
+      "url": "https://museedesconfluences.fr/agenda/boreale-la-naissance-des-aurores",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-06/images_siteweb_mdc_1080-1080_boreale.jpg",
+      "id": "022ac420c8fb"
+    },
+    {
       "venue": "Théâtre de la Croix-Rousse",
       "venue_slug": "croix-rousse",
       "title": "Apéro-répèt’ avec Sébastien Valignat",
@@ -31019,6 +31760,19 @@
       "url": "https://www.lecomplexelyon.com/programme/le-complexe-comedy-club-4-humoristes/",
       "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/complexe-comedy-club-540x800.jpg",
       "id": "321ccffd69d0"
+    },
+    {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Boréale, la naissance des aurores",
+      "subtitle": "Spectacle Jeune public · 3 ans et +",
+      "category": "concert",
+      "date_start": "2027-02-18",
+      "date_end": null,
+      "time": "10:30",
+      "url": "https://museedesconfluences.fr/agenda/boreale-la-naissance-des-aurores",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-06/images_siteweb_mdc_1080-1080_boreale.jpg",
+      "id": "e68f91b0ce47"
     },
     {
       "venue": "Comédie Odéon",
@@ -31528,6 +32282,19 @@
       "id": "f6ebd542d39f"
     },
     {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Journée spéciale : Super‑chiens en action !",
+      "subtitle": "Animations • 4 ans et +",
+      "category": "conférence",
+      "date_start": "2027-02-24",
+      "date_end": null,
+      "time": "10:30",
+      "url": "https://museedesconfluences.fr/agenda/journee-speciale-super-chiens-en-action",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-06/images_siteweb_mdc_1080-1080_superchien.jpg",
+      "id": "462c2cb2a55e"
+    },
+    {
       "venue": "Comédie Odéon",
       "venue_slug": "comedie-odeon",
       "title": "Le Petit Prince",
@@ -31617,6 +32384,19 @@
       "url": "https://improvidence.mapado.com/event/9973-on-reste-en-contact",
       "image": "https://img.mapado.net/2018/12/2/5c043197ed152-on-reste-en-contact.jpeg_thumbs/600-600.jpeg",
       "id": "91543396dc68"
+    },
+    {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Ciné-Science · Nous, les chiens",
+      "subtitle": "8 ans et +",
+      "category": "projection",
+      "date_start": "2027-02-25",
+      "date_end": null,
+      "time": "14:00",
+      "url": "https://museedesconfluences.fr/agenda/cine-science-nous-les-chiens",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-06/images_siteweb_mdc_1080-1080_nouschiens.jpg",
+      "id": "fb34cb932657"
     },
     {
       "venue": "Comédie Odéon",
@@ -32217,6 +32997,19 @@
       "id": "43ae9228b5d2"
     },
     {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Nocturne réunionnaise",
+      "subtitle": "Concert Bal Kabar Maloya, projection...",
+      "category": "conférence",
+      "date_start": "2027-03-04",
+      "date_end": null,
+      "time": "18:30",
+      "url": "https://museedesconfluences.fr/agenda/nocturne-reunionnaise",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-06/images_siteweb_mdc_1080-1080_nocturnereunion.jpg",
+      "id": "9e930b8c2fbd"
+    },
+    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins",
       "title": "L’Amante anglaise",
@@ -32306,6 +33099,19 @@
       "url": "https://www.theatredescelestins.com/fr/programmation/2026-2027/creation/collateral-le-projet-ma-soeur",
       "image": "https://www.theatredescelestins.com/assets/q75-w600/f063211f/collateral_2.jpg",
       "id": "64f09499b8dc"
+    },
+    {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Marsèl Philéas et Ti’kaniki - Bal Kabar Maloya",
+      "subtitle": "Concert de la Nocturne réunionnaise",
+      "category": "concert",
+      "date_start": "2027-03-04",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://museedesconfluences.fr/agenda/marsel-phileas-et-tikaniki-bal-kabar-maloya",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-06/images_siteweb_mdc_1080-1080_nocturnereunion-concert.jpg",
+      "id": "04d295c39986"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -32618,6 +33424,19 @@
       "url": "https://www.lecomplexelyon.com/programme/le-complexe-comedy-club-4-humoristes/",
       "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/complexe-comedy-club-540x800.jpg",
       "id": "dd15858df24e"
+    },
+    {
+      "venue": "Musée des Confluences",
+      "venue_slug": "musee-des-confluences",
+      "title": "Lagon Nwar · Une créolité révoltée loin des clichés",
+      "subtitle": "Concert",
+      "category": "concert",
+      "date_start": "2027-03-06",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://museedesconfluences.fr/agenda/lagon-nwar-une-creolite-revoltee-loin-des-cliches",
+      "image": "https://museedesconfluences.fr/sites/default/files/uploads/2026-06/images_siteweb_mdc_1080-1080_lagonnwar.jpg",
+      "id": "48bfc835df57"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -33892,6 +34711,19 @@
       "url": "https://www.petit-bulletin.fr/agenda-319198-pieuvre-1-2.html",
       "image": null,
       "id": "add17a039a06"
+    },
+    {
+      "venue": "Théâtre Théo Argence",
+      "venue_slug": "theatre-theo-argence",
+      "title": "Il ne m'est jamais rien arrivé",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2027-05-29",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.petit-bulletin.fr/agenda-314279-il-ne-m-est-jamais-rien-arriv.html",
+      "image": null,
+      "id": "d9c03ebdef5d"
     },
     {
       "venue": "Bourse du Travail",
