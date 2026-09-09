@@ -827,6 +827,36 @@
        C'est le cartouche, et lui seul, qui filtre ce sous-arbre. */
     filter: none;
   }
+  /* Repli typographique, pour les salles dont on n'a pas la marque.
+     Il vit DANS le même cartouche que les logos, et hérite donc du même
+     filtre : aucun blanc à recalculer, aucun raccord à ajuster. C'est ce
+     qui garantit qu'aucune carte groupée d'un lieu scrappé ne retombe
+     sur le motif générique — y compris pour les salles qu'on scrappera
+     demain, sans fichier à fournir.
+     Bungee est la fonte d'affiche du site, déjà chargée par le wordmark :
+     rien de plus à télécharger. */
+  .visual-bg .logo-mot {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 9%;
+    margin: 0;
+    font-family: 'Bungee', system-ui, sans-serif;
+    font-weight: 400;
+    /* Le corps vient du JS : il dépend de la longueur du nom. */
+    font-size: var(--fs, 30px);
+    line-height: 1.02;
+    letter-spacing: 0.005em;
+    text-align: center;
+    text-transform: uppercase;
+    /* Noir, comme l'encre d'un logo : le cartouche l'éclaircit ensuite
+       exactement comme il éclaircit une marque. */
+    color: #000;
+    text-wrap: balance;
+    overflow-wrap: anywhere;
+  }
   /* Le motif reste dans le DOM sous le logo, mais éteint : si le fichier
      manque, l'onerror retire la classe et le motif reprend sa place.
      C'est l'invariant du site — la couche de secours est toujours là —
@@ -1495,6 +1525,25 @@ const VENUE_LOGOS = new Map([
   ['Institut Lumière',         { f: 'logos/institut-lumiere.svg',  k: 150 }],
   ['Célestins, théâtre de Lyon',
                                { f: 'logos/celestins.svg',         k: 150 }],
+  /* k est une HAUTEUR en % de la carte, la largeur suivant le rapport
+     d'aspect : 150 conviendrait à une marque carrée et donnerait deux
+     mille pixels de large au bandeau de l'Auditorium, qui fait 435 sur
+     48. Ces valeurs sont donc calculées pour que la marque occupe ~90 %
+     de la largeur de carte, plafonnées à 150 pour les marques carrées —
+     le réglage validé sur les six premières. */
+  ['Comédie Odéon',            { f: 'logos/comedie-odeon.png',      k:  65 }],
+  ['TNP - Théâtre National Populaire',
+                               { f: 'logos/tnp.svg',                k: 150 }],
+  ['Théâtre de la Croix-Rousse',
+                               { f: 'logos/croix-rousse.png',       k:  46 }],
+  ['Musée des Confluences',    { f: 'logos/confluences.png',        k:  83 }],
+  ['Maison de la Danse',       { f: 'logos/maison-de-la-danse.svg', k:  52 }],
+  ['La Halle Tony Garnier',    { f: 'logos/halle-tony-garnier.svg', k:  76 }],
+  ['TNG',                      { f: 'logos/tng.svg',                k: 136 }],
+  ['Le Sucre',                 { f: 'logos/le-sucre.png',           k: 150 }],
+  ['Auditorium de Lyon',       { f: 'logos/auditorium.svg',         k:  24 }],
+  ['Marché Gare',              { f: 'logos/marche-gare.svg',        k:  60 }],
+  ['Radiant-Bellevue',         { f: 'logos/radiant-bellevue.svg',   k:  59 }],
 ]);
 
 const VENUE_DISPLAY_ORDER = ['soirée', 'concerts', 'spectacles & musiques', 'lieux hybrides', 'théâtre & danse', 'classique', 'musées & galeries', 'autre'];
@@ -2014,16 +2063,111 @@ function patternSVG(seed) {
        + '<use href="#formes-' + m.id + '"/></svg>';
 }
 
-/* Repli d'un logo de salle manquant : on retire la classe qui éteint le
-   motif, et le motif reprend sa place. Une fonction nommée plutôt qu'un
-   onerror en ligne : il y a deux instructions et un garde, ce qui dans
-   un attribut aurait demandé des guillemets imbriqués. */
+/* Nom composé sur le cartouche typographique. On coupe à la première
+   virgule ou au premier tiret séparateur : « TNP - Théâtre National
+   Populaire » se compose « TNP », « Célestins, théâtre de Lyon » se
+   compose « Célestins ». Partout ailleurs le nom entier tient en deux
+   ou trois lignes. */
+function nomDePlaque(venue) {
+  return (venue || '').split(/\s+[-–—]\s+|,/)[0].trim() || venue || '';
+}
+
+/* Corps du cartouche. Compter les caractères ne suffit pas : Bungee est
+   une grasse d'affiche aux chasses très inégales, et c'est la CÉSURE qui
+   décide du rendu — « Théâtre de la Croix-Rousse » et « Maison de la
+   Danse » ont des longueurs voisines et se composent, l'un sur deux
+   lignes étriquées, l'autre sur une ligne pleine.
+
+   Simuler ce découpage au canvas ne marche pas non plus : text-wrap
+   balance et l'interlettrage déplacent les coupures, et l'estimation se
+   trompait de toute une ligne sur « Le Transbordeur ». On MESURE donc
+   l'élément réel, dans une sonde hors écran qui porte exactement la même
+   règle CSS. Seize noms distincts, dichotomie, résultat mémorisé : une
+   poignée de reflows sur une boîte minuscule, une seule fois.
+
+   Tant que Bungee n'est pas chargée la mesure porterait sur la fonte de
+   repli : on s'en tient alors aux paliers, sans mémoriser, et la page se
+   recompose quand la fonte est prête. */
+const CARTE_L = Math.round(392 * 0.82);  /* la carte moins ses marges */
+const CARTE_H = 96;          /* bande sûre entre les deux fondus du masque */
+const CORPS_MIN = 15, CORPS_MAX = 52;
+const _corps = new Map();
+let _sonde = null;
+
+function corpsParPaliers(nom) {
+  const n = nom.length;
+  if (n <= 5)  return 52;
+  if (n <= 10) return 38;
+  if (n <= 18) return 27;
+  return 21;
+}
+
+function corpsDePlaque(nom) {
+  if (_corps.has(nom)) return _corps.get(nom);
+  if (!(document.fonts && document.fonts.check('16px Bungee'))) {
+    return corpsParPaliers(nom);
+  }
+  if (!_sonde) {
+    // La règle est « .visual-bg .logo-mot », un sélecteur DESCENDANT :
+    // une sonde posée sur <body> n'en hériterait rien et mesurerait la
+    // fonte par défaut. Elle vit donc dans un calque du même nom.
+    const etui = document.createElement('div');
+    etui.className = 'visual-bg';
+    etui.setAttribute('aria-hidden', 'true');
+    etui.style.cssText = 'position:fixed;left:-9999px;top:0;inset:auto;'
+      + 'width:' + CARTE_L + 'px;height:' + CARTE_H + 'px;'
+      + 'mask-image:none;-webkit-mask-image:none;visibility:hidden';
+    _sonde = document.createElement('div');
+    _sonde.className = 'logo-mot';
+    etui.appendChild(_sonde);
+    document.body.appendChild(etui);
+    // La sonde reçoit la largeur utile SANS les marges, que la règle
+    // exprime en pourcentage : les compter deux fois la rétrécirait.
+    // Et elle passe en BLOC à hauteur libre : en flex centré, un texte
+    // qui déborde ne fait pas grandir scrollHeight — il déborde de part
+    // et d'autre — et toute mesure de hauteur y répondait « ça tient ».
+    // La césure, elle, ne dépend pas du mode d'affichage.
+    _sonde.style.cssText = 'position:static;inset:auto;'
+      + 'display:block;padding:0;width:' + CARTE_L + 'px;height:auto';
+  }
+  _sonde.textContent = nom;
+  const tient = px => {
+    _sonde.style.setProperty('--fs', px + 'px');
+    return _sonde.scrollWidth <= CARTE_L + 1
+        && _sonde.offsetHeight <= CARTE_H;
+  };
+  let bas = CORPS_MIN, haut = CORPS_MAX;
+  while (bas < haut) {
+    const mid = Math.ceil((bas + haut) / 2);
+    if (tient(mid)) bas = mid; else haut = mid - 1;
+  }
+  _corps.set(nom, bas);
+  return bas;
+}
+
+function plaqueTypo(venue) {
+  const nom = nomDePlaque(venue);
+  return '<span class="logo-mot" style="--fs:' + corpsDePlaque(nom) + 'px">'
+       + escapeHtml(nom) + '</span>';
+}
+
+/* Repli d'un logo de salle manquant : le fichier a disparu ou n'a jamais
+   été fourni. On ne retombe PAS sur le motif générique — c'est justement
+   ce qu'on cherche à éviter sur les cartes groupées — mais sur le
+   cartouche typographique, qui occupe la même plaque et hérite du même
+   filtre. Le nom se relit sur la carte elle-même. */
 function logoIntrouvable(img) {
+  const plaque = img.closest('.logo-plate');
+  const venue = img.closest('.event')
+    ?.querySelector('.event-venue')?.textContent || '';
+  if (plaque) {
+    plaque.innerHTML = plaqueTypo(venue);
+    return;
+  }
+  // Sans cartouche il ne reste rien à habiller : on rallume le motif.
   const couche = img.closest('.visual-bg');
   if (couche) couche.classList.remove('has-logo');
-  // Le cartouche part AVEC la marque : le retirer seul laisserait une
-  // carte entièrement blanche, ce qui est pire que le motif.
-  (img.closest('.logo-plate') || img).remove();
+  img.remove();
 }
 
 /* Couche visuelle d'une carte : motif toujours en sous-couche, affiche
@@ -3010,13 +3154,20 @@ function groupCard(venue, evs, key) {
   // marque, le motif qu'on vient justement d'éteindre. Elle se peint
   // après le voile, comme le ::after d'un vrai .photo-wrap se dessine
   // par-dessus le voile qu'il contient.
+  // Marque du lieu si on a le fichier, cartouche typographique sinon —
+  // mais pour les seules salles qu'on scrappe en direct : elles portent
+  // une identité que le site revendique, là où un lieu vu à travers un
+  // agrégateur n'est qu'un nom de passage, et garde le motif.
+  // venueHomepage[] est déjà l'index des lieux scrappés (cf. eventHref).
   const logo = VENUE_LOGOS.get(venue);
-  const visual = logo
-    ? '<div class="visual-bg has-logo">' + patternSVG(venue + '|·groupe')
-      + '<div class="logo-plate">'
-      + '<img class="logo-img" src="' + escapeHtml(logo.f) + '" alt=""'
+  const marque = logo
+    ? '<img class="logo-img" src="' + escapeHtml(logo.f) + '" alt=""'
       + ' loading="lazy" decoding="async" style="--k:' + logo.k + '%"'
-      + ' onerror="logoIntrouvable(this)"></div>'
+      + ' onerror="logoIntrouvable(this)">'
+    : (venueHomepage[venue] ? plaqueTypo(venue) : '');
+  const visual = marque
+    ? '<div class="visual-bg has-logo">' + patternSVG(venue + '|·groupe')
+      + '<div class="logo-plate">' + marque + '</div>'
       + '<div class="scrim"></div><div class="photo-wrap"></div></div>'
     : '<div class="visual-bg">' + patternSVG(venue + '|·groupe') + '</div>';
 
@@ -3158,6 +3309,17 @@ document.getElementById('feed').addEventListener('click', ev => {
   const close = ev.target.closest('[data-collapse]');
   if (close) toggleGroup(close.getAttribute('data-collapse'), false);
 });
+
+/* Les cartouches typographiques se dimensionnent en mesurant Bungee. Si
+   la fonte arrive après le premier rendu — cas ordinaire, elle vient de
+   Google Fonts — les corps posés d'après les paliers sont approximatifs.
+   On recompose une fois, quand elle est prête. Sans garde sur le feed
+   déjà rempli, ce serait un rendu de trop au chargement à froid. */
+if (document.fonts && document.fonts.ready) {
+  document.fonts.ready.then(() => {
+    if (state.events.length && document.querySelector('.logo-mot')) render();
+  });
+}
 
 load().catch(err => {
   document.getElementById('feed').innerHTML =
