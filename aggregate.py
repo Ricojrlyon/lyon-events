@@ -17,12 +17,16 @@ v34 changes:
     venue scraper and an aggregator, the venue scraper wins (it's
     authoritative). See scrapers/dedup.py.
 
-Politique éditoriale (août 2026) : les agrégateurs ne filtrent PLUS rien.
-  - Petit Bulletin et Ville Morte remontent l'intégralité de leur agenda :
-    plus de blocage par catégorie, par lieu ni par tag, et la catégorie
-    n'est plus obligatoire côté Petit Bulletin.
-  - Les événements longs (expos, festivals au long cours) ne sont plus
-    jetés : ils deviennent des événements à plage date_start..date_end.
+Politique éditoriale (septembre 2026) :
+  - Ville Morte remonte l'intégralité de son agenda, sans aucun filtre.
+  - Petit Bulletin remonte tout SAUF quatre catégories d'arts plastiques
+    (voir petit_bulletin.CATEGORIES_ECARTEES). Ce filtre, levé en août,
+    revient pour une raison nouvelle : le frontend affiche désormais les
+    événements longs sur CHACUN de leurs jours, si bien qu'un accrochage
+    de trois mois pèse quatre-vingt-dix cartes et non plus une.
+  - Les événements longs (expos, festivals au long cours) ne sont pas
+    jetés : ils deviennent des événements à plage date_start..date_end,
+    que le frontend déploie jour par jour dans son horizon.
   - C'est la déduplication en trois passes (scrapers/dedup.py) qui écarte
     les doublons quand un événement est publié à la fois par un
     agrégateur et par la salle elle-même. Les scrapers de salle gardent

@@ -5,17 +5,22 @@ list of upcoming events. The page structure is regular: each event has a
 title in an h-tag with a stable URL (/agenda-NNNNNN-slug.html), a category
 in parens on the next sibling line, then a list with venue and date.
 
-AUCUN filtre éditorial. Tout l'agenda remonte, et c'est la
+UN SEUL filtre éditorial : quatre catégories d'arts plastiques (voir
+CATEGORIES_ECARTEES). Pour le reste tout l'agenda remonte, et c'est la
 déduplication en trois passes (scrapers/dedup.py) qui écarte les doublons
 quand un événement est aussi publié par la salle elle-même.
 
-Deux filtres existaient ici — musées et galeries d'un côté, une liste de
-catégories de l'autre — parce que leurs accrochages, courant sur des
-mois, saturaient le feed. Ils sont retirés : le frontend regroupe
-désormais chaque journée en quatre familles qu'on éteint d'un bouton, et
-c'est au lecteur de dire qu'il ne veut pas d'expositions ce soir, pas au
-scraper de le décider pour lui. La famille « expos » était d'ailleurs la
-grande perdante de ce filtrage : 27 événements sur 1628.
+Historique, parce que la décision a changé deux fois. Deux filtres
+existaient ici — musées et galeries d'un côté, une liste de catégories de
+l'autre — parce que leurs accrochages, courant sur des mois, saturaient le
+feed. Ils ont été retirés en août 2026, au motif que le frontend regroupe
+chaque journée en quatre familles qu'on éteint d'un bouton, et que c'est
+au lecteur de dire qu'il ne veut pas d'expositions ce soir.
+
+Le filtre de catégories revient en septembre 2026, resserré à quatre
+libellés, et pour une raison différente de la première : les événements
+longs sont désormais affichés sur CHACUN de leurs jours, seuil supprimé.
+Un accrochage de trois mois pesait une carte, il en pèse quatre-vingt-dix.
 
 L'agenda est paginé (`?p=N`) et fetch() suit toutes les pages.
 
@@ -24,8 +29,8 @@ Dates :
   * plage ≤ 7 jours      → un Event par jour (petits festivals)
   * plage > 7 jours      → UN Event à plage (date_start..date_end)
   * « Jusqu'au X »       → UN Event à plage, du jour courant à X
-Rien n'est jeté : le frontend sait afficher les plages, avec un badge
-« en cours » au-delà de 30 jours.
+Rien n'est jeté : le frontend déploie les plages sur chacun de leurs
+jours, avec un badge de progression.
 """
 from __future__ import annotations
 import re
@@ -75,6 +80,24 @@ def _normalize(s: str) -> str:
     s = re.sub(r"[^\w\s]", " ", s)
     s = re.sub(r"\s+", " ", s).strip()
     return s
+
+
+# Catégories écartées : les arts plastiques du Petit Bulletin. Ce sont des
+# ACCROCHAGES, ouverts tous les jours pendant des semaines, et depuis que
+# le frontend déploie les événements longs sur chacun de leurs jours, ils
+# pèsent leur durée entière. Mesuré à l'introduction de la règle : 99
+# événements, dont 68 en galerie et 9 en musée non scrappé, et 1 443 jours
+# cumulés d'accrochage sur l'horizon.
+#
+# Les libellés sont comparés normalisés (casse, accents et ponctuation
+# écrasés) : « Design & Architecture » et « design et architecture »
+# tombent donc pareil.
+CATEGORIES_ECARTEES = frozenset(_normalize(c) for c in (
+    "Peinture & Dessin",
+    "Art contemporain et numérique",
+    "Photographie",
+    "Design & Architecture",
+))
 
 
 def _slugify(s: str) -> str:
@@ -318,6 +341,7 @@ def fetch() -> List[Event]:
     headers = {"User-Agent": USER_AGENT}
     events: List[Event] = []
     seen_urls: set[str] = set()
+    ecartes = 0
 
     for page in range(1, MAX_PAGES + 1):
         url = URL if page == 1 else f"{URL}?p={page}"
@@ -340,9 +364,18 @@ def fetch() -> List[Event]:
             break                      # page vide ou déjà vue : fin de l'agenda
         for e in fresh:
             seen_urls.add(e.url)
-        events.extend(page_events)
+        # Le filtre s'applique APRÈS le test de fraîcheur : une page qui ne
+        # contiendrait que des arts plastiques serait sinon prise pour la fin
+        # de l'agenda, et la pagination s'arrêterait là.
+        gardes = [e for e in page_events
+                  if _normalize(e.category) not in CATEGORIES_ECARTEES]
+        ecartes += len(page_events) - len(gardes)
+        events.extend(gardes)
 
         if page < MAX_PAGES:
             time.sleep(0.4)            # on ne martèle pas le serveur
 
+    if ecartes:
+        print(f"[Petit Bulletin] {ecartes} événement(s) d'arts plastiques "
+              f"écarté(s) ({', '.join(sorted(CATEGORIES_ECARTEES))})")
     return events
