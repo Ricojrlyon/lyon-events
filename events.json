@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-09T14:25:06.531340+00:00",
-  "count": 2686,
+  "generated_at": "2026-09-09T14:47:58.680212+00:00",
+  "count": 2687,
   "events": [
     {
       "venue": "Opéra national de Lyon",
@@ -239,15 +239,15 @@
     {
       "venue": "Les Subsistances",
       "venue_slug": "les-subs",
-      "title": "Almond Butyl",
+      "title": "Almond Butyl - annulé / remplacé par Viviane Cavale",
       "subtitle": null,
       "category": "musique",
       "date_start": "2026-09-09",
       "date_end": null,
       "time": "20:00",
       "url": "https://www.les-subs.com/evenement/optimisme-ambient-2026-almond-butyl/",
-      "image": "https://www.les-subs.com/wp-content/uploads/2026/04/raphaellegiaretto-bienvenue-num-hd-79-1-200x200.jpg",
-      "id": "c0295a575fb9"
+      "image": "https://www.les-subs.com/wp-content/uploads/2026/04/annule-paysage-200x200.jpg",
+      "id": "026c8bb70785"
     },
     {
       "venue": "Espace Gerson",
@@ -638,6 +638,19 @@
       "url": "https://shotgun.live/events/this-is-hit-machine-no2t-owenruga-and-more?utm_source=site-web",
       "image": "https://www.lpslyon.fr/wp-content/uploads/2026/08/Thisishitmachine_11092026_lepetitsalon-1024x576.png",
       "id": "b6b0fcdf0b35"
+    },
+    {
+      "venue": "Musée des Beaux-Arts",
+      "venue_slug": "musee-des-beaux-arts",
+      "title": "Musée sentimental",
+      "subtitle": "André Breton, Daniel Spoerri, Joseph Cornell, Annette Messager, Marcel Duchamp, Ben…",
+      "category": "exposition",
+      "date_start": "2026-09-11",
+      "date_end": "2027-03-14",
+      "time": null,
+      "url": "https://www.mba-lyon.fr/fr/fiche-programmation/musee-sentimental",
+      "image": "https://www.mba-lyon.fr/sites/mba/files/styles/crop_1920_530/public/content/medias/images/2020-05/cornell-andromeda_ss-crop.jpg?itok=qrynuHoA",
+      "id": "806aa5d17c1a"
     },
     {
       "venue": "Bibliothèque de la Part-Dieu",
