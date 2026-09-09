@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-09T14:47:58.680212+00:00",
-  "count": 2687,
+  "generated_at": "2026-09-09T15:01:16.248327+00:00",
+  "count": 2691,
   "events": [
     {
       "venue": "Opéra national de Lyon",
@@ -3266,6 +3266,32 @@
       "id": "9a5fded338d9"
     },
     {
+      "venue": "Musée d'Art Contemporain",
+      "venue_slug": "mac-lyon",
+      "title": "18e Biennale de Lyon",
+      "subtitle": "Passer d’un rêve à l’autre / To pass from one dream to another",
+      "category": "exposition",
+      "date_start": "2026-09-19",
+      "date_end": "2026-12-13",
+      "time": null,
+      "url": "https://www.mac-lyon.com/fr/programmation/18e-biennale-de-lyon",
+      "image": "https://www.mac-lyon.com/sites/mac/files/styles/programmation_results/public/2026-06/banniere_biennale_18_2026_web.jpg?itok=H9lsI8an",
+      "id": "1b8ec9b44cbe"
+    },
+    {
+      "venue": "Musée d'Art Contemporain",
+      "venue_slug": "mac-lyon",
+      "title": "Visite Coulisses du musée",
+      "subtitle": "Un bâtiment créé par Renzo Piano",
+      "category": "visite",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-20",
+      "time": null,
+      "url": "https://www.mac-lyon.com/fr/programmation/visite-coulisses-du-musee",
+      "image": "https://www.mac-lyon.com/sites/mac/files/styles/programmation_results/public/2026-06/banniere_visite_archi_web.jpg?itok=Y_vnzVmh",
+      "id": "98e46e3d0251"
+    },
+    {
       "venue": "Ile Egalité",
       "venue_slug": "ile-egalite",
       "title": "Week-end de rentrée à l'île égalité",
@@ -3319,16 +3345,16 @@
     },
     {
       "venue": "Musée d'Art Contemporain",
-      "venue_slug": "musee-d-art-contemporain",
-      "title": "Week-end d'ouverture de la Biennale de Lyon",
-      "subtitle": null,
-      "category": "expo",
+      "venue_slug": "mac-lyon",
+      "title": "Week-end d'ouverture de la Biennale de Lyon au macLYON",
+      "subtitle": "Exposition, nocturne, DJ sets en open air...",
+      "category": "exposition",
       "date_start": "2026-09-19",
-      "date_end": null,
+      "date_end": "2026-09-20",
       "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319243-week-end-d-ouverture-de-la-biennale-de-lyon.html",
-      "image": null,
-      "id": "780e37016737"
+      "url": "https://www.mac-lyon.com/fr/programmation/week-end-douverture-de-la-biennale-de-lyon-au-maclyon",
+      "image": "https://www.mac-lyon.com/sites/mac/files/styles/programmation_results/public/2026-02/visuel_nannucci_musee_nuit_nocturne_facade_web.jpg?itok=KQ_STSsh",
+      "id": "aa9257ba52eb"
     },
     {
       "venue": "Musée d'Art Contemporain",
@@ -8583,6 +8609,19 @@
       "id": "e7e3327db9be"
     },
     {
+      "venue": "Musée d'Art Contemporain",
+      "venue_slug": "mac-lyon",
+      "title": "À travers champs",
+      "subtitle": "Résonance Biennale de Lyon avec Fanny Maugey",
+      "category": "exposition",
+      "date_start": "2026-10-07",
+      "date_end": "2026-10-17",
+      "time": null,
+      "url": "https://www.mac-lyon.com/fr/programmation/travers-champs",
+      "image": "https://www.mac-lyon.com/sites/mac/files/styles/programmation_results/public/2026-08/banniere_a_travers_champs_web.jpg?itok=hmzbF_As",
+      "id": "939e4bb32db8"
+    },
+    {
       "venue": "Chapelle du Vinatier",
       "venue_slug": "chapelle-du-vinatier",
       "title": "Circo Infinito",
@@ -11662,6 +11701,19 @@
       "url": "https://www.bourse-du-travail.com/panayotis-pascot-entre-les-deux-tournee-373806.html",
       "image": "https://www.bourse-du-travail.com/img/evenement/panayotis-pascot--entre-les-deux--tournee-69.jpg",
       "id": "00b45a1847b3"
+    },
+    {
+      "venue": "Musée d'Art Contemporain",
+      "venue_slug": "mac-lyon",
+      "title": "Concert de musique de chambre",
+      "subtitle": "Par les musiciens et musiciennes de l'Orchestre symphonique des médecins de France",
+      "category": "concert",
+      "date_start": "2026-10-17",
+      "date_end": null,
+      "time": null,
+      "url": "https://www.mac-lyon.com/fr/programmation/concert-de-musique-de-chambre",
+      "image": "https://www.mac-lyon.com/sites/mac/files/styles/programmation_results/public/2026-09/banniere_orchestre_medecins_web_0.jpg?itok=BGu2XJT-",
+      "id": "ac06cf966a37"
     },
     {
       "venue": "Théâtre des Clochards Célestes",
@@ -26096,7 +26148,7 @@
     {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
-      "title": "Jérémie Reners - Rafale",
+      "title": "Jérémie Reners // Rafale",
       "subtitle": null,
       "category": "café-théâtre",
       "date_start": "2026-12-31",
@@ -26104,7 +26156,7 @@
       "time": "18:00",
       "url": "https://espacegerson.mapado.com/event/822514-jeremie-reners-rafale",
       "image": "https://img.mapado.net/2026/7/29/6a6a1817cb205-reners-31dec.png_thumbs/600-600.png",
-      "id": "e5e45c4e8040"
+      "id": "eca880235b43"
     },
     {
       "venue": "Le Complexe café-théâtre",
@@ -26174,7 +26226,7 @@
     {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
-      "title": "Jérémie Reners - Rafale",
+      "title": "Jérémie Reners // Rafale",
       "subtitle": null,
       "category": "café-théâtre",
       "date_start": "2026-12-31",
@@ -26182,7 +26234,7 @@
       "time": "20:00",
       "url": "https://espacegerson.mapado.com/event/822514-jeremie-reners-rafale",
       "image": "https://img.mapado.net/2026/7/29/6a6a1817cb205-reners-31dec.png_thumbs/600-600.png",
-      "id": "e343efa7143c"
+      "id": "029fbbf0dd88"
     },
     {
       "venue": "Le Complexe café-théâtre",
@@ -26213,7 +26265,7 @@
     {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
-      "title": "Jérémie Reners - Rafale",
+      "title": "Jérémie Reners // Rafale",
       "subtitle": null,
       "category": "café-théâtre",
       "date_start": "2026-12-31",
@@ -26221,7 +26273,7 @@
       "time": "22:00",
       "url": "https://espacegerson.mapado.com/event/822514-jeremie-reners-rafale",
       "image": "https://img.mapado.net/2026/7/29/6a6a1817cb205-reners-31dec.png_thumbs/600-600.png",
-      "id": "67c8d4671426"
+      "id": "e5415b1f2927"
     },
     {
       "venue": "Auditorium de Lyon",
