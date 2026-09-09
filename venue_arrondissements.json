@@ -96,6 +96,13 @@
     "confidence": "high",
     "seen_at": "2026-09-07"
   },
+  "Briscope": {
+    "arr": "Autre",
+    "checked_at": "2026-09-09",
+    "commune": "Brignais",
+    "confidence": "low",
+    "seen_at": "2026-09-09"
+  },
   "Brolala Saint-Paul": {
     "arr": null,
     "checked_at": "2026-09-01",
@@ -124,6 +131,13 @@
     "checked_at": "2026-08-27",
     "confidence": "high",
     "seen_at": "2026-09-08"
+  },
+  "Centre culturel Charlie Chaplin": {
+    "arr": "Autre",
+    "checked_at": "2026-09-09",
+    "commune": "Vaulx-en-Velin",
+    "confidence": "low",
+    "seen_at": "2026-09-09"
   },
   "Centre d'échanges de Perrache": {
     "arr": "2e",
@@ -360,11 +374,25 @@
     "confidence": "failed",
     "seen_at": "2026-09-08"
   },
+  "L'Echappée": {
+    "arr": "Autre",
+    "checked_at": "2026-09-09",
+    "commune": "Rillieux-la-Pape",
+    "confidence": "low",
+    "seen_at": "2026-09-09"
+  },
   "L'attrape-couleurs": {
     "arr": null,
     "checked_at": "2026-08-25",
     "confidence": "failed",
     "seen_at": "2026-09-08"
+  },
+  "L\\'Ellipse": {
+    "arr": "Autre",
+    "checked_at": "2026-09-09",
+    "commune": "Sainte-Foy-lès-Lyon",
+    "confidence": "low",
+    "seen_at": "2026-09-09"
   },
   "La Ferme du Vinatier": {
     "arr": null,
@@ -577,6 +605,13 @@
     "checked_at": "2026-09-07",
     "confidence": "failed",
     "seen_at": "2026-09-07"
+  },
+  "Maison du Peuple Pierre Bénite": {
+    "arr": "Autre",
+    "checked_at": "2026-09-09",
+    "commune": "Oullins-Pierre-Bénite",
+    "confidence": "low",
+    "seen_at": "2026-09-09"
   },
   "Maison du livre, de l'image et du son": {
     "arr": null,

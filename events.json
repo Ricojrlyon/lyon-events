@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-09T08:36:50.148511+00:00",
-  "count": 2693,
+  "generated_at": "2026-09-09T09:40:55.479580+00:00",
+  "count": 2744,
   "events": [
     {
       "venue": "Opéra national de Lyon",
@@ -861,19 +861,6 @@
       "id": "b6b0fcdf0b35"
     },
     {
-      "venue": "Musée des Beaux-Arts",
-      "venue_slug": "musee-des-beaux-arts",
-      "title": "Musée sentimental",
-      "subtitle": null,
-      "category": "Sciences et Histoire",
-      "date_start": "2026-09-11",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-318929-mus-e-sentimental.html",
-      "image": null,
-      "id": "cb3f9b4150c7"
-    },
-    {
       "venue": "Bibliothèque de la Part-Dieu",
       "venue_slug": "bibliotheque-de-la-part-dieu",
       "title": "Heure de la découverte : Le jeu des tarots",
@@ -924,6 +911,19 @@
       "url": "https://www.petit-bulletin.fr/agenda-319073-vital.html",
       "image": null,
       "id": "a57fdcbb27b3"
+    },
+    {
+      "venue": "Musée des Beaux-Arts",
+      "venue_slug": "musee-des-beaux-arts",
+      "title": "Conférence : Musée sentimental",
+      "subtitle": null,
+      "category": "conférence",
+      "date_start": "2026-09-11",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.mba-lyon.fr/fr/fiche-programmation/conference-musee-sentimental",
+      "image": "https://www.mba-lyon.fr/sites/mba/files/styles/crop_900_560/public/medias/images/2026-04/we-egypte-visite-contee.jpg?h=e488fe84&itok=ndnVXdCU",
+      "id": "d447f1d935f8"
     },
     {
       "venue": "Librairie Expérience",
@@ -2345,15 +2345,15 @@
     {
       "venue": "Musée des Beaux-Arts",
       "venue_slug": "musee-des-beaux-arts",
-      "title": "L'enseignement de Padiamenopé ou comment vivre la mort dans la vallée de l'Assassif sous la XXVe dynastie",
+      "title": "Conférence : L'enseignement de Padiamenopé ou comment vivre la mort dans la vallée de l'Assassif sous la XXVe dynastie",
       "subtitle": null,
-      "category": "Conférences",
+      "category": "conférence",
       "date_start": "2026-09-15",
       "date_end": null,
       "time": "18:30",
-      "url": "https://www.petit-bulletin.fr/agenda-319172-l-enseignement-de-padiamenop-ou-comment-vivre-la-mort-dans-la-vall-e-de-l-assassif-sous-la-xxve-dynastie.html",
-      "image": null,
-      "id": "b4f22c4f0b62"
+      "url": "https://www.mba-lyon.fr/fr/fiche-programmation/conference-lenseignement-de-padiamenope-ou-comment-vivre-la-mort-dans-la-vallee",
+      "image": "https://www.mba-lyon.fr/sites/mba/files/styles/crop_900_560/public/medias/images/2026-06/mur_breton_0.jpg?itok=Olabft-E",
+      "id": "5396d76085b2"
     },
     {
       "venue": "Librairie Passages",
@@ -3344,6 +3344,19 @@
       "id": "d2ab4126eb29"
     },
     {
+      "venue": "Musée des Beaux-Arts",
+      "venue_slug": "musee-des-beaux-arts",
+      "title": "Présentation des ondes Martenot par Cécile Lartigau",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-09-18",
+      "date_end": null,
+      "time": "12:30",
+      "url": "https://www.mba-lyon.fr/fr/fiche-programmation/presentation-des-ondes-martenot-par-cecile-lartigau",
+      "image": "https://www.mba-lyon.fr/sites/mba/files/styles/crop_900_560/public/medias/images/2025-08/chapelle_ou_visite_groupe.jpg?h=3244e854&itok=9vjIoalP",
+      "id": "d3f0be8a9b39"
+    },
+    {
       "venue": "La Halle Tony Garnier",
       "venue_slug": "halle-tony-garnier",
       "title": "The Ink Factory",
@@ -3394,6 +3407,19 @@
       "url": "https://www.petit-bulletin.fr/agenda-319040-cobie.html",
       "image": null,
       "id": "98a816567f01"
+    },
+    {
+      "venue": "La Salle de Bains",
+      "venue_slug": "la-salle-de-bains",
+      "title": "Comment faire des choses avec des polices ? Visite performative et discussion publique",
+      "subtitle": null,
+      "category": "expo",
+      "date_start": "2026-09-18",
+      "date_end": null,
+      "time": "17:00",
+      "url": "https://agenda.villemorte.fr/event/comment-faire-des-choses-avec-des-polices-visite-performative-et-discussion-publique",
+      "image": "https://agenda.villemorte.fr/media/thumb/31b9d2824612f177f9d3b95db966b896.jpg",
+      "id": "47903322249b"
     },
     {
       "venue": "Les Subsistances",
@@ -3459,19 +3485,6 @@
       "url": "https://h-eat.eu/events/la-phonkerie-presents-soudiere-the-phonkiest-man-alive/",
       "image": "https://h-eat.eu/wp-content/uploads/2026/08/phonkerie-heat-576x720.jpg",
       "id": "0e5deda564d9"
-    },
-    {
-      "venue": "La Salle de Bains",
-      "venue_slug": "la-salle-de-bains",
-      "title": "Comment faire des choses avec des polices ? Visite performative et discussion publique",
-      "subtitle": null,
-      "category": "expo",
-      "date_start": "2026-09-18",
-      "date_end": null,
-      "time": "18:00",
-      "url": "https://agenda.villemorte.fr/event/comment-faire-des-choses-avec-des-polices-visite-performative-et-discussion-publique",
-      "image": "https://agenda.villemorte.fr/media/thumb/31b9d2824612f177f9d3b95db966b896.jpg",
-      "id": "2dd3139a6c6c"
     },
     {
       "venue": "L’Amicale Du Futur",
@@ -4516,7 +4529,7 @@
     {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
-      "title": "Le Sucre x Reperkusound - Open air edition",
+      "title": "Le Sucre x Reperkusound - Open air",
       "subtitle": "ASIŁ · BETÏSES · Kirara · Formula Juan · Romane Santarelli · RADAR · La Waw!",
       "category": "club",
       "date_start": "2026-09-19",
@@ -4524,7 +4537,7 @@
       "time": "23:00",
       "url": "https://le-sucre.eu/events/le-sucre-feat-reperkusound-open-air-edition/",
       "image": "https://le-sucre.eu/wp-content/uploads/2026/07/openair-reperkusoundxlesucre-2026-A6-424x600.jpg",
-      "id": "1b27157d7271"
+      "id": "8ff3e2a11e65"
     },
     {
       "venue": "Le Sucre",
@@ -8219,6 +8232,19 @@
       "id": "1d2781c3f897"
     },
     {
+      "venue": "Briscope",
+      "venue_slug": "briscope",
+      "title": "Ritam",
+      "subtitle": null,
+      "category": "Danse",
+      "date_start": "2026-10-02",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://www.petit-bulletin.fr/agenda-315692-ritam.html",
+      "image": null,
+      "id": "93394e972078"
+    },
+    {
       "venue": "Espace Gerson",
       "venue_slug": "espace-gerson",
       "title": "David Voinson - Rodage",
@@ -8243,6 +8269,32 @@
       "url": "https://www.petit-bulletin.fr/agenda-319329-love.html",
       "image": null,
       "id": "5fd0e61469ef"
+    },
+    {
+      "venue": "L\\'Ellipse",
+      "venue_slug": "l-ellipse",
+      "title": "Entrelacées",
+      "subtitle": null,
+      "category": "Danse",
+      "date_start": "2026-10-02",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://www.petit-bulletin.fr/agenda-319377-entrelac-es.html",
+      "image": null,
+      "id": "21daaa0a029f"
+    },
+    {
+      "venue": "L\\'Ellipse",
+      "venue_slug": "l-ellipse",
+      "title": "Capsule de poésie",
+      "subtitle": null,
+      "category": "Danse",
+      "date_start": "2026-10-02",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://www.petit-bulletin.fr/agenda-319378-capsule-de-po-sie.html",
+      "image": null,
+      "id": "35f0a674d608"
     },
     {
       "venue": "Le Toboggan",
@@ -8334,6 +8386,19 @@
       "url": "https://www.petit-bulletin.fr/agenda-319240-petru-ceban.html",
       "image": null,
       "id": "7309389dc512"
+    },
+    {
+      "venue": "Espace Albert Camus",
+      "venue_slug": "espace-albert-camus",
+      "title": "Rêvolution",
+      "subtitle": null,
+      "category": "Danse",
+      "date_start": "2026-10-03",
+      "date_end": null,
+      "time": "10:30",
+      "url": "https://www.petit-bulletin.fr/agenda-319379-r-volution.html",
+      "image": null,
+      "id": "f7a76512be27"
     },
     {
       "venue": "Musée des Confluences",
@@ -8490,6 +8555,19 @@
       "url": "https://improvidence.mapado.com/event/452926-on-na-pas-le-meme-titre",
       "image": "https://img.mapado.net/2024/10/21/671646ca23519-vignette-oaplmt.jpeg_thumbs/600-600.jpeg",
       "id": "ade24303c3dd"
+    },
+    {
+      "venue": "Maison du Peuple Pierre Bénite",
+      "venue_slug": "maison-du-peuple-pierre-benite",
+      "title": "Reverse / Se rêver",
+      "subtitle": null,
+      "category": "Danse",
+      "date_start": "2026-10-03",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://www.petit-bulletin.fr/agenda-319380-reverse-se-r-ver.html",
+      "image": null,
+      "id": "81c581c74e95"
     },
     {
       "venue": "TNP - Théâtre National Populaire",
@@ -8685,6 +8763,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/festival-karavel-20-2/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/05/karavel_radiant-bellevue-2-500x500.jpg",
       "id": "310cfa65929e"
+    },
+    {
+      "venue": "Théâtre Théo Argence",
+      "venue_slug": "theatre-theo-argence",
+      "title": "La mouche",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-10-03",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.petit-bulletin.fr/agenda-319373-la-mouche.html",
+      "image": null,
+      "id": "8b5390e99a0d"
     },
     {
       "venue": "Bourse du Travail",
@@ -8895,6 +8986,19 @@
       "id": "41c8ef9fead0"
     },
     {
+      "venue": "Espace Albert Camus",
+      "venue_slug": "espace-albert-camus",
+      "title": "All Star Kontest",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-10-04",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.petit-bulletin.fr/agenda-315699-all-star-kontest.html",
+      "image": null,
+      "id": "bdc0340f25b3"
+    },
+    {
       "venue": "Maison de la Danse",
       "venue_slug": "maison-de-la-danse",
       "title": "Requiem(s)",
@@ -8984,6 +9088,19 @@
       "url": "https://www.bourse-du-travail.com/amine-radi-la-suivette-tournee-368696.html",
       "image": "https://www.bourse-du-travail.com/img/evenement/amine-radi--la-suivette--tournee.jpg",
       "id": "99085113a7b4"
+    },
+    {
+      "venue": "Hôtel Carlton",
+      "venue_slug": "hotel-carlton",
+      "title": "Portraits Hôtel - Jours de désirs",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-10-04",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://www.petit-bulletin.fr/agenda-319366-portraits-h-tel-jours-de-d-sirs.html",
+      "image": null,
+      "id": "606e79c1c6b8"
     },
     {
       "venue": "Improvidence",
@@ -9805,6 +9922,19 @@
       "id": "c9f1155cedc0"
     },
     {
+      "venue": "L'Echappée",
+      "venue_slug": "l-echappee",
+      "title": "Imagine que...",
+      "subtitle": null,
+      "category": "Danse",
+      "date_start": "2026-10-08",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.petit-bulletin.fr/agenda-319381-imagine-que.html",
+      "image": null,
+      "id": "d1eedb39e827"
+    },
+    {
       "venue": "Le Sonic",
       "venue_slug": "sonic",
       "title": "Pisse + Güner Künier",
@@ -10104,6 +10234,19 @@
       "id": "62e81b56482c"
     },
     {
+      "venue": "Centre culturel Charlie Chaplin",
+      "venue_slug": "centre-culturel-charlie-chaplin",
+      "title": "Roses",
+      "subtitle": null,
+      "category": "Danse",
+      "date_start": "2026-10-09",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.petit-bulletin.fr/agenda-319382-roses.html",
+      "image": null,
+      "id": "d1babbb38e4b"
+    },
+    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins",
       "title": "L’Angelo del Focolare",
@@ -10193,6 +10336,19 @@
       "url": "https://www.croix-rousse.com/au-programme/back-to-reality/",
       "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/Back-to-reality-1080x1080-1.png",
       "id": "0a739ced82a3"
+    },
+    {
+      "venue": "Théâtre de la Renaissance",
+      "venue_slug": "theatre-de-la-renaissance",
+      "title": "Cabaret Love",
+      "subtitle": null,
+      "category": "Spectacles Divers",
+      "date_start": "2026-10-09",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.petit-bulletin.fr/agenda-319376-cabaret-love.html",
+      "image": null,
+      "id": "5fa176afc070"
     },
     {
       "venue": "Espace Gerson",
@@ -10637,6 +10793,19 @@
       "id": "97773a76ce7f"
     },
     {
+      "venue": "Théâtre Théo Argence",
+      "venue_slug": "theatre-theo-argence",
+      "title": "Cher cinéma",
+      "subtitle": null,
+      "category": "Danse",
+      "date_start": "2026-10-10",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.petit-bulletin.fr/agenda-319374-cher-cin-ma.html",
+      "image": null,
+      "id": "2c8b47e2aaa2"
+    },
+    {
       "venue": "Le Toboggan",
       "venue_slug": "le-toboggan",
       "title": "Bal clandestin",
@@ -10806,6 +10975,19 @@
       "id": "f6d122bf804e"
     },
     {
+      "venue": "Théâtre François Ponsard",
+      "venue_slug": "theatre-francois-ponsard",
+      "title": "Trio Zadig",
+      "subtitle": null,
+      "category": "Classique et Lyrique",
+      "date_start": "2026-10-11",
+      "date_end": null,
+      "time": "16:00",
+      "url": "https://www.petit-bulletin.fr/agenda-319370-trio-zadig.html",
+      "image": null,
+      "id": "42dac0a3c5df"
+    },
+    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins",
       "title": "7 rue des Alouettes",
@@ -10861,7 +11043,7 @@
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
       "title": "S.society",
-      "subtitle": "Kangding Ray · & more",
+      "subtitle": "Kangding Ray · Krimska",
       "category": "club",
       "date_start": "2026-10-11",
       "date_end": null,
@@ -11209,6 +11391,19 @@
       "id": "dd9d3cdbfe4f"
     },
     {
+      "venue": "Théâtre François Ponsard",
+      "venue_slug": "theatre-francois-ponsard",
+      "title": "Monsieur Motobécane",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-10-13",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://www.petit-bulletin.fr/agenda-319371-monsieur-motob-cane.html",
+      "image": null,
+      "id": "bc56f74686a6"
+    },
+    {
       "venue": "Théâtre de la Renaissance",
       "venue_slug": "theatre-de-la-renaissance",
       "title": "Le Lac",
@@ -11285,6 +11480,19 @@
       "url": "https://www.petit-bulletin.fr/agenda-319352-2mi-de-for-t.html",
       "image": null,
       "id": "366469503770"
+    },
+    {
+      "venue": "Musée des Beaux-Arts",
+      "venue_slug": "musee-des-beaux-arts",
+      "title": "Du regard au crayon",
+      "subtitle": null,
+      "category": "rencontre",
+      "date_start": "2026-10-14",
+      "date_end": null,
+      "time": "12:30",
+      "url": "https://www.mba-lyon.fr/fr/fiche-programmation/du-regard-au-crayon",
+      "image": "https://www.mba-lyon.fr/sites/mba/files/styles/crop_900_560/public/medias/images/2026-07/nos-corps-desirants.jpg?h=bd174762&itok=u6jfYYvB",
+      "id": "7d4336142937"
     },
     {
       "venue": "Bibliothèque du 7e Gerland Hannah Arendt",
@@ -11794,6 +12002,19 @@
       "id": "cb7a27602fdc"
     },
     {
+      "venue": "Théâtre Théo Argence",
+      "venue_slug": "theatre-theo-argence",
+      "title": "Récital",
+      "subtitle": null,
+      "category": "Danse",
+      "date_start": "2026-10-15",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.petit-bulletin.fr/agenda-319375-r-cital.html",
+      "image": null,
+      "id": "036b01c323cb"
+    },
+    {
       "venue": "A Thou Bout d'Chant",
       "venue_slug": "a-thou-bout-d-chant",
       "title": "Nuit Noire + Arkange",
@@ -11935,6 +12156,32 @@
       "url": "https://www.petit-bulletin.fr/agenda-319352-2mi-de-for-t.html",
       "image": null,
       "id": "fa9bf0f81f0c"
+    },
+    {
+      "venue": "Musée des Beaux-Arts",
+      "venue_slug": "musee-des-beaux-arts",
+      "title": "Carte blanche à Dalila Belaza, chorégraphe",
+      "subtitle": null,
+      "category": "rencontre",
+      "date_start": "2026-10-16",
+      "date_end": null,
+      "time": "11:00",
+      "url": "https://www.mba-lyon.fr/fr/fiche-programmation/carte-blanche-dalila-belaza-choregraphe",
+      "image": "https://www.mba-lyon.fr/sites/mba/files/styles/crop_900_560/public/medias/images/2026-07/du-regard-au-crayon.jpg?h=bd174762&itok=SeK0_7_t",
+      "id": "7179b0159012"
+    },
+    {
+      "venue": "Musée des Beaux-Arts",
+      "venue_slug": "musee-des-beaux-arts",
+      "title": "Carte blanche à Elise Chatauret, autrice et metteuse en scène",
+      "subtitle": null,
+      "category": "rencontre",
+      "date_start": "2026-10-16",
+      "date_end": null,
+      "time": "12:30",
+      "url": "https://www.mba-lyon.fr/fr/fiche-programmation/carte-blanche-elise-chatauret-autrice-et-metteuse-en-scene",
+      "image": "https://www.mba-lyon.fr/sites/mba/files/styles/crop_900_560/public/medias/images/2026-07/du-regard-au-crayon.jpg?h=bd174762&itok=SeK0_7_t",
+      "id": "60860cfa107d"
     },
     {
       "venue": "Théâtre de la Croix-Rousse",
@@ -12158,6 +12405,19 @@
       "id": "61b8476492bf"
     },
     {
+      "venue": "Théâtre Théo Argence",
+      "venue_slug": "theatre-theo-argence",
+      "title": "Récital",
+      "subtitle": null,
+      "category": "Danse",
+      "date_start": "2026-10-16",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.petit-bulletin.fr/agenda-319375-r-cital.html",
+      "image": null,
+      "id": "544e31998518"
+    },
+    {
       "venue": "Théâtre de la Croix-Rousse",
       "venue_slug": "croix-rousse",
       "title": "Nos corps désirants",
@@ -12182,6 +12442,19 @@
       "url": "https://espacegerson.mapado.com/event/714690-thomas-angelvy-en-rodage",
       "image": "https://img.mapado.net/2026/5/5/69fa2f26c1969-angelvy.jpeg_thumbs/600-600.jpeg",
       "id": "7aac3c628b07"
+    },
+    {
+      "venue": "Théâtre François Ponsard",
+      "venue_slug": "theatre-francois-ponsard",
+      "title": "De vous à moi",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2026-10-16",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://www.petit-bulletin.fr/agenda-319372-de-vous-moi.html",
+      "image": null,
+      "id": "7a401f9f43b3"
     },
     {
       "venue": "Théâtre de la Renaissance",
@@ -12574,6 +12847,19 @@
       "id": "48f7fe02a027"
     },
     {
+      "venue": "Théâtre Théo Argence",
+      "venue_slug": "theatre-theo-argence",
+      "title": "Récital",
+      "subtitle": null,
+      "category": "Danse",
+      "date_start": "2026-10-17",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.petit-bulletin.fr/agenda-319375-r-cital.html",
+      "image": null,
+      "id": "b0a64ed0a22d"
+    },
+    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "JESSÉ",
@@ -12663,6 +12949,19 @@
       "url": "https://www.petit-bulletin.fr/agenda-319352-2mi-de-for-t.html",
       "image": null,
       "id": "a83d337e96a2"
+    },
+    {
+      "venue": "Musée des Beaux-Arts",
+      "venue_slug": "musee-des-beaux-arts",
+      "title": "Erasmuseum : les étudiants internationaux vous accueillent au musée",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-10-18",
+      "date_end": null,
+      "time": "14:00",
+      "url": "https://www.mba-lyon.fr/fr/fiche-programmation/erasmuseum-les-etudiants-internationaux-vous-accueillent-au-musee",
+      "image": null,
+      "id": "dd977f3838d4"
     },
     {
       "venue": "Friche Lamartine",
@@ -15577,6 +15876,19 @@
       "id": "c1c118698472"
     },
     {
+      "venue": "Comédie Odéon",
+      "venue_slug": "comedie-odeon",
+      "title": "À Contresens, de la Police Judiciaire à la scène",
+      "subtitle": null,
+      "category": "one-man-show",
+      "date_start": "2026-10-31",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.comedieodeon.com/spectacle/a-contresens-de-la-police-judiciaire-a-la-scene/",
+      "image": "https://www.comedieodeon.com/wp-content/uploads/2026/09/Affiche_A-contresens-scaled.jpg",
+      "id": "6e26424fe73d"
+    },
+    {
       "venue": "Le Complexe café-théâtre",
       "venue_slug": "le-complexe",
       "title": "LE COMPLEXE COMEDY CLUB - Un plateau d'humoristes !",
@@ -15952,6 +16264,19 @@
       "url": "https://radiant-bellevue.fr/spectacles/emily-loizeau-quatuor-debussy/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/06/emily-loizeau_radiant-bellevue-500x500.jpg",
       "id": "c260c0672a21"
+    },
+    {
+      "venue": "Musée des Beaux-Arts",
+      "venue_slug": "musee-des-beaux-arts",
+      "title": "Ingres par lui-même",
+      "subtitle": null,
+      "category": "rencontre",
+      "date_start": "2026-11-04",
+      "date_end": null,
+      "time": "12:30",
+      "url": "https://www.mba-lyon.fr/fr/fiche-programmation/ingres-par-lui-meme",
+      "image": "https://www.mba-lyon.fr/sites/mba/files/styles/crop_900_560/public/medias/images/2026-07/du-regard-au-crayon.jpg?h=bd174762&itok=SeK0_7_t",
+      "id": "90d418017a7d"
     },
     {
       "venue": "Le Transbordeur",
@@ -18580,19 +18905,6 @@
       "id": "7f3008ead260"
     },
     {
-      "venue": "Le Sucre",
-      "venue_slug": "le-sucre",
-      "title": "S.society",
-      "subtitle": "Mac Declos",
-      "category": null,
-      "date_start": "2026-11-15",
-      "date_end": null,
-      "time": "18:00",
-      "url": "https://le-sucre.eu/events/s-society-162/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/09/15_11-450x600.png",
-      "id": "f57cb9ae4a14"
-    },
-    {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
       "title": "BEAST IN BLACK + FROZEN CROWN + SONATA ARCTICA",
@@ -18825,6 +19137,19 @@
       "url": "https://www.bourse-du-travail.com/marine-leonardi-378481.html",
       "image": "https://www.bourse-du-travail.com/img/evenement/marine-leonardi-dans-mauvaise-graine-8.jpg",
       "id": "ad0e67ce195d"
+    },
+    {
+      "venue": "Musée des Beaux-Arts",
+      "venue_slug": "musee-des-beaux-arts",
+      "title": "Une petite découverte du dessin",
+      "subtitle": null,
+      "category": "rencontre",
+      "date_start": "2026-11-18",
+      "date_end": null,
+      "time": "12:30",
+      "url": "https://www.mba-lyon.fr/fr/fiche-programmation/une-petite-decouverte-du-dessin",
+      "image": "https://www.mba-lyon.fr/sites/mba/files/styles/crop_900_560/public/medias/images/2026-07/du-regard-au-crayon.jpg?h=bd174762&itok=SeK0_7_t",
+      "id": "815cff821464"
     },
     {
       "venue": "Théâtre de la Croix-Rousse",
@@ -19321,6 +19646,19 @@
       "id": "44e8fa130b6e"
     },
     {
+      "venue": "Musée des Beaux-Arts",
+      "venue_slug": "musee-des-beaux-arts",
+      "title": "Rendez-vous avec l'une des commissaires de l'exposition \"Musée Sentimental\"",
+      "subtitle": null,
+      "category": "rencontre",
+      "date_start": "2026-11-20",
+      "date_end": null,
+      "time": "12:30",
+      "url": "https://www.mba-lyon.fr/fr/fiche-programmation/rendez-vous-avec-lune-des-commissaires-de-lexposition-musee-sentimental",
+      "image": "https://www.mba-lyon.fr/sites/mba/files/styles/crop_900_560/public/medias/images/2026-07/du-regard-au-crayon.jpg?h=bd174762&itok=SeK0_7_t",
+      "id": "317ec53aa2bd"
+    },
+    {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
       "title": "Concert",
@@ -19332,6 +19670,19 @@
       "url": "https://le-sucre.eu/events/concert-4/",
       "image": "https://le-sucre.eu/wp-content/uploads/2026/04/insta-2-480x600.jpg",
       "id": "c54c77d30364"
+    },
+    {
+      "venue": "Musée des Beaux-Arts",
+      "venue_slug": "musee-des-beaux-arts",
+      "title": "Nocturne à la lampe de poche",
+      "subtitle": null,
+      "category": "exposition",
+      "date_start": "2026-11-20",
+      "date_end": null,
+      "time": "18:45",
+      "url": "https://www.mba-lyon.fr/fr/fiche-programmation/nocturne-la-lampe-de-poche",
+      "image": "https://www.mba-lyon.fr/sites/mba/files/styles/crop_900_560/public/medias/images/2025-02/barocbal.jpg?h=33503f50&itok=ePI_Dp0K",
+      "id": "966f8486b107"
     },
     {
       "venue": "Comédie Odéon",
@@ -19657,6 +20008,19 @@
       "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/recital/giorgi-gigashvili",
       "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Gigashvili-2_c_Kelly-de-Geer-%28Classeek%29_1920.jpg?h=c9545c82&itok=05uafEn3",
       "id": "0e501a7a49b8"
+    },
+    {
+      "venue": "Musée des Beaux-Arts",
+      "venue_slug": "musee-des-beaux-arts",
+      "title": "Le musée fait son cinéma : Petites pépites et grands trésors",
+      "subtitle": null,
+      "category": "cinéma",
+      "date_start": "2026-11-21",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.mba-lyon.fr/fr/fiche-programmation/le-musee-fait-son-cinema-petites-pepites-et-grands-tresors",
+      "image": "https://www.mba-lyon.fr/sites/mba/files/styles/crop_900_560/public/medias/images/2026-06/mur_breton_0.jpg?itok=Olabft-E",
+      "id": "626a23aee86a"
     },
     {
       "venue": "Improvidence",
@@ -21115,6 +21479,19 @@
       "id": "1761154d41d5"
     },
     {
+      "venue": "Musée des Beaux-Arts",
+      "venue_slug": "musee-des-beaux-arts",
+      "title": "Le Musée Recopié",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-11-28",
+      "date_end": null,
+      "time": "12:30",
+      "url": "https://www.mba-lyon.fr/fr/fiche-programmation/le-musee-recopie",
+      "image": "https://www.mba-lyon.fr/sites/mba/files/styles/crop_900_560/public/medias/images/2026-06/mur_breton_0.jpg?itok=Olabft-E",
+      "id": "38db8490894e"
+    },
+    {
       "venue": "Théâtre de la Croix-Rousse",
       "venue_slug": "croix-rousse",
       "title": "Atelier bruitage adulte-enfant",
@@ -21518,6 +21895,19 @@
       "id": "76fb88442dac"
     },
     {
+      "venue": "Musée des Beaux-Arts",
+      "venue_slug": "musee-des-beaux-arts",
+      "title": "Le Musée Recopié",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-11-29",
+      "date_end": null,
+      "time": "12:30",
+      "url": "https://www.mba-lyon.fr/fr/fiche-programmation/le-musee-recopie",
+      "image": "https://www.mba-lyon.fr/sites/mba/files/styles/crop_900_560/public/medias/images/2026-06/mur_breton_0.jpg?itok=Olabft-E",
+      "id": "ce7827f705a0"
+    },
+    {
       "venue": "Maison de la Danse",
       "venue_slug": "maison-de-la-danse",
       "title": "Slava’s Snowshow",
@@ -21828,6 +22218,19 @@
       "url": "https://www.bourse-du-travail.com/marine-leonardi-338745.html",
       "image": "https://www.bourse-du-travail.com/img/evenement/marine-leonardi--6.jpg",
       "id": "addf6a8c474c"
+    },
+    {
+      "venue": "Musée des Beaux-Arts",
+      "venue_slug": "musee-des-beaux-arts",
+      "title": "Breton fait l'mur !",
+      "subtitle": null,
+      "category": "rencontre",
+      "date_start": "2026-12-02",
+      "date_end": null,
+      "time": "12:30",
+      "url": "https://www.mba-lyon.fr/fr/fiche-programmation/breton-fait-lmur",
+      "image": "https://www.mba-lyon.fr/sites/mba/files/styles/crop_900_560/public/medias/images/2026-07/du-regard-au-crayon.jpg?h=bd174762&itok=SeK0_7_t",
+      "id": "19d91caa0fc8"
     },
     {
       "venue": "Maison de la Danse",
@@ -22337,6 +22740,32 @@
       "id": "6ef8c4a4cb5e"
     },
     {
+      "venue": "Musée des Beaux-Arts",
+      "venue_slug": "musee-des-beaux-arts",
+      "title": "Art et sciences : Volcans et terres lyonnaises",
+      "subtitle": null,
+      "category": "conférence",
+      "date_start": "2026-12-04",
+      "date_end": null,
+      "time": "12:30",
+      "url": "https://www.mba-lyon.fr/fr/fiche-programmation/art-et-sciences-volcans-et-terres-lyonnaises",
+      "image": null,
+      "id": "901f11738a4b"
+    },
+    {
+      "venue": "Musée des Beaux-Arts",
+      "venue_slug": "musee-des-beaux-arts",
+      "title": "Art et sciences : Volcans et terres lyonnaises",
+      "subtitle": null,
+      "category": "conférence",
+      "date_start": "2026-12-04",
+      "date_end": null,
+      "time": "14:30",
+      "url": "https://www.mba-lyon.fr/fr/fiche-programmation/art-et-sciences-volcans-et-terres-lyonnaises",
+      "image": null,
+      "id": "03d3a3d23925"
+    },
+    {
       "venue": "Théâtre de la Croix-Rousse",
       "venue_slug": "croix-rousse",
       "title": "Visite tactile des décors et des costumes",
@@ -22582,6 +23011,19 @@
       "url": "https://www.tng-lyon.fr/evenement/grandeur-nature/",
       "image": "https://www.tng-lyon.fr/wp-content/uploads/2026/06/460x460_GRANDEUR-NATURE-1.png",
       "id": "3177a07f7775"
+    },
+    {
+      "venue": "Musée des Beaux-Arts",
+      "venue_slug": "musee-des-beaux-arts",
+      "title": "Week-end accessibilité",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-12-05",
+      "date_end": null,
+      "time": "10:00",
+      "url": "https://www.mba-lyon.fr/fr/fiche-programmation/week-end-accessibilite",
+      "image": "https://www.mba-lyon.fr/sites/mba/files/styles/crop_900_560/public/medias/images/2026-06/mur_breton_0.jpg?itok=Olabft-E",
+      "id": "b50b1c4763ab"
     },
     {
       "venue": "Théâtre de la Croix-Rousse",
@@ -22933,6 +23375,19 @@
       "url": "https://www.lecomplexelyon.com/programme/le-complexe-comedy-club-4-humoristes/",
       "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/complexe-comedy-club-540x800.jpg",
       "id": "99ed66dfabe9"
+    },
+    {
+      "venue": "Musée des Beaux-Arts",
+      "venue_slug": "musee-des-beaux-arts",
+      "title": "Week-end accessibilité",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-12-06",
+      "date_end": null,
+      "time": "10:00",
+      "url": "https://www.mba-lyon.fr/fr/fiche-programmation/week-end-accessibilite",
+      "image": "https://www.mba-lyon.fr/sites/mba/files/styles/crop_900_560/public/medias/images/2026-06/mur_breton_0.jpg?itok=Olabft-E",
+      "id": "dcee446bafa2"
     },
     {
       "venue": "Maison de la Danse",
@@ -23819,6 +24274,32 @@
       "id": "0de6cb52de6b"
     },
     {
+      "venue": "Musée des Beaux-Arts",
+      "venue_slug": "musee-des-beaux-arts",
+      "title": "Festin ! Un week-end pour tous les goûts…",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-12-12",
+      "date_end": null,
+      "time": "12:30",
+      "url": "https://www.mba-lyon.fr/fr/fiche-programmation/festin-un-week-end-pour-tous-les-gouts",
+      "image": "https://www.mba-lyon.fr/sites/mba/files/styles/crop_900_560/public/medias/images/2026-06/mur_breton_0.jpg?itok=Olabft-E",
+      "id": "a6e13a665dee"
+    },
+    {
+      "venue": "Musée des Beaux-Arts",
+      "venue_slug": "musee-des-beaux-arts",
+      "title": "Le musée fait son cinéma : À table !",
+      "subtitle": null,
+      "category": "cinéma",
+      "date_start": "2026-12-12",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.mba-lyon.fr/fr/fiche-programmation/le-musee-fait-son-cinema-table",
+      "image": "https://www.mba-lyon.fr/sites/mba/files/styles/crop_900_560/public/medias/images/2026-06/mur_breton_0.jpg?itok=Olabft-E",
+      "id": "27db520c4969"
+    },
+    {
       "venue": "Les Subsistances",
       "venue_slug": "les-subs",
       "title": "Ateliers d'hiver",
@@ -24131,6 +24612,19 @@
       "id": "8ffe8cabf3cd"
     },
     {
+      "venue": "Musée des Beaux-Arts",
+      "venue_slug": "musee-des-beaux-arts",
+      "title": "Festin ! Un week-end pour tous les goûts…",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2026-12-13",
+      "date_end": null,
+      "time": "12:30",
+      "url": "https://www.mba-lyon.fr/fr/fiche-programmation/festin-un-week-end-pour-tous-les-gouts",
+      "image": "https://www.mba-lyon.fr/sites/mba/files/styles/crop_900_560/public/medias/images/2026-06/mur_breton_0.jpg?itok=Olabft-E",
+      "id": "f9511fb8afd0"
+    },
+    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins",
       "title": "Le Dindon",
@@ -24389,6 +24883,19 @@
       "url": "https://improvidence.mapado.com/event/154968-la-releve",
       "image": "https://img.mapado.net/2022/10/24/635646c2a2c98-1.jpeg_thumbs/600-600.jpeg",
       "id": "9c646fbd9af7"
+    },
+    {
+      "venue": "Musée des Beaux-Arts",
+      "venue_slug": "musee-des-beaux-arts",
+      "title": "Breton fait l'mur !",
+      "subtitle": null,
+      "category": "rencontre",
+      "date_start": "2026-12-16",
+      "date_end": null,
+      "time": "12:30",
+      "url": "https://www.mba-lyon.fr/fr/fiche-programmation/breton-fait-lmur",
+      "image": "https://www.mba-lyon.fr/sites/mba/files/styles/crop_900_560/public/medias/images/2026-07/du-regard-au-crayon.jpg?h=bd174762&itok=SeK0_7_t",
+      "id": "41bfef3d53b7"
     },
     {
       "venue": "Comédie Odéon",
@@ -25286,19 +25793,6 @@
       "url": "https://agendarts.wordpress.com/2026/06/18/sapperlot-ou-lorigine-de-mes-nevroses-anne-fromm/",
       "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/sapperlot-affichealt2026-1.jpg?w=724",
       "id": "1cee9843ce5f"
-    },
-    {
-      "venue": "Le Sucre",
-      "venue_slug": "le-sucre",
-      "title": "S.society",
-      "subtitle": "Patrick Mason · Vel",
-      "category": "club",
-      "date_start": "2026-12-20",
-      "date_end": null,
-      "time": "18:00",
-      "url": "https://le-sucre.eu/events/s-society-163/",
-      "image": "https://le-sucre.eu/wp-content/uploads/2026/09/20_12-vel--450x600.png",
-      "id": "ee33a46a7389"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -26614,6 +27108,19 @@
       "id": "442bd872e615"
     },
     {
+      "venue": "Musée des Beaux-Arts",
+      "venue_slug": "musee-des-beaux-arts",
+      "title": "Une icône moderne : le portrait de la princesse Cantacuzène par Pierre Puvis de Chavannes",
+      "subtitle": null,
+      "category": "rencontre",
+      "date_start": "2027-01-06",
+      "date_end": null,
+      "time": "12:30",
+      "url": "https://www.mba-lyon.fr/fr/fiche-programmation/une-icone-moderne-le-portrait-de-la-princesse-cantacuzene-par-pierre-puvis-de",
+      "image": "https://www.mba-lyon.fr/sites/mba/files/styles/crop_900_560/public/medias/images/2026-07/du-regard-au-crayon.jpg?h=bd174762&itok=SeK0_7_t",
+      "id": "32acea74925e"
+    },
+    {
       "venue": "La Machinerie - Théâtre de Vénissieux",
       "venue_slug": "la-machinerie-theatre-de-venissieux",
       "title": "WoooOOOoool - Cie bob Théâtre, Denis Athimon",
@@ -26729,6 +27236,19 @@
       "url": "https://www.bourse-du-travail.com/jonathan-dassin-chante-joe-dassin-316708.html",
       "image": "https://www.bourse-du-travail.com/img/evenement/jonathan-dassin-chante-joe-dassin-3.jpg",
       "id": "00cabaf9a371"
+    },
+    {
+      "venue": "Musée des Beaux-Arts",
+      "venue_slug": "musee-des-beaux-arts",
+      "title": "Colloque : La Révolution de la couleur, de Delacroix aux frères Lumière",
+      "subtitle": null,
+      "category": "conférence",
+      "date_start": "2027-01-07",
+      "date_end": null,
+      "time": "10:00",
+      "url": "https://www.mba-lyon.fr/fr/fiche-programmation/colloque-la-revolution-de-la-couleur-de-delacroix-aux-freres-lumiere",
+      "image": "https://www.mba-lyon.fr/sites/mba/files/styles/crop_900_560/public/medias/images/2026-06/mur_breton_0.jpg?itok=Olabft-E",
+      "id": "843030582c85"
     },
     {
       "venue": "Auditorium de Lyon",
@@ -26859,6 +27379,19 @@
       "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/famille/petite-taupe",
       "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/1920_La-Petite-Taupe-et-l%27Etoile-Verte.jpg?h=3d200a90&itok=Akt-H5HS",
       "id": "575fbcee8ea8"
+    },
+    {
+      "venue": "Musée des Beaux-Arts",
+      "venue_slug": "musee-des-beaux-arts",
+      "title": "Nocturne : Le bal du musée",
+      "subtitle": null,
+      "category": "exposition",
+      "date_start": "2027-01-08",
+      "date_end": null,
+      "time": "18:45",
+      "url": "https://www.mba-lyon.fr/fr/fiche-programmation/nocturne-le-bal-du-musee",
+      "image": "https://www.mba-lyon.fr/sites/mba/files/styles/crop_900_560/public/medias/images/2023-10/nocturnes_lampes_de_poche.jpg?h=a1e8ecc1&itok=TlgEk92B",
+      "id": "44ea622d920a"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -27875,6 +28408,19 @@
       "id": "91d9dd9e0953"
     },
     {
+      "venue": "Musée des Beaux-Arts",
+      "venue_slug": "musee-des-beaux-arts",
+      "title": "Le musée fait son cinéma : Amour(s)",
+      "subtitle": null,
+      "category": "cinéma",
+      "date_start": "2027-01-16",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.mba-lyon.fr/fr/fiche-programmation/le-musee-fait-son-cinema-amours",
+      "image": "https://www.mba-lyon.fr/sites/mba/files/styles/crop_900_560/public/medias/images/2026-06/mur_breton_0.jpg?itok=Olabft-E",
+      "id": "201c7ee1f71e"
+    },
+    {
       "venue": "Improvidence",
       "venue_slug": "improvidence",
       "title": "Détours",
@@ -28213,6 +28759,19 @@
       "id": "cb5538767567"
     },
     {
+      "venue": "Musée des Beaux-Arts",
+      "venue_slug": "musee-des-beaux-arts",
+      "title": "L’artiste furieux ! L’Autoportrait nu de Jean-Baptiste Frénet",
+      "subtitle": null,
+      "category": "rencontre",
+      "date_start": "2027-01-20",
+      "date_end": null,
+      "time": "12:30",
+      "url": "https://www.mba-lyon.fr/fr/fiche-programmation/lartiste-furieux-lautoportrait-nu-de-jean-baptiste-frenet",
+      "image": "https://www.mba-lyon.fr/sites/mba/files/styles/crop_900_560/public/medias/images/2026-07/du-regard-au-crayon.jpg?h=bd174762&itok=SeK0_7_t",
+      "id": "3cfa19333962"
+    },
+    {
       "venue": "La Rayonne",
       "venue_slug": "la-rayonne",
       "title": "ORDEN OGAN",
@@ -28549,6 +29108,19 @@
       "url": "https://improvidence.mapado.com/event/336906-ca-handi-long",
       "image": "https://img.mapado.net/2024/4/17/661f9a994c96d-affiche-vignette-cahandilong.jpeg_thumbs/600-600.jpeg",
       "id": "c88bad7cefdc"
+    },
+    {
+      "venue": "Musée des Beaux-Arts",
+      "venue_slug": "musee-des-beaux-arts",
+      "title": "Rendez-vous avec une designeuse circulaire",
+      "subtitle": null,
+      "category": "rencontre",
+      "date_start": "2027-01-22",
+      "date_end": null,
+      "time": "12:30",
+      "url": "https://www.mba-lyon.fr/fr/fiche-programmation/rendez-vous-avec-une-designeuse-circulaire",
+      "image": "https://www.mba-lyon.fr/sites/mba/files/styles/crop_900_560/public/medias/images/2026-07/du-regard-au-crayon.jpg?h=bd174762&itok=SeK0_7_t",
+      "id": "8d291b781799"
     },
     {
       "venue": "TNP - Théâtre National Populaire",
@@ -29721,6 +30293,19 @@
       "id": "ff722100678f"
     },
     {
+      "venue": "Musée des Beaux-Arts",
+      "venue_slug": "musee-des-beaux-arts",
+      "title": "Week-end chanté",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2027-01-30",
+      "date_end": null,
+      "time": "10:00",
+      "url": "https://www.mba-lyon.fr/fr/fiche-programmation/week-end-chante",
+      "image": "https://www.mba-lyon.fr/sites/mba/files/styles/crop_900_560/public/medias/images/2026-06/mur_breton_0.jpg?itok=Olabft-E",
+      "id": "725af8b0d03d"
+    },
+    {
       "venue": "La Halle Tony Garnier",
       "venue_slug": "halle-tony-garnier",
       "title": "Disney Sur Glace - Le Voyage Enchante",
@@ -29916,6 +30501,19 @@
       "id": "e0b9a5b957ba"
     },
     {
+      "venue": "Musée des Beaux-Arts",
+      "venue_slug": "musee-des-beaux-arts",
+      "title": "Week-end chanté",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2027-01-31",
+      "date_end": null,
+      "time": "10:00",
+      "url": "https://www.mba-lyon.fr/fr/fiche-programmation/week-end-chante",
+      "image": "https://www.mba-lyon.fr/sites/mba/files/styles/crop_900_560/public/medias/images/2026-06/mur_breton_0.jpg?itok=Olabft-E",
+      "id": "7932eca0e0b2"
+    },
+    {
       "venue": "La Halle Tony Garnier",
       "venue_slug": "halle-tony-garnier",
       "title": "Disney Sur Glace - Le Voyage Enchante",
@@ -30109,6 +30707,19 @@
       "url": "https://www.bourse-du-travail.com/pierre-emmanuel-barre-aymeric-lompret-une-heure-trente-tournee-382074.html",
       "image": "https://www.bourse-du-travail.com/img/evenement/pierre-emmanuel-barre-and-aymeric-lompret--une-heure-trente---tournee.jpg",
       "id": "1fb09ea46654"
+    },
+    {
+      "venue": "Musée des Beaux-Arts",
+      "venue_slug": "musee-des-beaux-arts",
+      "title": "Passé composé : autour du musée des monuments français d’Alexandre Lenoir",
+      "subtitle": null,
+      "category": "rencontre",
+      "date_start": "2027-02-03",
+      "date_end": null,
+      "time": "12:30",
+      "url": "https://www.mba-lyon.fr/fr/fiche-programmation/passe-compose-autour-du-musee-des-monuments-francais-dalexandre-lenoir",
+      "image": "https://www.mba-lyon.fr/sites/mba/files/styles/crop_900_560/public/medias/images/2026-07/du-regard-au-crayon.jpg?h=bd174762&itok=SeK0_7_t",
+      "id": "c3a2812c6827"
     },
     {
       "venue": "Radiant-Bellevue",
@@ -30590,6 +31201,19 @@
       "url": "https://www.tng-lyon.fr/evenement/visite-tactile-dautres-familles-que-la-mienne/",
       "image": "https://www.tng-lyon.fr/wp-content/uploads/2026/06/DAUTRESFAMILLES_Visite-tactile_Ateliers_460x460.png",
       "id": "d09cc41aed41"
+    },
+    {
+      "venue": "Musée des Beaux-Arts",
+      "venue_slug": "musee-des-beaux-arts",
+      "title": "Journée des collectionneurs",
+      "subtitle": null,
+      "category": null,
+      "date_start": "2027-02-06",
+      "date_end": null,
+      "time": "14:00",
+      "url": "https://www.mba-lyon.fr/fr/fiche-programmation/journee-des-collectionneurs",
+      "image": "https://www.mba-lyon.fr/sites/mba/files/styles/crop_900_560/public/medias/images/2026-06/mur_breton_0.jpg?itok=Olabft-E",
+      "id": "8484ab57557c"
     },
     {
       "venue": "La Halle Tony Garnier",
@@ -31474,6 +32098,19 @@
       "url": "https://www.lecomplexelyon.com/programme/le-complexe-comedy-club-4-humoristes/",
       "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/complexe-comedy-club-540x800.jpg",
       "id": "75c4e7bdb73a"
+    },
+    {
+      "venue": "Musée des Beaux-Arts",
+      "venue_slug": "musee-des-beaux-arts",
+      "title": "Carte blanche à Jean-François Sivadier",
+      "subtitle": null,
+      "category": "rencontre",
+      "date_start": "2027-02-13",
+      "date_end": null,
+      "time": "11:00",
+      "url": "https://www.mba-lyon.fr/fr/fiche-programmation/carte-blanche-jean-francois-sivadier",
+      "image": "https://www.mba-lyon.fr/sites/mba/files/styles/crop_900_560/public/medias/images/2026-07/du-regard-au-crayon.jpg?h=bd174762&itok=SeK0_7_t",
+      "id": "c755f0edb5c8"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -32854,6 +33491,19 @@
       "id": "b87b3d63ea2c"
     },
     {
+      "venue": "Musée des Beaux-Arts",
+      "venue_slug": "musee-des-beaux-arts",
+      "title": "Une petite Histoire du musée, l’abbaye des Dames de Saint Pierre",
+      "subtitle": null,
+      "category": "rencontre",
+      "date_start": "2027-03-03",
+      "date_end": null,
+      "time": "12:30",
+      "url": "https://www.mba-lyon.fr/fr/fiche-programmation/une-petite-histoire-du-musee-labbaye-des-dames-de-saint-pierre",
+      "image": "https://www.mba-lyon.fr/sites/mba/files/styles/crop_900_560/public/medias/images/2026-07/du-regard-au-crayon.jpg?h=bd174762&itok=SeK0_7_t",
+      "id": "6af4f0372ba1"
+    },
+    {
       "venue": "La Machinerie - Bizarre !",
       "venue_slug": "la-machinerie-bizarre",
       "title": "Boum Kids",
@@ -33153,6 +33803,19 @@
       "id": "41e32c7b5434"
     },
     {
+      "venue": "Musée des Beaux-Arts",
+      "venue_slug": "musee-des-beaux-arts",
+      "title": "Regards croisés : quand le pinceau et le pistil se rencontrent...",
+      "subtitle": null,
+      "category": "rencontre",
+      "date_start": "2027-03-05",
+      "date_end": null,
+      "time": "12:30",
+      "url": "https://www.mba-lyon.fr/fr/fiche-programmation/regards-croises-quand-le-pinceau-et-le-pistil-se-rencontrent",
+      "image": "https://www.mba-lyon.fr/sites/mba/files/styles/crop_900_560/public/medias/images/2026-07/du-regard-au-crayon.jpg?h=bd174762&itok=SeK0_7_t",
+      "id": "52956214964c"
+    },
+    {
       "venue": "Auditorium de Lyon",
       "venue_slug": "auditorium-lyon",
       "title": "Rachmaninov / Sibelius",
@@ -33294,6 +33957,19 @@
       "url": "https://www.croix-rousse.com/au-programme/atelier-decriture-avec-logan-de-carvalho/",
       "image": "https://www.croix-rousse.com/wp-content/uploads/2026/06/Logan-De-Carvalho-1080x1080-1.png",
       "id": "b5f4e0794ba9"
+    },
+    {
+      "venue": "Musée des Beaux-Arts",
+      "venue_slug": "musee-des-beaux-arts",
+      "title": "Le musée fait son cinéma : Femmes en fleurs",
+      "subtitle": null,
+      "category": "cinéma",
+      "date_start": "2027-03-06",
+      "date_end": null,
+      "time": "15:00",
+      "url": "https://www.mba-lyon.fr/fr/fiche-programmation/le-musee-fait-son-cinema-femmes-en-fleurs",
+      "image": "https://www.mba-lyon.fr/sites/mba/files/styles/crop_900_560/public/medias/images/2026-06/mur_breton_0.jpg?itok=Olabft-E",
+      "id": "812d11ae2a6d"
     },
     {
       "venue": "Théâtre de la Croix-Rousse",
@@ -33710,6 +34386,19 @@
       "url": "https://www.bourse-du-travail.com/barbara-par-pietragalla-tournee-378564.html",
       "image": "https://www.bourse-du-travail.com/img/evenement/barbara-par-pietragalla--tournee-39.jpg",
       "id": "c749a53cf099"
+    },
+    {
+      "venue": "La Machinerie - Théâtre de Vénissieux",
+      "venue_slug": "la-machinerie-theatre-de-venissieux",
+      "title": "Bâtir",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2027-03-16",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.petit-bulletin.fr/agenda-319193-b-tir.html",
+      "image": "https://agenda.villemorte.fr/media/thumb/035711c5c5183fa89bf559991fc7e78c.jpg",
+      "id": "98472b8d7eab"
     },
     {
       "venue": "La Machinerie - Théâtre de Vénissieux",
@@ -34713,19 +35402,6 @@
       "id": "add17a039a06"
     },
     {
-      "venue": "Théâtre Théo Argence",
-      "venue_slug": "theatre-theo-argence",
-      "title": "Il ne m'est jamais rien arrivé",
-      "subtitle": null,
-      "category": "Théâtre",
-      "date_start": "2027-05-29",
-      "date_end": null,
-      "time": "20:00",
-      "url": "https://www.petit-bulletin.fr/agenda-314279-il-ne-m-est-jamais-rien-arriv.html",
-      "image": null,
-      "id": "d9c03ebdef5d"
-    },
-    {
       "venue": "Bourse du Travail",
       "venue_slug": "bourse-du-travail",
       "title": "Edgar-Yves Jr.",
@@ -34815,19 +35491,6 @@
       "url": "https://www.bourse-du-travail.com/sofia-belabbes-376106.html",
       "image": "https://www.bourse-du-travail.com/img/evenement/sofia-belabbes-5.jpg",
       "id": "9f9897666f7c"
-    },
-    {
-      "venue": "Espace Gerson",
-      "venue_slug": "espace-gerson",
-      "title": "L'impro FFF",
-      "subtitle": null,
-      "category": "Impro",
-      "date_start": "2027-06-29",
-      "date_end": null,
-      "time": "20:30",
-      "url": "https://www.petit-bulletin.fr/agenda-319345-l-impro-fff.html",
-      "image": null,
-      "id": "051e9b6215bf"
     },
     {
       "venue": "Improvidence",
