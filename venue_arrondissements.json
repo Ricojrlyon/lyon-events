@@ -1,4 +1,10 @@
 {
+  "Allegro": {
+    "arr": "2e",
+    "checked_at": "2026-09-09",
+    "confidence": "high",
+    "seen_at": "2026-09-09"
+  },
   "Alliance Française de Lyon (Lyon 3e) ·  Salle des Rancy (Lyon 3e) ·  Le Marché Gare (Lyon 2e)": {
     "arr": null,
     "checked_at": "2026-09-01",
@@ -34,6 +40,12 @@
     "checked_at": "2026-09-01",
     "confidence": "high",
     "seen_at": "2026-09-08"
+  },
+  "Atrium de l\\'hôtel de ville": {
+    "arr": null,
+    "checked_at": "2026-09-09",
+    "confidence": "failed",
+    "seen_at": "2026-09-09"
   },
   "Au Rikiki": {
     "arr": "1er",
@@ -241,6 +253,13 @@
     "arr": "Autre",
     "checked_at": "2026-09-09",
     "commune": "Craponne",
+    "confidence": "low",
+    "seen_at": "2026-09-09"
+  },
+  "Espace Jean Poperen": {
+    "arr": "Autre",
+    "checked_at": "2026-09-09",
+    "commune": "Meyzieu",
     "confidence": "low",
     "seen_at": "2026-09-09"
   },
@@ -485,6 +504,12 @@
     "confidence": "failed",
     "seen_at": "2026-09-08"
   },
+  "Le Croiseur": {
+    "arr": "7e",
+    "checked_at": "2026-09-09",
+    "confidence": "high",
+    "seen_at": "2026-09-09"
+  },
   "Le Faitout": {
     "arr": "Autre",
     "checked_at": "2026-09-01",
@@ -590,6 +615,13 @@
     "confidence": "failed",
     "seen_at": "2026-07-28"
   },
+  "Lycée François Cevert": {
+    "arr": "Autre",
+    "checked_at": "2026-09-09",
+    "commune": "Écully",
+    "confidence": "low",
+    "seen_at": "2026-09-09"
+  },
   "Lyon": {
     "arr": null,
     "confidence": "skip",
@@ -606,6 +638,18 @@
     "checked_at": "2026-08-12",
     "confidence": "failed",
     "seen_at": "2026-09-08"
+  },
+  "MJC Duchère": {
+    "arr": null,
+    "checked_at": "2026-09-09",
+    "confidence": "failed",
+    "seen_at": "2026-09-09"
+  },
+  "MJC Laënnec-Mermoz- Salle Genton": {
+    "arr": null,
+    "checked_at": "2026-09-09",
+    "confidence": "failed",
+    "seen_at": "2026-09-09"
   },
   "MJC Louis Aragon / Jack Jack": {
     "arr": null,
@@ -849,6 +893,12 @@
     "confidence": "high",
     "seen_at": "2026-09-08"
   },
+  "Théâtre Astrée": {
+    "arr": "Villeurbanne",
+    "checked_at": "2026-09-09",
+    "confidence": "high",
+    "seen_at": "2026-09-09"
+  },
   "Théâtre Cinéma Jean Carmet": {
     "arr": null,
     "checked_at": "2026-09-09",
@@ -955,10 +1005,23 @@
     "confidence": "failed",
     "seen_at": "2026-09-08"
   },
+  "UCLy": {
+    "arr": "2e",
+    "checked_at": "2026-09-09",
+    "confidence": "high",
+    "seen_at": "2026-09-09"
+  },
   "URDLA": {
     "arr": "Villeurbanne",
     "checked_at": "2026-08-12",
     "confidence": "high",
+    "seen_at": "2026-09-09"
+  },
+  "Université Lumière Lyon 2 - Bron": {
+    "arr": "Autre",
+    "checked_at": "2026-09-09",
+    "commune": "Bron",
+    "confidence": "low",
     "seen_at": "2026-09-09"
   },
   "médiathèque de Meyzieu": {

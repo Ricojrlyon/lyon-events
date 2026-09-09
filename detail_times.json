@@ -211,6 +211,23 @@
     "fetched_at": "2026-08-12",
     "time": "18:00"
   },
+  "https://i-ac.eu/fr/RDV-satellites_2026/583_vernissage-jeune-creation-internationale-18e-biennale-de-lyon": {
+    "fetched_at": "2026-09-09",
+    "heure": "19:00",
+    "image": "https://i-ac.eu/img/thumbs_cache/400x300_bac26_jci_vernissage_1080x1080px.jpg",
+    "relaches": []
+  },
+  "https://i-ac.eu/fr/RDV-satellites_2026/584_visites-du-week-end": {
+    "fetched_at": "2026-09-09",
+    "heure": "16:00",
+    "image": "https://i-ac.eu/img/thumbs_cache/400x300_img_9772.jpg",
+    "relaches": [
+      "10-04",
+      "10-11",
+      "11-21",
+      "11-22"
+    ]
+  },
   "https://le-sucre.eu/events/1-year-of-silk/": {
     "fetched_at": "2026-08-12",
     "time": "23:00"
@@ -516,6 +533,10 @@
     "time": null
   },
   "https://le-sucre.eu/events/s-society-166/": {
+    "fetched_at": "2026-09-09",
+    "time": "18:00"
+  },
+  "https://le-sucre.eu/events/s-society-167/": {
     "fetched_at": "2026-09-09",
     "time": "18:00"
   },
