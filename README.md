@@ -8,7 +8,7 @@ et affichés sur une page statique hébergée par GitHub Pages :
 ## Fonctionnement
 
 ```
-27 scrapers venue ──┐
+28 scrapers venue ──┐
                     ├─→ dédup 3 passes ─→ events.json ─→ index.html (GitHub Pages)
 2 agrégateurs ──────┘         │
 (Petit Bulletin,              ├─→ venue_arrondissements.json (géocodage Nominatim)
@@ -102,6 +102,22 @@ les trois fichiers de données.
   d'ARTISTES, ce sont les termes `event_type` qui portent les genres.
   Un lien de billetterie par séance permet de distinguer « 14h30 19h30 »
   — deux séances — de « 17h > 17h50 », une seule avec son heure de fin.
+- **`scrapers/iac.py`** — l'IAC de Villeurbanne. Site artisanal de 2013
+  (jQuery 1.8.2), mais dont les dates sont balisées en microdonnées, ce
+  qui sauve tout : la prose, elle, est un piège — la fiche du vernissage
+  annonce « jeudi 17 septembre 2024 » alors qu'elle est classée en 2026,
+  où le 17 septembre est bien un jeudi. On part donc de l'EXPOSITION, qui
+  porte à la fois sa période et la liste de ses rendez-vous satellites,
+  chacun avec son `<time datetime>`. Une requête donne l'exposition et
+  toute sa programmation. L'attribut `itemprop` dit la forme de la date
+  et il faut le lire : `startDate endDate` sur un seul `<time>` est une
+  date unique, deux `<time>` distincts un intervalle — qui n'est PAS une
+  série continue, « Visites en famille » allant du 11 octobre au 22
+  novembre pour deux dimanches seulement. On garde tout sauf les visites,
+  et parmi elles celles du week-end seulement, dont le rythme est dans le
+  nom ; leurs relâches sont lues dans la fiche (« Pas de visite les
+  dimanches 4 et 11 octobre »). Tout est in situ par construction : les
+  expositions ex situ et les galeries nomades se tiennent ailleurs.
 - **`scrapers/maison_de_la_danse.py`** — la Maison de la Danse, seul
   site du dépôt à demander un `Crawl-delay` (10 s). Il est respecté, et
   c'est ce qui rend `detail_cache` indispensable : le délai est posé DANS

@@ -126,6 +126,15 @@ VENUE_CANONICAL: dict[str, list[str]] = {
     "Musée des Beaux-Arts":   ["musee des beaux arts", "musee des beaux-arts",
                                "musee des beaux arts de lyon", "mba lyon",
                                "musee beaux arts"],
+    # Le Petit Bulletin publie ce lieu sous deux noms — « IAC
+    # Villeurbanne » et « Institut d'Art Contemporain », ce dernier avec
+    # une apostrophe échappée restée dans la donnée. Sans cette entrée,
+    # le dédoublonnage y voyait deux salles, et le regroupement par jour
+    # ne se faisait pas. La normalisation écrase la ponctuation, si bien
+    # qu'un seul alias couvre les deux graphies.
+    "IAC Villeurbanne":       ["iac villeurbanne", "iac frac rhone alpes",
+                               "institut d art contemporain",
+                               "institut d art contemporain villeurbanne"],
     "Big White":              ["big white"],
     # Added in v34.3: Bar Rock'n Eat (PB) === Rock'n Eat (Ville Morte)
     "Bar Rock'n Eat":         ["bar rock n eat", "rock n eat", "rocknreat",

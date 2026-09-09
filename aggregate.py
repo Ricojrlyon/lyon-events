@@ -47,7 +47,7 @@ from scrapers import (
     opera_lyon, tng,
     bourse_du_travail, improvidence, espace_gerson, complexe,
     celestins, tnp, maison_de_la_danse, croix_rousse, comedie_odeon,
-    agendarts, auditorium, confluences, beaux_arts,
+    agendarts, auditorium, confluences, beaux_arts, iac,
 )
 from scrapers.aggregators import villemorte, petit_bulletin
 from scrapers.categorie import combler as combler_categories
@@ -85,7 +85,15 @@ SCRAPERS: list[tuple[str, Callable[[], List[Event]]]] = [
     ("Auditorium de Lyon",      auditorium.fetch),
     ("Musée des Confluences",   confluences.fetch),
     ("Musée des Beaux-Arts",    beaux_arts.fetch),
+    ("IAC Villeurbanne",        iac.fetch),
 ]
+
+# Exclusions qu'un scraper de salle décide et que les agrégateurs doivent
+# respecter sur son lieu (cf. étape 2.4b). La règle appartient au scraper,
+# qui la documente ; cette table ne fait que la désigner.
+FILTRES_DE_SALLE: dict[str, Callable[[str], bool]] = {
+    "IAC Villeurbanne": iac.exclu,
+}
 
 # Aggregators — priority lower than venue scrapers (lose against them on
 # duplicates). Among themselves, higher priority wins.
@@ -203,6 +211,27 @@ def main() -> int:
     if dropped_ranges:
         print(f"[plages] {dropped_ranges} plage(s) d'agrégateur écartée(s) "
               f"sur un lieu scrappé en direct")
+
+    # 2.4b) Appliquer aux agrégateurs les exclusions qu'un scraper de
+    # salle décide. Un scraper qui écarte volontairement une partie de la
+    # programmation — les visites guidées de l'IAC, hors celles du
+    # week-end — n'obtient rien si l'agrégateur la republie derrière lui.
+    # Mesuré à l'introduction de la règle : neuf visites revenues par le
+    # Petit Bulletin sur les vingt-deux entrées du scraper de l'IAC.
+    #
+    # La règle vit DANS le scraper, qui en est l'auteur ; on ne fait ici
+    # que l'appliquer aux événements des agrégateurs, sur son lieu.
+    before_filtres = len(all_tagged)
+    all_tagged = [
+        (e, p) for e, p in all_tagged
+        if not (p < 100
+                and (f := FILTRES_DE_SALLE.get(canonical_venue_name(e.venue)))
+                and f(e.title))
+    ]
+    dropped_filtres = before_filtres - len(all_tagged)
+    if dropped_filtres:
+        print(f"[filtres] {dropped_filtres} événement(s) d'agrégateur "
+              f"écarté(s) par la règle de la salle")
 
     # 2.5) Persist the detail-page time cache (url → time), committed by
     # the workflow like venue_arrondissements.json. Without this save,
