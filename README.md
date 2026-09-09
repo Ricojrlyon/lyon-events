@@ -152,7 +152,13 @@ les trois fichiers de données.
   malvoyants » — et neuf visites passaient. Lire le type sur la liste
   permet de n'ouvrir qu'une trentaine de fiches au lieu de
   quatre-vingt-treize ; la liste ne donne en revanche qu'une date par
-  rendez-vous, d'où la lecture des fiches retenues.
+  rendez-vous, d'où la lecture des fiches retenues. Les EXPOSITIONS
+  viennent d'ailleurs : le musée les tient hors de sa liste de
+  rendez-vous, sur un article. Leur fiche existe et figure même dans la
+  liste, mais sans aucune date de séance — son champ horaire dit
+  « ouverte du mercredi au lundi de 10h à 18h », ce qui est un horaire
+  et non une période. C'est pourquoi la première version publiait
+  trente-sept rendez-vous et pas une exposition.
 - **`scrapers/celestins.py`** — Les Célestins, seule salle du dépôt à
   offrir une API JSON DOCUMENTÉE : le site tourne sous Roadiz, son
   robots.txt n'interdit que /api/docs, et /api/docs.json rend la
