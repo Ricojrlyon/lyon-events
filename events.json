@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-09T07:37:38.496604+00:00",
-  "count": 2733,
+  "generated_at": "2026-09-09T07:57:14.631657+00:00",
+  "count": 2629,
   "events": [
     {
       "venue": "Opéra national de Lyon",
@@ -4878,19 +4878,6 @@
       "id": "9613f0ee9c6a"
     },
     {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Technique vocale",
-      "subtitle": "Session 1",
-      "category": "atelier",
-      "date_start": "2026-09-22",
-      "date_end": null,
-      "time": "12:30",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/ateliers-adultes/technique-vocale",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Technique_vocale_0218_c_Betrand_Gaudill%C3%A8re_1920_0.jpg?h=d1cb525d&itok=rlXMKhKT",
-      "id": "384b6b27119c"
-    },
-    {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
       "title": "Magic Mardi",
@@ -5838,19 +5825,6 @@
       "url": "https://www.petit-bulletin.fr/agenda-319135-grand-merde.html",
       "image": null,
       "id": "4336d2c36b13"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Bulle Musicale",
-      "subtitle": null,
-      "category": "atelier",
-      "date_start": "2026-09-25",
-      "date_end": null,
-      "time": "09:30",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-sonore/bulle-musicale-25-septembre-2026",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Bulle_Musicale_DSC03852-1_c_Sarah_BRUN_1920.png?h=d1cb525d&itok=aN4KjEb8",
-      "id": "aa33839048d7"
     },
     {
       "venue": "Galerie Imag'In",
@@ -7036,19 +7010,6 @@
       "id": "945a1f300399"
     },
     {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Technique vocale",
-      "subtitle": "Session 1",
-      "category": "atelier",
-      "date_start": "2026-09-29",
-      "date_end": null,
-      "time": "12:30",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/ateliers-adultes/technique-vocale",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Technique_vocale_0218_c_Betrand_Gaudill%C3%A8re_1920_0.jpg?h=d1cb525d&itok=rlXMKhKT",
-      "id": "72ba12c9d4b0"
-    },
-    {
       "venue": "Marché Gare",
       "venue_slug": "marche-gare",
       "title": "Gratuit Déjeuner-Concert TULIPE TULIPE Dispositif Avant-Scène",
@@ -7270,19 +7231,6 @@
       "id": "0318a54ce017"
     },
     {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Éveil musical et sensoriel",
-      "subtitle": "Session 1",
-      "category": "atelier",
-      "date_start": "2026-09-30",
-      "date_end": null,
-      "time": "09:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/eveil-musical-sensoriel-3mois-3ans-session1",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Eveil_3mois-3ans_c_Bertrand_Gaudill%C3%A8re_1920_0.jpg?h=d1cb525d&itok=7FUC00Uq",
-      "id": "6f55f5e6960a"
-    },
-    {
       "venue": "Marché Gare",
       "venue_slug": "marche-gare",
       "title": "mercredi Mer. 30. septembre 09 Jeune Public Jeune Public L'écho du large Voyage musical dès 6 mois",
@@ -7294,19 +7242,6 @@
       "url": "https://marchegare.fr/agenda/lecho-du-large",
       "image": "https://marchegare.fr/sites/marchegare/files/styles/large/public/2026-06/photo_5_-_credit_photo_gerard_gachignard.jpg",
       "id": "e33974f61dd4"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Éveil musical et sensoriel",
-      "subtitle": "Session 2",
-      "category": "atelier",
-      "date_start": "2026-09-30",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/eveil-musical-sensoriel-3mois-3ans-session2",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Eveil_3mois-3ans_c_Bertrand_Gaudill%C3%A8re_1920_0.jpg?h=d1cb525d&itok=7FUC00Uq",
-      "id": "ba3bf7a58be4"
     },
     {
       "venue": "Galerie Imag'In",
@@ -7322,19 +7257,6 @@
       "id": "4efc02508881"
     },
     {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Éveil musical et sensoriel",
-      "subtitle": "Session 1",
-      "category": "atelier",
-      "date_start": "2026-09-30",
-      "date_end": null,
-      "time": "11:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/eveil-musical-sensoriel-3ans-5ans-session1",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Atelier_Eveil_3-5ans_BG2604_0150_c_Bertrand_Gaudill%C3%A8re_1920.jpg?h=d1cb525d&itok=2pKZT4tA",
-      "id": "e83147ddf37e"
-    },
-    {
       "venue": "Opéra national de Lyon",
       "venue_slug": "opera-de-lyon",
       "title": "Visites découverte commentées",
@@ -7346,19 +7268,6 @@
       "url": "https://www.petit-bulletin.fr/agenda-318984-visites-d-couverte-comment-es.html",
       "image": null,
       "id": "24233f72303e"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "À vous la musique !",
-      "subtitle": "Session 1",
-      "category": "atelier",
-      "date_start": "2026-09-30",
-      "date_end": null,
-      "time": "14:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/ateliers-enfants-ados/vous-musique",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Atelier_sonore_5-7ans_c_Bertrang_Gaudill%C3%A8re2504_0572_1920.jpg?h=d1cb525d&itok=WMqHI-ar",
-      "id": "55b23e0f0247"
     },
     {
       "venue": "La Ferme du Vinatier",
@@ -8310,19 +8219,6 @@
       "id": "fa65056ac236"
     },
     {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Percussions",
-      "subtitle": "Session 1",
-      "category": "atelier",
-      "date_start": "2026-10-03",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-famille/percussions-session-1",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Atelier_percussions_DSC_3318_c_Bertrand_Gaudill%C3%A8re_1920.jpg?h=6e0548bb&itok=0hAigK7e",
-      "id": "1a2e9c2233f5"
-    },
-    {
       "venue": "Galerie Imag'In",
       "venue_slug": "galerie-imag-in",
       "title": "Petru Ceban",
@@ -8934,19 +8830,6 @@
       "id": "34af95c148f9"
     },
     {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Technique vocale",
-      "subtitle": "Session 1",
-      "category": "atelier",
-      "date_start": "2026-10-06",
-      "date_end": null,
-      "time": "12:30",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/ateliers-adultes/technique-vocale",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Technique_vocale_0218_c_Betrand_Gaudill%C3%A8re_1920_0.jpg?h=d1cb525d&itok=rlXMKhKT",
-      "id": "ba9039078c18"
-    },
-    {
       "venue": "Marché Gare",
       "venue_slug": "marche-gare",
       "title": "Gratuit Déjeuner-Concert Déjeuner-Concert Labo du Conservatoire",
@@ -9142,32 +9025,6 @@
       "id": "e7e3327db9be"
     },
     {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Éveil musical et sensoriel",
-      "subtitle": "Session 1",
-      "category": "atelier",
-      "date_start": "2026-10-07",
-      "date_end": null,
-      "time": "09:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/eveil-musical-sensoriel-3mois-3ans-session1",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Eveil_3mois-3ans_c_Bertrand_Gaudill%C3%A8re_1920_0.jpg?h=d1cb525d&itok=7FUC00Uq",
-      "id": "1a9b3d91a65c"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Éveil musical et sensoriel",
-      "subtitle": "Session 2",
-      "category": "atelier",
-      "date_start": "2026-10-07",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/eveil-musical-sensoriel-3mois-3ans-session2",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Eveil_3mois-3ans_c_Bertrand_Gaudill%C3%A8re_1920_0.jpg?h=d1cb525d&itok=7FUC00Uq",
-      "id": "b9591644d014"
-    },
-    {
       "venue": "Galerie Imag'In",
       "venue_slug": "galerie-imag-in",
       "title": "Jean-Olivier Granger",
@@ -9181,19 +9038,6 @@
       "id": "22f7cb88af6d"
     },
     {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Éveil musical et sensoriel",
-      "subtitle": "Session 1",
-      "category": "atelier",
-      "date_start": "2026-10-07",
-      "date_end": null,
-      "time": "11:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/eveil-musical-sensoriel-3ans-5ans-session1",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Atelier_Eveil_3-5ans_BG2604_0150_c_Bertrand_Gaudill%C3%A8re_1920.jpg?h=d1cb525d&itok=2pKZT4tA",
-      "id": "218b08b5d989"
-    },
-    {
       "venue": "Musée d'Art Contemporain",
       "venue_slug": "musee-d-art-contemporain",
       "title": "Fanny Maugey",
@@ -9205,19 +9049,6 @@
       "url": "https://www.petit-bulletin.fr/agenda-319322-fanny-maugey.html",
       "image": null,
       "id": "35c3b8532323"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "À vous la musique !",
-      "subtitle": "Session 1",
-      "category": "atelier",
-      "date_start": "2026-10-07",
-      "date_end": null,
-      "time": "14:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/ateliers-enfants-ados/vous-musique",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Atelier_sonore_5-7ans_c_Bertrang_Gaudill%C3%A8re2504_0572_1920.jpg?h=d1cb525d&itok=WMqHI-ar",
-      "id": "f73b32ab5e88"
     },
     {
       "venue": "Galerie Jean-Louis Mandon",
@@ -10156,19 +9987,6 @@
       "id": "af495f7867ac"
     },
     {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Cordes",
-      "subtitle": "Session 1",
-      "category": "atelier",
-      "date_start": "2026-10-10",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-famille/cordes-session-1",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Atelier_cordes_BG2311_4941_c_Bertrand_Gaudill%C3%A8re_1920.jpg?h=2c31e3ba&itok=OORTl4z2",
-      "id": "052f20a957ad"
-    },
-    {
       "venue": "Ecocentre du Lyonnais à La Tour-de-Salvagny",
       "venue_slug": "ecocentre-du-lyonnais-a-la-tour-de-salvagny",
       "title": "Une histoire de haies (Partie 2): balade pédagogique avec Arthropologia",
@@ -10858,19 +10676,6 @@
       "id": "5bf58347f9f8"
     },
     {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Technique vocale",
-      "subtitle": "Session 1",
-      "category": "atelier",
-      "date_start": "2026-10-13",
-      "date_end": null,
-      "time": "12:30",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/ateliers-adultes/technique-vocale",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Technique_vocale_0218_c_Betrand_Gaudill%C3%A8re_1920_0.jpg?h=d1cb525d&itok=rlXMKhKT",
-      "id": "292f3b7bedaf"
-    },
-    {
       "venue": "Marché Gare",
       "venue_slug": "marche-gare",
       "title": "Gratuit Hors les murs Déjeuner-Concert IVANOÉ Dispositif Avant-Scène > MJC du Vieux-Lyon",
@@ -11118,32 +10923,6 @@
       "id": "e78536432fe3"
     },
     {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Éveil musical et sensoriel",
-      "subtitle": "Session 1",
-      "category": "atelier",
-      "date_start": "2026-10-14",
-      "date_end": null,
-      "time": "09:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/eveil-musical-sensoriel-3mois-3ans-session1",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Eveil_3mois-3ans_c_Bertrand_Gaudill%C3%A8re_1920_0.jpg?h=d1cb525d&itok=7FUC00Uq",
-      "id": "01f83c585ebe"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Éveil musical et sensoriel",
-      "subtitle": "Session 2",
-      "category": "atelier",
-      "date_start": "2026-10-14",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/eveil-musical-sensoriel-3mois-3ans-session2",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Eveil_3mois-3ans_c_Bertrand_Gaudill%C3%A8re_1920_0.jpg?h=d1cb525d&itok=7FUC00Uq",
-      "id": "ce455cc6dd0b"
-    },
-    {
       "venue": "Galerie Imag'In",
       "venue_slug": "galerie-imag-in",
       "title": "Exposition collective",
@@ -11168,32 +10947,6 @@
       "url": "https://www.petit-bulletin.fr/agenda-319352-2mi-de-for-t.html",
       "image": null,
       "id": "366469503770"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Éveil musical et sensoriel",
-      "subtitle": "Session 1",
-      "category": "atelier",
-      "date_start": "2026-10-14",
-      "date_end": null,
-      "time": "11:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/eveil-musical-sensoriel-3ans-5ans-session1",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Atelier_Eveil_3-5ans_BG2604_0150_c_Bertrand_Gaudill%C3%A8re_1920.jpg?h=d1cb525d&itok=2pKZT4tA",
-      "id": "cd1221300408"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "À vous la musique !",
-      "subtitle": "Session 1",
-      "category": "atelier",
-      "date_start": "2026-10-14",
-      "date_end": null,
-      "time": "14:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/ateliers-enfants-ados/vous-musique",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Atelier_sonore_5-7ans_c_Bertrang_Gaudill%C3%A8re2504_0572_1920.jpg?h=d1cb525d&itok=WMqHI-ar",
-      "id": "695941d9a999"
     },
     {
       "venue": "Bibliothèque du 7e Gerland Hannah Arendt",
@@ -17345,19 +17098,6 @@
       "id": "ab49d37542bd"
     },
     {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Tous en chœur",
-      "subtitle": "Le Messie de Händel",
-      "category": "atelier",
-      "date_start": "2026-11-12",
-      "date_end": null,
-      "time": "18:30",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-adultes/tous-choeur-messie-handel",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Tous_en_Choeur0508_c_Bertrand_Gaudill%C3%A8re_1920.jpg?h=cff2b29d&itok=xfmuywV8",
-      "id": "9c8b4f0f1761"
-    },
-    {
       "venue": "Comédie Odéon",
       "venue_slug": "comedie-odeon",
       "title": "Le Porteur d’Histoire",
@@ -17603,19 +17343,6 @@
       "url": "https://improvidence.mapado.com/event/28130-playlist",
       "image": "https://img.mapado.net/2020/9/16/5f61dd72f1bd4-affiche-playlist-web.jpeg_thumbs/600-600.jpeg",
       "id": "7fa0bf05e583"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Bulle Musicale",
-      "subtitle": null,
-      "category": "atelier",
-      "date_start": "2026-11-13",
-      "date_end": null,
-      "time": "09:30",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-sonore/bulle-musicale-13-novembre-2026",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Bulle_Musicale_DSC03852-1_c_Sarah_BRUN_1920.png?h=d1cb525d&itok=aN4KjEb8",
-      "id": "21952e2aabdd"
     },
     {
       "venue": "Le Sucre",
@@ -18593,58 +18320,6 @@
       "id": "ad0e67ce195d"
     },
     {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Éveil musical et sensoriel",
-      "subtitle": "Session 3",
-      "category": "atelier",
-      "date_start": "2026-11-18",
-      "date_end": null,
-      "time": "09:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/eveil-musical-sensoriel-3mois-3ans-session3",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Eveil_3mois-3ans_c_Bertrand_Gaudill%C3%A8re_1920_0.jpg?h=d1cb525d&itok=7FUC00Uq",
-      "id": "6b310d59483a"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Éveil musical et sensoriel",
-      "subtitle": "Session 4",
-      "category": "atelier",
-      "date_start": "2026-11-18",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/eveil-musical-sensoriel-3mois-3ans-session4",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Eveil_3mois-3ans_c_Bertrand_Gaudill%C3%A8re_1920_0.jpg?h=d1cb525d&itok=7FUC00Uq",
-      "id": "6fa812a37c75"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Éveil musical et sensoriel",
-      "subtitle": "Session 2",
-      "category": "atelier",
-      "date_start": "2026-11-18",
-      "date_end": null,
-      "time": "11:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/eveil-musical-sensoriel-3ans-5ans-session2",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Atelier_Eveil_3-5ans_BG2604_0150_c_Bertrand_Gaudill%C3%A8re_1920.jpg?h=d1cb525d&itok=2pKZT4tA",
-      "id": "d3df60c1254f"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "À vous la musique !",
-      "subtitle": "Session 1",
-      "category": "atelier",
-      "date_start": "2026-11-18",
-      "date_end": null,
-      "time": "14:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/a-vous-musique-7-10ans-S1",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Atelier_sonore_7-10ans_c_Bertrang_Gaudill%C3%A8re2504_0572_1920.jpg?h=d1cb525d&itok=X9cX625F",
-      "id": "994906fe16b8"
-    },
-    {
       "venue": "Théâtre de la Croix-Rousse",
       "venue_slug": "croix-rousse",
       "title": "Jeux de société inclusifs en famille",
@@ -18864,19 +18539,6 @@
       "url": "https://improvidence.mapado.com/event/3921-le-canape",
       "image": "https://img.mapado.net/2024/9/2/66d5820012170-canape-site-improvidence-2024.jpeg_thumbs/600-600.jpeg",
       "id": "ac4cdbf86ca7"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Tous en chœur",
-      "subtitle": "Le Messie de Händel",
-      "category": "atelier",
-      "date_start": "2026-11-19",
-      "date_end": null,
-      "time": "18:30",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-adultes/tous-choeur-messie-handel",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Tous_en_Choeur0508_c_Bertrand_Gaudill%C3%A8re_1920.jpg?h=cff2b29d&itok=xfmuywV8",
-      "id": "93c39af00b92"
     },
     {
       "venue": "Agend'arts",
@@ -20049,58 +19711,6 @@
       "id": "c8bf01017f4f"
     },
     {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Éveil musical et sensoriel",
-      "subtitle": "Session 3",
-      "category": "atelier",
-      "date_start": "2026-11-25",
-      "date_end": null,
-      "time": "09:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/eveil-musical-sensoriel-3mois-3ans-session3",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Eveil_3mois-3ans_c_Bertrand_Gaudill%C3%A8re_1920_0.jpg?h=d1cb525d&itok=7FUC00Uq",
-      "id": "496fd06523d7"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Éveil musical et sensoriel",
-      "subtitle": "Session 4",
-      "category": "atelier",
-      "date_start": "2026-11-25",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/eveil-musical-sensoriel-3mois-3ans-session4",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Eveil_3mois-3ans_c_Bertrand_Gaudill%C3%A8re_1920_0.jpg?h=d1cb525d&itok=7FUC00Uq",
-      "id": "95ac6d7e9000"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Éveil musical et sensoriel",
-      "subtitle": "Session 2",
-      "category": "atelier",
-      "date_start": "2026-11-25",
-      "date_end": null,
-      "time": "11:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/eveil-musical-sensoriel-3ans-5ans-session2",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Atelier_Eveil_3-5ans_BG2604_0150_c_Bertrand_Gaudill%C3%A8re_1920.jpg?h=d1cb525d&itok=2pKZT4tA",
-      "id": "1b54cef9ae79"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "À vous la musique !",
-      "subtitle": "Session 1",
-      "category": "atelier",
-      "date_start": "2026-11-25",
-      "date_end": null,
-      "time": "14:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/a-vous-musique-7-10ans-S1",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Atelier_sonore_7-10ans_c_Bertrang_Gaudill%C3%A8re2504_0572_1920.jpg?h=d1cb525d&itok=X9cX625F",
-      "id": "050ebd9fa2ae"
-    },
-    {
       "venue": "La Machinerie - Théâtre de Vénissieux",
       "venue_slug": "la-machinerie-theatre-de-venissieux",
       "title": "Dans la grotte - Cie La Volière, Myriam Boudenia",
@@ -20322,19 +19932,6 @@
       "id": "b32c08bb8d71"
     },
     {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Technique vocale",
-      "subtitle": "Session 2",
-      "category": "atelier",
-      "date_start": "2026-11-26",
-      "date_end": null,
-      "time": "12:30",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/ateliers-adultes/technique-vocale-0",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Technique_vocale_0218_c_Betrand_Gaudill%C3%A8re_1920_0.jpg?h=d1cb525d&itok=rlXMKhKT",
-      "id": "79b10a7f437e"
-    },
-    {
       "venue": "Théâtre de la Croix-Rousse",
       "venue_slug": "croix-rousse",
       "title": "À l’envers, à l’endroit",
@@ -20346,19 +19943,6 @@
       "url": "https://www.croix-rousse.com/au-programme/a-lenvers-a-lendroit/",
       "image": "https://www.croix-rousse.com/wp-content/uploads/2026/06/12.-À-lenvers-à-lendroitpicto.png",
       "id": "0bd6860717e0"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Tous en chœur",
-      "subtitle": "Le Messie de Händel",
-      "category": "atelier",
-      "date_start": "2026-11-26",
-      "date_end": null,
-      "time": "18:30",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-adultes/tous-choeur-messie-handel",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Tous_en_Choeur0508_c_Bertrand_Gaudill%C3%A8re_1920.jpg?h=cff2b29d&itok=xfmuywV8",
-      "id": "871a81e93f31"
     },
     {
       "venue": "Le Sucre",
@@ -20957,19 +20541,6 @@
       "url": "https://www.bourse-du-travail.com/fabrice-eboue-377207.html",
       "image": "https://www.bourse-du-travail.com/img/evenement/fabrice-eboue-144.jpg",
       "id": "1e519b6ae236"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Bien-être en musique",
-      "subtitle": null,
-      "category": "atelier",
-      "date_start": "2026-11-28",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-famille/bien-etre-musique-28-nov",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Bien-etre_musique_famille_c_Fred_mortagne_1920.jpg?h=d1cb525d&itok=raIF-dqW",
-      "id": "d8b9b72140fa"
     },
     {
       "venue": "Théâtre de la Croix-Rousse",
@@ -21674,58 +21245,6 @@
       "id": "addf6a8c474c"
     },
     {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Éveil musical et sensoriel",
-      "subtitle": "Session 3",
-      "category": "atelier",
-      "date_start": "2026-12-02",
-      "date_end": null,
-      "time": "09:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/eveil-musical-sensoriel-3mois-3ans-session3",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Eveil_3mois-3ans_c_Bertrand_Gaudill%C3%A8re_1920_0.jpg?h=d1cb525d&itok=7FUC00Uq",
-      "id": "b0fd39705d8b"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Éveil musical et sensoriel",
-      "subtitle": "Session 4",
-      "category": "atelier",
-      "date_start": "2026-12-02",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/eveil-musical-sensoriel-3mois-3ans-session4",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Eveil_3mois-3ans_c_Bertrand_Gaudill%C3%A8re_1920_0.jpg?h=d1cb525d&itok=7FUC00Uq",
-      "id": "fbf890857972"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Éveil musical et sensoriel",
-      "subtitle": "Session 2",
-      "category": "atelier",
-      "date_start": "2026-12-02",
-      "date_end": null,
-      "time": "11:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/eveil-musical-sensoriel-3ans-5ans-session2",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Atelier_Eveil_3-5ans_BG2604_0150_c_Bertrand_Gaudill%C3%A8re_1920.jpg?h=d1cb525d&itok=2pKZT4tA",
-      "id": "7a159bd4e21b"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "À vous la musique !",
-      "subtitle": "Session 1",
-      "category": "atelier",
-      "date_start": "2026-12-02",
-      "date_end": null,
-      "time": "14:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/a-vous-musique-7-10ans-S1",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Atelier_sonore_7-10ans_c_Bertrang_Gaudill%C3%A8re2504_0572_1920.jpg?h=d1cb525d&itok=X9cX625F",
-      "id": "e068466bc1c6"
-    },
-    {
       "venue": "Maison de la Danse",
       "venue_slug": "maison-de-la-danse",
       "title": "Slava’s Snowshow",
@@ -21947,19 +21466,6 @@
       "id": "218d14d25cb0"
     },
     {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Technique vocale",
-      "subtitle": "Session 2",
-      "category": "atelier",
-      "date_start": "2026-12-03",
-      "date_end": null,
-      "time": "12:30",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/ateliers-adultes/technique-vocale-0",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Technique_vocale_0218_c_Betrand_Gaudill%C3%A8re_1920_0.jpg?h=d1cb525d&itok=rlXMKhKT",
-      "id": "7300f0bb643e"
-    },
-    {
       "venue": "IAC Villeurbanne",
       "venue_slug": "iac-villeurbanne",
       "title": "Visite en LSF - Avec Martin Dutrait",
@@ -21971,19 +21477,6 @@
       "url": "https://agenda.villemorte.fr/event/visite-en-lsf-avec-martin-dutrait",
       "image": "https://agenda.villemorte.fr/media/thumb/24d9c42f5c53d2245a240d7f7f6e95b4.jpg",
       "id": "9a945dae8d42"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Tous en chœur",
-      "subtitle": "Le Messie de Händel",
-      "category": "atelier",
-      "date_start": "2026-12-03",
-      "date_end": null,
-      "time": "18:30",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-adultes/tous-choeur-messie-handel",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Tous_en_Choeur0508_c_Bertrand_Gaudill%C3%A8re_1920.jpg?h=cff2b29d&itok=xfmuywV8",
-      "id": "51dde483b3a4"
     },
     {
       "venue": "Comédie Odéon",
@@ -22023,19 +21516,6 @@
       "url": "https://www.les-subs.com/evenement/soiree-pepites-le-fashow-lena-aboukrat/",
       "image": "https://www.les-subs.com/wp-content/uploads/2026/07/lena-aboukratdr-200x200.jpg",
       "id": "668a52468a5b"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Entrez dans l’écoute",
-      "subtitle": "Brahms / Britten",
-      "category": "atelier",
-      "date_start": "2026-12-03",
-      "date_end": null,
-      "time": "19:15",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-adultes/entrez-ecoute-3-dec",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Entrez-dans_ecoute_c_Nicolas_Auproux_1920.jpg?h=b2c3862c&itok=EdmRMjpr",
-      "id": "e1be259b047f"
     },
     {
       "venue": "Improvidence",
@@ -22517,19 +21997,6 @@
       "url": "https://www.tng-lyon.fr/evenement/grandeur-nature/",
       "image": "https://www.tng-lyon.fr/wp-content/uploads/2026/06/460x460_GRANDEUR-NATURE-1.png",
       "id": "3177a07f7775"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Bois",
-      "subtitle": "Session 1 / hautbois et bassons",
-      "category": "atelier",
-      "date_start": "2026-12-05",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-famille/bois-session-1",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Atelier_envoyez-du-bois_c_Virginie_Lenoir_1920_0.jpg?h=8162827b&itok=VhFZmNnp",
-      "id": "1530316897e9"
     },
     {
       "venue": "Théâtre de la Croix-Rousse",
@@ -23312,19 +22779,6 @@
       "id": "e2d84f309c62"
     },
     {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Technique vocale",
-      "subtitle": "Session 2",
-      "category": "atelier",
-      "date_start": "2026-12-10",
-      "date_end": null,
-      "time": "12:30",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/ateliers-adultes/technique-vocale-0",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Technique_vocale_0218_c_Betrand_Gaudill%C3%A8re_1920_0.jpg?h=d1cb525d&itok=rlXMKhKT",
-      "id": "5d7f1f1a7b45"
-    },
-    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins",
       "title": "Projet Nanashi",
@@ -23765,19 +23219,6 @@
       "url": "https://www.tng-lyon.fr/evenement/rdv-popcorn-superstrat/",
       "image": "https://www.tng-lyon.fr/wp-content/uploads/2026/06/Superstrat_PopCorn_460x460.png",
       "id": "0de6cb52de6b"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Cuivres et percussions",
-      "subtitle": "Session 1",
-      "category": "atelier",
-      "date_start": "2026-12-12",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-famille/cuivres-percussions-session-1",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Atelier_cuivres_DSC_3318_c_Bertrand_Gaudill%C3%A8re_1920.jpg?h=6f141fcb&itok=xqJ7Za2Q",
-      "id": "8bb4ba04bf3b"
     },
     {
       "venue": "Les Subsistances",
@@ -24519,19 +23960,6 @@
       "url": "https://www.bourse-du-travail.com/noces-de-sang-370069.html",
       "image": "https://www.bourse-du-travail.com/img/evenement/noces-de-sang-9.jpg",
       "id": "a95d93c4b0c3"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Technique vocale",
-      "subtitle": "Session 2",
-      "category": "atelier",
-      "date_start": "2026-12-17",
-      "date_end": null,
-      "time": "12:30",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/ateliers-adultes/technique-vocale-0",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Technique_vocale_0218_c_Betrand_Gaudill%C3%A8re_1920_0.jpg?h=d1cb525d&itok=rlXMKhKT",
-      "id": "101901bca759"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -26525,45 +25953,6 @@
     {
       "venue": "Auditorium de Lyon",
       "venue_slug": "auditorium-lyon",
-      "title": "Éveil musical et sensoriel",
-      "subtitle": "Session 5",
-      "category": "atelier",
-      "date_start": "2027-01-06",
-      "date_end": null,
-      "time": "09:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/eveil-musical-sensoriel-3mois-3ans-session5",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Eveil_3mois-3ans_c_Bertrand_Gaudill%C3%A8re_1920_0.jpg?h=d1cb525d&itok=7FUC00Uq",
-      "id": "a9739472d55b"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Éveil musical et sensoriel",
-      "subtitle": "Session 6",
-      "category": "atelier",
-      "date_start": "2027-01-06",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/eveil-musical-sensoriel-3mois-3ans-session6",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Eveil_3mois-3ans_c_Bertrand_Gaudill%C3%A8re_1920_0.jpg?h=d1cb525d&itok=7FUC00Uq",
-      "id": "a501563b58f8"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Éveil musical et sensoriel",
-      "subtitle": "Session 3",
-      "category": "atelier",
-      "date_start": "2027-01-06",
-      "date_end": null,
-      "time": "11:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/eveil-musical-sensoriel-3ans-5ans-session3",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Atelier_Eveil_3-5ans_BG2604_0150_c_Bertrand_Gaudill%C3%A8re_1920.jpg?h=d1cb525d&itok=2pKZT4tA",
-      "id": "c856fdd9045f"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
       "title": "La Petite Taupe",
       "subtitle": "En ciné-concert",
       "category": "concert",
@@ -26573,19 +25962,6 @@
       "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/famille/petite-taupe",
       "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/1920_La-Petite-Taupe-et-l%27Etoile-Verte.jpg?h=3d200a90&itok=Akt-H5HS",
       "id": "442bd872e615"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "À vous la musique !",
-      "subtitle": "Session 2",
-      "category": "atelier",
-      "date_start": "2027-01-06",
-      "date_end": null,
-      "time": "14:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/ateliers-enfants-ados/vous-musique-1",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Atelier_sonore_5-7ans_c_Bertrang_Gaudill%C3%A8re2504_0572_1920.jpg?h=d1cb525d&itok=WMqHI-ar",
-      "id": "0012851867ab"
     },
     {
       "venue": "La Machinerie - Théâtre de Vénissieux",
@@ -26939,19 +26315,6 @@
       "id": "17769ffabe2d"
     },
     {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Cordes",
-      "subtitle": "Session 2",
-      "category": "atelier",
-      "date_start": "2027-01-09",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-famille/cordes-session-2",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Atelier_cordes_BG2311_4941_c_Bertrand_Gaudill%C3%A8re_1920.jpg?h=2c31e3ba&itok=OORTl4z2",
-      "id": "40cf23020e01"
-    },
-    {
       "venue": "Maison de la Danse",
       "venue_slug": "maison-de-la-danse",
       "title": "Les Autres",
@@ -27136,19 +26499,6 @@
     {
       "venue": "Auditorium de Lyon",
       "venue_slug": "auditorium-lyon",
-      "title": "Technique vocale",
-      "subtitle": "Session 3",
-      "category": "atelier",
-      "date_start": "2027-01-12",
-      "date_end": null,
-      "time": "12:30",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/ateliers-adultes/technique-vocale-1",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Technique_vocale_0218_c_Betrand_Gaudill%C3%A8re_1920_0.jpg?h=d1cb525d&itok=rlXMKhKT",
-      "id": "c1e41da4c9a0"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
       "title": "Tableaux d’une exposition de Moussorgski, l’orchestration",
       "subtitle": null,
       "category": "conférence",
@@ -27249,71 +26599,6 @@
       "url": "https://www.bourse-du-travail.com/dirty-dancing-le-tribute-378837.html",
       "image": "https://www.bourse-du-travail.com/img/evenement/dirty-dancing--le-tribute--2.jpg",
       "id": "a484058bc470"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Éveil musical et sensoriel",
-      "subtitle": "Session 5",
-      "category": "atelier",
-      "date_start": "2027-01-13",
-      "date_end": null,
-      "time": "09:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/eveil-musical-sensoriel-3mois-3ans-session5",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Eveil_3mois-3ans_c_Bertrand_Gaudill%C3%A8re_1920_0.jpg?h=d1cb525d&itok=7FUC00Uq",
-      "id": "7b72441bceab"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Éveil musical et sensoriel",
-      "subtitle": "Session 6",
-      "category": "atelier",
-      "date_start": "2027-01-13",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/eveil-musical-sensoriel-3mois-3ans-session6",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Eveil_3mois-3ans_c_Bertrand_Gaudill%C3%A8re_1920_0.jpg?h=d1cb525d&itok=7FUC00Uq",
-      "id": "4bd3c29b216d"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Éveil musical et sensoriel",
-      "subtitle": "Session 3",
-      "category": "atelier",
-      "date_start": "2027-01-13",
-      "date_end": null,
-      "time": "11:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/eveil-musical-sensoriel-3ans-5ans-session3",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Atelier_Eveil_3-5ans_BG2604_0150_c_Bertrand_Gaudill%C3%A8re_1920.jpg?h=d1cb525d&itok=2pKZT4tA",
-      "id": "88782e683e6b"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "À vous la musique !",
-      "subtitle": "Session 2",
-      "category": "atelier",
-      "date_start": "2027-01-13",
-      "date_end": null,
-      "time": "14:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/ateliers-enfants-ados/vous-musique-1",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Atelier_sonore_5-7ans_c_Bertrang_Gaudill%C3%A8re2504_0572_1920.jpg?h=d1cb525d&itok=WMqHI-ar",
-      "id": "2896ac07cee7"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Tous en chœur",
-      "subtitle": "Gospel",
-      "category": "atelier",
-      "date_start": "2027-01-13",
-      "date_end": null,
-      "time": "18:30",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-adultes/tous-choeur-gospel",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Tous_en_Choeur0508_c_Bertrand_Gaudill%C3%A8re_1920.jpg?h=cff2b29d&itok=xfmuywV8",
-      "id": "29cd9b459100"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -27483,19 +26768,6 @@
       "url": "https://www.croix-rousse.com/au-programme/romeo-et-juliette-3/",
       "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/Roméo-et-Juliette-1080x1080-1.png",
       "id": "18e0a6a34ab4"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Tous en chœur",
-      "subtitle": "Chorals de Bach",
-      "category": "atelier",
-      "date_start": "2027-01-14",
-      "date_end": null,
-      "time": "18:30",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-adultes/tous-choeur-chorals-bach",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Tous_en_Choeur0508_c_Bertrand_Gaudill%C3%A8re_1920.jpg?h=cff2b29d&itok=xfmuywV8",
-      "id": "de7cdb39e83f"
     },
     {
       "venue": "Auditorium de Lyon",
@@ -28200,19 +27472,6 @@
       "id": "085ec2529b83"
     },
     {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Technique vocale",
-      "subtitle": "Session 3",
-      "category": "atelier",
-      "date_start": "2027-01-19",
-      "date_end": null,
-      "time": "12:30",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/ateliers-adultes/technique-vocale-1",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Technique_vocale_0218_c_Betrand_Gaudill%C3%A8re_1920_0.jpg?h=d1cb525d&itok=rlXMKhKT",
-      "id": "c1f14fded403"
-    },
-    {
       "venue": "Théâtre de la Croix-Rousse",
       "venue_slug": "croix-rousse",
       "title": "Table-ronde Faire famille aujourd’hui",
@@ -28304,58 +27563,6 @@
       "id": "cb5538767567"
     },
     {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Éveil musical et sensoriel",
-      "subtitle": "Session 5",
-      "category": "atelier",
-      "date_start": "2027-01-20",
-      "date_end": null,
-      "time": "09:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/eveil-musical-sensoriel-3mois-3ans-session5",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Eveil_3mois-3ans_c_Bertrand_Gaudill%C3%A8re_1920_0.jpg?h=d1cb525d&itok=7FUC00Uq",
-      "id": "fb1dd603ae1e"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Éveil musical et sensoriel",
-      "subtitle": "Session 6",
-      "category": "atelier",
-      "date_start": "2027-01-20",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/eveil-musical-sensoriel-3mois-3ans-session6",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Eveil_3mois-3ans_c_Bertrand_Gaudill%C3%A8re_1920_0.jpg?h=d1cb525d&itok=7FUC00Uq",
-      "id": "842e24961d86"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Éveil musical et sensoriel",
-      "subtitle": "Session 3",
-      "category": "atelier",
-      "date_start": "2027-01-20",
-      "date_end": null,
-      "time": "11:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/eveil-musical-sensoriel-3ans-5ans-session3",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Atelier_Eveil_3-5ans_BG2604_0150_c_Bertrand_Gaudill%C3%A8re_1920.jpg?h=d1cb525d&itok=2pKZT4tA",
-      "id": "db306e2a7d2e"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "À vous la musique !",
-      "subtitle": "Session 2",
-      "category": "atelier",
-      "date_start": "2027-01-20",
-      "date_end": null,
-      "time": "14:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/ateliers-enfants-ados/vous-musique-1",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Atelier_sonore_5-7ans_c_Bertrang_Gaudill%C3%A8re2504_0572_1920.jpg?h=d1cb525d&itok=WMqHI-ar",
-      "id": "467ae393e22f"
-    },
-    {
       "venue": "La Rayonne",
       "venue_slug": "la-rayonne",
       "title": "ORDEN OGAN",
@@ -28367,19 +27574,6 @@
       "url": "https://larayonne.org/evenement/orden-ogan/",
       "image": "https://larayonne.org/wp-content/uploads/2025/12/Event-Header-1-500x262.jpg",
       "id": "23512e849d3c"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Tous en chœur",
-      "subtitle": "Gospel",
-      "category": "atelier",
-      "date_start": "2027-01-20",
-      "date_end": null,
-      "time": "18:30",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-adultes/tous-choeur-gospel",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Tous_en_Choeur0508_c_Bertrand_Gaudill%C3%A8re_1920.jpg?h=cff2b29d&itok=xfmuywV8",
-      "id": "cc896b2967df"
     },
     {
       "venue": "Le Transbordeur",
@@ -28523,19 +27717,6 @@
       "url": "https://www.bourse-du-travail.com/meryem-benoua-343413.html",
       "image": "https://www.bourse-du-travail.com/img/evenement/meryem-benoua-dans-reflet-4.jpg",
       "id": "cf86898367c9"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Tous en chœur",
-      "subtitle": "Chorals de Bach",
-      "category": "atelier",
-      "date_start": "2027-01-21",
-      "date_end": null,
-      "time": "18:30",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-adultes/tous-choeur-chorals-bach",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Tous_en_Choeur0508_c_Bertrand_Gaudill%C3%A8re_1920.jpg?h=cff2b29d&itok=xfmuywV8",
-      "id": "f155be7fb597"
     },
     {
       "venue": "Le Transbordeur",
@@ -29175,19 +28356,6 @@
       "id": "22092683d94f"
     },
     {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Technique vocale",
-      "subtitle": "Session 3",
-      "category": "atelier",
-      "date_start": "2027-01-26",
-      "date_end": null,
-      "time": "12:30",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/ateliers-adultes/technique-vocale-1",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Technique_vocale_0218_c_Betrand_Gaudill%C3%A8re_1920_0.jpg?h=d1cb525d&itok=rlXMKhKT",
-      "id": "fc0802252f94"
-    },
-    {
       "venue": "TNP - Théâtre National Populaire",
       "venue_slug": "tnp",
       "title": "Mobile Homes",
@@ -29292,58 +28460,6 @@
       "id": "3dc66c7c6801"
     },
     {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Éveil musical et sensoriel",
-      "subtitle": "Session 7",
-      "category": "atelier",
-      "date_start": "2027-01-27",
-      "date_end": null,
-      "time": "09:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/eveil-musical-sensoriel-3mois-3ans-session7",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Eveil_3mois-3ans_c_Bertrand_Gaudill%C3%A8re_1920_0.jpg?h=d1cb525d&itok=7FUC00Uq",
-      "id": "042021a83ca9"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Éveil musical et sensoriel",
-      "subtitle": "Session 8",
-      "category": "atelier",
-      "date_start": "2027-01-27",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/eveil-musical-sensoriel-3mois-3ans-session8",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Eveil_3mois-3ans_c_Bertrand_Gaudill%C3%A8re_1920_0.jpg?h=d1cb525d&itok=7FUC00Uq",
-      "id": "e3182c7d4a2c"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Éveil musical et sensoriel",
-      "subtitle": "Session 4",
-      "category": "atelier",
-      "date_start": "2027-01-27",
-      "date_end": null,
-      "time": "11:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/eveil-musical-sensoriel-3ans-5ans-session4",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Atelier_Eveil_3-5ans_BG2604_0150_c_Bertrand_Gaudill%C3%A8re_1920.jpg?h=d1cb525d&itok=2pKZT4tA",
-      "id": "eaced4bbdf28"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "À vous la musique !",
-      "subtitle": "Session 2 / Beatbox",
-      "category": "atelier",
-      "date_start": "2027-01-27",
-      "date_end": null,
-      "time": "14:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/a-vous-musique-7-10ans-S2-beatbox",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Atelier_sonore_7-10ans_c_Bertrang_Gaudill%C3%A8re2504_0572_1920.jpg?h=d1cb525d&itok=X9cX625F",
-      "id": "73010dead83e"
-    },
-    {
       "venue": "La Halle Tony Garnier",
       "venue_slug": "halle-tony-garnier",
       "title": "Disney Sur Glace - Le Voyage Enchante",
@@ -29355,19 +28471,6 @@
       "url": "https://www.halle-tony-garnier.com/fr/programmation/disney-sur-glace-le-voyage-enchante",
       "image": "https://www.halle-tony-garnier.com/storage/136943/conversions/2027-01-27-DISNEY-SUR-GLACE-LE-VOYAGE-ENCHANTE-d36-lyon-1080x108-20260424-154043-square.jpg",
       "id": "13871667903e"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "À vous la musique !",
-      "subtitle": "Beatbox",
-      "category": "atelier",
-      "date_start": "2027-01-27",
-      "date_end": null,
-      "time": "15:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/ateliers-enfants-ados/atelier-enfants/a-vous-musique-10-12ans-beatbox",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/A_vous_musique_10-12ans_c_Bertrand_Gaudill%C3%A8re_1920.jpg?h=a8341b4a&itok=C3NNJHx8",
-      "id": "b01a9c6b9bc7"
     },
     {
       "venue": "TNP - Théâtre National Populaire",
@@ -29394,19 +28497,6 @@
       "url": "https://www.halle-tony-garnier.com/fr/programmation/disney-sur-glace-le-voyage-enchante-2",
       "image": "https://www.halle-tony-garnier.com/storage/143758/conversions/2027-01-27-DISNEY-SUR-GLACE-LE-VOYAGE-ENCHANTE-d36-lyon-1080x108-20260424-160137-square.jpg",
       "id": "4595c3a3c14a"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Tous en chœur",
-      "subtitle": "Gospel",
-      "category": "atelier",
-      "date_start": "2027-01-27",
-      "date_end": null,
-      "time": "18:30",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-adultes/tous-choeur-gospel",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Tous_en_Choeur0508_c_Bertrand_Gaudill%C3%A8re_1920.jpg?h=cff2b29d&itok=xfmuywV8",
-      "id": "5b997b1b22fd"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -29539,32 +28629,6 @@
       "id": "063fa8d43d43"
     },
     {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Éveil musical et sensoriel",
-      "subtitle": "Session 9",
-      "category": "atelier",
-      "date_start": "2027-01-28",
-      "date_end": null,
-      "time": "09:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/eveil-musical-sensoriel-3mois-3ans-session9",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Eveil_3mois-3ans_c_Bertrand_Gaudill%C3%A8re_1920_0.jpg?h=d1cb525d&itok=7FUC00Uq",
-      "id": "6bc888a289ce"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Éveil musical et sensoriel",
-      "subtitle": "Session 10",
-      "category": "atelier",
-      "date_start": "2027-01-28",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/eveil-musical-sensoriel-3mois-3ans-session10",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Eveil_3mois-3ans_c_Bertrand_Gaudill%C3%A8re_1920_0.jpg?h=d1cb525d&itok=7FUC00Uq",
-      "id": "8b6d65fd82f3"
-    },
-    {
       "venue": "TNP - Théâtre National Populaire",
       "venue_slug": "tnp",
       "title": "Mobile Homes",
@@ -29576,19 +28640,6 @@
       "url": "https://www.tnp-villeurbanne.com/spectacle/mobile-homes/",
       "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/1_Mobile_homescTristan_Dubois.jpg",
       "id": "bfb08420992d"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Tous en chœur",
-      "subtitle": "Chorals de Bach",
-      "category": "atelier",
-      "date_start": "2027-01-28",
-      "date_end": null,
-      "time": "18:30",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-adultes/tous-choeur-chorals-bach",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Tous_en_Choeur0508_c_Bertrand_Gaudill%C3%A8re_1920.jpg?h=cff2b29d&itok=xfmuywV8",
-      "id": "eaa1800bf70b"
     },
     {
       "venue": "Le Transbordeur",
@@ -29981,19 +29032,6 @@
       "id": "ff722100678f"
     },
     {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Bien-être en musique",
-      "subtitle": null,
-      "category": "atelier",
-      "date_start": "2027-01-30",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-famille/bien-etre-musique-30-janv",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Bien-etre_musique_famille_c_Fred_mortagne_1920.jpg?h=d1cb525d&itok=raIF-dqW",
-      "id": "c4d2b47a7f01"
-    },
-    {
       "venue": "La Halle Tony Garnier",
       "venue_slug": "halle-tony-garnier",
       "title": "Disney Sur Glace - Le Voyage Enchante",
@@ -30256,19 +29294,6 @@
     {
       "venue": "Auditorium de Lyon",
       "venue_slug": "auditorium-lyon",
-      "title": "Technique vocale",
-      "subtitle": "Session 3",
-      "category": "atelier",
-      "date_start": "2027-02-02",
-      "date_end": null,
-      "time": "12:30",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/ateliers-adultes/technique-vocale-1",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Technique_vocale_0218_c_Betrand_Gaudill%C3%A8re_1920_0.jpg?h=d1cb525d&itok=rlXMKhKT",
-      "id": "e915fc964ae2"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
       "title": "La musique Tchèque",
       "subtitle": null,
       "category": "conférence",
@@ -30397,71 +29422,6 @@
       "id": "1fb09ea46654"
     },
     {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Éveil musical et sensoriel",
-      "subtitle": "Session 7",
-      "category": "atelier",
-      "date_start": "2027-02-03",
-      "date_end": null,
-      "time": "09:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/eveil-musical-sensoriel-3mois-3ans-session7",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Eveil_3mois-3ans_c_Bertrand_Gaudill%C3%A8re_1920_0.jpg?h=d1cb525d&itok=7FUC00Uq",
-      "id": "b504a6445fe6"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Éveil musical et sensoriel",
-      "subtitle": "Session 8",
-      "category": "atelier",
-      "date_start": "2027-02-03",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/eveil-musical-sensoriel-3mois-3ans-session8",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Eveil_3mois-3ans_c_Bertrand_Gaudill%C3%A8re_1920_0.jpg?h=d1cb525d&itok=7FUC00Uq",
-      "id": "e59d55bec2ae"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Éveil musical et sensoriel",
-      "subtitle": "Session 4",
-      "category": "atelier",
-      "date_start": "2027-02-03",
-      "date_end": null,
-      "time": "11:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/eveil-musical-sensoriel-3ans-5ans-session4",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Atelier_Eveil_3-5ans_BG2604_0150_c_Bertrand_Gaudill%C3%A8re_1920.jpg?h=d1cb525d&itok=2pKZT4tA",
-      "id": "b11dc6f61925"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "À vous la musique !",
-      "subtitle": "Session 2 / Beatbox",
-      "category": "atelier",
-      "date_start": "2027-02-03",
-      "date_end": null,
-      "time": "14:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/a-vous-musique-7-10ans-S2-beatbox",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Atelier_sonore_7-10ans_c_Bertrang_Gaudill%C3%A8re2504_0572_1920.jpg?h=d1cb525d&itok=X9cX625F",
-      "id": "e6166ea18020"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "À vous la musique !",
-      "subtitle": "Beatbox",
-      "category": "atelier",
-      "date_start": "2027-02-03",
-      "date_end": null,
-      "time": "15:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/ateliers-enfants-ados/atelier-enfants/a-vous-musique-10-12ans-beatbox",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/A_vous_musique_10-12ans_c_Bertrand_Gaudill%C3%A8re_1920.jpg?h=a8341b4a&itok=C3NNJHx8",
-      "id": "1124c7a214a1"
-    },
-    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "VALENTINA",
@@ -30473,19 +29433,6 @@
       "url": "https://radiant-bellevue.fr/spectacles/valentina/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/05/valentina_radiant-bellevue-500x500.jpg",
       "id": "b0008b201bcc"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Tous en chœur",
-      "subtitle": "Gospel",
-      "category": "atelier",
-      "date_start": "2027-02-03",
-      "date_end": null,
-      "time": "18:30",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-adultes/tous-choeur-gospel",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Tous_en_Choeur0508_c_Bertrand_Gaudill%C3%A8re_1920.jpg?h=cff2b29d&itok=xfmuywV8",
-      "id": "4683e73af356"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -30577,45 +29524,6 @@
       "url": "https://www.bourse-du-travail.com/pierre-emmanuel-barre-aymeric-lompret-une-heure-trente-tournee-382076.html",
       "image": "https://www.bourse-du-travail.com/img/evenement/pierre-emmanuel-barre-and-aymeric-lompret--une-heure-trente---tournee-3.jpg",
       "id": "8f1448869528"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Éveil musical et sensoriel",
-      "subtitle": "Session 9",
-      "category": "atelier",
-      "date_start": "2027-02-04",
-      "date_end": null,
-      "time": "09:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/eveil-musical-sensoriel-3mois-3ans-session9",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Eveil_3mois-3ans_c_Bertrand_Gaudill%C3%A8re_1920_0.jpg?h=d1cb525d&itok=7FUC00Uq",
-      "id": "c35c009c2c81"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Éveil musical et sensoriel",
-      "subtitle": "Session 10",
-      "category": "atelier",
-      "date_start": "2027-02-04",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/eveil-musical-sensoriel-3mois-3ans-session10",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Eveil_3mois-3ans_c_Bertrand_Gaudill%C3%A8re_1920_0.jpg?h=d1cb525d&itok=7FUC00Uq",
-      "id": "5c000c045def"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Tous en chœur",
-      "subtitle": "Chorals de Bach",
-      "category": "atelier",
-      "date_start": "2027-02-04",
-      "date_end": null,
-      "time": "18:30",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-adultes/tous-choeur-chorals-bach",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Tous_en_Choeur0508_c_Bertrand_Gaudill%C3%A8re_1920.jpg?h=cff2b29d&itok=xfmuywV8",
-      "id": "d4b7faf35cdc"
     },
     {
       "venue": "La Machinerie - Théâtre de Vénissieux",
@@ -30785,19 +29693,6 @@
       "url": "https://www.bourse-du-travail.com/pierre-emmanuel-barre-aymeric-lompret-une-heure-trente-tournee-382075.html",
       "image": "https://www.bourse-du-travail.com/img/evenement/pierre-emmanuel-barre-and-aymeric-lompret--une-heure-trente---tournee-2.jpg",
       "id": "01930ae3c83b"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Bulle Musicale",
-      "subtitle": null,
-      "category": "atelier",
-      "date_start": "2027-02-05",
-      "date_end": null,
-      "time": "09:30",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-sonore/bulle-musicale-2-f%C3%A9vrier-2027",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Bulle_Musicale_DSC03852-1_c_Sarah_BRUN_1920.png?h=d1cb525d&itok=aN4KjEb8",
-      "id": "709430b428a4"
     },
     {
       "venue": "Maison de la Danse",
@@ -30993,19 +29888,6 @@
       "url": "https://www.tng-lyon.fr/evenement/visite-tactile-dautres-familles-que-la-mienne/",
       "image": "https://www.tng-lyon.fr/wp-content/uploads/2026/06/DAUTRESFAMILLES_Visite-tactile_Ateliers_460x460.png",
       "id": "d09cc41aed41"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Bois",
-      "subtitle": "Session 2 / Flûtes",
-      "category": "atelier",
-      "date_start": "2027-02-06",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/ateliers-famille/bois",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Atelier_envoyez-du-bois_c_Virginie_Lenoir_1920_0.jpg?h=8162827b&itok=VhFZmNnp",
-      "id": "abb8002a005d"
     },
     {
       "venue": "La Halle Tony Garnier",
@@ -31359,71 +30241,6 @@
       "id": "a2ee3a16a322"
     },
     {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Éveil musical et sensoriel",
-      "subtitle": "Session 7",
-      "category": "atelier",
-      "date_start": "2027-02-10",
-      "date_end": null,
-      "time": "09:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/eveil-musical-sensoriel-3mois-3ans-session7",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Eveil_3mois-3ans_c_Bertrand_Gaudill%C3%A8re_1920_0.jpg?h=d1cb525d&itok=7FUC00Uq",
-      "id": "655f5cd490ed"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Éveil musical et sensoriel",
-      "subtitle": "Session 8",
-      "category": "atelier",
-      "date_start": "2027-02-10",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/eveil-musical-sensoriel-3mois-3ans-session8",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Eveil_3mois-3ans_c_Bertrand_Gaudill%C3%A8re_1920_0.jpg?h=d1cb525d&itok=7FUC00Uq",
-      "id": "9698d70c5cb0"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Éveil musical et sensoriel",
-      "subtitle": "Session 4",
-      "category": "atelier",
-      "date_start": "2027-02-10",
-      "date_end": null,
-      "time": "11:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/eveil-musical-sensoriel-3ans-5ans-session4",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Atelier_Eveil_3-5ans_BG2604_0150_c_Bertrand_Gaudill%C3%A8re_1920.jpg?h=d1cb525d&itok=2pKZT4tA",
-      "id": "e9945adc3e96"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "À vous la musique !",
-      "subtitle": "Session 2 / Beatbox",
-      "category": "atelier",
-      "date_start": "2027-02-10",
-      "date_end": null,
-      "time": "14:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/a-vous-musique-7-10ans-S2-beatbox",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Atelier_sonore_7-10ans_c_Bertrang_Gaudill%C3%A8re2504_0572_1920.jpg?h=d1cb525d&itok=X9cX625F",
-      "id": "ef73550e6908"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "À vous la musique !",
-      "subtitle": "Beatbox",
-      "category": "atelier",
-      "date_start": "2027-02-10",
-      "date_end": null,
-      "time": "15:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/ateliers-enfants-ados/atelier-enfants/a-vous-musique-10-12ans-beatbox",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/A_vous_musique_10-12ans_c_Bertrand_Gaudill%C3%A8re_1920.jpg?h=a8341b4a&itok=C3NNJHx8",
-      "id": "091011a3487a"
-    },
-    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins",
       "title": "Oratorio nomade",
@@ -31578,32 +30395,6 @@
       "url": "https://www.bourse-du-travail.com/akim-omiri-contexte-tournee-382475.html",
       "image": "https://www.bourse-du-travail.com/img/evenement/akim-omiri--contexte--tournee-14.jpg",
       "id": "7317e34e2578"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Éveil musical et sensoriel",
-      "subtitle": "Session 9",
-      "category": "atelier",
-      "date_start": "2027-02-11",
-      "date_end": null,
-      "time": "09:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/eveil-musical-sensoriel-3mois-3ans-session9",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Eveil_3mois-3ans_c_Bertrand_Gaudill%C3%A8re_1920_0.jpg?h=d1cb525d&itok=7FUC00Uq",
-      "id": "d2182e49c3b5"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Éveil musical et sensoriel",
-      "subtitle": "Session 10",
-      "category": "atelier",
-      "date_start": "2027-02-11",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/eveil-musical-sensoriel-3mois-3ans-session10",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Eveil_3mois-3ans_c_Bertrand_Gaudill%C3%A8re_1920_0.jpg?h=d1cb525d&itok=7FUC00Uq",
-      "id": "226019bec524"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -32165,19 +30956,6 @@
       "id": "1adb99e63b1a"
     },
     {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Bien-être en musique",
-      "subtitle": null,
-      "category": "atelier",
-      "date_start": "2027-02-17",
-      "date_end": null,
-      "time": "16:30",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/bien-etre-musique-17-fevrier",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Bien_etre_musique_enfant_c_Fred_Mortagne_1920.jpg?h=6ed3570c&itok=p-uE2BfL",
-      "id": "f4874d2b1ab8"
-    },
-    {
       "venue": "Théâtre de la Croix-Rousse",
       "venue_slug": "croix-rousse",
       "title": "Apéro-répèt’ avec Sébastien Valignat",
@@ -32241,19 +31019,6 @@
       "url": "https://www.lecomplexelyon.com/programme/le-complexe-comedy-club-4-humoristes/",
       "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/complexe-comedy-club-540x800.jpg",
       "id": "321ccffd69d0"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Création sonore",
-      "subtitle": "Session vacances d’hiver",
-      "category": "atelier",
-      "date_start": "2027-02-18",
-      "date_end": null,
-      "time": "09:30",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/creation-sonore-9-10ans",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Cr%C3%A9ation_Sonore9-10_03-02-23_Nicolas-Auproux23_1920.jpg?h=33f0de5a&itok=gCUOgenS",
-      "id": "bf4608db1cbd"
     },
     {
       "venue": "Comédie Odéon",
@@ -32345,19 +31110,6 @@
       "url": "https://radiant-bellevue.fr/spectacles/adel-fugazi/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/04/adel-fugazi-500x500.jpg",
       "id": "9866e1fd333b"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Création sonore",
-      "subtitle": "Session vacances d’hiver",
-      "category": "atelier",
-      "date_start": "2027-02-19",
-      "date_end": null,
-      "time": "09:30",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/creation-sonore-9-10ans",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Cr%C3%A9ation_Sonore9-10_03-02-23_Nicolas-Auproux23_1920.jpg?h=33f0de5a&itok=gCUOgenS",
-      "id": "3730c3142833"
     },
     {
       "venue": "Comédie Odéon",
@@ -33322,58 +32074,6 @@
       "id": "b87b3d63ea2c"
     },
     {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Éveil musical et sensoriel",
-      "subtitle": "Session 11",
-      "category": "atelier",
-      "date_start": "2027-03-03",
-      "date_end": null,
-      "time": "09:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/eveil-musical-sensoriel-3mois-3ans-session11",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Eveil_3mois-3ans_c_Bertrand_Gaudill%C3%A8re_1920_0.jpg?h=d1cb525d&itok=7FUC00Uq",
-      "id": "66a2ca5a4dd7"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Éveil musical et sensoriel",
-      "subtitle": "Session 12",
-      "category": "atelier",
-      "date_start": "2027-03-03",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/eveil-musical-sensoriel-3mois-3ans-session12",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Eveil_3mois-3ans_c_Bertrand_Gaudill%C3%A8re_1920_0.jpg?h=d1cb525d&itok=7FUC00Uq",
-      "id": "434ff73dae0a"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Éveil musical et sensoriel",
-      "subtitle": "Session 5",
-      "category": "atelier",
-      "date_start": "2027-03-03",
-      "date_end": null,
-      "time": "11:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/eveil-musical-sensoriel-3ans-5ans-session5",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Atelier_Eveil_3-5ans_BG2604_0150_c_Bertrand_Gaudill%C3%A8re_1920.jpg?h=d1cb525d&itok=2pKZT4tA",
-      "id": "2173dc93af2f"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "À vous la musique !",
-      "subtitle": "Session 3",
-      "category": "atelier",
-      "date_start": "2027-03-03",
-      "date_end": null,
-      "time": "14:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/ateliers-enfants-ados/vous-musique-0",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Atelier_sonore_5-7ans_c_Bertrang_Gaudill%C3%A8re2504_0572_1920.jpg?h=d1cb525d&itok=WMqHI-ar",
-      "id": "0af265ca6df0"
-    },
-    {
       "venue": "La Machinerie - Bizarre !",
       "venue_slug": "la-machinerie-bizarre",
       "title": "Boum Kids",
@@ -33517,45 +32217,6 @@
       "id": "43ae9228b5d2"
     },
     {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Éveil musical et sensoriel",
-      "subtitle": "Session 13",
-      "category": "atelier",
-      "date_start": "2027-03-04",
-      "date_end": null,
-      "time": "09:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/eveil-musical-sensoriel-3mois-3ans-session13",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Eveil_3mois-3ans_c_Bertrand_Gaudill%C3%A8re_1920_0.jpg?h=d1cb525d&itok=7FUC00Uq",
-      "id": "4203bf58f295"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Éveil musical et sensoriel",
-      "subtitle": "Session 14",
-      "category": "atelier",
-      "date_start": "2027-03-04",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-enfants/eveil-musical-sensoriel-3mois-3ans-session14",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Eveil_3mois-3ans_c_Bertrand_Gaudill%C3%A8re_1920_0.jpg?h=d1cb525d&itok=7FUC00Uq",
-      "id": "9a3d96177eef"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Entrez dans l’écoute",
-      "subtitle": "Rachmaninov / Sibelius",
-      "category": "atelier",
-      "date_start": "2027-03-04",
-      "date_end": null,
-      "time": "19:15",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-adultes/entrez-ecoute-4-mars",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Entrez-dans_ecoute_c_Nicolas_Auproux_1920.jpg?h=b2c3862c&itok=EdmRMjpr",
-      "id": "36eef90e9bbb"
-    },
-    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins",
       "title": "L’Amante anglaise",
@@ -33684,19 +32345,6 @@
       "url": "https://improvidence.mapado.com/event/692810-losing-it",
       "image": "https://img.mapado.net/2026/3/31/69cb9f631ed13-losing-it-affiche-1.jpeg_thumbs/600-600.jpeg",
       "id": "41e32c7b5434"
-    },
-    {
-      "venue": "Auditorium de Lyon",
-      "venue_slug": "auditorium-lyon",
-      "title": "Bulle Musicale",
-      "subtitle": null,
-      "category": "atelier",
-      "date_start": "2027-03-05",
-      "date_end": null,
-      "time": "09:30",
-      "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/atelier-sonore/bulle-musicale-05-mars-2027",
-      "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Bulle_Musicale_DSC03852-1_c_Sarah_BRUN_1920.png?h=d1cb525d&itok=aN4KjEb8",
-      "id": "e5e9bc4d1c66"
     },
     {
       "venue": "Auditorium de Lyon",
