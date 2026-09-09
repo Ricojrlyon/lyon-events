@@ -58,8 +58,12 @@ les trois fichiers de données.
   l'orchestre joue hors les murs jusqu'à Bruxelles, et la Salle Molière
   est déjà dans nocturne — d'où une liste BLANCHE de salles maison, les
   lieux extérieurs étant un ensemble ouvert quand les salles du bâtiment
-  sont une liste fermée ; enfin les séances scolaires, facturées « 8 €
-  par élève » et réservées aux classes, sont écartées.
+  sont une liste fermée ; enfin deux genres sont écartés — les séances
+  scolaires, facturées « 8 € par élève » et réservées aux classes, donc
+  pas des sorties ; et les ateliers, publics ceux-là, mais qui pesaient
+  104 des 186 événements du lieu, davantage que toute sa programmation
+  de concerts, une même séance se répétant à 9h, 10h et 11h le même
+  matin.
 - **`scrapers/comedie_odeon.py`** — la Comédie Odéon. Le type
   « spectacle » n'est pas exposé à l'API REST, mais /spectacle/ porte
   TOUT en une requête : les cartes et un calendrier mensuel dont chaque

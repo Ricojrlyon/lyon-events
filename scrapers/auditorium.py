@@ -29,15 +29,19 @@ quelle ville — là où les salles du bâtiment sont une liste courte et
 fermée. Toute mention inconnue est signalée, pour qu'une nouvelle salle
 maison se voie au lieu de disparaître en silence.
 
-LES SÉANCES SCOLAIRES sont écartées : « 8 € par élève, gratuit pour
-l'enseignant et deux accompagnateurs par classe » — elles sont réservées
-aux groupes scolaires, ce n'est pas une sortie. L'URL les nomme
-(/scolaires/) et le genre aussi.
+DEUX GENRES SONT ÉCARTÉS, pour des raisons différentes.
 
-LES ATELIERS sont gardés, eux : éveil musical, atelier en famille, ce
-sont des activités publiques sur réservation, et le frontend a un bucket
-« atelier » qui les attend. À ne pas confondre avec les formations
-professionnelles que le scraper de La Rayonne écarte.
+Les SÉANCES SCOLAIRES ne sont pas des sorties : « 8 € par élève, gratuit
+pour l'enseignant et deux accompagnateurs par classe » — elles sont
+réservées aux groupes scolaires. L'URL les nomme (/scolaires/) et le
+genre aussi.
+
+Les ATELIERS, eux, sont bien publics — éveil musical, atelier en
+famille, sur inscription. Ils sont écartés pour une raison de mesure :
+ils pesaient 104 des 186 événements du lieu, davantage que toute sa
+programmation de concerts, et une même séance se répète à 9h, 10h et 11h
+le même matin. L'Auditorium serait devenu la première source d'ateliers
+de nocturne, ce qu'il n'est pas.
 """
 from __future__ import annotations
 
@@ -99,11 +103,12 @@ GENRES = {
     "afterwork":             "concert",
     "pause-dejeuner":        "concert",
     "en famille":            "concert",
-    "atelier enfants":       "atelier",
-    "atelier adultes":       "atelier",
-    "atelier en famille":    "atelier",
-    "atelier sonore":        "atelier",
 }
+
+# Genres écartés — voir l'en-tête. Le test porte sur le genre normalisé,
+# ce qui couvre « Atelier enfants », « Atelier sonore », « Concert
+# scolaire » et « Ciné-concert scolaire » sans les énumérer.
+GENRES_ECARTES = ("atelier", "scolaire")
 
 _JOUR = re.compile(r"(\d{1,2})\s+([A-Za-zÀ-ÿ]{3,9})\.?\s+(20\d{2})")
 _HEURE = re.compile(r"(?:à|a|de)\s*(\d{1,2})\s*h\s*(\d{2})?")
@@ -234,12 +239,18 @@ def fetch() -> List[Event]:
     events: List[Event] = []
     ailleurs: Dict[str, int] = {}
     genres_inconnus: Dict[str, int] = {}
-    scolaires = sans_date = 0
+    ecartes: Dict[str, int] = {}
+    sans_date = 0
 
     for lien, c in cartes.items():
         genre_norm = _norm(c["genre"])
-        if "scolaire" in genre_norm or "/scolaires/" in lien:
-            scolaires += 1
+        # Le genre suffit presque toujours ; l'URL rattrape la carte dont
+        # le genre est vide, ce qui arrive sur les pages de saison.
+        motif = next((m for m in GENRES_ECARTES if m in genre_norm), None)
+        if motif is None and "/scolaires/" in lien:
+            motif = "scolaire"
+        if motif:
+            ecartes[motif] = ecartes.get(motif, 0) + 1
             continue
 
         detail = detail_cache.get_details(BASE + lien, _lire_fiche,
@@ -274,9 +285,9 @@ def fetch() -> List[Event]:
                 image=c["image"],
             ))
 
-    if scolaires:
-        print(f"[Auditorium] {scolaires} séance(s) scolaire(s) écartée(s)",
-              file=sys.stderr)
+    if ecartes:
+        detail = ", ".join(f"{v} {k}" for k, v in sorted(ecartes.items()))
+        print(f"[Auditorium] écartés : {detail}", file=sys.stderr)
     if ailleurs:
         detail = ", ".join(f"{k} ({v})" for k, v in sorted(ailleurs.items()))
         print(f"[Auditorium] hors les murs, écartés : {detail}",
