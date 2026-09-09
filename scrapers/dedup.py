@@ -135,6 +135,13 @@ VENUE_CANONICAL: dict[str, list[str]] = {
     "IAC Villeurbanne":       ["iac villeurbanne", "iac frac rhone alpes",
                                "institut d art contemporain",
                                "institut d art contemporain villeurbanne"],
+    # Le macLYON. Pas d'alias « art contemporain » nu : l'Institut d'art
+    # contemporain de Villeurbanne le porte aussi, et les deux musées
+    # tomberaient dans le même groupe de dédup.
+    "Musée d'Art Contemporain": ["musee d art contemporain", "maclyon",
+                                 "mac lyon",
+                                 "musee d art contemporain de lyon",
+                                 "musee art contemporain lyon"],
     "Big White":              ["big white"],
     # Added in v34.3: Bar Rock'n Eat (PB) === Rock'n Eat (Ville Morte)
     "Bar Rock'n Eat":         ["bar rock n eat", "rock n eat", "rocknreat",

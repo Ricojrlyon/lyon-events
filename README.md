@@ -8,7 +8,7 @@ et affichés sur une page statique hébergée par GitHub Pages :
 ## Fonctionnement
 
 ```
-28 scrapers venue ──┐
+29 scrapers venue ──┐
                     ├─→ dédup 3 passes ─→ events.json ─→ index.html (GitHub Pages)
 2 agrégateurs ──────┘         │
 (Petit Bulletin,              ├─→ venue_arrondissements.json (géocodage Nominatim)
@@ -118,6 +118,24 @@ les trois fichiers de données.
   nom ; leurs relâches sont lues dans la fiche (« Pas de visite les
   dimanches 4 et 11 octobre »). Tout est in situ par construction : les
   expositions ex situ et les galeries nomades se tiennent ailleurs.
+- **`scrapers/mac_lyon.py`** — le macLYON, musée d'art contemporain.
+  Drupal sans JSON:API, mais dont la LISTE suffit : elle porte le titre,
+  le sous-titre, la période, l'affiche et le type. Aucune fiche à ouvrir,
+  et c'est heureux — la liste est plus complète qu'elles. Le concert de
+  musique de chambre n'a aucun champ de date sur sa fiche, ni « Date » ni
+  « Informations horaires » ; sa date n'existe que sur la liste. HORS LES
+  MURS est le piège de ce musée : il répertorie sous son agenda des
+  expositions qui se tiennent ailleurs, et son champ de type le dit en
+  clair — « Hors les murs » y figure au même titre que « Exposition » ou
+  « Concert ». Les deux entrées ainsi marquées sont *Jeune création
+  internationale*, à l'IAC, et *Musée sentimental*, au Musée des
+  Beaux-Arts : précisément les deux expositions que nocturne scrappe déjà
+  chez leur véritable hôte. Sans ce filtre elles paraîtraient deux fois
+  sous deux lieux, ce que la déduplication ne peut pas voir puisqu'elle
+  groupe PAR lieu. Le champ « Lieu » des fiches dit la même chose, mais
+  en prose, et l'un de ses libellés maison contient « Musée d'art
+  contemporain » — un mot que porte aussi l'Institut d'art contemporain :
+  le marqueur de la liste est plus sûr parce qu'il est catégoriel.
 - **`scrapers/maison_de_la_danse.py`** — la Maison de la Danse, seul
   site du dépôt à demander un `Crawl-delay` (10 s). Il est respecté, et
   c'est ce qui rend `detail_cache` indispensable : le délai est posé DANS
