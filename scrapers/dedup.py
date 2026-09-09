@@ -312,6 +312,49 @@ def _seances_distinctes(a: Event, prio_a: int, b: Event, prio_b: int) -> bool:
             and a.time != b.time)
 
 
+# Au-delà de ce nombre de jours, une plage ne décrit plus une série de
+# représentations mais un accrochage ou un festival au long cours. La
+# valeur reprend le seuil que le frontend utilisait pour la même
+# distinction (LONG_RUN_THRESHOLD, index.html).
+SEUIL_PLAGE = 30
+
+
+def _duree(e: Event) -> int:
+    if not e.date_end or e.date_end == e.date_start:
+        return 1
+    try:
+        return (date.fromisoformat(e.date_end)
+                - date.fromisoformat(e.date_start)).days + 1
+    except ValueError:
+        return 1
+
+
+def _plage_et_seance(a: Event, prio_a: int, b: Event, prio_b: int) -> bool:
+    """Une exposition et l'un de ses rendez-vous, plutôt qu'un doublon ?
+
+    Un accrochage de six mois et une conférence d'une heure ne sont pas le
+    même événement, même si le titre concorde et même s'ils tombent le même
+    jour — c'est au contraire le cas ORDINAIRE, le vernissage ou la
+    conférence inaugurale portant le nom de l'exposition qu'ils ouvrent.
+
+    Mesuré aux Beaux-Arts : « Musée sentimental », du 11 septembre au 14
+    mars, était absorbée par « Conférence : Musée sentimental » du 11
+    septembre à 15h, et c'est la conférence qui gagnait. L'exposition
+    disparaissait du site.
+
+    Comme pour les doubles séances, le critère est la SOURCE : au sein
+    d'une même priorité, une plage longue et une date unique sont deux
+    publications volontairement distinctes. Entre deux sources, un
+    agrégateur qui résume une série en plage doit continuer de fusionner
+    avec les dates que la salle publie — c'est tout l'objet de la dédup.
+    """
+    if prio_a != prio_b:
+        return False
+    da, db = _duree(a), _duree(b)
+    return (da == 1) != (db == 1) and max(da, db) > SEUIL_PLAGE
+
+
+
 def _primary_dedup(tagged_events: List[Tuple[Event, int]]) -> List[Tuple[Event, int]]:
     """Group by (canonical_venue, day) then fuzzy-cluster titles >= 0.7.
 
@@ -350,6 +393,7 @@ def _primary_dedup(tagged_events: List[Tuple[Event, int]]) -> List[Tuple[Event, 
                 # 15h d'une autre source, et n'en rejeter qu'une serait
                 # arbitraire.
                 if any(_seances_distinctes(ev, prio, m_ev, m_prio)
+                       or _plage_et_seance(ev, prio, m_ev, m_prio)
                        for m_ev, m_prio in cluster):
                     continue
                 cluster.append((ev, prio))
@@ -402,6 +446,7 @@ def _secondary_dedup(events_with_prio: List[Tuple[Event, int]]) -> List[Tuple[Ev
                 # justement de séparer. Sans ce test, l'atelier de 14h et
                 # celui de 15h se retrouvaient fusionnés un cran plus loin.
                 if any(_seances_distinctes(ev, prio, m_ev, m_prio)
+                       or _plage_et_seance(ev, prio, m_ev, m_prio)
                        for m_ev, m_prio in cluster):
                     continue
                 cluster.append((ev, prio))
