@@ -8,7 +8,7 @@ et affichés sur une page statique hébergée par GitHub Pages :
 ## Fonctionnement
 
 ```
-24 scrapers venue ──┐
+25 scrapers venue ──┐
                     ├─→ dédup 3 passes ─→ events.json ─→ index.html (GitHub Pages)
 2 agrégateurs ──────┘         │
 (Petit Bulletin,              ├─→ venue_arrondissements.json (géocodage Nominatim)
@@ -47,6 +47,19 @@ les trois fichiers de données.
   produirait un 3 septembre ; et une suite introduite par une
   annulation est écartée, publier une séance annulée étant plus grave
   que d'en manquer une.
+- **`scrapers/auditorium.py`** — l'Auditorium-Orchestre national de
+  Lyon. Drupal, lu en deux temps : une page d'agenda par mois donne les
+  cartes, la fiche donne les dates. La carte ne suffit pas — elle écrit
+  « jeu. 1 oct », sans millésime ni horaire — là où la fiche écrit « Jeu.
+  1 oct 2026 à 20h Ven. 2 oct 2026 à 18h ». L'heure change d'une séance à
+  l'autre du même concert, 20h le jeudi et 18h le vendredi : publier la
+  première pour les deux serait faux un soir sur deux. Trois pièges :
+  le HTML sert les cartes en double (199 balises pour 148 spectacles) ;
+  l'orchestre joue hors les murs jusqu'à Bruxelles, et la Salle Molière
+  est déjà dans nocturne — d'où une liste BLANCHE de salles maison, les
+  lieux extérieurs étant un ensemble ouvert quand les salles du bâtiment
+  sont une liste fermée ; enfin les séances scolaires, facturées « 8 €
+  par élève » et réservées aux classes, sont écartées.
 - **`scrapers/comedie_odeon.py`** — la Comédie Odéon. Le type
   « spectacle » n'est pas exposé à l'API REST, mais /spectacle/ porte
   TOUT en une requête : les cartes et un calendrier mensuel dont chaque

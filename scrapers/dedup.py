@@ -112,6 +112,11 @@ VENUE_CANONICAL: dict[str, list[str]] = {
                                "maison ecologie",
                                "maison de lecologie"],
     "Agend'arts":             ["agend arts", "agendarts"],
+    # Pas d'alias « auditorium » seul : le mot est générique, et un
+    # auditorium d'entreprise ou de musée s'y rangerait à tort.
+    "Auditorium de Lyon":     ["auditorium de lyon", "auditorium lyon",
+                               "auditorium orchestre national de lyon",
+                               "auditorium onl", "auditorium de lyon onl"],
     "Big White":              ["big white"],
     # Added in v34.3: Bar Rock'n Eat (PB) === Rock'n Eat (Ville Morte)
     "Bar Rock'n Eat":         ["bar rock n eat", "rock n eat", "rocknreat",
