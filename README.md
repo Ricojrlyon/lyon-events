@@ -8,7 +8,7 @@ et affichés sur une page statique hébergée par GitHub Pages :
 ## Fonctionnement
 
 ```
-26 scrapers venue ──┐
+27 scrapers venue ──┐
                     ├─→ dédup 3 passes ─→ events.json ─→ index.html (GitHub Pages)
 2 agrégateurs ──────┘         │
 (Petit Bulletin,              ├─→ venue_arrondissements.json (géocodage Nominatim)
@@ -121,6 +121,22 @@ les trois fichiers de données.
   machine. Les affiches viennent de l'`og:image` des fiches spectacle —
   dix-sept fiches pour cent vingt-trois représentations, le même
   spectacle se jouant dix à dix-sept fois.
+- **`scrapers/beaux_arts.py`** — le Musée des Beaux-Arts. Drupal sans
+  JSON:API, mais très régulier : une liste paginée qui porte le type de
+  chaque rendez-vous, et une fiche où chaque séance occupe sa ligne,
+  datée et horodatée. Le choix central est d'ÉCARTER LES VISITES : sur
+  les 321 séances que le musée programme en six mois, 283 sont des
+  visites guidées, et trois seulement commencent à 18h ou plus tard —
+  c'est un programme de journée. Restent une trentaine de vraies
+  sorties : nocturnes, conférences, « Le musée fait son cinéma »,
+  cartes blanches de midi à des chorégraphes et des autrices,
+  week-ends thématiques. Le filtre porte sur le type ET sur le titre :
+  trois séries de visites sont rangées sous un type qui nomme le PUBLIC
+  et non l'activité — « LSF Sourds malentendants », « DBDD Aveugles
+  malvoyants » — et neuf visites passaient. Lire le type sur la liste
+  permet de n'ouvrir qu'une trentaine de fiches au lieu de
+  quatre-vingt-treize ; la liste ne donne en revanche qu'une date par
+  rendez-vous, d'où la lecture des fiches retenues.
 - **`scrapers/celestins.py`** — Les Célestins, seule salle du dépôt à
   offrir une API JSON DOCUMENTÉE : le site tourne sous Roadiz, son
   robots.txt n'interdit que /api/docs, et /api/docs.json rend la

@@ -47,7 +47,7 @@ from scrapers import (
     opera_lyon, tng,
     bourse_du_travail, improvidence, espace_gerson, complexe,
     celestins, tnp, maison_de_la_danse, croix_rousse, comedie_odeon,
-    agendarts, auditorium, confluences,
+    agendarts, auditorium, confluences, beaux_arts,
 )
 from scrapers.aggregators import villemorte, petit_bulletin
 from scrapers.categorie import combler as combler_categories
@@ -84,6 +84,7 @@ SCRAPERS: list[tuple[str, Callable[[], List[Event]]]] = [
     ("Agend'arts",              agendarts.fetch),
     ("Auditorium de Lyon",      auditorium.fetch),
     ("Musée des Confluences",   confluences.fetch),
+    ("Musée des Beaux-Arts",    beaux_arts.fetch),
 ]
 
 # Aggregators — priority lower than venue scrapers (lose against them on

@@ -121,6 +121,11 @@ VENUE_CANONICAL: dict[str, list[str]] = {
     # MJC Confluence est un autre lieu du feed.
     "Musée des Confluences":  ["musee des confluences", "musee confluences",
                                "museedesconfluences"],
+    # Pas d'alias « beaux arts » seul : une école des beaux-arts s'y
+    # rangerait à tort.
+    "Musée des Beaux-Arts":   ["musee des beaux arts", "musee des beaux-arts",
+                               "musee des beaux arts de lyon", "mba lyon",
+                               "musee beaux arts"],
     "Big White":              ["big white"],
     # Added in v34.3: Bar Rock'n Eat (PB) === Rock'n Eat (Ville Morte)
     "Bar Rock'n Eat":         ["bar rock n eat", "rock n eat", "rocknreat",
