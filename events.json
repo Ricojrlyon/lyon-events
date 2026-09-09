@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-09T13:42:02.779259+00:00",
-  "count": 2777,
+  "generated_at": "2026-09-09T14:25:06.531340+00:00",
+  "count": 2686,
   "events": [
     {
       "venue": "Opéra national de Lyon",
@@ -40,19 +40,6 @@
       "url": "https://www.petit-bulletin.fr/agenda-319119-r-trospective-milos-forman.html",
       "image": null,
       "id": "ce71888d65fe"
-    },
-    {
-      "venue": "La Galerue",
-      "venue_slug": "la-galerue",
-      "title": "Perrine Dusseaux",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-09-09",
-      "date_end": "2026-10-02",
-      "time": null,
-      "url": "https://www.petit-bulletin.fr/agenda-319241-perrine-dusseaux.html",
-      "image": null,
-      "id": "83e49fe5345d"
     },
     {
       "venue": "Musée Urbain Tony Garnier",
@@ -107,58 +94,6 @@
       "id": "00ed102bed4f"
     },
     {
-      "venue": "Galerie Imag'In",
-      "venue_slug": "galerie-imag-in",
-      "title": "Christophe Ménart",
-      "subtitle": null,
-      "category": "Photographie",
-      "date_start": "2026-09-09",
-      "date_end": "2026-09-12",
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-318980-christophe-m-nart.html",
-      "image": null,
-      "id": "d6ff9d3d4e3d"
-    },
-    {
-      "venue": "Galerie Kashagan",
-      "venue_slug": "galerie-kashagan",
-      "title": "Lucas Zambon",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-09-09",
-      "date_end": "2026-09-11",
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-318683-lucas-zambon.html",
-      "image": null,
-      "id": "ad9ec2309577"
-    },
-    {
-      "venue": "Galerie Michel Estades",
-      "venue_slug": "galerie-michel-estades",
-      "title": "Un air d'été",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-09-09",
-      "date_end": "2026-09-12",
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-318780-un-air-de-t.html",
-      "image": null,
-      "id": "c7591a041c0f"
-    },
-    {
-      "venue": "Grand Hôtel-Dieu",
-      "venue_slug": "grand-hotel-dieu",
-      "title": "Alphonse Mucha",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-09-09",
-      "date_end": "2027-01-24",
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319044-alphonse-mucha.html",
-      "image": null,
-      "id": "052f2435cfa2"
-    },
-    {
       "venue": "MAM - Musée des Arts et de la Marionnette",
       "venue_slug": "mam-musee-des-arts-et-de-la-marionnette",
       "title": "Carte blanche à La Compagnie à - Le rire, l'intime, le politique",
@@ -170,58 +105,6 @@
       "url": "https://www.petit-bulletin.fr/agenda-314275-carte-blanche-la-compagnie-le-rire-l-intime-le-politique.html",
       "image": null,
       "id": "9fc392b1e60c"
-    },
-    {
-      "venue": "Tomaselli Collection",
-      "venue_slug": "tomaselli-collection",
-      "title": "Le Rhône et la Saône vus par les artistes",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-09-09",
-      "date_end": "2027-02-17",
-      "time": "10:30",
-      "url": "https://www.petit-bulletin.fr/agenda-319070-le-rh-ne-et-la-sa-ne-vus-par-les-artistes.html",
-      "image": null,
-      "id": "d41b8efd8af9"
-    },
-    {
-      "venue": "Galerie Masurel",
-      "venue_slug": "galerie-masurel",
-      "title": "Dream Paper 5",
-      "subtitle": null,
-      "category": "Art contemporain et numérique",
-      "date_start": "2026-09-09",
-      "date_end": "2026-09-12",
-      "time": "11:00",
-      "url": "https://www.petit-bulletin.fr/agenda-314879-dream-paper-5.html",
-      "image": null,
-      "id": "aef8e86bd536"
-    },
-    {
-      "venue": "Musée Jean Couty",
-      "venue_slug": "musee-jean-couty",
-      "title": "Jean Couty",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-09-09",
-      "date_end": "2026-12-20",
-      "time": "11:00",
-      "url": "https://www.petit-bulletin.fr/agenda-316155-jean-couty.html",
-      "image": null,
-      "id": "9719974ab58c"
-    },
-    {
-      "venue": "CAUE du Rhône",
-      "venue_slug": "caue-du-rhone",
-      "title": "Materia Architectures",
-      "subtitle": null,
-      "category": "Design & Architecture",
-      "date_start": "2026-09-09",
-      "date_end": "2026-11-06",
-      "time": "13:00",
-      "url": "https://www.petit-bulletin.fr/agenda-318618-materia-architectures.html",
-      "image": null,
-      "id": "0d4aed72beb6"
     },
     {
       "venue": "Musée Paul-Dini",
@@ -237,45 +120,6 @@
       "id": "def7db40a71c"
     },
     {
-      "venue": "Chapelle Notre-Dame-de-l\\'île-Barbe",
-      "venue_slug": "chapelle-notre-dame-de-l-ile-barbe",
-      "title": "Des corps célestes",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-09-09",
-      "date_end": "2026-09-20",
-      "time": "14:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319038-des-corps-c-lestes.html",
-      "image": null,
-      "id": "f4e6295c940e"
-    },
-    {
-      "venue": "L'attrape-couleurs",
-      "venue_slug": "l-attrape-couleurs",
-      "title": "Louise Perrussel",
-      "subtitle": null,
-      "category": "Art contemporain et numérique",
-      "date_start": "2026-09-09",
-      "date_end": "2026-11-07",
-      "time": "14:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319075-louise-perrussel.html",
-      "image": null,
-      "id": "9ccea17ff1b0"
-    },
-    {
-      "venue": "Maison Ravier",
-      "venue_slug": "maison-ravier",
-      "title": "Héroïnes d'opéra, costumes de scène",
-      "subtitle": null,
-      "category": "Design & Architecture",
-      "date_start": "2026-09-09",
-      "date_end": "2026-10-31",
-      "time": "14:00",
-      "url": "https://www.petit-bulletin.fr/agenda-318785-h-ro-nes-deop-ra-costumes-de-sc-ne.html",
-      "image": null,
-      "id": "ce573636a08c"
-    },
-    {
       "venue": "Parc de la mairie du 5e",
       "venue_slug": "parc-de-la-mairie-du-5e",
       "title": "Festival Éclats de Cirque",
@@ -287,45 +131,6 @@
       "url": "https://www.petit-bulletin.fr/agenda-319149-festival-clats-de-cirque.html",
       "image": null,
       "id": "51649d77a7ce"
-    },
-    {
-      "venue": "Galerie Jean-Louis Mandon",
-      "venue_slug": "galerie-jean-louis-mandon",
-      "title": "Pascal Lombard",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-09-09",
-      "date_end": "2026-10-03",
-      "time": "14:30",
-      "url": "https://www.petit-bulletin.fr/agenda-319237-pascal-lombard.html",
-      "image": null,
-      "id": "a219bcdba613"
-    },
-    {
-      "venue": "Le Bleu du Ciel",
-      "venue_slug": "le-bleu-du-ciel",
-      "title": "Voyage au Kurdistan",
-      "subtitle": null,
-      "category": "Photographie",
-      "date_start": "2026-09-09",
-      "date_end": "2026-09-19",
-      "time": "14:30",
-      "url": "https://www.petit-bulletin.fr/agenda-318498-voyage-au-kurdistan.html",
-      "image": null,
-      "id": "9f115f5ca8d2"
-    },
-    {
-      "venue": "La Salle de bains",
-      "venue_slug": "la-salle-de-bains",
-      "title": "Francesc Ruiz",
-      "subtitle": null,
-      "category": "Art contemporain et numérique",
-      "date_start": "2026-09-09",
-      "date_end": "2026-10-03",
-      "time": "15:00",
-      "url": "https://www.petit-bulletin.fr/agenda-318500-francesc-ruiz.html",
-      "image": null,
-      "id": "06bc3af1d548"
     },
     {
       "venue": "La Madeleine",
@@ -521,32 +326,6 @@
       "url": "https://lacommune.co/event/les-vins-electroniques-dj-kunawara/",
       "image": "https://cdn-ilchkjh.nitrocdn.com/gohSAQIvPXRxVnCrOMzXdhxFQyClcfyS/assets/images/optimized/rev-7a708fa/lacommune.co/wp-content/uploads/2026/05/1080x1350_sept-768x960.jpg",
       "id": "1678da52ddc5"
-    },
-    {
-      "venue": "Fondation Bullukian",
-      "venue_slug": "fondation-bullukian",
-      "title": "Des faits comme défis",
-      "subtitle": null,
-      "category": "Art contemporain et numérique",
-      "date_start": "2026-09-10",
-      "date_end": "2026-12-19",
-      "time": "11:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319047-des-faits-comme-d-fis.html",
-      "image": null,
-      "id": "ef910376136a"
-    },
-    {
-      "venue": "Galerie Catherine Mainguy",
-      "venue_slug": "galerie-catherine-mainguy",
-      "title": "Catherine Mainguy",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-09-10",
-      "date_end": "2026-10-15",
-      "time": "14:00",
-      "url": "https://www.petit-bulletin.fr/agenda-315478-catherine-mainguy.html",
-      "image": null,
-      "id": "b2b4ad514696"
     },
     {
       "venue": "Dr Yeast",
@@ -872,45 +651,6 @@
       "url": "https://www.petit-bulletin.fr/agenda-319164-heure-de-la-d-couverte-le-jeu-des-tarots.html",
       "image": null,
       "id": "d623acbea7cb"
-    },
-    {
-      "venue": "Galerie Roger Tator",
-      "venue_slug": "galerie-roger-tator",
-      "title": "Ronan Lecreurer",
-      "subtitle": null,
-      "category": "Art contemporain et numérique",
-      "date_start": "2026-09-11",
-      "date_end": "2026-11-06",
-      "time": "14:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319039-ronan-lecreurer.html",
-      "image": null,
-      "id": "824feb0d94a5"
-    },
-    {
-      "venue": "La BF15",
-      "venue_slug": "la-bf15",
-      "title": "Charlotte Maucourt et Margot Pietri",
-      "subtitle": null,
-      "category": "Art contemporain et numérique",
-      "date_start": "2026-09-11",
-      "date_end": "2026-10-31",
-      "time": "14:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319094-charlotte-maucourt-et-margot-pietri.html",
-      "image": null,
-      "id": "72c03ed38113"
-    },
-    {
-      "venue": "Galerie Françoise Besson",
-      "venue_slug": "galerie-francoise-besson",
-      "title": "Vital",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-09-11",
-      "date_end": "2026-10-30",
-      "time": "14:30",
-      "url": "https://www.petit-bulletin.fr/agenda-319073-vital.html",
-      "image": null,
-      "id": "a57fdcbb27b3"
     },
     {
       "venue": "Musée des Beaux-Arts",
@@ -1379,32 +1119,6 @@
       "url": "https://www.petit-bulletin.fr/agenda-319169-les-myst-res-de-lyon.html",
       "image": null,
       "id": "4a40fde962fe"
-    },
-    {
-      "venue": "Autour de l'image",
-      "venue_slug": "autour-de-l-image",
-      "title": "Mirages textiles, fragments d'apparitions",
-      "subtitle": null,
-      "category": "Design & Architecture",
-      "date_start": "2026-09-12",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319236-mirages-textiles-fragments-deapparitions.html",
-      "image": null,
-      "id": "ce00048130cb"
-    },
-    {
-      "venue": "Orangerie du Parc de la Tête d\\'Or",
-      "venue_slug": "orangerie-du-parc-de-la-tete-d-or",
-      "title": "Le vestiaire des destinées",
-      "subtitle": null,
-      "category": "Design & Architecture",
-      "date_start": "2026-09-12",
-      "date_end": null,
-      "time": "11:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319071-le-vestiaire-des-destin-es.html",
-      "image": null,
-      "id": "7b9fb710235b"
     },
     {
       "venue": "Théâtre de la Croix-Rousse",
@@ -1966,32 +1680,6 @@
       "id": "82e2ee66b7c7"
     },
     {
-      "venue": "Galerie Imag'In",
-      "venue_slug": "galerie-imag-in",
-      "title": "Uraraka Matsuzawa",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-09-13",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-313707-uraraka-matsuzawa.html",
-      "image": null,
-      "id": "3d7c43321650"
-    },
-    {
-      "venue": "Galerie Imag'In",
-      "venue_slug": "galerie-imag-in",
-      "title": "Exposition collective",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-09-13",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319238-exposition-collective.html",
-      "image": null,
-      "id": "59c37a1ef01f"
-    },
-    {
       "venue": "Parc de la mairie du 5e",
       "venue_slug": "parc-de-la-mairie-du-5e",
       "title": "Festival Éclats de Cirque",
@@ -2003,19 +1691,6 @@
       "url": "https://www.petit-bulletin.fr/agenda-319149-festival-clats-de-cirque.html",
       "image": null,
       "id": "b101677a29a0"
-    },
-    {
-      "venue": "Orangerie du Parc de la Tête d\\'Or",
-      "venue_slug": "orangerie-du-parc-de-la-tete-d-or",
-      "title": "Le vestiaire des destinées",
-      "subtitle": null,
-      "category": "Design & Architecture",
-      "date_start": "2026-09-13",
-      "date_end": null,
-      "time": "11:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319071-le-vestiaire-des-destin-es.html",
-      "image": null,
-      "id": "a1a8a2dc4884"
     },
     {
       "venue": "Parc de Miribel-Jonage",
@@ -2174,45 +1849,6 @@
       "id": "99295869ddd3"
     },
     {
-      "venue": "Galerie Imag'In",
-      "venue_slug": "galerie-imag-in",
-      "title": "Uraraka Matsuzawa",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-09-14",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-313707-uraraka-matsuzawa.html",
-      "image": null,
-      "id": "fcae6c31618c"
-    },
-    {
-      "venue": "Galerie Imag'In",
-      "venue_slug": "galerie-imag-in",
-      "title": "Exposition collective",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-09-14",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319238-exposition-collective.html",
-      "image": null,
-      "id": "6ee176fde39b"
-    },
-    {
-      "venue": "Orangerie du Parc de la Tête d\\'Or",
-      "venue_slug": "orangerie-du-parc-de-la-tete-d-or",
-      "title": "Le vestiaire des destinées",
-      "subtitle": null,
-      "category": "Design & Architecture",
-      "date_start": "2026-09-14",
-      "date_end": null,
-      "time": "11:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319071-le-vestiaire-des-destin-es.html",
-      "image": null,
-      "id": "b98b84edcc7e"
-    },
-    {
       "venue": "Comédie Odéon",
       "venue_slug": "comedie-odeon",
       "title": "Soirée de présentation",
@@ -2302,45 +1938,6 @@
       "url": "https://lacommune.co/event/masterclass-djing-neo-records-marquise/",
       "image": "https://cdn-ilchkjh.nitrocdn.com/gohSAQIvPXRxVnCrOMzXdhxFQyClcfyS/assets/images/optimized/rev-7a708fa/lacommune.co/wp-content/uploads/2025/02/1080x1350_sept-1-768x960.jpg",
       "id": "cc03164048c9"
-    },
-    {
-      "venue": "Galerie Imag'In",
-      "venue_slug": "galerie-imag-in",
-      "title": "Uraraka Matsuzawa",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-09-15",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-313707-uraraka-matsuzawa.html",
-      "image": null,
-      "id": "a3e9d7b9d05f"
-    },
-    {
-      "venue": "Galerie Imag'In",
-      "venue_slug": "galerie-imag-in",
-      "title": "Exposition collective",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-09-15",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319238-exposition-collective.html",
-      "image": null,
-      "id": "ce160a39ae75"
-    },
-    {
-      "venue": "Orangerie du Parc de la Tête d\\'Or",
-      "venue_slug": "orangerie-du-parc-de-la-tete-d-or",
-      "title": "Le vestiaire des destinées",
-      "subtitle": null,
-      "category": "Design & Architecture",
-      "date_start": "2026-09-15",
-      "date_end": null,
-      "time": "11:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319071-le-vestiaire-des-destin-es.html",
-      "image": null,
-      "id": "059d1bcc1e15"
     },
     {
       "venue": "Le Sucre",
@@ -2551,45 +2148,6 @@
       "id": "8a04e4d724a9"
     },
     {
-      "venue": "Saint-Cyr-au-Mont-d\\'Or",
-      "venue_slug": "saint-cyr-au-mont-d-or",
-      "title": "La traversée",
-      "subtitle": null,
-      "category": "Art contemporain et numérique",
-      "date_start": "2026-09-16",
-      "date_end": "2026-10-02",
-      "time": null,
-      "url": "https://www.petit-bulletin.fr/agenda-319136-la-travers-e.html",
-      "image": null,
-      "id": "06477fe163a3"
-    },
-    {
-      "venue": "Galerie Imag'In",
-      "venue_slug": "galerie-imag-in",
-      "title": "Uraraka Matsuzawa",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-09-16",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-313707-uraraka-matsuzawa.html",
-      "image": null,
-      "id": "b5d452f410d8"
-    },
-    {
-      "venue": "Galerie Imag'In",
-      "venue_slug": "galerie-imag-in",
-      "title": "Exposition collective",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-09-16",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319238-exposition-collective.html",
-      "image": null,
-      "id": "5102f52d6553"
-    },
-    {
       "venue": "Au Rikiki",
       "venue_slug": "au-rikiki",
       "title": "Rouge",
@@ -2601,19 +2159,6 @@
       "url": "https://www.petit-bulletin.fr/agenda-319347-rouge.html",
       "image": null,
       "id": "9a22db29b2f0"
-    },
-    {
-      "venue": "Orangerie du Parc de la Tête d\\'Or",
-      "venue_slug": "orangerie-du-parc-de-la-tete-d-or",
-      "title": "Le vestiaire des destinées",
-      "subtitle": null,
-      "category": "Design & Architecture",
-      "date_start": "2026-09-16",
-      "date_end": null,
-      "time": "11:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319071-le-vestiaire-des-destin-es.html",
-      "image": null,
-      "id": "777cc4918f03"
     },
     {
       "venue": "Archives municipales de Lyon",
@@ -2874,58 +2419,6 @@
       "url": "https://lacommune.co/event/dj-set-estival-a-lyon-suntrax/",
       "image": "https://cdn-ilchkjh.nitrocdn.com/gohSAQIvPXRxVnCrOMzXdhxFQyClcfyS/assets/images/optimized/rev-7a708fa/lacommune.co/wp-content/uploads/2026/07/17-1-768x960.jpg",
       "id": "fff51d98da4f"
-    },
-    {
-      "venue": "Galerie Imag'In",
-      "venue_slug": "galerie-imag-in",
-      "title": "Uraraka Matsuzawa",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-09-17",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-313707-uraraka-matsuzawa.html",
-      "image": null,
-      "id": "175b9bec7aa5"
-    },
-    {
-      "venue": "Galerie Imag'In",
-      "venue_slug": "galerie-imag-in",
-      "title": "Exposition collective",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-09-17",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319238-exposition-collective.html",
-      "image": null,
-      "id": "29af876ccc42"
-    },
-    {
-      "venue": "Showroom galerie 7",
-      "venue_slug": "showroom-galerie-7",
-      "title": "Severija In?irauskait?-Kriaunevi?ien?",
-      "subtitle": null,
-      "category": "Design & Architecture",
-      "date_start": "2026-09-17",
-      "date_end": "2026-10-17",
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319050-severija-in-irauskait-kriaunevi-ien.html",
-      "image": null,
-      "id": "61cbdf1f23f9"
-    },
-    {
-      "venue": "Ceysson & Bénétière",
-      "venue_slug": "ceysson-benetiere",
-      "title": "Lionel Sabatté",
-      "subtitle": null,
-      "category": "Art contemporain et numérique",
-      "date_start": "2026-09-17",
-      "date_end": "2026-10-24",
-      "time": "11:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319052-lionel-sabatt.html",
-      "image": null,
-      "id": "33d2d6dc5672"
     },
     {
       "venue": "Archives municipales de Lyon",
@@ -3279,19 +2772,6 @@
       "id": "4daa6685393b"
     },
     {
-      "venue": "La Ferme du Vinatier",
-      "venue_slug": "la-ferme-du-vinatier",
-      "title": "Photographier le sensible, le Vinatier en images",
-      "subtitle": null,
-      "category": "Photographie",
-      "date_start": "2026-09-18",
-      "date_end": "2026-10-23",
-      "time": null,
-      "url": "https://www.petit-bulletin.fr/agenda-319042-photographier-le-sensible-le-vinatier-en-images.html",
-      "image": null,
-      "id": "58f52b1c39d0"
-    },
-    {
       "venue": "Le Petit Salon",
       "venue_slug": "petit-salon",
       "title": "THIS IS TECHNO RAVE : BST / HINSU & MORE",
@@ -3316,32 +2796,6 @@
       "url": "https://www.tnp-villeurbanne.com/spectacle/journees-europeennes-du-patrimoine-2026/",
       "image": "https://www.tnp-villeurbanne.com/app/uploads/2025/06/TNP-facade-2020-2-Jacques-Grison-scaled.jpg",
       "id": "a6b57062ab58"
-    },
-    {
-      "venue": "Galerie Imag'In",
-      "venue_slug": "galerie-imag-in",
-      "title": "Uraraka Matsuzawa",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-09-18",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-313707-uraraka-matsuzawa.html",
-      "image": null,
-      "id": "2a14b7d15ff7"
-    },
-    {
-      "venue": "Galerie Imag'In",
-      "venue_slug": "galerie-imag-in",
-      "title": "Exposition collective",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-09-18",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319238-exposition-collective.html",
-      "image": null,
-      "id": "00bb626c9737"
     },
     {
       "venue": "L'Aqueduc",
@@ -3381,32 +2835,6 @@
       "url": "https://www.halle-tony-garnier.com/fr/programmation/the-ink-factory-7",
       "image": "https://www.halle-tony-garnier.com/storage/143730/conversions/2026-09-18-THE-INK-FACTORY-ink-factory-carre-htg-20260604-085332-square.jpg",
       "id": "6b6ecac2d670"
-    },
-    {
-      "venue": "La Ferme du Vinatier",
-      "venue_slug": "la-ferme-du-vinatier",
-      "title": "Raconte-moi Le Vinatier",
-      "subtitle": null,
-      "category": "Photographie",
-      "date_start": "2026-09-18",
-      "date_end": "2026-10-23",
-      "time": "14:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319057-raconte-moi-le-vinatier.html",
-      "image": null,
-      "id": "48b99f6f104b"
-    },
-    {
-      "venue": "La Ferme du Vinatier",
-      "venue_slug": "la-ferme-du-vinatier",
-      "title": "Karavel, instants de danse",
-      "subtitle": null,
-      "category": "Photographie",
-      "date_start": "2026-09-18",
-      "date_end": "2026-10-23",
-      "time": "14:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319058-karavel-instants-de-danse.html",
-      "image": null,
-      "id": "217afd5ade65"
     },
     {
       "venue": "Spacejunk",
@@ -3825,32 +3253,6 @@
       "id": "9a5fded338d9"
     },
     {
-      "venue": "Galerie Imag'In",
-      "venue_slug": "galerie-imag-in",
-      "title": "Uraraka Matsuzawa",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-09-19",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-313707-uraraka-matsuzawa.html",
-      "image": null,
-      "id": "6bbf4368f5f8"
-    },
-    {
-      "venue": "Galerie Imag'In",
-      "venue_slug": "galerie-imag-in",
-      "title": "Exposition collective",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-09-19",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319238-exposition-collective.html",
-      "image": null,
-      "id": "c0a86fd504bb"
-    },
-    {
       "venue": "Ile Egalité",
       "venue_slug": "ile-egalite",
       "title": "Week-end de rentrée à l'île égalité",
@@ -3929,19 +3331,6 @@
       "id": "a27f98da57f7"
     },
     {
-      "venue": "URDLA",
-      "venue_slug": "urdla",
-      "title": "Delphine Reist",
-      "subtitle": null,
-      "category": "Art contemporain et numérique",
-      "date_start": "2026-09-19",
-      "date_end": "2026-12-19",
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-318982-delphine-reist.html",
-      "image": null,
-      "id": "fafc5f0e4c02"
-    },
-    {
       "venue": "TNG",
       "venue_slug": "tng-vaise",
       "title": "Visite des journées du patrimoine",
@@ -3966,19 +3355,6 @@
       "url": "https://www.petit-bulletin.fr/agenda-319242-190-ans-de-la-brasserie-georges.html",
       "image": null,
       "id": "1cb65481722f"
-    },
-    {
-      "venue": "Centre d'échanges de Perrache",
-      "venue_slug": "centre-d-echanges-de-perrache",
-      "title": "AiRT de famille",
-      "subtitle": null,
-      "category": "Design & Architecture",
-      "date_start": "2026-09-19",
-      "date_end": null,
-      "time": "11:00",
-      "url": "https://www.petit-bulletin.fr/agenda-285983-airt-de-famille.html",
-      "image": null,
-      "id": "3433d8673947"
     },
     {
       "venue": "Théâtre de la Croix-Rousse",
@@ -4293,6 +3669,19 @@
       "id": "6affd8c115d3"
     },
     {
+      "venue": "HEAT",
+      "venue_slug": "heat",
+      "title": "Festigone : Battle de danse",
+      "subtitle": null,
+      "category": "danse",
+      "date_start": "2026-09-19",
+      "date_end": null,
+      "time": "18:30",
+      "url": "https://h-eat.eu/events/festigone-battle-de-danse/",
+      "image": "https://h-eat.eu/wp-content/uploads/2026/09/AFFICHE-BATTLE-540x720.jpg",
+      "id": "8ea839909495"
+    },
+    {
       "venue": "MJC Louis Aragon / Jack Jack",
       "venue_slug": "mjc-louis-aragon-jack-jack",
       "title": "Lancement de saison - Jack Jack",
@@ -4605,19 +3994,6 @@
       "id": "00c7230bf208"
     },
     {
-      "venue": "Galerie Imag'In",
-      "venue_slug": "galerie-imag-in",
-      "title": "Chantal Parise",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-09-20",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319239-chantal-parise.html",
-      "image": null,
-      "id": "036ca02b756d"
-    },
-    {
       "venue": "La Halle Tony Garnier",
       "venue_slug": "halle-tony-garnier",
       "title": "The Ink Factory",
@@ -4839,19 +4215,6 @@
       "id": "681b449ce0c0"
     },
     {
-      "venue": "Galerie Imag'In",
-      "venue_slug": "galerie-imag-in",
-      "title": "Chantal Parise",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-09-21",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319239-chantal-parise.html",
-      "image": null,
-      "id": "851f5cc8cb11"
-    },
-    {
       "venue": "Archives municipales de Lyon",
       "venue_slug": "archives-municipales-de-lyon",
       "title": "Lyon, carrefour de la diplomatie méditerranéenne ? L'ambassade ottomane de 1721",
@@ -4928,19 +4291,6 @@
       "url": "https://lacommune.co/event/piano-bar-lyon/",
       "image": "https://cdn-ilchkjh.nitrocdn.com/gohSAQIvPXRxVnCrOMzXdhxFQyClcfyS/assets/images/optimized/rev-7a708fa/lacommune.co/wp-content/uploads/2025/11/22-1-768x960.jpg",
       "id": "7b3e83710166"
-    },
-    {
-      "venue": "Galerie Imag'In",
-      "venue_slug": "galerie-imag-in",
-      "title": "Chantal Parise",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-09-22",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319239-chantal-parise.html",
-      "image": null,
-      "id": "9613f0ee9c6a"
     },
     {
       "venue": "Le Sucre",
@@ -5123,32 +4473,6 @@
       "url": "https://www.petit-bulletin.fr/agenda-319135-grand-merde.html",
       "image": null,
       "id": "dea162c9a5af"
-    },
-    {
-      "venue": "Galerie Imag'In",
-      "venue_slug": "galerie-imag-in",
-      "title": "Exposition collective",
-      "subtitle": null,
-      "category": "Photographie",
-      "date_start": "2026-09-23",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-318981-exposition-collective.html",
-      "image": null,
-      "id": "aabc2f340d06"
-    },
-    {
-      "venue": "Galerie Imag'In",
-      "venue_slug": "galerie-imag-in",
-      "title": "Chantal Parise",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-09-23",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319239-chantal-parise.html",
-      "image": null,
-      "id": "2f9831008f5b"
     },
     {
       "venue": "Opéra national de Lyon",
@@ -5487,32 +4811,6 @@
       "url": "https://www.petit-bulletin.fr/agenda-319135-grand-merde.html",
       "image": null,
       "id": "8937259b58e3"
-    },
-    {
-      "venue": "Galerie Imag'In",
-      "venue_slug": "galerie-imag-in",
-      "title": "Exposition collective",
-      "subtitle": null,
-      "category": "Photographie",
-      "date_start": "2026-09-24",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-318981-exposition-collective.html",
-      "image": null,
-      "id": "7c9e2e28605c"
-    },
-    {
-      "venue": "Galerie Imag'In",
-      "venue_slug": "galerie-imag-in",
-      "title": "Chantal Parise",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-09-24",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319239-chantal-parise.html",
-      "image": null,
-      "id": "38f3e91cb19c"
     },
     {
       "venue": "Théâtre de la Croix-Rousse",
@@ -5892,45 +5190,6 @@
       "id": "4336d2c36b13"
     },
     {
-      "venue": "Galerie Imag'In",
-      "venue_slug": "galerie-imag-in",
-      "title": "Exposition collective",
-      "subtitle": null,
-      "category": "Photographie",
-      "date_start": "2026-09-25",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-318981-exposition-collective.html",
-      "image": null,
-      "id": "b840e3a70375"
-    },
-    {
-      "venue": "Galerie Imag'In",
-      "venue_slug": "galerie-imag-in",
-      "title": "Chantal Parise",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-09-25",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319239-chantal-parise.html",
-      "image": null,
-      "id": "ba6b5964dad2"
-    },
-    {
-      "venue": "Goethe-Institut",
-      "venue_slug": "goethe-institut",
-      "title": "Metamorphosis. States of Change",
-      "subtitle": null,
-      "category": "Photographie",
-      "date_start": "2026-09-25",
-      "date_end": "2026-11-20",
-      "time": "14:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319053-metamorphosis-states-of-change.html",
-      "image": null,
-      "id": "62f43e5d112f"
-    },
-    {
       "venue": "Librairie Momie",
       "venue_slug": "librairie-momie",
       "title": "Nora Moretti",
@@ -6306,32 +5565,6 @@
       "url": "https://agenda.villemorte.fr/event/marche-les-mains-qui-nous-nourrissent",
       "image": "https://agenda.villemorte.fr/media/thumb/1997683606dbc7056a873a1a3584dee7.jpg",
       "id": "03ed7bc59a32"
-    },
-    {
-      "venue": "Galerie Imag'In",
-      "venue_slug": "galerie-imag-in",
-      "title": "Exposition collective",
-      "subtitle": null,
-      "category": "Photographie",
-      "date_start": "2026-09-26",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-318981-exposition-collective.html",
-      "image": null,
-      "id": "482de6b337fc"
-    },
-    {
-      "venue": "Galerie Imag'In",
-      "venue_slug": "galerie-imag-in",
-      "title": "Chantal Parise",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-09-26",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319239-chantal-parise.html",
-      "image": null,
-      "id": "f4c64e3c6fb9"
     },
     {
       "venue": "Les Subsistances",
@@ -6828,32 +6061,6 @@
       "id": "b582a5abf3aa"
     },
     {
-      "venue": "Galerie Imag'In",
-      "venue_slug": "galerie-imag-in",
-      "title": "Exposition collective",
-      "subtitle": null,
-      "category": "Photographie",
-      "date_start": "2026-09-27",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-318981-exposition-collective.html",
-      "image": null,
-      "id": "6c2ed5a01e34"
-    },
-    {
-      "venue": "Galerie Imag'In",
-      "venue_slug": "galerie-imag-in",
-      "title": "Chantal Parise",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-09-27",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319239-chantal-parise.html",
-      "image": null,
-      "id": "4fb2db5b8f47"
-    },
-    {
       "venue": "Les Subsistances",
       "venue_slug": "les-subs",
       "title": "IF Festival",
@@ -6997,19 +6204,6 @@
       "id": "5066a0a6e383"
     },
     {
-      "venue": "Galerie Imag'In",
-      "venue_slug": "galerie-imag-in",
-      "title": "Petru Ceban",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-09-28",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319240-petru-ceban.html",
-      "image": null,
-      "id": "f9dd3339a1c0"
-    },
-    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "MUSTANG",
@@ -7073,19 +6267,6 @@
       "url": "https://www.lecomplexelyon.com/programme/lopen-mic-du-complexe/",
       "image": "https://www.lecomplexelyon.com/wp-content/uploads/2026/09/lopen-mic-du-complexe-540x800.jpg",
       "id": "474a5657426a"
-    },
-    {
-      "venue": "Galerie Imag'In",
-      "venue_slug": "galerie-imag-in",
-      "title": "Petru Ceban",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-09-29",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319240-petru-ceban.html",
-      "image": null,
-      "id": "945a1f300399"
     },
     {
       "venue": "Marché Gare",
@@ -7333,19 +6514,6 @@
       "url": "https://marchegare.fr/agenda/lecho-du-large",
       "image": "https://marchegare.fr/sites/marchegare/files/styles/large/public/2026-06/photo_5_-_credit_photo_gerard_gachignard.jpg",
       "id": "e33974f61dd4"
-    },
-    {
-      "venue": "Galerie Imag'In",
-      "venue_slug": "galerie-imag-in",
-      "title": "Petru Ceban",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-09-30",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319240-petru-ceban.html",
-      "image": null,
-      "id": "4efc02508881"
     },
     {
       "venue": "Opéra national de Lyon",
@@ -7645,19 +6813,6 @@
       "url": "https://www.periscope-lyon.com/concerts/durden-slmvx-noreah-milmask/",
       "image": "https://www.periscope-lyon.com/wp-content/uploads/2026/07/Durden.jpeg",
       "id": "4cfe7bf2c296"
-    },
-    {
-      "venue": "Galerie Imag'In",
-      "venue_slug": "galerie-imag-in",
-      "title": "Petru Ceban",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-10-01",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319240-petru-ceban.html",
-      "image": null,
-      "id": "739dbd082f3b"
     },
     {
       "venue": "Maison du livre, de l'image et du son",
@@ -7996,19 +7151,6 @@
       "url": "https://shotgun.live/events/creedsinvitesdjschnake?utm_source=site-web",
       "image": "https://www.lpslyon.fr/wp-content/uploads/2026/07/DJschnake_JulianWild_02102026_lepetitsalon-1024x536.jpg",
       "id": "413f83e0b2ac"
-    },
-    {
-      "venue": "Galerie Imag'In",
-      "venue_slug": "galerie-imag-in",
-      "title": "Petru Ceban",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-10-02",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319240-petru-ceban.html",
-      "image": null,
-      "id": "b10232dae3ae"
     },
     {
       "venue": "Musée des Confluences",
@@ -8386,19 +7528,6 @@
       "url": "https://www.tng-lyon.fr/evenement/la-fabrique-des-souvenirs-boule-de-neige/",
       "image": "https://www.tng-lyon.fr/wp-content/uploads/2026/06/La-fabrique-des-souvenirs-Boule-de-neige_460x460.png",
       "id": "fa65056ac236"
-    },
-    {
-      "venue": "Galerie Imag'In",
-      "venue_slug": "galerie-imag-in",
-      "title": "Petru Ceban",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-10-03",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319240-petru-ceban.html",
-      "image": null,
-      "id": "7309389dc512"
     },
     {
       "venue": "Espace Albert Camus",
@@ -8884,7 +8013,7 @@
     {
       "venue": "Le Transbordeur",
       "venue_slug": "transbordeur",
-      "title": "JAH TUBBY’S + DIXIE PEACH + WANDEM SOUND SYSTEM & THE HORNSMEN SECTION + JÇÃO + DAVOJAH + JAEL",
+      "title": "JAH TUBBY’S + DIXIE PEACH + WANDEM SOUND SYSTEM & THE HORNSMEN SECTION + JÇÃO + DAVOJAH + JAEL.",
       "subtitle": null,
       "category": "concert",
       "date_start": "2026-10-03",
@@ -8892,7 +8021,7 @@
       "time": "23:30",
       "url": "https://www.transbordeur.fr/evenement/jah-tubbys-dixie-peach-wandem-sound-system-the-hornsmen-section-jcao-davojah-jael-03102026/",
       "image": "https://www.transbordeur.fr/wp-content/uploads/2026/07/a-dubecho54.jpg",
-      "id": "36ee0595661c"
+      "id": "ef0dc50e6763"
     },
     {
       "venue": "La Commune",
@@ -8932,19 +8061,6 @@
       "url": "https://radiant-bellevue.fr/spectacles/brunch-hip-hop/",
       "image": "https://radiant-bellevue.fr/wp-content/uploads/2026/09/BRUNCH-HIP-HOP-2017-1263-221017-BASSE-RES-500x500.jpg",
       "id": "0546946f0ccd"
-    },
-    {
-      "venue": "Galerie Imag'In",
-      "venue_slug": "galerie-imag-in",
-      "title": "Petru Ceban",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-10-04",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319240-petru-ceban.html",
-      "image": null,
-      "id": "8a9bd8a3859a"
     },
     {
       "venue": "Musée des Confluences",
@@ -9168,19 +8284,6 @@
       "id": "145e4b6a2a74"
     },
     {
-      "venue": "Galerie Imag'In",
-      "venue_slug": "galerie-imag-in",
-      "title": "Jean-Olivier Granger",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-10-05",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319325-jean-olivier-granger.html",
-      "image": null,
-      "id": "99f6f12392bc"
-    },
-    {
       "venue": "Théâtre des Marronniers",
       "venue_slug": "theatre-des-marronniers",
       "title": "Rendez-vous du lundi - Carte blanche à Julien Tiphaine",
@@ -9257,19 +8360,6 @@
       "url": "https://www.tng-lyon.fr/evenement/boule-de-neige/",
       "image": "https://www.tng-lyon.fr/wp-content/uploads/2026/06/460x460_BDN.png",
       "id": "b73d6abebbc6"
-    },
-    {
-      "venue": "Galerie Imag'In",
-      "venue_slug": "galerie-imag-in",
-      "title": "Jean-Olivier Granger",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-10-06",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319325-jean-olivier-granger.html",
-      "image": null,
-      "id": "34af95c148f9"
     },
     {
       "venue": "Marché Gare",
@@ -9478,45 +8568,6 @@
       "url": "https://www.periscope-lyon.com/concerts/louis-sclavis-shunkan-trio/",
       "image": "https://www.periscope-lyon.com/wp-content/uploads/2026/07/CEC18820-AED0-4EF6-A0C1-06C8B956ACBD-IMG_4263-1-650x482.jpg",
       "id": "e7e3327db9be"
-    },
-    {
-      "venue": "Galerie Imag'In",
-      "venue_slug": "galerie-imag-in",
-      "title": "Jean-Olivier Granger",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-10-07",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319325-jean-olivier-granger.html",
-      "image": null,
-      "id": "22f7cb88af6d"
-    },
-    {
-      "venue": "Musée d'Art Contemporain",
-      "venue_slug": "musee-d-art-contemporain",
-      "title": "Fanny Maugey",
-      "subtitle": null,
-      "category": "Art contemporain et numérique",
-      "date_start": "2026-10-07",
-      "date_end": "2026-10-17",
-      "time": "11:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319322-fanny-maugey.html",
-      "image": null,
-      "id": "35c3b8532323"
-    },
-    {
-      "venue": "Galerie Jean-Louis Mandon",
-      "venue_slug": "galerie-jean-louis-mandon",
-      "title": "Christophe Marion",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-10-07",
-      "date_end": "2026-10-31",
-      "time": "14:30",
-      "url": "https://www.petit-bulletin.fr/agenda-286998-christophe-marion.html",
-      "image": null,
-      "id": "2920c07795a6"
     },
     {
       "venue": "Chapelle du Vinatier",
@@ -9790,19 +8841,6 @@
       "url": "https://www.periscope-lyon.com/concerts/buck-5/",
       "image": "https://www.periscope-lyon.com/wp-content/uploads/2022/03/BUCK-PHOTO-PRESSE-©-Thomas-Pierre-650x433.jpg",
       "id": "7fce3cc1c1b6"
-    },
-    {
-      "venue": "Galerie Imag'In",
-      "venue_slug": "galerie-imag-in",
-      "title": "Jean-Olivier Granger",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-10-08",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319325-jean-olivier-granger.html",
-      "image": null,
-      "id": "8dd35cb3c835"
     },
     {
       "venue": "TNP - Théâtre National Populaire",
@@ -10089,19 +9127,6 @@
       "url": "https://improvidence.mapado.com/event/14113-mon-pote",
       "image": "https://img.mapado.net/2023/10/3/651c16e6edef5-affiche-mon-pote-web.jpeg_thumbs/600-600.jpeg",
       "id": "d5ad37a58161"
-    },
-    {
-      "venue": "Galerie Imag'In",
-      "venue_slug": "galerie-imag-in",
-      "title": "Jean-Olivier Granger",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-10-09",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319325-jean-olivier-granger.html",
-      "image": null,
-      "id": "2c33e22e3e53"
     },
     {
       "venue": "Le Sucre",
@@ -10546,19 +9571,6 @@
       "id": "6acb4d1f85ab"
     },
     {
-      "venue": "Galerie Imag'In",
-      "venue_slug": "galerie-imag-in",
-      "title": "Jean-Olivier Granger",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-10-10",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319325-jean-olivier-granger.html",
-      "image": null,
-      "id": "daf6787f026a"
-    },
-    {
       "venue": "Grrrnd Zero",
       "venue_slug": "grrrnd-zero",
       "title": "Grottesque Chaos Frestival - weekend de marionnettes expé, manipulation bruitiste et lutherie sauvage",
@@ -11001,19 +10013,6 @@
       "id": "2d3b91dca6cc"
     },
     {
-      "venue": "Galerie Imag'In",
-      "venue_slug": "galerie-imag-in",
-      "title": "Jean-Olivier Granger",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-10-11",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319325-jean-olivier-granger.html",
-      "image": null,
-      "id": "ea972e1cd394"
-    },
-    {
       "venue": "La Halle Tony Garnier",
       "venue_slug": "halle-tony-garnier",
       "title": "Chaplin En Cine-Concert - Festival Lumiere",
@@ -11170,19 +10169,6 @@
       "id": "8d9a16e488d5"
     },
     {
-      "venue": "Galerie Imag'In",
-      "venue_slug": "galerie-imag-in",
-      "title": "Exposition collective",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-10-12",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319326-exposition-collective.html",
-      "image": null,
-      "id": "3535bee8e4fc"
-    },
-    {
       "venue": "Librairie Terre des livres",
       "venue_slug": "librairie-terre-des-livres",
       "title": "Olivier Neveux",
@@ -11259,32 +10245,6 @@
       "url": "https://www.periscope-lyon.com/concerts/victoria-alexanyan-quintet-sampling-is-beautiful/",
       "image": "https://www.periscope-lyon.com/wp-content/uploads/2026/07/©-Mikel-Muneton2-650x520.jpg",
       "id": "1643c0f278a2"
-    },
-    {
-      "venue": "Bibliothèque de la Part-Dieu",
-      "venue_slug": "bibliotheque-de-la-part-dieu",
-      "title": "Georges Vermard",
-      "subtitle": null,
-      "category": "Photographie",
-      "date_start": "2026-10-13",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319225-georges-vermard.html",
-      "image": null,
-      "id": "f204d730df8a"
-    },
-    {
-      "venue": "Galerie Imag'In",
-      "venue_slug": "galerie-imag-in",
-      "title": "Exposition collective",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-10-13",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319326-exposition-collective.html",
-      "image": null,
-      "id": "b2fd5f7143fe"
     },
     {
       "venue": "Marché Gare",
@@ -11560,19 +10520,6 @@
       "id": "e78536432fe3"
     },
     {
-      "venue": "Galerie Imag'In",
-      "venue_slug": "galerie-imag-in",
-      "title": "Exposition collective",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-10-14",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319326-exposition-collective.html",
-      "image": null,
-      "id": "ace304da5d17"
-    },
-    {
       "venue": "Théâtre des Clochards Célestes",
       "venue_slug": "theatre-des-clochards-celestes",
       "title": "2m² de forêt",
@@ -11610,19 +10557,6 @@
       "url": "https://agenda.villemorte.fr/event/microcosmos-a-la-bibliotheque-de-gerland-avec-arthropologia",
       "image": "https://agenda.villemorte.fr/media/thumb/537ee4b8b4f9f788e89e09f621ea6fd1.jpg",
       "id": "7fc5fdc05d12"
-    },
-    {
-      "venue": "Friche Lamartine",
-      "venue_slug": "friche-lamartine",
-      "title": "Damien Saillard",
-      "subtitle": null,
-      "category": "Art contemporain et numérique",
-      "date_start": "2026-10-14",
-      "date_end": null,
-      "time": "16:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319224-damien-saillard.html",
-      "image": null,
-      "id": "f2ab3238d40c"
     },
     {
       "venue": "Lycée François Cevert",
@@ -11924,19 +10858,6 @@
       "id": "81b11ea85348"
     },
     {
-      "venue": "Galerie Imag'In",
-      "venue_slug": "galerie-imag-in",
-      "title": "Exposition collective",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-10-15",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319326-exposition-collective.html",
-      "image": null,
-      "id": "0f4740a34c6b"
-    },
-    {
       "venue": "Théâtre des Clochards Célestes",
       "venue_slug": "theatre-des-clochards-celestes",
       "title": "2m² de forêt",
@@ -11948,32 +10869,6 @@
       "url": "https://www.petit-bulletin.fr/agenda-319352-2mi-de-for-t.html",
       "image": null,
       "id": "d66806ec8eaa"
-    },
-    {
-      "venue": "Théâtre La Mouche",
-      "venue_slug": "theatre-la-mouche",
-      "title": "Fortes et fières",
-      "subtitle": null,
-      "category": "Art contemporain et numérique",
-      "date_start": "2026-10-15",
-      "date_end": "2026-11-29",
-      "time": "14:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319320-fortes-et-fi-res.html",
-      "image": null,
-      "id": "f37d6b56fd37"
-    },
-    {
-      "venue": "Friche Lamartine",
-      "venue_slug": "friche-lamartine",
-      "title": "Damien Saillard",
-      "subtitle": null,
-      "category": "Art contemporain et numérique",
-      "date_start": "2026-10-15",
-      "date_end": null,
-      "time": "16:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319224-damien-saillard.html",
-      "image": null,
-      "id": "7b5075b14602"
     },
     {
       "venue": "Les Subsistances",
@@ -12301,19 +11196,6 @@
       "id": "794b44057d31"
     },
     {
-      "venue": "Galerie Imag'In",
-      "venue_slug": "galerie-imag-in",
-      "title": "Exposition collective",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-10-16",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319326-exposition-collective.html",
-      "image": null,
-      "id": "9aaf6b8f9dda"
-    },
-    {
       "venue": "Musée des Confluences",
       "venue_slug": "musee-des-confluences",
       "title": "Animal culte",
@@ -12377,19 +11259,6 @@
       "url": "https://www.croix-rousse.com/au-programme/visite-au-musee-des-beaux-arts-avec-elise-chatauret/",
       "image": "https://www.croix-rousse.com/wp-content/uploads/2026/05/Visite-Musée-des-Beaux-Arts-1.png",
       "id": "9eb866a484bf"
-    },
-    {
-      "venue": "Friche Lamartine",
-      "venue_slug": "friche-lamartine",
-      "title": "Damien Saillard",
-      "subtitle": null,
-      "category": "Art contemporain et numérique",
-      "date_start": "2026-10-16",
-      "date_end": null,
-      "time": "16:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319224-damien-saillard.html",
-      "image": null,
-      "id": "79d11ea44414"
     },
     {
       "venue": "La Rayonne",
@@ -12782,19 +11651,6 @@
       "id": "00b45a1847b3"
     },
     {
-      "venue": "Galerie Imag'In",
-      "venue_slug": "galerie-imag-in",
-      "title": "Exposition collective",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-10-17",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319326-exposition-collective.html",
-      "image": null,
-      "id": "5397d14a6ea8"
-    },
-    {
       "venue": "Théâtre des Clochards Célestes",
       "venue_slug": "theatre-des-clochards-celestes",
       "title": "2m² de forêt",
@@ -12819,19 +11675,6 @@
       "url": "https://www.les-subs.com/evenement/minipousses-cirque/",
       "image": "https://www.les-subs.com/wp-content/uploads/2024/04/re1604-1091-200x200.jpg",
       "id": "9b15f19ba5a2"
-    },
-    {
-      "venue": "Friche Lamartine",
-      "venue_slug": "friche-lamartine",
-      "title": "Damien Saillard",
-      "subtitle": null,
-      "category": "Art contemporain et numérique",
-      "date_start": "2026-10-17",
-      "date_end": null,
-      "time": "16:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319224-damien-saillard.html",
-      "image": null,
-      "id": "ed48a33d5a9b"
     },
     {
       "venue": "IAC Villeurbanne",
@@ -13211,19 +12054,6 @@
       "id": "f5ef87ef6618"
     },
     {
-      "venue": "Galerie Imag'In",
-      "venue_slug": "galerie-imag-in",
-      "title": "Exposition collective",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-10-18",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319326-exposition-collective.html",
-      "image": null,
-      "id": "d8db1644f583"
-    },
-    {
       "venue": "Théâtre des Clochards Célestes",
       "venue_slug": "theatre-des-clochards-celestes",
       "title": "2m² de forêt",
@@ -13248,19 +12078,6 @@
       "url": "https://www.mba-lyon.fr/fr/fiche-programmation/erasmuseum-les-etudiants-internationaux-vous-accueillent-au-musee",
       "image": null,
       "id": "dd977f3838d4"
-    },
-    {
-      "venue": "Friche Lamartine",
-      "venue_slug": "friche-lamartine",
-      "title": "Damien Saillard",
-      "subtitle": null,
-      "category": "Art contemporain et numérique",
-      "date_start": "2026-10-18",
-      "date_end": null,
-      "time": "16:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319224-damien-saillard.html",
-      "image": null,
-      "id": "74aeecfe6fc6"
     },
     {
       "venue": "IAC Villeurbanne",
@@ -13352,19 +12169,6 @@
       "url": "https://marchegare.fr/agenda/formation-pro-elaboration-dun-projet-musical-octobre-26",
       "image": "https://marchegare.fr/sites/marchegare/files/styles/large/public/2026-06/music_business_19_10_2.png",
       "id": "2ac280926125"
-    },
-    {
-      "venue": "Galerie Imag'In",
-      "venue_slug": "galerie-imag-in",
-      "title": "Exposition collective",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-10-19",
-      "date_end": "2026-11-01",
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319327-exposition-collective.html",
-      "image": null,
-      "id": "b06c088c8473"
     },
     {
       "venue": "Au Rikiki",
@@ -14327,19 +13131,6 @@
       "url": "https://www.comedieodeon.com/spectacle/quel-cirque/",
       "image": "https://www.comedieodeon.com/wp-content/uploads/2026/07/Affiche_quelcirque_BD.jpg",
       "id": "f4794f931bef"
-    },
-    {
-      "venue": "La Salle de bains",
-      "venue_slug": "la-salle-de-bains",
-      "title": "Merlin Carpenter",
-      "subtitle": null,
-      "category": "Art contemporain et numérique",
-      "date_start": "2026-10-23",
-      "date_end": null,
-      "time": "15:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319328-merlin-carpenter.html",
-      "image": null,
-      "id": "b23a1113a33e"
     },
     {
       "venue": "Le Complexe café-théâtre",
@@ -16539,19 +15330,6 @@
       "id": "36a0ee1d140f"
     },
     {
-      "venue": "Bibliothèque de la Part-Dieu",
-      "venue_slug": "bibliotheque-de-la-part-dieu",
-      "title": "Dans l'œil : collection contemporaine d'art de la BmL",
-      "subtitle": null,
-      "category": "Art contemporain et numérique",
-      "date_start": "2026-11-03",
-      "date_end": null,
-      "time": "10:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319227-dans-l-il-collection-contemporaine-d-art-de-la-bml.html",
-      "image": null,
-      "id": "085c0e1131b1"
-    },
-    {
       "venue": "Radiant-Bellevue",
       "venue_slug": "radiant-bellevue",
       "title": "CHEMINOTES",
@@ -16888,19 +15666,6 @@
       "url": "https://improvidence.mapado.com/event/9973-on-reste-en-contact",
       "image": "https://img.mapado.net/2018/12/2/5c043197ed152-on-reste-en-contact.jpeg_thumbs/600-600.jpeg",
       "id": "c5abb42ef646"
-    },
-    {
-      "venue": "Galerie Françoise Besson",
-      "venue_slug": "galerie-francoise-besson",
-      "title": "Geraldine Kosiak et Yveline Loiseur",
-      "subtitle": null,
-      "category": "Art contemporain et numérique",
-      "date_start": "2026-11-05",
-      "date_end": null,
-      "time": "14:30",
-      "url": "https://www.petit-bulletin.fr/agenda-319228-geraldine-kosiak-et-yveline-loiseur.html",
-      "image": null,
-      "id": "93fad5d4e595"
     },
     {
       "venue": "Musée des Confluences",
@@ -17447,19 +16212,6 @@
       "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/famille/trois-brigands-autres-contes",
       "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/1920_Les_trois_brigands_c_Tomi_Ungerer.jpg?h=9855877d&itok=zgxjxbij",
       "id": "4889f466fb62"
-    },
-    {
-      "venue": "Musée Paul-Dini",
-      "venue_slug": "musee-paul-dini",
-      "title": "Patrice Giorda",
-      "subtitle": null,
-      "category": "Peinture & Dessin",
-      "date_start": "2026-11-07",
-      "date_end": null,
-      "time": "13:30",
-      "url": "https://www.petit-bulletin.fr/agenda-319229-patrice-giorda.html",
-      "image": null,
-      "id": "1d7461700678"
     },
     {
       "venue": "IAC Villeurbanne",
@@ -18385,6 +17137,19 @@
       "id": "a17f0c18d568"
     },
     {
+      "venue": "Chapelle de la Trinité",
+      "venue_slug": "chapelle-de-la-trinite",
+      "title": "Musas",
+      "subtitle": null,
+      "category": "Classique et Lyrique",
+      "date_start": "2026-11-12",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.petit-bulletin.fr/agenda-319403-musas.html",
+      "image": null,
+      "id": "95ce8dcd0c67"
+    },
+    {
       "venue": "Célestins, théâtre de Lyon",
       "venue_slug": "celestins",
       "title": "Le Procès de Jeanne Bloch",
@@ -18541,6 +17306,19 @@
       "id": "7fa0bf05e583"
     },
     {
+      "venue": "Chapelle de la Trinité",
+      "venue_slug": "chapelle-de-la-trinite",
+      "title": "Une expo dans le vent",
+      "subtitle": null,
+      "category": "Sciences et Histoire",
+      "date_start": "2026-11-13",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://www.petit-bulletin.fr/agenda-319405-une-expo-dans-le-vent.html",
+      "image": null,
+      "id": "c9ec087450b8"
+    },
+    {
       "venue": "Le Sucre",
       "venue_slug": "le-sucre",
       "title": "Concert",
@@ -18656,6 +17434,19 @@
       "url": "https://www.auditorium-lyon.com/fr/saison-2026-27/formation-invitee/pygmalion",
       "image": "https://www.auditorium-lyon.com/sites/default/files/styles/vignette_teaser_xl/public/upload/images/Raphae%CC%88l_Pichon_12_c_Piergab_1.jpg?h=d1cb525d&itok=NCN2tDRm",
       "id": "73966f598fb5"
+    },
+    {
+      "venue": "Chapelle de la Trinité",
+      "venue_slug": "chapelle-de-la-trinite",
+      "title": "Univers Gurdjieff #1",
+      "subtitle": null,
+      "category": "Classique et Lyrique",
+      "date_start": "2026-11-13",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.petit-bulletin.fr/agenda-319404-univers-gurdjieff-1.html",
+      "image": null,
+      "id": "98b5c3febc3c"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -18970,6 +17761,19 @@
       "id": "e0c42c2796fa"
     },
     {
+      "venue": "Chapelle de la Trinité",
+      "venue_slug": "chapelle-de-la-trinite",
+      "title": "Une expo dans le vent",
+      "subtitle": null,
+      "category": "Sciences et Histoire",
+      "date_start": "2026-11-14",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://www.petit-bulletin.fr/agenda-319405-une-expo-dans-le-vent.html",
+      "image": null,
+      "id": "6efb3d0fc51f"
+    },
+    {
       "venue": "Théâtre de la Croix-Rousse",
       "venue_slug": "croix-rousse",
       "title": "On a failli t’appeler Marthe !",
@@ -19124,6 +17928,19 @@
       "url": "https://agendarts.wordpress.com/2026/06/20/laurent-berger-christopher-murray/",
       "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/laurent-christopher.jpg?w=1024",
       "id": "0fbb470da178"
+    },
+    {
+      "venue": "Chapelle de la Trinité",
+      "venue_slug": "chapelle-de-la-trinite",
+      "title": "Itinérances sacrées",
+      "subtitle": null,
+      "category": "Classique et Lyrique",
+      "date_start": "2026-11-14",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.petit-bulletin.fr/agenda-319406-itin-rances-sacr-es.html",
+      "image": null,
+      "id": "7444059a35e5"
     },
     {
       "venue": "Le Complexe café-théâtre",
@@ -19295,6 +18112,19 @@
       "id": "6bf5b96acca8"
     },
     {
+      "venue": "Chapelle de la Trinité",
+      "venue_slug": "chapelle-de-la-trinite",
+      "title": "Ovni Sonore",
+      "subtitle": null,
+      "category": "Classique et Lyrique",
+      "date_start": "2026-11-15",
+      "date_end": null,
+      "time": "17:00",
+      "url": "https://www.petit-bulletin.fr/agenda-319407-ovni-sonore.html",
+      "image": null,
+      "id": "91da743af7c0"
+    },
+    {
       "venue": "Agend'arts",
       "venue_slug": "agend-arts",
       "title": "LeHache all stars",
@@ -19306,6 +18136,19 @@
       "url": "https://agendarts.wordpress.com/2026/06/20/lehache-all-stars-2/",
       "image": "https://agendarts.wordpress.com/wp-content/uploads/2026/06/lehache-ph-christine-pascal-2.jpg?w=819",
       "id": "7f3008ead260"
+    },
+    {
+      "venue": "Chapelle de la Trinité",
+      "venue_slug": "chapelle-de-la-trinite",
+      "title": "Une expo dans le vent",
+      "subtitle": null,
+      "category": "Sciences et Histoire",
+      "date_start": "2026-11-15",
+      "date_end": null,
+      "time": "18:00",
+      "url": "https://www.petit-bulletin.fr/agenda-319405-une-expo-dans-le-vent.html",
+      "image": null,
+      "id": "436679de1f34"
     },
     {
       "venue": "Le Sucre",
@@ -19332,6 +18175,19 @@
       "url": "https://www.transbordeur.fr/evenement/beast-in-black-frozen-crown-sonata-arctica-15112026/",
       "image": "https://www.transbordeur.fr/wp-content/uploads/2025/10/BIB_hellraiser_©Jarmo-Katila-_-Toni-Kilpinen.jpg",
       "id": "ee8ca3789eab"
+    },
+    {
+      "venue": "Chapelle de la Trinité",
+      "venue_slug": "chapelle-de-la-trinite",
+      "title": "Fanny Meteier",
+      "subtitle": null,
+      "category": "Classique et Lyrique",
+      "date_start": "2026-11-15",
+      "date_end": null,
+      "time": "19:00",
+      "url": "https://www.petit-bulletin.fr/agenda-319408-fanny-meteier.html",
+      "image": null,
+      "id": "f4bfd3ea494e"
     },
     {
       "venue": "L'Épicerie Moderne",
@@ -19644,6 +18500,19 @@
       "url": "https://www.tnp-villeurbanne.com/spectacle/oh-les-beaux-jours/",
       "image": "https://www.tnp-villeurbanne.com/app/uploads/2026/04/2_Oh_les_beaux_jourscJean_Louis_Fernandez.jpg",
       "id": "a54bfc76f44b"
+    },
+    {
+      "venue": "Chapelle de la Trinité",
+      "venue_slug": "chapelle-de-la-trinite",
+      "title": "Sam Gendel et Sam Wilkes",
+      "subtitle": null,
+      "category": "Classique et Lyrique",
+      "date_start": "2026-11-18",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.petit-bulletin.fr/agenda-319409-sam-gendel-et-sam-wilkes.html",
+      "image": null,
+      "id": "cef26b236833"
     },
     {
       "venue": "Célestins, théâtre de Lyon",
@@ -33556,32 +32425,6 @@
       "id": "cff0780f803e"
     },
     {
-      "venue": "Musée d'Art Contemporain",
-      "venue_slug": "musee-d-art-contemporain",
-      "title": "Sophie Ristelhueber",
-      "subtitle": null,
-      "category": "Photographie",
-      "date_start": "2027-02-26",
-      "date_end": "2027-07-18",
-      "time": "11:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319230-sophie-ristelhueber.html",
-      "image": null,
-      "id": "63277e231f53"
-    },
-    {
-      "venue": "Musée d'Art Contemporain",
-      "venue_slug": "musee-d-art-contemporain",
-      "title": "Alchimies photographiques",
-      "subtitle": null,
-      "category": "Photographie",
-      "date_start": "2027-02-26",
-      "date_end": "2027-07-18",
-      "time": "11:00",
-      "url": "https://www.petit-bulletin.fr/agenda-319231-alchimies-photographiques.html",
-      "image": null,
-      "id": "e21b376f23d7"
-    },
-    {
       "venue": "Comédie Odéon",
       "venue_slug": "comedie-odeon",
       "title": "Le Petit Prince",
@@ -33933,19 +32776,6 @@
       "id": "b87b3d63ea2c"
     },
     {
-      "venue": "Musée des Beaux-Arts",
-      "venue_slug": "musee-des-beaux-arts",
-      "title": "Une petite Histoire du musée, l’abbaye des Dames de Saint Pierre",
-      "subtitle": null,
-      "category": "rencontre",
-      "date_start": "2027-03-03",
-      "date_end": null,
-      "time": "12:30",
-      "url": "https://www.mba-lyon.fr/fr/fiche-programmation/une-petite-histoire-du-musee-labbaye-des-dames-de-saint-pierre",
-      "image": "https://www.mba-lyon.fr/sites/mba/files/styles/crop_900_560/public/medias/images/2026-07/du-regard-au-crayon.jpg?h=bd174762&itok=SeK0_7_t",
-      "id": "6af4f0372ba1"
-    },
-    {
       "venue": "La Machinerie - Bizarre !",
       "venue_slug": "la-machinerie-bizarre",
       "title": "Boum Kids",
@@ -34245,19 +33075,6 @@
       "id": "41e32c7b5434"
     },
     {
-      "venue": "Musée des Beaux-Arts",
-      "venue_slug": "musee-des-beaux-arts",
-      "title": "Regards croisés : quand le pinceau et le pistil se rencontrent...",
-      "subtitle": null,
-      "category": "rencontre",
-      "date_start": "2027-03-05",
-      "date_end": null,
-      "time": "12:30",
-      "url": "https://www.mba-lyon.fr/fr/fiche-programmation/regards-croises-quand-le-pinceau-et-le-pistil-se-rencontrent",
-      "image": "https://www.mba-lyon.fr/sites/mba/files/styles/crop_900_560/public/medias/images/2026-07/du-regard-au-crayon.jpg?h=bd174762&itok=SeK0_7_t",
-      "id": "52956214964c"
-    },
-    {
       "venue": "Auditorium de Lyon",
       "venue_slug": "auditorium-lyon",
       "title": "Rachmaninov / Sibelius",
@@ -34399,19 +33216,6 @@
       "url": "https://www.croix-rousse.com/au-programme/atelier-decriture-avec-logan-de-carvalho/",
       "image": "https://www.croix-rousse.com/wp-content/uploads/2026/06/Logan-De-Carvalho-1080x1080-1.png",
       "id": "b5f4e0794ba9"
-    },
-    {
-      "venue": "Musée des Beaux-Arts",
-      "venue_slug": "musee-des-beaux-arts",
-      "title": "Le musée fait son cinéma : Femmes en fleurs",
-      "subtitle": null,
-      "category": "cinéma",
-      "date_start": "2027-03-06",
-      "date_end": null,
-      "time": "15:00",
-      "url": "https://www.mba-lyon.fr/fr/fiche-programmation/le-musee-fait-son-cinema-femmes-en-fleurs",
-      "image": "https://www.mba-lyon.fr/sites/mba/files/styles/crop_900_560/public/medias/images/2026-06/mur_breton_0.jpg?itok=Olabft-E",
-      "id": "812d11ae2a6d"
     },
     {
       "venue": "Théâtre de la Croix-Rousse",
@@ -34832,6 +33636,19 @@
     {
       "venue": "La Machinerie - Théâtre de Vénissieux",
       "venue_slug": "la-machinerie-theatre-de-venissieux",
+      "title": "Bâtir",
+      "subtitle": null,
+      "category": "Théâtre",
+      "date_start": "2027-03-16",
+      "date_end": null,
+      "time": "20:00",
+      "url": "https://www.petit-bulletin.fr/agenda-319193-b-tir.html",
+      "image": "https://agenda.villemorte.fr/media/thumb/035711c5c5183fa89bf559991fc7e78c.jpg",
+      "id": "98472b8d7eab"
+    },
+    {
+      "venue": "La Machinerie - Théâtre de Vénissieux",
+      "venue_slug": "la-machinerie-theatre-de-venissieux",
       "title": "Bâtir - Salim Djaferi",
       "subtitle": null,
       "category": "théâtre",
@@ -35012,6 +33829,19 @@
       "id": "9e318a26ac8e"
     },
     {
+      "venue": "Improvidence",
+      "venue_slug": "improvidence",
+      "title": "Ça handi long",
+      "subtitle": null,
+      "category": "Impro",
+      "date_start": "2027-03-24",
+      "date_end": null,
+      "time": "19:30",
+      "url": "https://www.petit-bulletin.fr/agenda-318692-a-handi-long.html",
+      "image": null,
+      "id": "7be77bf53060"
+    },
+    {
       "venue": "Les Subsistances",
       "venue_slug": "les-subs",
       "title": "Au Grand Passage",
@@ -35166,6 +33996,19 @@
       "url": "https://www.les-subs.com/evenement/la-meme-chose-mais-pas-tout-a-fait-pareille-anne-sophie-turion/",
       "image": "https://www.les-subs.com/wp-content/uploads/2026/07/visuel-subsidiaire-gabriel-laurent-200x200.jpg",
       "id": "4b33c6aa7871"
+    },
+    {
+      "venue": "Espace Gerson",
+      "venue_slug": "espace-gerson",
+      "title": "L'impro FFF",
+      "subtitle": null,
+      "category": "Impro",
+      "date_start": "2027-03-30",
+      "date_end": null,
+      "time": "20:30",
+      "url": "https://www.petit-bulletin.fr/agenda-319345-l-impro-fff.html",
+      "image": null,
+      "id": "382c83031e53"
     },
     {
       "venue": "La Machinerie - Théâtre de Vénissieux",
@@ -35506,19 +34349,6 @@
       "id": "edf06199435a"
     },
     {
-      "venue": "Improvidence",
-      "venue_slug": "improvidence",
-      "title": "Ça handi long",
-      "subtitle": null,
-      "category": "Impro",
-      "date_start": "2027-04-14",
-      "date_end": null,
-      "time": "19:30",
-      "url": "https://www.petit-bulletin.fr/agenda-318692-a-handi-long.html",
-      "image": null,
-      "id": "37c4b2711353"
-    },
-    {
       "venue": "La Halle Tony Garnier",
       "venue_slug": "halle-tony-garnier",
       "title": "Mosimann",
@@ -35569,19 +34399,6 @@
       "url": "https://www.petit-bulletin.fr/agenda-311257-david-castello-lopes.html",
       "image": null,
       "id": "86f2e30e4445"
-    },
-    {
-      "venue": "Espace Gerson",
-      "venue_slug": "espace-gerson",
-      "title": "L'impro FFF",
-      "subtitle": null,
-      "category": "Impro",
-      "date_start": "2027-04-27",
-      "date_end": null,
-      "time": "20:30",
-      "url": "https://www.petit-bulletin.fr/agenda-319345-l-impro-fff.html",
-      "image": null,
-      "id": "ab7b3eea00be"
     },
     {
       "venue": "Théâtre de la Croix-Rousse",
@@ -35922,6 +34739,19 @@
       "id": "9f9897666f7c"
     },
     {
+      "venue": "Improvidence",
+      "venue_slug": "improvidence",
+      "title": "Ça handi long",
+      "subtitle": null,
+      "category": "Impro",
+      "date_start": "2027-08-26",
+      "date_end": null,
+      "time": "21:00",
+      "url": "https://www.petit-bulletin.fr/agenda-318692-a-handi-long.html",
+      "image": null,
+      "id": "b0f3cc037624"
+    },
+    {
       "venue": "La Rayonne",
       "venue_slug": "la-rayonne",
       "title": "THE PINEAPPLE THIEF",
@@ -36063,19 +34893,6 @@
       "url": "https://www.halle-tony-garnier.com/fr/programmation/philippe-caveriviere",
       "image": "https://www.halle-tony-garnier.com/storage/143790/conversions/2027-12-10-PHILIPPE-CAVERIVIERE-philippecaveriviere-tournee-fnac-1080x1080-copie-1-20260414-114358-square.jpg",
       "id": "95ab438b6959"
-    },
-    {
-      "venue": "Improvidence",
-      "venue_slug": "improvidence",
-      "title": "Ça handi long",
-      "subtitle": null,
-      "category": "Impro",
-      "date_start": "2027-12-22",
-      "date_end": null,
-      "time": "19:30",
-      "url": "https://www.petit-bulletin.fr/agenda-318692-a-handi-long.html",
-      "image": null,
-      "id": "46d73ae64d2d"
     },
     {
       "venue": "La Halle Tony Garnier",
