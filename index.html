@@ -14,6 +14,21 @@
     --bg:           #161f25;
     --bg-elev:      #1c272f;
     --bg-elev-2:    #243038;
+    /* Fond des cartes, en CREUX sous la page et non en relief au-dessus.
+       Elles étaient à --bg-elev, un cran au-dessus du fond : onze points
+       de luminance d'écart, assez pour que le bas de carte ne se confonde
+       pas avec la page, trop peu pour que la grille se lise comme une
+       grille. En descendant à #0d1317 l'écart passe à quatorze points
+       dans l'autre sens, et surtout le fond de carte devient le point le
+       plus sombre de l'écran — donc le blanc du titre et le crème de
+       l'heure y gagnent, là où un fond plus clair les aurait rognés.
+       C'est la valeur de la maquette, où la carte était noire sur un fond
+       gris-bleu.
+       Ces deux teintes sont propres aux cartes : --bg-elev continue de
+       servir la barre de filtres et le ruban des journées, qui doivent
+       bien rester en relief. */
+    --bg-carte:     #0d1317;
+    --bg-carte-2:   #18222a;      /* survol : la carte s'allume */
     --ink:          #e7dfbe;        /* cream — main text */
     --ink-soft:     #a59f86;        /* faded cream — secondary */
     --ink-mute:     #5e6973;        /* muted blue-gray — tertiary */
@@ -694,12 +709,14 @@
     align-content: end;
     row-gap: 6px;
     padding: 14px 18px 12px;
-    border: 1px solid rgba(231, 223, 190, 0.20);
+    /* Filet du même bleu-gris que les autres cadres du site, au lieu du
+       crème à 20 % : sur un fond de carte descendu à #0d1317, le crème
+       translucide tirait vers le brun et la carte prenait un liseré
+       tiède qu'aucun autre élément ne portait. */
+    border: 1px solid var(--rule-strong);
     border-radius: var(--radius);
-    /* Fond légèrement surélevé par rapport à la page : sans lui, le bas
-       de la carte — là où le visuel s'est éteint en fondu — se confondait
-       exactement avec le fond. */
-    background: var(--bg-elev);
+    /* Fond en creux SOUS la page — cf. --bg-carte. */
+    background: var(--bg-carte);
     text-decoration: none;
     color: inherit;
     transition: border-color 0.18s ease, background 0.18s ease;
@@ -710,7 +727,7 @@
   }
   .event:hover {
     border-color: var(--warm);
-    background: var(--bg-elev-2);
+    background: var(--bg-carte-2);
   }
 
   /* ---------- couche visuelle en fond de carte ----------
@@ -766,28 +783,32 @@
   }
   /* Voile sombre CROISSANT : il était le plus fort en haut, où vivait la
      ligne lieu·arr·heure ; le texte étant passé en bas, il s'inverse.
-     Les valeurs sont celles de la maquette validée, correction du haut
-     comprise : 0,50 au bord supérieur — et non 0,30, qui laissait la
-     première ligne d'une carte groupée à 2,99:1 sur une affiche claire.
-     Le palier de 0,90 est atteint dès 40 % et non 48 : il couvre ainsi la
-     ligne du lieu, qui tombe à 41 % sur une carte simple, sans que la
-     rampe des quarante premiers pour cent change assez pour se voir.
+     Le palier de 0,90 est atteint dès 40 % : il couvre ainsi la ligne du
+     lieu, qui tombe à 41 % sur une carte simple, sans que la rampe des
+     quarante premiers pour cent change assez pour se voir. La valeur du
+     haut, 0,28, ne sert qu'à l'image : montée à 0,50 elle éteignait les
+     affiches sans rien gagner sur le texte.
+     Sa COULEUR est celle du fond de carte, #0d1317, et non celle de la
+     page : le voile et le bas de carte se rejoignent donc sans raccord.
+     Tant qu'ils différaient, la zone où le masque éteint l'affiche
+     laissait paraître une marche entre les deux gris.
      C'est ce voile, et non le masque, qui porte la lisibilité. Mesuré sur
      une affiche entièrement blanche — le pire cas, qui n'existe pas : le
-     blanc du texte tient 10 à 15:1 partout, le crème 7,6 à 11:1, et la
-     plus sombre des dix-neuf teintes 4,3:1 sur la ligne du lieu d'une
-     carte simple. Le cas le plus défavorable du site est la carte groupée
-     à quatre lignes, dont le texte remonte jusqu'aux 14 % : 3,3:1 pour
-     cette même teinte sur le cartouche blanc d'un logo. Aller au-delà
-     demanderait soit d'éteindre les logos, soit de délaver quatre des
-     dix-neuf teintes de 20 % — deux prix plus élevés que le gain.
+     blanc du texte tient 15:1 partout, le crème 11:1, et la plus sombre
+     des dix-neuf teintes 4,4:1 sur la ligne du lieu d'une carte simple.
+     Le cas le plus défavorable du site est la carte groupée à quatre
+     lignes, dont le texte remonte jusqu'aux 14 % : 2,9:1 pour cette même
+     teinte sur le cartouche blanc d'un logo — un nom de lieu que le logo
+     derrière lui écrit déjà. Aller au-delà demanderait soit d'éteindre
+     les logos, soit de délaver quatre des dix-neuf teintes de 20 %, sans
+     pour autant atteindre les 4,5:1 qu'un texte de 12 px réclame.
      Il est à l'intérieur de .visual-bg, donc soumis au même masque :
      sous 82 % il ne reste plus rien à voiler et le fond de carte
-     (--bg-elev) porte seul le pied. */
+     (--bg-carte) porte seul le pied. */
   .visual-bg .scrim {
     position: absolute; inset: 0;
     background: linear-gradient(to bottom,
-        rgba(22,31,37,.28) 0%, rgba(22,31,37,.90) 40%, rgba(22,31,37,1) 92%);
+        rgba(13,19,23,.28) 0%, rgba(13,19,23,.90) 40%, rgba(13,19,23,1) 92%);
   }
   /* ---------- logo de salle sur les cartes groupées ----------
      Une carte groupée n'a pas d'affiche : elle représente plusieurs
@@ -901,9 +922,9 @@
      diffuse qui creuse un halo dans l'image. Voiler l'affiche davantage
      aurait coûté sa couleur à toute la carte pour protéger une ligne. */
   .event-venue, .event-arr, .event-time {
-    text-shadow: 0 1px 2px rgba(22,31,37,1), 0 0 10px rgba(22,31,37,.9);
+    text-shadow: 0 1px 2px rgba(13,19,23,1), 0 0 10px rgba(13,19,23,.9);
   }
-  .event-title { text-shadow: 0 1px 8px rgba(22,31,37,.8); }
+  .event-title { text-shadow: 0 1px 8px rgba(13,19,23,.8); }
 
   /* Row 1: header (venue + time) — using inline-block layout instead of flex
      to avoid baseline-alignment height bugs in grid cells */
