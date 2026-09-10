@@ -680,7 +680,19 @@
      predictable than flex + line-clamp inside a fixed-height container. */
   .event {
     display: grid;
-    grid-template-rows: auto 1fr auto;
+    /* Trois rangées au contenu, poussées en BAS de la carte : c'est ce
+       qui définit la carte « A ». Le haut, laissé libre, montre l'affiche.
+       Auparavant les rangées valaient `auto 1fr auto` et le titre flottait
+       au centre d'une piste élastique ; le texte se retrouvait ainsi au
+       milieu de la carte, donc sur la partie la plus forte du visuel.
+       Ici les trois rangées prennent la hauteur de leur contenu et
+       align-content les groupe contre le padding bas — le texte occupe
+       donc toujours la zone où le visuel s'est éteint en fondu.
+       Les `align-self` des enfants (title, list, foot) deviennent sans
+       effet, une rangée `auto` valant exactement son contenu ; ils sont
+       laissés en place pour le mode mobile, où la carte est un flex. */
+    grid-template-rows: auto auto auto;
+    align-content: end;
     row-gap: 6px;
     padding: 14px 18px 12px;
     border: 1px solid rgba(231, 223, 190, 0.20);
@@ -949,13 +961,16 @@
        opsz suit le corps rendu, c'est le rôle de cet axe — le laisser à 16
        pour un texte composé à 21 px appliquerait la compensation optique
        d'un corps plus petit, donc des pleins trop appuyés. */
-    font-variation-settings: 'opsz' 20, 'wght' 400;
-    font-weight: 400;
-    font-size: 21px;
-    line-height: 1.19;
+    font-variation-settings: 'opsz' 24, 'wght' 700;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.06;
     margin: 0;
-    letter-spacing: -0.006em;
-    color: var(--ink);
+    letter-spacing: -0.022em;
+    /* Le seul élément blanc de la carte, et le seul que la teinte de
+       catégorie ne touche pas : c'est ce qui le maintient au-dessus du
+       lieu et du pied, tous deux colorés. */
+    color: #fff;
     text-wrap: balance;
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -1109,19 +1124,6 @@
   button.event:focus-visible {
     outline: 2px solid var(--ink-soft);
     outline-offset: 2px;
-  }
-  /* Compteur d'événements : occupe la place de l'heure d'une carte simple,
-     donc rien de nouveau à apprendre pour l'œil, mais en crème plutôt
-     qu'en tan pour ne pas se faire passer pour un horaire. */
-  .event-count {
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 10px;
-    color: var(--ink);
-    font-weight: 500;
-    white-space: nowrap;
-    letter-spacing: 0.08em;
-    font-variant-numeric: tabular-nums;
-    flex-shrink: 0;
   }
   .event-list {
     display: grid;
@@ -1377,8 +1379,8 @@
          devenu plus PETIT sur mobile que sur grand écran — l'inverse du
          rapport d'origine, où le mobile était d'un demi-point au-dessus.
          Ici la carte est en hauteur libre, le corps ne contraint rien. */
-      font-size: 21px;
-      line-height: 1.18;
+      font-size: 24px;
+      line-height: 1.06;
       max-height: none;
       align-self: stretch;
       margin-top: 2px;
@@ -3268,7 +3270,6 @@ function groupCard(venue, evs, key) {
     '  <div class="event-head">',
     '    <span class="event-venue">' + escapeHtml(venue) + '</span>',
     '    <span class="event-arr">' + escapeHtml(arr) + '</span>',
-    '    <span class="event-count">' + evs.length + ' events</span>',
     '  </div>',
     '  <div class="event-list">' + lines + '</div>',
     '  <div class="event-foot">',
@@ -3334,14 +3335,19 @@ function eventCard(e, seedOverride) {
     '  <div class="event-head">',
     '    <span class="event-venue">' + escapeHtml(e.venue) + '</span>',
     '    ' + arrLabel,
-    '    ' + time,
     '  </div>',
     '  ' + titleHtml,
+    // L'heure a quitté l'en-tête pour le pied : elle y tombe au même
+    // pixel sur toutes les cartes, ce qui en fait une colonne que l'œil
+    // descend d'un seul balayage. En haut, sa position dépendait de la
+    // longueur du nom du lieu — donc elle se déplaçait d'une carte à
+    // l'autre. Dernière du groupe de droite, elle est contre le bord.
     '  <div class="event-foot">',
     '    ' + cat,
     '    <div class="event-foot-right">',
     '      ' + sourceBadge,
     '      ' + runBadge,
+    '      ' + time,
     '    </div>',
     '  </div>',
     '</' + tag + '>'
