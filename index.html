@@ -707,7 +707,14 @@
        laissés en place pour le mode mobile, où la carte est un flex. */
     grid-template-rows: auto auto auto;
     align-content: end;
-    row-gap: 6px;
+    /* Gouttiere NULLE : les deux ecarts de la carte sont portes par les
+       marges des elements, parce qu'ils ne doivent pas etre egaux en
+       geometrie pour l'etre a l'oeil. Une gouttiere uniforme de 6 px
+       donnait 14,4 px d'encre a encre entre le lieu et le titre, contre
+       7,0 px entre le titre et le filet : la boite du lieu laisse 4,7 px
+       de vide sous ses capitales et celle du titre 3,7 px au-dessus des
+       siennes, quand le filet, lui, est pose au ras du titre. */
+    row-gap: 0;
     padding: 14px 18px 12px;
     /* Filet du même bleu-gris que les autres cadres du site, au lieu du
        crème à 20 % : sur un fond de carte descendu à #0d1317, le crème
@@ -1016,7 +1023,9 @@
     font-weight: 600;
     font-size: 22px;
     line-height: 1.08;
-    margin: 0;
+    /* 1 px seulement : la boite du lieu et celle du titre apportent deja
+       8,4 px de vide entre leurs encres. */
+    margin: 2px 0 0;
     letter-spacing: -0.022em;
     /* Le seul élément blanc de la carte, et le seul que la teinte de
        catégorie ne touche pas : c'est ce qui le maintient au-dessus du
@@ -1053,13 +1062,25 @@
   .event-foot {
     display: flex;
     justify-content: flex-end;
-    /* Ligne de base commune, et non centrage des boîtes : le pied mêle
-       quatre corps de texte, et centrer leurs boîtes posait leurs bases
-       à des profondeurs différentes — l'heure tombait 1,5 px sous la
-       catégorie. La hauteur de rangée est tenue par min-height, pour
-       qu'elle ne dépende plus des étiquettes présentes. */
-    align-items: baseline;
+    /* CENTRAGE des boîtes, et non alignement des lignes de base.
+       C'est contre-intuitif et c'est mesuré. JetBrains Mono a une
+       ascendante moins une descendante (1,02 − 0,30) égale à sa hauteur
+       de capitale (0,73) : dans une boîte de ligne centrée, le milieu
+       des capitales tombe donc exactement au milieu de la boîte, quel
+       que soit le corps. Centrer aligne du même coup les CADRES des
+       étiquettes, dont la boîte est symétrique autour de leur texte.
+       Mesuré sur un pied portant les quatre éléments — centres d'encre
+       à 0,75 px près et cadres à 0,25 px du texte, contre 1,5 px pour
+       les deux en alignant les bases. Aligner les bases égalise ce que
+       l'œil ne lit pas et désaligne ce qu'il lit : les cadres.
+       min-height tient la rangée pour qu'elle ne dépende pas des
+       étiquettes présentes. */
+    align-items: center;
     min-height: 18px;
+    /* Douze pixels, dont le filet occupe le milieu : l'encre du titre se
+       retrouve alors a 10,0 px du filet, contre 9,4 px entre le lieu et
+       le titre. Les deux ecarts se lisent enfin comme un seul rythme. */
+    margin-top: 12px;
     gap: 8px;
     /* Indispensable pour que l'ellipse de .event-cat se déclenche : en tant
        qu'élément de grille, ce pied a un min-width:auto qui l'empêche de
@@ -1087,7 +1108,7 @@
     position: absolute;
     left: 0;
     right: 0;
-    top: -3px;
+    top: -7px;
     border-top: 1px solid rgba(231, 223, 190, 0.20);
     border-top: 1px solid color-mix(in srgb, var(--t, #e7dfbe) 55%, transparent);
   }
@@ -1149,9 +1170,9 @@
   }
   .event-foot-right {
     display: inline-flex;
-    /* Même ligne de base que le pied qui le contient, sans quoi ce
-       conteneur intermédiaire recentrerait ses trois enfants entre eux. */
-    align-items: baseline;
+    /* Même centrage que le pied qui le contient, sans quoi ce conteneur
+       intermédiaire réalignerait ses trois enfants entre eux. */
+    align-items: center;
     gap: 6px;
     /* Jamais comprimé par une catégorie longue : c'est elle qui se tronque. */
     flex-shrink: 0;
@@ -1202,6 +1223,8 @@
   }
   .event-list {
     display: grid;
+    /* Meme pouce que le titre, dont cette liste prend la place. */
+    margin-top: 2px;
     row-gap: 3px;
     align-self: center;
     min-height: 0;
@@ -1430,7 +1453,9 @@
     .event {
       display: flex;
       flex-direction: column;
-      gap: 6px;
+      /* Comme sur bureau, l'espacement vient des marges des elements et
+         non d'une gouttiere uniforme, pour que le rythme soit le meme. */
+      gap: 0;
       height: auto;
       min-height: 0;
       padding: 12px 16px 11px;
@@ -1466,14 +1491,12 @@
       line-height: 1.08;
       max-height: none;
       align-self: stretch;
-      margin-top: 2px;
     }
     .event-title.placeholder {
       font-size: 10px;
     }
     .event-foot {
       align-self: stretch;
-      margin-top: 2px;
     }
   }
 </style>
@@ -3386,15 +3409,18 @@ function eventCard(e, seedOverride) {
 
   let runBadge = '';
   /* Un événement qui dure porte sa fin, pas son rang : « 12/29 » ne dit
-     rien d'utile à qui lit la carte, « jusqu'au 30/10 » dit s'il reste du
-     temps. Le dernier jour est nommé, c'est la seule information qui
-     presse. */
+     rien d'utile à qui lit la carte, « → 30/10 » dit s'il reste du temps.
+     Le dernier jour est nommé, c'est la seule information qui presse.
+     La flèche plutôt que « jusqu'au » : c'est la convention que la colonne
+     de droite des cartes groupées emploie déjà, et une carte simple et une
+     carte groupée qui montrent le même événement doivent l'écrire pareil.
+     Elle est aussi trois fois plus courte, dans un pied où la catégorie
+     est le seul élément qui se tronque. */
   if (dureeConnue) {
     if (e._isLast) {
       runBadge = '<span class="event-run">dernier</span>';
     } else {
-      runBadge = '<span class="event-run">jusqu\'au ' + finCourte(e)
-               + '</span>';
+      runBadge = '<span class="event-run">→ ' + finCourte(e) + '</span>';
     }
   }
 
