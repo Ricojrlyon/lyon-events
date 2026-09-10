@@ -976,10 +976,21 @@
      flex:1 et occupe donc tout l'espace libre à sa gauche. */
   .event-arr {
     font-family: 'JetBrains Mono', monospace;
-    font-size: 9.5px;
+    /* Aligne sur les LETTRES du pied : même corps de 10 px, mêmes
+       minuscules, même interlettrage. « villeurbanne » et « autre » se
+       lisent donc exactement comme « café-théâtre » deux lignes plus bas,
+       et le chiffre de « 1er » y dépasse la hauteur d'x comme un chiffre
+       dans une phrase — c'est la relation normale de la fonte, pas
+       l'écart de calibre que corrigeait le pied.
+       Interligne verrouillé à 14 px : le cadre fait alors 18 px, la
+       hauteur exacte de la rangée du lieu. Les étiquettes du pied en font
+       19 grâce à leur interligne de 15 ; ce pixel d'écart ne se voit pas,
+       les deux cadres n'étant jamais sur la même ligne. */
+    font-size: 10px;
+    line-height: 14px;
     color: var(--ink);
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-transform: lowercase;
     font-weight: 400;
     flex-shrink: 0;
     white-space: nowrap;
