@@ -1891,9 +1891,14 @@ const ALL_BUCKETS = [...TYPE_BUCKETS, { key: 'autre', label: 'autre' }];
    Luminosité et chroma volontairement resserrées : ces dix-neuf teintes
    voisinent dans une même grille, et une seule d'entre elles plus vive
    que les autres aurait attiré l'œil sur une catégorie plutôt que sur
-   un événement. Les familles se répondent — les musiques tirent vers le
-   bleu et le violet, la scène vers le rose et l'orange, les expos vers
-   le vert — sans qu'aucune paire ne soit assez proche pour être confondue.
+   un événement. Toutes tiennent donc dans une clarté de 0,64 à 0,78 et
+   une chroma de 0,02 à 0,14 en OKLab.
+   La teinte, en revanche, ne veut RIEN dire : elle n'est choisie que
+   pour être distinguable des dix-huit autres et des couleurs de
+   l'interface, et les familles ne s'y regroupent pas — les musiques
+   couvrent à elles seules toute la roue, de 10° à 332°. Il n'y a donc
+   pas de code à apprendre : la couleur sert à retrouver du même, pas à
+   deviner quoi.
    La couleur ne porte JAMAIS seule une information : la catégorie est
    aussi écrite en mots dans le pied de chaque carte.
    « conference » — musées, bibliothèques, librairies, sciences, soit la
