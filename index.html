@@ -752,31 +752,17 @@
     width: 100%; height: 100%;
     object-fit: cover;
     object-position: center 22%;
-    /* Assombrissement de l'affiche. Depuis que le visuel remplit la carte,
-       le titre passe devant l'image au lieu de la zone nue d'avant, et les
-       affiches claires le rendaient illisible. Le filtre porte sur la
-       balise image seule : les motifs de secours, dessinés dans trois
-       teintes connues à 58 % d'opacité, sont déjà sourds et n'en ont pas
-       besoin. Le léger gain de contraste compense l'affadissement que
-       produit toujours une baisse de luminosité. */
-    filter: brightness(0.60) contrast(1.06);
-  }
-  /* Trame sérigraphie : une grille de points sombres par-dessus l'affiche.
-     C'est elle qui unifie des visuels très hétérogènes (portraits, photos
-     de salle, visuels graphiques) sans en écraser les couleurs.
-     Densifiée en second recours de lisibilité, après l'assombrissement de
-     l'image : points portés de 42 à 50 % du rayon et de 60 à 88 %
-     d'opacité, pas resserré de 3,4 à 3,1 px, plus un voile résiduel de
-     10 % entre les points. Elle assombrit donc l'affiche dans le langage
-     du site plutôt qu'avec un calque neutre — l'image garde ses couleurs
-     et gagne du grain. Contrepartie : les visuels fins et les visages y
-     perdent du détail. */
-  .visual-bg .photo-wrap::after {
-    content: '';
-    position: absolute; inset: 0;
-    background-image: radial-gradient(circle,
-        rgba(22,31,37,.88) 50%, rgba(22,31,37,.10) 56%);
-    background-size: 3.1px 3.1px;
+    /* Assombrissement de l'affiche, aux valeurs de la maquette : le titre
+       passe devant l'image, et les affiches claires le rendaient illisible.
+       La trame sérigraphie qui doublait ce filtre a été retirée — elle
+       apportait 25 % d'assombrissement moyen en plus, dont ce chiffre-ci
+       tient désormais compte, et elle mangeait le détail des visages et
+       des visuels fins. La désaturation légère fait le travail qu'elle
+       faisait d'utile : unifier des affiches très hétérogènes.
+       Le filtre porte sur la balise image seule : les motifs de secours,
+       dessinés dans trois teintes connues à 58 % d'opacité, sont déjà
+       sourds et n'en ont pas besoin. */
+    filter: brightness(0.42) saturate(0.85) contrast(1.08);
   }
   /* Voile sombre CROISSANT : il était le plus fort en haut, où vivait la
      ligne lieu·arr·heure ; le texte étant passé en bas, il s'inverse.
@@ -843,7 +829,10 @@
     position: absolute;
     inset: 0;
     background: #fff;
-    filter: brightness(0.50) contrast(1.06);
+    /* 0,40 et non 0,50 : la trame sérigraphie assombrissait le cartouche
+       d'un quart en plus du filtre, et son retrait l'aurait éclairci
+       d'autant. La valeur rendue est donc la même qu'avant, sans le grain. */
+    filter: brightness(0.40) contrast(1.06);
   }
   .visual-bg .logo-img {
     position: absolute;
@@ -3287,13 +3276,10 @@ function groupCard(venue, evs, key) {
   // Graine du motif : le lieu seul, pour que la grappe garde la même
   // apparence d'un jour à l'autre. Le suffixe évite de tomber sur la
   // graine d'un vrai événement.
-  // Le logo du lieu s'il y en a un, le motif seul sinon. La trame
-  // sérigraphie vient d'un .photo-wrap VIDE : la règle du site s'y
-  // applique telle quelle et ses points couvrent alors toute la carte,
-  // pas seulement le logo — sans quoi elle aurait rejoué, cadrée sur la
-  // marque, le motif qu'on vient justement d'éteindre. Elle se peint
-  // après le voile, comme le ::after d'un vrai .photo-wrap se dessine
-  // par-dessus le voile qu'il contient.
+  // Le logo du lieu s'il y en a un, le motif seul sinon.
+  // Un .photo-wrap VIDE accompagnait le cartouche pour que la trame
+  // sérigraphie couvre toute la carte ; la trame ayant été retirée, il
+  // n'avait plus d'objet et est parti avec elle.
   // Marque du lieu si on a le fichier, cartouche typographique sinon —
   // mais pour les seules salles qu'on scrappe en direct : elles portent
   // une identité que le site revendique, là où un lieu vu à travers un
@@ -3308,7 +3294,7 @@ function groupCard(venue, evs, key) {
   const visual = marque
     ? '<div class="visual-bg has-logo">' + patternSVG(venue + '|·groupe')
       + '<div class="logo-plate">' + marque + '</div>'
-      + '<div class="scrim"></div><div class="photo-wrap"></div></div>'
+      + '<div class="scrim"></div></div>'
     : '<div class="visual-bg">' + patternSVG(venue + '|·groupe') + '</div>';
 
   return [
