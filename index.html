@@ -1871,14 +1871,24 @@ const ALL_BUCKETS = [...TYPE_BUCKETS, { key: 'autre', label: 'autre' }];
    bleu et le violet, la scène vers le rose et l'orange, les expos vers
    le vert — sans qu'aucune paire ne soit assez proche pour être confondue.
    La couleur ne porte JAMAIS seule une information : la catégorie est
-   aussi écrite en mots dans le pied de chaque carte. */
+   aussi écrite en mots dans le pied de chaque carte.
+   « conference » — musées, bibliothèques, librairies, sciences, soit la
+   cinquième teinte du fil par le nombre de cartes — était un kaki
+   #a89b7c à 0,014 de distance OKLab du crème sourd de l'interface,
+   c'est-à-dire la même couleur : elle ne se lisait pas comme une
+   catégorie mais comme du texte de site. Elle prend le pétrole #37b7c8,
+   qui occupe le plus grand vide de teinte de la palette — 54° entre le
+   jazz (187°) et la musique (241°) — à 0,060 de son plus proche voisin.
+   La distance médiane au plus proche voisin passe ainsi de 0,040 à
+   0,057 pour l'ensemble des dix-neuf. Le couple le plus serré qui reste
+   est ciné / autre, à 0,025. */
 const TEINTES = {
   club:      '#8b7cd8', jazz:       '#4fa8a0', rock:      '#e0725c',
   rap:       '#d4b04a', chanson:    '#d98cb0', reggae:    '#6fb05c',
   classique: '#7f9fd6', monde:      '#d89050', musique:   '#6aa9d6',
   humour:    '#e8a94f', theatre:    '#cf6b7a', danse:     '#b57cc4',
   spectacle: '#e08a5c', expo:       '#9fbd7f', cine:      '#8fa0b8',
-  conference:'#a89b7c', atelier:    '#c49a72', jeux:      '#7fb8a8',
+  conference:'#37b7c8', atelier:    '#c49a72', jeux:      '#7fb8a8',
   autre:     '#9aa3ad',
 };
 function teinteDe(rawCategory) {
