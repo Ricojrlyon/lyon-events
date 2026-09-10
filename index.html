@@ -991,10 +991,10 @@
        opsz suit le corps rendu, c'est le rôle de cet axe — le laisser à 16
        pour un texte composé à 21 px appliquerait la compensation optique
        d'un corps plus petit, donc des pleins trop appuyés. */
-    font-variation-settings: 'opsz' 24, 'wght' 700;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 1.06;
+    font-variation-settings: 'opsz' 22, 'wght' 600;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1.08;
     margin: 0;
     letter-spacing: -0.022em;
     /* Le seul élément blanc de la carte, et le seul que la teinte de
@@ -1002,9 +1002,15 @@
        lieu et du pied, tous deux colorés. */
     color: #fff;
     text-wrap: balance;
+    /* Deux lignes, jamais trois : au-delà, coupe et points de suspension.
+       Le clamp les dessine lui-même. Trois lignes tenaient dans la carte
+       — 76 px pour 84 disponibles — mais un titre de trois lignes en
+       22 px devenait le seul objet de la carte et écrasait tout le reste ;
+       et les rares titres si longs sont des phrases d'agrégateur qu'une
+       coupe résume mieux qu'un pavé. */
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 2;
     overflow: hidden;
     align-self: center;
   }
@@ -1179,10 +1185,14 @@
        poussait le pied hors de la carte. */
     line-height: 18px;
   }
+  /* Les titres d'une carte groupée sont en BLANC, comme le titre d'une
+     carte simple : ils en tiennent exactement le rôle, et le crème les
+     mettait un cran en dessous du reste alors qu'ils sont l'information.
+     Seule la ligne de report « + N autres » reste sourde. */
   .event-line .t {
     font-size: 14px;
     font-weight: 300;
-    color: var(--ink);
+    color: #fff;
     line-height: inherit;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -1418,8 +1428,8 @@
          devenu plus PETIT sur mobile que sur grand écran — l'inverse du
          rapport d'origine, où le mobile était d'un demi-point au-dessus.
          Ici la carte est en hauteur libre, le corps ne contraint rien. */
-      font-size: 24px;
-      line-height: 1.06;
+      font-size: 22px;
+      line-height: 1.08;
       max-height: none;
       align-self: stretch;
       margin-top: 2px;
