@@ -1001,6 +1001,9 @@
     letter-spacing: 0.04em;
     font-variant-numeric: tabular-nums;
     flex-shrink: 0;
+    /* Son filet est déclaré plus bas, après la boîte commune aux
+       étiquettes : celle-ci pose `border: 1px solid transparent` et vit
+       après cette règle-ci, si bien qu'à spécificité égale elle gagnait. */
   }
   .event-time.empty {
     color: var(--ink-mute);
@@ -1076,11 +1079,11 @@
        min-height tient la rangée pour qu'elle ne dépende pas des
        étiquettes présentes. */
     align-items: center;
-    min-height: 18px;
+    min-height: 19px;
     /* Douze pixels, dont le filet occupe le milieu : l'encre du titre se
        retrouve alors a 10,0 px du filet, contre 9,4 px entre le lieu et
        le titre. Les deux ecarts se lisent enfin comme un seul rythme. */
-    margin-top: 12px;
+    margin-top: 11px;
     gap: 8px;
     /* Indispensable pour que l'ellipse de .event-cat se déclenche : en tant
        qu'élément de grille, ce pied a un min-width:auto qui l'empêche de
@@ -1108,7 +1111,7 @@
     position: absolute;
     left: 0;
     right: 0;
-    top: -7px;
+    top: -6px;
     border-top: 1px solid rgba(231, 223, 190, 0.20);
     border-top: 1px solid color-mix(in srgb, var(--t, #e7dfbe) 55%, transparent);
   }
@@ -1145,15 +1148,36 @@
      garantissait avant.
      Cette règle doit précéder les deux suivantes, qui la surchargent. */
   .event-run,
-  .event-source {
+  .event-source,
+  .event-time {
     display: inline-block;
     box-sizing: border-box;
-    padding: 1px 6px;
-    line-height: 13px;
+    /* Rembourrage et rayon repris au caractère près de .event-arr :
+       l'heure encadrée devait ressembler à l'étiquette d'arrondissement,
+       et les trois étiquettes du pied lui ressemblent donc aussi. Un
+       pixel de moins de chaque côté qu'avant, soit six par carte rendus
+       à la catégorie — le seul élément du pied qui se tronque. */
+    padding: 1px 5px;
+    /* 15 px et non 13 : l'heure, qui rejoint cette boîte, est composée en
+       11 px dont la hauteur de contenu vaut 14,5. À 13 px elle aurait
+       touché son filet. Les trois étiquettes gardent ainsi le même cadre
+       de 19 px, ce qui est toute la raison d'être de cette règle. */
+    line-height: 15px;
     border: 1px solid transparent;
-    border-radius: var(--radius);
+    border-radius: 2px;
     font-family: 'JetBrains Mono', monospace;
     white-space: nowrap;
+  }
+  /* Même filet crème que l'étiquette d'arrondissement : l'heure est de la
+     même nature qu'elle — une coordonnée, pas une description. Sélecteur
+     à deux classes pour l'emporter sur la boîte commune ci-dessus quel que
+     soit l'ordre des règles. */
+  .event-foot .event-time { border-color: rgba(231, 223, 190, 0.32); }
+  /* Un tiret encadré dirait qu'on sait quelque chose. */
+  .event-foot .event-time.empty {
+    border-color: transparent;
+    padding-left: 0;
+    padding-right: 0;
   }
   /* « jusqu'au 18/10 » et « dernier » prennent exactement l'habit de
      l'étiquette d'arrondissement : même corps, même crème, même filet,
@@ -3334,7 +3358,7 @@ function groupCard(venue, evs, key) {
     // du groupe. On y met la fin, dans la même convention.
     const droite = e.time
       || (e.date_end && e.date_end !== e.date_start
-          ? (e._isLast ? 'dernier' : '→ ' + finCourte(e)) : '—');
+          ? (e._isLast ? 'dernière' : '→ ' + finCourte(e)) : '—');
     lines += '<span class="event-line"><span class="t">' + escapeHtml(t)
            + '</span><span class="h">' + escapeHtml(droite) + '</span></span>';
   }
@@ -3420,7 +3444,8 @@ function eventCard(e, seedOverride) {
   let runBadge = '';
   /* Un événement qui dure porte sa fin, pas son rang : « 12/29 » ne dit
      rien d'utile à qui lit la carte, « → 30/10 » dit s'il reste du temps.
-     Le dernier jour est nommé, c'est la seule information qui presse.
+     Le dernier jour est nommé — « dernière », comme la dernière séance —,
+     c'est la seule information qui presse.
      La flèche plutôt que « jusqu'au » : c'est la convention que la colonne
      de droite des cartes groupées emploie déjà, et une carte simple et une
      carte groupée qui montrent le même événement doivent l'écrire pareil.
@@ -3428,7 +3453,7 @@ function eventCard(e, seedOverride) {
      est le seul élément qui se tronque. */
   if (dureeConnue) {
     if (e._isLast) {
-      runBadge = '<span class="event-run">dernier</span>';
+      runBadge = '<span class="event-run">dernière</span>';
     } else {
       runBadge = '<span class="event-run">→ ' + finCourte(e) + '</span>';
     }
