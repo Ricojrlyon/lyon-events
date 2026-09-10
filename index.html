@@ -1212,8 +1212,9 @@
      distingue plus les deux agrégateurs, le mot s'en charge. */
   .event-source {
     font-size: 8px;
-    text-transform: lowercase;
-    letter-spacing: 0.08em;
+    /* Capitales : « PB » et « VM » sont des sigles, pas des mots. */
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
     font-weight: 400;
     color: var(--ink-soft);
     color: var(--t, var(--ink-soft));
@@ -2738,8 +2739,12 @@ function sourceBadgeHtml(e) {
   // from an aggregator. Only events at venues we DON'T scrape keep their badge.
   if (venueHomepage[e.venue]) return '';
   const s = eventSource(e);
-  if (s === 'pb') return '<span class="event-source pb">petit bulletin</span>';
-  if (s === 'vm') return '<span class="event-source vm">ville morte</span>';
+  /* Abrégé en deux lettres : le nom entier occupait jusqu'à 71 px du pied,
+     pris à la catégorie qui est le seul élément à se tronquer. Le titre
+     natif rend le nom complet au survol, et il est lu par les lecteurs
+     d'écran — l'information n'est pas perdue, seulement repliée. */
+  if (s === 'pb') return '<span class="event-source pb" title="petit bulletin">PB</span>';
+  if (s === 'vm') return '<span class="event-source vm" title="ville morte">VM</span>';
   return '';
 }
 
