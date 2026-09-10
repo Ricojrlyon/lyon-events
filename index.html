@@ -994,7 +994,7 @@
      colonne d'heures se déformerait de carte en carte. */
   .event-time {
     font-family: 'JetBrains Mono', monospace;
-    font-size: 11px;
+    font-size: 8px;
     color: var(--ink);
     font-weight: 400;
     white-space: nowrap;
@@ -1115,9 +1115,20 @@
     border-top: 1px solid rgba(231, 223, 190, 0.20);
     border-top: 1px solid color-mix(in srgb, var(--t, #e7dfbe) 55%, transparent);
   }
+  /* Dix pixels pour les LETTRES du pied, huit pour ses CHIFFRES : dans
+     JetBrains Mono, un chiffre mesure 0,75 em d'encre contre 0,55 em pour
+     la hauteur d'x d'une minuscule, soit un rapport de 1,36 à corps égal.
+     Les corps d'origine — 9 px pour la catégorie, 11 px pour l'heure —
+     portaient l'écart à 1,67 : l'heure faisait une fois deux tiers la
+     hauteur de la catégorie, et se lisait comme un autre calibre.
+     Dix et huit donnent 5,50 px et 6,00 px d'encre, un rapport de 1,09.
+     Composer les chiffres plus petits que les lettres est le seul moyen
+     d'obtenir la même taille APPARENTE : la fonte n'offre pas de chiffres
+     elzeviriens, qui l'auraient réglé sans y toucher — vérifié, la
+     propriété font-variant-numeric: oldstyle-nums n'y change rien. */
   .event-cat {
     font-family: 'JetBrains Mono', monospace;
-    font-size: 9px;
+    font-size: 10px;
     color: var(--ink-soft);
     color: var(--t, var(--ink-soft));
     text-transform: lowercase;
@@ -1158,10 +1169,10 @@
        pixel de moins de chaque côté qu'avant, soit six par carte rendus
        à la catégorie — le seul élément du pied qui se tronque. */
     padding: 1px 5px;
-    /* 15 px et non 13 : l'heure, qui rejoint cette boîte, est composée en
-       11 px dont la hauteur de contenu vaut 14,5. À 13 px elle aurait
-       touché son filet. Les trois étiquettes gardent ainsi le même cadre
-       de 19 px, ce qui est toute la raison d'être de cette règle. */
+    /* 15 px : la catégorie, désormais la plus grande du pied avec ses
+       10 px, a 13,2 px de hauteur de contenu. À 13 px d'interligne elle
+       aurait touché son filet. Les quatre étiquettes gardent ainsi le même
+       cadre de 19 px, ce qui est toute la raison d'être de cette règle. */
     line-height: 15px;
     border: 1px solid transparent;
     border-radius: 2px;
@@ -1185,9 +1196,9 @@
      où le lieu et le calendrier se situent — et le corail les faisait
      crier plus fort que le titre qu'elles annotent. */
   .event-run {
-    font-size: 9.5px;
+    font-size: 8px;
+    text-transform: lowercase;
     color: var(--ink);
-    text-transform: uppercase;
     letter-spacing: 0.1em;
     border-color: rgba(231, 223, 190, 0.32);
     font-weight: 400;
@@ -1235,9 +1246,8 @@
      l'heure. Le nom de la source reste écrit en clair : la couleur ne
      distingue plus les deux agrégateurs, le mot s'en charge. */
   .event-source {
-    font-size: 8px;
-    /* Capitales : « PB » et « VM » sont des sigles, pas des mots. */
-    text-transform: uppercase;
+    font-size: 10px;
+    text-transform: lowercase;
     letter-spacing: 0.1em;
     font-weight: 400;
     color: var(--ink-soft);
@@ -1515,9 +1525,6 @@
     .event-venue {
       font-size: 11px;
       letter-spacing: 0.12em;
-    }
-    .event-time {
-      font-size: 10px;
     }
     /* En mobile la carte est une pile flex verticale, où align-self joue sur
        l'axe HORIZONTAL : le centrage prévu pour la grille y rétrécirait la
