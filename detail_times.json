@@ -1258,6 +1258,10 @@
     "fetched_at": "2026-08-12",
     "time": "20:00"
   },
+  "https://radiant-bellevue.fr/spectacles/bertrand-belin-2/": {
+    "fetched_at": "2026-09-10",
+    "time": "20:00"
+  },
   "https://radiant-bellevue.fr/spectacles/brunch-hip-hop/": {
     "fetched_at": "2026-09-07",
     "time": null
@@ -2771,6 +2775,20 @@
       ]
     ]
   },
+  "https://www.auditorium-lyon.com/fr/saison-2026-27/famille/carnaval-emotions": {
+    "fetched_at": "2026-09-10",
+    "lieu": "Auditorium de Lyon / Salle Proton-de-la-Chapelle",
+    "seances": [
+      [
+        "2026-10-23",
+        "09:30"
+      ],
+      [
+        "2026-10-24",
+        "09:30"
+      ]
+    ]
+  },
   "https://www.auditorium-lyon.com/fr/saison-2026-27/famille/petite-taupe": {
     "fetched_at": "2026-09-09",
     "lieu": "Grande Salle",
@@ -2914,6 +2932,26 @@
       [
         "2026-11-23",
         "20:00"
+      ]
+    ]
+  },
+  "https://www.auditorium-lyon.com/fr/saison-2026-27/jeunes-talents/eleves-du-cnsmd-lyon-12-nov-26": {
+    "fetched_at": "2026-09-10",
+    "lieu": "Auditorium de Lyon / Salle Proton-de-la-Chapelle",
+    "seances": [
+      [
+        "2026-11-12",
+        "12:30"
+      ]
+    ]
+  },
+  "https://www.auditorium-lyon.com/fr/saison-2026-27/jeunes-talents/eleves-du-cnsmd-lyon-15-oct-26": {
+    "fetched_at": "2026-09-10",
+    "lieu": "Auditorium de Lyon / Salle Proton-de-la-Chapelle",
+    "seances": [
+      [
+        "2026-10-15",
+        "12:30"
       ]
     ]
   },
@@ -5226,6 +5264,11 @@
     "image": "https://www.transbordeur.fr/wp-content/uploads/2026/02/a-eluveitie2.jpg",
     "time": "19:00"
   },
+  "https://www.transbordeur.fr/evenement/eva-05022027/": {
+    "fetched_at": "2026-09-10",
+    "image": "https://www.transbordeur.fr/wp-content/uploads/2026/08/a-eva.jpg",
+    "time": "19:00"
+  },
   "https://www.transbordeur.fr/evenement/ezra-collective-joy-anonymous-23022027/": {
     "fetched_at": "2026-09-01",
     "image": "https://www.transbordeur.fr/wp-content/uploads/2024/04/a-ezracollectif.jpeg",
@@ -5350,6 +5393,11 @@
     "fetched_at": "2026-08-18",
     "image": "https://www.transbordeur.fr/wp-content/uploads/2025/11/40_60.jpg",
     "time": "19:00"
+  },
+  "https://www.transbordeur.fr/evenement/lee-fields-09022027/": {
+    "fetched_at": "2026-09-10",
+    "image": "https://www.transbordeur.fr/wp-content/uploads/2024/04/a-leefields2-1.jpg",
+    "time": "20:00"
   },
   "https://www.transbordeur.fr/evenement/lenaig-28112026/": {
     "fetched_at": "2026-08-18",
