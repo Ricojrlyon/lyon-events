@@ -1201,6 +1201,30 @@
     /* Jamais comprimé par une catégorie longue : c'est elle qui se tronque. */
     flex-shrink: 0;
   }
+  /* VARIANTE A — la catégorie encadrée comme les trois autres étiquettes.
+     Même rembourrage, même interligne, même rayon, donc le même cadre de
+     19 px ; le filet prend la teinte à 45 %, comme celui de la provenance,
+     puisque tous deux disent ce QU'EST l'événement là où l'arrondissement
+     et l'heure le situent en crème.
+     Cette règle vient APRÈS .event-cat et compte deux classes : elle doit
+     l'emporter sur le display du bloc d'origine sans le réécrire.
+     Le coût mesuré est nul depuis que la provenance est un sigle : deux
+     catégories tronquées sur 3104 aux largeurs courantes, quatre au plus
+     étroit du bureau, contre deux — c'était 489 avant le sigle. */
+  .event-foot .event-cat {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 1px 5px;
+    line-height: 15px;
+    border: 1px solid transparent;
+    border-color: rgba(165, 159, 134, 0.34);
+    border-color: color-mix(in srgb, var(--t, #a59f86) 45%, transparent);
+    border-radius: 2px;
+  }
+  /* Sans quoi une catégorie vide dessinerait un cadre vide : la règle
+     .event-cat:empty plus haut est battue par le display ci-dessus. */
+  .event-foot .event-cat:empty { display: none; }
+
   /* La provenance prend la teinte de la carte, sans cadre ni fond : le
      vert olive et le brun qu'elle portait étaient les deux seules
      couleurs de la carte à ne rien devoir à sa catégorie, et ils
