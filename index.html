@@ -893,7 +893,10 @@
   .event-venue {
     font-family: 'JetBrains Mono', monospace;
     font-size: 12px;
+    /* Teinte de la catégorie, posée par --t sur la carte. Repli en crème
+       si la variable manque — une carte rendue hors du feed, par exemple. */
     color: var(--ink);
+    color: var(--t, var(--ink));
     text-transform: uppercase;
     letter-spacing: 0.14em;
     font-weight: 700;
@@ -991,10 +994,30 @@
        grid .event (auto 1fr auto), align-self end la colle au padding bas. */
     align-self: end;
   }
+  /* Filet de la teinte au-dessus du pied — le trait qui vient de la
+     maquette E. Il est dessiné par un PSEUDO-ÉLÉMENT absolu, posé au
+     milieu de la gouttière de 6 px, et non par un border-top sur le pied :
+     une bordure et son padding auraient coûté 9 px de hauteur, or la
+     piste centrale n'a que 2,6 px de marge pour ses quatre lignes de
+     carte groupée (cf. le calcul de GROUP_MAX_LINES). Le filet ne prend
+     donc aucune place et la géométrie de la carte reste celle qui est
+     documentée plus haut.
+     Deux déclarations : color-mix() est refusé par les navigateurs
+     d'avant 2023, qui gardent alors le crème translucide. */
+  .event-foot::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -3px;
+    border-top: 1px solid rgba(231, 223, 190, 0.20);
+    border-top: 1px solid color-mix(in srgb, var(--t, #e7dfbe) 55%, transparent);
+  }
   .event-cat {
     font-family: 'JetBrains Mono', monospace;
     font-size: 9px;
     color: var(--ink-soft);
+    color: var(--t, var(--ink-soft));
     text-transform: lowercase;
     letter-spacing: 0.1em;
     /* Repousse le groupe source + durée contre le bord droit. */
@@ -1729,6 +1752,39 @@ function bucketOf(rawCategory) {
   return 'autre';
 }
 const ALL_BUCKETS = [...TYPE_BUCKETS, { key: 'autre', label: 'autre' }];
+
+/* Une teinte par bucket, posée sur la carte en variable --t. Elle porte
+   le nom du lieu, la catégorie et le filet du pied ; le titre reste
+   blanc, seul élément que la couleur ne touche pas.
+   Luminosité et chroma volontairement resserrées : ces dix-neuf teintes
+   voisinent dans une même grille, et une seule d'entre elles plus vive
+   que les autres aurait attiré l'œil sur une catégorie plutôt que sur
+   un événement. Les familles se répondent — les musiques tirent vers le
+   bleu et le violet, la scène vers le rose et l'orange, les expos vers
+   le vert — sans qu'aucune paire ne soit assez proche pour être confondue.
+   La couleur ne porte JAMAIS seule une information : la catégorie est
+   aussi écrite en mots dans le pied de chaque carte. */
+const TEINTES = {
+  club:      '#8b7cd8', jazz:       '#4fa8a0', rock:      '#e0725c',
+  rap:       '#d4b04a', chanson:    '#d98cb0', reggae:    '#6fb05c',
+  classique: '#7f9fd6', monde:      '#d89050', musique:   '#6aa9d6',
+  humour:    '#e8a94f', theatre:    '#cf6b7a', danse:     '#b57cc4',
+  spectacle: '#e08a5c', expo:       '#9fbd7f', cine:      '#8fa0b8',
+  conference:'#a89b7c', atelier:    '#c49a72', jeux:      '#7fb8a8',
+  autre:     '#9aa3ad',
+};
+function teinteDe(rawCategory) {
+  return TEINTES[bucketOf(rawCategory)] || TEINTES.autre;
+}
+/* Même garde-fou que pour les familles : un bucket ajouté sans teinte
+   retomberait sur le gris d'« autre » sans que rien ne le signale. */
+{
+  const sansTeinte = ALL_BUCKETS.map(b => b.key).filter(k => !TEINTES[k]);
+  if (sansTeinte.length) {
+    console.warn('[teintes] buckets sans teinte, repliés sur « autre » :',
+                 sansTeinte.join(', '));
+  }
+}
 
 /* Quatre familles au-dessus des buckets. Les buckets restent la maille
    fine — ils portent la catégorie affichée sur la carte — mais dix-huit
@@ -3205,6 +3261,7 @@ function groupCard(venue, evs, key) {
 
   return [
     '<button type="button" class="event" data-venue-day="' + escapeHtml(key) + '"',
+    '        style="--t:' + teinteDe(cat) + '"',
     '        aria-expanded="false" aria-label="' + escapeHtml(venue + ', '
       + evs.length + ' événements — déplier') + '">',
     '  ' + visual,
@@ -3271,7 +3328,8 @@ function eventCard(e, seedOverride) {
   const visual = visualLayerHtml(e, seedOverride);
 
   return [
-    '<' + tag + ' class="event"' + linkAttrs + '>',
+    '<' + tag + ' class="event" style="--t:' + teinteDe(e.category) + '"'
+      + linkAttrs + '>',
     '  ' + visual,
     '  <div class="event-head">',
     '    <span class="event-venue">' + escapeHtml(e.venue) + '</span>',
