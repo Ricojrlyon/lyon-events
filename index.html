@@ -720,22 +720,27 @@
      laisser le texte respirer. Le motif est TOUJOURS rendu en
      sous-couche : si l'affiche ne charge pas (hotlink bloqué, 404),
      onerror masque la photo et le motif réapparaît. */
-  /* Le visuel occupe toute la hauteur de carte, ses deux bords adoucis :
-     il monte de 0 à pleine force sur les 17 premiers pour cent, tient
-     jusqu'aux 56 %, puis s'efface jusqu'au bord bas. Auparavant il
-     s'éteignait à 60 % et la moitié basse de la carte restait nue.
-     Le fondu du haut a un effet secondaire utile : la texture s'efface
-     juste derrière la ligne du lieu, qui s'en détache mieux. */
+  /* Le visuel tient le HAUT de la carte : il monte de 0 à pleine force
+     sur les 12 premiers pour cent, tient jusqu'aux 42 %, puis s'éteint
+     et a disparu à 82 %. Le texte, désormais groupé en bas de carte
+     (cf. align-content:end sur .event), tombe donc sur une zone d'où
+     l'affiche s'est retirée — c'est ce partage haut/bas qui fait la
+     lisibilité de la carte A, et non un voile posé sur l'image.
+     Le fondu du haut garde son effet d'origine : la texture s'efface
+     juste sous le bord supérieur, où la carte respire.
+     Auparavant le visuel tenait jusqu'aux 56 % et ne s'effaçait qu'au
+     bord bas : le titre, alors centré, passait sur sa partie la plus
+     forte. */
   .visual-bg {
     position: absolute;
     inset: 0;
     pointer-events: none;
     -webkit-mask-image: linear-gradient(to bottom,
-        transparent 0%, rgba(0,0,0,.62) 7%, rgba(0,0,0,1) 17%,
-        rgba(0,0,0,1) 56%, rgba(0,0,0,.60) 78%, rgba(0,0,0,.20) 92%, transparent 100%);
+        transparent 0%, rgba(0,0,0,.62) 5%, rgba(0,0,0,1) 12%,
+        rgba(0,0,0,1) 42%, rgba(0,0,0,.52) 58%, rgba(0,0,0,.14) 72%, transparent 82%);
     mask-image: linear-gradient(to bottom,
-        transparent 0%, rgba(0,0,0,.62) 7%, rgba(0,0,0,1) 17%,
-        rgba(0,0,0,1) 56%, rgba(0,0,0,.60) 78%, rgba(0,0,0,.20) 92%, transparent 100%);
+        transparent 0%, rgba(0,0,0,.62) 5%, rgba(0,0,0,1) 12%,
+        rgba(0,0,0,1) 42%, rgba(0,0,0,.52) 58%, rgba(0,0,0,.14) 72%, transparent 82%);
   }
   .visual-bg svg {
     position: absolute; inset: 0;
@@ -774,12 +779,19 @@
         rgba(22,31,37,.88) 50%, rgba(22,31,37,.10) 56%);
     background-size: 3.1px 3.1px;
   }
-  /* voile sombre dégressif : la ligne lieu·arr·heure doit gagner sur
-     les affiches claires */
+  /* Voile sombre CROISSANT : il était le plus fort en haut, où vivait la
+     ligne lieu·arr·heure ; le texte étant passé en bas, il s'inverse.
+     Presque transparent sur le premier quart — l'affiche doit y garder
+     ses couleurs — il monte à 0,92 au niveau du titre.
+     Il est à l'intérieur de .visual-bg, donc soumis au même masque :
+     sous 82 % il ne reste plus rien à voiler, le fond de carte
+     (--bg-elev) porte seul le pied. Le recouvrement des deux courbes
+     entre 42 et 82 % est ce qui rend la transition insensible. */
   .visual-bg .scrim {
     position: absolute; inset: 0;
     background: linear-gradient(to bottom,
-        rgba(22,31,37,.6) 0%, rgba(22,31,37,.26) 38%, rgba(22,31,37,.04) 60%);
+        rgba(22,31,37,.20) 0%, rgba(22,31,37,.30) 24%,
+        rgba(22,31,37,.68) 48%, rgba(22,31,37,.92) 68%, rgba(22,31,37,.96) 100%);
   }
   /* ---------- logo de salle sur les cartes groupées ----------
      Une carte groupée n'a pas d'affiche : elle représente plusieurs
@@ -883,8 +895,14 @@
      visuel était un motif — il plafonne à 0,29 d'opacité effective —
      mais la ligne restait dessous. */
   .event-head, .event-title, .event-list, .event-foot { position: relative; }
+  /* Le nom du lieu et son arrondissement sont la première ligne du bloc
+     de texte, donc les seuls à border encore l'affiche — le titre et le
+     pied sont plus bas, là où le visuel a disparu. Deux ombres plutôt
+     qu'une : une courte et opaque qui détache la lettre, une large et
+     diffuse qui creuse un halo dans l'image. Voiler l'affiche davantage
+     aurait coûté sa couleur à toute la carte pour protéger une ligne. */
   .event-venue, .event-arr, .event-time {
-    text-shadow: 0 1px 6px rgba(22,31,37,.95);
+    text-shadow: 0 1px 2px rgba(22,31,37,1), 0 0 10px rgba(22,31,37,.9);
   }
   .event-title { text-shadow: 0 1px 8px rgba(22,31,37,.8); }
 
