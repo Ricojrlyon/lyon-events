@@ -1111,15 +1111,6 @@
     min-width: 0;
   }
   .event-cat:empty { display: none; }
-  .event-cat::before {
-    content: "[ ";
-    color: var(--ink-mute);
-  }
-  .event-cat::after {
-    content: " ]";
-    color: var(--ink-mute);
-  }
-  .event-cat:empty::before, .event-cat:empty::after { display: none; }
   /* Boîte commune aux deux étiquettes du pied.
      `inline-block` et non `inline-flex` : la base d'une boîte en ligne est
      celle de son texte, si bien que l'align-items:baseline du pied aligne
@@ -1181,6 +1172,13 @@
     font-weight: 400;
     color: var(--ink-soft);
     color: var(--t, var(--ink-soft));
+    /* Cadre de la teinte, un cran plus discret que celui des étiquettes
+       en crème : à 45 % il encadre sans peser, là où l'échéance et
+       l'arrondissement sont à 32 % d'un crème bien plus clair. C'est ce
+       qui garde les deux registres distincts alors que les trois
+       étiquettes ont maintenant toutes un cadre. */
+    border-color: rgba(165, 159, 134, 0.34);
+    border-color: color-mix(in srgb, var(--t, #a59f86) 45%, transparent);
   }
 
   /* ---------- carte groupée : plusieurs événements, même lieu, même jour ----------
