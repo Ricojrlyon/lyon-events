@@ -44,13 +44,6 @@
     --hot:          #e08d70;        /* coral adouci — signaux d'interface */
     /* Angles très légèrement adoucis — validé sur maquette (3 px). */
     --radius:       3px;
-    /* Teintes des motifs de secours, une par motif. Le vert et le rose
-       partagent luminosité et chroma ; l'orange est volontairement plus
-       foncé (0.62 au lieu de 0.72), avec une chroma remontée d'un cran
-       car un orange assombri à chroma constante vire au brun terne. */
-    --motif-vert:   oklch(0.72 0.12 150);
-    --motif-rose:   oklch(0.72 0.12 350);
-    --motif-orange: oklch(0.62 0.13 52);
   }
   * { box-sizing: border-box; }
   html, body { margin: 0; padding: 0; }
@@ -740,11 +733,11 @@
   }
 
   /* ---------- couche visuelle en fond de carte ----------
-     Affiche réelle si disponible, motif de catégorie sinon — dans les
+     Affiche réelle si disponible, enseigne du lieu sinon — dans les
      deux cas la couche s'éteint en fondu vers ~55 % de la hauteur pour
-     laisser le texte respirer. Le motif est TOUJOURS rendu en
+     laisser le texte respirer. L'enseigne est TOUJOURS rendue en
      sous-couche : si l'affiche ne charge pas (hotlink bloqué, 404),
-     onerror masque la photo et le motif réapparaît. */
+     onerror masque la photo et l'enseigne réapparaît. */
   /* Le visuel tient le HAUT de la carte : il monte de 0 à pleine force
      sur les 12 premiers pour cent, tient jusqu'aux 42 %, puis s'éteint
      et a disparu à 82 %. Le texte, désormais groupé en bas de carte
@@ -767,10 +760,13 @@
         transparent 0%, rgba(0,0,0,.62) 5%, rgba(0,0,0,1) 12%,
         rgba(0,0,0,1) 42%, rgba(0,0,0,.52) 58%, rgba(0,0,0,.14) 72%, transparent 82%);
   }
-  .visual-bg svg {
+  /* L'enseigne porte ses opacités dans son propre balisage, bande par
+     bande : aucune opacité de calque ici, sinon elle les diviserait
+     toutes. Le 0,58 qui s'appliquait aux anciens motifs est parti avec
+     eux — les valeurs du balisage en tiennent compte. */
+  .visual-bg .enseigne {
     position: absolute; inset: 0;
     width: 100%; height: 100%;
-    opacity: 0.58;                 /* intensité validée sur maquette */
   }
   .visual-bg .photo-wrap { position: absolute; inset: 0; }
   .visual-bg img {
@@ -785,9 +781,9 @@
        tient désormais compte, et elle mangeait le détail des visages et
        des visuels fins. La désaturation légère fait le travail qu'elle
        faisait d'utile : unifier des affiches très hétérogènes.
-       Le filtre porte sur la balise image seule : les motifs de secours,
-       dessinés dans trois teintes connues à 58 % d'opacité, sont déjà
-       sourds et n'en ont pas besoin. */
+       Le filtre porte sur la balise image seule : l'enseigne, composée en
+       blanc entre 0,07 et 0,18 d'opacité, est déjà sourde et n'en a pas
+       besoin. */
     filter: brightness(0.42) saturate(0.85) contrast(1.08);
   }
   /* Voile sombre CROISSANT : il était le plus fort en haut, où vivait la
@@ -821,7 +817,7 @@
   }
   /* ---------- logo de salle sur les cartes groupées ----------
      Une carte groupée n'a pas d'affiche : elle représente plusieurs
-     spectacles à la fois, et tirait donc le motif de secours. Pour les
+     spectacles à la fois, et tire donc l'enseigne du lieu. Pour les
      salles qui jouent plusieurs fois par soir, la marque du lieu dit
      mieux de quoi il s'agit — et c'est le même geste que pour une
      affiche, à un cadrage près : une affiche est en `cover` et remplit
@@ -884,7 +880,7 @@
      Il vit DANS le même cartouche que les logos, et hérite donc du même
      filtre : aucun blanc à recalculer, aucun raccord à ajuster. C'est ce
      qui garantit qu'aucune carte groupée d'un lieu scrappé ne retombe
-     sur le motif générique — y compris pour les salles qu'on scrappera
+     sur l'enseigne nue — y compris pour les salles qu'on scrappera
      demain, sans fichier à fournir.
      Bungee est la fonte d'affiche du site, déjà chargée par le wordmark :
      rien de plus à télécharger. */
@@ -910,8 +906,8 @@
     text-wrap: balance;
     overflow-wrap: anywhere;
   }
-  /* Le motif reste dans le DOM sous le logo, mais éteint : si le fichier
-     manque, l'onerror retire la classe et le motif reprend sa place.
+  /* L'enseigne reste dans le DOM sous le logo, mais éteinte : si le
+     fichier manque, l'onerror retire la classe et elle reprend sa place.
      C'est l'invariant du site — la couche de secours est toujours là —
      appliqué à un visuel local plutôt qu'à une affiche distante. */
   .visual-bg.has-logo > svg { display: none; }
@@ -921,8 +917,8 @@
      NON positionnée se peint sous une boîte qui l'est, quel que soit
      l'ordre du DOM. La liste des cartes groupées passait donc derrière
      le .visual-bg, sur les 275 cartes concernées. Invisible tant que le
-     visuel était un motif — il plafonne à 0,29 d'opacité effective —
-     mais la ligne restait dessous. */
+     visuel restait sourd — l'enseigne plafonne à 0,18 d'opacité — mais la
+     ligne restait dessous. */
   .event-head, .event-title, .event-list, .event-foot { position: relative; }
   /* Le nom du lieu et son arrondissement sont la première ligne du bloc
      de texte, donc les seuls à border encore l'affiche — le titre et le
@@ -1354,10 +1350,10 @@
      colonnes du bloc restent alignées au pixel près sur celles de la
      grille autour. Une bordure, avec son remplissage, aurait rétréci les
      cartes contenues par rapport aux autres.
-     Le corail plutôt qu'une teinte de motif : il sert déjà aux heures et
-     aux badges, donc il se lit comme un signal d'interface — et il reste
-     constant, là où une teinte de motif se confondrait avec le fond d'un
-     groupe dont le motif est justement orange. */
+     Le corail plutôt qu'une teinte de catégorie : il sert déjà aux
+     filtres cochés, donc il se lit comme un signal d'interface — et il
+     reste constant, là où une teinte suivrait la catégorie des cartes
+     qu'il encadre et se confondrait avec l'une d'elles. */
   /* Le corps d'une journée empile des conteneurs : .events pour les cartes
      ordinaires, .group-block pour un groupe déplié. Le bloc est un FRÈRE
      de .events et non un élément à l'intérieur — placé dans la grille, il
@@ -2053,155 +2049,35 @@ function famillesHtml(comptes) {
   return '<div class="db-familles">' + parts.join('') + '</div>';
 }
 
-/* ---------- visuel de carte : motifs de secours ----------
-   Motif tiré par événement, quand aucune affiche n'est disponible. Plus de
-   « un motif ou une couleur = un type d'événement » : deux soirées club
-   voisines ne se ressemblent pas. Le tirage est déterministe (hash de
-   lieu + titre) : une carte garde son apparence d'un rendu à l'autre —
-   sinon les motifs changeraient à chaque frappe dans la recherche — et
-   d'un jour à l'autre. Seul le hasard ENTRE événements est recherché. */
+/* ---------- visuel de carte : l'enseigne du lieu ----------
+   Quand aucune affiche n'est disponible, la carte porte le nom de son
+   LIEU, composé en Bungee — la fonte d'affiche du site — répété en bandes
+   qui se chevauchent jusqu'à couvrir la surface. Le fond dit donc quelque
+   chose au lieu de décorer : une carte sans affiche montre sa salle. Elles
+   sont 425 sur le fil, un peu moins d'une sur six.
 
-/* Trois motifs, chacun un bloc FIGÉ : une trame de points, une loi de
-   rayon, un jeu d'anneaux, une teinte. Rien n'est partagé entre eux et
-   rien n'est tiré séparément — c'est le bloc entier qui est choisi par
-   hash, sinon deux cartes de même trame n'avaient ni les mêmes anneaux
-   ni la même couleur.
+   Il remplace trois motifs abstraits — ondes concentriques, rubans
+   vrillés, éventails de hachures — dans trois couleurs fixes. Ces
+   couleurs étaient les dernières de la carte à ne rien devoir à sa
+   catégorie, et les plus étendues ; leur vocabulaire organique jurait
+   avec une carte devenue géométrique et typographique. Le blanc à très
+   basse opacité rend un gris parfaitement neutre sur le fond de carte,
+   ce qui laisse toute la couleur aux dix-neuf teintes.
 
-   Les pas sont en PIXELS et non en unités de viewBox : voir patternSVG,
-   la couche de points est rendue sans viewBox pour que le pas déclaré
-   soit le pas obtenu quelle que soit la largeur de carte. */
-const MOTIFS = [
-  {
-    id: 'alignes',
-    // Tuile 120 px = 32 pas de 3,75. Plus la tuile est grande, plus les
-    // raccords sont espacés — la trame se répète, forcément.
-    trame: { w: 120, h: 120, dx: 3.75, dy: 3.75, stagger: 'none' },
-    // u est uniforme sur [0,1[. Exposant > 1 = beaucoup de points fins,
-    // quelques gros seulement.
-    rayon: u => 0.76 + Math.pow(u, 1.7) * 0.77,
-    hue: 'var(--motif-vert)',
-    formes: rubans,
-  },
-  {
-    id: 'lignes',
-    // 3,6 px entre points d'une ligne, 4,5 px entre deux lignes. La
-    // hauteur 90 vaut 20 × 4,5, multiple PAIR : les rangées étant
-    // décalées d'un demi-pas, une tuile impaire laisserait une ligne de
-    // rupture visible au raccord.
-    trame: { w: 108, h: 90, dx: 3.6, dy: 4.5, stagger: 'row' },
-    rayon: u => 0.74 + Math.pow(u, 1.5) * 0.61,
-    hue: 'var(--motif-rose)',
-    formes: gouttes,
-  },
-  {
-    id: 'colonnes',
-    // Largeur 90 = 20 × 4,5, PAIR pour la même raison, colonnes décalées.
-    trame: { w: 90, h: 108, dx: 4.5, dy: 3.6, stagger: 'col' },
-    rayon: u => 0.71 + Math.pow(u, 1.9) * 0.76,
-    hue: 'var(--motif-orange)',
-    formes: eventail,
-  },
-];
+   Le tirage est déterministe (hash de lieu + titre) : une carte garde son
+   apparence d'un rendu à l'autre — sinon le fond changerait à chaque
+   frappe dans la recherche — et d'un jour à l'autre. Seul le hasard ENTRE
+   événements est recherché.
 
-/* ---------- formes du motif ----------
-   Chaque motif superpose à sa trame de points un dessin qui lui est
-   propre. Ces dessins sont IDENTIQUES pour toutes les cartes d'un même
-   motif : ils vivent donc dans les defs partagés et chaque carte n'en
-   porte qu'un <use> (voir ensureMotifDefs et patternSVG). C'est ce qui
-   permet des tracés de plusieurs milliers de points sans que le coût
-   dépende du nombre de cartes. */
-
-/* Rose — ondes concentriques d'une goutte tombée dans l'eau. Six points
-   d'impact ; ce qui fait lire la goutte plutôt qu'un cercle décoratif,
-   c'est la RÉGULARITÉ de l'écart entre anneaux, et leur amincissement
-   régulier vers l'extérieur. cx, cy, premier rayon, écart, nombre. */
-const IMPACTS = [
-  [58, 26, 5, 7.5, 10], [196, 54, 5, 8, 11], [292, 18, 6, 9, 9],
-  [124, 118, 5, 7.5, 9], [16, 96, 7, 9.5, 8],
-  // Sixième impact en bas à droite : il tombe sous le fondu du masque,
-  // il est donc volontairement discret.
-  [286, 130, 5, 8, 10],
-];
-
-function gouttes(hue) {
-  let s = '';
-  for (const [cx, cy, r0, pas, n] of IMPACTS) {
-    for (let k = 0; k < n; k++) {
-      const o = 0.80 - k * 0.075;
-      if (o < 0.10) continue;
-      const w = Math.max(0.5, 1.5 - k * 0.11);
-      s += '<circle cx="' + cx + '" cy="' + cy + '" r="' + (r0 + k * pas).toFixed(1)
-         + '" fill="none" stroke="' + hue + '" stroke-width="' + w.toFixed(2)
-         + '" opacity="' + o.toFixed(2) + '"/>';
-    }
-  }
-  return s;
-}
-
-/* Vert — ruban vrillé, façon forme d'onde en volume.
-     y(x, v) = base + A(x)·sin(φ) + v·h·cos(φ)
-   Le premier terme donne la vague, le second fait tourner la SECTION du
-   ruban le long de la courbe : les brins se resserrent là où la surface
-   se présente de profil (cos ≈ 0) et s'écartent quand elle nous fait
-   face. C'est ce contraste de densité qui donne le relief, il n'y a
-   aucune ombre. v parcourt -1 à 1 d'un bord à l'autre du ruban. */
-function ruban(hue, o) {
-  let s = '';
-  for (let i = 0; i < o.n; i++) {
-    const v = (i / (o.n - 1)) * 2 - 1;
-    let d = '';
-    for (let x = -12; x <= 334; x += 4) {
-      const ph = x / o.lam * Math.PI * 2 + o.phase;
-      const amp = o.A * (0.55 + 0.45 * Math.sin(x / o.env * Math.PI * 2 + 0.6));
-      const y = o.base + amp * Math.sin(ph) + v * o.h * Math.cos(ph);
-      d += (x < -11 ? 'M' : 'L') + x.toFixed(1) + ' ' + y.toFixed(2);
-    }
-    // Les brins de bord sont plus pâles : le cœur du ruban reste le plus dense.
-    s += '<path d="' + d + '" fill="none" stroke="' + hue + '" stroke-width="'
-       + o.w + '" opacity="' + (o.o0 - Math.abs(v) * o.oFall).toFixed(3) + '"/>';
-  }
-  return s;
-}
-
-function rubans(hue) {
-  return ruban(hue, { n: 18, A: 20, h: 12, lam: 150, env: 300, phase: 2.1,
-                      base: 50,  w: 0.55, o0: 0.42, oFall: 0.20 })
-       + ruban(hue, { n: 30, A: 28, h: 19, lam: 225, env: 360, phase: 0.3,
-                      base: 86,  w: 0.5,  o0: 0.66, oFall: 0.30 })
-       // Troisième ruban en opposition de phase : il croise les deux autres
-       // au lieu de les accompagner. Posé bas, donc largement estompé par
-       // le masque — il apporte de la profondeur, pas du dessin.
-       + ruban(hue, { n: 22, A: 16, h: 13, lam: 185, env: 280, phase: 4.0,
-                      base: 128, w: 0.5,  o0: 0.50, oFall: 0.24 });
-}
-
-/* Orange — éventail de hachures : l'angle pivote de 14° à gauche à 60° à
-   droite. 145 traits, dont une douzaine seulement sont épais : l'exposant
-   6,2 écrase la loi vers le bas, si bien que densifier n'ajoute que des
-   traits fins. Sans ça, multiplier les traits aurait aussi multiplié les
-   épais et empâté le motif. */
-function eventail(hue) {
-  const N = 145;
-  let s = '';
-  for (let i = 0; i < N; i++) {
-    const x = (i / N) * 330 - 6;
-    const y = 4 + alea01('ey' + i) * 118;
-    const len = (70 + alea01('el' + i) * 90) * 0.85;
-    const a = (14 + (x / 320) * 46) * Math.PI / 180;
-    const w = 0.45 + Math.pow(alea01('ew' + i), 6.2) * 1.75;
-    s += '<line x1="' + x.toFixed(1) + '" y1="' + y.toFixed(1)
-       + '" x2="' + (x + len * Math.cos(a)).toFixed(1)
-       + '" y2="' + (y + len * Math.sin(a)).toFixed(1)
-       + '" stroke="' + hue + '" stroke-width="' + w.toFixed(2)
-       + '" opacity="' + (0.74 - (i % 12) * 0.028).toFixed(2)
-       + '" stroke-linecap="round"/>';
-  }
-  return s;
-}
+   Rien n'est partagé entre les cartes : chaque fond est une quinzaine de
+   <text> dans son propre <svg>, environ 1,4 Ko. Les trois motifs, eux,
+   demandaient 271 Ko de <defs> communs au document, parce qu'une trame de
+   3 000 cercles et des rubans de 2 500 points ne pouvaient pas être
+   redessinés carte par carte. Le partage a donc disparu avec eux. */
 
 /* Hash stable (djb2-ish) : même chaîne → même entier, à chaque rendu et
    à chaque chargement. Sert aux tirages sans Math.random(), qui ferait
-   changer les motifs à chaque re-render. */
+   changer les fonds à chaque re-render. */
 function stableHash(s) {
   let h = 5381;
   for (let i = 0; i < (s || '').length; i++) {
@@ -2210,11 +2086,11 @@ function stableHash(s) {
   return h;
 }
 
-/* Mélange final 32 bits. stableHash seul ne suffit pas pour tirer les
-   rayons : sur des coordonnées qui se suivent, ses bits bas restent
-   corrélés et un simple modulo dessinait des séries de gros points en
-   diagonale (autocorrélation mesurée entre voisins : 0,13 avant, 0,02
-   après). alea01 rend une valeur continue plutôt que N paliers. */
+/* Mélange final 32 bits. stableHash seul ne suffit pas d'amorce : ses bits
+   bas restent corrélés sur des chaînes voisines, et deux titres qui ne
+   diffèrent que par leur dernier caractère amorçaient des suites presque
+   identiques — donc deux cartes voisines d'une même salle au fond
+   superposable. */
 function mix32(h) {
   h = (h ^ (h >>> 16)) >>> 0;
   h = Math.imul(h, 0x7feb352d) >>> 0;
@@ -2223,75 +2099,108 @@ function mix32(h) {
   h = (h ^ (h >>> 16)) >>> 0;
   return h;
 }
-function alea01(s) { return mix32(stableHash(s)) / 4294967296; }
 
-/* Trames ET formes sont définies UNE fois pour tout le document, puis
-   référencées par chaque carte : celle-ci coûte alors un <rect> plus un
-   <use>, soit deux nœuds, au lieu des ~3 000 cercles qu'exigerait ce pas
-   de trame et des ~2 500 points que réclament les rubans. Sans ce
-   partage, ni la densité de la trame ni la complexité des formes ne
-   seraient tenables sur un millier de cartes. */
-let motifDefsReady = false;
-function ensureMotifDefs() {
-  if (motifDefsReady) return;
-  const host = document.body || document.documentElement;
-  if (!host) return;                     // appelé trop tôt : on réessaiera
-  let defs = '';
-  for (const m of MOTIFS) {
-    const t = m.trame;
-    let dots = '';
-    for (let iy = 0; iy * t.dy < t.h - 0.001; iy++) {
-      for (let ix = 0; ix * t.dx < t.w - 0.001; ix++) {
-        let cx = ix * t.dx, cy = iy * t.dy;
-        if (t.stagger === 'row' && iy % 2) cx += t.dx / 2;
-        if (t.stagger === 'col' && ix % 2) cy += t.dy / 2;
-        if (cx >= t.w - 0.001 || cy >= t.h - 0.001) continue;
-        const r = m.rayon(alea01(m.id + ':' + ix + '/' + iy));
-        dots += '<circle cx="' + cx.toFixed(2) + '" cy="' + cy.toFixed(2)
-              + '" r="' + r.toFixed(2) + '" fill="' + m.hue + '"/>';
-      }
-    }
-    defs += '<pattern id="motif-' + m.id + '" x="0" y="0" width="' + t.w
-          + '" height="' + t.h + '" patternUnits="userSpaceOnUse">'
-          + dots + '</pattern>'
-          + '<g id="formes-' + m.id + '">' + m.formes(m.hue) + '</g>';
-  }
-  const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-  svg.setAttribute('width', '0');
-  svg.setAttribute('height', '0');
-  svg.setAttribute('aria-hidden', 'true');
-  svg.style.position = 'absolute';
-  svg.innerHTML = '<defs>' + defs + '</defs>';
-  host.appendChild(svg);
-  motifDefsReady = true;
+/* Générateur reproductible : xorshift32 amorcé par le hash de la graine.
+   Il faut une SUITE et non un tirage par clé comme avant : une bande
+   demande son corps, son opacité et son décalage — trois valeurs
+   indépendantes — là où les motifs ne tiraient qu'un rayon par
+   coordonnée. */
+function deSuite(seed) {
+  let x = mix32(stableHash(seed)) || 1;
+  return function () {
+    x ^= x << 13; x >>>= 0;
+    x ^= x >>> 17;
+    x ^= x << 5;  x >>>= 0;
+    return x / 4294967296;
+  };
 }
 
-/* Deux couches superposées, et c'est délibéré.
-   La trame de points est rendue SANS viewBox : ses unités valent alors
-   des pixels CSS, donc le pas à l'écran est exactement celui déclaré.
-   Avec un viewBox 320×160 mis à l'échelle sur la carte, tout était
-   multiplié par la largeur — mesuré de 0,99 à 2,43 selon le format, si
-   bien que la trame était deux fois et demie plus lâche sur une carte
-   pleine largeur en mobile que sur une carte de grille.
-   Les formes gardent le viewBox : elles DOIVENT suivre la carte, sinon
-   leur composition se décale selon la largeur. */
-function patternSVG(seed) {
-  ensureMotifDefs();
-  // Le hash est brassé AVANT le modulo, et ce n'est pas décoratif : djb2
-  // calcule h = 33·h + c, or 33 est divisible par 3. Le terme 33·h
-  // disparaît donc modulo 3 et le reste dépend surtout du dernier
-  // caractère de la graine — mesuré sur 26 400 graines, la répartition
-  // tourne en cycle selon ce caractère (khi2 conditionnel de 47,6 contre
-  // 2,2 après brassage). Sur des titres numérotés d'une même salle, les
-  // motifs se succédaient en cycle régulier de période 3, exactement ce
-  // que le tirage devait éviter.
-  const m = MOTIFS[mix32(stableHash(seed)) % MOTIFS.length];
-  return '<svg class="dots" aria-hidden="true">'
-       + '<rect x="0" y="0" width="100%" height="100%" fill="url(#motif-'
-       + m.id + ')" opacity="0.5"/></svg>'
-       + '<svg class="rings" viewBox="0 0 320 160" '
-       + 'preserveAspectRatio="xMidYMid slice" aria-hidden="true">'
-       + '<use href="#formes-' + m.id + '"/></svg>';
+/* Le mot qui identifie le lieu. Beaucoup de salles lyonnaises commencent
+   par un nom de genre — « Théâtre des Marronniers », « Chapelle de la
+   Trinité », « Espace Albert Camus » — et garder le premier mot donnait
+   trois cartes « THÉÂTRE » côte à côte dans la même journée. On jette
+   donc le générique de tête et on garde le mot le plus long de ce qui
+   reste, qui est presque toujours le nom propre.
+   nomDePlaque(), qui sert au cartouche typographique des salles scrappées
+   sans fichier de logo, coupe autrement : il garde le DÉBUT du nom pour
+   qu'on lise « TNP » ou « Célestins ». Les deux règles diffèrent parce
+   qu'elles ne montrent pas la même chose — une marque là, un mot ici. */
+const ENSEIGNE_GENERIQUE = new Set([
+  'theatre', 'théâtre', 'espace', 'chapelle', 'salle', 'musee', 'musée',
+  'cinema', 'cinéma', 'bibliotheque', 'bibliothèque', 'maison', 'centre',
+  'galerie', 'institut', 'parc', 'auditorium', 'opera', 'opéra',
+  'les', 'des', 'the', 'bar', 'cafe', 'café',
+  /* Adjectifs de genre, aussi peu distinctifs que les noms ci-dessus, et
+     « lyon » avec eux : dans un agenda lyonnais, la ville ne distingue
+     rien. Sans cette ligne, « Opéra national de Lyon » rendait NATIONAL. */
+  'national', 'nationale', 'populaire', 'municipal', 'municipale',
+  'nouveau', 'nouvelle', 'grand', 'grande', 'petit', 'petite', 'lyon',
+]);
+function nomDEnseigne(venue) {
+  /* On coupe au séparateur, pas au trait d'union : le tiret ENTOURÉ
+     D'ESPACES sépare deux appellations — « TNP - Théâtre National
+     Populaire » — alors que le trait d'union collé appartient au nom
+     propre. Les couper donnait BEAUX pour Beaux-Arts, PART pour
+     Part-Dieu, CROIX pour Croix-Rousse. Même raison pour l'apostrophe,
+     qu'on ne coupe plus : elle rendait AGEND pour Agend'arts. */
+  const base = (venue || '').split(/,|\s[-–—]\s|\(/)[0];
+  const mots = base.split(/\s+/).filter(m => m.length > 2);
+  const utiles = mots.filter(m =>
+    !ENSEIGNE_GENERIQUE.has(m.toLowerCase().replace(/\.$/, '')));
+  /* Le mot le plus long de ce qui reste : c'est presque toujours le nom
+     propre. Mais si le tri ne laisse RIEN, on prend le premier mot du nom
+     plutôt que le plus long — quand une salle n'est qu'un générique et des
+     adjectifs, c'est le générique qui la nomme. L'Opéra s'appelle OPÉRA,
+     pas NATIONAL. */
+  if (utiles.length) {
+    return utiles.reduce((a, b) => (b.length > a.length ? b : a)).toUpperCase();
+  }
+  return (mots.length ? mots[0] : (venue || '')).toUpperCase();
+}
+
+/* Avance moyenne d'un caractère de Bungee, en em : MESURÉE au navigateur
+   sur six noms de salle, de 0,667 à 0,723 selon le mot. 0,71 plus une
+   gouttière du quart du corps garantit que deux répétitions d'une même
+   bande ne se chevauchent jamais par accident. Le chevauchement doit être
+   voulu, et il l'est entre BANDES — pas au sein d'une bande. */
+const ENSEIGNE_AVANCE = 0.71;
+const ENSEIGNE_W = 320, ENSEIGNE_H = 160;
+
+function patternSVG(seed, venue) {
+  const de = deSuite(seed + '|enseigne');
+  const entre = (a, b) => a + (b - a) * de();
+  const n = nomDEnseigne(venue);
+  let t = '';
+  let y = entre(14, 22);
+  while (y < ENSEIGNE_H * 1.1) {
+    const corps = entre(26, 46);
+    /* Opacité décroissante vers le bas, que le masque de .visual-bg
+       prolonge ensuite jusqu'à l'extinction : le texte de la carte tombe
+       donc sur une zone où il ne reste presque rien. Mesuré au pixel sur
+       le bloc rastérisé, le titre blanc tient 10,7 à 14,2:1 sur son pire
+       pixel. Le plafond de 0,42 ne borne qu'un cumul improbable. */
+    const op = Math.min(
+      (0.036 + (1 - Math.min(y, ENSEIGNE_H) / ENSEIGNE_H) * entre(0.030, 0.055)) * 2,
+      0.42);
+    const pas = n.length * corps * ENSEIGNE_AVANCE + corps * 0.25;
+    for (let x = -entre(0, pas); x < ENSEIGNE_W; x += pas) {
+      /* Coordonnees ARRONDIES : le viewBox de 320 unites est mis a
+         l'echelle de la carte, un dixieme d'unite vaut donc un huitieme de
+         pixel et ne se voit pas. Trois decimales d'opacite non plus. Sur
+         les 1056 enseignes, l'arrondi rend 340 Ko de DOM. */
+      t += '<text x="' + Math.round(x) + '" y="' + Math.round(y)
+         + '" font-size="' + Math.round(corps) + '" opacity="' + op.toFixed(2)
+         + '">' + escapeHtml(n) + '</text>';
+    }
+    /* Pas vertical INFÉRIEUR à la hauteur de capitale, qui vaut 0,73 du
+       corps : c'est ce recouvrement d'une bande sur l'autre qui fait la
+       matière, et non le nombre d'occurrences. */
+    y += corps * entre(0.58, 0.70);
+  }
+  return '<svg class="enseigne" viewBox="0 0 ' + ENSEIGNE_W + ' ' + ENSEIGNE_H
+       + '" preserveAspectRatio="xMidYMid slice" aria-hidden="true">'
+       + '<g font-family="Bungee, system-ui" fill="#fff" letter-spacing="-1">'
+       + t + '</g></svg>';
 }
 
 /* Nom composé sur le cartouche typographique. On coupe à la première
@@ -2383,10 +2292,28 @@ function plaqueTypo(venue) {
 }
 
 /* Repli d'un logo de salle manquant : le fichier a disparu ou n'a jamais
-   été fourni. On ne retombe PAS sur le motif générique — c'est justement
+   été fourni. On ne retombe PAS sur l'enseigne nue — c'est justement
    ce qu'on cherche à éviter sur les cartes groupées — mais sur le
    cartouche typographique, qui occupe la même plaque et hérite du même
    filtre. Le nom se relit sur la carte elle-même. */
+/* Construit l'enseigne d'une couche visuelle qui n'en portait pas, et la
+   glisse en PREMIÈRE position pour qu'elle passe sous tout le reste.
+   Idempotent : deux échecs sur la même carte — l'affiche puis le logo —
+   ne doivent pas empiler deux enseignes. */
+function enseigneDeSecours(couche) {
+  if (!couche || couche.querySelector('svg.enseigne')) return;
+  couche.insertAdjacentHTML('afterbegin',
+    patternSVG(couche.dataset.graine || '', couche.dataset.lieu || ''));
+}
+
+/* L'affiche n'a pas chargé — hotlink bloqué, 404, domaine mort. On masque
+   la photo et on construit l'enseigne, qui n'avait pas été émise. */
+function afficheIntrouvable(img) {
+  const enveloppe = img.parentElement;
+  if (enveloppe) enveloppe.style.display = 'none';
+  enseigneDeSecours(img.closest('.visual-bg'));
+}
+
 function logoIntrouvable(img) {
   const plaque = img.closest('.logo-plate');
   const venue = img.closest('.event')
@@ -2395,32 +2322,46 @@ function logoIntrouvable(img) {
     plaque.innerHTML = plaqueTypo(venue);
     return;
   }
-  // Sans cartouche il ne reste rien à habiller : on rallume le motif.
+  // Sans cartouche il ne reste rien à habiller : on rallume l'enseigne.
   const couche = img.closest('.visual-bg');
-  if (couche) couche.classList.remove('has-logo');
+  if (couche) {
+    couche.classList.remove('has-logo');
+    enseigneDeSecours(couche);
+  }
   img.remove();
 }
 
-/* Couche visuelle d'une carte : motif toujours en sous-couche, affiche
-   par-dessus si disponible (lazy). onerror masque la photo → le motif
-   réapparaît si l'image est morte ou le hotlink bloqué. */
+/* Couche visuelle d'une carte : affiche si disponible, enseigne sinon.
+   L'enseigne n'est PAS émise sous une affiche. C'est une rupture avec
+   l'invariant d'avant — la couche de secours était toujours dans le DOM —
+   et elle est justifiée par une mesure : à une vingtaine de <text> par
+   carte, émettre l'enseigne partout pesait 4,94 Mo, soit 63 % du document
+   et 63 000 nœuds sur 120 000, dont 2 123 enseignes sur 3 179 que rien ne
+   laissait voir. Les anciens motifs pouvaient se le permettre : un <use>
+   vers des <defs> partagés coûtait deux nœuds.
+   La couche de secours reste GARANTIE, seulement différée : la graine et
+   le lieu voyagent dans des attributs data, et enseigneDeSecours() la
+   construit au moment où l'affiche ou le logo échoue. */
 function visualLayerHtml(e, seedOverride) {
   // Graine des tirages : (lieu + titre) est stable d'un run à l'autre —
   // contrairement à e.id, qui dépend de l'heure et change si la dédup
   // l'enrichit depuis une autre source. Les occurrences d'un même
   // événement multi-jours partagent donc forme et couleur.
   // seedOverride sert aux cartes d'un groupe déplié : elles reçoivent la
-  // graine de la CARTE GROUPÉE, donc le motif du lieu. Sans ça le
+  // graine de la CARTE GROUPÉE, donc l'enseigne du lieu. Sans ça le
   // dépliage défaisait visuellement le groupe qu'il venait d'ouvrir —
   // quatre cartes d'un même lieu affichaient trois trames et trois
   // teintes différentes.
   const seed = seedOverride || ((e.venue || '') + '|' + (e.title || ''));
-  let html = '<div class="visual-bg">' + patternSVG(seed);
-  if (e.image && /^https?:\/\//.test(e.image)) {
+  const affiche = e.image && /^https?:\/\//.test(e.image);
+  let html = '<div class="visual-bg" data-graine="' + escapeHtml(seed)
+           + '" data-lieu="' + escapeHtml(e.venue || '') + '">';
+  html += affiche ? '' : patternSVG(seed, e.venue);
+  if (affiche) {
     html += '<div class="photo-wrap">'
           + '<img src="' + escapeHtml(e.image) + '" alt="" loading="lazy" '
           + 'decoding="async" referrerpolicy="no-referrer" '
-          + 'onerror="this.parentElement.style.display=\'none\'">'
+          + 'onerror="afficheIntrouvable(this)">'
           + '<div class="scrim"></div></div>';
   }
   html += '</div>';
@@ -3322,7 +3263,7 @@ function grilleHtml(iso, grappes) {
     out.push('<div class="group-block">');
     out.push('<div class="group-cards">');
     // Même graine que la carte groupée : les cartes ouvertes héritent du
-    // motif du lieu et se lisent donc comme un ensemble.
+    // enseigne du lieu et se lisent donc comme un ensemble.
     for (const e of evs) out.push(eventCard(e, venue + '|·groupe'));
     out.push('</div>');
     out.push('<button type="button" class="collapse-card" data-collapse="'
@@ -3411,17 +3352,17 @@ function groupCard(venue, evs, key) {
   const sourceBadge = badges.size === 1 ? [...badges][0] : '';
 
   const arr = eventArrondissement(evs[0]);
-  // Graine du motif : le lieu seul, pour que la grappe garde la même
+  // Graine de l'enseigne : le lieu seul, pour que la grappe garde la même
   // apparence d'un jour à l'autre. Le suffixe évite de tomber sur la
   // graine d'un vrai événement.
-  // Le logo du lieu s'il y en a un, le motif seul sinon.
+  // Le logo du lieu s'il y en a un, l'enseigne seule sinon.
   // Un .photo-wrap VIDE accompagnait le cartouche pour que la trame
   // sérigraphie couvre toute la carte ; la trame ayant été retirée, il
   // n'avait plus d'objet et est parti avec elle.
   // Marque du lieu si on a le fichier, cartouche typographique sinon —
   // mais pour les seules salles qu'on scrappe en direct : elles portent
   // une identité que le site revendique, là où un lieu vu à travers un
-  // agrégateur n'est qu'un nom de passage, et garde le motif.
+  // agrégateur n'est qu'un nom de passage, et garde l'enseigne.
   // venueHomepage[] est déjà l'index des lieux scrappés (cf. eventHref).
   const logo = VENUE_LOGOS.get(venue);
   const marque = logo
@@ -3430,10 +3371,11 @@ function groupCard(venue, evs, key) {
       + ' onerror="logoIntrouvable(this)">'
     : (venueHomepage[venue] ? plaqueTypo(venue) : '');
   const visual = marque
-    ? '<div class="visual-bg has-logo">' + patternSVG(venue + '|·groupe')
+    ? '<div class="visual-bg has-logo" data-graine="'
+      + escapeHtml(venue + '|·groupe') + '" data-lieu="' + escapeHtml(venue) + '">'
       + '<div class="logo-plate">' + marque + '</div>'
       + '<div class="scrim"></div></div>'
-    : '<div class="visual-bg">' + patternSVG(venue + '|·groupe') + '</div>';
+    : '<div class="visual-bg">' + patternSVG(venue + '|·groupe', venue) + '</div>';
 
   return [
     '<button type="button" class="event" data-venue-day="' + escapeHtml(key) + '"',
@@ -3455,7 +3397,7 @@ function groupCard(venue, evs, key) {
 }
 
 /* seedOverride : passé uniquement pour les cartes d'un groupe déplié, qui
-   héritent alors du motif du lieu au lieu de tirer le leur. */
+   héritent alors de l'enseigne du lieu au lieu de tirer la leur. */
 function eventCard(e, seedOverride) {
   /* Le tiret de l'heure inconnue ne se dessine PAS quand la carte porte
      déjà un badge d'échéance : il n'apprend rien à côté de « jusqu'au
@@ -3510,7 +3452,7 @@ function eventCard(e, seedOverride) {
   const arrLabel = '<span class="event-arr">' + escapeHtml(arr) + '</span>';
 
   // Layout = 3 grid rows: head / title / foot — précédés de la couche
-  // visuelle en fond (affiche réelle ou motif de catégorie, en fondu)
+  // visuelle en fond (affiche réelle ou enseigne du lieu, en fondu)
   const visual = visualLayerHtml(e, seedOverride);
 
   return [
