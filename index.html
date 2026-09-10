@@ -684,9 +684,11 @@
     }
   }
   @media (max-width: 560px) {
+    /* Une seule colonne, mais la rangée garde ses 160 px : c'est le second
+       endroit qui la libérait, et il faut les deux pour que la carte tienne
+       sa hauteur sur téléphone. */
     .events, .group-cards {
       grid-template-columns: 1fr;
-      grid-auto-rows: auto;
     }
   }
 
@@ -1503,34 +1505,28 @@
     .filter-row { gap: 6px 10px; }
     .filter-label { flex: 0 0 100%; margin-bottom: 4px; min-width: 0; }
 
-    /* Mobile cards: switch from fixed-height grid cells to content-sized flex stack.
-       Avoids overlap when title is long, and removes the "empty middle" feel. */
+    /* La carte garde sa hauteur de 160 px sur téléphone.
+       Elle passait en hauteur libre, empilée en flex : les cartes
+       mesuraient alors de 94 à 151 px selon la longueur de leur titre, le
+       fil perdait son quadrillage, et la bande d'affiche se réduisait à
+       une lisière sur les cartes courtes — or c'est elle qui porte la
+       carte A. En rendant la rangée fixe, tout le modèle du bureau
+       s'applique tel quel : même grille, même align-content:end, mêmes
+       marges. Il ne reste ici que ce qui doit VRAIMENT changer avec la
+       taille de l'écran — le rembourrage, le nom du lieu, la cible
+       tactile du bouton de repli.
+       Conséquence assumée : un titre de plus de deux lignes se coupe sur
+       téléphone comme sur bureau, là où la hauteur libre le laissait
+       courir. C'est le prix du quadrillage. */
     .events, .group-cards, .day-body {
-      grid-auto-rows: auto;
       gap: 10px;
     }
     .event {
-      display: flex;
-      flex-direction: column;
-      /* Comme sur bureau, l'espacement vient des marges des elements et
-         non d'une gouttiere uniforme, pour que le rythme soit le meme. */
-      gap: 0;
-      height: auto;
-      min-height: 0;
       padding: 12px 16px 11px;
-    }
-    .event-head {
-      height: auto;
     }
     .event-venue {
       font-size: 11px;
       letter-spacing: 0.12em;
-    }
-    /* En mobile la carte est une pile flex verticale, où align-self joue sur
-       l'axe HORIZONTAL : le centrage prévu pour la grille y rétrécirait la
-       liste à la largeur de son texte. */
-    .event-list {
-      align-self: stretch;
     }
     /* Le bouton de repli n'a plus de rangée fixe à respecter : il redevient
        un simple bandeau, au lieu d'une case fantôme de 160 px. */
@@ -1538,21 +1534,10 @@
       min-height: 44px;
       padding: 10px;
     }
-    .event-title {
-      /* Aligné sur le corps de bureau. Laissé à 17 px, le titre serait
-         devenu plus PETIT sur mobile que sur grand écran — l'inverse du
-         rapport d'origine, où le mobile était d'un demi-point au-dessus.
-         Ici la carte est en hauteur libre, le corps ne contraint rien. */
-      font-size: 22px;
-      line-height: 1.08;
-      max-height: none;
-      align-self: stretch;
-    }
+    /* Le titre garde le corps du bureau : la carte a la même hauteur, il
+       n'y a plus de raison de le régler séparément. */
     .event-title.placeholder {
       font-size: 10px;
-    }
-    .event-foot {
-      align-self: stretch;
     }
   }
 </style>
