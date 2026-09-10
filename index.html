@@ -22,12 +22,11 @@
     --accent:       #e7dfbe;        /* cream accent (same as ink) */
     --accent-glow:  rgba(231, 223, 190, 0.12);
     --warm:         #d4a574;        /* warm tan for badges/highlights */
-    /* Corail adouci pour le badge de durée : l'ancien #ff6b4a, très saturé,
-       criait plus fort que le titre de l'événement qu'il annote. Chroma
-       divisée par deux, teinte conservée. --hot-line sert au filet, encore
-       un cran en retrait pour que le contour n'appuie pas le texte. */
-    --hot:          #e08d70;        /* coral adouci — durée / multi-jours */
-    --hot-line:     rgba(224, 141, 112, 0.42);
+    /* Corail adouci : il ne sert plus au badge de durée, passé en crème
+       filaire comme l'étiquette d'arrondissement, mais reste la couleur
+       d'INTERFACE du site — filtre coché, cadre d'un groupe déplié. Son
+       filet compagnon --hot-line est parti avec le badge. */
+    --hot:          #e08d70;        /* coral adouci — signaux d'interface */
     /* Angles très légèrement adoucis — validé sur maquette (3 px). */
     --radius:       3px;
     /* Teintes des motifs de secours, une par motif. Le vert et le rose
@@ -937,11 +936,18 @@
     text-overflow: ellipsis;
     white-space: nowrap;
   }
-  /* micro-étiquette encadrée, posée sur l'affiche */
+  /* Micro-étiquette FILAIRE, posée sur l'affiche : cadre seul, aucun fond.
+     Le fond translucide qu'elle portait faisait une pastille sombre au
+     milieu de l'image ; l'ombre portée de la ligne suffit à la détacher.
+     Corps porté de 8,5 à 9,5 px : sous 9 px, des capitales monospace
+     interlettrées passent sous le seuil de confort de lecture, et cette
+     étiquette est le plus petit texte de la carte.
+     Elle se cale d'elle-même contre le bord droit : .event-venue est en
+     flex:1 et occupe donc tout l'espace libre à sa gauche. */
   .event-arr {
     font-family: 'JetBrains Mono', monospace;
-    font-size: 8.5px;
-    color: var(--ink-soft);
+    font-size: 9.5px;
+    color: var(--ink);
     letter-spacing: 0.12em;
     text-transform: uppercase;
     font-weight: 400;
@@ -950,13 +956,19 @@
     border: 1px solid rgba(231, 223, 190, 0.32);
     border-radius: 2px;
     padding: 1px 5px;
-    background: rgba(22, 31, 37, 0.45);
   }
+  /* Crème et sans graisse, comme l'étiquette d'arrondissement : l'heure
+     tombe désormais au même pixel sur toutes les cartes et n'a plus
+     besoin d'une couleur pour se faire trouver — la position suffit. Le
+     tan gras d'avant en faisait le point le plus vif du pied, alors que
+     ce qui doit gagner là est le nom de la catégorie, en teinte.
+     tabular-nums garde les chiffres sur la même largeur, sans quoi la
+     colonne d'heures se déformerait de carte en carte. */
   .event-time {
     font-family: 'JetBrains Mono', monospace;
     font-size: 11px;
-    color: var(--warm);
-    font-weight: 700;
+    color: var(--ink);
+    font-weight: 400;
     white-space: nowrap;
     letter-spacing: 0.04em;
     font-variant-numeric: tabular-nums;
@@ -1094,13 +1106,18 @@
     font-family: 'JetBrains Mono', monospace;
     white-space: nowrap;
   }
+  /* « jusqu'au 18/10 » et « dernier » prennent exactement l'habit de
+     l'étiquette d'arrondissement : même corps, même crème, même filet,
+     aucune graisse. Ce sont deux annotations de même nature — un cadre
+     où le lieu et le calendrier se situent — et le corail les faisait
+     crier plus fort que le titre qu'elles annotent. */
   .event-run {
-    font-size: 9px;
-    color: var(--hot);
+    font-size: 9.5px;
+    color: var(--ink);
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    border-color: var(--hot-line);
-    font-weight: 500;
+    border-color: rgba(231, 223, 190, 0.32);
+    font-weight: 400;
   }
   .event-foot-right {
     display: inline-flex;
@@ -1173,10 +1190,14 @@
     min-width: 0;
   }
   .event-line .t.more { color: var(--ink-mute); }
+  /* Colonne des heures d'une carte groupée : en teinte de catégorie, et
+     non en corail. Elle est le seul élément coloré à l'intérieur du bloc
+     de titres — c'est ce qui fait tenir la grappe comme un ensemble
+     plutôt que comme quatre lignes empilées. */
   .event-line .h {
     font-family: 'JetBrains Mono', monospace;
     font-size: 10.5px;
-    color: var(--hot);
+    color: var(--t, var(--hot));
     font-variant-numeric: tabular-nums;
     letter-spacing: 0.02em;
     line-height: inherit;
