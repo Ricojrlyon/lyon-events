@@ -801,7 +801,7 @@
   .visual-bg .scrim {
     position: absolute; inset: 0;
     background: linear-gradient(to bottom,
-        rgba(22,31,37,.50) 0%, rgba(22,31,37,.90) 40%, rgba(22,31,37,1) 92%);
+        rgba(22,31,37,.28) 0%, rgba(22,31,37,.90) 40%, rgba(22,31,37,1) 92%);
   }
   /* ---------- logo de salle sur les cartes groupées ----------
      Une carte groupée n'a pas d'affiche : elle représente plusieurs
@@ -3333,9 +3333,16 @@ function groupCard(venue, evs, key) {
 /* seedOverride : passé uniquement pour les cartes d'un groupe déplié, qui
    héritent alors du motif du lieu au lieu de tirer le leur. */
 function eventCard(e, seedOverride) {
+  /* Le tiret de l'heure inconnue ne se dessine PAS quand la carte porte
+     déjà un badge d'échéance : il n'apprend rien à côté de « jusqu'au
+     18/10 », et il coûte vingt pixels au pied — pris à la catégorie, qui
+     est le seul élément du pied à se tronquer. C'est le cas serré du
+     site : une exposition d'agrégateur cumule la source, l'échéance et
+     l'heure, et « Art graphique » s'y réduisait à cinq lettres. */
+  const dureeConnue = !!(e._totalDays && e._totalDays > 1);
   const time = e.time
     ? '<span class="event-time">' + escapeHtml(e.time) + '</span>'
-    : '<span class="event-time empty">—</span>';
+    : (dureeConnue ? '' : '<span class="event-time empty">—</span>');
 
   // Title fallback: drop discreet placeholder if missing.
   const hasTitle = !!(e.title && e.title.trim());
@@ -3352,7 +3359,7 @@ function eventCard(e, seedOverride) {
      rien d'utile à qui lit la carte, « jusqu'au 30/10 » dit s'il reste du
      temps. Le dernier jour est nommé, c'est la seule information qui
      presse. */
-  if (e._totalDays && e._totalDays > 1) {
+  if (dureeConnue) {
     if (e._isLast) {
       runBadge = '<span class="event-run">dernier</span>';
     } else {
