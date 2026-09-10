@@ -1032,7 +1032,13 @@
   .event-foot {
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    /* Ligne de base commune, et non centrage des boîtes : le pied mêle
+       quatre corps de texte, et centrer leurs boîtes posait leurs bases
+       à des profondeurs différentes — l'heure tombait 1,5 px sous la
+       catégorie. La hauteur de rangée est tenue par min-height, pour
+       qu'elle ne dépende plus des étiquettes présentes. */
+    align-items: baseline;
+    min-height: 18px;
     gap: 8px;
     /* Indispensable pour que l'ellipse de .event-cat se déclenche : en tant
        qu'élément de grille, ce pied a un min-width:auto qui l'empêche de
@@ -1093,20 +1099,24 @@
     color: var(--ink-mute);
   }
   .event-cat:empty::before, .event-cat:empty::after { display: none; }
-  /* Boîte commune aux deux étiquettes du pied. Sans elle, leurs réglages
-     divergents donnaient deux cadres de hauteurs différentes : la durée en
-     9 px avec une bordure faisait 19,5 px, la source en 8 px sans bordure
-     13,5. Hauteur fixe et centrage en flex rendent le cadre indépendant du
-     corps de texte ; le filet transparent hérité par la source compense la
-     bordure de la durée, pour que les deux boîtes extérieures coïncident.
+  /* Boîte commune aux deux étiquettes du pied.
+     `inline-block` et non `inline-flex` : la base d'une boîte en ligne est
+     celle de son texte, si bien que l'align-items:baseline du pied aligne
+     les quatre éléments sur une seule ligne de base. Un inline-flex de
+     hauteur fixe, comme ici avant, définit sa base depuis son propre
+     centrage interne — elle ne dépendait donc plus de la rangée, et les
+     quatre corps de texte du pied (8, 9, 9,5 et 11 px) posaient leurs
+     bases sur 1,8 px d'écart : c'était le décalage visible en bas de
+     carte. L'interligne commun de 13 px et le padding symétrique donnent
+     aux deux étiquettes la même hauteur de cadre, ce que la hauteur fixe
+     garantissait avant.
      Cette règle doit précéder les deux suivantes, qui la surchargent. */
   .event-run,
   .event-source {
-    display: inline-flex;
-    align-items: center;
+    display: inline-block;
     box-sizing: border-box;
-    height: 18px;
-    padding: 0 8px;
+    padding: 1px 6px;
+    line-height: 13px;
     border: 1px solid transparent;
     border-radius: var(--radius);
     font-family: 'JetBrains Mono', monospace;
@@ -1127,24 +1137,29 @@
   }
   .event-foot-right {
     display: inline-flex;
-    align-items: center;
+    /* Même ligne de base que le pied qui le contient, sans quoi ce
+       conteneur intermédiaire recentrerait ses trois enfants entre eux. */
+    align-items: baseline;
     gap: 6px;
     /* Jamais comprimé par une catégorie longue : c'est elle qui se tronque. */
     flex-shrink: 0;
   }
+  /* La provenance prend la teinte de la carte, sans cadre ni fond : le
+     vert olive et le brun qu'elle portait étaient les deux seules
+     couleurs de la carte à ne rien devoir à sa catégorie, et ils
+     tiraient l'œil vers l'agrégateur plutôt que vers l'événement.
+     Le pied se lit donc maintenant en trois registres : la teinte pour ce
+     qui décrit l'événement — sa catégorie, sa source —, le crème encadré
+     pour ce qui le situe — arrondissement, échéance —, le crème nu pour
+     l'heure. Le nom de la source reste écrit en clair : la couleur ne
+     distingue plus les deux agrégateurs, le mot s'en charge. */
   .event-source {
     font-size: 8px;
     text-transform: lowercase;
     letter-spacing: 0.08em;
     font-weight: 400;
-  }
-  .event-source.pb {
-    color: #5a7042;
-    background: rgba(90, 112, 66, 0.10);
-  }
-  .event-source.vm {
-    color: #8a5530;
-    background: rgba(138, 85, 48, 0.10);
+    color: var(--ink-soft);
+    color: var(--t, var(--ink-soft));
   }
 
   /* ---------- carte groupée : plusieurs événements, même lieu, même jour ----------
